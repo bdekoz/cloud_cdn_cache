@@ -1,0 +1,461 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "North China - Beijing Region",
+                "provider": "Baidu AI Cloud",
+                "region": "cn-bj",
+                "availability_zones": ["Zone A", "Zone B", "Zone C"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [116.4074, 39.9042]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "South China - Guangzhou Region",
+                "provider": "Baidu AI Cloud",
+                "region": "cn-gz",
+                "availability_zones": ["Zone A", "Zone B"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.2644, 23.1291]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "East China - Suzhou Region",
+                "provider": "Baidu AI Cloud",
+                "region": "cn-suz",
+                "availability_zones": ["Zone A", "Zone B"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [120.5853, 31.2990]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Central China - Wuhan Region",
+                "provider": "Baidu AI Cloud",
+                "region": "cn-wh",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.3054, 30.5928]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "West China - Xi'an Region",
+                "provider": "Baidu AI Cloud",
+                "region": "cn-xa",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [108.9402, 34.3416]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hong Kong Region",
+                "provider": "Baidu AI Cloud",
+                "region": "cn-hk",
+                "availability_zones": ["Zone A", "Zone B"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.1694, 22.3193]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Singapore Region",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-singapore",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [103.8198, 1.3521]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Virginia Region (US East)",
+                "provider": "Baidu AI Cloud",
+                "region": "us-va",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.4663, 38.9818]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "California Region (US West)",
+                "provider": "Baidu AI Cloud",
+                "region": "us-ca",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-121.8863, 37.3382]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Frankfurt Region (EU)",
+                "provider": "Baidu AI Cloud",
+                "region": "eu-frankfurt",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.6821, 50.1109]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mumbai Region (India)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-mumbai",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [72.8777, 19.0760]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tokyo Region (Japan)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-tokyo",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.6917, 35.6895]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seoul Region (Korea)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-seoul",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [126.9780, 37.5665]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bangkok Region (Thailand)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-bangkok",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [100.5018, 13.7563]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jakarta Region (Indonesia)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-jakarta",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [106.8456, -6.2088]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kuala Lumpur Region (Malaysia)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-kualalumpur",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.6869, 3.1390]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Manila Region (Philippines)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-manila",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [120.9842, 14.5995]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ho Chi Minh City Region (Vietnam)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-hochiminh",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [106.6297, 10.8231]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sydney Region (Australia)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-sydney",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [151.2093, -33.8688]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Melbourne Region (Australia)",
+                "provider": "Baidu AI Cloud",
+                "region": "ap-melbourne",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [144.9631, -37.8136]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "London Region (UK)",
+                "provider": "Baidu AI Cloud",
+                "region": "eu-london",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1276, 51.5074]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Paris Region (France)",
+                "provider": "Baidu AI Cloud",
+                "region": "eu-paris",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.3522, 48.8566]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stockholm Region (Sweden)",
+                "provider": "Baidu AI Cloud",
+                "region": "eu-stockholm",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [18.0686, 59.3293]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Milan Region (Italy)",
+                "provider": "Baidu AI Cloud",
+                "region": "eu-milan",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.1900, 45.4642]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "São Paulo Region (Brazil)",
+                "provider": "Baidu AI Cloud",
+                "region": "sa-saopaulo",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-46.6333, -23.5505]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mexico City Region (Mexico)",
+                "provider": "Baidu AI Cloud",
+                "region": "na-mexicocity",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-99.1332, 19.4326]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Toronto Region (Canada)",
+                "provider": "Baidu AI Cloud",
+                "region": "na-toronto",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-79.3832, 43.6532]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dubai Region (UAE)",
+                "provider": "Baidu AI Cloud",
+                "region": "me-dubai",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [55.2963, 25.2769]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Riyadh Region (Saudi Arabia)",
+                "provider": "Baidu AI Cloud",
+                "region": "me-riyadh",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [46.6753, 24.7136]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Istanbul Region (Turkey)",
+                "provider": "Baidu AI Cloud",
+                "region": "eu-istanbul",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [28.9784, 41.0082]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Moscow Region (Russia)",
+                "provider": "Baidu AI Cloud",
+                "region": "eu-moscow",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [37.6173, 55.7558]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Johannesburg Region (South Africa)",
+                "provider": "Baidu AI Cloud",
+                "region": "af-johannesburg",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [28.0473, -26.2041]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cairo Region (Egypt)",
+                "provider": "Baidu AI Cloud",
+                "region": "af-cairo",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [31.2357, 30.0444]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lagos Region (Nigeria)",
+                "provider": "Baidu AI Cloud",
+                "region": "af-lagos",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [3.3792, 6.5244]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nairobi Region (Kenya)",
+                "provider": "Baidu AI Cloud",
+                "region": "af-nairobi",
+                "availability_zones": ["Zone A"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [36.8219, -1.2921]
+            }
+        }
+    ]
+}
+

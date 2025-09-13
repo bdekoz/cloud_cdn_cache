@@ -1,0 +1,787 @@
+{
+  "sample_date": "2025-09-11",
+  "origin": "https://www.tencentcloud.com/document/product/213/6091",
+  "type": "FeatureCollection",
+  "name": "Tencent Cloud Global Infrastructure",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-guangzhou",
+        "region_name": "South China (Guangzhou)",
+        "zone_name": "Guangzhou Zone 1",
+        "city": "Guangzhou",
+        "country": "China",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2644,
+          23.1291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-guangzhou",
+        "region_name": "South China (Guangzhou)",
+        "zone_name": "Guangzhou Zone 2",
+        "city": "Guangzhou",
+        "country": "China",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2644,
+          23.1291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-guangzhou",
+        "region_name": "South China (Guangzhou)",
+        "zone_name": "Guangzhou Zone 3",
+        "city": "Guangzhou",
+        "country": "China",
+        "availability_zone": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2644,
+          23.1291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-shanghai",
+        "region_name": "East China (Shanghai)",
+        "zone_name": "Shanghai Zone 1",
+        "city": "Shanghai",
+        "country": "China",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4737,
+          31.2304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-shanghai",
+        "region_name": "East China (Shanghai)",
+        "zone_name": "Shanghai Zone 2",
+        "city": "Shanghai",
+        "country": "China",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4737,
+          31.2304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-shanghai",
+        "region_name": "East China (Shanghai)",
+        "zone_name": "Shanghai Zone 3",
+        "city": "Shanghai",
+        "country": "China",
+        "availability_zone": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4737,
+          31.2304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-shanghai",
+        "region_name": "East China (Shanghai)",
+        "zone_name": "Shanghai Zone 4",
+        "city": "Shanghai",
+        "country": "China",
+        "availability_zone": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4737,
+          31.2304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-shanghai",
+        "region_name": "East China (Shanghai)",
+        "zone_name": "Shanghai Zone 5",
+        "city": "Shanghai",
+        "country": "China",
+        "availability_zone": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4737,
+          31.2304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-beijing",
+        "region_name": "North China (Beijing)",
+        "zone_name": "Beijing Zone 1",
+        "city": "Beijing",
+        "country": "China",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-beijing",
+        "region_name": "North China (Beijing)",
+        "zone_name": "Beijing Zone 2",
+        "city": "Beijing",
+        "country": "China",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-beijing",
+        "region_name": "North China (Beijing)",
+        "zone_name": "Beijing Zone 3",
+        "city": "Beijing",
+        "country": "China",
+        "availability_zone": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-beijing",
+        "region_name": "North China (Beijing)",
+        "zone_name": "Beijing Zone 4",
+        "city": "Beijing",
+        "country": "China",
+        "availability_zone": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-beijing",
+        "region_name": "North China (Beijing)",
+        "zone_name": "Beijing Zone 5",
+        "city": "Beijing",
+        "country": "China",
+        "availability_zone": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-chengdu",
+        "region_name": "Southwest China (Chengdu)",
+        "zone_name": "Chengdu Zone 1",
+        "city": "Chengdu",
+        "country": "China",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0665,
+          30.5728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-chengdu",
+        "region_name": "Southwest China (Chengdu)",
+        "zone_name": "Chengdu Zone 2",
+        "city": "Chengdu",
+        "country": "China",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0665,
+          30.5728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-chongqing",
+        "region_name": "Southwest China (Chongqing)",
+        "zone_name": "Chongqing Zone 1",
+        "city": "Chongqing",
+        "country": "China",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5516,
+          29.5630
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-nanjing",
+        "region_name": "East China (Nanjing)",
+        "zone_name": "Nanjing Zone 1",
+        "city": "Nanjing",
+        "country": "China",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7969,
+          32.0603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-nanjing",
+        "region_name": "East China (Nanjing)",
+        "zone_name": "Nanjing Zone 2",
+        "city": "Nanjing",
+        "country": "China",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7969,
+          32.0603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-hongkong",
+        "region_name": "Hong Kong/Macao/Taiwan (Hong Kong)",
+        "zone_name": "Hong Kong Zone 1",
+        "city": "Hong Kong",
+        "country": "China",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1694,
+          22.3193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-hongkong",
+        "region_name": "Hong Kong/Macao/Taiwan (Hong Kong)",
+        "zone_name": "Hong Kong Zone 2",
+        "city": "Hong Kong",
+        "country": "China",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1694,
+          22.3193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-hongkong",
+        "region_name": "Hong Kong/Macao/Taiwan (Hong Kong)",
+        "zone_name": "Hong Kong Zone 3",
+        "city": "Hong Kong",
+        "country": "China",
+        "availability_zone": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1694,
+          22.3193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-tokyo",
+        "region_name": "Japan (Tokyo)",
+        "zone_name": "Tokyo Zone 1",
+        "city": "Tokyo",
+        "country": "Japan",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-tokyo",
+        "region_name": "Japan (Tokyo)",
+        "zone_name": "Tokyo Zone 2",
+        "city": "Tokyo",
+        "country": "Japan",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-seoul",
+        "region_name": "Korea (Seoul)",
+        "zone_name": "Seoul Zone 1",
+        "city": "Seoul",
+        "country": "South Korea",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9780,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-seoul",
+        "region_name": "Korea (Seoul)",
+        "zone_name": "Seoul Zone 2",
+        "city": "Seoul",
+        "country": "South Korea",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9780,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-singapore",
+        "region_name": "Southeast Asia (Singapore)",
+        "zone_name": "Singapore Zone 1",
+        "city": "Singapore",
+        "country": "Singapore",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-singapore",
+        "region_name": "Southeast Asia (Singapore)",
+        "zone_name": "Singapore Zone 2",
+        "city": "Singapore",
+        "country": "Singapore",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-singapore",
+        "region_name": "Southeast Asia (Singapore)",
+        "zone_name": "Singapore Zone 3",
+        "city": "Singapore",
+        "country": "Singapore",
+        "availability_zone": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-bangkok",
+        "region_name": "Southeast Asia (Bangkok)",
+        "zone_name": "Bangkok Zone 1",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5018,
+          13.7563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-bangkok",
+        "region_name": "Southeast Asia (Bangkok)",
+        "zone_name": "Bangkok Zone 2",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5018,
+          13.7563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-jakarta",
+        "region_name": "Southeast Asia (Jakarta)",
+        "zone_name": "Jakarta Zone 1",
+        "city": "Jakarta",
+        "country": "Indonesia",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8456,
+          -6.2088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-mumbai",
+        "region_name": "South Asia (Mumbai)",
+        "zone_name": "Mumbai Zone 1",
+        "city": "Mumbai",
+        "country": "India",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8777,
+          19.0760
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "ap-mumbai",
+        "region_name": "South Asia (Mumbai)",
+        "zone_name": "Mumbai Zone 2",
+        "city": "Mumbai",
+        "country": "India",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8777,
+          19.0760
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "na-siliconvalley",
+        "region_name": "US West (Silicon Valley)",
+        "zone_name": "Silicon Valley Zone 1",
+        "city": "Silicon Valley",
+        "country": "United States",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "na-siliconvalley",
+        "region_name": "US West (Silicon Valley)",
+        "zone_name": "Silicon Valley Zone 2",
+        "city": "Silicon Valley",
+        "country": "United States",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "na-ashburn",
+        "region_name": "US East (Virginia)",
+        "zone_name": "Virginia Zone 1",
+        "city": "Ashburn",
+        "country": "United States",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4835,
+          39.0067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "na-ashburn",
+        "region_name": "US East (Virginia)",
+        "zone_name": "Virginia Zone 2",
+        "city": "Ashburn",
+        "country": "United States",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4835,
+          39.0067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "sa-saopaulo",
+        "region_name": "South America (Sao Paulo)",
+        "zone_name": "Sao Paulo Zone 1",
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333,
+          -23.5505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "eu-frankfurt",
+        "region_name": "Europe (Frankfurt)",
+        "zone_name": "Frankfurt Zone 1",
+        "city": "Frankfurt",
+        "country": "Germany",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6821,
+          50.1109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "eu-frankfurt",
+        "region_name": "Europe (Frankfurt)",
+        "zone_name": "Frankfurt Zone 2",
+        "city": "Frankfurt",
+        "country": "Germany",
+        "availability_zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6821,
+          50.1109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "Tencent Cloud",
+        "region": "eu-moscow",
+        "region_name": "Europe (Moscow)",
+        "zone_name": "Moscow Zone 1",
+        "city": "Moscow",
+        "country": "Russia",
+        "availability_zone": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      }
+    }
+  ]
+}

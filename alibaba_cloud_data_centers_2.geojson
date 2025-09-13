@@ -1,0 +1,290 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China East 1 (Hangzhou)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Hangzhou)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.1551,
+                    30.2741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China East 2 (Shanghai)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Shanghai)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.4737,
+                    31.2304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China North 1 (Qingyuan)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Qingyuan)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.0560,
+                    23.6818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China North 2 (Beijing)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Beijing)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.4074,
+                    39.9042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China North 3 (Hohhot)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Hohhot)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.6629,
+                    40.8151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China South 1 (Shenzhen)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Shenzhen)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1694,
+                    22.3193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China Southwest 1 (Chengdu)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Chengdu)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.0668,
+                    30.5728
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hong Kong (Hong Kong)",
+                "provider": "Alibaba Cloud",
+                "region": "China (Hong Kong)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1694,
+                    22.3193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "US West 1 (Silicon Valley)",
+                "provider": "Alibaba Cloud",
+                "region": "United States (Silicon Valley)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.8863,
+                    37.3382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "US East 1 (Virginia)",
+                "provider": "Alibaba Cloud",
+                "region": "United States (Virginia)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4874,
+                    39.0438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Japan East 1 (Tokyo)",
+                "provider": "Alibaba Cloud",
+                "region": "Japan (Tokyo)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.6503,
+                    35.6762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Singapore (Singapore)",
+                "provider": "Alibaba Cloud",
+                "region": "Singapore"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8198,
+                    1.3521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Australia East 1 (Sydney)",
+                "provider": "Alibaba Cloud",
+                "region": "Australia (Sydney)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.2093,
+                    -33.8688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Malaysia West 1 (Kuala Lumpur)",
+                "provider": "Alibaba Cloud",
+                "region": "Malaysia (Kuala Lumpur)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.6869,
+                    3.1390
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Indonesia South 1 (Jakarta)",
+                "provider": "Alibaba Cloud",
+                "region": "Indonesia (Jakarta)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8456,
+                    -6.2088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "India West 1 (Mumbai)",
+                "provider": "Alibaba Cloud",
+                "region": "India (Mumbai)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.8777,
+                    19.0760
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Germany Central 1 (Frankfurt)",
+                "provider": "Alibaba Cloud",
+                "region": "Germany (Frankfurt)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6821,
+                    50.1109
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "UK South 1 (London)",
+                "provider": "Alibaba Cloud",
+                "region": "United Kingdom (London)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1278,
+                    51.5074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "UAE North 1 (Dubai)",
+                "provider": "Alibaba Cloud",
+                "region": "United Arab Emirates (Dubai)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.2962,
+                    25.2769
+                ]
+            }
+        }
+    ]
+}
