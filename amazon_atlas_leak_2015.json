@@ -1,0 +1,800 @@
+[
+  {
+    "dc_name": "IAD1 (VDC)",
+    "location": "4101A Westfax Dr, Chantilly, VA 20151, USA",
+    "latitude": 38.8941,
+    "longitude": -77.4548,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD2 (Equinix DC2)",
+    "location": "21715 Filiqree Court, Ashburn, VA 20147, USA",
+    "latitude": 39.0438,
+    "longitude": -77.4874,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD4 (Equinix DC7)",
+    "location": "7990 Science Applications Court, Vienna, VA 22183, USA",
+    "latitude": 38.9296,
+    "longitude": -77.2478,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD5 (Verizon/MCI)",
+    "location": "21830 UUNET Way, Ashburn, VA 20147, USA",
+    "latitude": 39.0467,
+    "longitude": -77.4906,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD6 (Loudoun Exchange)",
+    "location": "43831 Devin Shafron Dr, Ashburn, VA 20147, USA",
+    "latitude": 39.0314,
+    "longitude": -77.4903,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD7",
+    "location": "7505 Mason King Ct, Manassas, VA 20109, USA",
+    "latitude": 38.7986,
+    "longitude": -77.5358,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD8",
+    "location": "13461 Sunrise Valley Drive, Herndon, VA 20171, USA",
+    "latitude": 38.9556,
+    "longitude": -77.3942,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD9",
+    "location": "4100 Westfax Dr, Chantilly, VA 20151, USA",
+    "latitude": 38.8943,
+    "longitude": -77.4552,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD10",
+    "location": "45360 West Severn Way, Sterling, VA 20166, USA",
+    "latitude": 39.0325,
+    "longitude": -77.4086,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD11",
+    "location": "7510 Mason King Ct, Manassas, VA 20109, USA",
+    "latitude": 38.7982,
+    "longitude": -77.5362,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD12",
+    "location": "22630 Dulles Summit Court, Sterling, VA 20166, USA",
+    "latitude": 39.0267,
+    "longitude": -77.4247,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD13",
+    "location": "43790 Devin Shafron Drive, Ashburn, VA 20147, USA",
+    "latitude": 39.0318,
+    "longitude": -77.4908,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD14",
+    "location": "11801 Brewers Spring Road, Manassas, VA 20109, USA",
+    "latitude": 38.7992,
+    "longitude": -77.5347,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD15",
+    "location": "22631 Dulles Summit Court, Sterling, VA 20166, USA",
+    "latitude": 39.0268,
+    "longitude": -77.4248,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD16",
+    "location": "22651 Dulles Summit Ct, Sterling, VA 20166, USA",
+    "latitude": 39.0269,
+    "longitude": -77.4249,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD21",
+    "location": "12900 Worldgate Drive, Herndon, VA 20170, USA",
+    "latitude": 38.9547,
+    "longitude": -77.3878,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD22",
+    "location": "4155 Westfax Dr, Chantilly, VA 20151, USA",
+    "latitude": 38.8940,
+    "longitude": -77.4550,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD23",
+    "location": "43830 Devin Shafron Dr, Ashburn, VA 20147, USA",
+    "latitude": 39.0319,
+    "longitude": -77.4909,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD24",
+    "location": "7610 Mason King Ct, Manassas, VA 20109, USA",
+    "latitude": 38.7984,
+    "longitude": -77.5360,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD32",
+    "location": "1304 Squire Ct, Sterling, VA 20166, USA",
+    "latitude": 39.0086,
+    "longitude": -77.3953,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD50",
+    "location": "21271 Smith Switch Rd, Ashburn, VA 20147, USA",
+    "latitude": 39.0511,
+    "longitude": -77.5022,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD51 - Prologis building #9",
+    "location": "45220 Prologis Plaza, Sterling, VA 20166, USA",
+    "latitude": 39.0322,
+    "longitude": -77.4082,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD52",
+    "location": "11800 Brewers Spring Rd, Manassas, VA 20109, USA",
+    "latitude": 38.7990,
+    "longitude": -77.5345,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD53 (CoreSite)",
+    "location": "12100 Sunrise Valley Dr, Reston, VA 20191, USA",
+    "latitude": 38.9525,
+    "longitude": -77.3612,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD54",
+    "location": "43791 Devin Shafron Dr, Ashburn, VA 20147, USA",
+    "latitude": 39.0317,
+    "longitude": -77.4907,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD55",
+    "location": "15395 John Marshall Hwy, Haymarket, VA 20169, USA",
+    "latitude": 38.8125,
+    "longitude": -77.6364,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD56",
+    "location": "45210 Prologis Plaza, Sterling, VA 20166, USA",
+    "latitude": 39.0323,
+    "longitude": -77.4083,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD57 - Prologis building 10",
+    "location": "22755 Relocation Drive, Sterling, VA 20166, USA",
+    "latitude": 39.0320,
+    "longitude": -77.4080,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD58",
+    "location": "22745 Relocation Drive, Sterling, VA 20166, USA",
+    "latitude": 39.0321,
+    "longitude": -77.4081,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD59",
+    "location": "7600 Doane Drive, Manassas, VA 20109, USA",
+    "latitude": 38.7988,
+    "longitude": -77.5350,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD60",
+    "location": "21267 Smith Switch Rd, Ashburn, VA 20147, USA",
+    "latitude": 39.0510,
+    "longitude": -77.5021,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD66 (Equinix DC11)",
+    "location": "21721 Filiqree Court, Ashburn, VA 20147, USA",
+    "latitude": 39.0439,
+    "longitude": -77.4875,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD67",
+    "location": "43940 Digital Loudoun Plaza, Ashburn, VA 20147, USA",
+    "latitude": 39.0315,
+    "longitude": -77.4905,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD69 (cyrusone)",
+    "location": "21111 Ridgetop Circle, Sterling, VA 20166, USA",
+    "latitude": 39.0265,
+    "longitude": -77.4245,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD71",
+    "location": "21263 Smith Switch Rd, Ashburn, VA 20147, USA",
+    "latitude": 39.0509,
+    "longitude": -77.5020,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD73",
+    "location": "7060 Wellington Rd, Manassas, VA 20109, USA",
+    "latitude": 38.7980,
+    "longitude": -77.5355,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD74",
+    "location": "7080 Wellington Rd, Manassas, VA 20109, USA",
+    "latitude": 38.7981,
+    "longitude": -77.5356,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "IAD77",
+    "location": "9156 Hornbaker Rd, Manassas, VA 20109, USA",
+    "latitude": 38.7978,
+    "longitude": -77.5352,
+    "region_name": "US-EAST-1"
+  },
+  {
+    "dc_name": "SEA3 (SAS)",
+    "location": "1100 Second Avenue, Seattle, WA 98101, USA",
+    "latitude": 47.6062,
+    "longitude": -122.3371,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SEA4 (Westin Building)",
+    "location": "2001 6th Avenue, Seattle, WA, USA",
+    "latitude": 47.6145,
+    "longitude": -122.3351,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SEA14 (Tukwila)",
+    "location": "12301 Tukwila International Blvd, Tukwila, WA 98168, USA",
+    "latitude": 47.4647,
+    "longitude": -122.2889,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SEA15 (Tukwila)",
+    "location": "3355 S 120th Pl, Tukwila, WA 98168, USA",
+    "latitude": 47.4625,
+    "longitude": -122.2901,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SEA19 (Fisher Plaza)",
+    "location": "100 4th Ave N, Seattle, WA 98109, USA",
+    "latitude": 47.6210,
+    "longitude": -122.3482,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SEA31 (Metriver)",
+    "location": "4200 194th St SW, Lynnwood, WA 98036, USA",
+    "latitude": 47.8235,
+    "longitude": -122.2958,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SEA32 (Seattle - Sodo)",
+    "location": "1531 Utah Ave S, Seattle, WA 98134, USA",
+    "latitude": 47.5796,
+    "longitude": -122.3342,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SEA72 Colo: Digital Fortress",
+    "location": "3101 Western Ave, Seattle, WA 98121, USA",
+    "latitude": 47.6139,
+    "longitude": -122.3452,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF04 (Equinix SV8)",
+    "location": "529 Bryant St, Palo Alto, CA 94301, USA",
+    "latitude": 37.4447,
+    "longitude": -122.1607,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF05 & 5B (Equinix SV1 & SV5)",
+    "location": "11 Great Oaks Blvd, San Jose, CA 95123, USA",
+    "latitude": 37.2465,
+    "longitude": -121.8324,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF06 (VZ Terremark SJC3)",
+    "location": "3000 Corvin Drive, Santa Clara, CA 95051, USA",
+    "latitude": 37.3782,
+    "longitude": -121.9664,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF07 (Equinix SV2)",
+    "location": "1350 Duane Ave, Santa Clara, CA 95054, USA",
+    "latitude": 37.3904,
+    "longitude": -121.9643,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF08 (DLR)",
+    "location": "200 Paul Ave, San Francisco, CA, USA",
+    "latitude": 37.7282,
+    "longitude": -122.3844,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF09 (A100 US, LLC)",
+    "location": "26464 Corporate Ave, Hayward, CA 94545, USA",
+    "latitude": 37.6391,
+    "longitude": -122.0903,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF020 (Coresite)",
+    "location": "2972 Stender Way, Santa Clara, CA 95051, USA",
+    "latitude": 37.3785,
+    "longitude": -121.9678,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "SF021 (Coresite)",
+    "location": "2950 Stender Way, Santa Clara, CA 95054, USA",
+    "latitude": 37.3788,
+    "longitude": -121.9681,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "PDX1",
+    "location": "73575 Lewis and Clark Drive, Boardman, OR 97818, USA",
+    "latitude": 45.8692,
+    "longitude": -119.6894,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "PDX2",
+    "location": "2400 Beach Access Road, Umatilla, OR 97882, USA",
+    "latitude": 45.9056,
+    "longitude": -119.3425,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "PDX4",
+    "location": "79539 Rippee Road, Boardman, OR 97818, USA",
+    "latitude": 45.8715,
+    "longitude": -119.6912,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "PDX50",
+    "location": "73577 Lewis and Clark Drive, Boardman, OR 97818, USA",
+    "latitude": 45.8693,
+    "longitude": -119.6895,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "PDX51",
+    "location": "3200 Beach Access Road, Umatilla, OR 97882, USA",
+    "latitude": 45.9058,
+    "longitude": -119.3427,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "PDX52",
+    "location": "79536 Rippee Road, Boardman, OR 97818, USA",
+    "latitude": 45.8716,
+    "longitude": -119.6913,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "PDX79 (Warehouse)",
+    "location": "73075 Lewis & Clark Drive, Boardman, OR 97818, USA",
+    "latitude": 45.8690,
+    "longitude": -119.6892,
+    "region_name": "US-WEST-1"
+  },
+  {
+    "dc_name": "DUB2",
+    "location": "4033 Citywest Avenue, Dublin 24, Ireland",
+    "latitude": 53.2864,
+    "longitude": -6.4444,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "DUB3",
+    "location": "Blanchardstown Corporate Park, Dublin 15, Ireland",
+    "latitude": 53.4008,
+    "longitude": -6.3775,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "DUB4/7",
+    "location": "International Exchange Centre, Clonshaugh Industrial Estate, Dublin 17, Ireland",
+    "latitude": 53.4011,
+    "longitude": -6.2195,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "DUB8",
+    "location": "Hexagon building, Blanchardstown Bus & Tech, Snugborough Road, Dublin 15, Ireland",
+    "latitude": 53.4036,
+    "longitude": -6.3622,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "DUB9",
+    "location": "30A Greenhills road, Tallaght, Dublin 24, Ireland",
+    "latitude": 53.294564,
+    "longitude": -6.35011,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "DUB10/50/51",
+    "location": "Unit AF1, Clonshaugh Industrial Estate, Dublin 17, Ireland",
+    "latitude": 53.400222,
+    "longitude": -6.219484,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "DUBS3",
+    "location": "Unit D, Hibernian Insurance Industrial Estate, Greenhills Road, Tallaght, Dublin 24, Ireland",
+    "latitude": 53.296414,
+    "longitude": -6.351279,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "LUX2",
+    "location": "Chateau de Betzdorf, L-6915, Luxembourg",
+    "latitude": 49.6875,
+    "longitude": 6.3486,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "LUX8",
+    "location": "210 Rue de Noertzange, L-3670 Kayl, Luxembourg",
+    "latitude": 49.4892,
+    "longitude": 6.0428,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "LUX9",
+    "location": "120 Impasse Drosbach, L-1882 Luxembourg",
+    "latitude": 49.5928,
+    "longitude": 6.1681,
+    "region_name": "EU-WEST-1"
+  },
+  {
+    "dc_name": "FRA50",
+    "location": "Kleyerstrasse 88-90, Frankfurt am Main, 60326, Germany",
+    "latitude": 50.1109,
+    "longitude": 8.6821,
+    "region_name": "EU-CENTRAL-1"
+  },
+  {
+    "dc_name": "FRA52",
+    "location": "Weismullerstrasse 25, Frankfurt am Main, 60314, Germany",
+    "latitude": 50.1155,
+    "longitude": 8.6842,
+    "region_name": "EU-CENTRAL-1"
+  },
+  {
+    "dc_name": "FRA53",
+    "location": "Karl Landsteiner Ring 4, Russelsheim, 65428, Germany",
+    "latitude": 49.9935,
+    "longitude": 8.4458,
+    "region_name": "EU-CENTRAL-1"
+  },
+  {
+    "dc_name": "FRA54",
+    "location": "Eschborner Landstrasse 100, Frankfurt am Main, 60489, Germany",
+    "latitude": 50.1346,
+    "longitude": 8.6003,
+    "region_name": "EU-CENTRAL-1"
+  },
+  {
+    "dc_name": "BJS 9",
+    "location": "Tongzhou District, Beijing, China 101111",
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "BJS 10",
+    "location": "5th floor, Dexin Building, A10 North Jiuxiangiao Road, Chaoyang District, Beijing, China 100015",
+    "latitude": 39.9937,
+    "longitude": 116.4831,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "BJS 11",
+    "location": "Guanghuan Cloud Valley, Chuangyigu Rd, Yanshun Rd, Yanjiao, Langfang, Hebei, 065201, China",
+    "latitude": 39.9454,
+    "longitude": 116.8038,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "BJS 12",
+    "location": "No.2 Xinghai st. 1, South District, Beijing Economic-Technological Development Area, Beijing, China 100176",
+    "latitude": 39.7956,
+    "longitude": 116.5039,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "BJS20",
+    "location": "1 Lou Zhuang Road, Langfang, Hebei province, China",
+    "latitude": 39.5191,
+    "longitude": 116.7069,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "ZHY53/BJS21",
+    "location": "No.2, East Central Avenue, Shapotou District, Zhongwei, Ningxia, China",
+    "latitude": 37.5146,
+    "longitude": 105.1969,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "PEK4 (NetInfinity)",
+    "location": "Level P3, Tower E1, The Towers, Oriental Plaza, No1 East Chang'An Ave, Dong Cheng District, Beijing, 100738 China",
+    "latitude": 39.9086,
+    "longitude": 116.4139,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "PEK7",
+    "location": "6th Floor, Dexin Building, A10 JiuxianQiao North Road, Chaoyang District, Beijing, 100015, China",
+    "latitude": 39.9937,
+    "longitude": 116.4831,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "PEK50",
+    "location": "Guanghuan Cloud Valley, Chuangyigu Rd, Yanshun Rd, Yanjiao, Langfang, Hebei, 065201, China",
+    "latitude": 39.9454,
+    "longitude": 116.8038,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT4 Equinix TY2",
+    "location": "3-8-21 Higashi Shinagawa, Shinagawa-ku, Tokyo, Japan 104-002",
+    "latitude": 35.6131,
+    "longitude": 139.7492,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT7 Hitachi/Verizon",
+    "location": "1-2-10 Isogo, Isogo-ku, Yokohama, Kanagawa-ken, Japan 235-0016",
+    "latitude": 35.4333,
+    "longitude": 139.6333,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT8 SCSK",
+    "location": "2-6-1 Otsuka, Inzai City, Chiba, Japan 270-1352",
+    "latitude": 35.8278,
+    "longitude": 140.1458,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT11 KVH",
+    "location": "2-3 Otsuka, Inzai City, Chiba, Japan 270-1352",
+    "latitude": 35.8281,
+    "longitude": 140.1461,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT12 KDDI",
+    "location": "3-2 Karakida, Tama, Tokyo, 206-0035, Japan",
+    "latitude": 35.6319,
+    "longitude": 139.4469,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT20 Amazon",
+    "location": "2-101-14 Izumino, Inzai, Chiba 270-1360, Japan",
+    "latitude": 35.8292,
+    "longitude": 140.1472,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT51 Equinix OS1",
+    "location": "Nishi-Shinsaibashi Bldg 8F, 1-26-1 Shin-machi, Nishi-ku, Osaka-city, Osaka, Japan 550-0013",
+    "latitude": 34.6757,
+    "longitude": 135.4956,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT52 KDDI Osaka",
+    "location": "Telehouse Osaka Chuo Data Center, 2-2-72 Shiromi, Chuo-ku, Osaka-city, Osaka, Japan 540-0001",
+    "latitude": 34.6913,
+    "longitude": 135.5175,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT53 Equinix TY3",
+    "location": "1-9-20 Edagawa, Koto-ku, Tokyo, Japan 135-0051",
+    "latitude": 35.6581,
+    "longitude": 139.8114,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "NRT55 Canon/Colt",
+    "location": "Canon IT Nishi Tokyo Data Center, 3-5-33 Mukodai-cho, Nishi Tokyo-city, Tokyo, Japan 188-0013",
+    "latitude": 35.7314,
+    "longitude": 139.5389,
+    "region_name": "AP-NORTHEAST-1"
+  },
+  {
+    "dc_name": "SIN2 (Equinix - SG2)",
+    "location": "15 Pioneer Walk, Singapore 627753",
+    "latitude": 1.3322,
+    "longitude": 103.6936,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SIN3 (Keppel Datahub - T25)",
+    "location": "25 Tampines Street 92, Singapore 528877",
+    "latitude": 1.3494,
+    "longitude": 103.9497,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SIN4 (Tata Communication - TCX)",
+    "location": "35 Tai Seng Street, Singapore 534103",
+    "latitude": 1.3389,
+    "longitude": 103.8889,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SIN5 (Global Switch)",
+    "location": "2 Tai Seng Avenue, 7th Floor, Singapore 534408",
+    "latitude": 1.3386,
+    "longitude": 103.8886,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SIN50 (Equinix - SG2)",
+    "location": "15 Pioneer Walk, Level 4, Singapore 627753",
+    "latitude": 1.3322,
+    "longitude": 103.6936,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SIN51 (Keppel Datahub - T27)",
+    "location": "27 Tampines Street 92, Singapore 528878",
+    "latitude": 1.3495,
+    "longitude": 103.9498,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD1 (Equinix SY3)",
+    "location": "47 Bourke Rd, Alexandria NSW 2015, Australia",
+    "latitude": -33.9106,
+    "longitude": 151.1897,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD4 (Global Switch Ultimo)",
+    "location": "400 Harris St, Ultimo NSW 2007, Australia",
+    "latitude": -33.8781,
+    "longitude": 151.1986,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD5 (Fujitsu WSDC)",
+    "location": "6 Bellevue Circuit, Pemulwuy NSW 2145, Australia",
+    "latitude": -33.8239,
+    "longitude": 150.9819,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD51",
+    "location": "1 William Dean Street, Eastern Creek NSW 2766, Australia",
+    "latitude": -33.7986,
+    "longitude": 150.8583,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD52",
+    "location": "42A Bluett Drive, Smeaton Grange NSW 2567, Australia",
+    "latitude": -34.0458,
+    "longitude": 150.7736,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD6 (Iseek-KDC GHDC)",
+    "location": "5 Broadcast Way, Artarmon NSW 2064, Australia",
+    "latitude": -33.8083,
+    "longitude": 151.1833,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD61 (NextDC S1)",
+    "location": "4 Eden Park Drive, Macquarie Park NSW 2113, Australia",
+    "latitude": -33.7758,
+    "longitude": 151.1189,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "SYD7 (Fujitsu SDC)",
+    "location": "4 Figtree Drive, Homebush NSW 2127, Australia",
+    "latitude": -33.8667,
+    "longitude": 151.0833,
+    "region_name": "AP-SOUTHEAST-1"
+  },
+  {
+    "dc_name": "GRU1 (Verizon Terremark NAPSAO)",
+    "location": "Avenida Ceci, 1900, Barueri, Sao Paulo, Brazil 06460-120",
+    "latitude": -23.5505,
+    "longitude": -46.6333,
+    "region_name": "SA-EAST-1"
+  },
+  {
+    "dc_name": "GRU2 (Algar CPS)",
+    "location": "Rua Guido Camargo Penteado Sobrinho, 3685, Campinas, Sao Paulo, Brazil 13082-800",
+    "latitude": -22.9068,
+    "longitude": -47.0608,
+    "region_name": "SA-EAST-1"
+  },
+  {
+    "dc_name": "GRU3 (TIVIT SP1)",
+    "location": "Rua Bento Branco de Andrade Filho, 621, Sao Paulo, Sao Paulo, Brazil 04757-000",
+    "latitude": -23.6821,
+    "longitude": -46.7008,
+    "region_name": "SA-EAST-1"
+  },
+  {
+    "dc_name": "GRU4 (Ascenty JD-1)",
+    "location": "Rua Presbitero Plinio Alves de Souza, 757, Jundiai, Sao Paulo, Brazil 13212-181",
+    "latitude": -23.1864,
+    "longitude": -46.8842,
+    "region_name": "SA-EAST-1"
+  },
+  {
+    "dc_name": "GRU50 (UOL DIVEO)",
+    "location": "Av Ceci - 1850, Barueri, Sao Paulo, Brazil 06460-120",
+    "latitude": -23.5512,
+    "longitude": -46.6338,
+    "region_name": "SA-EAST-1"
+  },
+  {
+    "dc_name": "GIG50 (TIVIT)",
+    "location": "Estrada dos Bandeirantes, 10916, Rio de Janeiro, Rio de Janeiro, Brazil 22783-111",
+    "latitude": -22.9068,
+    "longitude": -43.1729,
+    "region_name": "SA-EAST-1"
+  }
+]
