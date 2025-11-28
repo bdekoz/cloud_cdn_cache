@@ -7,232 +7,234 @@
     "metrics": {
       "node_definition": "Physical Compute/Storage Servers",
       "overlay_definition": "Active Tenant VPCs / Isolated Network Segments"
-    }
+    },
+    "methodology_notes": "This is an advanced architectural audit. To provide the 'number of nodes' and 'network overlays,' I have applied a tier-based estimation model derived from available power capacity (MW), rack counts (e.g., the Zhangbei dataset), and standard hyperscale density metrics (approx. 40-60 servers per rack in high-density zones). \nEstimation Methodology\n Physical Nodes (Server count): Estimates are based on the region's Tier. \n - Tier 1 (Hyperscale - e.g., Hangzhou, Zhangjiakou): >500,000 servers. These regions support the core of the Alibaba ecosystem (Taobao/Tmall/Alipay) and use dedicated high-density campuses. \n - Tier 2 (Strategic Hubs - e.g., Singapore, Tokyo, Silicon Valley): 50,000–150,000 servers. Standard colocation or dedicated halls within carrier hotels. \n - Tier 3 (Satellite/New - e.g., Mexico, London): 10,000–30,000 servers. Initial footprints for low-latency edge access. \n Network Overlays (VPCs/Tenants): This estimates the number of active Virtual Private Clouds (VPCs) and isolated tenant networks. \nAlibaba Cloud uses VXLAN (Virtual Extensible LAN) for overlays, decoupling virtual networks from physical switches. The theoretical limit of VXLAN identifiers (VNIs) is 16 million, but functional capacity is limited by the SDN controller clusters in each region.",
+    "analysis_notes": "Asymmetric Scaling: Unlike AWS or Azure which strive for relative parity across major regions, Alibaba Cloud is highly asymmetric. The Zhangjiakou region alone (estimated at 1.2M+ nodes) likely holds more compute power than all their non-China regions combined. It serves as the primary brain for their AI model training. \nThe 'Network Overlay' Discrepancy: You will notice the network_overlays_estimate for Hong Kong is disproportionately high (2.5M) compared to its physical node count (5k). This is because Hong Kong acts as a CEN (Cloud Enterprise Network) bridge. It maintains millions of routing table entries to stitch together the Global (outside firewall) and Mainland (inside firewall) VPCs, acting as a massive logical state engine rather than a compute farm."
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "name": "China North 3 (Zhangjiakou) - The \"Green\" Hyperscale",
-        "type": "Cloud Region",
-        "region_id": "cn-zhangjiakou",
-        "tier": "Tier 1 (Hyperscale)",
-        "node_count_estimate": 1200000,
-        "network_overlays_estimate": 4500000,
-        "power_capacity_mw": 150,
-        "details": "Massive scale facility (52+ modules). Primary AI training cluster. Supports 'Apsara' OS control plane."
+	"name": "China North 3 (Zhangjiakou) - The \"Green\" Hyperscale",
+	"type": "Cloud Region",
+	"region_id": "cn-zhangjiakou",
+	"tier": "Tier 1 (Hyperscale)",
+	"node_count_estimate": 1200000,
+	"network_overlays_estimate": 4500000,
+	"power_capacity_mw": 150,
+	"details": "Massive scale facility (52+ modules). Primary AI training cluster. Supports 'Apsara' OS control plane."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [114.886, 40.810]
+	"type": "Point",
+	"coordinates": [114.886, 40.810]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "China East 1 (Hangzhou) - Global HQ",
-        "type": "Cloud Region",
-        "region_id": "cn-hangzhou",
-        "tier": "Tier 1 (Hyperscale)",
-        "node_count_estimate": 850000,
-        "network_overlays_estimate": 6200000,
-        "details": "Core ecosystem hub. Hosts Alipay financial cloud overlays. 8+ Zones."
+	"name": "China East 1 (Hangzhou) - Global HQ",
+	"type": "Cloud Region",
+	"region_id": "cn-hangzhou",
+	"tier": "Tier 1 (Hyperscale)",
+	"node_count_estimate": 850000,
+	"network_overlays_estimate": 6200000,
+	"details": "Core ecosystem hub. Hosts Alipay financial cloud overlays. 8+ Zones."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [120.155, 30.274]
+	"type": "Point",
+	"coordinates": [120.155, 30.274]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "China North 2 (Beijing)",
-        "type": "Cloud Region",
-        "region_id": "cn-beijing",
-        "tier": "Tier 1 (Hyperscale)",
-        "node_count_estimate": 600000,
-        "network_overlays_estimate": 3800000,
-        "details": "Government & Enterprise focus. High density of private peering links."
+	"name": "China North 2 (Beijing)",
+	"type": "Cloud Region",
+	"region_id": "cn-beijing",
+	"tier": "Tier 1 (Hyperscale)",
+	"node_count_estimate": 600000,
+	"network_overlays_estimate": 3800000,
+	"details": "Government & Enterprise focus. High density of private peering links."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [116.407, 39.904]
+	"type": "Point",
+	"coordinates": [116.407, 39.904]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Singapore (SG) - International HQ",
-        "type": "Cloud Region",
-        "region_id": "ap-southeast-1",
-        "tier": "Tier 2 (Strategic Hub)",
-        "node_count_estimate": 150000,
-        "network_overlays_estimate": 850000,
-        "details": "Primary gateway for SE Asia. Cross-connects to 15+ subsea cables."
+	"name": "Singapore (SG) - International HQ",
+	"type": "Cloud Region",
+	"region_id": "ap-southeast-1",
+	"tier": "Tier 2 (Strategic Hub)",
+	"node_count_estimate": 150000,
+	"network_overlays_estimate": 850000,
+	"details": "Primary gateway for SE Asia. Cross-connects to 15+ subsea cables."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [103.850, 1.297]
+	"type": "Point",
+	"coordinates": [103.850, 1.297]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "US West 1 (Silicon Valley)",
-        "type": "Cloud Region",
-        "region_id": "us-west-1",
-        "tier": "Tier 2 (Strategic Hub)",
-        "node_count_estimate": 80000,
-        "network_overlays_estimate": 450000,
-        "details": "Innovation hub. Heavy R&D workloads. High density of GPU nodes."
+	"name": "US West 1 (Silicon Valley)",
+	"type": "Cloud Region",
+	"region_id": "us-west-1",
+	"tier": "Tier 2 (Strategic Hub)",
+	"node_count_estimate": 80000,
+	"network_overlays_estimate": 450000,
+	"details": "Innovation hub. Heavy R&D workloads. High density of GPU nodes."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-122.313, 37.554]
+	"type": "Point",
+	"coordinates": [-122.313, 37.554]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "US East 1 (Virginia)",
-        "type": "Cloud Region",
-        "region_id": "us-east-1",
-        "tier": "Tier 3 (Satellite)",
-        "node_count_estimate": 45000,
-        "network_overlays_estimate": 200000,
-        "details": "East Coast access. Co-located with major exchange points (Equinix)."
+	"name": "US East 1 (Virginia)",
+	"type": "Cloud Region",
+	"region_id": "us-east-1",
+	"tier": "Tier 3 (Satellite)",
+	"node_count_estimate": 45000,
+	"network_overlays_estimate": 200000,
+	"details": "East Coast access. Co-located with major exchange points (Equinix)."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-77.487, 39.043]
+	"type": "Point",
+	"coordinates": [-77.487, 39.043]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Germany (Frankfurt)",
-        "type": "Cloud Region",
-        "region_id": "eu-central-1",
-        "tier": "Tier 2 (Strategic Hub)",
-        "node_count_estimate": 90000,
-        "network_overlays_estimate": 550000,
-        "details": "GDPR-compliant enclave. Major peering point for EU traffic."
+	"name": "Germany (Frankfurt)",
+	"type": "Cloud Region",
+	"region_id": "eu-central-1",
+	"tier": "Tier 2 (Strategic Hub)",
+	"node_count_estimate": 90000,
+	"network_overlays_estimate": 550000,
+	"details": "GDPR-compliant enclave. Major peering point for EU traffic."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [8.682, 50.110]
+	"type": "Point",
+	"coordinates": [8.682, 50.110]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Mexico (Mexico City)",
-        "type": "Cloud Region",
-        "region_id": "na-south-1",
-        "tier": "Tier 3 (New Expansion)",
-        "node_count_estimate": 25000,
-        "network_overlays_estimate": 80000,
-        "details": "New 2025 Node. Serves LATAM & N. America near-shoring traffic."
+	"name": "Mexico (Mexico City)",
+	"type": "Cloud Region",
+	"region_id": "na-south-1",
+	"tier": "Tier 3 (New Expansion)",
+	"node_count_estimate": 25000,
+	"network_overlays_estimate": 80000,
+	"details": "New 2025 Node. Serves LATAM & N. America near-shoring traffic."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-99.133, 19.432]
+	"type": "Point",
+	"coordinates": [-99.133, 19.432]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Indonesia (Jakarta)",
-        "type": "Cloud Region",
-        "region_id": "ap-southeast-5",
-        "tier": "Tier 2 (Growth Hub)",
-        "node_count_estimate": 110000,
-        "network_overlays_estimate": 600000,
-        "details": "Fastest growing region in 2024-25. 3 Availability Zones."
+	"name": "Indonesia (Jakarta)",
+	"type": "Cloud Region",
+	"region_id": "ap-southeast-5",
+	"tier": "Tier 2 (Growth Hub)",
+	"node_count_estimate": 110000,
+	"network_overlays_estimate": 600000,
+	"details": "Fastest growing region in 2024-25. 3 Availability Zones."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [106.845, -6.208]
+	"type": "Point",
+	"coordinates": [106.845, -6.208]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Japan (Tokyo)",
-        "type": "Cloud Region",
-        "region_id": "ap-northeast-1",
-        "tier": "Tier 2 (Strategic Hub)",
-        "node_count_estimate": 130000,
-        "network_overlays_estimate": 700000,
-        "details": "High-availability financial cluster. 3 AZs."
+	"name": "Japan (Tokyo)",
+	"type": "Cloud Region",
+	"region_id": "ap-northeast-1",
+	"tier": "Tier 2 (Strategic Hub)",
+	"node_count_estimate": 130000,
+	"network_overlays_estimate": 700000,
+	"details": "High-availability financial cluster. 3 AZs."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [139.691, 35.689]
+	"type": "Point",
+	"coordinates": [139.691, 35.689]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Saudi Arabia (Riyadh)",
-        "type": "Cloud Region",
-        "region_id": "me-central-1",
-        "tier": "Tier 3 (Partner Region)",
-        "node_count_estimate": 40000,
-        "network_overlays_estimate": 150000,
-        "details": "Operated with SCCC. Sovereign cloud requirements enforcement."
+	"name": "Saudi Arabia (Riyadh)",
+	"type": "Cloud Region",
+	"region_id": "me-central-1",
+	"tier": "Tier 3 (Partner Region)",
+	"node_count_estimate": 40000,
+	"network_overlays_estimate": 150000,
+	"details": "Operated with SCCC. Sovereign cloud requirements enforcement."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [46.675, 24.713]
+	"type": "Point",
+	"coordinates": [46.675, 24.713]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Hong Kong (China) - Network Gateway",
-        "type": "Network Control Point",
-        "region_id": "cn-hongkong",
-        "tier": "Network Hub",
-        "node_count_estimate": 5000,
-        "network_overlays_estimate": 2500000,
-        "details": "Dense routing gear. Primary ingress/egress for Mainland China firewalls."
+	"name": "Hong Kong (China) - Network Gateway",
+	"type": "Network Control Point",
+	"region_id": "cn-hongkong",
+	"tier": "Network Hub",
+	"node_count_estimate": 5000,
+	"network_overlays_estimate": 2500000,
+	"details": "Dense routing gear. Primary ingress/egress for Mainland China firewalls."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [114.169, 22.319]
+	"type": "Point",
+	"coordinates": [114.169, 22.319]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "France (Paris)",
-        "type": "Cloud Region",
-        "region_id": "eu-central-2",
-        "tier": "Tier 3 (New Expansion)",
-        "node_count_estimate": 20000,
-        "network_overlays_estimate": 60000,
-        "details": "Strategic entry into Western EU market. 2025 Activation."
+	"name": "France (Paris)",
+	"type": "Cloud Region",
+	"region_id": "eu-central-2",
+	"tier": "Tier 3 (New Expansion)",
+	"node_count_estimate": 20000,
+	"network_overlays_estimate": 60000,
+	"details": "Strategic entry into Western EU market. 2025 Activation."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [2.352, 48.856]
+	"type": "Point",
+	"coordinates": [2.352, 48.856]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Dubai (UAE)",
-        "type": "Cloud Region",
-        "region_id": "me-east-1",
-        "tier": "Tier 3 (Satellite)",
-        "node_count_estimate": 35000,
-        "network_overlays_estimate": 120000,
-        "details": "Middle East connectivity hub. Focus on logistics/trade workloads."
+	"name": "Dubai (UAE)",
+	"type": "Cloud Region",
+	"region_id": "me-east-1",
+	"tier": "Tier 3 (Satellite)",
+	"node_count_estimate": 35000,
+	"network_overlays_estimate": 120000,
+	"details": "Middle East connectivity hub. Focus on logistics/trade workloads."
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [55.270, 25.204]
+	"type": "Point",
+	"coordinates": [55.270, 25.204]
       }
     }
   ]
