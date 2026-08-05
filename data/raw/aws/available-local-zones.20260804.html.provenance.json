@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.",
+  "raw_source_ref": "data/raw/aws/available-local-zones.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "f3a6e3ce2449d296b7f34c481f8d89a27dc9ee2d077e4e7a7e8e1cfed4390d52",
+  "source_published_at": null,
+  "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+}

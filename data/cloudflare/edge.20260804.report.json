@@ -1,0 +1,28 @@
+{
+  "coordinate_methods": {
+    "legacy": 243,
+    "unknown": 95
+  },
+  "entity_types": {
+    "edge_pop": 338
+  },
+  "generated_files": [
+    "data/cloudflare/edge.20260804.csv",
+    "data/cloudflare/edge.20260804.geojson"
+  ],
+  "geographic_group_count": 7,
+  "geometry_null": 95,
+  "layer": "edge",
+  "lifecycle_statuses": {
+    "operational": 338
+  },
+  "parser": "update_authoritative.py:cloudflare",
+  "raw_source_ref": "data/raw/cloudflare/components.20260804.json",
+  "record_count": 338,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.0.0",
+  "source_sha256": "35b387547f03b1e995e562529f28265aac34a623cb38ae9501af3f8409f39c7a",
+  "source_url": "https://www.cloudflarestatus.com/api/v2/components.json",
+  "status_api_component_count": 471
+}

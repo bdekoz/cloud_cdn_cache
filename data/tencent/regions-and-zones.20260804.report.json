@@ -1,0 +1,30 @@
+{
+  "availability_zone_count": 62,
+  "coordinate_methods": {
+    "legacy": 75,
+    "unknown": 9
+  },
+  "entity_types": {
+    "availability_zone": 62,
+    "cloud_region": 22
+  },
+  "generated_files": [
+    "data/tencent/regions-and-zones.20260804.csv",
+    "data/tencent/regions-and-zones.20260804.geojson"
+  ],
+  "geometry_null": 9,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 84
+  },
+  "parser": "update_authoritative.py:tencent",
+  "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+  "record_count": 84,
+  "region_count": 22,
+  "retrieved_at": "2026-08-04",
+  "sales_restricted_zone_count": 25,
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.0.0",
+  "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+  "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en"
+}

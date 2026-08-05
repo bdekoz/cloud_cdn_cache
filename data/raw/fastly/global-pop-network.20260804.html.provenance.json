@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.",
+  "raw_source_ref": "data/raw/fastly/global-pop-network.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "62009f2ea2793eb0d9434e637d203486b3a1bc647097d15c7a578340d8050894",
+  "source_published_at": null,
+  "source_url": "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/"
+}

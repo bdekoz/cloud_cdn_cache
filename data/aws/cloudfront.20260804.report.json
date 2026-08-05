@@ -1,0 +1,36 @@
+{
+  "coordinate_methods": {
+    "legacy": 56,
+    "unknown": 46
+  },
+  "entity_types": {
+    "edge_pop": 102
+  },
+  "generated_files": [
+    "data/aws/cloudfront.20260804.csv",
+    "data/aws/cloudfront.20260804.geojson"
+  ],
+  "geometry_null": 46,
+  "layer": "cloudfront",
+  "lifecycle_statuses": {
+    "operational": 102
+  },
+  "parser": "update_authoritative.py:cloudfront",
+  "provider_aggregate_counts": {
+    "embedded_pops": "1140+",
+    "regional_edge_caches": 15,
+    "standard_pops": "750+"
+  },
+  "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+  "record_count": 102,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.0.0",
+  "source_sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+  "source_url": "https://aws.amazon.com/cloudfront/features/",
+  "standard_pop_asset_count_from_city_list": 749,
+  "unlocated_infrastructure_classes": [
+    "regional_edge_cache",
+    "embedded_pop"
+  ]
+}

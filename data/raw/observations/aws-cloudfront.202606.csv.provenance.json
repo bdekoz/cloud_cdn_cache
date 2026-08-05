@@ -1,0 +1,9 @@
+{
+  "media_type": "text/csv",
+  "notes": "Positive ASN-level CDN-presence observations from the June 2026 study. No explicit data license was found; redistribution rights require review.",
+  "raw_source_ref": "data/raw/observations/aws-cloudfront.202606.csv",
+  "retrieved_at": "2026-08-04",
+  "sha256": "0a94ed7e60cbc27441eca676f84dc3da1889c15a376c879df4bbda1ca92479ba",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/aws-cloudfront.csv"
+}

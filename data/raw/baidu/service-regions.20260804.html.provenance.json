@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Official Baidu AI Cloud service-region matrix used to audit the unsupported global legacy layer.",
+  "raw_source_ref": "data/raw/baidu/service-regions.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "095a304d4ede0330f5def189bf200ed06b18367a5ad25b74856db2eed993cc6e",
+  "source_published_at": "2024-04-19",
+  "source_url": "https://cloud.baidu.com/doc/Reference/s/2jwvz23xx/"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.",
+  "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+  "source_published_at": "2025-09-25",
+  "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region"
+}

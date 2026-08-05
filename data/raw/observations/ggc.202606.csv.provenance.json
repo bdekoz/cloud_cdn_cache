@@ -1,0 +1,9 @@
+{
+  "media_type": "text/csv",
+  "notes": "Positive ASN-level CDN-presence observations from the June 2026 study. No explicit data license was found; redistribution rights require review.",
+  "raw_source_ref": "data/raw/observations/ggc.202606.csv",
+  "retrieved_at": "2026-08-04",
+  "sha256": "db98c2d2c16cd3761ab004b42c32c53c293db430cd86d625e4ed0803144a8416",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/ggc.csv"
+}

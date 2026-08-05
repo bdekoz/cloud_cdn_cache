@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.",
+  "raw_source_ref": "data/raw/cloudflare/components.20260804.json",
+  "retrieved_at": "2026-08-04",
+  "sha256": "35b387547f03b1e995e562529f28265aac34a623cb38ae9501af3f8409f39c7a",
+  "source_published_at": null,
+  "source_url": "https://www.cloudflarestatus.com/api/v2/components.json"
+}

@@ -1,0 +1,27 @@
+{
+  "coordinate_methods": {
+    "provider": 164
+  },
+  "entity_types": {
+    "edge_pop": 164
+  },
+  "generated_files": [
+    "data/fastly/pops.20260804.csv",
+    "data/fastly/pops.20260804.geojson"
+  ],
+  "geometry_null": 0,
+  "grouped_pop_identifier_count": 14,
+  "layer": "pops",
+  "lifecycle_statuses": {
+    "operational": 164
+  },
+  "location_label_count": 135,
+  "parser": "update_authoritative.py:fastly",
+  "raw_source_ref": "data/raw/fastly/global-pop-network.20260804.html",
+  "record_count": 164,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.0.0",
+  "source_sha256": "62009f2ea2793eb0d9434e637d203486b3a1bc647097d15c7a578340d8050894",
+  "source_url": "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/"
+}

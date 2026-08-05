@@ -1,0 +1,30 @@
+{
+  "alibaba_speculative_layer": {
+    "feature_count": 14,
+    "path": "data/quarantine/alibaba_cloud_data_centers_3.geojson",
+    "reason": "Contains uncited estimated node, overlay, and power-capacity values; excluded from the authoritative Alibaba rebuild.",
+    "sha256": "dfb83fd80fcbf32d143a42fa497f18b26d7dd8f2dfbd2b8ea7ed155f77bc7dcf"
+  },
+  "baidu": {
+    "legacy_claim_count": 35,
+    "legacy_path": "data/quarantine/baidu_cloud_data_centers_2.geojson",
+    "legacy_sha256": "077c2fd87ff5750854d64bfc01d658cafb6d0f18f80b732f96a3916233af9553",
+    "official_region_column_count": 8,
+    "official_region_labels_zh": [
+      "华北-北京",
+      "华北-保定",
+      "西南-成都",
+      "华南-广州",
+      "华东-苏州",
+      "华东-上海",
+      "金融华中-武汉",
+      "中国香港"
+    ],
+    "raw_source_ref": "data/raw/baidu/service-regions.20260804.html",
+    "source_published_at": "2024-04-19",
+    "source_sha256": "095a304d4ede0330f5def189bf200ed06b18367a5ad25b74856db2eed993cc6e",
+    "source_url": "https://cloud.baidu.com/doc/Reference/s/2jwvz23xx/"
+  },
+  "decision": "Exclude both quarantined files from current provider-declared views; retain them unchanged for auditability.",
+  "retrieved_at": "2026-08-04"
+}

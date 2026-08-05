@@ -1,0 +1,646 @@
+{
+  "generated_from_retained_snapshots_at": "2026-08-04",
+  "layer_count": 12,
+  "layers": [
+    {
+      "coordinate_methods": {
+        "provider": 65
+      },
+      "entity_types": {
+        "edge_pop": 65
+      },
+      "files": {
+        "csv": {
+          "path": "data/google/edge.20260804.csv",
+          "sha256": "459aab4c87c03983c37cb116753612f9f3109774cd12d69c987fd9c314370111"
+        },
+        "geojson": {
+          "path": "data/google/edge.20260804.geojson",
+          "sha256": "4fae9807677b690c68e40906d9547c325c6565b7a3a48b360cfb8bca847ab350"
+        },
+        "report": {
+          "path": "data/google/edge.20260804.report.json",
+          "sha256": "6e57110ee7bd8ab08f0a8dfdf778fea4a156c93e07ccd336f2734f6a31d09c6a"
+        }
+      },
+      "geometry_null": 0,
+      "layer": "google/edge",
+      "providers": [
+        "Google"
+      ],
+      "record_count": 65,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "google_edge"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+          "sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+          "source_published_at": null,
+          "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "provider": 12,
+        "unknown": 47
+      },
+      "entity_types": {
+        "data_center": 59
+      },
+      "files": {
+        "csv": {
+          "path": "data/google/data-centers.20260804.csv",
+          "sha256": "1393e32be82f5622b86a39925e7334aa1bf60b36b24df2076b540e7cd49f50b9"
+        },
+        "geojson": {
+          "path": "data/google/data-centers.20260804.geojson",
+          "sha256": "c0db4d0eb977b00343b5cc1015ace645a51c1abad72f7d6e317393ede5a80d4b"
+        },
+        "report": {
+          "path": "data/google/data-centers.20260804.report.json",
+          "sha256": "dbb0517f6445ddadd7096a8e07e2d6fe46d69323da5b7ffe8cc846e8ae4d6f95"
+        }
+      },
+      "geometry_null": 47,
+      "layer": "google/data-centers",
+      "providers": [
+        "Google"
+      ],
+      "record_count": 59,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "google_data_centers"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/google/data-centers-directory.20260804.html",
+          "sha256": "87d69319ab73ff6798c6ffca17e195cfb01be624a6dd4c821000a8bdc43a0f2a",
+          "source_published_at": null,
+          "source_url": "https://datacenters.google/locations/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 243,
+        "unknown": 95
+      },
+      "entity_types": {
+        "edge_pop": 338
+      },
+      "files": {
+        "csv": {
+          "path": "data/cloudflare/edge.20260804.csv",
+          "sha256": "fe87ac21e71cb700a867376aec7add964fc4c0f71cd661892e344a3f9ebc7e27"
+        },
+        "geojson": {
+          "path": "data/cloudflare/edge.20260804.geojson",
+          "sha256": "fa8d23ae90774f8549ed0b5357caa5458d16c2113632f64b79fe073b219fb7df"
+        },
+        "report": {
+          "path": "data/cloudflare/edge.20260804.report.json",
+          "sha256": "77e99098f06ba9ae088eff4b00aead8219b7953df0ae893ae6f61801043f41bc"
+        }
+      },
+      "geometry_null": 95,
+      "layer": "cloudflare/edge",
+      "providers": [
+        "Cloudflare"
+      ],
+      "record_count": 338,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "cloudflare_network"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/cloudflare/components.20260804.json",
+          "sha256": "35b387547f03b1e995e562529f28265aac34a623cb38ae9501af3f8409f39c7a",
+          "source_published_at": null,
+          "source_url": "https://www.cloudflarestatus.com/api/v2/components.json"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 104,
+        "unknown": 6
+      },
+      "entity_types": {
+        "edge_pop": 110
+      },
+      "files": {
+        "csv": {
+          "path": "data/microsoft/front-door.20260804.csv",
+          "sha256": "513848b79d0e55635557ebd79b2d165be52185347ed117c816a900a4298b359e"
+        },
+        "geojson": {
+          "path": "data/microsoft/front-door.20260804.geojson",
+          "sha256": "50218354ad7a2e6e0b529f2a396953edead8a46e8b7a30f7fb75143911872175"
+        },
+        "report": {
+          "path": "data/microsoft/front-door.20260804.report.json",
+          "sha256": "2a45b4c0f08bb65612aafc849f4186135fe8a7a19cd6fff5c828cc25d52374af"
+        }
+      },
+      "geometry_null": 6,
+      "layer": "microsoft/front-door",
+      "providers": [
+        "Microsoft"
+      ],
+      "record_count": 110,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "azure_front_door"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+          "sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+          "source_published_at": "2025-09-25",
+          "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 97,
+        "unknown": 31
+      },
+      "entity_types": {
+        "edge_pop": 128
+      },
+      "files": {
+        "csv": {
+          "path": "data/microsoft/front-door-codes.20260804.csv",
+          "sha256": "6cb3d413ceadadbf7a12679bf430d4aa59f29373e07fd88ad596c0418fe963f6"
+        },
+        "geojson": {
+          "path": "data/microsoft/front-door-codes.20260804.geojson",
+          "sha256": "7ae742aaa510e294a306ab2b3f7fda8f1d37ea940668376bd8346e533e42dacf"
+        },
+        "report": {
+          "path": "data/microsoft/front-door-codes.20260804.report.json",
+          "sha256": "555942816c07e3bcfec021d33b4bb6b931f8b6ba6b0a1d361d778b2fbfe6f3fd"
+        }
+      },
+      "geometry_null": 31,
+      "layer": "microsoft/front-door-codes",
+      "providers": [
+        "Microsoft"
+      ],
+      "record_count": 128,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "azure_front_door"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "source_published_at": "2025-12-18",
+          "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 56,
+        "unknown": 46
+      },
+      "entity_types": {
+        "edge_pop": 102
+      },
+      "files": {
+        "csv": {
+          "path": "data/aws/cloudfront.20260804.csv",
+          "sha256": "cc2a5ccc9a2461ca939a94be79d821f3960b186cbb094c81a44cca5ab3de95f5"
+        },
+        "geojson": {
+          "path": "data/aws/cloudfront.20260804.geojson",
+          "sha256": "6e317a5ba69b427c8456656977cd6055f5dfb79cd8002026410cffd24b89a4bd"
+        },
+        "report": {
+          "path": "data/aws/cloudfront.20260804.report.json",
+          "sha256": "519df3692d8cb8b2e702265921ed6cca78850742e5b01fb534cc8350def3b640"
+        }
+      },
+      "geometry_null": 46,
+      "layer": "aws/cloudfront",
+      "providers": [
+        "Amazon Web Services"
+      ],
+      "record_count": 102,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_cloudfront"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+          "sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+          "source_published_at": null,
+          "source_url": "https://aws.amazon.com/cloudfront/features/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 41,
+        "unknown": 4
+      },
+      "entity_types": {
+        "local_zone": 45
+      },
+      "files": {
+        "csv": {
+          "path": "data/aws/local-zones.20260804.csv",
+          "sha256": "038088d4c3a153f7d2bf251f0b66127f2d9869e9a97308dfd3a6292d4f3bcf0f"
+        },
+        "geojson": {
+          "path": "data/aws/local-zones.20260804.geojson",
+          "sha256": "7fb16c189c0e60221cb0901af7dfd87df5049db010593fb5b69a68fb7ada6c41"
+        },
+        "report": {
+          "path": "data/aws/local-zones.20260804.report.json",
+          "sha256": "cf000acbe8a151c6254fd40e8f7b205cbd6544b07b7eeb18db8fae3a7e7972e5"
+        }
+      },
+      "geometry_null": 4,
+      "layer": "aws/local-zones",
+      "providers": [
+        "Amazon Web Services"
+      ],
+      "record_count": 45,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_local_zones"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/aws/available-local-zones.20260804.html",
+          "sha256": "f3a6e3ce2449d296b7f34c481f8d89a27dc9ee2d077e4e7a7e8e1cfed4390d52",
+          "source_published_at": null,
+          "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "provider": 164
+      },
+      "entity_types": {
+        "edge_pop": 164
+      },
+      "files": {
+        "csv": {
+          "path": "data/fastly/pops.20260804.csv",
+          "sha256": "1df2816c22a4bcec4cae8ef45ab768eadb1b0e322d8d961fa15df07047568a3a"
+        },
+        "geojson": {
+          "path": "data/fastly/pops.20260804.geojson",
+          "sha256": "11ecb0a12e08747f552d203e186fd9d3c9c70c1c4c4bf06334f0c7f6c215eba3"
+        },
+        "report": {
+          "path": "data/fastly/pops.20260804.report.json",
+          "sha256": "f835ce8feafe516cc9ee6d7afc8b7e3bd8751a0d58cf2061c60f9e20ffe09657"
+        }
+      },
+      "geometry_null": 0,
+      "layer": "fastly/pops",
+      "providers": [
+        "Fastly"
+      ],
+      "record_count": 164,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "fastly_network"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/fastly/global-pop-network.20260804.html",
+          "sha256": "62009f2ea2793eb0d9434e637d203486b3a1bc647097d15c7a578340d8050894",
+          "source_published_at": null,
+          "source_url": "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 63,
+        "unknown": 24
+      },
+      "entity_types": {
+        "edge_pop": 87
+      },
+      "files": {
+        "csv": {
+          "path": "data/cachefly/locations.20260804.csv",
+          "sha256": "2e2a14ea880bff8537cf26af07d9286e506418a58276bfdbdd2a0194645ed8d9"
+        },
+        "geojson": {
+          "path": "data/cachefly/locations.20260804.geojson",
+          "sha256": "7dbacfa6d7987991f1e726c39c60115bd0b078c705ea7c675b6a741da573d789"
+        },
+        "report": {
+          "path": "data/cachefly/locations.20260804.report.json",
+          "sha256": "ec79b353b2e3466512c33dd767bf39ea3b49e8b022796bbc581fd5596a52d857"
+        }
+      },
+      "geometry_null": 24,
+      "layer": "cachefly/locations",
+      "providers": [
+        "CacheFly"
+      ],
+      "record_count": 87,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "cachefly_network"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+          "sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+          "source_published_at": "2026-03-24",
+          "source_url": "https://www.cachefly.com/network-map/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 83,
+        "unknown": 54
+      },
+      "entity_types": {
+        "availability_zone": 105,
+        "cloud_region": 32
+      },
+      "files": {
+        "csv": {
+          "path": "data/alibaba/regions-and-zones.20260804.csv",
+          "sha256": "d8a6cee5745a2e1c42bb42c97f49a3c0450bdf7c9a7fc4a634f0ac556ee491f7"
+        },
+        "geojson": {
+          "path": "data/alibaba/regions-and-zones.20260804.geojson",
+          "sha256": "8b1410d0c0e2f39454c3a1e428fdb3a93371137381a9a97091110e94d4064ad7"
+        },
+        "report": {
+          "path": "data/alibaba/regions-and-zones.20260804.report.json",
+          "sha256": "0bfc9c92ea0508fdf8441381b426236b5b312904f440765918bac722b3209622"
+        }
+      },
+      "geometry_null": 54,
+      "layer": "alibaba/regions-and-zones",
+      "providers": [
+        "Alibaba Cloud"
+      ],
+      "record_count": 137,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "alibaba_cloud"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/alibaba/regions-and-zones.20260804.html",
+          "sha256": "e150b5f4b9a11f117cc851a3cb616a512ce5ee4f4821a2eec269bd9bb1939c7f",
+          "source_published_at": "2026-07-01",
+          "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 75,
+        "unknown": 9
+      },
+      "entity_types": {
+        "availability_zone": 62,
+        "cloud_region": 22
+      },
+      "files": {
+        "csv": {
+          "path": "data/tencent/regions-and-zones.20260804.csv",
+          "sha256": "29109fdac6b80d489ada9b3bc0f6a180d9a64ccad9a69a954b4e8dfaa6677f1a"
+        },
+        "geojson": {
+          "path": "data/tencent/regions-and-zones.20260804.geojson",
+          "sha256": "7fdd868abeeac3c9eb48329a1f5a1573cc406ddb8bf85cf779595c325ba85a09"
+        },
+        "report": {
+          "path": "data/tencent/regions-and-zones.20260804.report.json",
+          "sha256": "55a197c5986244f00b5016348f70e72671e45977322f27d654827183349ec7f3"
+        }
+      },
+      "geometry_null": 9,
+      "layer": "tencent/regions-and-zones",
+      "providers": [
+        "Tencent Cloud"
+      ],
+      "record_count": 84,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "tencent_cloud"
+      ],
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+          "sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+          "source_published_at": "2026-02-12",
+          "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 13638
+      },
+      "entity_types": {
+        "observed_presence": 13638
+      },
+      "files": {
+        "csv": {
+          "path": "data/observations/cdn-mapping.20260804.csv",
+          "sha256": "437bcd2baba02e83c9762631ac32ef3477b6f4197a60b752cdb0c276ede9c4f9"
+        },
+        "geojson": {
+          "path": "data/observations/cdn-mapping.20260804.geojson",
+          "sha256": "57065ab74e27ca2579c7eceb387682b3f14db9103a8799c3e6f2ca61d129bc52"
+        },
+        "report": {
+          "path": "data/observations/cdn-mapping.20260804.report.json",
+          "sha256": "76fdb6e14a9d7e1b3a98ac07580bca92b479ad13bbe2ae0e23b8989ddb7f9f9c"
+        }
+      },
+      "geometry_null": 13638,
+      "layer": "observations/cdn-mapping",
+      "providers": [
+        "Akamai",
+        "Amazon Web Services",
+        "Apple",
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Netflix"
+      ],
+      "record_count": 13638,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "cdn_mapping_observation"
+      ],
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/observations/akamai.202606.csv",
+          "sha256": "6753f046780a58614eb47c8ad4181735aff4505eb1ebb4bef37758fedd33451d",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/apple.202606.csv",
+          "sha256": "9555e266dfc21430f52cf4bae030cda8723cdbceb4daa8d4510363d056a99576",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/aws-cloudfront.202606.csv",
+          "sha256": "0a94ed7e60cbc27441eca676f84dc3da1889c15a376c879df4bbda1ca92479ba",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/fna.202606.csv",
+          "sha256": "08ca98e221779a246746d04b5613d94b7774c5f2075cbc278e14d09d0c81dab2",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/ggc.202606.csv",
+          "sha256": "db98c2d2c16cd3761ab004b42c32c53c293db430cd86d625e4ed0803144a8416",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/microsoft.202606.csv",
+          "sha256": "e263865f1a0b358130a9cf7d9b1053818d5eabf51a1c1eb748a3690dca127bdf",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/oca.202606.csv",
+          "sha256": "491daea62145d8427f6fa759ba3b58a73c03433e793c6e826eb8316f903fd54e",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        }
+      ]
+    }
+  ],
+  "quarantine": {
+    "audit_path": "data/quarantine/audit.20260804.json",
+    "audit_sha256": "04436c3e7bf4b0864e70bd0be95d4c95ef9e314eb32d63a18f514436ae4beadc"
+  },
+  "record_count": 14957,
+  "schema": {
+    "path": "schema/location.schema.json",
+    "sha256": "684b6ec6b92f6aa29434b2a99c5fa922802ab419c0a87e380090b4697c23414e",
+    "version": "1.0.0"
+  },
+  "scope_note": "Counts span unlike provider-declared and observed entity types and are not a physical-site total."
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "text/csv",
+  "notes": "Positive ASN-level CDN-presence observations from the June 2026 study. No explicit data license was found; redistribution rights require review.",
+  "raw_source_ref": "data/raw/observations/fna.202606.csv",
+  "retrieved_at": "2026-08-04",
+  "sha256": "08ca98e221779a246746d04b5613d94b7774c5f2075cbc278e14d09d0c81dab2",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/fna.csv"
+}

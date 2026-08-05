@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.",
+  "raw_source_ref": "data/raw/alibaba/regions-and-zones.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "e150b5f4b9a11f117cc851a3cb616a512ce5ee4f4821a2eec269bd9bb1939c7f",
+  "source_published_at": "2026-07-01",
+  "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+}

@@ -58,17 +58,20 @@
       "minLength": 1
     },
     "service": {
-      "enum": [
-        "google_edge",
-        "google_data_centers",
-        "google_global_cache"
-      ]
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_]*$",
+      "description": "A stable snake_case service identifier. Known values are registered in schema/README.md."
     },
     "entity_type": {
       "enum": [
         "edge_pop",
+        "regional_edge_cache",
         "data_center",
-        "embedded_cache"
+        "cloud_region",
+        "availability_zone",
+        "local_zone",
+        "embedded_cache",
+        "observed_presence"
       ]
     },
     "source_collection": {
@@ -98,6 +101,9 @@
         "operational",
         "in_development",
         "planned",
+        "inactive",
+        "retired",
+        "unverified",
         "unknown"
       ]
     },

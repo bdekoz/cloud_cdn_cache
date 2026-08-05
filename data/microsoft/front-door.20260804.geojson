@@ -1,0 +1,5334 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          55.292,
+          25.265
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Dubai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United Arab Emirates",
+        "country_code": "AE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Dubai",
+        "name": "Dubai",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DXB"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Middle East"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ae-dubai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DXB",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -58.437,
+          -34.608
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Buenos Aires",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Argentina",
+        "country_code": "AR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Buenos Aires",
+        "name": "Buenos Aires",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BUE"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "South America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ar-buenos-aires",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BUE",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          153.023,
+          -27.469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Brisbane",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Brisbane",
+        "name": "Brisbane",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BNE"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Australia and New Zealand"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:au-brisbane",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BNE",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          144.963,
+          -37.814
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Melbourne",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Melbourne",
+        "name": "Melbourne",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MEL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Australia and New Zealand"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:au-melbourne",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MEL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.861,
+          -31.956
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Perth",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Perth",
+        "name": "Perth",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "PER"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Australia and New Zealand"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:au-perth",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "PER",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.957,
+          -33.769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Sydney",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Sydney",
+        "name": "Sydney",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SYD"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Australia and New Zealand"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:au-sydney",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SYD",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.473,
+          50.881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Zaventem",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Belgium",
+        "country_code": "BE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Zaventem",
+        "name": "Zaventem",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:be-zaventem",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.322,
+          42.698
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Sofia",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Bulgaria",
+        "country_code": "BG",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Sofia",
+        "name": "Sofia",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SOF"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:bg-sofia",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SOF",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -47.06,
+          -22.906
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Campinas",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Campinas",
+        "name": "Campinas",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "CPQ"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "South America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:br-campinas",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "CPQ",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -43.209,
+          -22.911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Rio de Janeiro",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Rio de Janeiro",
+        "name": "Rio de Janeiro",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "RIO"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "South America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:br-rio-de-janeiro",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "RIO",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -46.633,
+          -23.551
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Sao Paulo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Sao Paulo",
+        "name": "Sao Paulo",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "GRU",
+            "SAO"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "South America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:br-sao-paulo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "GRU",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.566,
+          43.644
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Etobicoke",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Etobicoke",
+        "name": "Etobicoke",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ca-etobicoke",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.57,
+          45.503
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Montreal",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Montreal",
+        "name": "Montreal",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "YMQ"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ca-montreal",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "YMQ",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -123.114,
+          49.261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Vancouver",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Vancouver",
+        "name": "Vancouver",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "YVR"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ca-vancouver",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "YVR",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.541,
+          47.374
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Zurich",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Switzerland",
+        "country_code": "CH",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Zurich",
+        "name": "Zurich",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "ZRH"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ch-zurich",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "ZRH",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.084,
+          4.653
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bogota",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Colombia",
+        "country_code": "CO",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Bogota",
+        "name": "Bogota",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BOG"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "South America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:co-bogota",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BOG",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.446,
+          50.06
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Prague",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Czechia",
+        "country_code": "CZ",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Prague",
+        "name": "Prague",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "PRG"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:cz-prague",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "PRG",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.389,
+          52.517
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Berlin",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Berlin",
+        "name": "Berlin",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BER"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:de-berlin",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BER",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.776,
+          51.225
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Duesseldorf",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Duesseldorf",
+        "name": "Duesseldorf",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DUS"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:de-duesseldorf",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DUS",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.682,
+          50.111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Frankfurt",
+        "name": "Frankfurt",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "FRA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:de-frankfurt",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "FRA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.575,
+          48.137
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Munich",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Munich",
+        "name": "Munich",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MUC"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:de-munich",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MUC",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.414,
+          49.992
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Russelsheim",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Russelsheim",
+        "name": "Russelsheim",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:de-russelsheim",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.361,
+          55.73
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Ballerup",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Denmark",
+        "country_code": "DK",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Ballerup",
+        "name": "Ballerup",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:dk-ballerup",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          31.236,
+          30.044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Cairo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Egypt",
+        "country_code": "EG",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Cairo",
+        "name": "Cairo",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "CAI"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Africa"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:eg-cairo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "CAI",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          2.177,
+          41.383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Barcelona",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Spain",
+        "country_code": "ES",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Barcelona",
+        "name": "Barcelona",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BCN"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:es-barcelona",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BCN",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.704,
+          40.417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Madrid",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Spain",
+        "country_code": "ES",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Madrid",
+        "name": "Madrid",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MAD"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:es-madrid",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MAD",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.041,
+          60.292
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Vantaa",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Finland",
+        "country_code": "FI",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Vantaa",
+        "name": "Vantaa",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:fi-vantaa",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          2.17,
+          48.682
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Les Ulis",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "France",
+        "country_code": "FR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Les Ulis",
+        "name": "Les Ulis",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:fr-les-ulis",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          2.348,
+          48.853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Paris",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "France",
+        "country_code": "FR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Paris",
+        "name": "Paris",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "PAR"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:fr-paris",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "PAR",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          2.358,
+          48.936
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Saint Denis",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "France",
+        "country_code": "FR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Saint Denis",
+        "name": "Saint Denis",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "PRA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:fr-saint-denis",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "PRA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.128,
+          51.507
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "London",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "London",
+        "name": "London",
+        "properties": {
+          "asset_count": 5,
+          "cloud": "commercial",
+          "pop_codes": [
+            "LON",
+            "LTS"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:gb-london",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "LON",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -2.245,
+          53.479
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Manchester",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Manchester",
+        "name": "Manchester",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MAN"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:gb-manchester",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MAN",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.735,
+          37.976
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Athens",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Greece",
+        "country_code": "GR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Athens",
+        "name": "Athens",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "ATH"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:gr-athens",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "ATH",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.238,
+          22.266
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chai Wan",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chai Wan",
+        "name": "Chai Wan",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "HKG"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:hk-chai-wan",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "HKG",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Hong Kong",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hong Kong",
+        "name": "Hong Kong",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "HK",
+            "HKB"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:hk-hong-kong",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "HK",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.04,
+          47.498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Budapest",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Hungary",
+        "country_code": "HU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Budapest",
+        "name": "Budapest",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BUD"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:hu-budapest",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BUD",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.827,
+          -6.175
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Jakarta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Indonesia",
+        "country_code": "ID",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Jakarta",
+        "name": "Jakarta",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "JKT"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:id-jakarta",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "JKT",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.261,
+          53.349
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Dublin",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Ireland",
+        "country_code": "IE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Dublin",
+        "name": "Dublin",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DB",
+            "DUB"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ie-dublin",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DB",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.782,
+          32.085
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tel Aviv",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Israel",
+        "country_code": "IL",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Tel Aviv",
+        "name": "Tel Aviv",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "TLV"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Middle East"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:il-tel-aviv",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "TLV",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          80.27,
+          13.084
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chennai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chennai",
+        "name": "Chennai",
+        "properties": {
+          "asset_count": 4,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MAA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "India"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:in-chennai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MAA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          78.474,
+          17.361
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Hyderabad",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hyderabad",
+        "name": "Hyderabad",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "HYD"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "India"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:in-hyderabad",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "HYD",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.828,
+          18.973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Mumbai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Mumbai",
+        "name": "Mumbai",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BOM"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "India"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:in-mumbai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BOM",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          77.209,
+          28.614
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "New Delhi",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "New Delhi",
+        "name": "New Delhi",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DEL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "India"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:in-new-delhi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DEL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.19,
+          45.464
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Milan",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Italy",
+        "country_code": "IT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Milan",
+        "name": "Milan",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MIL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:it-milan",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MIL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.483,
+          41.893
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Rome",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Italy",
+        "country_code": "IT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Rome",
+        "name": "Rome",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "ROM"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:it-rome",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "ROM",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          140.145,
+          35.832
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Inzai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Inzai",
+        "name": "Inzai",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:jp-inzai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.49,
+          34.62
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Osaka",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Osaka",
+        "name": "Osaka",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "OSA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:jp-osaka",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "OSA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.501,
+          34.694
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Osaka-shi",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Osaka-shi",
+        "name": "Osaka-shi",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:jp-osaka-shi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.774,
+          35.684
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Tokyo",
+        "name": "Tokyo",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "TYA",
+            "TYB",
+            "TYO"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:jp-tokyo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "TYA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.829,
+          -1.303
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Nairobi",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Kenya",
+        "country_code": "KE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nairobi",
+        "name": "Nairobi",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "NBO"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Africa"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ke-nairobi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "NBO",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.978,
+          37.567
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Seoul",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Korea",
+        "country_code": "KR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Seoul",
+        "name": "Seoul",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SEL",
+            "SLA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:kr-seoul",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SEL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.834,
+          34.022
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Rabat",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Morocco",
+        "country_code": "MA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Rabat",
+        "name": "Rabat",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "RBA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Africa"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ma-rabat",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "RBA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -100.39,
+          20.593
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Querétaro",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Mexico",
+        "country_code": "MX",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Querétaro",
+        "name": "Querétaro",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MEX"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:mx-queretaro",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MEX",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.694,
+          3.152
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Kuala Lumpur",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Malaysia",
+        "country_code": "MY",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Kuala Lumpur",
+        "name": "Kuala Lumpur",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "KUL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:my-kuala-lumpur",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "KUL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          3.394,
+          6.455
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Lagos",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Nigeria",
+        "country_code": "NG",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Lagos",
+        "name": "Lagos",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "LOS"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Africa"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ng-lagos",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "LOS",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Amsterdam",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Netherlands",
+        "country_code": "NL",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Amsterdam",
+        "name": "Amsterdam",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "AM",
+            "AMS"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:nl-amsterdam",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "AM",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.739,
+          59.913
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Oslo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Norway",
+        "country_code": "NO",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Oslo",
+        "name": "Oslo",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "OSL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:no-oslo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "OSL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          5.732,
+          58.97
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Stavanger",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Norway",
+        "country_code": "NO",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Stavanger",
+        "name": "Stavanger",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SVG"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:no-stavanger",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SVG",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.763,
+          -36.852
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Auckland",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "New Zealand",
+        "country_code": "NZ",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Auckland",
+        "name": "Auckland",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "AKL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Australia and New Zealand"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:nz-auckland",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "AKL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.98,
+          14.591
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Manila",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Philippines",
+        "country_code": "PH",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Manila",
+        "name": "Manila",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MNL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ph-manila",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MNL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.007,
+          52.232
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Warsaw",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Poland",
+        "country_code": "PL",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Warsaw",
+        "name": "Warsaw",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "WAW"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:pl-warsaw",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "WAW",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -9.137,
+          38.708
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Lisbon",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Portugal",
+        "country_code": "PT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Lisbon",
+        "name": "Lisbon",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "LIS"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:pt-lisbon",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "LIS",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.526,
+          25.286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Doha",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Qatar",
+        "country_code": "QA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Doha",
+        "name": "Doha",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DOH"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Middle East"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:qa-doha",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DOH",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.103,
+          44.436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bucharest",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Romania",
+        "country_code": "RO",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Bucharest",
+        "name": "Bucharest",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BUH"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:ro-bucharest",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BUH",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.94,
+          59.34
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bromma",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Sweden",
+        "country_code": "SE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Bromma",
+        "name": "Bromma",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "STO"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Europe"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:se-bromma",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "STO",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Singapore",
+        "name": "Singapore",
+        "properties": {
+          "asset_count": 6,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SG",
+            "SGE",
+            "SIN"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:sg-singapore",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SG",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.622,
+          13.825
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bangkok",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Thailand",
+        "country_code": "TH",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Bangkok",
+        "name": "Bangkok",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BKK"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:th-bangkok",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BKK",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.052,
+          41.077
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Istanbul",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Türkiye",
+        "country_code": "TR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Istanbul",
+        "name": "Istanbul",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "IST"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Middle East"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:tr-istanbul",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "IST",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.564,
+          25.038
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Taipei",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Taiwan",
+        "country_code": "TW",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Taipei",
+        "name": "Taipei",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "TPE"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:tw-taipei",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "TPE",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.469,
+          25.135
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Taipei City",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Taiwan",
+        "country_code": "TW",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Taipei City",
+        "name": "Taipei City",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:tw-taipei-city",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Arizona",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Arizona",
+        "name": "Arizona",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "us_government",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America (US Gov)"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-az-arizona",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "AZ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -112.074,
+          33.448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Phoenix",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Phoenix",
+        "name": "Phoenix",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "PHX"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-az-phoenix",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "PHX",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "AZ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -111.94,
+          33.426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tempe",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Tempe",
+        "name": "Tempe",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-az-tempe",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "AZ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -118.243,
+          34.054
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Los Angeles",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Los Angeles",
+        "name": "Los Angeles",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "LAX"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-ca-los-angeles",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "LAX",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "CA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.891,
+          37.336
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "San Jose",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "San Jose",
+        "name": "San Jose",
+        "properties": {
+          "asset_count": 4,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SJC"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-ca-san-jose",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SJC",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "CA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.988,
+          39.648
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Englewood",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Englewood",
+        "name": "Englewood",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-co-englewood",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "CO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.656,
+          30.332
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Jacksonville",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Jacksonville",
+        "name": "Jacksonville",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "JAX"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-fl-jacksonville",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "JAX",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "FL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.194,
+          25.774
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Miami",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Miami",
+        "name": "Miami",
+        "properties": {
+          "asset_count": 4,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MIA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-fl-miami",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MIA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "FL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.39,
+          33.749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Atlanta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Atlanta",
+        "name": "Atlanta",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "ATA",
+            "ATL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-ga-atlanta",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "ATA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "GA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.856,
+          21.305
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Honolulu",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Honolulu",
+        "name": "Honolulu",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "HNL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-hi-honolulu",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "HNL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "HI"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -93.605,
+          41.591
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Des Moines",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Des Moines",
+        "name": "Des Moines",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DM"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-ia-des-moines",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DM",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "IA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.624,
+          41.876
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chicago",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chicago",
+        "name": "Chicago",
+        "properties": {
+          "asset_count": 4,
+          "cloud": "commercial",
+          "pop_codes": [
+            "CH",
+            "CHG",
+            "CHI"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-il-chicago",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "CH",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "IL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.235,
+          42.293
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Needham Heights",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Needham Heights",
+        "name": "Needham Heights",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-ma-needham-heights",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "MA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -83.047,
+          42.332
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Detroit",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Detroit",
+        "name": "Detroit",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DTT"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-mi-detroit",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DTT",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "MI"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -83.222,
+          42.473
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Southfield",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Southfield",
+        "name": "Southfield",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-mi-southfield",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "MI"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -93.602,
+          44.789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chaska",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chaska",
+        "name": "Chaska",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-mn-chaska",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "MN"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -93.265,
+          44.977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Minneapolis",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Minneapolis",
+        "name": "Minneapolis",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MSP"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-mn-minneapolis",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MSP",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "MN"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.172,
+          40.736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Newark",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Newark",
+        "name": "Newark",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "EWR"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-nj-newark",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "EWR",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "NJ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.057,
+          40.79
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Secaucus",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Secaucus",
+        "name": "Secaucus",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "TEB"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-nj-secaucus",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "TEB",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "NJ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -115.149,
+          36.167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Las Vegas",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Las Vegas",
+        "name": "Las Vegas",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "LAS"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-nv-las-vegas",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "LAS",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "NV"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.006,
+          40.713
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "New York",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "New York",
+        "name": "New York",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-ny-new-york",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "NY"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.674,
+          45.52
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Portland",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Portland",
+        "name": "Portland",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "PDX"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-or-portland",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "PDX",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "OR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.164,
+          39.953
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Philadelphia",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Philadelphia",
+        "name": "Philadelphia",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "PHL"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-pa-philadelphia",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "PHL",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "PA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.052,
+          35.146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Memphis",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Memphis",
+        "name": "Memphis",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MEM"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-tn-memphis",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MEM",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "TN"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -86.774,
+          36.162
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Nashville",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nashville",
+        "name": "Nashville",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BNA"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-tn-nashville",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BNA",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "TN"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -96.797,
+          32.776
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Dallas",
+        "name": "Dallas",
+        "properties": {
+          "asset_count": 4,
+          "cloud": "commercial",
+          "pop_codes": [
+            "DFW"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-tx-dallas",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "DFW",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "TX"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -95.368,
+          29.759
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Houston",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Houston",
+        "name": "Houston",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "HOU"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-tx-houston",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "HOU",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "TX"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -96.693,
+          33.014
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Plano",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Plano",
+        "name": "Plano",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-tx-plano",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "TX"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -98.495,
+          29.425
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "San Antonio",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "San Antonio",
+        "name": "San Antonio",
+        "properties": {
+          "asset_count": 4,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SAN",
+            "SN"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-tx-san-antonio",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SAN",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "TX"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Texas",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Texas",
+        "name": "Texas",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "us_government",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America (US Gov)"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-tx-texas",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "TX"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -111.887,
+          40.76
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Salt Lake City",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Salt Lake City",
+        "name": "Salt Lake City",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SLC"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-ut-salt-lake-city",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SLC",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "UT"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.388,
+          36.667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Boydton",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Boydton",
+        "name": "Boydton",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "BN"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-va-boydton",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "BN",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "VA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.475,
+          38.751
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Manassas",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Manassas",
+        "name": "Manassas",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "MNZ"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-va-manassas",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "MNZ",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "VA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Virginia",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Virginia",
+        "name": "Virginia",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "us_government",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America (US Gov)"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-va-virginia",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "VA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -119.854,
+          47.234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Quincy",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Quincy",
+        "name": "Quincy",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [
+            "CO"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-wa-quincy",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "CO",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "WA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.33,
+          47.604
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Seattle",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Seattle",
+        "name": "Seattle",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "STB",
+            "WST"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-wa-seattle",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "STB",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "WA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.82,
+          41.14
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Cheyenne",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Cheyenne",
+        "name": "Cheyenne",
+        "properties": {
+          "asset_count": 2,
+          "cloud": "commercial",
+          "pop_codes": [
+            "CYS"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "North America"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:us-wy-cheyenne",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "CYS",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": "WY"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.701,
+          10.776
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Ho Chi Minh City",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Vietnam",
+        "country_code": "VN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Ho Chi Minh City",
+        "name": "Ho Chi Minh City",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "SGN"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Asia"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:vn-ho-chi-minh-city",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "SGN",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.417,
+          -33.929
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Cape Town",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Africa",
+        "country_code": "ZA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Cape Town",
+        "name": "Cape Town",
+        "properties": {
+          "asset_count": 1,
+          "cloud": "commercial",
+          "pop_codes": [
+            "CPT"
+          ],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Africa"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:za-cape-town",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": "CPT",
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.222,
+          -26.136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Isando",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Africa",
+        "country_code": "ZA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Isando",
+        "name": "Isando",
+        "properties": {
+          "asset_count": 3,
+          "cloud": "commercial",
+          "pop_codes": [],
+          "pop_codes_raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "pop_codes_source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "region_group": "Africa"
+        },
+        "provider": "Microsoft",
+        "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+        "record_id": "microsoft:edge_pop:za-isando",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "azure_front_door",
+        "site_code": null,
+        "source_collection": "azure_front_door_metros",
+        "source_published_at": "2025-09-25",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+        "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

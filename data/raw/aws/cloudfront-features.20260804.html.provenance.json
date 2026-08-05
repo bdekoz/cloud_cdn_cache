@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.",
+  "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+  "source_published_at": null,
+  "source_url": "https://aws.amazon.com/cloudfront/features/"
+}

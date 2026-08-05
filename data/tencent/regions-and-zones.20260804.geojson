@@ -1,0 +1,3541 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          100.5018,
+          13.7563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bangkok",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Thailand",
+        "country_code": "TH",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Bangkok",
+        "name": "Bangkok Zone 1",
+        "properties": {
+          "parent_region_id": "ap-bangkok",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-bangkok-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-bangkok-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-bangkok-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.5018,
+          13.7563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bangkok",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Thailand",
+        "country_code": "TH",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Bangkok",
+        "name": "Bangkok Zone 2",
+        "properties": {
+          "parent_region_id": "ap-bangkok",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-bangkok-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-bangkok-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-bangkok-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Zone 3",
+        "properties": {
+          "parent_region_id": "ap-beijing",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Zone 4",
+        "properties": {
+          "parent_region_id": "ap-beijing",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-4",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Zone 5",
+        "properties": {
+          "parent_region_id": "ap-beijing",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-5",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-5",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-5",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Zone 6",
+        "properties": {
+          "parent_region_id": "ap-beijing",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-6",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-6",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-6",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Zone 7",
+        "properties": {
+          "parent_region_id": "ap-beijing",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-7",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-7",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-7",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Zone 8",
+        "properties": {
+          "parent_region_id": "ap-beijing",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-8",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-8",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-8",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Finance Zone 1",
+        "properties": {
+          "parent_region_id": "ap-beijing-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-fsi-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-fsi-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-fsi-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Finance Zone 2",
+        "properties": {
+          "parent_region_id": "ap-beijing-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-beijing-fsi-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-fsi-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-fsi-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          104.0665,
+          30.5728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chengdu",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Chengdu",
+        "name": "Chengdu Zone 1",
+        "properties": {
+          "parent_region_id": "ap-chengdu",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-chengdu-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-chengdu-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-chengdu-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          104.0665,
+          30.5728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chengdu",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Chengdu",
+        "name": "Chengdu Zone 2",
+        "properties": {
+          "parent_region_id": "ap-chengdu",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-chengdu-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-chengdu-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-chengdu-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.5516,
+          29.563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chongqing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Chongqing",
+        "name": "Chongqing Zone 1",
+        "properties": {
+          "parent_region_id": "ap-chongqing",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-chongqing-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-chongqing-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-chongqing-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.2644,
+          23.1291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Guangzhou",
+        "name": "Guangzhou Zone 3",
+        "properties": {
+          "parent_region_id": "ap-guangzhou",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-guangzhou-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-guangzhou-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-guangzhou-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.2644,
+          23.1291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Guangzhou",
+        "name": "Guangzhou Zone 4",
+        "properties": {
+          "parent_region_id": "ap-guangzhou",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-guangzhou-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-guangzhou-4",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-guangzhou-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.2644,
+          23.1291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Guangzhou",
+        "name": "Guangzhou Zone 5",
+        "properties": {
+          "parent_region_id": "ap-guangzhou",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-guangzhou-5",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-guangzhou-5",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-guangzhou-5",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.2644,
+          23.1291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Guangzhou",
+        "name": "Guangzhou Zone 6",
+        "properties": {
+          "parent_region_id": "ap-guangzhou",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-guangzhou-6",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-guangzhou-6",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-guangzhou-6",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.2644,
+          23.1291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Guangzhou",
+        "name": "Guangzhou Zone 7",
+        "properties": {
+          "parent_region_id": "ap-guangzhou",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-guangzhou-7",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-guangzhou-7",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-guangzhou-7",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.1694,
+          22.3193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Hong Kong",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Hong Kong",
+        "name": "Hong Kong Zone 1",
+        "properties": {
+          "parent_region_id": "ap-hongkong",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-hongkong-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-hongkong-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-hongkong-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.1694,
+          22.3193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Hong Kong",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Hong Kong",
+        "name": "Hong Kong (China) Zone 2",
+        "properties": {
+          "parent_region_id": "ap-hongkong",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-hongkong-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-hongkong-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-hongkong-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.1694,
+          22.3193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Hong Kong",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Hong Kong",
+        "name": "Hong Kong (China) Zone 3",
+        "properties": {
+          "parent_region_id": "ap-hongkong",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-hongkong-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-hongkong-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-hongkong-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.8456,
+          -6.2088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Jakarta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Indonesia",
+        "country_code": "ID",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Jakarta",
+        "name": "Jakarta Zone 1",
+        "properties": {
+          "parent_region_id": "ap-jakarta",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-jakarta-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-jakarta-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-jakarta-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.8456,
+          -6.2088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Jakarta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Indonesia",
+        "country_code": "ID",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Jakarta",
+        "name": "Jakarta Zone 2",
+        "properties": {
+          "parent_region_id": "ap-jakarta",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-jakarta-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-jakarta-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-jakarta-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.8456,
+          -6.2088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Jakarta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Indonesia",
+        "country_code": "ID",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Jakarta",
+        "name": "Jakarta Zone 3",
+        "properties": {
+          "parent_region_id": "ap-jakarta",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-jakarta-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-jakarta-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-jakarta-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.7969,
+          32.0603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Nanjing",
+        "name": "Nanjing Zone 1",
+        "properties": {
+          "parent_region_id": "ap-nanjing",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-nanjing-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-nanjing-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-nanjing-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.7969,
+          32.0603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Nanjing",
+        "name": "Nanjing Zone 2",
+        "properties": {
+          "parent_region_id": "ap-nanjing",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-nanjing-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-nanjing-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-nanjing-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.7969,
+          32.0603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Nanjing",
+        "name": "Nanjing Zone 3",
+        "properties": {
+          "parent_region_id": "ap-nanjing",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-nanjing-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-nanjing-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-nanjing-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.978,
+          37.5665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Seoul",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Korea",
+        "country_code": "KR",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Seoul",
+        "name": "Seoul Zone 1",
+        "properties": {
+          "parent_region_id": "ap-seoul",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-seoul-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-seoul-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-seoul-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.978,
+          37.5665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Seoul",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Korea",
+        "country_code": "KR",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Seoul",
+        "name": "Seoul Zone 2",
+        "properties": {
+          "parent_region_id": "ap-seoul",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-seoul-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-seoul-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-seoul-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Zone 2",
+        "properties": {
+          "parent_region_id": "ap-shanghai",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Zone 3",
+        "properties": {
+          "parent_region_id": "ap-shanghai",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Zone 4",
+        "properties": {
+          "parent_region_id": "ap-shanghai",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-4",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Zone 5",
+        "properties": {
+          "parent_region_id": "ap-shanghai",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-5",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-5",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-5",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Zone 8",
+        "properties": {
+          "parent_region_id": "ap-shanghai",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-8",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-8",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-8",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Zone 9",
+        "properties": {
+          "parent_region_id": "ap-shanghai",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-9",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-9",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-9",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Self-driving Cloud Zone 1",
+        "properties": {
+          "parent_region_id": "ap-shanghai-adc",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-adc-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-adc-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-adc-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Self-driving Cloud Zone 2",
+        "properties": {
+          "parent_region_id": "ap-shanghai-adc",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-adc-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-adc-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-adc-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Self-driving Cloud Zone 3",
+        "properties": {
+          "parent_region_id": "ap-shanghai-adc",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-adc-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-adc-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-adc-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Self-driving Cloud Zone 4",
+        "properties": {
+          "parent_region_id": "ap-shanghai-adc",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-adc-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-adc-4",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-adc-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Finance Zone 1",
+        "properties": {
+          "parent_region_id": "ap-shanghai-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-fsi-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-fsi-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-fsi-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Finance Zone 2",
+        "properties": {
+          "parent_region_id": "ap-shanghai-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-fsi-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-fsi-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-fsi-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Finance Zone 3",
+        "properties": {
+          "parent_region_id": "ap-shanghai-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-fsi-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-fsi-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-fsi-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Finance Zone 4",
+        "properties": {
+          "parent_region_id": "ap-shanghai-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shanghai-fsi-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-fsi-4",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-fsi-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Shenzhen",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shenzhen",
+        "name": "Shenzhen Finance Zone 1",
+        "properties": {
+          "parent_region_id": "ap-shenzhen-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shenzhen-fsi-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shenzhen-fsi-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shenzhen-fsi-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Shenzhen",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shenzhen",
+        "name": "Shenzhen Finance Zone 2",
+        "properties": {
+          "parent_region_id": "ap-shenzhen-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shenzhen-fsi-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shenzhen-fsi-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shenzhen-fsi-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Shenzhen",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shenzhen",
+        "name": "Shenzhen Finance Zone 3",
+        "properties": {
+          "parent_region_id": "ap-shenzhen-fsi",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-shenzhen-fsi-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shenzhen-fsi-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shenzhen-fsi-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8198,
+          1.3521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Singapore",
+        "name": "Singapore Zone 1",
+        "properties": {
+          "parent_region_id": "ap-singapore",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-singapore-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-singapore-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-singapore-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8198,
+          1.3521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Singapore",
+        "name": "Singapore Zone 2",
+        "properties": {
+          "parent_region_id": "ap-singapore",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-singapore-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-singapore-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-singapore-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8198,
+          1.3521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Singapore",
+        "name": "Singapore Zone 3",
+        "properties": {
+          "parent_region_id": "ap-singapore",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-singapore-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-singapore-3",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-singapore-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8198,
+          1.3521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Singapore",
+        "name": "Singapore Zone 4",
+        "properties": {
+          "parent_region_id": "ap-singapore",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-singapore-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-singapore-4",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-singapore-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Tokyo",
+        "name": "Tokyo Zone 1",
+        "properties": {
+          "parent_region_id": "ap-tokyo",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-tokyo-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-tokyo-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-tokyo-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Tokyo",
+        "name": "Tokyo Zone 2",
+        "properties": {
+          "parent_region_id": "ap-tokyo",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-tokyo-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-tokyo-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-tokyo-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Zhongwei",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Zhongwei",
+        "name": "Zhongwei Zone 1",
+        "properties": {
+          "parent_region_id": "ap-zhongwei",
+          "sales_restricted": true
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:ap-zhongwei-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-zhongwei-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-zhongwei-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.6821,
+          50.1109
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Frankfurt",
+        "name": "Frankfurt Zone 1",
+        "properties": {
+          "parent_region_id": "eu-frankfurt",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:eu-frankfurt-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "eu-frankfurt-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "eu-frankfurt-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.6821,
+          50.1109
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Frankfurt",
+        "name": "Frankfurt Zone 2",
+        "properties": {
+          "parent_region_id": "eu-frankfurt",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:eu-frankfurt-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "eu-frankfurt-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "eu-frankfurt-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Saudi Arabia",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Saudi Arabia",
+        "name": "Riyadh Zone 1",
+        "properties": {
+          "parent_region_id": "me-saudi-arabia",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:me-saudi-arabia-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "me-saudi-arabia-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "me-saudi-arabia-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Saudi Arabia",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Saudi Arabia",
+        "name": "Riyadh Zone 2",
+        "properties": {
+          "parent_region_id": "me-saudi-arabia",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:me-saudi-arabia-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "me-saudi-arabia-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "me-saudi-arabia-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.4835,
+          39.0067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Virginia",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Virginia",
+        "name": "Virginia Zone 1",
+        "properties": {
+          "parent_region_id": "na-ashburn",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:na-ashburn-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "na-ashburn-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "na-ashburn-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.4835,
+          39.0067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Virginia",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Virginia",
+        "name": "Virginia Zone 2",
+        "properties": {
+          "parent_region_id": "na-ashburn",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:na-ashburn-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "na-ashburn-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "na-ashburn-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Silicon Valley",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Silicon Valley",
+        "name": "Silicon Valley Zone 1",
+        "properties": {
+          "parent_region_id": "na-siliconvalley",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:na-siliconvalley-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "na-siliconvalley-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "na-siliconvalley-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Silicon Valley",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Silicon Valley",
+        "name": "Silicon Valley Zone 2",
+        "properties": {
+          "parent_region_id": "na-siliconvalley",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:na-siliconvalley-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "na-siliconvalley-2",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "na-siliconvalley-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -46.6333,
+          -23.5505
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "São Paulo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "São Paulo",
+        "name": "São Paulo Zone 1",
+        "properties": {
+          "parent_region_id": "sa-saopaulo",
+          "sales_restricted": false
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:availability_zone:sa-saopaulo-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "sa-saopaulo-1",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "sa-saopaulo-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.5018,
+          13.7563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bangkok",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Thailand",
+        "country_code": "TH",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Bangkok",
+        "name": "Asia Pacific and the Middle East (Bangkok) Coverage: Southeast Asia",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-bangkok",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-bangkok",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-bangkok",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "North China (Beijing)",
+        "properties": {
+          "declared_zone_count": 6
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-beijing",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Beijing",
+        "name": "Beijing Finance Available only to finance institutions and enterprises upon application",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-beijing-fsi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-beijing-fsi",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-beijing-fsi",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          104.0665,
+          30.5728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chengdu",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Chengdu",
+        "name": "Southwest China (Chengdu)",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-chengdu",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-chengdu",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-chengdu",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.5516,
+          29.563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chongqing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Chongqing",
+        "name": "Southwest China (Chongqing)",
+        "properties": {
+          "declared_zone_count": 1
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-chongqing",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-chongqing",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-chongqing",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.2644,
+          23.1291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Guangzhou",
+        "name": "South China (Guangzhou)",
+        "properties": {
+          "declared_zone_count": 5
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-guangzhou",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-guangzhou",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-guangzhou",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.1694,
+          22.3193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Hong Kong",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Hong Kong",
+        "name": "Hong Kong (China), Macao (China), and Taiwan (China)",
+        "properties": {
+          "declared_zone_count": 3
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-hongkong",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-hongkong",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-hongkong",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.8456,
+          -6.2088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Jakarta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Indonesia",
+        "country_code": "ID",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Jakarta",
+        "name": "Asia Pacific and the Middle East (Jakarta) Coverage: Southeast Asia",
+        "properties": {
+          "declared_zone_count": 3
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-jakarta",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-jakarta",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-jakarta",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.7969,
+          32.0603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Nanjing",
+        "name": "East China (Nanjing)",
+        "properties": {
+          "declared_zone_count": 3
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-nanjing",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-nanjing",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-nanjing",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.978,
+          37.5665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Seoul",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Korea",
+        "country_code": "KR",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Seoul",
+        "name": "Asia Pacific and the Middle East (Seoul) Coverage: Northeast Asia",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-seoul",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-seoul",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-seoul",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "East China (Shanghai)",
+        "properties": {
+          "declared_zone_count": 6
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-shanghai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Self-driving Cloud",
+        "properties": {
+          "declared_zone_count": 4
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-shanghai-adc",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-adc",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-adc",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shanghai",
+        "name": "Shanghai Finance Available only to finance institutions and enterprises upon application",
+        "properties": {
+          "declared_zone_count": 4
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-shanghai-fsi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shanghai-fsi",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shanghai-fsi",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Shenzhen",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Shenzhen",
+        "name": "Shenzhen Finance Available only to finance institutions and enterprises upon application",
+        "properties": {
+          "declared_zone_count": 3
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-shenzhen-fsi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-shenzhen-fsi",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-shenzhen-fsi",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8198,
+          1.3521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Singapore",
+        "name": "Asia Pacific and the Middle East (Singapore) Coverage: Southeast Asia",
+        "properties": {
+          "declared_zone_count": 4
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-singapore",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-singapore",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-singapore",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Tokyo",
+        "name": "Asia Pacific and the Middle East (Tokyo) Coverage: Northeast Asia",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-tokyo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-tokyo",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-tokyo",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Zhongwei",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Zhongwei",
+        "name": "Northwest China (Zhongwei)",
+        "properties": {
+          "declared_zone_count": 1
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:ap-zhongwei",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "ap-zhongwei",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "ap-zhongwei",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.6821,
+          50.1109
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Frankfurt",
+        "name": "Europe and the Americas (Frankfurt) Coverage: Europe",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:eu-frankfurt",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "eu-frankfurt",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "eu-frankfurt",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Saudi Arabia",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Saudi Arabia",
+        "name": "Asia Pacific and the Middle East (Saudi Arabia) Coverage: Middle East",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:me-saudi-arabia",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "me-saudi-arabia",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "me-saudi-arabia",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.4835,
+          39.0067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Virginia",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Virginia",
+        "name": "Europe and the Americas (Virginia) Coverage: Eastern United States",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:na-ashburn",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "na-ashburn",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "na-ashburn",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Silicon Valley",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Silicon Valley",
+        "name": "Europe and the Americas (Silicon Valley) Coverage: Western United States",
+        "properties": {
+          "declared_zone_count": 2
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:na-siliconvalley",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "na-siliconvalley",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "na-siliconvalley",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -46.6333,
+          -23.5505
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "São Paulo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "São Paulo",
+        "name": "Europe and the Americas (São Paulo) Coverage: South America",
+        "properties": {
+          "declared_zone_count": 1
+        },
+        "provider": "Tencent Cloud",
+        "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+        "record_id": "tencent:cloud_region:sa-saopaulo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "tencent_cloud",
+        "site_code": "sa-saopaulo",
+        "source_collection": "tencent_regions_and_zones",
+        "source_published_at": "2026-02-12",
+        "source_record_id": "sa-saopaulo",
+        "source_scope": "provider_declared",
+        "source_sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+        "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

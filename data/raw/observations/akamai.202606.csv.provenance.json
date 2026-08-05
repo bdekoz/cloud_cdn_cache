@@ -1,0 +1,9 @@
+{
+  "media_type": "text/csv",
+  "notes": "Positive ASN-level CDN-presence observations from the June 2026 study. No explicit data license was found; redistribution rights require review.",
+  "raw_source_ref": "data/raw/observations/akamai.202606.csv",
+  "retrieved_at": "2026-08-04",
+  "sha256": "6753f046780a58614eb47c8ad4181735aff4505eb1ebb4bef37758fedd33451d",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/akamai.csv"
+}

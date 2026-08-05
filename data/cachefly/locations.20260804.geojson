@@ -1,0 +1,3521 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          55.187,
+          25.074
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Dubai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United Arab Emirates",
+        "country_code": "AE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Dubai",
+        "name": "Dubai",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ae-dubai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -58.439,
+          -34.605
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [
+          "Buenos Aries"
+        ],
+        "city": "Buenos Aires",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Argentina",
+        "country_code": "AR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Buenos Aires",
+        "name": "Buenos Aires",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ar-buenos-aires",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.377,
+          48.208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Vienna",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Austria",
+        "country_code": "AT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Vienna",
+        "name": "Vienna",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:at-vienna",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Brisbane",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Brisbane",
+        "name": "Brisbane",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:au-brisbane",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          144.961,
+          -37.812
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Melbourne",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Melbourne",
+        "name": "Melbourne",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:au-melbourne",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.862,
+          -31.959
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Perth",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Perth",
+        "name": "Perth",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:au-perth",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.212,
+          -33.866
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Sydney",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Sydney",
+        "name": "Sydney",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:au-sydney",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Dhaka",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Bangladesh",
+        "country_code": "BD",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Dhaka",
+        "name": "Dhaka",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:bd-dhaka",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          48.253,
+          -15.255
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Sofia",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Bulgaria",
+        "country_code": "BG",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Sofia",
+        "name": "Sofia",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:bg-sofia",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -68.133,
+          -16.496
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "La Paz",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Bolivia",
+        "country_code": "BO",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "La Paz",
+        "name": "La Paz",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:bo-la-paz",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -53.2,
+          -10.332
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Brasilia",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Brasilia",
+        "name": "Brasilia",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:br-brasilia",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -49.275,
+          -25.433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Curitiba",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Curitiba",
+        "name": "Curitiba",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:br-curitiba",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.52,
+          -3.734
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Fortaleza",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Fortaleza",
+        "name": "Fortaleza",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:br-fortaleza",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -51.234,
+          -30.031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Porto Alegre",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Porto Alegre",
+        "name": "Porto Alegre",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:br-porto-alegre",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -43.208,
+          -22.908
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Rio de Janeiro",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Rio de Janeiro",
+        "name": "Rio de Janeiro",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:br-rio-de-janeiro",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -88.915,
+          13.796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Salvador",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Salvador",
+        "name": "Salvador",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:br-salvador",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -46.631,
+          -23.552
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "São Paulo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "São Paulo",
+        "name": "São Paulo",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:br-sao-paulo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -114.056,
+          51.042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Calgary",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Calgary",
+        "name": "Calgary",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ca-calgary",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.567,
+          45.501
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Montreal",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Montreal",
+        "name": "Montreal",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ca-montreal",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.387,
+          43.655
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Toronto",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Toronto",
+        "name": "Toronto",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ca-toronto",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.543,
+          47.376
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Zurich",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Switzerland",
+        "country_code": "CH",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Zurich",
+        "name": "Zurich",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ch-zurich",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Santiago",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Chile",
+        "country_code": "CL",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Santiago",
+        "name": "Santiago",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:cl-santiago",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.391,
+          39.904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "Beijing",
+        "properties": {
+          "service_tier": "premium"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:cn-beijing",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.471,
+          31.233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "Shanghai",
+        "properties": {
+          "service_tier": "premium"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:cn-shanghai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.085,
+          4.651
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bogotá",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Colombia",
+        "country_code": "CO",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Bogotá",
+        "name": "Bogotá",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:co-bogota",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.077,
+          9.932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "San José",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "San José",
+        "name": "San José",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:cr-san-jose",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.684,
+          50.111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Frankfurt",
+        "name": "Frankfurt",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:de-frankfurt",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.512,
+          -0.221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Quito",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Ecuador",
+        "country_code": "EC",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Quito",
+        "name": "Quito",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ec-quito",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.705,
+          40.418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Madrid",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Spain",
+        "country_code": "ES",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Madrid",
+        "name": "Madrid",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:es-madrid",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Marseille",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "France",
+        "country_code": "FR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "planned",
+        "location_precision": "city",
+        "metro": "Marseille",
+        "name": "Marseille",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:fr-marseille",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          2.349,
+          48.853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Paris",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "France",
+        "country_code": "FR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Paris",
+        "name": "Paris",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:fr-paris",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.126,
+          51.508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "London",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "London",
+        "name": "London",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:gb-london",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Athens",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Greece",
+        "country_code": "GR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Athens",
+        "name": "Athens",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:gr-athens",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Guatemala City",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Guatemala",
+        "country_code": "GT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guatemala City",
+        "name": "Guatemala City",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:gt-guatemala-city",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.165,
+          22.279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Hong Kong",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hong Kong",
+        "name": "Hong Kong",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:hk-hong-kong",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Zagreb",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Croatia",
+        "country_code": "HR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Zagreb",
+        "name": "Zagreb",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:hr-zagreb",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Budapest",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Hungary",
+        "country_code": "HU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Budapest",
+        "name": "Budapest",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:hu-budapest",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.828,
+          -6.172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Jakarta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Indonesia",
+        "country_code": "ID",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Jakarta",
+        "name": "Jakarta",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:id-jakarta",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.777,
+          32.089
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tel Aviv",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Israel",
+        "country_code": "IL",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Tel Aviv",
+        "name": "Tel Aviv",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:il-tel-aviv",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.885,
+          19.078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Mumbai",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Mumbai",
+        "name": "Mumbai",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:in-mumbai",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.187,
+          45.466
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Milan",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Italy",
+        "country_code": "IT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Milan",
+        "name": "Milan",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:it-milan",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Palermo",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Italy",
+        "country_code": "IT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Palermo",
+        "name": "Palermo",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:it-palermo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.771,
+          35.683
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Tokyo",
+        "name": "Tokyo",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:jp-tokyo",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Nairobi",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Kenya",
+        "country_code": "KE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nairobi",
+        "name": "Nairobi",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ke-nairobi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.982,
+          37.57
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Seoul",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Korea",
+        "country_code": "KR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Seoul",
+        "name": "Seoul",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:kr-seoul",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.283,
+          54.686
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Vilnius",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Lithuania",
+        "country_code": "LT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Vilnius",
+        "name": "Vilnius",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:lt-vilnius",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Riga",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Latvia",
+        "country_code": "LV",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Riga",
+        "name": "Riga",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:lv-riga",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -103.336,
+          20.668
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Guadalajara",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Mexico",
+        "country_code": "MX",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guadalajara",
+        "name": "Guadalajara",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:mx-guadalajara",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -99.135,
+          19.435
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Mexico City",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Mexico",
+        "country_code": "MX",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Mexico City",
+        "name": "Mexico City",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:mx-mexico-city",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -100.39,
+          20.592
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Querétaro",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Mexico",
+        "country_code": "MX",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Querétaro",
+        "name": "Querétaro",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:mx-queretaro",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [
+          "Kula Lumpur"
+        ],
+        "city": "Kuala Lumpur",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Malaysia",
+        "country_code": "MY",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Kuala Lumpur",
+        "name": "Kuala Lumpur",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:my-kuala-lumpur",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Lagos",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Nigeria",
+        "country_code": "NG",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Lagos",
+        "name": "Lagos",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ng-lagos",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.896,
+          52.369
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Amsterdam",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Netherlands",
+        "country_code": "NL",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Amsterdam",
+        "name": "Amsterdam",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:nl-amsterdam",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Auckland",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "New Zealand",
+        "country_code": "NZ",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Auckland",
+        "name": "Auckland",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:nz-auckland",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.038,
+          -12.063
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Lima",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Peru",
+        "country_code": "PE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Lima",
+        "name": "Lima",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:pe-lima",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Manila",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Philippines",
+        "country_code": "PH",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Manila",
+        "name": "Manila",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ph-manila",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Karachi",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Pakistan",
+        "country_code": "PK",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Karachi",
+        "name": "Karachi",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:pk-karachi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.007,
+          52.233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Warsaw",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Poland",
+        "country_code": "PL",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Warsaw",
+        "name": "Warsaw",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:pl-warsaw",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "San Juan",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Puerto Rico",
+        "country_code": "PR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "San Juan",
+        "name": "San Juan",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:pr-san-juan",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -9.139,
+          38.707
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Lisbon",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Portugal",
+        "country_code": "PT",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Lisbon",
+        "name": "Lisbon",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:pt-lisbon",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.524,
+          25.288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Doha",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Qatar",
+        "country_code": "QA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Doha",
+        "name": "Doha",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:qa-doha",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.106,
+          44.441
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bucharest",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Romania",
+        "country_code": "RO",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Bucharest",
+        "name": "Bucharest",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ro-bucharest",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "Moscow",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ru-moscow",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "St. Petersburg",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "St. Petersburg",
+        "name": "St. Petersburg",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ru-st-petersburg",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.714,
+          24.638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Riyadh",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Riyadh",
+        "name": "Riyadh",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:sa-riyadh",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.074,
+          59.325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Stockholm",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Sweden",
+        "country_code": "SE",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Stockholm",
+        "name": "Stockholm",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:se-stockholm",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.816,
+          1.353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Singapore",
+        "name": "Singapore",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:sg-singapore",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.492,
+          13.754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Bangkok",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Thailand",
+        "country_code": "TH",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Bangkok",
+        "name": "Bangkok",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:th-bangkok",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.964,
+          41.007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Istanbul",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "Türkiye",
+        "country_code": "TR",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Istanbul",
+        "name": "Istanbul",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:tr-istanbul",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Taipei",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Taiwan",
+        "country_code": "TW",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Taipei",
+        "name": "Taipei",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:tw-taipei",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [
+          "Kiev"
+        ],
+        "city": "Kyiv",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Ukraine",
+        "country_code": "UA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Kyiv",
+        "name": "Kyiv",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:ua-kyiv",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.393,
+          33.745
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Atlanta",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Atlanta",
+        "name": "Atlanta",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-atlanta",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.059,
+          42.357
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Boston",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Boston",
+        "name": "Boston",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-boston",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.625,
+          41.876
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Chicago",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chicago",
+        "name": "Chicago",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-chicago",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Columbus",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Columbus",
+        "name": "Columbus",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-columbus",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -96.801,
+          32.773
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Dallas",
+        "name": "Dallas",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-dallas",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.576,
+          41.524
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Davenport",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Davenport",
+        "name": "Davenport",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-davenport",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.981,
+          39.742
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Denver",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Denver",
+        "name": "Denver",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-denver",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -118.243,
+          34.05
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Los Angeles",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Los Angeles",
+        "name": "Los Angeles",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-los-angeles",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.192,
+          25.778
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Miami",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Miami",
+        "name": "Miami",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-miami",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.009,
+          40.71
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "New York",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "New York",
+        "name": "New York",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-new-york",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -112.078,
+          33.446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Phoenix",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Phoenix",
+        "name": "Phoenix",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-phoenix",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.888,
+          37.339
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "San Jose",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "San Jose",
+        "name": "San Jose",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-san-jose",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.329,
+          47.602
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Seattle",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Seattle",
+        "name": "Seattle",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-seattle",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Washington D.C.",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Washington D.C.",
+        "name": "Washington D.C.",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:us-washington-d-c",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "aliases": [],
+        "city": "Hanoi",
+        "confidence": "high",
+        "coordinate_method": "unknown",
+        "country": "Vietnam",
+        "country_code": "VN",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hanoi",
+        "name": "Hanoi",
+        "properties": {
+          "service_tier": "private"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:vn-hanoi",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.048,
+          -26.208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "aliases": [],
+        "city": "Johannesburg",
+        "confidence": "high",
+        "coordinate_method": "legacy",
+        "country": "South Africa",
+        "country_code": "ZA",
+        "entity_type": "edge_pop",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Johannesburg",
+        "name": "Johannesburg",
+        "properties": {
+          "service_tier": "standard"
+        },
+        "provider": "CacheFly",
+        "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+        "record_id": "cachefly:edge_pop:za-johannesburg",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.0.0",
+        "service": "cachefly_network",
+        "site_code": null,
+        "source_collection": "cachefly_network_map",
+        "source_published_at": "2026-03-24",
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+        "source_url": "https://www.cachefly.com/network-map/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,30 @@
+{
+  "atomic_abbreviation_count": 130,
+  "coordinate_methods": {
+    "legacy": 97,
+    "unknown": 31
+  },
+  "directory_row_count": 128,
+  "entity_types": {
+    "edge_pop": 128
+  },
+  "generated_files": [
+    "data/microsoft/front-door-codes.20260804.csv",
+    "data/microsoft/front-door-codes.20260804.geojson"
+  ],
+  "geometry_null": 31,
+  "layer": "front-door-codes",
+  "lifecycle_statuses": {
+    "operational": 128
+  },
+  "location_label_count": 114,
+  "parser": "update_authoritative.py:azure-codes",
+  "raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+  "record_count": 128,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.0.0",
+  "source_sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+  "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation",
+  "unit_warning": "Directory rows and metro asset counts are different source units and must not be added."
+}

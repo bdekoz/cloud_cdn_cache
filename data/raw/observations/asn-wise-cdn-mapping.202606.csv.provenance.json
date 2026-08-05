@@ -1,0 +1,9 @@
+{
+  "media_type": "text/csv",
+  "notes": "Cross-provider ASN matrix published with the study. Retained as corroborating evidence; individual provider CSVs are the normalized inputs because this matrix omits Apple.",
+  "raw_source_ref": "data/raw/observations/asn-wise-cdn-mapping.202606.csv",
+  "retrieved_at": "2026-08-04",
+  "sha256": "5c47277cca2fd249e68a43cc1b6302c8f90dc71e8b73276d63456ee268a8d7cc",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/ASN-wise-CDN-mapping.csv"
+}

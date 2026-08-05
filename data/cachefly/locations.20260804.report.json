@@ -1,0 +1,31 @@
+{
+  "coordinate_methods": {
+    "legacy": 63,
+    "unknown": 24
+  },
+  "entity_types": {
+    "edge_pop": 87
+  },
+  "generated_files": [
+    "data/cachefly/locations.20260804.csv",
+    "data/cachefly/locations.20260804.geojson"
+  ],
+  "geometry_null": 24,
+  "layer": "locations",
+  "lifecycle_statuses": {
+    "operational": 86,
+    "planned": 1
+  },
+  "location_count_from_list": 87,
+  "page_heading_declared_location_count": 88,
+  "parser": "update_authoritative.py:cachefly",
+  "premium_location_count": 2,
+  "private_location_count": 20,
+  "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+  "record_count": 87,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.0.0",
+  "source_sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+  "source_url": "https://www.cachefly.com/network-map/"
+}

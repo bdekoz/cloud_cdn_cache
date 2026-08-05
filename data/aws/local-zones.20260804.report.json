@@ -1,0 +1,28 @@
+{
+  "available_zone_id_count": 45,
+  "coordinate_methods": {
+    "legacy": 41,
+    "unknown": 4
+  },
+  "entity_types": {
+    "local_zone": 45
+  },
+  "generated_files": [
+    "data/aws/local-zones.20260804.csv",
+    "data/aws/local-zones.20260804.geojson"
+  ],
+  "geometry_null": 4,
+  "layer": "local-zones",
+  "lifecycle_statuses": {
+    "operational": 45
+  },
+  "local_zone_group_count": 44,
+  "parser": "update_authoritative.py:local-zones",
+  "raw_source_ref": "data/raw/aws/available-local-zones.20260804.html",
+  "record_count": 45,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.0.0",
+  "source_sha256": "f3a6e3ce2449d296b7f34c481f8d89a27dc9ee2d077e4e7a7e8e1cfed4390d52",
+  "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+}

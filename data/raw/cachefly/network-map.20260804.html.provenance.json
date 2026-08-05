@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.",
+  "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+  "source_published_at": "2026-03-24",
+  "source_url": "https://www.cachefly.com/network-map/"
+}
