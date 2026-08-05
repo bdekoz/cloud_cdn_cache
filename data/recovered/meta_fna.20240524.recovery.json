@@ -1,0 +1,67 @@
+{
+  "coordinate_method": "median_of_legacy_airport_code_cluster",
+  "dataset": "Meta FNA 2024 recovery",
+  "legacy_matched_record_count": 8353,
+  "legacy_record_count": 8353,
+  "match_warning": "Legacy row matching uses ordered airport-code alignment. Repeated airport codes make the per-row link medium-confidence; recovered identity and network fields come directly from the source snapshot and do not depend on this link.",
+  "output_file": "data/recovered/meta_fna.20240524.csv",
+  "output_sha256": "b53916942f26feda222150ded324ae7020abf0f25ed621a10ac27c036d7a58bd",
+  "source_duplicate_hostname_count": 332,
+  "source_duplicate_observation_count": 352,
+  "source_only_record_count": 7,
+  "source_only_records": [
+    {
+      "airport_code": "BNU",
+      "hostname": "scontent.fbnu1-6.fna.fbcdn.net",
+      "ipv4": "189.45.193.145",
+      "ipv6": "2804:30c:1:60:face:b00c:0:a7",
+      "source_row_number": 1
+    },
+    {
+      "airport_code": "TFL",
+      "hostname": "scontent.ftfl4-5.fna.fbcdn.net",
+      "ipv4": "138.59.223.212",
+      "ipv6": "2804:22dc:face:0:face:b00c:0:a7",
+      "source_row_number": 1466
+    },
+    {
+      "airport_code": "REC",
+      "hostname": "scontent.frec10-3.fna.fbcdn.net",
+      "ipv4": "200.133.23.81",
+      "ipv6": "2001:12f0:f78:2:face:b00c:0:a7",
+      "source_row_number": 1774
+    },
+    {
+      "airport_code": "REC",
+      "hostname": "scontent.frec10-4.fna.fbcdn.net",
+      "ipv4": "200.133.23.81",
+      "ipv6": "2001:12f0:f78:2:face:b00c:0:a7",
+      "source_row_number": 1775
+    },
+    {
+      "airport_code": "REC",
+      "hostname": "scontent.frec11-50.fna.fbcdn.net",
+      "ipv4": "179.189.253.17",
+      "ipv6": "2804:1544:0:1:face:b00c:0:a7",
+      "source_row_number": 1776
+    },
+    {
+      "airport_code": "LIM",
+      "hostname": "scontent.flim9-4.fna.fbcdn.net",
+      "ipv4": "190.232.140.209",
+      "ipv6": "2001:1388:9:4:face:b00c:0:a7",
+      "source_row_number": 6935
+    },
+    {
+      "airport_code": "LIM",
+      "hostname": "scontent.flim9-6.fna.fbcdn.net",
+      "ipv4": "190.232.140.209",
+      "ipv6": "2001:1388:9:4:face:b00c:0:a7",
+      "source_row_number": 6936
+    }
+  ],
+  "source_record_count": 8360,
+  "source_unique_hostname_count": 8008,
+  "source_unique_ipv4_asn_count": 1795,
+  "source_unique_ipv6_asn_count": 1748
+}

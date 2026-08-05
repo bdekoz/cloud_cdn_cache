@@ -1,0 +1,74 @@
+{
+  "complete_reconstruction_count": 9501,
+  "confidence_counts": {
+    "high": 8546,
+    "medium": 955,
+    "partial": 6
+  },
+  "dataset": "Netflix OCA 2023 hostname reconstruction",
+  "duplicate_hostname_observation_count": 457,
+  "historical_tail_status": "Unresolved: records omitted by the original SecurityTrails result cap are not recoverable from repository-local evidence.",
+  "input_file": "data/Netflix_OCAs_02-08-2023.csv",
+  "input_record_count": 9507,
+  "input_sha256": "304696af751ae91c6b9342124bc82ec4ac34fe5d3f1d3ff76240816a80654fde",
+  "output_file": "data/recovered/netflix_oca.20230802.csv",
+  "output_sha256": "1e273f86006d6545db7e8d923c8c9f7fc4a406a16596c53eb18a8b2b2fa0c9f6",
+  "partial_reconstruction_count": 6,
+  "partial_records": [
+    {
+      "airport_code": "MGF",
+      "airport_code_number": "1",
+      "c_number": "c002",
+      "hosting_provider": "ISPX Solucoes em Telecomunicacoes SPE Ltda",
+      "hostname_pattern": "ipv6-c002-mgf001-<isp-slug>-isp.1.oca.nflxvideo.net",
+      "ip_version": "IPv6",
+      "source_row_number": 137
+    },
+    {
+      "airport_code": "CPV",
+      "airport_code_number": "1",
+      "c_number": "c002",
+      "hosting_provider": "ISPTEC Sistemas de Comunicacao Eireli",
+      "hostname_pattern": "ipv4-c002-cpv001-<isp-slug>-isp.1.oca.nflxvideo.net",
+      "ip_version": "IPv4",
+      "source_row_number": 1164
+    },
+    {
+      "airport_code": "CKS",
+      "airport_code_number": "1",
+      "c_number": "c001",
+      "hosting_provider": "ISP MAIS TELECOM LTDA",
+      "hostname_pattern": "ipv4-c001-cks001-<isp-slug>-isp.1.oca.nflxvideo.net",
+      "ip_version": "IPv4",
+      "source_row_number": 3350
+    },
+    {
+      "airport_code": "MGF",
+      "airport_code_number": "1",
+      "c_number": "c003",
+      "hosting_provider": "ISPX Solucoes em Telecomunicacoes SPE Ltda",
+      "hostname_pattern": "ipv4-c003-mgf001-<isp-slug>-isp.1.oca.nflxvideo.net",
+      "ip_version": "IPv4",
+      "source_row_number": 3763
+    },
+    {
+      "airport_code": "VOD",
+      "airport_code_number": "1",
+      "c_number": "c004",
+      "hosting_provider": "ISP Alliance a.s.",
+      "hostname_pattern": "ipv6-c004-vod001-<isp-slug>-isp.1.oca.nflxvideo.net",
+      "ip_version": "IPv6",
+      "source_row_number": 5350
+    },
+    {
+      "airport_code": "MGF",
+      "airport_code_number": "1",
+      "c_number": "c002",
+      "hosting_provider": "ISPX Solucoes em Telecomunicacoes SPE Ltda",
+      "hostname_pattern": "ipv4-c002-mgf001-<isp-slug>-isp.1.oca.nflxvideo.net",
+      "ip_version": "IPv4",
+      "source_row_number": 7046
+    }
+  ],
+  "unique_reconstructed_hostname_count": 9044
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "Meta FNA source observations",
+  "license_status": "Upstream redistribution license not stated; verify before publishing.",
+  "mutability_note": "The published Google Sheet is mutable. This manifest identifies the exact retrieved snapshot rather than asserting it is an immutable 2024 export.",
+  "published_at": "2024-05-24",
+  "raw_bytes": 1603419,
+  "raw_file": "data/raw/meta/fna.20240524.retrieved-20260804.csv",
+  "raw_record_count": 8360,
+  "raw_sha256": "5722daed3eb93449943eb1bf4da010f5b995e9fca8b627377cbfd93c6afd682e",
+  "raw_unique_hostname_count": 8008,
+  "retrieved_at": "2026-08-04",
+  "source_export_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTD0zNZAdQOrmUB-vcp1gsWNGbfOk-t53Hfib-ftIWcHbs-4GhCBjzw4J8ZwYjqZpYARe6TvkzF6aMV/pub?output=csv&gid=1062418616&single=true",
+  "source_page_url": "https://anuragbhatia.com/post/2024/05/facebook-fna-update-2024-and-backbone-analysis/"
+}

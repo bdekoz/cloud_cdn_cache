@@ -22,4 +22,15 @@ This is very much an exploration so comments and suggestions are extremely welco
 
 All data licensed under the [Open Data Commons Attribution License (ODC-By) v1.0](https://opendatacommons.org/licenses/by/1-0/)
 
+## Repository layout
+
+- `data/` contains the current provider snapshots.
+- `data/raw/` contains immutable upstream snapshots used for reproducible recovery.
+- `data/recovered/` contains derived records that restore discarded identity and network fields. The original provider snapshots remain unchanged.
+- `archive/` contains superseded historical snapshots.
+- `scripts/` contains deterministic recovery tools, and `tests/validate_recovery.py` validates their checked-in outputs.
+- `docs/` contains the coverage assessment and recovery notes.
+
+The 2024 Meta FNA source fields and the reconstructable 2023 Netflix OCA hostnames have been recovered. See [the recovery record](docs/recovery.20260804.md) for provenance, confidence levels, limitations, and regeneration commands.
+
 I am grateful to [Mozilla](https://mozilla.com) for affording me the time to produce this map. Any errors are of course my own responsibility.
