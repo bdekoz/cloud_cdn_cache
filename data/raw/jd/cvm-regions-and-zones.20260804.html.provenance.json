@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+  "source_published_at": null,
+  "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones"
+}

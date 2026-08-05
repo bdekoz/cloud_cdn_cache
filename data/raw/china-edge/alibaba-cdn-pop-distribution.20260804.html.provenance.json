@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Official public edge/CDN source retained for aggregate coverage assessment; not an itemized POP inventory. Redistribution terms require review.",
+  "raw_source_ref": "data/raw/china-edge/alibaba-cdn-pop-distribution.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "39d296b38bbecd72d04bf3194648c20fe69dc14694b231fafb472935ac269de2",
+  "source_published_at": null,
+  "source_url": "https://help.aliyun.com/zh/cdn/product-overview/pop-distribution"
+}

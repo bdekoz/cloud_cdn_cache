@@ -26,9 +26,12 @@ The repository's original dataset is published under the [Open Data Commons Attr
 ## Repository layout
 
 - `data/` contains the current provider snapshots.
-- `data/manifest.20260804.json` is the consolidated hash/count/source manifest for all normalized layers.
+- `data/manifest.20260804.json` is the consolidated hash/count/source manifest for 19 canonical layers, five derived views, and the China assessment artifacts.
 - `data/google/` contains schema-normalized Google Edge and Google Data Center layers.
 - Provider subdirectories under `data/` contain the 2026-08-04 schema-normalized authoritative refreshes.
+- `data/china/` records the ten-provider mainland public-cloud assessment; provider directories contain generated cloud layers and explicit mainland views.
+- `data/china-edge/` records the separate ten-provider CDN/edge assessment without manufacturing POPs from fleet totals or province coverage.
+- `data/china-colocation/` records the separate GDS, VNET, and Chindata assessment; `data/chindata/` contains the partial code-based current directory.
 - `data/observations/` contains independent evidence kept separate from provider declarations, including Apple CDN presence.
 - `data/quarantine/` preserves unsupported or provenance-conflicted layers without presenting them as current.
 - `data/raw/` contains immutable upstream snapshots used for reproducible recovery.
@@ -43,6 +46,8 @@ The 2024 Meta FNA source fields and the reconstructable 2023 Netflix OCA hostnam
 
 Google Edge and owned data centers are now separate normalized layers. See [the Google layer record](docs/google-layers.20260804.md) for source semantics, updater options, null-geometry handling, and validation commands.
 
-Cloudflare, Azure Front Door, AWS CloudFront and Local Zones, Fastly, CacheFly, Alibaba Cloud, and Tencent Cloud have authoritative normalized refreshes dated 2026-08-04. The June 2026 ASN observation layer adds Google, Netflix, Meta, Akamai, Microsoft, Apple, and CloudFront evidence without conflating observations with physical locations. See the immutable [baseline assessment](docs/assessment.20260804.md), the [reassessment](docs/reassessment.md), and [methods](docs/methods.md).
+Cloudflare, Azure Front Door, AWS CloudFront and Local Zones, Fastly, CacheFly, Alibaba, Tencent, Baidu, Huawei, Volcano, Kingsoft, JD, Tianyi, and the partial Chindata directory have normalized refreshes dated 2026-08-04. Google Edge and owned data centers remain distinct options. China Mobile and China Unicom are explicit public-cloud source gaps; China edge/CDN marketing aggregates and the GDS/VNET portfolio totals remain assessments rather than speculative points. The June 2026 ASN observation layer adds Google, Netflix, Meta, Akamai, Microsoft, Apple, and CloudFront evidence without conflating observations with physical locations. See the immutable [baseline assessment](docs/assessment.20260804.md), the implemented [reassessment](docs/reassessment.md), and [methods](docs/methods.md).
+
+The refinement pipeline uses provider-approved, licensed, public filing/tender, and reproducible measurement evidence. Unauthorized or leaked inventories are not used to fill gaps; source and authorization rules are documented in [methods](docs/methods.md).
 
 I am grateful to [Mozilla](https://mozilla.com) for affording me the time to produce this map. Any errors are of course my own responsibility.

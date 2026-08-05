@@ -1,0 +1,33 @@
+{
+  "availability_zone_count": 14,
+  "coordinate_methods": {
+    "unknown": 22
+  },
+  "entity_types": {
+    "availability_zone": 14,
+    "cloud_region": 8
+  },
+  "excluded_non_mainland_regions": [
+    "ap-singapore-1"
+  ],
+  "financial_region_count": 2,
+  "financial_zone_count": 2,
+  "generated_files": [
+    "data/kingsoft/mainland-regions-and-zones.20260804.csv",
+    "data/kingsoft/mainland-regions-and-zones.20260804.geojson"
+  ],
+  "geometry_null": 22,
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 22
+  },
+  "mainland_region_count": 8,
+  "parser": "update_china.py:kingsoft",
+  "raw_source_ref": "data/raw/kingsoft/kec-regions-and-zones.20260804.html",
+  "record_count": 22,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "source_sha256": "dbde5504164eafaebae1da902e05b5ac7563e4c461124766a5083cbcf015df20",
+  "source_url": "https://docs.ksyun.com/documents/6965"
+}

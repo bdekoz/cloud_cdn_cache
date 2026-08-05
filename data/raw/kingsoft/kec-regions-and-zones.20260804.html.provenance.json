@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/kingsoft/kec-regions-and-zones.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "dbde5504164eafaebae1da902e05b5ac7563e4c461124766a5083cbcf015df20",
+  "source_published_at": "2026-01-09",
+  "source_url": "https://docs.ksyun.com/documents/6965"
+}

@@ -36,7 +36,7 @@
   "record_count": 110,
   "retrieved_at": "2026-08-04",
   "schema": "schema/location.schema.json",
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "source_sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
   "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region"
 }

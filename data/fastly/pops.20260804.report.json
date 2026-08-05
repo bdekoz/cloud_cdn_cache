@@ -21,7 +21,7 @@
   "record_count": 164,
   "retrieved_at": "2026-08-04",
   "schema": "schema/location.schema.json",
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "source_sha256": "62009f2ea2793eb0d9434e637d203486b3a1bc647097d15c7a578340d8050894",
   "source_url": "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/"
 }

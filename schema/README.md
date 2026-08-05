@@ -1,6 +1,15 @@
 # Canonical location schema
 
-`location.schema.json` defines the normalized record used before serializing a provider layer to CSV and GeoJSON. Version `1.0.0` is provider-neutral: service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes.
+`location.schema.json` defines the normalized record used before serializing a provider layer to CSV and GeoJSON. Version `1.1.0` is provider-neutral: service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes.
+
+Version 1.1 adds fields needed to represent Chinese provider catalogs without collapsing unlike products or jurisdictions:
+
+- `parent_record_id` links an availability zone to its published parent region.
+- `jurisdiction_scope` separates mainland China, Hong Kong, Macao, Taiwan, and other/global records.
+- `access_status` keeps public, sales-restricted, invite-only, and dedicated access separate from lifecycle.
+- `service_scope` records the product surface that established membership, such as compute, VPC, Cloud Connect, financial cloud, or colocation.
+- `coordinate_crs` makes WGS 84 (`EPSG:4326`) explicit and prevents source coordinates in GCJ-02 or BD-09 from being silently serialized as GeoJSON.
+- `cloud_resource_pool` represents a provider-published pool when the source does not justify inventing region or availability-zone children.
 
 ## Google classification
 
@@ -24,7 +33,13 @@ These classes must not be combined into a count of equivalent physical assets. A
 | CacheFly | `cachefly_network` | `edge_pop` |
 | Alibaba Cloud | `alibaba_cloud` | `cloud_region`, `availability_zone` |
 | Tencent Cloud | `tencent_cloud` | `cloud_region`, `availability_zone` |
-| Baidu AI Cloud | `baidu_cloud` | `cloud_region` |
+| Baidu AI Cloud | `baidu_cloud` | `cloud_region`, `availability_zone` |
+| Huawei Cloud | `huawei_cloud` | `cloud_region` |
+| Volcano Engine | `volcano_cloud` | `cloud_region`, `availability_zone` |
+| Kingsoft Cloud | `kingsoft_cloud` | `cloud_region`, `availability_zone` |
+| JD Cloud | `jd_cloud` | `cloud_region`, `availability_zone` |
+| China Telecom Tianyi Cloud | `ctyun_cloud` | `cloud_resource_pool` |
+| Chindata | `chindata_colocation` | `data_center` |
 | Multi-provider measurements | `cdn_mapping_observation` | `observed_presence` |
 
 The schema deliberately validates the service naming convention rather than a closed enum. New connectors can therefore be added without invalidating an otherwise compatible schema, but they must register their service here before publication.
@@ -43,6 +58,12 @@ The schema deliberately validates the service naming convention rather than a cl
 ## Location semantics
 
 Coordinates are nullable, but latitude and longitude must either both be numbers or both be `null`. `location_precision` describes what the point means; it must not imply facility-level accuracy for a city or metro centroid. `coordinate_method` records whether the provider supplied the point or it was geocoded or inherited from a legacy layer.
+
+Serialized coordinates are always WGS 84 and use `coordinate_crs=EPSG:4326`. If a Chinese source supplies GCJ-02 or BD-09 coordinates, the original CRS and values belong in `properties`, the conversion must be reproducible, and `coordinate_method` must be `transformed`. A record with null geometry also has null `coordinate_crs`.
+
+`lifecycle_status` answers whether an entity is operational, planned, inactive, or retired. `access_status` answers who may buy or use it. For example, a currently operational Tencent zone can be sales-restricted, and an operational financial-cloud region can be dedicated. These states must not be conflated.
+
+Mainland views are generated as subsets of full provider layers. They reuse canonical IDs and are therefore views, not additional records. Hong Kong is never treated as mainland China merely because a provider groups it on a China-facing documentation page.
 
 For GeoJSON, `[longitude, latitude]` becomes the feature geometry and the remaining canonical fields become feature properties. For CSV, `aliases` and `properties` are encoded as compact JSON values. Both formats are generated from the same ordered canonical record stream.
 

@@ -1,0 +1,32 @@
+{
+  "availability_zone_count": 60,
+  "cloud_region_count": 13,
+  "coordinate_methods": {
+    "legacy": 49,
+    "unknown": 24
+  },
+  "derived_from_layer": "data/alibaba/regions-and-zones",
+  "entity_types": {
+    "availability_zone": 60,
+    "cloud_region": 13
+  },
+  "generated_files": [
+    "data/alibaba/mainland-regions-and-zones.20260804.csv",
+    "data/alibaba/mainland-regions-and-zones.20260804.geojson"
+  ],
+  "geometry_null": 24,
+  "jurisdiction_filter": "mainland_china",
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 73
+  },
+  "parser": "update_authoritative.py:alibaba:mainland",
+  "raw_source_ref": "data/raw/alibaba/regions-and-zones.20260804.html",
+  "record_count": 73,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "service_scope_filter": null,
+  "source_sha256": "e150b5f4b9a11f117cc851a3cb616a512ce5ee4f4821a2eec269bd9bb1939c7f",
+  "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+}

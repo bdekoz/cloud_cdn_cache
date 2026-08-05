@@ -209,6 +209,11 @@ def base_record(
     confidence: str,
     properties: dict[str, Any],
     aliases: list[str] | None = None,
+    parent_record_id: str | None = None,
+    jurisdiction_scope: str | None = None,
+    access_status: str | None = None,
+    service_scope: list[str] | None = None,
+    coordinate_crs: str | None = None,
 ) -> dict[str, Any]:
     source_url, _, _, published = SOURCES[source_key]
     raw_path = source_path(source_key, retrieved_at)
@@ -219,6 +224,10 @@ def base_record(
         provider=provider,
         service=service,
         entity_type=entity_type,
+        parent_record_id=parent_record_id,
+        **({"jurisdiction_scope": jurisdiction_scope} if jurisdiction_scope is not None else {}),
+        **({"access_status": access_status} if access_status is not None else {}),
+        service_scope=service_scope or [],
         source_collection=collection,
         source_record_id=source_record_id,
         name=name,
@@ -234,6 +243,7 @@ def base_record(
         longitude=longitude,
         location_precision=location_precision,
         coordinate_method=coordinate_method,
+        coordinate_crs=coordinate_crs if coordinate_crs is not None else ("EPSG:4326" if latitude is not None else None),
         source_url=source_url,
         raw_source_ref=repo_ref(raw_path),
         source_sha256=sha256(raw_path),
@@ -604,6 +614,8 @@ def _alibaba_place(region_name: str) -> tuple[str | None, str | None, str | None
     if match:
         country_raw, city = match.groups()
         city = re.sub(r"\s*-\s*(?:Local|Partner) Region.*$", "", city).strip()
+        if city == "Hong Kong":
+            return "Hong Kong", "Hong Kong", "HK", aliases
         country_raw = {"China": "China", "US": "United States", "UK": "United Kingdom", "UAE": "United Arab Emirates", "SAU": "Saudi Arabia"}.get(country_raw, country_raw)
         country, code = country_identity(country_raw)
         return city, country, code, aliases
@@ -629,6 +641,9 @@ def _cloud_records(
         lat, lon = resolver.resolve(city, country, region["region_id"])
         closing = "Closing Down" in region["region_name"]
         region_status = "inactive" if closing else "operational"
+        region_properties = region.get("properties", {})
+        region_access = region_properties.get("access_status", "public")
+        region_service_scope = region_properties.get("service_scope", ["public_cloud"])
         records.append(base_record(
             prefix=prefix, identifier=region["region_id"], provider=provider, service=f"{provider_key}_cloud",
             entity_type="cloud_region", collection=f"{provider_key}_regions_and_zones", source_record_id=region["region_id"],
@@ -636,9 +651,12 @@ def _cloud_records(
             subdivision=None, country=country, country_code=country_code, latitude=lat, longitude=lon,
             location_precision="region", coordinate_method="legacy" if lat is not None else "unknown",
             source_key=provider_key, retrieved_at=retrieved_at, confidence="high", aliases=aliases,
-            properties={"declared_zone_count": region["declared_zone_count"], **region.get("properties", {})},
+            access_status=region_access, service_scope=region_service_scope,
+            properties={"declared_zone_count": region["declared_zone_count"], **region_properties},
         ))
+        parent_record_id = f"{prefix}:cloud_region:{slug(region['region_id'])}"
         for zone in region["zones"]:
+            restricted = bool(zone.get("properties", {}).get("sales_restricted"))
             records.append(base_record(
                 prefix=prefix, identifier=zone["zone_id"], provider=provider, service=f"{provider_key}_cloud",
                 entity_type="availability_zone", collection=f"{provider_key}_regions_and_zones", source_record_id=zone["zone_id"],
@@ -646,6 +664,9 @@ def _cloud_records(
                 subdivision=None, country=country, country_code=country_code, latitude=lat, longitude=lon,
                 location_precision="region", coordinate_method="legacy" if lat is not None else "unknown",
                 source_key=provider_key, retrieved_at=retrieved_at, confidence="high",
+                parent_record_id=parent_record_id,
+                access_status=region_access if region_access != "public" else "sales_restricted" if restricted else "public",
+                service_scope=region_service_scope,
                 properties={"parent_region_id": region["region_id"], **zone.get("properties", {})},
             ))
     return records
@@ -702,14 +723,33 @@ def parse_tencent(retrieved_at: str) -> tuple[list[dict[str, Any]], dict[str, An
                 continue
             region_name, region_id, declared, zone_name, zone_id = cells
             if region_id:
-                current = {"region_name": region_name, "region_id": region_id, "declared_zone_count": int(declared), "zones": []}
+                specialized_financial = "Finance" in region_name
+                specialized_automotive = "Self-driving Cloud" in region_name
+                current = {
+                    "region_name": region_name,
+                    "region_id": region_id,
+                    "declared_zone_count": int(declared),
+                    "zones": [],
+                    "properties": {
+                        "access_status": "dedicated" if specialized_financial or specialized_automotive else "public",
+                        "service_scope": ["financial_cloud"] if specialized_financial else ["automotive_cloud"] if specialized_automotive else ["public_cloud"],
+                        "specialized_financial_region": specialized_financial,
+                        "specialized_automotive_region": specialized_automotive,
+                    },
+                }
                 regions.append(current)
             if current:
                 restricted = zone_name.endswith("*")
                 current["zones"].append({"zone_name": zone_name.rstrip(" *"), "zone_id": zone_id, "properties": {"sales_restricted": restricted}})
     resolver = CoordinateResolver(geojson_path=REPO_ROOT / "data/tencent_cloud_data_centers.geojson")
     records = _cloud_records(provider_key="tencent", retrieved_at=retrieved_at, regions=regions, resolver=resolver, place=_tencent_place)
-    return records, {"region_count": len(regions), "availability_zone_count": sum(len(region["zones"]) for region in regions), "sales_restricted_zone_count": sum(zone["properties"]["sales_restricted"] for region in regions for zone in region["zones"])}
+    return records, {
+        "region_count": len(regions),
+        "availability_zone_count": sum(len(region["zones"]) for region in regions),
+        "sales_restricted_zone_count": sum(zone["properties"]["sales_restricted"] for region in regions for zone in region["zones"]),
+        "specialized_region_count": sum(region["properties"]["service_scope"] != ["public_cloud"] for region in regions),
+        "specialized_availability_zone_count": sum(len(region["zones"]) for region in regions if region["properties"]["service_scope"] != ["public_cloud"]),
+    }
 
 
 PARSERS = {
@@ -767,6 +807,53 @@ def main() -> None:
             parser_name=f"update_authoritative.py:{dataset}", schema_path=args.schema, extra_report=extra,
         )
         summaries[dataset] = report
+        if dataset in {"alibaba", "tencent"}:
+            mainland_records = [
+                row for row in records
+                if row["jurisdiction_scope"] == "mainland_china"
+                and (dataset != "tencent" or row["service_scope"] == ["public_cloud"])
+            ]
+            mainland_report = write_layer(
+                records=mainland_records,
+                output_dir=args.output_root / output_dir,
+                layer_name="mainland-regions-and-zones",
+                retrieved_at=args.retrieved_at,
+                source_url=SOURCES[source_key][0],
+                raw_path=source_path(source_key, args.retrieved_at),
+                parser_name=f"update_authoritative.py:{dataset}:mainland",
+                schema_path=args.schema,
+                extra_report={
+                    "derived_from_layer": f"{output_dir}/{layer_name}",
+                    "jurisdiction_filter": "mainland_china",
+                    "service_scope_filter": "public_cloud" if dataset == "tencent" else None,
+                    "cloud_region_count": sum(row["entity_type"] == "cloud_region" for row in mainland_records),
+                    "availability_zone_count": sum(row["entity_type"] == "availability_zone" for row in mainland_records),
+                },
+            )
+            summaries[f"{dataset}-mainland"] = mainland_report
+            if dataset == "tencent":
+                specialized_records = [
+                    row for row in records
+                    if row["jurisdiction_scope"] == "mainland_china" and row["service_scope"] != ["public_cloud"]
+                ]
+                specialized_report = write_layer(
+                    records=specialized_records,
+                    output_dir=args.output_root / output_dir,
+                    layer_name="mainland-specialized-regions-and-zones",
+                    retrieved_at=args.retrieved_at,
+                    source_url=SOURCES[source_key][0],
+                    raw_path=source_path(source_key, args.retrieved_at),
+                    parser_name="update_authoritative.py:tencent:mainland-specialized",
+                    schema_path=args.schema,
+                    extra_report={
+                        "derived_from_layer": f"{output_dir}/{layer_name}",
+                        "jurisdiction_filter": "mainland_china",
+                        "service_scope_filter": ["financial_cloud", "automotive_cloud"],
+                        "cloud_region_count": sum(row["entity_type"] == "cloud_region" for row in specialized_records),
+                        "availability_zone_count": sum(row["entity_type"] == "availability_zone" for row in specialized_records),
+                    },
+                )
+                summaries["tencent-mainland-specialized"] = specialized_report
     print(json.dumps({key: {"record_count": value["record_count"], "geometry_null": value["geometry_null"]} for key, value in summaries.items()}, indent=2, sort_keys=True))
 
 

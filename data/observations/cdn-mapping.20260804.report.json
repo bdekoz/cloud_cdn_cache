@@ -31,7 +31,7 @@
   "record_count": 13638,
   "retrieved_at": "2026-08-04",
   "schema": "schema/location.schema.json",
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "source_files": [
     {
       "dataset": "Google GGC",

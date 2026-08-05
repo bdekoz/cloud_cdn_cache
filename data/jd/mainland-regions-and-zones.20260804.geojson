@@ -1,0 +1,619 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Suqian",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Suqian",
+        "name": "cn-east-1a",
+        "parent_record_id": "jd:cloud_region:cn-east-1",
+        "properties": {
+          "parent_region_id": "cn-east-1"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-east-1a",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-east-1a",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-east-1a",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "cn-east-2a",
+        "parent_record_id": "jd:cloud_region:cn-east-2",
+        "properties": {
+          "parent_region_id": "cn-east-2"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-east-2a",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-east-2a",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-east-2a",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "cn-east-2b",
+        "parent_record_id": "jd:cloud_region:cn-east-2",
+        "properties": {
+          "parent_region_id": "cn-east-2"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-east-2b",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-east-2b",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-east-2b",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "cn-east-2c",
+        "parent_record_id": "jd:cloud_region:cn-east-2",
+        "properties": {
+          "parent_region_id": "cn-east-2"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-east-2c",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-east-2c",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-east-2c",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "cn-north-1a",
+        "parent_record_id": "jd:cloud_region:cn-north-1",
+        "properties": {
+          "parent_region_id": "cn-north-1"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-north-1a",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-north-1a",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-north-1a",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "cn-north-1b",
+        "parent_record_id": "jd:cloud_region:cn-north-1",
+        "properties": {
+          "parent_region_id": "cn-north-1"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-north-1b",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-north-1b",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-north-1b",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "cn-north-1c",
+        "parent_record_id": "jd:cloud_region:cn-north-1",
+        "properties": {
+          "parent_region_id": "cn-north-1"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-north-1c",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-north-1c",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-north-1c",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guangzhou",
+        "name": "cn-south-1a",
+        "parent_record_id": "jd:cloud_region:cn-south-1",
+        "properties": {
+          "parent_region_id": "cn-south-1"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-south-1a",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-south-1a",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-south-1a",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guangzhou",
+        "name": "cn-south-1b",
+        "parent_record_id": "jd:cloud_region:cn-south-1",
+        "properties": {
+          "parent_region_id": "cn-south-1"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-south-1b",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-south-1b",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-south-1b",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guangzhou",
+        "name": "cn-south-1c",
+        "parent_record_id": "jd:cloud_region:cn-south-1",
+        "properties": {
+          "parent_region_id": "cn-south-1"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:availability_zone:cn-south-1c",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-south-1c",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-south-1c",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华东-宿迁 cn-east-1"
+        ],
+        "city": "Suqian",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Suqian",
+        "name": "华东-宿迁 cn-east-1",
+        "parent_record_id": null,
+        "properties": {
+          "declared_zone_count": 1,
+          "source_city_name": "宿迁"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:cloud_region:cn-east-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-east-1",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-east-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华东-上海 cn-east-2"
+        ],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "华东-上海 cn-east-2",
+        "parent_record_id": null,
+        "properties": {
+          "declared_zone_count": 3,
+          "source_city_name": "上海"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:cloud_region:cn-east-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-east-2",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-east-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华北-北京 cn-north-1"
+        ],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "华北-北京 cn-north-1",
+        "parent_record_id": null,
+        "properties": {
+          "declared_zone_count": 3,
+          "source_city_name": "北京"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:cloud_region:cn-north-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-north-1",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-north-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华南-广州 cn-south-1"
+        ],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guangzhou",
+        "name": "华南-广州 cn-south-1",
+        "parent_record_id": null,
+        "properties": {
+          "declared_zone_count": 3,
+          "source_city_name": "广州"
+        },
+        "provider": "JD Cloud",
+        "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+        "record_id": "jd:cloud_region:cn-south-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "jd_cloud",
+        "service_scope": [
+          "compute"
+        ],
+        "site_code": "cn-south-1",
+        "source_collection": "jd_cvm_regions_and_zones",
+        "source_published_at": null,
+        "source_record_id": "cn-south-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

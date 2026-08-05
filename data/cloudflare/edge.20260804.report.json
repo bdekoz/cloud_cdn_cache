@@ -21,7 +21,7 @@
   "record_count": 338,
   "retrieved_at": "2026-08-04",
   "schema": "schema/location.schema.json",
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "source_sha256": "35b387547f03b1e995e562529f28265aac34a623cb38ae9501af3f8409f39c7a",
   "source_url": "https://www.cloudflarestatus.com/api/v2/components.json",
   "status_api_component_count": 471

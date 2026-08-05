@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/volcano/regions-and-zones.20260804.json",
+  "retrieved_at": "2026-08-04",
+  "sha256": "84385367a41e5f6d11a76092822df9327c779a643b3b3c5eac5fd6c118539359",
+  "source_published_at": "2025-09-26",
+  "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en"
+}

@@ -27,7 +27,22 @@ LAYERS = {
     "cachefly/locations": 87,
     "alibaba/regions-and-zones": 137,
     "tencent/regions-and-zones": 84,
+    "baidu/regions-and-zones": 27,
+    "huawei/mainland-regions": 9,
+    "volcano/regions-and-zones": 17,
+    "kingsoft/mainland-regions-and-zones": 22,
+    "jd/mainland-regions-and-zones": 14,
+    "tianyi/vpc-resource-pools": 63,
+    "chindata/data-centers": 4,
     "observations/cdn-mapping": 13638,
+}
+
+VIEWS = {
+    "alibaba/mainland-regions-and-zones": ("alibaba/regions-and-zones", 73),
+    "tencent/mainland-regions-and-zones": ("tencent/regions-and-zones", 31),
+    "tencent/mainland-specialized-regions-and-zones": ("tencent/regions-and-zones", 17),
+    "baidu/mainland-regions-and-zones": ("baidu/regions-and-zones", 25),
+    "volcano/mainland-regions-and-zones": ("volcano/regions-and-zones", 14),
 }
 
 
@@ -51,6 +66,9 @@ def load_csv_coordinates(path: Path) -> dict[str, tuple[float | None, float | No
     result = {}
     with path.open(encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle):
+            assert isinstance(json.loads(row["aliases"]), list)
+            assert isinstance(json.loads(row["service_scope"]), list)
+            assert isinstance(json.loads(row["properties"]), dict)
             lat = float(row["latitude"]) if row["latitude"] else None
             lon = float(row["longitude"]) if row["longitude"] else None
             result[row["record_id"]] = (lat, lon)
@@ -81,13 +99,41 @@ def validate_layers() -> None:
             errors = list(validator.iter_errors(record))
             assert not errors, f"{layer}: {record['record_id']}: {errors[0].message if errors else ''}"
             assert csv_coordinates[record["record_id"]] == (record["latitude"], record["longitude"])
+            assert record["schema_version"] == "1.1.0"
+            assert record["coordinate_crs"] == ("EPSG:4326" if record["latitude"] is not None else None)
+            if record["parent_record_id"] is not None:
+                assert record["parent_record_id"] in set(ids), f"{layer}: missing parent"
             services.add(record["service"])
         assert sum(record["latitude"] is None for record in records) == report["geometry_null"], layer
     assert services == {
         "cloudflare_network", "azure_front_door", "aws_cloudfront", "aws_local_zones",
         "fastly_network", "cachefly_network", "alibaba_cloud", "tencent_cloud",
+        "baidu_cloud", "huawei_cloud", "volcano_cloud", "kingsoft_cloud", "jd_cloud",
+        "ctyun_cloud", "chindata_colocation",
         "cdn_mapping_observation",
     }
+
+
+def validate_views() -> None:
+    schema = json.loads((ROOT / "schema/location.schema.json").read_text(encoding="utf-8"))
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    view_ids: dict[str, set[str]] = {}
+    for view, (parent, expected_count) in VIEWS.items():
+        payload = json.loads((ROOT / "data" / f"{view}.{TAG}.geojson").read_text(encoding="utf-8"))
+        report = json.loads((ROOT / "data" / f"{view}.{TAG}.report.json").read_text(encoding="utf-8"))
+        records = [canonical_from_feature(feature) for feature in payload["features"]]
+        ids = {record["record_id"] for record in records}
+        parent_payload = json.loads((ROOT / "data" / f"{parent}.{TAG}.geojson").read_text(encoding="utf-8"))
+        parent_ids = {feature["properties"]["record_id"] for feature in parent_payload["features"]}
+        assert len(records) == expected_count == report["record_count"], view
+        assert ids <= parent_ids, view
+        assert report["derived_from_layer"] == f"data/{parent}", view
+        assert all(not list(validator.iter_errors(record)) for record in records), view
+        assert all(record["jurisdiction_scope"] == "mainland_china" for record in records), view
+        view_ids[view] = ids
+    assert view_ids["tencent/mainland-regions-and-zones"].isdisjoint(
+        view_ids["tencent/mainland-specialized-regions-and-zones"]
+    )
 
 
 def validate_semantics() -> None:
@@ -114,6 +160,31 @@ def validate_semantics() -> None:
     assert reports["alibaba/regions-and-zones"]["availability_zone_count"] == 105
     assert reports["tencent/regions-and-zones"]["region_count"] == 22
     assert reports["tencent/regions-and-zones"]["availability_zone_count"] == 62
+    assert reports["alibaba/regions-and-zones"]["schema_version"] == "1.1.0"
+    assert reports["tencent/regions-and-zones"]["specialized_region_count"] == 4
+    assert reports["tencent/regions-and-zones"]["specialized_availability_zone_count"] == 13
+    assert reports["baidu/regions-and-zones"]["region_count"] == 8
+    assert reports["baidu/regions-and-zones"]["availability_zone_count"] == 19
+    assert reports["baidu/regions-and-zones"]["mainland_region_count"] == 7
+    assert reports["baidu/regions-and-zones"]["mainland_availability_zone_count"] == 18
+    assert reports["huawei/mainland-regions"]["mainland_region_count"] == 9
+    assert reports["huawei/mainland-regions"]["availability_zone_count"] is None
+    assert reports["volcano/regions-and-zones"]["region_count"] == 4
+    assert reports["volcano/regions-and-zones"]["availability_zone_count_from_explicit_ids"] == 13
+    assert reports["volcano/regions-and-zones"]["source_count_discrepancies"] == [
+        {"declared_zone_count": 3, "explicit_zone_id_count": 4, "region_id": "cn-shanghai"}
+    ]
+    assert reports["kingsoft/mainland-regions-and-zones"]["mainland_region_count"] == 8
+    assert reports["kingsoft/mainland-regions-and-zones"]["availability_zone_count"] == 14
+    assert reports["kingsoft/mainland-regions-and-zones"]["financial_region_count"] == 2
+    assert reports["jd/mainland-regions-and-zones"]["mainland_region_count"] == 4
+    assert reports["jd/mainland-regions-and-zones"]["availability_zone_count"] == 10
+    assert reports["tianyi/vpc-resource-pools"]["resource_pool_count"] == 63
+    assert reports["tianyi/vpc-resource-pools"]["regional_resource_pool_count"] == 40
+    assert reports["tianyi/vpc-resource-pools"]["availability_zone_capable_resource_pool_count"] == 23
+    assert reports["tianyi/vpc-resource-pools"]["availability_zone_records_generated"] == 0
+    assert reports["chindata/data-centers"]["directory_code_count"] == 4
+    assert reports["chindata/data-centers"]["facility_location_count"] == 0
     observations = reports["observations/cdn-mapping"]
     assert observations["record_count"] == observations["geometry_null"] == 13638
     assert observations["provider_counts"]["Apple"] == 974
@@ -133,10 +204,34 @@ def validate_provenance() -> None:
     assert audit["alibaba_speculative_layer"]["feature_count"] == 14
 
 
+def validate_assessments() -> None:
+    cloud = json.loads((ROOT / "data/china/provider-assessment.20260804.json").read_text(encoding="utf-8"))
+    edge = json.loads((ROOT / "data/china-edge/provider-assessment.20260804.json").read_text(encoding="utf-8"))
+    colo = json.loads((ROOT / "data/china-colocation/operator-assessment.20260804.json").read_text(encoding="utf-8"))
+    assert len(cloud["providers"]) == 10
+    assert len(edge["providers"]) == 10
+    assert edge["canonical_location_records_generated"] == 0
+    assert "unauthorized or leaked inventories" in edge["excluded_source_classes"]
+    assert {row["operator"] for row in colo["operators"]} == {"GDS Holdings", "VNET Group", "Chindata"}
+    assert colo["canonical_location_records_generated"] == 4
+    assert not (ROOT / "data/china-mobile").exists()
+    assert not (ROOT / "data/china-unicom").exists()
+
+    tencent = json.loads((ROOT / "data/tencent/regions-and-zones.20260804.geojson").read_text(encoding="utf-8"))
+    records = [canonical_from_feature(feature) for feature in tencent["features"]]
+    restricted = [row for row in records if row["properties"].get("sales_restricted")]
+    assert restricted and all(row["lifecycle_status"] == "operational" for row in restricted)
+    specialized = [row for row in records if {"financial_cloud", "automotive_cloud"} & set(row["service_scope"])]
+    assert len(specialized) == 17 and all(row["access_status"] == "dedicated" for row in specialized)
+
+
 def validate_manifest() -> None:
     manifest = json.loads((ROOT / "data/manifest.20260804.json").read_text(encoding="utf-8"))
-    assert manifest["layer_count"] == 12
-    assert manifest["record_count"] == 14957
+    assert manifest["layer_count"] == 19
+    assert manifest["record_count"] == 15113
+    assert manifest["view_count"] == 5
+    assert sum(view["record_count"] for view in manifest["views"]) == 160
+    assert manifest["schema"]["version"] == "1.1.0"
     assert manifest["schema"]["sha256"] == digest(ROOT / manifest["schema"]["path"])
     assert {layer["layer"] for layer in manifest["layers"]} == {
         "google/edge", "google/data-centers", *LAYERS.keys()
@@ -145,6 +240,12 @@ def validate_manifest() -> None:
         for file_record in layer["files"].values():
             assert digest(ROOT / file_record["path"]) == file_record["sha256"]
         assert sum(layer["entity_types"].values()) == layer["record_count"]
+    for view in manifest["views"]:
+        assert view["view_of"] in {layer["layer"] for layer in manifest["layers"]}
+        for file_record in view["files"].values():
+            assert digest(ROOT / file_record["path"]) == file_record["sha256"]
+    for assessment in manifest["assessments"]:
+        assert digest(ROOT / assessment["path"]) == assessment["sha256"]
 
 
 def validate_regeneration() -> None:
@@ -158,17 +259,42 @@ def validate_regeneration() -> None:
             sys.executable, "-B", str(ROOT / "scripts/update_observations.py"),
             "--retrieved-at", "2026-08-04", "--output-root", str(output_root),
         ], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run([
+            sys.executable, "-B", str(ROOT / "scripts/update_china.py"), "--dataset", "all",
+            "--retrieved-at", "2026-08-04", "--output-root", str(output_root),
+        ], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run([
+            sys.executable, "-B", str(ROOT / "scripts/update_china_edge.py"),
+            "--retrieved-at", "2026-08-04", "--output-root", str(output_root),
+        ], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run([
+            sys.executable, "-B", str(ROOT / "scripts/update_china_colocation.py"),
+            "--retrieved-at", "2026-08-04", "--output-root", str(output_root),
+        ], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
         for layer in LAYERS:
             for extension in ("csv", "geojson"):
                 checked_in = ROOT / "data" / f"{layer}.{TAG}.{extension}"
                 regenerated = output_root / "data" / f"{layer}.{TAG}.{extension}"
                 assert checked_in.read_bytes() == regenerated.read_bytes(), f"non-deterministic output: {layer}.{extension}"
+        for view in VIEWS:
+            for extension in ("csv", "geojson"):
+                checked_in = ROOT / "data" / f"{view}.{TAG}.{extension}"
+                regenerated = output_root / "data" / f"{view}.{TAG}.{extension}"
+                assert checked_in.read_bytes() == regenerated.read_bytes(), f"non-deterministic output: {view}.{extension}"
+        for assessment in (
+            "china/provider-assessment", "china-edge/provider-assessment", "china-colocation/operator-assessment"
+        ):
+            checked_in = ROOT / "data" / f"{assessment}.{TAG}.json"
+            regenerated = output_root / "data" / f"{assessment}.{TAG}.json"
+            assert checked_in.read_bytes() == regenerated.read_bytes(), f"non-deterministic output: {assessment}"
 
 
 def main() -> None:
     validate_layers()
+    validate_views()
     validate_semantics()
     validate_provenance()
+    validate_assessments()
     validate_manifest()
     validate_regeneration()
     print(f"validated {sum(LAYERS.values()):,} canonical records across {len(LAYERS)} refreshed layers")

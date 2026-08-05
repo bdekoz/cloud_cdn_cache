@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+  "source_published_at": "2026-01-29",
+  "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html"
+}

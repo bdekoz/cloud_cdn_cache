@@ -12,6 +12,10 @@
     "provider",
     "service",
     "entity_type",
+    "parent_record_id",
+    "jurisdiction_scope",
+    "access_status",
+    "service_scope",
     "source_collection",
     "source_record_id",
     "name",
@@ -27,6 +31,7 @@
     "longitude",
     "location_precision",
     "coordinate_method",
+    "coordinate_crs",
     "source_url",
     "raw_source_ref",
     "source_sha256",
@@ -39,7 +44,7 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "1.0.0"
+      "const": "1.1.0"
     },
     "record_id": {
       "type": "string",
@@ -69,10 +74,50 @@
         "data_center",
         "cloud_region",
         "availability_zone",
+        "cloud_resource_pool",
         "local_zone",
         "embedded_cache",
         "observed_presence"
       ]
+    },
+    "parent_record_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-z0-9]+(?::[a-z0-9][a-z0-9._-]*){2,}$",
+      "description": "Canonical parent identity for hierarchical entities such as an availability zone within a region."
+    },
+    "jurisdiction_scope": {
+      "enum": [
+        "mainland_china",
+        "hong_kong",
+        "macau",
+        "taiwan",
+        "other",
+        "global",
+        "unknown"
+      ]
+    },
+    "access_status": {
+      "enum": [
+        "public",
+        "sales_restricted",
+        "invite_only",
+        "dedicated",
+        "not_applicable",
+        "unknown"
+      ],
+      "description": "Commercial or allocation posture, kept independent from operational lifecycle."
+    },
+    "service_scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9_]*$"
+      },
+      "uniqueItems": true,
+      "description": "Products or infrastructure surfaces for which the source asserts this location; empty means no narrower scope was established."
     },
     "source_collection": {
       "type": "string",
@@ -180,8 +225,20 @@
         "provider",
         "geocoded",
         "legacy",
+        "transformed",
         "unknown"
       ]
+    },
+    "coordinate_crs": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "EPSG:4326",
+        null
+      ],
+      "description": "CRS of serialized coordinates. Source systems such as GCJ-02 or BD-09 must be recorded in properties when transformed."
     },
     "source_url": {
       "type": "string",
@@ -268,6 +325,45 @@
         "properties": {
           "latitude": {
             "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "latitude": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "coordinate_crs": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "coordinate_crs": {
+            "const": "EPSG:4326"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "entity_type": {
+            "const": "availability_zone"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "parent_record_id": {
+            "type": "string"
           }
         }
       }

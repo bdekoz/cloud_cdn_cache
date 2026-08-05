@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+  "source_published_at": "2026-04-24",
+  "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+}

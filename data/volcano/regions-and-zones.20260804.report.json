@@ -1,0 +1,37 @@
+{
+  "availability_zone_count_declared": 12,
+  "availability_zone_count_from_explicit_ids": 13,
+  "coordinate_methods": {
+    "unknown": 17
+  },
+  "entity_types": {
+    "availability_zone": 13,
+    "cloud_region": 4
+  },
+  "generated_files": [
+    "data/volcano/regions-and-zones.20260804.csv",
+    "data/volcano/regions-and-zones.20260804.geojson"
+  ],
+  "geometry_null": 17,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 17
+  },
+  "offline_predecessor_document": "LibraryID 6534 / DocumentID 1131814 now returns document-is-not-online",
+  "parser": "update_china.py:volcano",
+  "raw_source_ref": "data/raw/volcano/regions-and-zones.20260804.json",
+  "record_count": 17,
+  "region_count": 4,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "source_count_discrepancies": [
+    {
+      "declared_zone_count": 3,
+      "explicit_zone_id_count": 4,
+      "region_id": "cn-shanghai"
+    }
+  ],
+  "source_sha256": "84385367a41e5f6d11a76092822df9327c779a643b3b3c5eac5fd6c118539359",
+  "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en"
+}

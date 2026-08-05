@@ -1,0 +1,708 @@
+<!DOCTYPE html> <html lang="zh-CN" site="hk"> <head> <meta name="referrer" content="no-referrer-when-downgrade" /> <link rel="canonical" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html" /> <title>云日志服务Log4j2 SDK_使用SDK接入LTS_日志接入_用户指南_云日志服务 LTS-华为云</title> <meta name="keywords" content="云日志服务Log4j2 SDK,使用SDK接入LTS,用户指南" /> <meta name="description" content="云日志服务Java SDK提供了与log4j2适配的扩展插件，可以直接在log4j2中配置华为云appender，将通过log4j2产生的日志直接上报至云日志服务。HTTPS参考注册华为账号并开通华为云中操作，完成注册。确认云日志服务的区域，请用户根据所在区域，选择RegionName。如何获取访问密钥AK/SK。获取华为云账号的项目ID" /> <meta charset="UTF-8" /> <meta name="applicable-device" content="pc,mobile" /> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /> <meta name="baidu-site-verification" content="nsMgQr28vc" /> <meta http-equiv="x-dns-prefetch-control" content="on" /> <meta name="cache" content="pep-disable-cache" /> <script
+        src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/special_iframe.js"></script> <meta name="templateName" content="doc-common-detail-pep2.0-module" /> <meta name="referrer" content="no-referrer-when-downgrade" /> <meta name="pep-template-version" content="1.9.23" /> <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;" /> <meta property="og:title" content="云日志服务Log4j2 SDK_云日志服务 LTS-华为云"> <meta property="og:type" content="website"> <meta property="og:description" content="云日志服务Java SDK提供了与log4j2适配的扩展插件，可以直接在log4j2中配置华为云appender，将通过log4j2产生的日志直接上报至云日志服务。HTTPS参考注册华为账号并开通华为云中操作，完成注册。确认云日志服务的区域，请用户根据所在区域，选择RegionName。如何获取访问密钥AK/SK。获取华为云账号的项目ID"> <meta property="og:url" content="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"> <meta property="og:site_name" content="Huawei Cloud"> <meta property="og:image" content="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/seo/og.jpeg"> <meta property="twitter:title" content="云日志服务Log4j2 SDK_云日志服务 LTS-华为云"> <meta property="twitter:type" content="website"> <meta property="twitter:description" content="云日志服务Java SDK提供了与log4j2适配的扩展插件，可以直接在log4j2中配置华为云appender，将通过log4j2产生的日志直接上报至云日志服务。HTTPS参考注册华为账号并开通华为云中操作，完成注册。确认云日志服务的区域，请用户根据所在区域，选择RegionName。如何获取访问密钥AK/SK。获取华为云账号的项目ID"> <meta property="twitter:url" content="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"> <meta property="twitter:site_name" content="Huawei Cloud"> <meta property="twitter:image" content="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/seo/twitter.jpeg"> <link rel="icon" href="https://www.huaweicloud.com/favicon.ico"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-global-resources/1.2.16/css/hk/portal-global.css"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-hk/2.0.59/index.css"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.css"> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.16/js/globalInfo.min.js" crossorigin="anonymous"></script> <!-- --> <meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw" /> <meta name="sogou_site_verification" content="u4x6sJNooE" /> <link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" /> <link rel="dns-prefetch" href="https://portal.hc-cdn.com" /> <link rel="dns-prefetch" href="https://support.huaweicloud.com" /> <link rel="dns-prefetch" href="https://activity.huaweicloud.com" /> <link rel="dns-prefetch" href="https://portal.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" /> <!-- --> <script>
+    window.dataLayer = window.dataLayer || [];
+    window.$closeBiReport2018 = true
+
+    window.$siteInfo = window.$siteInfo || {};
+    window.$siteInfo.site = "hk";
+    window.$siteInfo.lang = "zh-cn".replace("_", "-");
+</script> <script>
+        (function(){
+            window.recordTier = window.recordTier || [];
+            window.recordTier.push({eventName: 'dtm.js'});
+        })();
+    </script> <script>window.$cssList = [];window.$aioList = [];window.$aioCdnPrefix = 'https://res.hc-cdn.com/';</script> <script src="https://res.hc-cdn.com/cnpm-portal-utils/1.4.33/PortalUtils.umd.js"></script> <script type="importmap">
+        {
+         "imports": {
+           "svelte": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/index.js",
+           "svelte/store": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/store.js",
+           "svelte/motion": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/motion.js",
+           "svelte/transition": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/transition.js",
+           "svelte/animate": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/animate.js",
+           "svelte/easing": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/easing.js",
+           "svelte/events": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/events.js",
+           "svelte/internal/client": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-client.js",
+           "svelte/legacy": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/legacy.js",
+           "svelte/reactivity": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity.js",
+           "svelte/reactivity/window": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity-window.js",
+           "svelte/attachments": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/attachments.js",
+           "svelte/internal/disclose-version": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-disclose-version.js"
+          }
+        }
+      </script> <script>
+        window.gConfig =  window.gConfig || {};
+        window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+        var hClassName ;
+        if(window.gConfig.isMobile) {
+          hClassName = ' phone';
+        } else {
+          hClassName = ' pc';
+        }
+        if(window.$cssList) {
+          for(var i=0; i<window.$cssList.length; i++) {
+            document.write('<link rel="stylesheet" href="'+window.$cssList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+          }
+        }
+        var root = document.documentElement;
+        root.className += hClassName ;
+    </script> <script>
+    window.gConfig =  window.gConfig || {};
+    window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+    var hClassName;
+    if(window.gConfig.isMobile){
+        hClassName = ' phone';
+    }else{
+        hClassName = ' pc';  
+    }
+    if(window.$aioList) {
+        for(var i=0; i<window.$aioList.length; i++) {
+            if(window.$aioCdnPrefix){
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="'+window.$aioCdnPrefix+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            } else {
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/'+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            }
+            
+        }
+    }
+    var root = document.documentElement;
+    root.className += hClassName ; 
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.gConfig.seed.push({
+        name: '@cloud/link-to',
+        data: {
+            "packages": {
+                "@cloud/link-to": {
+                    "path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+                    "version": "3.1.12"
+                }
+            }
+        }
+    });
+</script> <link href="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/css/index_revision.css?20240716&sttl=3.0.81" rel="stylesheet" /> <link href="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/css/default.min.css" rel="stylesheet" /> <link rel="alternate" hreflang="en-us" href="https://support.huaweicloud.com/intl/en-us/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="id-id" href="https://support.huaweicloud.com/intl/id-id/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="es-us" href="https://support.huaweicloud.com/intl/es-us/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="pt-br" href="https://support.huaweicloud.com/intl/pt-br/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="tr-tr" href="https://support.huaweicloud.com/intl/tr-tr/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="ar-ae" href="https://support.huaweicloud.com/intl/ar-mena/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="th-th" href="https://support.huaweicloud.com/intl/th-th/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="zh-hk" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="ja-jp" href="https://support.huaweicloud.com/intl/ja-jp/usermanual-lts/lts_03_0003.html" /> <link rel="alternate" hreflang="x-default" href="https://support.huaweicloud.com/intl/en-us/usermanual-lts/lts_03_0003.html" /> <script>
+        // 规避资料不规范出现这些未定义的方法
+        function image_size() { }
+        function highlightSearch() { }
+        function initImageViewer(Selector) { }
+    </script> <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "文档首页",
+            "item": "https://support.huaweicloud.com/intl/zh-cn/index.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "云日志服务 LTS",
+            "item": "https://support.huaweicloud.com/intl/zh-cn/lts/index.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "用户指南",
+            "item": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_04_0115.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "日志接入",
+            "item": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_02_0030.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "使用SDK接入LTS",
+            "item": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0005.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "云日志服务Log4j2 SDK",
+            "item": ""
+            }
+            ]
+        }
+    </script> </head> <body class="scrolled"> <div id="header" bi_parent_name="navigation" meta-data-adjust-app="hide"> <div class="header-container"> <div class="header-prompt"> <div class="header-prompt-wrapper"> <div class="header-prompt-content"> <i class="por-icon por-icon-error"></i> <p>检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 <a href="https://www.huaweicloud.com/intl/zh-cn">https://www.huaweicloud.com/intl/zh-cn</a></p> </div> <div class="header-prompt-radio"> <i class="header-prompt-checkbox active"></i> <p>不再显示此消息</p> <i class="header-prompt-closed por-icon por-icon-close"></i> </div> </div></div> <div class="header-topnav"> <div class="header-topnav-wrapper"> <li class="header-lang "> <div class="header-lang-current"><i class="header-icon-earth"></i><span class="header-lang-label">Intl-简体中文</span><i class="header-icon-arrow-down"></i></div> <div class="header-lang-list"> <div class="header-site" bi_parent_name="International"> <div class="header-site-left">International</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="javascript:changeLangNew('en-us')">English</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('id-id')">Bahasa Indonesia</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('es-us')">Español</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('pt-br')">Português</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('tr-tr')">Türkçe</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('ar-mena')">عربي</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('th-th')">ไทย</a></li> <li class="header-lang-item active"><a href="javascript:changeLangNew('zh-cn')">简体中文</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('ja-jp')">日本語</a></li> </ul> </div> <div class="header-site" bi_parent_name="中国站"> <div class="header-site-left">中国站</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="//www.huaweicloud.com/">简体中文</a></li> </ul> </div> <div class="header-site" bi_parent_name="Europe"> <div class="header-site-left">Europe</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/">English</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/de-de/">Deutsch</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/es-es/">Español</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/fr-fr/">Français</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/nl-nl/">Nederlands</a></li> </ul> </div> </div> </li> </div></div> <div class="header-wrapper"> <div class="header-bottom"> <div class="header-bottom-wrapper"> <a class="header-logo" rel="nofollow" bi_name="logo" title="Huawei Cloud" href="https://www.huaweicloud.com/intl/zh-cn/"> <img src="https://res-static.hc-cdn.cn/cloudbu-site/intl/zh-cn/yunying/header-new/logo.png" alt="Huawei Cloud"> </a> <div class="header-nav"> <div class="header-nav-scroll"> <ul class="header-nav-list"> <li data-key="product"> <a data-href="https://www.huaweicloud.com/intl/zh-cn/product/"> <span>产品</span> </a> </li> <li data-key="solution"> <a data-href="https://www.huaweicloud.com/intl/zh-cn/solution/"> <span>解决方案</span> </a> </li> <li data-key="price"> <a data-href="https://www.huaweicloud.com/intl/zh-cn/pricing.html"> <span>定价</span> </a> </li> <li data-key="market"> <a data-href="https://marketplace.huaweicloud.com/intl"> <span>云商店</span> </a> </li> <li data-key="partner"> <a data-href="https://www.huaweicloud.com/intl/zh-cn/partners/"> <span>伙伴</span> </a> </li> <li data-key="developer"> <a data-href="https://developer.huaweicloud.com/intl/en-us/"> <span>开发者</span> </a> </li> <li data-key="support"> <a data-href="https://www.huaweicloud.com/intl/zh-cn/service/index.html"> <span>服务</span> </a> </li> <li data-key="about"> <a data-href="https://www.huaweicloud.com/intl/zh-cn/about/index.html"> <span>了解华为云</span> </a> </li> </ul> </div> <div class="header-bottom-mask"></div> <div class="header-nav-hover-line"></div> </div> <div class="header-tools"> <div class="header-search J-header-search simplify" bi_parent_name="search"> <form class="header-search-inner J-serach-form" tabindex="-1" data-api-search-url="https://www.huaweicloud.com/intl/zh-cn/s/" data-api-report="https://portal-intl.huaweicloud.com/stats/pip.gif" data-api-hot="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC&amp;language=zh-cn" data-api-autoword="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot=""> <div class="header-search-content J-search-content"> <input class="J-search-input" id="header-navigation-search-input" maxlength="128" type="text" data-active-placeholder="搜索" autocomplete="off"> <div class="close-icon"></div> <button type="submit" class="header-search-submit" bi_name="#header-navigation-search-input"> <i></i> </button> <i class="por-icon por-icon-cancel header-search-close J-search-close"></i> <div class="header-search-droplist J-search-drop J-search-autoword" data-clickable-asyn="true"> <div class="J-search-hot"> <div class="J-search-popular" bi_parent_name="recommend"> <div class="J-search-title"></div> <ul class="J-search-popular-content"> </ul> </div> </div> <div class="J-search-related" bi_parent_name="related"> <ul></ul> <div class="J-search-keyWordsAll"><a>“<span></span>”的所有结果 <i class="header-icon-arrow-right"></i></a></div> </div> </div> </div> </form> <div class="header-search-button"> <input class="search-default" type="text" data-active-placeholder="搜索" autocomplete="off" placeholder="搜索"> <i></i> </div> </div> <div class="header-menu-search-mb"> <span class="header-icon-search"></span> </div> <ul class="header-tools-right header-main"> <li><a href="https://www.huaweicloud.com/intl/zh-cn/contact-sales.html" rel="nofollow">联系我们</a></li> <li><a href="https://support.huaweicloud.com/intl/zh-cn/index.html">文档</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=zh-cn" rel="nofollow">控制台</a></li> <li class="header-login-mobile"> <span class="header-icon-user js-login"></span> <div class="header-user-info user-info-layer user-unlogin header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"><a href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/accountindex/accountInfo" target="_blank" bi_name="账号中心" rel="nofollow">账号中心</a></li> <li><a href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/allview" target="_blank" bi_name="费用与成本" rel="nofollow">费用与成本</a></li> <li><a href="https://console-intl.huaweicloud.com/ticket/?region=ap-southeast-1&amp;locale=zh-cn#/ticketindex/createIndex" target="_blank" bi_name="工单管理" rel="nofollow">工单管理</a></li> <li class="message"><a href="https://console-intl.huaweicloud.com/mc/?locale=zh-cn#/" target="_blank" bi_name="未读消息" rel="nofollow">未读消息</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=zh-cn" target="_blank" bi_name="管理控制台" class="mb-special" rel="nofollow">管理控制台</a></li> <li class="isVendor" style="display: none;"><a href="https://account-intl.huaweicloud.com/obmgr/?locale=zh-cn#/obmgr/index" target="_blank" bi_name="伙伴中心" rel="nofollow">伙伴中心</a></li> <li class="header-user-info-split "></li> <li class="header-user-info-item-account account-item button-container"> <a class="header-user-info-button-common" data-login-href="https://auth.huaweicloud.com/authui/login.html?locale=zh-cn&amp;service=" href="https://auth.huaweicloud.com/authui/login.html?locale=zh-cn&amp;service=" target="_blank" rel="nofollow">登录</a> <a class="header-user-info-button-red js-register" data-register-href="https://reg.huaweicloud.com/registerui/intl/m/register.html?hwid=login&amp;locale=zh-cn&amp;service=" href="https://reg.huaweicloud.com/registerui/intl/m/register.html?hwid=login&amp;locale=zh-cn&amp;service=" target="_blank" rel="nofollow">注册</a> </li> </ul> </div></li><li class="header-login"><a data-login-href="https://auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=" href="https://auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=" rel="nofollow" class="btn js-login">登录</a></li> <li class="header-register"><a href="https://reg.huaweicloud.com/registerui/intl/register.html?locale=zh-cn&amp;service=" class="btn js-register" rel="nofollow"> 注册 </a></li><li class="header-user user-info"> <div class="header-user-avator"> <img class="header-tool-user-avator-img account-pic lazyload" data-src="//res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/v2_resources/images/global/headPic.png?sttl=20180413"> </div> <div class="header-user-name"><span class="my-acct"></span><i class="header-nav-item-icon"></i></div> <div class="header-user-info user-info-layer header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"> <a href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/accountindex/accountInfo" target="_blank" bi_name="账号中心" rel="nofollow">账号中心</a> </li> <li><a href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/allview" target="_blank" bi_name="费用与成本" rel="nofollow">费用与成本</a> </li> <li><a href="https://console-intl.huaweicloud.com/ticket/?region=ap-southeast-1&amp;locale=zh-cn#/ticketindex/createIndex" target="_blank" bi_name="工单管理" rel="nofollow">工单管理</a> </li> <li class="message"><a href="https://console-intl.huaweicloud.com/mc/?locale=zh-cn#/" target="_blank" bi_name="未读消息" rel="nofollow">未读消息</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=zh-cn" target="_blank" bi_name="管理控制台" class="mb-special" rel="nofollow">管理控制台</a> </li> <li class="isVendor" style="display: none;"><a href="https://account-intl.huaweicloud.com/obmgr/?locale=zh-cn#/obmgr/index" target="_blank" bi_name="伙伴中心" rel="nofollow">伙伴中心</a></li> <li class="header-user-info-split "></li> <li class="logout"> <a href="#" class="bottom-username" rel="nofollow"><span class="my-acct"></span></a> <a class="logout-btn" mate_data_ts="intl_v3_top_navigation.click.logout_20170820" href="https://portal-intl.huaweicloud.com/index/logout" rel="nofollow"> 退出登录</a> </li> </ul> </div></li> </ul> <div class="header-menu-mb" bi_name="HamburgNavigation" data-clickable="true"> <span></span> <span></span> <span></span> </div></div> </div></div> <script type="text/html" id="holder-drop"></script> <script type="text/html" id="holder-mbnav"></script> <div class="header-mbshearch header-backdrop" bi_parent_name="search_mb"> <div class="header-mbshearch-innner"> <form class="header-mbshearch-form" action method="get" data-api-search-url="https://www.huaweicloud.com/intl/zh-cn/s/" data-api-hot="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC&amp;language=zh-cn" data-api-report="https://portal-intl.huaweicloud.com/stats/pip.gif" data-api-autoword="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot=""> <div class="header-mbshearch-form-row"> <div><div class="header-mbshearch-input-box"><i class=""></i><input type="text" maxlength="128" class="header-mbshearch-input" autocomplete="off"></div></div> <div><a class="header-mbshearch-cancel">取消</a></div> </div> </form> <div class="header-mbshearch-droplist" data-clickable-asyn="true"> <div class="J-mbshearch-hot"> <div class="J-mbshearch-popular"> <div class="J-mbshearch-title"></div> <ul class="J-mbshearch-popular-content"> </ul> </div> </div> <ul class="J-mbshearch-related"> </ul> </div> </div></div> </div> </div></div> <script>
+  // 国际站移动端文字超长情况下自适应宽度
+  $('body').addClass('por-tab-self-adaption')
+</script> <div id="content" class="help-page home-page" bi_parent_name="support"> <div bi_parent_name="hk-content"> <div> <a id="support-hidden-menu" hidden href="/intl/zh-cn/lts/v3_support_leftmenu_fragment.html"></a> <a id="support-hidden-index" hidden href="/intl/zh-cn/support_all_doc_fragment.html "></a> </div> <div class="support-section support-content" id="support-content"> <div class="support-body" data-prod="lts" bi_parent_name="lts_main"> <div class="wrapper"> <div class="support-section support-nav" id="support-nav"></div> <script>
+    !(function (win, $) {
+        !(function initAllDoc() {
+            const origin = window.location.origin;
+            const url = `${origin}/intl/zh-cn/support_all_doc_fragment.html`;
+            $.ajax({
+                type: 'get',
+                url: url,
+                timeout: 5000,
+                success: function (data) {
+                    initBase(data);
+                },
+            });
+        })();
+
+        function initBase(allDoc) {
+            let url = '';
+            let code = 'lts' || '';
+            const origin = window.location.origin;
+
+            if (code === 'pcre' && queryString('product')) {
+                code = queryString('product');
+            }
+            if (code) {
+                url = `${origin}/intl/zh-cn/${code}/v3_support_leftmenu_fragment.html`;
+            }
+            $.ajax({
+                type: 'get',
+                url: url,
+                timeout: 5000,
+                success: function (data) {
+                    initCommon(data, allDoc, code);
+                },
+            });
+        }
+
+        function queryString(key) {
+            var url = window.location.href;
+            var val = url.match(new RegExp('[?&]' + key + '=([^&#]*)(&?)', 'i'));
+            return val ? val[1] : val;
+        }
+
+        function initCommon(data, allDoc, code) {
+            var peplang = $('html').attr('lang').toLowerCase();
+            var scripts = [
+                "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/common_revision.min.js?20240716&sttl=3.0.81",
+                "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/maintainable_revision.min.js?20240716&sttl=3.0.81"
+            ];
+            $(data).find('ul.help-tsr li.nav-item').eq(1).find('a').attr('target', '_blank').removeClass('ajax-nav');
+            $('#support-nav').html($(data));
+            $('#support-nav').find('.side-nav-menu .side-menu-box').html($(allDoc));
+            if (peplang === 'es-us' || peplang === 'pt-br' || peplang === 'ja-jp') {
+                $('#support-nav .side-nav').find('.nav-item.level1').each((_index, item) => {
+                    if ($(item).attr('data-append') === 'false' && $(item).next().attr('data-append') === 'true') {
+                        $(item).after(`<li class="nav-item level1 append-tip"><a style="padding: 0;font-size: 12px;overflow: visible;max-height: initial;-webkit-line-clamp: initial;">以下内容暂无该语言版本，请查阅英文版本。</a></li>`);
+                    }
+                    if ($(item).attr('data-append') === 'true') {
+                        $(item).find('a').attr('target', '_blank');
+                    }
+                })
+            };
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            };
+        }
+        !(function () {
+            var sWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            if (sWidth >= 768) {
+                $('.side-menu-box .item.item-search-mb').remove();
+            } else {
+                $('.side-menu-box .item.item-search-pc').remove();
+            }
+        })();
+    })(window, jQuery);
+</script> <div class="support-main" data-handbook-type="usermanual"> <span class="move-line"></span> <div class="crumbs"> <a class="link help-link" href="/intl/zh-cn/index.html" mate_data_ts_v2="zh-cn_support_detail_lts_breadcrumb.click_文档首页">文档首页</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/intl/zh-cn/lts/index.html" mate_data_ts_v2="zh-cn_support_detail_lts_breadcrumb.click_云日志服务 LTS">云日志服务 LTS</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_04_0115.html" mate_data_ts_v2="zh-cn_support_detail_lts_breadcrumb.click_用户指南">用户指南</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_02_0030.html" mate_data_ts_v2="zh-cn_support_detail_lts_breadcrumb.click_日志接入">日志接入</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0005.html" mate_data_ts_v2="zh-cn_support_detail_lts_breadcrumb.click_使用SDK接入LTS">使用SDK接入LTS</a><span>&#47;</span> <span class="text">云日志服务Log4j2 SDK</span> </div> <div class="help-content help-center-document cf" data-current-handbookcode="usermanual-lts" data-handbook-type="usermanual"> <div id="adOutsideDiv"><div id="helpAdDiv"></div></div> <div class="updateTime"> 更新时间：<span class="updateInfo">2026-02-11 GMT+08:00</span> <div class="doc-tips"> </div> </div> <div class="help-view-pdf" mate_data_ts_v2="zh-cn_support_detail_lts.click_查看PDF"> <a target="_blank" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts-usermanual-pdf.pdf"><i></i><span>查看PDF</span></a> </div> <div class="help-view-share"> <a href="javascript:void(0);"><i></i><span>分享</span></a> <div class="share-content"> <ul class="share-list"> <li class="share-item share-x-com" mate_data_ts_v2="zh-cn_support_detail_lts.click_x.com"> <a href="javascript:void(0);"><i></i><span>x.com</span></a> </li> <li class="share-item share-facebook" mate_data_ts_v2="zh-cn_support_detail_lts.click_Facebook"> <a href="javascript:void(0);"><i></i><span>Facebook</span></a> </li> <li class="share-item share-linked-in" mate_data_ts_v2="zh-cn_support_detail_lts.click_LinkedIn"> <a href="javascript:void(0);"><i></i><span>LinkedIn</span></a> </li> <li class="share-item share-copy" mate_data_ts_v2="zh-cn_support_detail_lts.click_copy_link"> <a href="javascript:void(0);"><i></i><span data-copy-text="复制链接" data-copied-text="复制成功">复制链接</span></a> </li> </ul> </div> </div> <div class="share-item share-copy-fixed"> <i class="copy-success"></i> <p>链接复制成功！</p> <span class="copy-close"></span> </div> <a name="lts_03_0003"></a><a name="lts_03_0003"></a> <div class="articleBoxWithoutHead"> <h1 class="topicTitle-h1">云日志服务Log4j2 SDK</h1> <div id="body8662426"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p17498175715817">云日志服务Java SDK提供了与log4j2适配的扩展插件，可以直接在log4j2中配置华为云appender，将通过log4j2产生的日志直接上报至云日志服务。</p> <div class="section" id="lts_03_0003__zh-cn_topic_0000002118286066_section18693105318511"> <h4 class="sectiontitle">传输协议</h4> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p19560155745115">HTTPS</p> </div> <div class="section" id="lts_03_0003__zh-cn_topic_0000002118286066_section681418167538"> <h4 class="sectiontitle">使用前提</h4> <ul id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_ul79661134122519"> <li id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_li99661347254">参考<a href="https://support.huaweicloud.com/intl/zh-cn/usermanual-account/account_id_001.html" target="_blank" rel="noopener noreferrer">注册华为账号并开通华为云</a>中操作，完成注册。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_li16966434122514">确认云日志服务的区域，请用户根据所在区域，选择RegionName。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_li49661834192510"><a href="https://support.huaweicloud.com/intl/zh-cn/iam_faq/iam_01_0618.html" target="_blank" rel="noopener noreferrer">如何获取访问密钥AK/SK</a>。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_li18966143411251">获取华为云账号的项目ID（project id），详细步骤请参见<a href="https://support.huaweicloud.com/intl/zh-cn/usermanual-ca/ca_01_0002.html" target="_blank" rel="noopener noreferrer">API凭证</a>。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_li1966183415251">获取需要上报到LTS的<a href="#lts_03_0003__zh-cn_topic_0000002118286066_li16213910519">日志组ID</a>和<a href="#lts_03_0003__zh-cn_topic_0000002118286066_li521209751">日志流ID</a>。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_li773664311319">已安装Java开发环境。云日志服务Java SDK支持JDK1.8及以上，您可以执行<strong id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_b1644952312334">java –version</strong>命令检查您已安装的Java版本。如未安装，可以从<a href="https://www.oracle.com/java/technologies/" target="_blank" rel="noopener noreferrer">Java官方网站下载安装包</a>进行安装。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li19267183331111">Log4j2 SDK支持跨云/本地上报日志，当前仅支持华北-北京四、华东-上海一、华南-广州、西南-贵阳一。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li2150751182111">通过Log4j2 SDK上报日志到LTS的时间相距当前时间不超过2天，否则上报日志会被LTS删除。</li> </ul> </div> <div class="section" id="lts_03_0003__zh-cn_topic_0000002118286066_section15995202301712"> <h4 class="sectiontitle">安装SDK</h4> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p102084352197">在Maven项目中加入依赖项。</p> <ol id="lts_03_0003__zh-cn_topic_0000002118286066_ol319333716197"> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li1619319377192">使用Maven构建项目时，settings.xml文件的mirrors节点需要增加<a href="https://repo1.maven.org/maven2/io/github/huaweicloud/" target="_blank" rel="noopener noreferrer">华为外部开源仓</a>。如下： <pre class="screen" id="lts_03_0003__zh-cn_topic_0000002118286066_screen964817484407">&lt;mirror&gt;
+    &lt;id&gt;huaweicloud&lt;/id&gt;
+    &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
+    &lt;url&gt;https://repo.huaweicloud.com/repository/maven/&lt;/url&gt;
+&lt;/mirror&gt;</pre></li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li668774791914">您可以在<a href="https://repo1.maven.org/maven2/io/github/huaweicloud/" target="_blank" rel="noopener noreferrer">华为外部开源仓</a>中获取云日志服务log4j2 SDK依赖的最新版本。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li811511504196">在Maven工程中使用云日志服务log4j2 SDK，只需在pom.xml中加入相应依赖即可，Maven项目管理工具会自动下载相关JAR包。在&lt;dependencies&gt;中加入如下内容： <div class="p" id="lts_03_0003__zh-cn_topic_0000002118286066_p19968160105112"> <a name="lts_03_0003__zh-cn_topic_0000002118286066_li811511504196"></a><a name="zh-cn_topic_0000002118286066_li811511504196"></a>推荐使用最新版本version：1.1.3，第2步中查看SDK版本。 <pre class="screen" id="lts_03_0003__zh-cn_topic_0000002118286066_screen562375312404">&lt;dependency&gt; 
+     &lt;groupId&gt;io.github.huaweicloud&lt;/groupId&gt; 
+     &lt;artifactId&gt;lts-sdk-common&lt;/artifactId&gt; 
+     &lt;version&gt;version&lt;/version&gt; 
+ &lt;/dependency&gt; 
+ &lt;dependency&gt; 
+     &lt;groupId&gt;io.github.huaweicloud&lt;/groupId&gt; 
+     &lt;artifactId&gt;lts-sdk-log4j2&lt;/artifactId&gt; 
+     &lt;version&gt;version&lt;/version&gt; 
+ &lt;/dependency&gt;</pre> </div></li> </ol> </div> <div class="section" id="lts_03_0003__zh-cn_topic_0000002118286066_section13011117191816"> <h4 class="sectiontitle">示例代码</h4> <ol id="lts_03_0003__zh-cn_topic_0000002118286066_ol5492115711226"> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li153541969238">log4j2.xml示例如下： <pre class="screen" id="lts_03_0003__zh-cn_topic_0000002118286066_screen02052019174113">&lt;?xml version="1.0" encoding="UTF-8"?&gt; 
+ &lt;Configuration status="WARN"&gt; 
+  
+     &lt;Appenders&gt; 
+         &lt;!-- projectId：华为云账号的项目ID--&gt; 
+         &lt;!-- logGroupId：华为云日志服务日志组ID--&gt; 
+         &lt;!-- logStreamId：华为云日志服务日志流ID--&gt; 
+         &lt;!-- accessKeyId：华为云账号的AK, 认证用的AK硬编码到代码中或者明文存储都有很大的安全风险, 建议密文存放, 使用时解密, 确保安全--&gt; 
+         &lt;!-- accessKeySecret：华为云账号的SK, 认证用的SK硬编码到代码中或者明文存储都有很大的安全风险, 建议密文存放, 使用时解密, 确保安全--&gt; 
+         &lt;!-- regionName：云日志服务的区域--&gt; 
+         &lt;!-- totalSizeInBytes：单个Appender能缓存的日志大小上限--&gt; 
+         &lt;!-- maxBlockMs：producer发送日志时阻塞时间--&gt; 
+         &lt;!-- ioThreadCount：执行日志发送任务的线程池大小--&gt; 
+         &lt;!-- batchSizeThresholdInBytes：producer发送单批日志量上限--&gt; 
+         &lt;!-- batchCountThreshold：producer发送单批日志条数上限--&gt; 
+         &lt;!-- lingerMs：producer发送单批日志等待时间--&gt; 
+         &lt;!-- retries：producer发送日志失败后重试次数--&gt; 
+         &lt;!-- baseRetryBackoffMs：首次重试的退避时间--&gt; 
+         &lt;!-- maxRetryBackoffMs：重试的最大退避时间--&gt; 
+         &lt;!-- giveUpExtraLongSingleLog：超过1MB的日志，拆分后放弃1MB以外的数据--&gt; 
+         &lt;!-- enableLocalTest：默认false，true：可以跨云上报日志，false：仅能在华为云ecs主机上报日志--&gt;
+         &lt;!-- isLogGroupStreamByName：是否使用日志组/日志流名称上报日志--&gt;
+         &lt;ltsLog name="log4j2sdkappender" 
+                 projectId="xxx" 
+                 logGroupId="xxx" 
+                 logStreamId="xxx" 
+                 accessKeyId="xxx" 
+                 accessKeySecret="xxx" 
+                 regionName="xxx" 
+                 totalSizeInBytes="104857600" 
+                 maxBlockMs="0" 
+                 ioThreadCount="8" 
+                 batchSizeThresholdInBytes="524288" 
+                 batchCountThreshold="4096" 
+                 lingerMs="2000" 
+                 retries="5" 
+                 baseRetryBackoffMs="500" 
+                 maxRetryBackoffMs="500" 
+                 giveUpExtraLongSingleLog="true"
+                 enableLocalTest="false"
+                 isLogGroupStreamByName="false"
+                 &gt;
+             &lt;PatternLayout pattern="%d %-5level [%thread] %logger{0}: %msg"/&gt; 
+         &lt;/ltsLog&gt; 
+     &lt;/Appenders&gt; 
+  
+     &lt;Loggers&gt; 
+         &lt;Root level="WARN"&gt; 
+             &lt;AppenderRef ref="log4j2sdkappender"/&gt; 
+         &lt;/Root&gt; 
+     &lt;/Loggers&gt; 
+  
+ &lt;/Configuration&gt;</pre></li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li164971019202319">编写代码产生的日志如下： <pre class="screen" id="lts_03_0003__zh-cn_topic_0000002118286066_screen1749319571229">package com.huawei.log; 
+ 
+import org.apache.logging.log4j.LogManager; 
+import org.apache.logging.log4j.Logger; 
+ 
+public class TestLog4j2AppenderInfo { 
+ 
+    private static final Logger LOGGER = LogManager.getLogger(TestLog4j2AppenderInfo.class); 
+ 
+    public static void main(String[] args) { 
+        LOGGER.info("test<font style="font-size:8pt" face="Courier New">~</font>log4j2<font style="font-size:8pt" face="Courier New">~~~</font>info"); 
+    } 
+ 
+}</pre></li> </ol> </div> <div class="section" id="lts_03_0003__section815123217380"> <h4 class="sectiontitle">producer性能基线</h4> <p id="lts_03_0003__p187631452123817">上报日志时，请参考如下参数的测试性能基线，若超出基线值，可能会导致日志上报异常。</p> <p id="lts_03_0003__p34638403171"><strong id="lts_03_0003__b18751195810514">ECS虚拟机配置参考如下</strong>：</p> <ul id="lts_03_0003__ul13646172410187"> <li id="lts_03_0003__li264652481820">实例规格：通用计算增强型 c7.xlarge.2</li> <li id="lts_03_0003__li5950949171819">CPU：4 vCPU</li> <li id="lts_03_0003__li177571311121917">内存：8 GB</li> <li id="lts_03_0003__li136451417171918">基准带宽：100 Mbit/s</li> <li id="lts_03_0003__li6839636171918">OS：Huawei Cloud EulerOS release 2.0</li> <li id="lts_03_0003__li135764370399">JVM：OpenJDK 64-Bit Server VM (build 17.0.7+7, mixed mode)</li> </ul> <p id="lts_03_0003__p202491737172014"><strong id="lts_03_0003__b18147155513515">测试程序说明（单个producer）</strong>：</p> <ul id="lts_03_0003__ul186291315132313"> <li id="lts_03_0003__li68580192119">totalSizeInBytes: 104857600</li> <li id="lts_03_0003__li1892561352414">maxBlockMs：0</li> <li id="lts_03_0003__li11624101122116">batchSizeThresholdInBytes: 1048576</li> <li id="lts_03_0003__li7592133402115">batchCountThreshold：40960</li> <li id="lts_03_0003__li17759203912112">lingerMs：2000</li> <li id="lts_03_0003__li1683264412119">ioThreadCount：具体用例中调整</li> </ul> <ul id="lts_03_0003__ul685120122115"> <li id="lts_03_0003__li173255910218">JVM 初始堆/最大堆大小：1GB</li> <li id="lts_03_0003__li16712171582213">发送日志总条数：100,000,000</li> <li id="lts_03_0003__li57053224225">发送日志总大小：约50GB</li> </ul> <p id="lts_03_0003__p12283101511261">按照参数基线值设置后，使用华为云ECS机器作为日志上报环境，通过华为云内网服务入口进行上报。</p> <p id="lts_03_0003__p149316328314"><strong id="lts_03_0003__b10927194885113">SDK上报性能基线测试结果参考</strong>：</p> <ul id="lts_03_0003__ul89251814649"> <li id="lts_03_0003__li1592571417419">上报日志：测试中使用的单条日志大小约为550字节。为了模拟数据的随机性，测试使用的数据为随机字符串。</li> </ul> <ul id="lts_03_0003__ul631871611613"> <li id="lts_03_0003__li133181316667">性能基线参考如下： <div class="tableBorder"> <table cellpadding="4" cellspacing="0" summary="" id="lts_03_0003__table136191721142510" frame="border" border="1" rules="all"> <caption> <b>表1 </b>性能基线 </caption> <thead align="left"> <tr id="lts_03_0003__row861918217256"> <th align="left" class="cellrowborder" valign="top" width="25%" id="mcps1.3.6.11.1.1.2.5.1.1" liselected="liSelected"> <p id="lts_03_0003__p1061912111254">IO 线程数量</p></th> <th align="left" class="cellrowborder" valign="top" width="25%" id="mcps1.3.6.11.1.1.2.5.1.2" liselected="liSelected"> <p id="lts_03_0003__p6619132119253">数据吞吐量</p></th> <th align="left" class="cellrowborder" valign="top" width="25%" id="mcps1.3.6.11.1.1.2.5.1.3" liselected="liSelected"> <p id="lts_03_0003__p4619321142510">数据吞吐速率</p></th> <th align="left" class="cellrowborder" valign="top" width="25%" id="mcps1.3.6.11.1.1.2.5.1.4" liselected="liSelected"> <p id="lts_03_0003__p15619621182518">CPU 使用率</p></th> </tr> </thead> <tbody> <tr id="lts_03_0003__row176191321162512"> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.1 "> <p id="lts_03_0003__p761942172515">2</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.2 "> <p id="lts_03_0003__p161919212255">8 MB/S</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.3 "> <p id="lts_03_0003__p176196218256">1.6W条/s</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.4 "> <p id="lts_03_0003__p18620192162517">15%</p></td> </tr> <tr id="lts_03_0003__row1278150122711"> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.1 "> <p id="lts_03_0003__p127811804277">4</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.2 "> <p id="lts_03_0003__p18953037152718">15.2 MB/S</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.3 "> <p id="lts_03_0003__p178115042717">3W条/s</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.4 "> <p id="lts_03_0003__p178130132715">29%</p></td> </tr> <tr id="lts_03_0003__row13756415273"> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.1 "> <p id="lts_03_0003__p11756201152716">6</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.2 "> <p id="lts_03_0003__p1775691132717">20.7 MB/S</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.3 "> <p id="lts_03_0003__p12198162122811">4.1W条/s</p></td> <td class="cellrowborder" valign="top" width="25%" headers="mcps1.3.6.11.1.1.2.5.1.4 "> <p id="lts_03_0003__p1175616132717">36%</p></td> </tr> </tbody> </table> </div></li> </ul> <p id="lts_03_0003__p821471131"><strong id="lts_03_0003__b8560112514516">总结如下</strong>：</p> <ul id="lts_03_0003__ul183611925017"> <li id="lts_03_0003__li103611325411">CPU时间主要花费在对象的序列化和压缩上，在吞吐量较高的情况下CPU使用率比较高。但在日常环境中，单机数据流量均值为100KB/S，因此造成的CPU消耗几乎可以忽略不计。</li> <li id="lts_03_0003__li78482033915">增加IO线程数量可以显著提高吞吐量，尤其是当IO线程数量少于可用处理器个数时。</li> <li id="lts_03_0003__li59921472111">调整totalSizeInBytes对吞吐量影响不够显著，增加totalSizeInBytes会造成更多的CPU消耗，建议使用默认值。</li> <li id="lts_03_0003__li3436154212">当日志上报量超过单个producer时： <ol id="lts_03_0003__ol191631928727"> <li id="lts_03_0003__li1916318281129">建议拆分日志流，使用多个producer上报日志，分摊流量，以保障SDK处于正常上报状态。</li> <li id="lts_03_0003__li64261638529">如果maxBlockMs为0时，SDK处于非阻塞状态，会触发保护机制自动降级，可能会对部分日志做丢弃处理。</li> <li id="lts_03_0003__li612918451828">如果maxBlockMs大于0时，SDK处于阻塞状态，阻塞时间为maxBlockMs，可能会造成SDK发送日志处于阻塞状态。</li> </ol></li> </ul> </div> <div class="section" id="lts_03_0003__zh-cn_topic_0000002118286066_section1915424852613"> <h4 class="sectiontitle">配置参数说明</h4> <ul id="lts_03_0003__zh-cn_topic_0000002118286066_ul15982586276"> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li4539111311275">Appender配置参数说明。 <div class="tableBorder"> <table cellpadding="4" cellspacing="0" summary="" id="lts_03_0003__zh-cn_topic_0000002118286066_table14629164085813" frame="border" border="1" rules="all"> <caption> <b>表2 </b>Appender配置参数说明 </caption> <thead align="left"> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row1579241175813"> <th align="left" class="cellrowborder" valign="top" width="21.490000000000002%" id="mcps1.3.7.2.1.1.2.6.1.1" liselected="liSelected"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1279341175820">参数名称</p></th> <th align="left" class="cellrowborder" valign="top" width="35.77%" id="mcps1.3.7.2.1.1.2.6.1.2" liselected="liSelected"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1079741115817">描述</p></th> <th align="left" class="cellrowborder" valign="top" width="10.979999999999999%" id="mcps1.3.7.2.1.1.2.6.1.3" liselected="liSelected"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p979154135819">类型</p></th> <th align="left" class="cellrowborder" valign="top" width="15.040000000000001%" id="mcps1.3.7.2.1.1.2.6.1.4" liselected="liSelected"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p147944110587">是否需要填写</p></th> <th align="left" class="cellrowborder" valign="top" width="16.72%" id="mcps1.3.7.2.1.1.2.6.1.5" liselected="liSelected"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1379144120587">默认值</p></th> </tr> </thead> <tbody> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row17954125817"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p5791241115816">projectId</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p5791341165814">华为云账号的项目ID（project id）。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1679154110583">String</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p118044125817">必填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p88013414586">-</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row19806416588"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p58016416581">accessKeyId</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p108084165817">华为云账号的AK。认证用的AK硬编码到代码中或者明文存储都有很大的安全风险，建议密文存放，使用时解密，确保安全。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p198074115818">String</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1980341125818">必填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p18013413584">-</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row28074175819"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p188074112581">accessKeySecret</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p12801341175817">华为云账号的SK。认证用的SK硬编码到代码中或者明文存储都有很大的安全风险，建议密文存放，使用时解密，确保安全。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p138064115814">String</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p14806416581">必填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p280841115818">-</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row108024135819"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p178034125813">regionName</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p11808414589">云日志服务的区域。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p380174112583">String</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p10801841135812">必填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p2080164118582">-</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row158094115819"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p16801641155818">logGroupId</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p481194145818">LTS的日志组ID。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p12811241145810">String</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p2817419587">必填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p88184175814">-</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row1681341155820"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1281144165810">logStreamId</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p2081154195819">LTS的日志流ID。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1781184111581">String</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p16811241125811">必填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1581114115589">-</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row1381174155817"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p148219412583">totalSizeInBytes</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1582441165812">单个producer实例能缓存的日志大小上限。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p882541125816">int</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p482541125811">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p108244155818">104857600（即100MB）</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row98210417586"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p5821441115816">maxBlockMs</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p138244135816">如果producer可用空间不足，调用者在send方法上的最大阻塞时间，单位为毫秒。默认为60000毫秒，建议为0毫秒。</p> <ul id="lts_03_0003__zh-cn_topic_0000002118286066_ul12857350123519"> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li5857550123513">当maxBlockMs值&gt;=0时，则阻塞到设置的时间，如果到达阻塞时间，还是不能获取到内存，即报错且丢弃日志。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li28571850193512">当maxBlockMs值=-1时，则一直阻塞到发送成功，且不会丢弃日志。</li> </ul></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p682154165817">long</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1182144116582">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p5827414585">60000毫秒</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row168294116586"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p68284175817">ioThreadCount</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p3825411585">执行日志发送任务的线程池大小。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p48284119586">int</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p13828413584">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p482241105811">客户机器空闲CPU数量，但一定大于1</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row28214116587"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p198234118584">batchSizeThresholdInBytes</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p168254120582">当一个ProducerBatch中缓存的日志大小大于等于batchSizeThresholdInBytes时，该ProducerBatch缓存的日志将被发送到LTS。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p20821141125811">int</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p2082144117584">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p108354114583">524288（即0.5MB）</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row1883154165814"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p583114114582">batchCountThreshold</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1283341105818">当一个ProducerBatch中缓存的日志条数大于等于batchCountThreshold时，该ProducerBatch缓存的日志将被发送到LTS。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1283154113587">int</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1834416583">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p108317418589">4096</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row128618415587"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p28684155819">lingerMs</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p5861941195812">一个ProducerBatch从创建到可发送的逗留时间。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p686241135814">int</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p15866416589">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p178644175819">2s</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row20862041155818"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p5861141145815">retries</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p128610417584">如果某个ProducerBatch首次发送失败，能够对其重试的次数，建议为5次。如果retries小于等于0，该ProducerBatch首次发送失败后将直接进入失败队列。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p14861241115820">int</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p6861641195814">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p786041105816">10</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row68644110583"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p158611417580">baseRetryBackoffMs</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p28694119587">首次重试的退避时间。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p19861041205814">long</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p198612412583">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p168624135813">0.1s</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row1586144118584"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p68614114588">maxRetryBackoffMs</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p128664185820">重试的最大退避时间。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p4861741175817">long</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p38612417584">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1786194175814">50s</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row413685910435"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1877625813414">giveUpExtraLongSingleLog</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p13776175894117">超过1MB的日志，拆分后丢弃大于1MB的数据。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p146511533144313">boolean</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p19776185811417">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p977685814116">false</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row11600194518272"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p638424717278">enableLocalTest</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p53851347132713">是否开启跨云上报日志。（此功能仅适用于开发调测，对于上报性能不做保障）</p> <ul id="lts_03_0003__zh-cn_topic_0000002118286066_ul84054341622"> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li12405203415212">选true时，开启跨云后用户能通过公网（仅支持华北-北京四、华东-上海一、华南-广州、西南-贵阳一）访问。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li1493515183461">选false时，关闭跨云后用户是通过华为云当前区域主机访问。</li> </ul></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p15385164717277">boolean</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p0385154715275">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p14385154717279">false</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row123401680482"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1238134211121">isLogGroupStreamByName</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1549219193139">是否使用日志组/日志流名称上报日志（SDK版本最低必须为1.1.0支持此功能）。如果为true，表明使用名称上报，则logGroupId、logStreamId参数值分别填入日志组、日志流名称即可。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p63818428120">boolean</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p738134220128">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p2381542131210">false</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row113455571414"> <td class="cellrowborder" valign="top" width="21.490000000000002%" headers="mcps1.3.7.2.1.1.2.6.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p78501184113">proxyIp</p></td> <td class="cellrowborder" valign="top" width="35.77%" headers="mcps1.3.7.2.1.1.2.6.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1585018871119">使用自定义ip端口上报日志。</p></td> <td class="cellrowborder" valign="top" width="10.979999999999999%" headers="mcps1.3.7.2.1.1.2.6.1.3 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p158501980110">String</p></td> <td class="cellrowborder" valign="top" width="15.040000000000001%" headers="mcps1.3.7.2.1.1.2.6.1.4 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p7850582119">选填</p></td> <td class="cellrowborder" valign="top" width="16.72%" headers="mcps1.3.7.2.1.1.2.6.1.5 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1085098121116">-</p></td> </tr> </tbody> </table> </div></li> </ul> </div> <div class="section" id="lts_03_0003__zh-cn_topic_0000002118286066_section88955371089"> <h4 class="sectiontitle">参数获取方法</h4> <ul id="lts_03_0003__zh-cn_topic_0000002118286066_ul23010521416"> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li4301955148">区域表 <div class="tableBorder"> <table cellpadding="4" cellspacing="0" summary="" id="lts_03_0003__zh-cn_topic_0000002118286066_table2033901542420" frame="border" border="1" rules="all"> <caption> <b>表3 </b>区域表 </caption> <thead align="left"> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row19410715192419"> <th align="left" class="cellrowborder" valign="top" width="24.79%" id="mcps1.3.8.2.1.1.2.3.1.1" liselected="liSelected"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p7410181562412">区域名称</p></th> <th align="left" class="cellrowborder" valign="top" width="75.21%" id="mcps1.3.8.2.1.1.2.3.1.2" liselected="liSelected"> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p341021516242">区域</p></th> </tr> </thead> <tbody> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row15410715172412"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p7410121592417">华北-北京二</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p54109153248">cn-north-2</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row1741051518246"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p24109155243">华北-北京四</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p3410171514245">cn-north-4</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row1341061562413"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p9410101582410">华北-北京一</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1441015155246">cn-north-1</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row3410131510248"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p141021517246">华东-上海二</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p2411141542419">cn-east-2</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row15411171512246"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p16411201512246">华东-上海一</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p1741111516246">cn-east-3</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row16411615132418"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p541181552419">华南-广州</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p94119152247">cn-south-1</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row20411415182413"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p64111215192410">华南-深圳</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p44111915172420">cn-south-2</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row8411141512247"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p54111156244">西南-贵阳一</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p10411181510249">cn-southwest-2</p></td> </tr> <tr id="lts_03_0003__zh-cn_topic_0000002118286066_row11868610104216"> <td class="cellrowborder" valign="top" width="24.79%" headers="mcps1.3.8.2.1.1.2.3.1.1 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p437313851">亚太-新加坡</p></td> <td class="cellrowborder" valign="top" width="75.21%" headers="mcps1.3.8.2.1.1.2.3.1.2 "> <p id="lts_03_0003__zh-cn_topic_0000002118286066_p2373131751">ap-southeast-3</p></td> </tr> </tbody> </table> </div></li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li16213910519"><a name="lts_03_0003__zh-cn_topic_0000002118286066_li16213910519"></a><a name="zh-cn_topic_0000002118286066_li16213910519"></a>日志组ID：在云日志服务控制台，选择“日志管理”，鼠标悬浮在日志组名称上，可查看日志组名称和日志组ID。</li> <li id="lts_03_0003__zh-cn_topic_0000002118286066_li521209751"><a name="lts_03_0003__zh-cn_topic_0000002118286066_li521209751"></a><a name="zh-cn_topic_0000002118286066_li521209751"></a>日志流ID：单击日志组名称对应的<span><img id="lts_03_0003__zh-cn_topic_0000002118286066_zh-cn_topic_0000001411537282_image1642332471812" src="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/zh-cn_image_0000002235644033.png"></span>按钮，鼠标悬浮在日志流名称上，可查看日志流名称和日志流ID。</li> </ul> </div> </div> </div> <div class="footerNavBar clearfix"> <div class="parentlink"> 父主题： <a href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0005.html">使用SDK接入LTS </a> </div> </div> </div> <script>
+    (function ($) {
+      $.fn.bigrender = function (opts) {
+
+        var winHeight = document.documentElement.clientHeight;
+        var sum = 0;
+        var count = 0;
+        var flash = new Array();
+
+        // 'class' 是textarea父节点的类；'textarea' 是textarea标签的类；'threshold'是距离进入屏幕还有150像素就开始渲染；'remove'是否删除textarea标签       
+        options = $.extend({
+          'class': '.br-warp',
+          'textarea': '.br-rendered',
+          'threshold': 150,
+          'remove': true,
+        }, opts);
+
+        $brenders = $(options.class);
+        // 渲染首屏的内容
+        initBigrender();
+        // 绑定滚动条事件
+        scrollDisplay();
+
+
+        // 函数定义
+        function initBigrender() {
+          $brenders.each(function (n, object) {
+            sum++;
+            if (isRender($(this))) {
+              display($(this));
+              count++;
+              flash[n] = true;
+            } else {
+              flash[n] = false;
+            }
+          });
+        }
+
+        // 判断时候需要渲染
+        function isRender(object) {
+          offsetTop = object.offset().top;
+          ojh = object.outerHeight(true);
+          st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+
+          if (offsetTop + ojh + options.threshold >= st && offsetTop - options.threshold < (st + winHeight)) {
+            return true;
+          } else return false;
+
+        }
+
+        // 渲染textarea内的html代码
+        function display(object) {
+          $display = object.find(options.textarea).eq(0);
+          object.append($display.val());
+          if (options.remove) {
+            $display.remove();
+          }
+        }
+
+        // 屏幕绑定滚动条事件，当待渲染的内容进入可视屏幕就触发isRender函数
+        function scrollDisplay() {
+          $(window).scroll(function () {
+            if (count < sum) {
+              $brenders.each(function (n, object) {
+                if (!flash[n]) {
+                  if (isRender($(this))) {
+                    display($(this));
+                    count++;
+                    flash[n] = true;
+                  }
+                }
+              });
+            }
+          });
+        }
+      };
+    })(jQuery);
+    window.addEventListener('DOMContentLoaded', function (event) {
+      $.fn.bigrender({ 'threshold': 100 });
+    });
+    $(document).data('ajaxNav') && $(document).data('ajaxNav').addEvent('load', function () {
+      $.fn.bigrender({ 'threshold': 100 });
+    });
+  </script> <div class="help-detail-feedback "> <div class="action"> <p class="prev"> <span class="label js-title"></span> <a class="link help-link js-title" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_1003.html" mate_data_ts_v2="zh-cn_support_detail_lts.click_上一篇：云日志服务Java SDK">上一篇：云日志服务Java SDK</a> </p> <p class="next"> <span class="label js-title"></span> <a class="link help-link js-title" href="https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_0905.html" mate_data_ts_v2="zh-cn_support_detail_lts.click_下一篇：云日志服务LogBack SDK">下一篇：云日志服务LogBack SDK</a> </p> </div> </div> <div class="relevant-content"> <div class="doc-bottom-feedback"> <h3 class="feedback-title"> <i></i><span>意见反馈</span> </h3> <div class="help-form" bi_parent_name="feedback"> <h3>文档内容是否对您有帮助？</h3> <div class="help-form-content"> <a href="javascript:void(0)" class="help-form-btn help-btn-use" mate_data_ts_v2="zh-cn_support_detail_lts_bottomfeedback.click_有帮助"> <span>有帮助</span> <i class="help-form-y"></i> </a> <a href="javascript:void(0)" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_lts_bottomfeedback.click_没帮助"> <span>没帮助</span> <i class="help-form-n"></i> </a> </div> <a class="help-form-btn provide-feedback" mate_data_ts_v2="zh-cn_support_detail_lts_bottomfeedback.click_提供反馈">提供反馈</a> <input type="hidden" id="help_type" value="help_doc" /> <div class="por-tip success help-form-success"> <div class="por-tip-content"> <i class="por-icon por-icon-success"></i> <div class="por-tip-wenzi"> <span>提交成功！非常感谢您的反馈，我们会继续努力做到更好！ </span> <span class="por-tip-remove"></span> </div> </div> </div> <div class="por-tip error help-form-false"> <div class="por-tip-content"> <i class="por-icon por-icon-error"></i> <div class="por-tip-wenzi"> <span>系统繁忙，请稍后重试</span> <span class="por-tip-remove"></span> </div> </div> </div> <form action="" data-evaluate-level="high"> <p class="support-mast low-level">在使用文档中是否遇到以下问题</p> <div class="support-question por-checkbox-card-pane low-level"> <div class="por-checkbox-card-group"> <div class="por-checkbox-card-group-inner"> <div class="por-checkbox-card-group-content"> <div class="por-checkbox-card"> <input class="por-native" type="checkbox" name="question" value="内容与产品页面不一致" /> <span>内容与产品页面不一致</span> </div> <div class="por-checkbox-card"> <input class="por-native" type="checkbox" name="question" value="内容不易理解" /> <span>内容不易理解</span> </div> <div class="por-checkbox-card"> <input class="por-native" type="checkbox" name="question" value="缺失示例代码" /> <span>缺失示例代码</span> </div> <div class="por-checkbox-card"> <input class="por-native" type="checkbox" name="question" value="步骤不可操作" /> <span>步骤不可操作</span> </div> <div class="por-checkbox-card"> <input class="por-native" type="checkbox" name="question" value="搜不到想要的内容" /> <span>搜不到想要的内容</span> </div> <div class="por-checkbox-card"> <input class="por-native" type="checkbox" name="question" value="缺少最佳实践" /> <span>缺少最佳实践</span> </div> </div> </div> </div> </div> <p class="support-mast">意见反馈<span class="optional">（选填）</span></p> <div class="textarea-wrapper"> <textarea maxlength="500" rows="10" cols="30" placeholder="欢迎反馈更多建议"></textarea> <div class="textarea-numbers"><span>0</span>/500</div> </div> <p class="important choose"> <span class="por-icon por-icon-error"></span>请至少选择一项反馈信息并填写问题反馈 </p> <p class="important length"><span class="por-icon por-icon-error"></span>字符长度不能超过500</p> <a href="javascript:void(0)" class="por-btn por-btn-primary submit default" mate_data_ts_v2="zh-cn_support_detail_lts_bottomfeedback.click_直接提交">直接提交</a> <a href="javascript:void(0)" class="por-btn por-btn-secondary false" mate_data_ts_v2="zh-cn_support_detail_lts_bottomfeedback.click_取消">取消</a> </form> </div> </div> </div> </div> <div class="guide-buoy" mate_data_ts_v2="zh-cn_support_detail_lts_introduction.open"></div> <div class="guide-model"> <div class="img-container" mate_data_ts_v2="zh-cn_support_detail_lts_introduction.close"></div> </div> </div> </div> <span class="show-menu-btn"></span> </div> </div> </div> <div class="footer-service" meta-data-adjust-app="hide"></div> <script src="https://res.hc-cdn.com/cnpm-portal-utils/1.4.16/PortalUtils.umd.js"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/clipboard.js"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/highlight.min.js"></script> <script>
+  var furionAppCode = '';
+  var $currentUrl = location.href;
+  const $path = location.pathname;
+  if($currentUrl.indexOf("/pricing/calculator.html") !== -1 || $currentUrl.indexOf("/pricing/index.html") !== -1){
+    furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+  }else if($currentUrl.indexOf("https://activity.huaweicloud.com") === 0) {
+    furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+  } else if ($currentUrl.indexOf("https://support.huaweicloud.com") === 0) {
+    furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+  }else{
+    furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+  }
+  if(!window.__fr && furionAppCode){
+    !function(x, n) {
+      window[n] = window[n] || {};
+      window[n].config = {
+          appId: furionAppCode,setting: "api,jsTrack,uba,longtask,rtti",hashMode: true,closeReportFMP: true,
+      };
+      var o = document.createElement('script');
+      o.src = x, o.async = !0;
+      var d = document.body.firstChild;
+      document.body.insertBefore(o, d);
+    }('https://portal.hc-cdn.com/FurionSdkStatic/3.6.55/furion-cdn.min.js', '__fr');
+  }
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=3.0.81"></script> <script>
+    if (window.NodeList && !NodeList.prototype.forEach) {
+        NodeList.prototype.forEach = function (callback, thisArg) {
+            thisArg = thisArg || window;
+            for (var i = 0; i < this.length; i++) {
+                callback.call(thisArg, this[i], i, this);
+            }
+        };
+    }
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.16/js/global.min.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.js?sttl=3.0.81&ttr=1.2.16" crossorigin="anonymous"></script> <script type="text/javascript" src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.16/js/feloader.js" crossorigin="anonymous"></script> <div class="hide-sttl" style="height: 0;width:0" data-sttl="3.0.81"></div> <script>
+    window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+</script> <!-- TODO：兼容AEM的埋点 Begin--> <script>
+    // edit--china--en-us--declaration
+    var $ts_site = "hk";
+    var $ts_lang = "zh-cn".replace("_", "-");
+    var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+    var channel = "support";
+    var $uri = channel?"/detail.html":"detail.html";
+    var $pepchannel = (channel+$uri).split("/").join("_").replace(".html","");
+    window.matedataDomain = $ts_domain;
+
+    // if open in app, should change ts_domain in to "app"
+    if( /pcloudApp/i.test(navigator.userAgent) ) {
+        window.matedataDomain = "app";
+    }else{
+        var str = window.location.search;
+        var suband = "type=android";
+        var subios = "type=ios";
+        if( str.indexOf(subios)!=-1 || str.indexOf(suband)!=-1 ){
+            window.matedataDomain = "app";
+        }
+    }
+
+    // 新系统中生成的方式需要改下
+    window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+    window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+    window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+    window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+    window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+    window.pep_uaid = ($ts_site=="china") ? "UA-55836286-1" : "UA-55836286-39";
+    window.mate_data_ts_pageType = $pepchannel;
+</script> <!-- TODO：兼容AEM的埋点 End--> <script>
+    function showFooter(){
+       if(window.matedataDomain != "app") {
+           $("#footer .footer-nav").css('display','block');
+           $("#footer .footer-copyright-container").css('display','block');
+           $(".footer-service .footer-wrapper").css('display','block');
+           $("#footer #videoDiv").css('display','none');
+       }
+    }
+    if (window.feloader) {
+        feloader.onLoad(function(){
+            feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+            feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+            showFooter()
+        })
+    }
+    else{
+        document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+        document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+        showFooter();
+    }
+
+    // 处理一下a标签href是tel的场景
+    var telsEle = $("a[href^='tel:'][target]");
+    telsEle .removeAttr("target");
+</script> <script>
+    if (window.$aioList && window.$aioList.length > 0) {
+        for (var i = 0; i < window.$aioList.length; i++) {
+            var tmpComponent = window.$aioList[i];
+            if (tmpComponent) {
+                var tmpComponentInfo = tmpComponent.split("/");
+                if (tmpComponentInfo.length == 2) {
+                    var name = tmpComponentInfo[0];
+                    var version = tmpComponentInfo[1];
+                    var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+                    var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+                    if (eleVersionAttr && eleVersionAttr != version) {
+                        var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+                        linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+                    }
+                }
+            }
+        }
+    }
+</script> <script>
+    // document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+    window.refLan = "";
+    window.$PEP = true;
+
+    function getSiteFromURL() {
+        url = window.location.host;
+        urlArr = url.split(".");
+        if (urlArr[0] == "www") {
+            reg = "CN";
+        } else {
+            reg = "HK"
+        }
+        return reg;
+    }
+    var siteStr = $('html').attr("site")
+    if (siteStr) {
+        window.reg = siteStr == "china" ? "CN" : siteStr.toUpperCase();
+    } else {
+        window.reg = getSiteFromURL();
+    }
+
+    window.promptLan = $('html').attr("lang");
+
+    if (document.referrer != "") {
+        if (document.referrer.indexOf("/authui/login") == -1) {
+            if (document.referrer.indexOf(".com/intl") != -1) {
+                window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US" : "zh-CN";
+            }
+        } else {
+            //window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+            if (document.referrer.indexOf("locale=") != -1) {
+                window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = window.promptLan;
+            }
+        }
+    } else {
+        window.refLan = window.promptLan;
+    }
+</script> <!--/* 55 trace for some special page */--> <script>
+    !function ($) {
+        if (window.dataLayer && window.dataLayer.push) {
+
+            if (window.location.pathname == "/consultation/") {
+                $("#submitBtn").click(function (e) {
+                    window.dataLayer.push({
+                        "event": "consultSubmit",
+                        "productName": $("#applicationscene").val()
+                    });
+                })
+            }
+
+            $("#header .header-login").click(function (e) {
+                window.dataLayer.push({
+                    "event": "loginIntention"
+                })
+            });
+
+            $("#header .header-register").click(function (e) {
+                window.dataLayer.push({
+                    "event": "creationIntention",
+                    "pageType": window.mate_data_ts_pageType,
+                    "pagePosition": "Header"
+                })
+            });
+
+
+        }
+    }(jQuery);
+</script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=3.0.81"></script> <script>
+    $("a[href*='/pep-dialog/']").each(function () {
+        var ele = $(this);
+        var href = ele.attr("href");
+        var path = href.replace(/.html/g, "");
+        var ajaxPath = path.indexOf("activity/") == -1 ? path : path.split("activity/")[1];
+        var arr = path.split("/");
+        var dialogName = arr[arr.length - 1];
+        var location_lang = $('html').attr('lang').toLowerCase();
+        var site = $('html').attr('site').toLowerCase() == 'china' ? 'china' : 'hk';  //  站点判断，国内：china；国际站：hk
+        var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled" : "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+        ele.css('pointer-events', 'auto');
+        ele.on("click", function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+                $("body [data-pep-path*='" + dialogName + "']").remove();
+            }
+            // dialog for activity
+            $.ajax({
+                url: dialogUrl,
+                success: function (data) {
+                    if (data) {
+                        data = data.replace('block', 'none');
+                        $("body").append(data);
+                        $("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+                        window.activityModal.show('#modal-rule', true);
+                    }
+                }
+            })
+        });
+    });
+</script> <time style="display:none!important;" datetime="2025-08-11T20:51:36.000+08:00">2025-08-11</time> <div id="footer"> <div class="footer-nav"> <div class="footer-wrapper"> <div class="footer-nav-left"> <div class="footer-submenu-links"> <a class="footer-submenu-link" href="https://www.huaweicloud.com/intl/zh-cn/contact-sales.html" rel="nofollow">联系销售</a> <a class="footer-submenu-link" href="https://console-intl.huaweicloud.com/ticket/?region=ap-southeast-1&amp;locale=zh-cn#/ticketindex/createIndex" rel="nofollow">售后支持</a> <a class="footer-submenu-link" href="https://www.huaweicloud.com/intl/zh-cn/service/help-tools.html" rel="nofollow">自助服务</a> </div> <ul class="footer-law-mb"> <li><a href="https://www.huaweicloud.com/intl/zh-cn/declaration/statement.html" rel="nofollow">网站条款 </a></li> <li><a href="https://www.huaweicloud.com/intl/zh-cn/declaration/sa_prp.html" rel="nofollow">隐私政策声明</a></li> </ul> <ul class="footer-nav-icons"> <li> <a class="footer-link footer-icon-wrapper" href="https://twitter.com/HuaweiCloud1" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/zh-cn/推特-default.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/zh-cn/推特-hover.png')" class="footer-icon-hover"></i> </a> </li> <li> <a class="footer-link footer-icon-wrapper" href="https://www.youtube.com/user/HuaweiCloudComputing" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/zh-cn/yunying/header-new/1692234800929874313.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/zh-cn/形状结合备份.svg')" class="footer-icon-hover"></i> </a> </li> <li> <a class="footer-link footer-icon-wrapper" href="https://www.linkedin.com/showcase/3718023" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/zh-cn/yunying/header-new/1692234800879240243.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/zh-cn/形状备份.svg')" class="footer-icon-hover"></i> </a> </li> </ul> </div> <div class="footer-nav-main"> <div class="footer-nav-column"> <p class="footer-menu-title">关于华为云</p> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/about/index.html" target="_blank" rel="nofollow">华为云简介</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/cases.html" target="_blank" rel="nofollow">客户案例</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/securecenter/overallsafety.html" target="_blank" rel="nofollow">信任中心</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/declaration/statement.html" target="_blank" rel="nofollow">法律协议</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/news.html" target="_blank" rel="nofollow">新闻资讯</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">热门产品</p> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/product/ecs.html" target="_blank">云服务器</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/product/eip.html" target="_blank">弹性公网IP</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/product/mysql.html" target="_blank">云数据库</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/product/evs.html" target="_blank">云硬盘</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/product/mrs.html" target="_blank">MapReduce服务</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">支持与服务</p> <a class="footer-menu-link" href="https://support.huaweicloud.com/intl/zh-cn/index.html" target="_blank">文档</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/contact-sales.html" target="_blank">售前咨询</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/notice.1.html" target="_blank">服务公告</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/zh-cn/service/supportplans.html" target="_blank">支持计划</a> <a class="footer-menu-link" href="https://status.service.huaweicloud.com/intl/#/home" target="_blank">云服务健康看板</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">账号与支付</p> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/balanceRecharge" target="_blank" rel="nofollow">充值管理</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/invoiceCenter" target="_blank" rel="nofollow">发票管理</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/allview" target="_blank" rel="nofollow">费用中心</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/accountindex/accountInfo" target="_blank" rel="nofollow">账号中心</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/creditsList" target="_blank" rel="nofollow">支付方式</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">友情链接</p> <a class="footer-menu-link" href="https://www.huawei.com/" target="_blank" rel="nofollow">华为官网</a> <a class="footer-menu-link" href="https://e.huawei.com/cn/" target="_blank" rel="nofollow">华为企业业务</a> <a class="footer-menu-link" href="https://consumer.huawei.com/cn/" target="_blank" rel="nofollow">华为消费者业务</a> <a class="footer-menu-link" href="https://developer.huawei.com/consumer/cn/" target="_blank" rel="nofollow">华为开发者联盟</a> </div> </div> </div> </div> <div class="footer-copyright-container"> <div class="footer-wrapper footer-copyright-wrapper"> <div class="footer-copyright"> <p>© 2026, 华为云计算技术有限公司及其关联公司。保留一切权利。</p> </div> <ul class="footer-law"> <li><a class="footer-link" href="https://www.huaweicloud.com/intl/zh-cn/declaration/statement.html" rel="nofollow">网站条款</a></li> <li><a class="footer-link" href="https://www.huaweicloud.com/intl/zh-cn/declaration/sa_prp.html" rel="nofollow">隐私政策声明</a></li> </ul> </div> </div> </div> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.16/js/hk/portal-global.js?sttl=3.0.81&ttr=1.2.16" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cpage-pep-header-and-footer-hk/2.0.59/header-and-footer-hk.umd.js"></script> <script>
+    var originsWhiteList = ['https://www.huaweicloud.com','https://activity.huaweicloud.com','https://support.huaweicloud.com','https://beian.huaweicloud.com'];
+    var currentOrigin = originsWhiteList.includes(window.location.origin)?window.location.origin:'https://www.huaweicloud.com';
+    var url = currentOrigin+"/intl/zh-cn/common/header-footer-hk-zh-cn-2023.html";
+    var $tmpForPEP = document.createElement("div");
+    $.ajax({
+        url: url,
+        async: true,
+        timeout: 1e4,
+        success: function(response) {
+            $tmpForPEP.innerHTML = response;
+            // 下拉部分
+            $("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);           
+        }
+    });
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.16/js/portalLoginHK.min.js?sttl=3.0.81&ttr=1.2.16"></script> <style> @media(max-width:768px){ #footer .footer-nav, #footer .footer-copyright-container{ display: block !important; } } </style> <div class="video-div"> <div class="video-modal-wrapper"> <div class="video-close-btn"></div> </div> </div> <div id="videoDiv" style="z-index: 9999; display: none; position: relative"> <div id="videobg" style=" position: absolute; background: #000; opacity: 0.3; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30); "></div> <div id="videoplayerDiv" style="position: absolute"> <div id="videoContainer" style="width: 700px; height: 500px; background-color: black"> <span id="closeBtn"><img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/close_grey_1.svg?sttl=3.0.81" alt="" height="22" width="22" onclick="closeVideo()" /></span> <div id="videoplayer" style="height: 500px; width: 700px"></div> </div> </div> </div> <script type="text/javascript">
+        var videoDomain = '//bbs-video.huaweicloud.com';
+
+        var _videoProtocol = 'https:' == document.location.protocol ? 'https:' : 'http:';
+        var tag2urlMap = [];
+        var loading = false;
+        var isLogin = false;
+        function play(video_url, video_desc, domain) {
+            if (/(\.mp4|\.mu38)/.test(video_url)) {
+                _play(video_url, video_desc, domain);
+            } else {
+                if (tag2urlMap[video_url]) _play(tag2urlMap[video_url], video_desc, domain);
+                else {
+                    if (loading) return;
+                    loading = true;
+                    $.ajax({
+                        type: 'GET',
+                        url: 'https://bbs.huaweicloud.com/api/video/out-play?tag=' + video_url,
+                        dataType: 'text',
+                        success: function (result) {
+                            loading = false;
+                            tag2urlMap[video_url] = result;
+                            _play(tag2urlMap[video_url], video_desc, domain);
+                        },
+                        error: function () {
+                            loading = false;
+                        },
+                    });
+                }
+            }
+        }
+        function _play(video_url, video_desc, domain) {
+            var reg = RegExp(/bbs/);
+            var tmp = video_url;
+            var contentAsset = '/content/dam/';
+            var bbsAsset = '/FileServer/getFile/';
+            if (!video_url.match(reg)) {
+                if (video_url.match(contentAsset) || video_url.match(bbsAsset)) {
+                    tmp = video_url;
+                } else if (domain) {
+                    var tmp = _videoProtocol + domain + video_url;
+                } else {
+                    var tmp = _videoProtocol + videoDomain + video_url;
+                }
+            }
+            tmp = tmp.replace(/m3u8/, 'mp4');
+            tmp = tmp.replace(/bbs\.huaweicloud\.com/, 'bbs-video.huaweicloud.com');
+
+            var ua = navigator && navigator.userAgent;
+
+            var win_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var obj = '#videoplayer';
+            if (win_width < 700) {
+                $('#videoContainer')
+                    .width(win_width)
+                    .height((win_width * 3) / 4);
+                $(obj)
+                    .width(win_width)
+                    .height((win_width * 3) / 4);
+            }
+            var h = $(obj).height();
+            var w = $(obj).width();
+
+            $(obj).append(
+                '<video src="' +
+                tmp +
+                '" height="' +
+                h +
+                '" width="' +
+                w +
+                '" autoplay="autoplay" controls="controls" controlslist="nodownload"></video>',
+            );
+            if($.fn.videoPointEvent) { //videoPointEvent和empujarPointEvent为新增埋点事件
+                var el = $('#videoplayer').find('video')[0];
+                $.fn.videoPointEvent(el);
+            }
+
+            var userAgent = navigator.userAgent;
+            var isOpera = userAgent.indexOf('Opera') > -1;
+            var height = document.body.offsetHeight;
+            $('#videobg').css('width', $(window).width());
+            $('#videobg').css('height', height);
+            $('#videobg').css('top', -height);
+            $('#videobg').css('left', '0px');
+            $('#videoplayerDiv').css('left', ($(window).width() - $('#videoplayer').width()) / 2);
+            $('#videoplayerDiv').css(
+                'top',
+                ($(window).height() - $('#videoplayer').height()) / 2 + $(window).scrollTop() - height,
+            );
+            $('#videoDiv').show();
+        }
+
+        function closeVideo() {
+            if($.fn.empujarPointEvent) {
+                $.fn.empujarPointEvent();
+            }
+            if (!!window.ActiveXObject || 'ActiveXObject' in window) {
+                $('#videoplayer').remove();
+                $('#closeBtn').append('<div id="videoplayer" style="height:500px;width:700px;">');
+            } else {
+                $('#videoplayer').html('');
+            }
+            $('#videoDiv').hide();
+        }
+    </script> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-note.svg" id="support-hidden-image-note" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-warning.svg" id="support-hidden-image-warning" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-danger.svg" id="support-hidden-image-danger" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-notice.svg" id="support-hidden-image-notice" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-caution.svg" id="support-hidden-image-caution" alt="" hidden="" /> </body> </html> 

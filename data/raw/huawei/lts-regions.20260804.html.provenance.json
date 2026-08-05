@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+  "source_published_at": "2026-02-11",
+  "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+}

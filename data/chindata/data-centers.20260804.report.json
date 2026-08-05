@@ -1,0 +1,29 @@
+{
+  "completeness": "partial_current_directory",
+  "coordinate_methods": {
+    "unknown": 4
+  },
+  "directory_code_count": 4,
+  "entity_types": {
+    "data_center": 4
+  },
+  "facility_location_count": 0,
+  "generated_files": [
+    "data/chindata/data-centers.20260804.csv",
+    "data/chindata/data-centers.20260804.geojson"
+  ],
+  "geometry_null": 4,
+  "layer": "data-centers",
+  "lifecycle_statuses": {
+    "operational": 4
+  },
+  "parser": "update_china_colocation.py:chindata",
+  "raw_source_ref": "data/raw/china-colocation/chindata-locations.20260804.html",
+  "record_count": 4,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_warning": "Current codes are real provider directory entries, but the captured HTML exposes no city/address mapping.",
+  "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+  "source_url": "https://www.chindatagroup.com/global.html"
+}

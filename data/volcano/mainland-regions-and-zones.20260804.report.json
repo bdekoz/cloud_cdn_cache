@@ -1,0 +1,30 @@
+{
+  "availability_zone_count": 11,
+  "cloud_region_count": 3,
+  "coordinate_methods": {
+    "unknown": 14
+  },
+  "derived_from_layer": "data/volcano/regions-and-zones",
+  "entity_types": {
+    "availability_zone": 11,
+    "cloud_region": 3
+  },
+  "generated_files": [
+    "data/volcano/mainland-regions-and-zones.20260804.csv",
+    "data/volcano/mainland-regions-and-zones.20260804.geojson"
+  ],
+  "geometry_null": 14,
+  "jurisdiction_filter": "mainland_china",
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 14
+  },
+  "parser": "update_china.py:volcano:mainland",
+  "raw_source_ref": "data/raw/volcano/regions-and-zones.20260804.json",
+  "record_count": 14,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "source_sha256": "84385367a41e5f6d11a76092822df9327c779a643b3b3c5eac5fd6c118539359",
+  "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en"
+}

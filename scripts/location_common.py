@@ -18,7 +18,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = REPO_ROOT / "schema/location.schema.json"
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "1.1.0"
 
 CANONICAL_FIELDS = (
     "schema_version",
@@ -27,6 +27,10 @@ CANONICAL_FIELDS = (
     "provider",
     "service",
     "entity_type",
+    "parent_record_id",
+    "jurisdiction_scope",
+    "access_status",
+    "service_scope",
     "source_collection",
     "source_record_id",
     "name",
@@ -42,6 +46,7 @@ CANONICAL_FIELDS = (
     "longitude",
     "location_precision",
     "coordinate_method",
+    "coordinate_crs",
     "source_url",
     "raw_source_ref",
     "source_sha256",
@@ -177,6 +182,7 @@ def write_csv(path: Path, records: list[dict[str, Any]]) -> None:
         for record in records:
             row = dict(record)
             row["aliases"] = json.dumps(row["aliases"], ensure_ascii=False, separators=(",", ":"))
+            row["service_scope"] = json.dumps(row["service_scope"], ensure_ascii=False, separators=(",", ":"))
             row["properties"] = json.dumps(row["properties"], ensure_ascii=False, sort_keys=True, separators=(",", ":"))
             writer.writerow(row)
 
@@ -239,11 +245,34 @@ def write_layer(
 
 
 def canonical_record(**values: Any) -> dict[str, Any]:
+    values = dict(values)
+    values.setdefault("parent_record_id", None)
+    values.setdefault("jurisdiction_scope", jurisdiction_scope(values.get("country_code")))
+    values.setdefault("access_status", default_access_status(values.get("entity_type")))
+    values.setdefault("service_scope", [])
+    values.setdefault("coordinate_crs", "EPSG:4326" if values.get("latitude") is not None else None)
     missing = [field for field in CANONICAL_FIELDS if field not in values]
     extra = sorted(set(values) - set(CANONICAL_FIELDS))
     if missing or extra:
         raise ValueError(f"canonical record field mismatch: missing={missing}, extra={extra}")
     return {field: values[field] for field in CANONICAL_FIELDS}
+
+
+def jurisdiction_scope(country_code: str | None) -> str:
+    return {
+        "CN": "mainland_china",
+        "HK": "hong_kong",
+        "MO": "macau",
+        "TW": "taiwan",
+    }.get(country_code or "", "other" if country_code else "unknown")
+
+
+def default_access_status(entity_type: str | None) -> str:
+    if entity_type in {"cloud_region", "availability_zone", "cloud_resource_pool", "local_zone"}:
+        return "public"
+    if entity_type in {"edge_pop", "regional_edge_cache", "data_center", "embedded_cache"}:
+        return "not_applicable"
+    return "unknown"
 
 
 def legacy_coordinate_index(path: Path, city_column: str = "City", country_column: str = "Country") -> dict[str, tuple[float, float, str, str]]:

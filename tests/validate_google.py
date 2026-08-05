@@ -21,6 +21,7 @@ GOOGLE_DIR = REPO_ROOT / "data/google"
 TAG = "20260804"
 
 NULLABLE_FIELDS = {
+    "parent_record_id",
     "source_record_id",
     "site_code",
     "city",
@@ -29,6 +30,7 @@ NULLABLE_FIELDS = {
     "country",
     "country_code",
     "source_published_at",
+    "coordinate_crs",
 }
 
 
@@ -48,6 +50,7 @@ def read_json(path: Path):
 def csv_record(row: dict[str, str]) -> dict[str, object]:
     result: dict[str, object] = dict(row)
     result["aliases"] = json.loads(row["aliases"])
+    result["service_scope"] = json.loads(row["service_scope"])
     result["properties"] = json.loads(row["properties"])
     for field in NULLABLE_FIELDS:
         result[field] = row[field] or None

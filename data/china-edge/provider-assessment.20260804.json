@@ -1,0 +1,349 @@
+{
+  "assessment_date": "2026-08-04",
+  "canonical_location_records_generated": 0,
+  "cohort_definition": "Ten high-priority mainland-China CDN/edge providers; this is a coverage cohort, not a claimed exact revenue ranking.",
+  "coverage_semantics": "Province, country, city-count, bandwidth, and fleet-total claims describe service coverage only and do not identify physical POPs.",
+  "excluded_source_classes": [
+    "unauthorized or leaked inventories",
+    "credential-gated exports obtained without provider authorization",
+    "private customer or employee material without a redistribution basis"
+  ],
+  "providers": [
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "carrier_count_min": 100,
+        "countries_and_regions_min": 70,
+        "global_node_count_min": 2800
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "Wangsu Science & Technology",
+      "provider_class": "independent_cdn",
+      "published_granularity": "aggregate_global_fleet",
+      "raw_source_ref": "data/raw/china-edge/wangsu-cdn.20260804.html",
+      "source_published_at": null,
+      "source_sha256": "4b5f694f0423b880c3f86cddda28499f232f040dcb1b5ec5fc118db4e714f0fd",
+      "source_url": "https://online.wangsu.com/product/cdn"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "global_node_count_min": 3200,
+        "mainland_node_count_min": 2300,
+        "mainland_provincial_areas": [
+          "Anhui",
+          "Beijing",
+          "Chongqing",
+          "Fujian",
+          "Gansu",
+          "Guangdong",
+          "Guangxi",
+          "Guizhou",
+          "Hainan",
+          "Hebei",
+          "Heilongjiang",
+          "Henan",
+          "Hubei",
+          "Hunan",
+          "Inner Mongolia",
+          "Jiangsu",
+          "Jiangxi",
+          "Jilin",
+          "Liaoning",
+          "Ningxia",
+          "Qinghai",
+          "Shaanxi",
+          "Shandong",
+          "Shanghai",
+          "Shanxi",
+          "Sichuan",
+          "Tianjin",
+          "Tibet",
+          "Xinjiang",
+          "Yunnan",
+          "Zhejiang"
+        ],
+        "network_bandwidth_tbps": 180,
+        "outside_mainland_node_count_min": 900
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "Alibaba Cloud CDN",
+      "provider_class": "cloud_cdn",
+      "published_granularity": "aggregate_fleet_plus_province_coverage",
+      "raw_source_ref": "data/raw/china-edge/alibaba-cdn-pop-distribution.20260804.html",
+      "source_published_at": null,
+      "source_sha256": "39d296b38bbecd72d04bf3194648c20fe69dc14694b231fafb472935ac269de2",
+      "source_url": "https://help.aliyun.com/zh/cdn/product-overview/pop-distribution"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "countries_and_regions_min": 70,
+        "global_node_count_min": 3200,
+        "mainland_node_count_min": 2300,
+        "network_bandwidth_tbps": 400,
+        "outside_mainland_node_count_min": 900
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "Tencent Cloud CDN",
+      "provider_class": "cloud_cdn",
+      "published_granularity": "aggregate_fleet",
+      "raw_source_ref": "data/raw/china-edge/tencent-cdn.20260804.html",
+      "source_published_at": null,
+      "source_sha256": "4b0608d58548e31fd68267adb27ee43022294b84dd23bac33593083ae6270c3d",
+      "source_url": "https://intl.cloud.tencent.com/products/cdn"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "carrier_count_min": 1600,
+        "countries_and_regions_min": 130,
+        "mainland_node_count_min": 2000,
+        "mainland_provincial_areas": [
+          "Anhui",
+          "Beijing",
+          "Chongqing",
+          "Fujian",
+          "Gansu",
+          "Guangdong",
+          "Guangxi",
+          "Guizhou",
+          "Hainan",
+          "Hebei",
+          "Heilongjiang",
+          "Henan",
+          "Hubei",
+          "Hunan",
+          "Inner Mongolia",
+          "Jiangsu",
+          "Jiangxi",
+          "Jilin",
+          "Liaoning",
+          "Ningxia",
+          "Qinghai",
+          "Shaanxi",
+          "Shandong",
+          "Shanghai",
+          "Shanxi",
+          "Sichuan",
+          "Tianjin",
+          "Tibet",
+          "Xinjiang",
+          "Yunnan",
+          "Zhejiang"
+        ],
+        "network_bandwidth_tbps": 180,
+        "outside_mainland_node_count_min": 800
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "Huawei Cloud CDN",
+      "provider_class": "cloud_cdn",
+      "published_granularity": "aggregate_fleet_plus_province_coverage",
+      "raw_source_ref": "data/raw/china-edge/huawei-cdn-node-distribution.20260804.html",
+      "source_published_at": "2026-04-27",
+      "source_sha256": "0832e432784ea3f74c1385402580f8a32f7147dc83b386cc41e1f40fe4bb9a5f",
+      "source_url": "https://support.huaweicloud.com/intl/zh-cn/productdesc-cdn/cdn_01_0110.html"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "mainland_network_bandwidth_tbps": 150,
+        "mainland_node_count_min": 2500,
+        "mainland_provincial_areas": [
+          "Anhui",
+          "Beijing",
+          "Chongqing",
+          "Fujian",
+          "Gansu",
+          "Guangdong",
+          "Guangxi",
+          "Guizhou",
+          "Hainan",
+          "Hebei",
+          "Heilongjiang",
+          "Henan",
+          "Hubei",
+          "Hunan",
+          "Inner Mongolia",
+          "Jiangsu",
+          "Jiangxi",
+          "Jilin",
+          "Liaoning",
+          "Ningxia",
+          "Qinghai",
+          "Shaanxi",
+          "Shandong",
+          "Shanghai",
+          "Shanxi",
+          "Sichuan",
+          "Tianjin",
+          "Tibet",
+          "Xinjiang",
+          "Yunnan",
+          "Zhejiang"
+        ],
+        "outside_mainland_countries_and_regions_min": 70,
+        "outside_mainland_network_bandwidth_tbps": 50,
+        "outside_mainland_node_count_min": 800
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "Baidu AI Cloud CDN",
+      "provider_class": "cloud_cdn",
+      "published_granularity": "aggregate_fleet_plus_province_coverage",
+      "raw_source_ref": "data/raw/china-edge/baidu-cdn-advantages.20260804.html",
+      "source_published_at": "2025-08-21",
+      "source_sha256": "6ba4c567047a0bd628ed5b77b90288ebd0cf188e4b2177378b385e648ed9f285",
+      "source_url": "https://intl.cloud.baidu.com/zh/doc/CDN/s/Ojwvydwwl-intl"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "global_node_count_min": 3500,
+        "network_bandwidth_tbps_min": 150,
+        "outside_mainland_countries_and_regions_min": 70
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "Volcano Engine CDN",
+      "provider_class": "cloud_cdn",
+      "published_granularity": "aggregate_global_fleet",
+      "raw_source_ref": "data/raw/china-edge/volcano-cdn.20260804.html",
+      "source_published_at": null,
+      "source_sha256": "984037f5d6535dc9dbdb6c65f8ab71722086fa9a16493ba7c2e3b9a849ad2d60",
+      "source_url": "https://www.volcengine.com/product/CDN"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "mainland_node_count_min": 2000,
+        "mainland_provincial_areas": [
+          "Anhui",
+          "Beijing",
+          "Chongqing",
+          "Fujian",
+          "Gansu",
+          "Guangdong",
+          "Guangxi",
+          "Guizhou",
+          "Hainan",
+          "Hebei",
+          "Heilongjiang",
+          "Henan",
+          "Hubei",
+          "Hunan",
+          "Inner Mongolia",
+          "Jiangsu",
+          "Jiangxi",
+          "Jilin",
+          "Liaoning",
+          "Ningxia",
+          "Qinghai",
+          "Shaanxi",
+          "Shandong",
+          "Shanghai",
+          "Shanxi",
+          "Sichuan",
+          "Tianjin",
+          "Tibet",
+          "Xinjiang",
+          "Yunnan",
+          "Zhejiang"
+        ],
+        "network_bandwidth_tbps": 160,
+        "outside_mainland_node_count_min": 800
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "China Telecom Tianyi Cloud CDN",
+      "provider_class": "carrier_cdn",
+      "published_granularity": "aggregate_fleet_plus_province_coverage",
+      "raw_source_ref": "data/raw/china-edge/tianyi-cdn-node-distribution.20260804.html",
+      "source_published_at": "2025-10-30",
+      "source_sha256": "0a1689622bce253f1d730717480d4c3a4dcedf27db195aeee82945820fd4cb16",
+      "source_url": "https://www.ctyun.cn/document/10015932/10134360"
+    },
+    {
+      "blocker": "The official product surface was not stably retrievable and no itemized public node directory was established.",
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {},
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "China Mobile Cloud CDN",
+      "provider_class": "carrier_cdn",
+      "published_granularity": "no_stable_public_inventory_retrieved",
+      "raw_source_ref": null,
+      "source_published_at": null,
+      "source_sha256": null,
+      "source_url": "https://ecloud.10086.cn/"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "mainland_scope": "nationwide"
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "China Unicom Cloud CDN",
+      "provider_class": "carrier_cdn",
+      "published_granularity": "qualitative_nationwide_claim",
+      "raw_source_ref": "data/raw/china-edge/unicom-cdn-introduction.20260804.html",
+      "source_published_at": "2026-01-16",
+      "source_sha256": "4c1d2d44ab4fa778d03ac26084c6a20797a9e859a0293516e4e54a5388a9e8a5",
+      "source_url": "https://support.cucloud.cn/document/127/590/149.html?arcid=269&id=149"
+    },
+    {
+      "canonical_location_generation": "gated_no_itemized_site_identifiers",
+      "declared_coverage": {
+        "covered_city_count_min": 300,
+        "global_edge_node_count_min": 1700,
+        "international_carrier_partners_min": 150,
+        "redundancy_bandwidth_tbps": 80
+      },
+      "lawful_enrichment_paths": [
+        "request a provider-approved site or IP allowlist when the product offers one",
+        "collect reproducible DNS/BGP/TLS observations with timestamps and measurement scope",
+        "join licensed PeeringDB/IX/facility evidence without treating it as provider ownership proof"
+      ],
+      "provider": "BaishanCloud",
+      "provider_class": "independent_edge_cloud",
+      "published_granularity": "aggregate_global_fleet",
+      "raw_source_ref": "data/raw/china-edge/baishan-edge-cloud.20260804.html",
+      "source_published_at": null,
+      "source_sha256": "0ea89ffb107f75576f6aef4b05440aa29bd54fb1b217dcea7a7b9528ca52aba9",
+      "source_url": "https://intl.baishancloud.com/"
+    }
+  ],
+  "source_policy": "Provider-approved, licensed, public filing/tender, and reproducible active-measurement evidence only."
+}

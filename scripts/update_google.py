@@ -28,7 +28,7 @@ DEFAULT_LEGACY_GOOGLE = REPO_ROOT / "data/Google_GGC_01-12-2023.csv"
 
 PEERING_URL = "https://peering.google.com/static/js/site/modules/pages/infrastructure.html"
 DATA_CENTER_URL = "https://datacenters.google/locations/"
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "1.1.0"
 
 CANONICAL_FIELDS = (
     "schema_version",
@@ -37,6 +37,10 @@ CANONICAL_FIELDS = (
     "provider",
     "service",
     "entity_type",
+    "parent_record_id",
+    "jurisdiction_scope",
+    "access_status",
+    "service_scope",
     "source_collection",
     "source_record_id",
     "name",
@@ -52,6 +56,7 @@ CANONICAL_FIELDS = (
     "longitude",
     "location_precision",
     "coordinate_method",
+    "coordinate_crs",
     "source_url",
     "raw_source_ref",
     "source_sha256",
@@ -467,6 +472,12 @@ def build_edge_records(
                 "provider": "Google",
                 "service": "google_edge",
                 "entity_type": "edge_pop",
+                "parent_record_id": None,
+                "jurisdiction_scope": {
+                    "CN": "mainland_china", "HK": "hong_kong", "MO": "macau", "TW": "taiwan"
+                }.get(country_code or "", "other" if country_code else "unknown"),
+                "access_status": "not_applicable",
+                "service_scope": [],
                 "source_collection": "google_peering_infrastructure",
                 "source_record_id": None,
                 "name": display_location,
@@ -482,6 +493,7 @@ def build_edge_records(
                 "longitude": longitude,
                 "location_precision": "metro",
                 "coordinate_method": "provider",
+                "coordinate_crs": "EPSG:4326",
                 "source_url": PEERING_URL,
                 "raw_source_ref": repo_ref(source_path),
                 "source_sha256": source_digest,
@@ -580,6 +592,12 @@ def build_data_center_records(
                 "provider": "Google",
                 "service": "google_data_centers",
                 "entity_type": "data_center",
+                "parent_record_id": None,
+                "jurisdiction_scope": {
+                    "CN": "mainland_china", "HK": "hong_kong", "MO": "macau", "TW": "taiwan"
+                }.get(country_code or "", "other" if country_code else "unknown"),
+                "access_status": "not_applicable",
+                "service_scope": [],
                 "source_collection": "google_data_centers_directory",
                 "source_record_id": None,
                 "name": location,
@@ -599,6 +617,7 @@ def build_data_center_records(
                 "longitude": float(longitude) if longitude is not None else None,
                 "location_precision": data_center_precision(location, has_coordinates),
                 "coordinate_method": "provider" if has_coordinates else "unknown",
+                "coordinate_crs": "EPSG:4326" if has_coordinates else None,
                 "source_url": DATA_CENTER_URL,
                 "raw_source_ref": repo_ref(source_path),
                 "source_sha256": source_digest,

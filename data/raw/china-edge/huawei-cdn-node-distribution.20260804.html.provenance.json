@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Official public edge/CDN source retained for aggregate coverage assessment; not an itemized POP inventory. Redistribution terms require review.",
+  "raw_source_ref": "data/raw/china-edge/huawei-cdn-node-distribution.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "0832e432784ea3f74c1385402580f8a32f7147dc83b386cc41e1f40fe4bb9a5f",
+  "source_published_at": "2026-04-27",
+  "source_url": "https://support.huaweicloud.com/intl/zh-cn/productdesc-cdn/cdn_01_0110.html"
+}

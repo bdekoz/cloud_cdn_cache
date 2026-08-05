@@ -1,0 +1,30 @@
+{
+  "availability_zone_count": 10,
+  "console_availability_warning": true,
+  "coordinate_methods": {
+    "unknown": 14
+  },
+  "entity_types": {
+    "availability_zone": 10,
+    "cloud_region": 4
+  },
+  "generated_files": [
+    "data/jd/mainland-regions-and-zones.20260804.csv",
+    "data/jd/mainland-regions-and-zones.20260804.geojson"
+  ],
+  "geometry_null": 14,
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 14
+  },
+  "mainland_region_count": 4,
+  "parser": "update_china.py:jd",
+  "parser_surface": "server-rendered Nuxt state containing Markdown",
+  "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+  "record_count": 14,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "source_sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+  "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones"
+}

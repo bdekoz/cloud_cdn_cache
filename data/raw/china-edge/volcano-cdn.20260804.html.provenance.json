@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Official public edge/CDN source retained for aggregate coverage assessment; not an itemized POP inventory. Redistribution terms require review.",
+  "raw_source_ref": "data/raw/china-edge/volcano-cdn.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "984037f5d6535dc9dbdb6c65f8ab71722086fa9a16493ba7c2e3b9a849ad2d60",
+  "source_published_at": null,
+  "source_url": "https://www.volcengine.com/product/CDN"
+}

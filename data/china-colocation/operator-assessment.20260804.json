@@ -1,0 +1,102 @@
+{
+  "assessment_date": "2026-08-04",
+  "canonical_location_records_generated": 4,
+  "market_separation": "Colocation and hyperscale data-center operators sell physical space, power, interconnection, and managed infrastructure; their facilities are not cloud regions, availability zones, or CDN POPs.",
+  "operators": [
+    {
+      "canonical_generation_status": "gated_aggregate_counts_and_market_footprints_only",
+      "next_step": "Obtain a provider-approved facility directory or extract stable facility IDs from current filings without converting market totals into sites.",
+      "operator": "GDS Holdings",
+      "operator_class": "carrier_and_cloud_neutral_colocation",
+      "published_portfolio": {
+        "market_locations": [
+          "Beijing",
+          "Langfang",
+          "Zhangbei",
+          "Huailai",
+          "Chengdu",
+          "Shanghai",
+          "Kunshan",
+          "Changshu",
+          "Shenzhen",
+          "Guangzhou",
+          "Huizhou",
+          "Hong Kong"
+        ],
+        "operational_by_market": {
+          "beijing_tianjin_hebei": 20,
+          "greater_bay_area": 10,
+          "southwest": 2,
+          "yangtze_river_delta": 19
+        },
+        "operational_data_centers": 51,
+        "under_construction_data_centers": 16
+      },
+      "raw_source_ref": "data/raw/china-colocation/gds-data-centers.20260804.html",
+      "source_published_at": null,
+      "source_sha256": "98b20981f41841510d7332b8acc48b968367add8db2aadce098269ef89d73743",
+      "source_url": "https://www.gds-services.com/about_4.html"
+    },
+    {
+      "canonical_generation_status": "gated_aggregate_capacity_and_market_footprints_only",
+      "next_step": "Track annual-report portfolio tables and request a provider-approved self-built facility list; keep partnered sites distinct from owned/self-built sites.",
+      "operator": "VNET Group",
+      "operator_class": "carrier_and_cloud_neutral_colocation",
+      "published_portfolio": {
+        "as_of": "2025-12-31",
+        "network_pops": 224,
+        "retail_cabinets_in_service": 49863,
+        "retail_self_built_cabinets_approx": {
+          "greater_bay_area": 6600,
+          "greater_beijing_area": 25900,
+          "other": 4300,
+          "yangtze_river_delta": 9300
+        },
+        "wholesale_capacity_in_service_mw": 889,
+        "wholesale_market_capacity_mw": {
+          "greater_beijing_area": 578,
+          "yangtze_river_delta": 311
+        }
+      },
+      "raw_source_ref": "data/raw/china-colocation/vnet-2025-20f.20260804.pdf",
+      "source_published_at": "2026-04-16",
+      "source_sha256": "1352a2b9cdc95e7333066605093c7d6e68259d0d3d1134c98f53b01f687bf299",
+      "source_url": "https://ir.vnet.com/static-files/8b1feb05-698c-4de3-8693-4cc85803b868"
+    },
+    {
+      "canonical_generation_status": "generated_four_current_directory_codes_with_null_geometry",
+      "corroborating_source": {
+        "raw_source_ref": "data/raw/china-colocation/chindata-sangyuan.20260804.html",
+        "source_published_at": "2026-07-02",
+        "source_sha256": "f6574668d2562e3f31e9d7b3b8805540a5305a3b99428d9b6293ce30561fd024",
+        "source_url": "https://www.chindatagroup.com/media/news/533.html"
+      },
+      "next_step": "Resolve code-to-campus aliases only when an official source explicitly supplies the mapping; then add provider coordinates or reviewed facility evidence.",
+      "operator": "Chindata",
+      "operator_class": "hyperscale_data_center_operator",
+      "published_portfolio": {
+        "current_directory_codes": [
+          "ChinaNorth H01",
+          "ChinaNorth H02",
+          "ChinaNorth H04",
+          "ChinaNorth W01"
+        ],
+        "location_clusters": [
+          "Greater Beijing",
+          "Yangtze River Delta",
+          "Greater Bay Area",
+          "Qingyang, Gansu",
+          "Zhongwei, Ningxia",
+          "Ulanqab, Inner Mongolia",
+          "Yichang, Hubei"
+        ],
+        "named_current_campus_example": "Sangyuan Cloud Computing Campus near Beijing"
+      },
+      "raw_source_ref": "data/raw/china-colocation/chindata-locations.20260804.html",
+      "source_published_at": null,
+      "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+      "source_url": "https://www.chindatagroup.com/global.html"
+    }
+  ],
+  "source_policy": "Official public, licensed, filing/tender, and reproducible observation evidence only; unauthorized or leaked inventories are excluded."
+}

@@ -1,0 +1,30 @@
+{
+  "availability_zone_count": 18,
+  "cloud_region_count": 7,
+  "coordinate_methods": {
+    "unknown": 25
+  },
+  "derived_from_layer": "data/baidu/regions-and-zones",
+  "entity_types": {
+    "availability_zone": 18,
+    "cloud_region": 7
+  },
+  "generated_files": [
+    "data/baidu/mainland-regions-and-zones.20260804.csv",
+    "data/baidu/mainland-regions-and-zones.20260804.geojson"
+  ],
+  "geometry_null": 25,
+  "jurisdiction_filter": "mainland_china",
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 25
+  },
+  "parser": "update_china.py:baidu:mainland",
+  "raw_source_ref": "data/raw/baidu/bcc-service-domains.20260804.html",
+  "record_count": 25,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "source_sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+  "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
+}

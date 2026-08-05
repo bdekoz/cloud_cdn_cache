@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/unicom/ecs-product.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "649579ad57a1a44dc76f7a15e7a1fd7b43fbdec4fef8828eeb871603bb71ac42",
+  "source_published_at": null,
+  "source_url": "https://www.cucloud.cn/product/ecs.html"
+}

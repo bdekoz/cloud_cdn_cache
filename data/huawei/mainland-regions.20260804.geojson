@@ -1,0 +1,581 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华东-上海二"
+        ],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "华东-上海二",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "上海",
+          "source_name": "华东-上海二"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-east-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-east-2",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-east-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华东-上海一"
+        ],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "华东-上海一",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "上海",
+          "source_name": "华东-上海一"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-east-3",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-east-3",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-east-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华东二"
+        ],
+        "city": "Wuhu",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Wuhu",
+        "name": "华东二",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "芜湖",
+          "source_name": "华东二"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-east-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-east-4",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-east-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华北-北京一"
+        ],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "华北-北京一",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "北京",
+          "source_name": "华北-北京一"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-north-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-north-1",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-north-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华北-北京四"
+        ],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "华北-北京四",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "北京",
+          "source_name": "华北-北京四"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-north-4",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-north-4",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-north-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华北-乌兰察布一"
+        ],
+        "city": "Ulanqab",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Ulanqab",
+        "name": "华北-乌兰察布一",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "乌兰察布",
+          "source_name": "华北-乌兰察布一"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-north-9",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-north-9",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-north-9",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华南-广州"
+        ],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guangzhou",
+        "name": "华南-广州",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "广州",
+          "source_name": "华南-广州"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-south-1",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-south-1",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-south-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华南-深圳"
+        ],
+        "city": "Shenzhen",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shenzhen",
+        "name": "华南-深圳",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "深圳",
+          "source_name": "华南-深圳"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-south-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-south-2",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-south-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西南-贵阳一"
+        ],
+        "city": "Guiyang",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-08-04",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guiyang",
+        "name": "西南-贵阳一",
+        "parent_record_id": null,
+        "properties": {
+          "region_id_crosswalk_sources": [
+            {
+              "raw_source_ref": "data/raw/huawei/iam-region-endpoints.20260804.html",
+              "sha256": "1c53cc63b820f0486e0ac0edc189c0562d6546e85fbf21cd1c76ea86ca6d384b",
+              "source_url": "https://support.huaweicloud.com/api-iam5/iam_02_1101.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/rcp-supported-regions.20260804.html",
+              "sha256": "f330b77e3538580a8f131af8ddda75328ede94b01453ddb70c2b56100c26b23e",
+              "source_url": "https://support.huaweicloud.com/usermanual-organizations/org_03_2028.html"
+            },
+            {
+              "raw_source_ref": "data/raw/huawei/lts-regions.20260804.html",
+              "sha256": "9ff82a249fcd4e2620b36e80f512679e2d512f1766ed10f75e1860819ca41df6",
+              "source_url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-lts/lts_03_0003.html"
+            }
+          ],
+          "scope_warning": "Membership comes from the Cloud Connect supported-region page; product availability can differ.",
+          "source_city_name": "贵阳",
+          "source_name": "西南-贵阳一"
+        },
+        "provider": "Huawei Cloud",
+        "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+        "record_id": "huawei:cloud_region:cn-southwest-2",
+        "retrieved_at": "2026-08-04",
+        "schema_version": "1.1.0",
+        "service": "huawei_cloud",
+        "service_scope": [
+          "cloud_connect"
+        ],
+        "site_code": "cn-southwest-2",
+        "source_collection": "huawei_cloud_connect_regions",
+        "source_published_at": "2026-01-29",
+        "source_record_id": "cn-southwest-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+        "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

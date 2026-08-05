@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Official public edge/CDN source retained for aggregate coverage assessment; not an itemized POP inventory. Redistribution terms require review.",
+  "raw_source_ref": "data/raw/china-edge/tencent-cdn.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "4b0608d58548e31fd68267adb27ee43022294b84dd23bac33593083ae6270c3d",
+  "source_published_at": null,
+  "source_url": "https://intl.cloud.tencent.com/products/cdn"
+}

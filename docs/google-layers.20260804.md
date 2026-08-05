@@ -2,7 +2,7 @@
 
 Date: 2026-08-04
 
-Google Edge and Google-owned data centers are represented as separate provider-declared layers under schema version `1.0.0`. They are not interchangeable asset counts, and neither replaces the existing Google Global Cache snapshot.
+Google Edge and Google-owned data centers are represented as separate provider-declared layers under schema version `1.1.0`. They are not interchangeable asset counts, and neither replaces the existing Google Global Cache snapshot. The 1.1 regeneration adds explicit jurisdiction, access, service-scope, parent, and coordinate-CRS fields without changing membership.
 
 ## Outputs
 

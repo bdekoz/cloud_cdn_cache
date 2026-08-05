@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider snapshot used by scripts/update_china.py. Redistribution rights for provider documentation require review.",
+  "raw_source_ref": "data/raw/tianyi/vpc-resource-pools.20260804.html",
+  "retrieved_at": "2026-08-04",
+  "sha256": "17bd8059960fa9ec3bc11fdd6833cfbd131bca06b573281e5cfba276a5420c35",
+  "source_published_at": "2026-06-24",
+  "source_url": "https://www.ctyun.cn/document/10026755/10196575"
+}

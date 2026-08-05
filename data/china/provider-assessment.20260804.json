@@ -1,0 +1,107 @@
+{
+  "assessment_date": "2026-08-04",
+  "generated_summaries": {
+    "baidu": {
+      "geometry_null": 27,
+      "record_count": 27
+    },
+    "baidu-mainland": {
+      "geometry_null": 25,
+      "record_count": 25
+    },
+    "huawei": {
+      "geometry_null": 9,
+      "record_count": 9
+    },
+    "jd": {
+      "geometry_null": 14,
+      "record_count": 14
+    },
+    "kingsoft": {
+      "geometry_null": 22,
+      "record_count": 22
+    },
+    "tianyi": {
+      "geometry_null": 63,
+      "record_count": 63
+    },
+    "volcano": {
+      "geometry_null": 17,
+      "record_count": 17
+    },
+    "volcano-mainland": {
+      "geometry_null": 14,
+      "record_count": 14
+    }
+  },
+  "generation_gate": "No canonical location is emitted from an aggregate marketing count, endpoint guess, or undocumented console label.",
+  "market_definition": "Mainland-China public cloud infrastructure; positions six through ten are a coverage-priority cohort, not a claimed exact market-share order.",
+  "market_evidence": [
+    "https://www.businesswire.com/news/home/20260209034854/en/Omdia-Mainland-Chinas-cloud-infrastructure-market-accelerates-to-24-growth-in-Q3-2025",
+    "https://www.idc.com/resource-center/blog/%E5%85%AC%E6%9C%89%E4%BA%91iaas%E5%B8%82%E5%9C%BA%E5%A2%9E%E9%80%9F%E9%87%8D%E5%9B%9E20%E7%9A%84%E8%83%8C%E5%90%8E%EF%BC%9A-ai-%E7%BA%A2%E5%88%A9%E8%8A%B1%E8%90%BD%E8%B0%81%E5%AE%B6%EF%BC%9F/"
+  ],
+  "providers": [
+    {
+      "generation_status": "generated_existing_and_mainland_view",
+      "provider": "Alibaba Cloud",
+      "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones",
+      "tier": "market_leader"
+    },
+    {
+      "generation_status": "generated_region_only",
+      "provider": "Huawei Cloud",
+      "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html",
+      "tier": "market_leader"
+    },
+    {
+      "generation_status": "generated_existing_and_mainland_view",
+      "provider": "Tencent Cloud",
+      "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
+      "tier": "market_leader"
+    },
+    {
+      "generation_status": "generated_vpc_resource_pools",
+      "provider": "China Telecom Tianyi Cloud",
+      "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+      "tier": "top_five_operator_cloud"
+    },
+    {
+      "blocker": "The public site did not yield a stable itemized region, zone, or resource-pool directory during this audit.",
+      "generation_status": "gated_no_itemized_authoritative_inventory",
+      "provider": "China Mobile Cloud",
+      "source_url": "https://ecloud.10086.cn/",
+      "tier": "top_five_operator_cloud"
+    },
+    {
+      "generation_status": "generated_bcc_regions_and_zones",
+      "provider": "Baidu AI Cloud",
+      "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl",
+      "tier": "coverage_priority"
+    },
+    {
+      "generation_status": "generated_current_live_document",
+      "provider": "Volcano Engine",
+      "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en",
+      "tier": "coverage_priority"
+    },
+    {
+      "blocker": "The public ECS product page is a client-rendered shell and does not expose a consolidated authoritative inventory.",
+      "generation_status": "gated_no_itemized_authoritative_inventory",
+      "provider": "China Unicom Cloud",
+      "source_url": "https://www.cucloud.cn/product/ecs.html",
+      "tier": "coverage_priority"
+    },
+    {
+      "generation_status": "generated_kec_regions_and_zones",
+      "provider": "Kingsoft Cloud",
+      "source_url": "https://docs.ksyun.com/documents/6965",
+      "tier": "coverage_priority"
+    },
+    {
+      "generation_status": "generated_cvm_regions_and_zones",
+      "provider": "JD Cloud",
+      "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+      "tier": "coverage_priority"
+    }
+  ]
+}

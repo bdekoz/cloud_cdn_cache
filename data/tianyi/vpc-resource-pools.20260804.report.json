@@ -1,0 +1,31 @@
+{
+  "availability_zone_capable_resource_pool_count": 23,
+  "availability_zone_records_generated": 0,
+  "coordinate_methods": {
+    "unknown": 63
+  },
+  "entity_types": {
+    "cloud_resource_pool": 63
+  },
+  "generated_files": [
+    "data/tianyi/vpc-resource-pools.20260804.csv",
+    "data/tianyi/vpc-resource-pools.20260804.geojson"
+  ],
+  "geometry_null": 63,
+  "identity_method": "SHA-256 of the provider-published Chinese pool label; no provider ID is published on this page",
+  "layer": "vpc-resource-pools",
+  "lifecycle_statuses": {
+    "operational": 63
+  },
+  "parser": "update_china.py:tianyi",
+  "raw_source_ref": "data/raw/tianyi/vpc-resource-pools.20260804.html",
+  "record_count": 63,
+  "regional_resource_pool_count": 40,
+  "resource_pool_count": 63,
+  "retrieved_at": "2026-08-04",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_warning": "This is a VPC product inventory. Other Tianyi products can expose different resource-pool sets.",
+  "source_sha256": "17bd8059960fa9ec3bc11fdd6833cfbd131bca06b573281e5cfba276a5420c35",
+  "source_url": "https://www.ctyun.cn/document/10026755/10196575"
+}
