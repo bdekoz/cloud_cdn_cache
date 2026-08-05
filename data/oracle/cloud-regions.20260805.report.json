@@ -1,0 +1,41 @@
+{
+  "availability_domain_count_distribution": {
+    "1": 40,
+    "3": 5
+  },
+  "availability_domain_records_generated": 0,
+  "commercial_region_count": 45,
+  "coordinate_methods": {
+    "unknown": 45
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/oracle/cloud-regions.20260805.csv",
+      "path": "data/oracle/cloud-regions.20260805.csv",
+      "source": "data/oracle/cloud-regions.20260805.geojson"
+    }
+  },
+  "entity_types": {
+    "cloud_region": 45
+  },
+  "generated_files": [
+    "data/oracle/cloud-regions.20260805.geojson"
+  ],
+  "geometry_null": 45,
+  "layer": "cloud-regions",
+  "lifecycle_statuses": {
+    "operational": 45
+  },
+  "parser": "update_hyperscalers.py:oci",
+  "raw_source_ref": "data/raw/oracle/regions.20260805.html",
+  "realm_counts": {
+    "OC1": 44,
+    "OC20": 1
+  },
+  "record_count": 45,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
+  "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+}

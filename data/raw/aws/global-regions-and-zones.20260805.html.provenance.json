@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/aws/global-regions-and-zones.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "9af47271c5232de9727ba98f2876b9db54bf2f562f806c0f897dca4f158887a6",
+  "source_published_at": null,
+  "source_url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+}

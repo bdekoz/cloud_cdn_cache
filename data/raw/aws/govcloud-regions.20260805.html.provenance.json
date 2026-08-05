@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/aws/govcloud-regions.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "00533a92d7924d5a784a975e285c31e03c11071a044d395bca81735f31d0d4dd",
+  "source_published_at": null,
+  "source_url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/using-govcloud.html"
+}

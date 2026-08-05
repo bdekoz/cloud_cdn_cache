@@ -1,0 +1,35 @@
+{
+  "availability_zone_count": 130,
+  "coordinate_methods": {
+    "unknown": 173
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/google/cloud-regions-and-zones.20260805.csv",
+      "path": "data/google/cloud-regions-and-zones.20260805.csv",
+      "source": "data/google/cloud-regions-and-zones.20260805.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 130,
+    "cloud_region": 43
+  },
+  "generated_files": [
+    "data/google/cloud-regions-and-zones.20260805.geojson"
+  ],
+  "geometry_null": 173,
+  "layer": "cloud-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 173
+  },
+  "parser": "update_hyperscalers.py:google",
+  "product_availability_joined": true,
+  "raw_source_ref": "data/raw/google/compute-regions-zones.20260805.html",
+  "record_count": 173,
+  "region_count": 43,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "9bde263c31dc807f16750752bc3f822fcc9bc2523ba9c0942ad80b0ecd8c278e",
+  "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones"
+}

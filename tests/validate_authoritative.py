@@ -113,6 +113,11 @@ def validate_layers() -> None:
     validator = Draft202012Validator(schema, format_checker=FormatChecker())
     all_ids: set[str] = set()
     services: set[str] = set()
+    aws_region_ids = {
+        feature["properties"]["record_id"]
+        for feature in json.loads((ROOT / "data/aws/regions-and-zones.20260805.geojson").read_text(encoding="utf-8"))["features"]
+        if feature["properties"]["entity_type"] == "cloud_region"
+    }
     for layer, expected_count in LAYERS.items():
         geojson_path = ROOT / "data" / f"{layer}.{TAG}.geojson"
         report_path = ROOT / "data" / f"{layer}.{TAG}.report.json"
@@ -134,7 +139,8 @@ def validate_layers() -> None:
             assert record["schema_version"] == "1.1.0"
             assert record["coordinate_crs"] == ("EPSG:4326" if record["latitude"] is not None else None)
             if record["parent_record_id"] is not None:
-                assert record["parent_record_id"] in set(ids), f"{layer}: missing parent"
+                allowed_parents = aws_region_ids if layer == "aws/local-zones" else set(ids)
+                assert record["parent_record_id"] in allowed_parents, f"{layer}: missing parent"
             services.add(record["service"])
         assert sum(record["latitude"] is None for record in records) == report["geometry_null"], layer
     assert services == {
@@ -265,12 +271,13 @@ def validate_manifest() -> None:
     assert manifest["record_count"] == 15113
     assert manifest["view_count"] == 5
     assert sum(view["record_count"] for view in manifest["views"]) == 160
-    assert manifest["schema"]["version"] == "1.1.0"
+    assert manifest["schema"]["version"] == "1.2.0"
     assert manifest["schema"]["sha256"] == digest(ROOT / manifest["schema"]["path"])
     assert {layer["layer"] for layer in manifest["layers"]} == {
         "google/edge", "google/data-centers", *LAYERS.keys()
     }
     for layer in manifest["layers"]:
+        assert layer["snapshot_tag"] == TAG
         assert set(layer["files"]) == {"geojson", "report"}
         for file_record in layer["files"].values():
             assert digest(ROOT / file_record["path"]) == file_record["sha256"]
@@ -282,6 +289,7 @@ def validate_manifest() -> None:
         }
         assert sum(layer["entity_types"].values()) == layer["record_count"]
     for view in manifest["views"]:
+        assert view["snapshot_tag"] == TAG
         assert view["view_of"] in {layer["layer"] for layer in manifest["layers"]}
         assert set(view["files"]) == {"geojson", "report"}
         for file_record in view["files"].values():

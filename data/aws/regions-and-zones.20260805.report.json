@@ -1,0 +1,49 @@
+{
+  "aggregate_availability_zone_count": 123,
+  "coordinate_methods": {
+    "unknown": 147
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/aws/regions-and-zones.20260805.csv",
+      "path": "data/aws/regions-and-zones.20260805.csv",
+      "source": "data/aws/regions-and-zones.20260805.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 108,
+    "cloud_region": 39
+  },
+  "generated_files": [
+    "data/aws/regions-and-zones.20260805.geojson"
+  ],
+  "geometry_null": 147,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 147
+  },
+  "nonstable_directory_rows_excluded": [
+    [
+      "Coming in 2026",
+      "us-east-1",
+      "Maryland, United States of America"
+    ]
+  ],
+  "parser": "update_hyperscalers.py:aws",
+  "partition_region_counts": {
+    "aws": 34,
+    "aws-cn": 2,
+    "aws-eusc": 1,
+    "aws-us-gov": 2
+  },
+  "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+  "record_count": 147,
+  "region_count": 39,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+  "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md",
+  "stable_availability_zone_id_count": 108,
+  "unitemized_availability_zone_gap": 15
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/microsoft/regions-list.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "3f0828c900c03ad2ee1e7f811963b3c7545e31cb1c7f201413a80ef400bdc39d",
+  "source_published_at": null,
+  "source_url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+}

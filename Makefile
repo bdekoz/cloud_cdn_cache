@@ -1,4 +1,4 @@
-RETRIEVED_TAG ?= 20260804
+RETRIEVED_TAG ?= 20260805
 MANIFEST := data/manifest.$(RETRIEVED_TAG).json
 CSV_GEOJSON := $(shell jq -r '(.layers + .views)[] | .files.geojson.path' $(MANIFEST) 2>/dev/null)
 CSV_TARGETS := $(CSV_GEOJSON:.geojson=.csv)
@@ -25,10 +25,12 @@ check:
 	python3 -B tests/validate_recovery.py
 	python3 -B tests/validate_google.py
 	python3 -B tests/validate_authoritative.py
+	python3 -B tests/validate_hyperscalers.py
 	git diff --check
 
 help:
 	@echo "make csv                            Generate all normalized CSV views"
-	@echo "make data/google/edge.20260804.csv  Generate one CSV from GeoJSON"
+	@echo "make data/google/cloud-regions-and-zones.20260805.csv"
+	@echo "                                    Generate one CSV from GeoJSON"
 	@echo "make clean-csv                      Remove normalized CSV views"
 	@echo "make check                          Run the validation suite"

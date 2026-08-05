@@ -1,0 +1,2589 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sydney",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Sydney",
+        "name": "au-syd-syd01-a",
+        "parent_record_id": "ibm:cloud_region:au-syd",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "SYD01",
+          "region_point_of_presence_codes": [
+            "MEL02",
+            "PER01",
+            "SYD02",
+            "SYD03"
+          ],
+          "universal_zone_name": "au-syd-syd01-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:au-syd-syd01-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "au-syd-syd01-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "au-syd-syd01-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sydney",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Sydney",
+        "name": "au-syd-syd04-a",
+        "parent_record_id": "ibm:cloud_region:au-syd",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "SYD04",
+          "region_point_of_presence_codes": [
+            "MEL02",
+            "PER01",
+            "SYD02",
+            "SYD03"
+          ],
+          "universal_zone_name": "au-syd-syd04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:au-syd-syd04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "au-syd-syd04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "au-syd-syd04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sydney",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Sydney",
+        "name": "au-syd-syd05-a",
+        "parent_record_id": "ibm:cloud_region:au-syd",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "SYD05",
+          "region_point_of_presence_codes": [
+            "MEL02",
+            "PER01",
+            "SYD02",
+            "SYD03"
+          ],
+          "universal_zone_name": "au-syd-syd05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:au-syd-syd05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "au-syd-syd05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "au-syd-syd05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sao Paulo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Sao Paulo",
+        "name": "br-sao-sao01-a",
+        "parent_record_id": "ibm:cloud_region:br-sao",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "SAO01",
+          "region_point_of_presence_codes": [
+            "SAO02",
+            "SAO03"
+          ],
+          "universal_zone_name": "br-sao-sao01-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:br-sao-sao01-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "br-sao-sao01-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "br-sao-sao01-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sao Paulo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Sao Paulo",
+        "name": "br-sao-sao04-a",
+        "parent_record_id": "ibm:cloud_region:br-sao",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "SAO04",
+          "region_point_of_presence_codes": [
+            "SAO02",
+            "SAO03"
+          ],
+          "universal_zone_name": "br-sao-sao04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:br-sao-sao04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "br-sao-sao04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "br-sao-sao04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sao Paulo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Sao Paulo",
+        "name": "br-sao-sao05-a",
+        "parent_record_id": "ibm:cloud_region:br-sao",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "SAO05",
+          "region_point_of_presence_codes": [
+            "SAO02",
+            "SAO03"
+          ],
+          "universal_zone_name": "br-sao-sao05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:br-sao-sao05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "br-sao-sao05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "br-sao-sao05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Montreal",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Montreal",
+        "name": "ca-mon-mon04-a",
+        "parent_record_id": "ibm:cloud_region:ca-mon",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MON04",
+          "region_point_of_presence_codes": [
+            "MON02"
+          ],
+          "universal_zone_name": "ca-mon-mon04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:ca-mon-mon04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-mon-mon04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-mon-mon04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Montreal",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Montreal",
+        "name": "ca-mon-mon04-b",
+        "parent_record_id": "ibm:cloud_region:ca-mon",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MON04",
+          "region_point_of_presence_codes": [
+            "MON02"
+          ],
+          "universal_zone_name": "ca-mon-mon04-b"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:ca-mon-mon04-b",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-mon-mon04-b",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-mon-mon04-b",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Montreal",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Montreal",
+        "name": "ca-mon-mon04-c",
+        "parent_record_id": "ibm:cloud_region:ca-mon",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MON04",
+          "region_point_of_presence_codes": [
+            "MON02"
+          ],
+          "universal_zone_name": "ca-mon-mon04-c"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:ca-mon-mon04-c",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-mon-mon04-c",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-mon-mon04-c",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Toronto",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Toronto",
+        "name": "ca-tor-tor01-a",
+        "parent_record_id": "ibm:cloud_region:ca-tor",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "TOR01",
+          "region_point_of_presence_codes": [
+            "TOR02",
+            "TOR03"
+          ],
+          "universal_zone_name": "ca-tor-tor01-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:ca-tor-tor01-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-tor-tor01-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-tor-tor01-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Toronto",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Toronto",
+        "name": "ca-tor-tor04-a",
+        "parent_record_id": "ibm:cloud_region:ca-tor",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "TOR04",
+          "region_point_of_presence_codes": [
+            "TOR02",
+            "TOR03"
+          ],
+          "universal_zone_name": "ca-tor-tor04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:ca-tor-tor04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-tor-tor04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-tor-tor04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Toronto",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Toronto",
+        "name": "ca-tor-tor05-a",
+        "parent_record_id": "ibm:cloud_region:ca-tor",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "TOR05",
+          "region_point_of_presence_codes": [
+            "TOR02",
+            "TOR03"
+          ],
+          "universal_zone_name": "ca-tor-tor05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:ca-tor-tor05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-tor-tor05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-tor-tor05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Frankfurt",
+        "name": "eu-de-fra02-a",
+        "parent_record_id": "ibm:cloud_region:eu-de",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "FRA02",
+          "region_point_of_presence_codes": [
+            "FRA01",
+            "FRA03"
+          ],
+          "universal_zone_name": "eu-de-fra02-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-de-fra02-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-de-fra02-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-de-fra02-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Frankfurt",
+        "name": "eu-de-fra04-a",
+        "parent_record_id": "ibm:cloud_region:eu-de",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "FRA04",
+          "region_point_of_presence_codes": [
+            "FRA01",
+            "FRA03"
+          ],
+          "universal_zone_name": "eu-de-fra04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-de-fra04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-de-fra04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-de-fra04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Frankfurt",
+        "name": "eu-de-fra05-a",
+        "parent_record_id": "ibm:cloud_region:eu-de",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "FRA05",
+          "region_point_of_presence_codes": [
+            "FRA01",
+            "FRA03"
+          ],
+          "universal_zone_name": "eu-de-fra05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-de-fra05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-de-fra05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-de-fra05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Madrid",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Spain",
+        "country_code": "ES",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Madrid",
+        "name": "eu-es-mad02-a",
+        "parent_record_id": "ibm:cloud_region:eu-es",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MAD02",
+          "region_point_of_presence_codes": [
+            "MAD01",
+            "MAD03"
+          ],
+          "universal_zone_name": "eu-es-mad02-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-es-mad02-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-es-mad02-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-es-mad02-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Madrid",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Spain",
+        "country_code": "ES",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Madrid",
+        "name": "eu-es-mad04-a",
+        "parent_record_id": "ibm:cloud_region:eu-es",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MAD04",
+          "region_point_of_presence_codes": [
+            "MAD01",
+            "MAD03"
+          ],
+          "universal_zone_name": "eu-es-mad04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-es-mad04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-es-mad04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-es-mad04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Madrid",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Spain",
+        "country_code": "ES",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Madrid",
+        "name": "eu-es-mad05-a",
+        "parent_record_id": "ibm:cloud_region:eu-es",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MAD05",
+          "region_point_of_presence_codes": [
+            "MAD01",
+            "MAD03"
+          ],
+          "universal_zone_name": "eu-es-mad05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-es-mad05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-es-mad05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-es-mad05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "London",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "London",
+        "name": "eu-gb-lon04-a",
+        "parent_record_id": "ibm:cloud_region:eu-gb",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "LON04",
+          "region_point_of_presence_codes": [
+            "LON01",
+            "LON03"
+          ],
+          "universal_zone_name": "eu-gb-lon04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-gb-lon04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-gb-lon04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-gb-lon04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "London",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "London",
+        "name": "eu-gb-lon05-a",
+        "parent_record_id": "ibm:cloud_region:eu-gb",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "LON05",
+          "region_point_of_presence_codes": [
+            "LON01",
+            "LON03"
+          ],
+          "universal_zone_name": "eu-gb-lon05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-gb-lon05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-gb-lon05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-gb-lon05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "London",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "London",
+        "name": "eu-gb-lon06-a",
+        "parent_record_id": "ibm:cloud_region:eu-gb",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "LON06",
+          "region_point_of_presence_codes": [
+            "LON01",
+            "LON03"
+          ],
+          "universal_zone_name": "eu-gb-lon06-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:eu-gb-lon06-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-gb-lon06-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-gb-lon06-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Chennai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Chennai",
+        "name": "in-che-che02-a",
+        "parent_record_id": "ibm:cloud_region:in-che",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "CHE02",
+          "region_point_of_presence_codes": [
+            "CHE03",
+            "CHE04"
+          ],
+          "universal_zone_name": "in-che-che02-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:in-che-che02-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-che-che02-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-che-che02-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Chennai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Chennai",
+        "name": "in-che-che02-b",
+        "parent_record_id": "ibm:cloud_region:in-che",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "CHE02",
+          "region_point_of_presence_codes": [
+            "CHE03",
+            "CHE04"
+          ],
+          "universal_zone_name": "in-che-che02-b"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:in-che-che02-b",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-che-che02-b",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-che-che02-b",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Chennai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Chennai",
+        "name": "in-che-che02-c",
+        "parent_record_id": "ibm:cloud_region:in-che",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "CHE02",
+          "region_point_of_presence_codes": [
+            "CHE03",
+            "CHE04"
+          ],
+          "universal_zone_name": "in-che-che02-c"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:in-che-che02-c",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-che-che02-c",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-che-che02-c",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Mumbai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Mumbai",
+        "name": "in-mum-mum02-a",
+        "parent_record_id": "ibm:cloud_region:in-mum",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MUM02",
+          "region_point_of_presence_codes": [
+            "MUM01",
+            "MUM04"
+          ],
+          "universal_zone_name": "in-mum-mum02-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:in-mum-mum02-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-mum-mum02-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-mum-mum02-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Mumbai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Mumbai",
+        "name": "in-mum-mum03-a",
+        "parent_record_id": "ibm:cloud_region:in-mum",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MUM03",
+          "region_point_of_presence_codes": [
+            "MUM01",
+            "MUM04"
+          ],
+          "universal_zone_name": "in-mum-mum03-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:in-mum-mum03-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-mum-mum03-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-mum-mum03-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Mumbai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Mumbai",
+        "name": "in-mum-mum05-a",
+        "parent_record_id": "ibm:cloud_region:in-mum",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "MUM05",
+          "region_point_of_presence_codes": [
+            "MUM01",
+            "MUM04"
+          ],
+          "universal_zone_name": "in-mum-mum05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:in-mum-mum05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-mum-mum05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-mum-mum05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Osaka",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Osaka",
+        "name": "jp-osa-osa21-a",
+        "parent_record_id": "ibm:cloud_region:jp-osa",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "OSA21",
+          "region_point_of_presence_codes": [
+            "OSA01"
+          ],
+          "universal_zone_name": "jp-osa-osa21-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:jp-osa-osa21-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-osa-osa21-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-osa-osa21-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Osaka",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Osaka",
+        "name": "jp-osa-osa22-a",
+        "parent_record_id": "ibm:cloud_region:jp-osa",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "OSA22",
+          "region_point_of_presence_codes": [
+            "OSA01"
+          ],
+          "universal_zone_name": "jp-osa-osa22-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:jp-osa-osa22-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-osa-osa22-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-osa-osa22-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Osaka",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Osaka",
+        "name": "jp-osa-osa23-a",
+        "parent_record_id": "ibm:cloud_region:jp-osa",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "OSA23",
+          "region_point_of_presence_codes": [
+            "OSA01"
+          ],
+          "universal_zone_name": "jp-osa-osa23-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:jp-osa-osa23-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-osa-osa23-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-osa-osa23-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Tokyo",
+        "name": "jp-tok-tok02-a",
+        "parent_record_id": "ibm:cloud_region:jp-tok",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "TOK02",
+          "region_point_of_presence_codes": [
+            "TOK01",
+            "TOK03"
+          ],
+          "universal_zone_name": "jp-tok-tok02-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:jp-tok-tok02-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-tok-tok02-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-tok-tok02-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Tokyo",
+        "name": "jp-tok-tok04-a",
+        "parent_record_id": "ibm:cloud_region:jp-tok",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "TOK04",
+          "region_point_of_presence_codes": [
+            "TOK01",
+            "TOK03"
+          ],
+          "universal_zone_name": "jp-tok-tok04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:jp-tok-tok04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-tok-tok04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-tok-tok04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Tokyo",
+        "name": "jp-tok-tok05-a",
+        "parent_record_id": "ibm:cloud_region:jp-tok",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "TOK05",
+          "region_point_of_presence_codes": [
+            "TOK01",
+            "TOK03"
+          ],
+          "universal_zone_name": "jp-tok-tok05-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:jp-tok-tok05-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-tok-tok05-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-tok-tok05-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Washington DC",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Washington DC",
+        "name": "us-east-wdc04-a",
+        "parent_record_id": "ibm:cloud_region:us-east",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "WDC04",
+          "region_point_of_presence_codes": [
+            "WDC02",
+            "WDC05"
+          ],
+          "universal_zone_name": "us-east-wdc04-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:us-east-wdc04-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-east-wdc04-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-east-wdc04-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Washington DC",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Washington DC",
+        "name": "us-east-wdc06-a",
+        "parent_record_id": "ibm:cloud_region:us-east",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "WDC06",
+          "region_point_of_presence_codes": [
+            "WDC02",
+            "WDC05"
+          ],
+          "universal_zone_name": "us-east-wdc06-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:us-east-wdc06-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-east-wdc06-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-east-wdc06-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Washington DC",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Washington DC",
+        "name": "us-east-wdc07-a",
+        "parent_record_id": "ibm:cloud_region:us-east",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "WDC07",
+          "region_point_of_presence_codes": [
+            "WDC02",
+            "WDC05"
+          ],
+          "universal_zone_name": "us-east-wdc07-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:us-east-wdc07-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-east-wdc07-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-east-wdc07-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Dallas",
+        "name": "us-south-dal10-a",
+        "parent_record_id": "ibm:cloud_region:us-south",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "DAL10",
+          "region_point_of_presence_codes": [
+            "DAL03",
+            "DAL04"
+          ],
+          "universal_zone_name": "us-south-dal10-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:us-south-dal10-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-south-dal10-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-south-dal10-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Dallas",
+        "name": "us-south-dal12-a",
+        "parent_record_id": "ibm:cloud_region:us-south",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "DAL12",
+          "region_point_of_presence_codes": [
+            "DAL03",
+            "DAL04"
+          ],
+          "universal_zone_name": "us-south-dal12-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:us-south-dal12-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-south-dal12-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-south-dal12-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Dallas",
+        "name": "us-south-dal13-a",
+        "parent_record_id": "ibm:cloud_region:us-south",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "DAL13",
+          "region_point_of_presence_codes": [
+            "DAL03",
+            "DAL04"
+          ],
+          "universal_zone_name": "us-south-dal13-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:us-south-dal13-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-south-dal13-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-south-dal13-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "facility",
+        "metro": "Dallas",
+        "name": "us-south-dal14-a",
+        "parent_record_id": "ibm:cloud_region:us-south",
+        "properties": {
+          "account_logical_zone_mapping": "assigned_per_account_not_asserted_for_this_universal_zone",
+          "associated_data_center_code": "DAL14",
+          "region_point_of_presence_codes": [
+            "DAL03",
+            "DAL04"
+          ],
+          "universal_zone_name": "us-south-dal14-a"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:availability_zone:us-south-dal14-a",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-south-dal14-a",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-south-dal14-a",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sydney",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Australia",
+        "country_code": "AU",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Sydney",
+        "name": "Sydney",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "au-syd-1",
+            "au-syd-2",
+            "au-syd-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:au-syd",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "au-syd",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "au-syd",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Sao Paulo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Brazil",
+        "country_code": "BR",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Sao Paulo",
+        "name": "Sao Paulo",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "br-sao-1",
+            "br-sao-2",
+            "br-sao-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:br-sao",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "br-sao",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "br-sao",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Montreal",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Montreal",
+        "name": "Montreal",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "ca-mon-1",
+            "ca-mon-2",
+            "ca-mon-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:ca-mon",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-mon",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-mon",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Toronto",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Toronto",
+        "name": "Toronto",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "ca-tor-1",
+            "ca-tor-2",
+            "ca-tor-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:ca-tor",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ca-tor",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "ca-tor",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Frankfurt",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Germany",
+        "country_code": "DE",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Frankfurt",
+        "name": "Frankfurt",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "eu-de-1",
+            "eu-de-2",
+            "eu-de-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:eu-de",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-de",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-de",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Madrid",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Spain",
+        "country_code": "ES",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Madrid",
+        "name": "Madrid",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "eu-es-1",
+            "eu-es-2",
+            "eu-es-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:eu-es",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-es",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-es",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "London",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "London",
+        "name": "London",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "eu-gb-1",
+            "eu-gb-2",
+            "eu-gb-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:eu-gb",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "eu-gb",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "eu-gb",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Chennai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Chennai",
+        "name": "Chennai - Airtel",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "in-che-1",
+            "in-che-2",
+            "in-che-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:in-che",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-che",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-che",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Mumbai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "India",
+        "country_code": "IN",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Mumbai",
+        "name": "Mumbai - Airtel",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "in-mum-1",
+            "in-mum-2",
+            "in-mum-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:in-mum",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "in-mum",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "in-mum",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Osaka",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Osaka",
+        "name": "Osaka",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "jp-osa-1",
+            "jp-osa-2",
+            "jp-osa-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:jp-osa",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-osa",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-osa",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Tokyo",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Japan",
+        "country_code": "JP",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Tokyo",
+        "name": "Tokyo",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "jp-tok-1",
+            "jp-tok-2",
+            "jp-tok-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:jp-tok",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "jp-tok",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "jp-tok",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Washington DC",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Washington DC",
+        "name": "Washington DC",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "us-east-1",
+            "us-east-2",
+            "us-east-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:us-east",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-east",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-east",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": "Dallas",
+        "name": "Dallas",
+        "parent_record_id": null,
+        "properties": {
+          "account_logical_zone_labels": [
+            "us-south-1",
+            "us-south-2",
+            "us-south-3"
+          ],
+          "account_logical_zone_mapping": "assigned_per_account_not_a_physical_identity"
+        },
+        "provider": "IBM Cloud",
+        "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+        "record_id": "ibm:cloud_region:us-south",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "ibm_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "us-south",
+        "source_collection": "ibm_multizone_regions_and_universal_zones",
+        "source_published_at": null,
+        "source_record_id": "us-south",
+        "source_scope": "provider_declared",
+        "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+        "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

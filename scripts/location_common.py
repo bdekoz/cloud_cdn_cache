@@ -19,6 +19,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = REPO_ROOT / "schema/location.schema.json"
 SCHEMA_VERSION = "1.1.0"
+SCHEMA_CONTRACT_VERSION = "1.2.0"
 
 CANONICAL_FIELDS = (
     "schema_version",
@@ -198,6 +199,7 @@ def write_layer(
     raw_path: Path,
     parser_name: str,
     schema_path: Path = SCHEMA_PATH,
+    schema_version: str = SCHEMA_VERSION,
     extra_report: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     tag = retrieval_tag(retrieved_at)
@@ -227,7 +229,7 @@ def write_layer(
         "record_count": len(records),
         "retrieved_at": retrieved_at,
         "schema": repo_ref(schema_path),
-        "schema_version": SCHEMA_VERSION,
+        "schema_version": schema_version,
         "source_sha256": sha256(raw_path),
         "source_url": source_url,
     }
@@ -261,7 +263,7 @@ def jurisdiction_scope(country_code: str | None) -> str:
 
 
 def default_access_status(entity_type: str | None) -> str:
-    if entity_type in {"cloud_region", "availability_zone", "cloud_resource_pool", "local_zone"}:
+    if entity_type in {"super_region", "cloud_region", "availability_zone", "cloud_resource_pool", "local_zone"}:
         return "public"
     if entity_type in {"edge_pop", "regional_edge_cache", "data_center", "embedded_cache"}:
         return "not_applicable"

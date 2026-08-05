@@ -2,6 +2,8 @@
 
 Date: 2026-08-04
 
+Implementation note (2026-08-05): the public-source phases are complete and recorded in [`hyperscalers.implementation.20260805.md`](hyperscalers.implementation.20260805.md). Retained-source parsing corrected the rough CoreWeave, AWS, OCI, and Meta estimates below; the corrected exact output is 613 records across eight layers.
+
 ## Scope
 
 This is a coverage-priority cohort, not a claim that the providers rank one through ten by revenue, capacity, or capital expenditure. It combines eight customer-facing public clouds with one consumer hyperscale operator and one AI-focused neocloud:
@@ -30,7 +32,7 @@ Current core-cloud coverage is much narrower than provider-name coverage suggest
 
 In short, two of ten have meaningful core region/zone coverage, one has partial core coverage, four have adjacent infrastructure coverage only, and three are absent. The most valuable next work is therefore not more geocoding; it is ingesting stable official region, zone, access, realm, lifecycle, and parent identifiers.
 
-The currently available official sources could support roughly 660 additional hierarchy or site records, plus a separate 42-row IBM classic data-center layer. This is an order-of-magnitude planning estimate, not a promised final count: every connector must re-count its retained source, apply identity gates, and avoid double-counting views or overlapping units.
+The pre-implementation estimate was roughly 660 additional hierarchy or site records plus a separate 42-row IBM classic data-center layer. Retained-source parsing produced 571 hierarchy/site records plus 42 IBM classic data centers, or 613 exact records. The difference comes principally from preserving seven CoreWeave super regions rather than inventing ordinary regions, retaining only 108 itemized AWS stable AZ IDs rather than synthesizing the 123-AZ aggregate, using OCI's 45-row itemized table, and following Meta's current 33-card directory.
 
 ## Existing repository coverage
 
@@ -55,7 +57,7 @@ Counts in different rows are not additive measures of physical facilities. Front
 
 The current [AWS global infrastructure page](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) reports 39 launched geographic regions and 123 Availability Zones. The [AWS AZ directory](https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.html) publishes stable AZ IDs, parent region codes, and geography. AZ IDs—not account-mapped letter names—are the correct cross-account identity. China, GovCloud, commercial, and sovereign realms must remain explicit.
 
-Immediate target: 39 `cloud_region` records and 123 `availability_zone` records. Existing Local Zones remain a distinct class but should link to their parent region through a combined canonical provider layer or an explicit cross-layer relationship.
+Implemented target: 39 `cloud_region` records and 108 itemized stable `availability_zone` records. The 15-AZ difference from AWS's 123-AZ aggregate remains a reported coverage gap. Existing Local Zones remain a distinct class and now link to their canonical parent regions across layers.
 
 ### Microsoft Azure
 
@@ -71,9 +73,9 @@ Immediate target: 43 `cloud_region` records and 130 `availability_zone` records.
 
 ### Oracle Cloud Infrastructure
 
-Oracle's [public region directory](https://www.oracle.com/cloud/public-cloud-regions/) reports more than 50 public regions across 28 countries. The [OCI region and availability-domain table](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm) provides region name, identifier, location, region key, realm, and availability-domain count.
+Oracle's broader marketing material has reported more than 50 public regions, while the retained [OCI region and availability-domain table](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm) itemizes 45 current commercial-realm regions with name, identifier, location, region key, realm, and availability-domain count.
 
-Immediate target: one `cloud_region` record per itemized OCI region, with realm, region key, and AD count. Do not emit globally canonical availability-domain children from tenancy-specific AD names. Cloud Location Finder can be used as a daily independent membership and hierarchy check.
+Implemented target: 45 `cloud_region` records, with realm, region key, and AD count. No globally canonical availability-domain children are emitted from tenancy-specific AD names. Cloud Location Finder can be used as an independent membership and hierarchy cross-check.
 
 ### Alibaba Cloud
 
@@ -103,13 +105,13 @@ Immediate target: 13 `cloud_region` records and the 40 provider-published univer
 
 Meta's current [data-center directory](https://datacenters.atmeta.com/all-locations/) itemizes its fleet, and an April 2026 provider article states that Meta has [32 owned and operated data centers](https://about.fb.com/news/2026/04/infrastructure-explained-meta-data-centers/). The directory also includes construction dates and investment/community details. Meta separately describes hundreds of POPs but does not publish an itemized current POP directory.
 
-Immediate target: up to 32 provider-declared `data_center` site records with lifecycle derived only from explicit current directory or project-page language. Keep leased or partnered sites, such as the announced Jamnagar arrangement, separate from owned-and-operated sites. Existing FNA and ASN observations remain observation layers, not facility records.
+Implemented target: 33 provider-directory `data_center` records. This preserves the current directory's 33 cards and reports its discrepancy with the earlier 32-site article. Lifecycle remains `unknown` unless current directory/project language explicitly establishes it. Existing FNA and ASN observations remain observation layers, not facility records.
 
 ### CoreWeave
 
-CoreWeave's current [All Availability Zones](https://docs.coreweave.com/platform/regions/all-availability-zones) directory itemizes 56 AZs with stable name, location, General or Dedicated Access, and AI Object Storage availability. Those rows resolve to 52 unique region identifiers after accounting for the few multi-AZ regions. On the assessment date, 18 AZs are General Access and 38 are Dedicated Access. The [instance availability matrix](https://docs.coreweave.com/platform/instances/availability-matrix) adds GPU and CPU product availability by General Access AZ.
+CoreWeave's current [All Availability Zones](https://docs.coreweave.com/platform/regions/all-availability-zones) directory itemizes 56 AZs with stable name, location, General or Dedicated Access, and AI Object Storage availability. The source groups them into seven explicitly named **Super Regions**; the earlier 52-region interpretation was incorrect. On the assessment date, 18 AZs are General Access and 38 are Dedicated Access. The [instance availability matrix](https://docs.coreweave.com/platform/instances/availability-matrix) adds GPU and CPU product availability by General Access AZ.
 
-Immediate target: 56 `availability_zone` records and, after confirming each linked region page, up to 52 parent `cloud_region` records. Map General Access to `access_status=public` and Dedicated Access to `access_status=dedicated`; retain service availability as a keyed join. Start with null geometry because the provider supplies locality labels, not facility coordinates.
+Implemented target: 56 `availability_zone` records under seven `super_region` parents. General Access maps to `access_status=public` and Dedicated Access to `access_status=dedicated`; product availability is a keyed join. Geometry is null because the provider supplies locality labels, not facility coordinates.
 
 ## Enrichment model
 
@@ -184,4 +186,4 @@ Unauthorized or leaked inventories remain excluded. Provider-approved non-public
 
 ## Recommended first increment
 
-Implement CoreWeave and the four missing global public-cloud anchors as one reviewed milestone. It closes the largest semantic gap and creates reusable handling for stable zones, account-mapped zones, realms, restricted regions, and product-specific availability. IBM and Meta can follow as separate region/facility tracks, after which the existing Alibaba, Tencent, and Huawei layers can be enriched without destabilizing their canonical IDs.
+Completed on 2026-08-05: CoreWeave, AWS, Google Cloud, Azure, OCI, IBM, IBM classic, and Meta were published as eight separate layers with stable identities and source-specific gates. The next reviewed work is keyed product/endpoint enrichment for Alibaba, Tencent, and Huawei plus recurring lifecycle and source-structure monitoring; those joins must not destabilize canonical IDs.

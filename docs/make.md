@@ -1,6 +1,6 @@
 # Make usage
 
-Date: 2026-08-04
+Date: 2026-08-04; updated 2026-08-05
 
 The Makefile manages disposable CSV projections and repository validation. It does not fetch provider sources or regenerate canonical data. Schema-normalized GeoJSON is the retained publication format; CSV is created only when a consumer needs it.
 
@@ -24,10 +24,11 @@ Generate just one projection:
 
 ```sh
 make data/google/edge.20260804.csv
-make data/coreweave/regions-and-zones.20260804.csv
+make data/coreweave/regions-and-zones.20260805.csv
+make data/google/cloud-regions-and-zones.20260805.csv
 ```
 
-The second example becomes valid when that proposed canonical CoreWeave layer exists. A direct target does not generate unrelated CSV files.
+A direct target does not generate unrelated CSV files. The default manifest is `data/manifest.20260805.json`; it references older 2026-08-04 GeoJSON where that is the true snapshot date and the new hyperscaler files at 2026-08-05.
 
 For another retrieval date, point Make at its manifest:
 
@@ -71,7 +72,7 @@ Run all checked-in validation suites and the whitespace/error check:
 make check
 ```
 
-This validates recovery outputs, Google layers, all authoritative and observation layers, manifests, reports, deterministic updater regeneration, and in-memory jq/GeoJSON-to-CSV parity. It does not need materialized normalized CSVs.
+This validates recovery outputs, Google layers, all authoritative and observation layers, the eight hyperscaler layers, manifests, reports, deterministic updater regeneration, cross-layer parents, and in-memory jq/GeoJSON-to-CSV parity. It does not need materialized normalized CSVs.
 
 To force a projection to be rebuilt even when Make considers it current:
 
@@ -84,10 +85,20 @@ make -B data/google/edge.20260804.csv
 To normalize retained source snapshots without fetching new ones, run the appropriate updater commands documented in `methods.md`, rebuild the dated manifest, validate, and optionally materialize CSV:
 
 ```sh
-python3 -B scripts/build_manifest.py --retrieved-at 2026-08-04
+python3 -B scripts/update_hyperscalers.py --retrieved-at 2026-08-05
+python3 -B scripts/build_manifest.py --retrieved-at 2026-08-05
 make check
 make csv
 ```
+
+To refresh only one hyperscaler parser from a retained snapshot, select it explicitly:
+
+```sh
+python3 -B scripts/update_hyperscalers.py --dataset coreweave --retrieved-at 2026-08-05
+python3 -B scripts/update_hyperscalers.py --dataset aws --retrieved-at 2026-08-05
+```
+
+Valid dataset names are `coreweave`, `aws`, `google`, `azure`, `oci`, `ibm`, and `meta`. IBM always emits its region/universal-zone and classic-data-center layers together because both come from the same location directory and closure join.
 
 Use updater `--fetch` options only when deliberately taking a new upstream snapshot. A reviewed refresh should preserve the raw response and provenance, pass schema and semantic checks, and inspect additions, removals, lifecycle changes, access changes, and parent changes before publication.
 

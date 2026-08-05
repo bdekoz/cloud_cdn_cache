@@ -1,6 +1,6 @@
 # Data refinement methods
 
-Date: 2026-08-04
+Date: 2026-08-04; updated 2026-08-05
 
 This document explains the assessment, recovery, schema evolution, provider refreshes, hyperscaler coverage review, mainland-China cloud work, separate edge/CDN track, and separate colocation track. The immutable baseline is [`assessment.20260804.md`](assessment.20260804.md); the implemented result is recorded in [`reassessment.md`](reassessment.md).
 
@@ -21,7 +21,7 @@ Counts use the smallest defensible source unit:
 
 Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate parity. Derived mainland views repeat canonical IDs from their parent layers and are excluded from the manifest's canonical `record_count`. Raw, recovered, and historical CSVs remain evidence-bearing artifacts; only schema-normalized CSV publication snapshots with complete GeoJSON equivalents are disposable projections.
 
-## Schema 1.1
+## Schema contracts 1.1 and 1.2
 
 [`schema/location.schema.json`](../schema/location.schema.json) is a JSON Schema 2020-12 contract used before canonical GeoJSON serialization. Version 1.1.0 adds the distinctions required by the China work:
 
@@ -32,6 +32,8 @@ Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate p
 - `coordinate_crs` is `EPSG:4326` for serialized WGS 84 coordinates and null when geometry is null.
 - `coordinate_method=transformed` is available for a documented GCJ-02 or BD-09 conversion.
 - `cloud_resource_pool` represents a published pool without inventing region or zone semantics.
+
+Version 1.2.0 adds `super_region` and `access_status=restricted`. The contract accepts both record versions: previously retained 1.1 snapshots are not rewritten merely because a new connector needs 1.2 semantics. New hyperscaler outputs use 1.2.
 
 Stable provider IDs are preferred for `record_id`, `source_record_id`, and `site_code`. When no provider ID exists, identity derivation must be deterministic and documented. Retrieval dates and row numbers are never identity inputs. Updaters write one sorted canonical GeoJSON stream. The jq projection restores coordinates from geometry, orders columns by the schema's `required` array, recursively sorts object keys, and uses compact JSON for arrays and nested properties.
 
@@ -72,7 +74,7 @@ Each normalized refresh starts with an immutable response under `data/raw/<sourc
 
 Records repeat the raw path and digest, allowing every row to be tied to exact evidence. The pipeline does not publish a parse of a live page without retaining the response that was parsed.
 
-[`data/manifest.20260804.json`](../data/manifest.20260804.json) now covers 19 canonical layers, five derived views, and three assessment artifacts. Canonical counts exclude views. The manifest hashes retained GeoJSON and reports, records each un-hashed CSV target with its source and generator command, and includes the quarantine audit.
+[`data/manifest.20260805.json`](../data/manifest.20260805.json) covers 27 canonical layers, five derived views, and three assessment artifacts. Canonical counts exclude views. Each entry records its real snapshot tag, so the 19 baseline layers and five views remain dated 2026-08-04 while eight hyperscaler layers are dated 2026-08-05. The manifest hashes retained GeoJSON and reports, records each un-hashed CSV target with its source and generator command, and includes the quarantine audit. The 2026-08-04 manifest remains a reproducible historical index.
 
 Provider documentation, APIs, independent research, and registry data can have terms different from this repository's ODC-By license. Retention in `data/raw` is not a blanket relicensing assertion; provenance files flag source-specific review requirements.
 
@@ -104,15 +106,43 @@ Minimal source repairs remain explicit: a concatenated Portugal/Romania CloudFro
 
 ## Hyperscaler coverage track
 
-The detailed [`hyperscalers.20260804.md`](hyperscalers.20260804.md) review uses a coverage-priority cohort rather than claiming an exact revenue or capacity ranking: AWS, Microsoft Azure, Google Cloud, Oracle Cloud Infrastructure, Alibaba Cloud, Tencent Cloud, Huawei Cloud, IBM Cloud, Meta, and CoreWeave. Cloud regions, availability zones, owned data centers, edge POPs, embedded caches, and observation records remain separate units.
+The detailed [`hyperscalers.20260804.md`](hyperscalers.20260804.md) review uses a coverage-priority cohort rather than claiming an exact revenue or capacity ranking: AWS, Microsoft Azure, Google Cloud, Oracle Cloud Infrastructure, Alibaba Cloud, Tencent Cloud, Huawei Cloud, IBM Cloud, Meta, and CoreWeave. Implementation is recorded separately in [`hyperscalers.implementation.20260805.md`](hyperscalers.implementation.20260805.md).
 
-The audit classifies Alibaba and Tencent as strong core region/zone layers; Huawei as a partial, product-scoped core layer; AWS, Microsoft, Google, and Meta as adjacent-only coverage; and Oracle, IBM, and CoreWeave as absent from canonical data. Existing CloudFront, Local Zone, Front Door, Google Edge, Google data-center, Meta FNA, and ASN records are useful evidence, but none substitutes for the missing public-cloud hierarchy.
+The 2026-08-05 work adds 613 records across eight layers: CoreWeave 63, AWS 147, Google Cloud 173, Azure 57, OCI 45, IBM regions/universal zones 53, IBM classic data centers 42, and Meta data centers 33. The consolidated result is 15,726 records across 27 layers. Cloud regions, availability zones, super regions, owned data centers, edge POPs, embedded caches, and observations remain unlike units.
 
-The generation method starts from stable provider identity and parent relationships, then adds access, lifecycle, realm, jurisdiction, and product-availability properties. AWS uses stable AZ IDs rather than account-mapped letters; Azure remains region-only until a globally meaningful physical-zone identity is available; Google uses provider region and zone IDs; OCI initially remains region-only because availability-domain names are tenancy-specific; IBM uses universal zone names rather than account-logical labels; and CoreWeave preserves General versus Dedicated Access. Meta's owned-and-operated directory is a facility layer, not a cloud-region layer.
+### Schema and identity method
 
-Current official directories could support roughly 660 additional hierarchy or site records after connector-specific identity and source-structure gates, plus a separately counted 42-code IBM classic data-center layer. CoreWeave is the recommended first connector because its official directory itemizes 56 AZ rows, access class, and service availability. AWS, Google, Azure, and OCI follow as the missing global public-cloud anchors; IBM and Meta remain separate zone/facility tracks; Alibaba, Tencent, and Huawei receive product and lifecycle enrichment without redefining their stable IDs.
+Schema contract 1.2 accepts both retained 1.1 records and new 1.2 records. It adds `super_region` for CoreWeave's provider-defined parent class and `access_status=restricted` for government, partition, subscription, or scenario-gated capacity. The 2026-08-05 manifest points each layer to its actual snapshot: baseline layers and views remain dated 2026-08-04, while hyperscaler layers are dated 2026-08-05.
 
-Coordinates are deliberately downstream of membership. A provider locality label can support jurisdiction and a physical-location string, but geometry remains null unless the source supplies coordinates or a separately reviewed centroid layer is requested. Machine-readable APIs are checked weekly, provider documentation and product matrices monthly, and facility lifecycle quarterly or on announced changes. Every refresh retains raw evidence and produces semantic diffs for IDs, parents, access, lifecycle, realm, product availability, and source-count discrepancies.
+Identity rules are provider-specific:
+
+- AWS zones use stable AZ IDs rather than account-mapped letter names. The 34-region stable-ID directory is supplemented by two China, two GovCloud, and one European Sovereign Cloud region. Existing Local Zones link to their parent region across layers.
+- Azure uses programmatic region names. Availability-zone support is a property because the source does not establish globally stable physical child-zone identity.
+- Google uses Compute region and zone IDs. Region parents are structurally recovered from the 130 official zone IDs and asserted at 43.
+- OCI uses region identifier. Region key, realm key, and AD count are properties; tenancy-specific AD names do not become records.
+- IBM regions use programmatic region names and zones use universal zone names. The 39 account-logical labels remain properties because their physical mapping is assigned per account.
+- Meta site identity combines provider-directory country/state and title. Break-ground year is enrichment, never lifecycle evidence.
+- CoreWeave uses seven named super regions and 56 stable AZ names. The earlier idea of deriving 52 ordinary regions was rejected after parsing the retained source.
+
+### Source joins and boundary decisions
+
+CoreWeave's directory provides access class and AI Object Storage; its separate instance matrix joins GPU and CPU availability to 18 General Access AZs. AWS reports 39 regions and 123 aggregate AZs, but the stable directory itemizes only 108 AZ IDs; the 15-row gap stays in the report. Azure's source contains 57 public regions, eight restricted markings, and 39 zone-support flags. Google's table provides 43 regions, 130 zones, locality, machine types, CPU platforms, options, and low-CO2 status. OCI's current itemized commercial table has 45 regions, including 40 with one AD and five with three.
+
+IBM's source contains 13 regions, 40 universal zones, and 42 classic data-center codes. Classic infrastructure is separate. `DAL08` and `WDC03` carry the government restriction. `CHE01` remains operational but sales-restricted on 2026-08-05; closure milestones are retained from the provider's closure page. Meta's current directory has 33 cards, while a prior article said 32; current directory membership wins and the mismatch is documented. Meta lifecycle remains unknown unless explicitly stated.
+
+All 613 new records have null geometry. A provider locality label can support country and jurisdiction, but it does not establish a facility coordinate. No region/AZ is multiplied by a marketing facility total, and no synthetic row is emitted to reconcile an aggregate.
+
+### Reproduction
+
+The dedicated updater archives all official responses and provenance sidecars, parses and validates the layers, and emits canonical GeoJSON plus reports:
+
+```sh
+python3 -B scripts/update_hyperscalers.py --retrieved-at 2026-08-05
+python3 -B scripts/build_manifest.py --retrieved-at 2026-08-05
+python3 -B tests/validate_hyperscalers.py
+```
+
+Add `--fetch` only when intentionally taking a new dated snapshot. The test asserts exact source structure, stable IDs, cross-layer parents, access/lifecycle semantics, raw hashes, jq CSV parity, mixed manifest dates, and byte-for-byte regeneration. Suggested cadence remains weekly for machine-readable APIs, monthly for documentation/product matrices, quarterly for facility lifecycle, and event-driven for launches and closures.
 
 ## Mainland-China public-cloud track
 
@@ -226,6 +256,7 @@ Run the checked-in suite with:
 python3 -B tests/validate_recovery.py
 python3 -B tests/validate_google.py
 python3 -B tests/validate_authoritative.py
+python3 -B tests/validate_hyperscalers.py
 git diff --check
 ```
 
@@ -238,12 +269,13 @@ python3 -B scripts/update_china.py --dataset all --retrieved-at 2026-08-04
 python3 -B scripts/update_china_edge.py --retrieved-at 2026-08-04
 python3 -B scripts/update_china_colocation.py --retrieved-at 2026-08-04
 python3 -B scripts/update_observations.py --retrieved-at 2026-08-04
+python3 -B scripts/update_hyperscalers.py --retrieved-at 2026-08-05
 python3 -B scripts/audit_quarantine.py
-python3 -B scripts/build_manifest.py --retrieved-at 2026-08-04
+python3 -B scripts/build_manifest.py --retrieved-at 2026-08-05
 make csv
 ```
 
-`make csv` uses `scripts/geojson-to-csv.jq` to generate every CSV target recorded in the dated manifest. A single target can be generated without materializing the rest, for example `make data/google/edge.20260804.csv`. The outputs are ignored by Git and can be deleted at any time; rerunning the rule reproduces the former checked-in CSVs byte-for-byte. This policy does not apply to raw source, recovery, or historical CSVs. See [`make.md`](make.md) for the complete command reference, cleanup behavior, and troubleshooting.
+`make csv` uses `scripts/geojson-to-csv.jq` to generate every CSV target recorded in the dated manifest. A single target can be generated without materializing the rest, for example `make data/google/cloud-regions-and-zones.20260805.csv`. The outputs are ignored by Git and can be deleted at any time; rerunning the rule reproduces the former checked-in CSVs byte-for-byte. This policy does not apply to raw source, recovery, or historical CSVs. See [`make.md`](make.md) for the complete command reference, cleanup behavior, and troubleshooting.
 
 Use `--fetch` only when intentionally taking new snapshots. Suggested starting cadence is weekly for APIs, monthly for documentation and product directories, quarterly for filings and independent measurements, and event-driven for announced launches or retirements. Every refresh should produce a semantic diff of IDs, parents, jurisdictions, access state, lifecycle, source structure, and aggregate discrepancies before publication.
 

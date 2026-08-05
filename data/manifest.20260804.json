@@ -55,6 +55,7 @@
       "services": [
         "google_edge"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -107,6 +108,7 @@
       "services": [
         "google_data_centers"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -159,6 +161,7 @@
       "services": [
         "cloudflare_network"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -211,6 +214,7 @@
       "services": [
         "azure_front_door"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -263,6 +267,7 @@
       "services": [
         "azure_front_door"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -315,6 +320,7 @@
       "services": [
         "aws_cloudfront"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -345,7 +351,7 @@
       "files": {
         "geojson": {
           "path": "data/aws/local-zones.20260804.geojson",
-          "sha256": "6a6c4c147e0977dcf0035d6b684eca57ce89712f34e1e87ed716bba311c148a5"
+          "sha256": "5e3baa8f1aa598475cac8642b71883a399e260390a75237481c5d471fcce4a90"
         },
         "report": {
           "path": "data/aws/local-zones.20260804.report.json",
@@ -367,6 +373,7 @@
       "services": [
         "aws_local_zones"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -418,6 +425,7 @@
       "services": [
         "fastly_network"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -470,6 +478,7 @@
       "services": [
         "cachefly_network"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -523,6 +532,7 @@
       "services": [
         "alibaba_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -576,6 +586,7 @@
       "services": [
         "tencent_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -628,6 +639,7 @@
       "services": [
         "baidu_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -679,6 +691,7 @@
       "services": [
         "huawei_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -731,6 +744,7 @@
       "services": [
         "volcano_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -783,6 +797,7 @@
       "services": [
         "kingsoft_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -835,6 +850,7 @@
       "services": [
         "jd_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -886,6 +902,7 @@
       "services": [
         "ctyun_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -937,6 +954,7 @@
       "services": [
         "chindata_colocation"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -994,6 +1012,7 @@
       "services": [
         "cdn_mapping_observation"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "observed"
       ],
@@ -1050,8 +1069,8 @@
   "record_count": 15113,
   "schema": {
     "path": "schema/location.schema.json",
-    "sha256": "c878e6624a2f9f8cfa6be761be4eea534dad705b51b7e577a143753dd30c01c5",
-    "version": "1.1.0"
+    "sha256": "dbd1065a59c6ba5c7bbf6de3042f8158d2112b4637ce40fb6315cc3d1558cd12",
+    "version": "1.2.0"
   },
   "scope_note": "Canonical counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and are excluded from record_count.",
   "view_count": 5,
@@ -1097,6 +1116,7 @@
       "services": [
         "alibaba_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -1151,6 +1171,7 @@
       "services": [
         "tencent_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -1205,6 +1226,7 @@
       "services": [
         "tencent_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -1258,6 +1280,7 @@
       "services": [
         "baidu_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],
@@ -1311,6 +1334,7 @@
       "services": [
         "volcano_cloud"
       ],
+      "snapshot_tag": "20260804",
       "source_scopes": [
         "provider_declared"
       ],

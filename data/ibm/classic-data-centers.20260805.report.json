@@ -1,0 +1,34 @@
+{
+  "classic_data_center_count": 42,
+  "closing_data_center_count": 1,
+  "coordinate_methods": {
+    "unknown": 42
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/ibm/classic-data-centers.20260805.csv",
+      "path": "data/ibm/classic-data-centers.20260805.csv",
+      "source": "data/ibm/classic-data-centers.20260805.geojson"
+    }
+  },
+  "entity_types": {
+    "data_center": 42
+  },
+  "generated_files": [
+    "data/ibm/classic-data-centers.20260805.geojson"
+  ],
+  "geometry_null": 42,
+  "government_data_center_count": 2,
+  "layer": "classic-data-centers",
+  "lifecycle_statuses": {
+    "operational": 42
+  },
+  "parser": "update_hyperscalers.py:ibm-classic",
+  "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+  "record_count": 42,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+  "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/aws/european-sovereign-cloud.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "cf85db34be998648b06bac0592cb08384a3b8a36957d27be777c24a79b5b57ea",
+  "source_published_at": "2026-01-14",
+  "source_url": "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud/"
+}

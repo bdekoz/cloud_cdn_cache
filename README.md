@@ -26,10 +26,10 @@ The repository's original dataset is published under the [Open Data Commons Attr
 ## Repository layout
 
 - `data/` contains the current provider snapshots.
-- `data/manifest.20260804.json` is the consolidated hash/count/source manifest for 19 canonical layers, five derived views, and the China assessment artifacts.
+- `data/manifest.20260805.json` is the current consolidated hash/count/source manifest for 27 canonical layers, five derived views, and the China assessment artifacts. It preserves the actual 2026-08-04 tags of older layers.
 - Schema-normalized publication layers are committed as canonical GeoJSON; their CSV projections are generated on demand with `jq` and `make`.
 - `data/google/` contains schema-normalized Google Edge and Google Data Center layers.
-- Provider subdirectories under `data/` contain the 2026-08-04 schema-normalized authoritative refreshes.
+- Provider subdirectories under `data/` contain schema-normalized authoritative refreshes dated 2026-08-04 or 2026-08-05; each manifest entry records its actual snapshot tag.
 - `data/china/` records the ten-provider mainland public-cloud assessment; provider directories contain generated cloud layers and explicit mainland views.
 - `data/china-edge/` records the separate ten-provider CDN/edge assessment without manufacturing POPs from fleet totals or province coverage.
 - `data/china-colocation/` records the separate GDS, VNET, and Chindata assessment; `data/chindata/` contains the partial code-based current directory.
@@ -43,6 +43,7 @@ The repository's original dataset is published under the [Open Data Commons Attr
 - `docs/` contains coverage assessments, methods, recovery notes, and operator guidance.
 - [`docs/methods.md`](docs/methods.md) documents source selection, refinement rules, coordinate policy, parsing exceptions, observation limits, quarantine, and reproducibility.
 - [`docs/hyperscalers.20260804.md`](docs/hyperscalers.20260804.md) assesses core-cloud coverage for a ten-provider hyperscaler cohort and proposes a staged enrichment plan.
+- [`docs/hyperscalers.implementation.20260805.md`](docs/hyperscalers.implementation.20260805.md) records the implemented CoreWeave, AWS, Google Cloud, Azure, OCI, IBM, IBM classic, and Meta layers.
 - [`docs/make.md`](docs/make.md) documents CSV generation, cleanup, validation, refresh usage, and troubleshooting.
 
 The 2024 Meta FNA source fields and the reconstructable 2023 Netflix OCA hostnames have been recovered. See [the recovery record](docs/recovery.20260804.md) for provenance, confidence levels, limitations, and regeneration commands.
@@ -51,10 +52,10 @@ Google Edge and owned data centers are now separate normalized layers. See [the 
 
 Cloudflare, Azure Front Door, AWS CloudFront and Local Zones, Fastly, CacheFly, Alibaba, Tencent, Baidu, Huawei, Volcano, Kingsoft, JD, Tianyi, and the partial Chindata directory have normalized refreshes dated 2026-08-04. Google Edge and owned data centers remain distinct options. China Mobile and China Unicom are explicit public-cloud source gaps; China edge/CDN marketing aggregates and the GDS/VNET portfolio totals remain assessments rather than speculative points. The June 2026 ASN observation layer adds Google, Netflix, Meta, Akamai, Microsoft, Apple, and CloudFront evidence without conflating observations with physical locations. See the immutable [baseline assessment](docs/assessment.20260804.md), the implemented [reassessment](docs/reassessment.md), and [methods](docs/methods.md).
 
-The separate [hyperscaler assessment](docs/hyperscalers.20260804.md) finds broad core region-and-zone coverage only for Alibaba and Tencent, partial product-scoped coverage for Huawei, adjacent-only coverage for AWS, Microsoft, Google, and Meta, and no canonical Oracle, IBM, or CoreWeave layer. It proposes stable provider identity and hierarchy work before coordinate enrichment.
+The [hyperscaler assessment](docs/hyperscalers.20260804.md) identified the missing core hierarchy, and the [implementation report](docs/hyperscalers.implementation.20260805.md) records 613 new provider-declared records across eight layers. These include seven CoreWeave super regions and 56 AZs; 39 AWS regions and 108 itemized stable AZ IDs; 43 Google regions and 130 zones; 57 Azure regions; 45 OCI regions; 13 IBM regions and 40 universal zones; 42 separate IBM classic data centers; and 33 Meta directory locations. All new geometry is intentionally null.
 
 The refinement pipeline uses provider-approved, licensed, public filing/tender, and reproducible measurement evidence. Unauthorized or leaked inventories are not used to fill gaps; source and authorization rules are documented in [methods](docs/methods.md).
 
-To generate every normalized CSV projection, run `make csv`. To generate one file, name it directly, for example `make data/google/edge.20260804.csv`. Column order comes from the schema, and arrays or objects are emitted as compact JSON. These generated files are ignored by Git. Raw source CSVs, recovered outputs, and historical CSVs remain retained because they contain evidence or fields that cannot necessarily be reconstructed from canonical GeoJSON. See [Make usage](docs/make.md) for cleanup, validation, refresh, and troubleshooting details.
+To generate every normalized CSV projection, run `make csv`. To generate one file, name it directly, for example `make data/google/cloud-regions-and-zones.20260805.csv`. Column order comes from the schema, and arrays or objects are emitted as compact JSON. These generated files are ignored by Git. Raw source CSVs, recovered outputs, and historical CSVs remain retained because they contain evidence or fields that cannot necessarily be reconstructed from canonical GeoJSON. See [Make usage](docs/make.md) for cleanup, validation, refresh, and troubleshooting details.
 
 I am grateful to [Mozilla](https://mozilla.com) for affording me the time to produce this map. Any errors are of course my own responsibility.

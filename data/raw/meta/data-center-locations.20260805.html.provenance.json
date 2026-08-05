@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+  "source_published_at": null,
+  "source_url": "https://datacenters.atmeta.com/all-locations/"
+}

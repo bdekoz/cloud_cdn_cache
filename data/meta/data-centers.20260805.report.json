@@ -1,0 +1,42 @@
+{
+  "break_ground_year_count": 33,
+  "coordinate_methods": {
+    "unknown": 33
+  },
+  "country_counts": {
+    "Canada": 1,
+    "Denmark": 1,
+    "Ireland": 1,
+    "Singapore": 1,
+    "Sweden": 1,
+    "United States": 28
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/meta/data-centers.20260805.csv",
+      "path": "data/meta/data-centers.20260805.csv",
+      "source": "data/meta/data-centers.20260805.geojson"
+    }
+  },
+  "directory_card_count": 33,
+  "entity_types": {
+    "data_center": 33
+  },
+  "generated_files": [
+    "data/meta/data-centers.20260805.geojson"
+  ],
+  "geometry_null": 33,
+  "layer": "data-centers",
+  "lifecycle_policy": "unknown unless the directory explicitly states a current lifecycle",
+  "lifecycle_statuses": {
+    "unknown": 33
+  },
+  "parser": "update_hyperscalers.py:meta",
+  "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+  "record_count": 33,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+  "source_url": "https://datacenters.atmeta.com/all-locations/"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "text/markdown",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/coreweave/all-availability-zones.20260805.md",
+  "retrieved_at": "2026-08-05",
+  "sha256": "326e02236a32f00a03960f8d5a9c92cf29918ac10d613989d4fcce6e79c5cf36",
+  "source_published_at": "2026-04-17",
+  "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones.md"
+}

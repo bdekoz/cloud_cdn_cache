@@ -1,6 +1,6 @@
 # Post-refinement dataset reassessment
 
-Date: 2026-08-04
+Date: 2026-08-04; updated 2026-08-05
 
 This report records the implemented result. The original [`assessment.20260804.md`](assessment.20260804.md) is the read-only baseline and has not been revised. Detailed methods, source policy, parsing decisions, and commands are in [`methods.md`](methods.md).
 
@@ -8,13 +8,13 @@ This report records the implemented result. The original [`assessment.20260804.m
 
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.
 
-The consolidated manifest contains 15,113 canonical records across 19 layers. Five mainland views contain 160 repeated source-layer IDs and are deliberately excluded from that count. Three assessment JSON files record providers whose public evidence is aggregate, product-scoped, or insufficient for canonical locations.
+The current consolidated manifest contains 15,726 canonical records across 27 layers. Five mainland views contain 160 repeated source-layer IDs and are deliberately excluded from that count. Three assessment JSON files record providers whose public evidence is aggregate, product-scoped, or insufficient for canonical locations.
 
 The main improvement is semantic, not merely numeric: provider declarations, current lifecycle, access restriction, jurisdiction, product scope, inferred or inherited coordinates, independent observations, partial directories, aggregate marketing coverage, and quarantined claims are now distinct.
 
 ## Schema and publication model
 
-Schema 1.1.0 adds parent relationships, mainland/Hong Kong/Macao/Taiwan jurisdiction, access state, service scope, coordinate CRS, transformed-coordinate support, and cloud resource pools. It prevents several common errors:
+Schema 1.1.0 added parent relationships, mainland/Hong Kong/Macao/Taiwan jurisdiction, access state, service scope, coordinate CRS, transformed-coordinate support, and cloud resource pools. Schema 1.2.0 adds CoreWeave's provider-defined `super_region` and general `restricted` access. The contract accepts both record versions so older snapshots remain historically accurate. Together these contracts prevent several common errors:
 
 - treating Hong Kong as mainland China;
 - treating a dedicated financial cloud as a public region;
@@ -50,14 +50,32 @@ Canonical normalized layers are retained as GeoJSON only. CSV is a lossless on-d
 | Tianyi Cloud | 63 | 40 regional + 23 AZ-capable VPC resource pools | 63 null |
 | Chindata | 4 | Partial current data-center directory code | 4 null |
 | June 2026 observation layer | 13,638 | Positive provider/ASN TLS observation | 13,638 null |
+| CoreWeave core cloud | 63 | 7 super regions + 56 availability zones | 63 null |
+| AWS core cloud | 147 | 39 regions + 108 itemized stable AZ IDs | 147 null |
+| Google Cloud core | 173 | 43 regions + 130 availability zones | 173 null |
+| Azure public cloud | 57 | Programmatic public-cloud region | 57 null |
+| OCI commercial cloud | 45 | Region with realm, key, and AD count | 45 null |
+| IBM Cloud core | 53 | 13 regions + 40 universal zones | 53 null |
+| IBM classic data centers | 42 | Stable classic-infrastructure data-center code | 42 null |
+| Meta data centers | 33 | Current provider-directory card | 33 null |
 
 These counts describe unlike entities and must not be presented as a physical-site total. Null geometry is intentional missing evidence. A regional centroid does not imply facility precision.
 
-## Hyperscaler coverage follow-on
+## Hyperscaler coverage implementation
 
-The separate [`hyperscalers.20260804.md`](hyperscalers.20260804.md) assessment reviews AWS, Microsoft Azure, Google Cloud, Oracle Cloud Infrastructure, Alibaba Cloud, Tencent Cloud, Huawei Cloud, IBM Cloud, Meta, and CoreWeave as a coverage-priority cohort. It finds two strong core region/zone layers, one partial product-scoped layer, four providers with adjacent infrastructure only, and three providers absent from canonical data.
+The plan in [`hyperscalers.20260804.md`](hyperscalers.20260804.md) has been implemented for CoreWeave, AWS, Google Cloud, Azure, OCI, IBM, IBM classic infrastructure, and Meta. The dated implementation record is [`hyperscalers.implementation.20260805.md`](hyperscalers.implementation.20260805.md).
 
-That report proposes roughly 660 candidate hierarchy or site records, subject to provider-specific identity and source gates, plus a separate 42-code IBM classic data-center layer. CoreWeave is the first recommended implementation because its provider directory exposes itemized AZ identity, access class, and product availability. This is planned work and is not included in the canonical counts above.
+The exact increment is 613 records, replacing the earlier rough estimate. Important corrections are preserved rather than hidden:
+
+- CoreWeave has seven published super regions and 56 AZs, not 52 ordinary parent regions.
+- AWS has 39 region records but only 108 itemized stable AZ IDs in the retained directory; the 15-AZ gap from the 123 aggregate is not synthesized.
+- Azure has 57 region records, including eight restricted and 39 with zone support; it has no manufactured child zones.
+- Google has 43 regions and 130 zones with Compute product properties.
+- OCI's retained itemized commercial table has 45 regions; AD counts remain properties.
+- IBM has 13 regions and 40 universal zones; its 39 account-logical labels are not identities. Its 42 classic data centers are separate.
+- Meta's current directory has 33 cards. All retain `lifecycle_status=unknown` unless current status is explicit.
+
+All new geometry is null. AWS Local Zones now link to canonical parent region IDs. The manifest preserves original dates instead of relabeling 2026-08-04 sources as 2026-08-05.
 
 ## Mainland-China public-cloud assessment
 
@@ -159,7 +177,7 @@ Unsupported Baidu global claims and an uncited Alibaba estimate layer remain qua
 
 ### Priority 0: protect semantics on every update
 
-- Keep schema 1.1 fields mandatory.
+- Keep the schema 1.1 core fields mandatory and use 1.2 only where its added semantics apply.
 - Run ID, parent, jurisdiction, lifecycle, access, service-scope, and source-structure diffs before publication.
 - Preserve source disagreements instead of forcing aggregate agreement.
 - Keep full layers, views, assessments, observations, and quarantine separate in the manifest.
@@ -199,7 +217,8 @@ At this assessment date:
 
 - Google validation passes for 65 edge metros and 59 data-center locations.
 - The authoritative/observation suite passes for 14,989 records across 17 non-Google canonical layers.
-- Together they comprise the 15,113 records in the 19-layer manifest.
+- The hyperscaler suite passes for 613 records across eight new layers and checks mixed-date manifest generation.
+- Together with the two baseline Google layers, they comprise the 15,726 records in the 27-layer manifest.
 - Recovery validation remains separate and passes unchanged.
 
 Recommended update flow:

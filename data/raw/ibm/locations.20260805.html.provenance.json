@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+  "source_published_at": null,
+  "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations"
+}

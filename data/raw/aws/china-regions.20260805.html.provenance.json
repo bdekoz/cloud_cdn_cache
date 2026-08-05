@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/aws/china-regions.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "a4555615a49c142a38c07b0b764844624aaba9d04bae0f5b8001fee7a441f084",
+  "source_published_at": null,
+  "source_url": "https://docs.amazonaws.cn/en_us/aws/latest/userguide/ARNs.html"
+}

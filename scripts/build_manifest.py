@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the consolidated manifest for normalized 2026-08-04 layers."""
+"""Build a consolidated manifest without relabeling older retained snapshots."""
 
 from __future__ import annotations
 
@@ -10,10 +10,13 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from location_common import REPO_ROOT, SCHEMA_PATH, SCHEMA_VERSION, repo_ref, retrieval_tag, sha256, write_json
+from location_common import REPO_ROOT, SCHEMA_CONTRACT_VERSION, SCHEMA_PATH, repo_ref, retrieval_tag, sha256, write_json
 
 
-LAYER_NAMES = (
+BASELINE_TAG = "20260804"
+HYPERSCALER_TAG = "20260805"
+
+BASELINE_LAYERS = (
     "google/edge",
     "google/data-centers",
     "cloudflare/edge",
@@ -33,6 +36,17 @@ LAYER_NAMES = (
     "tianyi/vpc-resource-pools",
     "chindata/data-centers",
     "observations/cdn-mapping",
+)
+
+HYPERSCALER_LAYERS = (
+    "coreweave/regions-and-zones",
+    "aws/regions-and-zones",
+    "google/cloud-regions-and-zones",
+    "microsoft/cloud-regions",
+    "oracle/cloud-regions",
+    "ibm/regions-and-zones",
+    "ibm/classic-data-centers",
+    "meta/data-centers",
 )
 
 VIEW_NAMES = {
@@ -92,6 +106,7 @@ def layer_manifest(layer: str, tag: str) -> dict[str, Any]:
         "layer": layer,
         "providers": sorted({row["provider"] for row in rows}),
         "record_count": len(rows),
+        "snapshot_tag": tag,
         "retrieved_at": sorted({row["retrieved_at"] for row in rows}),
         "schema_versions": sorted({row["schema_version"] for row in rows}),
         "services": sorted({row["service"] for row in rows}),
@@ -109,20 +124,25 @@ def main() -> None:
     args = parse_args()
     tag = retrieval_tag(args.retrieved_at)
     output = args.output or REPO_ROOT / "data" / f"manifest.{tag}.json"
-    layers = [layer_manifest(layer, tag) for layer in LAYER_NAMES]
+    if tag < BASELINE_TAG:
+        raise ValueError(f"no consolidated snapshot is defined before {BASELINE_TAG}")
+    layer_specs = [(layer, BASELINE_TAG) for layer in BASELINE_LAYERS]
+    if tag >= HYPERSCALER_TAG:
+        layer_specs.extend((layer, HYPERSCALER_TAG) for layer in HYPERSCALER_LAYERS)
+    layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     views = []
     for view, parent in VIEW_NAMES.items():
-        entry = layer_manifest(view, tag)
+        entry = layer_manifest(view, BASELINE_TAG)
         entry["view_of"] = parent
         views.append(entry)
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     write_json(output, {
-        "assessments": [assessment_manifest(name, tag) for name in ASSESSMENT_NAMES],
+        "assessments": [assessment_manifest(name, BASELINE_TAG) for name in ASSESSMENT_NAMES],
         "generated_from_retained_snapshots_at": args.retrieved_at,
         "layer_count": len(layers),
         "layers": layers,
         "record_count": sum(layer["record_count"] for layer in layers),
-        "schema": {"path": repo_ref(SCHEMA_PATH), "sha256": sha256(SCHEMA_PATH), "version": SCHEMA_VERSION},
+        "schema": {"path": repo_ref(SCHEMA_PATH), "sha256": sha256(SCHEMA_PATH), "version": SCHEMA_CONTRACT_VERSION},
         "scope_note": "Canonical counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and are excluded from record_count.",
         "quarantine": {"audit_path": repo_ref(quarantine_audit), "audit_sha256": sha256(quarantine_audit)},
         "view_count": len(views),

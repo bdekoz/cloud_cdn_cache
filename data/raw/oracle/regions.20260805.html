@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+
+<html class="" lang="en-US">
+<head><meta content="2026-06-22 17:07:47Z" name="cpp-last-modified-time"/><meta content="2026-06-22 17:07:47Z" name="cpp-last-processed-time"/>
+<meta charset="utf-8"/>
+<meta content="(C) Copyright 2026" name="copyright"/>
+<meta content="DITA-OT" name="generator"/>
+<meta content="Regions and Availability Domains" name="title"/>
+<meta content="Learn about how the Oracle Cloud Infrastructure is hosted in regions and availability domains. Regions are localized geographic areas, and availability domains are one or more data centers within a region." name="description"/>
+<meta content="en" name="language"/>
+<meta content="WM178623" name="contenttype_id"/>
+<meta content="WM178512" name="productservices_id"/>
+<meta content="https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm" name="url"/>
+<title>Regions and Availability Domains</title>
+<meta content="width=device-width" name="viewport"/>
+<meta charset="utf-8"/>
+<link href="/iaas/build/styles.css?b6b469e98e9ec3e0e1f4e24b7dbfa322cdcc82e82ef742cfb257263b845d2c77" rel="stylesheet"/>
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<div id="highline-mount"></div>
+<div data-trackas="dcoc-main-navigation" id="mobile-toc" uk-offcanvas="flip: true; overlay: true">
+<div class="uk-offcanvas-bar uk-padding-remove-left uk-padding-remove-right">
+<button class="uk-offcanvas-close toc-mobile-close" type="button" uk-close=""></button>
+<div class="uk-margin-top vl-table-of-contents-mount">
+<div class="uk-text-center">
+<div uk-spinner=""></div>
+</div>
+</div>
+</div>
+</div>
+<div data-trackas="dcoc-header" i18n="" id="global-nav-mount">
+<div class="vl-nav-mount-height-placeholder"></div>
+</div>
+<div class="uk-section uk-section-secondary vl-background-hero uk-background-cover vl-dcoc-hero" data-trackas="dcoc-content-body" style="background-image: url('/iaas/img/banner-bg.jpg')">
+<div class="uk-container uk-container-large">
+<div uk-grid="">
+<div class="uk-width-expand">
+<h3 class="uk-link-reset uk-text-bold uk-margin-remove-bottom" id="cxe-docs-home-page">
+<a href="/iaas/Content/home.htm">
+                  Oracle Cloud Infrastructure Documentation
+                </a>
+</h3>
+<hr class="vl-hr-accent uk-margin-small-top"/>
+</div>
+</div>
+</div>
+</div>
+<div uk-height-viewport="offset-top: true; offset-bottom: true">
+<div class="vl-dcoc-hero-margin">
+<div class="uk-container vl-padding-small-vertical uk-background-muted uk-hidden@m">
+<div class="uk-grid uk-grid-small uk-text-small" uk-grid="">
+<div class="uk-width-expand" data-trackas="dcoc-main-navigation" id="vl-breadcrumbs-mount"></div>
+<div class="uk-width-auto">
+<button class="uk-button uk-button-link uk-button-small vl-button-icon" type="button" uk-toggle="target: #mobile-toc">
+<span uk-icon="icon: menu; ratio: .8"></span>
+                  All Pages
+                </button>
+</div>
+</div>
+</div>
+</div>
+<div class="uk-container uk-container-large">
+<div class="uk-height-1-1 uk-grid" uk-grid="">
+<div class="vl-sidebar-left uk-visible@m" vl-table-of-contents-left="">
+<div class="vl-table-of-contents-mount vl-table-of-contents-inner" vl-table-of-contents-left-inner="">
+<div class="uk-text-center uk-margin-top">
+<div uk-spinner=""></div>
+</div>
+</div>
+</div>
+<div class="uk-width-expand" data-trackas="dcoc-content-body">
+<div class="uk-grid" uk-grid="">
+<div class="uk-width-expand" uk-height-viewport="offset-top: true">
+<a href="#dcoc-content-body" id="skiplink" tabindex="1">Skip to main content</a>
+<div class="uk-margin-large-bottom" id="dcoc-content-body">
+<div class="vl-content vl-content-max-width">
+<div class="uk-hidden@l">
+<div class="uk-nav uk-active uk-nav-default dts-header" id="vl-dts-mount-header"></div>
+</div>
+<article aria-labelledby="ariaid-title1" role="article">
+<article aria-labelledby="ariaid-title1" class="topic nested0" id="top">
+<h1 class="title topictitle1" id="ariaid-title1">Regions and Availability Domains</h1>
+<div class="body"><p class="shortdesc">Learn about how the Oracle Cloud Infrastructure is hosted in regions and availability domains. Regions are localized geographic areas, and availability domains are one or more data centers within a region.</p>
+</div>
+<article aria-labelledby="ariaid-title2" class="topic nested1" id="About">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title2">About Regions and Availability Domains</h2>
+<div class="body">
+<div><span id="About__ph_regions">Oracle Cloud Infrastructure is hosted in regions and availability domains. A region is a localized geographic area, and an availability domain is one or more data centers located within a region. A region is composed of one or more availability domains.</span>
+<span id="About__ph_resources-traffic">Most Oracle Cloud Infrastructure resources are either region-specific, such as a virtual cloud network, or availability domain-specific, such as a compute instance. Traffic between availability domains and between regions is encrypted.</span>
+<span id="About__ph_availability-domains">Availability domains are isolated from each other, fault tolerant, and very unlikely to fail simultaneously.</span> Because availability domains do not share infrastructure such as power or cooling, or the internal availability domain network, a failure at one availability domain within a region is unlikely to impact the availability of the others within the same region. <p>The availability domains within the same region are connected to each other by a low latency, high bandwidth network, which makes it possible for you to provide high-availability connectivity to the internet and on-premises, and to build replicated systems in multiple availability domains for both high-availability and disaster recovery.</p>
+<p>Oracle is adding multiple cloud regions around the world to provide local access to cloud resources for our customers. To accomplish this quickly, we have chosen to launch regions in new geographies with one availability domain.</p>
+<p>As regions require expansion, we have the option to add capacity to existing availability domains, to add additional availability domains to an existing region, or to build a new region. The expansion approach in a particular scenario is based on customer requirements as well as considerations of regional demand patterns and resource availability.</p>
+<p>Regions are independent of other regions and can be separated by vast distances—across countries or even continents. Generally, you would deploy an application in the region where it is most heavily used, because using nearby resources is faster than using distant resources. However, you can also deploy applications in different regions for these reasons:</p>
+<ul>
+<li>To mitigate the risk of region-wide events such as large weather systems or earthquakes.</li>
+<li>To meet varying requirements for legal jurisdictions, tax domains, and other business or social criteria.</li>
+</ul>
+</div>
+<p>Regions are grouped into <strong title="A logical collection of regions. Realms are isolated from each other and don't share any data. Your tenancy exists in a single realm and can access the regions in that realm." uk-tooltip="">realms <span class="vl-1px-up" uk-icon="icon: info; ratio: .8"></span></strong>. Your tenancy exists in a single realm and can access all regions that belong to that realm. You can't access regions that aren't in your realm. Currently, Oracle Cloud Infrastructure has multiple realms, including commercial, <a class="xref" href="/iaas/Content/General/Concepts/govlanding.htm">government</a>, and <a class="xref" href="dedicatedregions.htm" title="Dedicated regions are public regions assigned to a single organization. Region specific details, such as region ID and region key are not available in public documentation, check with your Oracle contact for this information for your dedicated region." uk-tooltip="">dedicated</a> realms. </p>
+<p id="About__The">
+<a name="The"></a>The following table lists the regions in the Oracle Cloud Infrastructure commercial <strong title="A logical collection of regions. Realms are isolated from each other and don't share any data. Your tenancy exists in a single realm and can access the regions in that realm." uk-tooltip="">realms <span class="vl-1px-up" uk-icon="icon: info; ratio: .8"></span></strong>:</p>
+<div>
+<div class="uk-overflow-auto"><table class="table vl-table-bordered vl-table-divider-col" summary="This table summarizes basic information about each region"><caption></caption><colgroup><col/><col/><col/><col/><col/><col/></colgroup><thead class="thead">
+<tr class="row">
+<th class="entry" id="About__entry__1">Region Name</th>
+<th class="entry" id="About__entry__2">Region Identifier</th>
+<th class="entry" id="About__entry__3">Region Location</th>
+<th class="entry" id="About__entry__4">Region Key</th>
+<th class="entry" id="About__entry__5">Realm  Key</th>
+<th class="entry" id="About__entry__6">Availability Domains</th>
+</tr>
+</thead><tbody class="tbody">
+<tr class="row">
+<td class="entry" headers="About__entry__1">Australia East (Sydney)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-sydney-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Sydney, Australia</td>
+<td class="entry" headers="About__entry__4">SYD
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Australia Southeast (Melbourne)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-melbourne-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Melbourne, Australia</td>
+<td class="entry" headers="About__entry__4">MEL
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Brazil East (Sao Paulo)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">sa-saopaulo-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Sao Paulo, Brazil</td>
+<td class="entry" headers="About__entry__4">GRU
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Brazil Southeast (Vinhedo)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">sa-vinhedo-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Vinhedo, Brazil</td>
+<td class="entry" headers="About__entry__4">VCP
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Canada Southeast (Montreal)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ca-montreal-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Montreal, Canada</td>
+<td class="entry" headers="About__entry__4">YUL
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Canada Southeast (Toronto)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ca-toronto-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Toronto, Canada</td>
+<td class="entry" headers="About__entry__4">YYZ
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Chile Central (Santiago)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">sa-santiago-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Santiago, Chile</td>
+<td class="entry" headers="About__entry__4">SCL
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Chile West (Valparaiso)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">sa-valparaiso-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Valparaiso, Chile</td>
+<td class="entry" headers="About__entry__4">VAP
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Colombia Central (Bogota)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">sa-bogota-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Bogota, Colombia</td>
+<td class="entry" headers="About__entry__4">BOG
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">France Central (Paris)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-paris-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Paris, France</td>
+<td class="entry" headers="About__entry__4">CDG
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">France South (Marseille)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-marseille-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Marseille, France</td>
+<td class="entry" headers="About__entry__4">MRS
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Germany Central (Frankfurt)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-frankfurt-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Frankfurt, Germany</td>
+<td class="entry" headers="About__entry__4">FRA
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">3</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">India South (Hyderabad)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-hyderabad-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Hyderabad, India</td>
+<td class="entry" headers="About__entry__4">HYD
+</td>
+<td class="entry" headers="About__entry__5">OC1 </td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">India West (Mumbai)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-mumbai-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Mumbai, India</td>
+<td class="entry" headers="About__entry__4">BOM
+</td>
+<td class="entry" headers="About__entry__5">OC1 </td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Indonesia North (Batam)</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-batam-1</span></td>
+<td class="entry" headers="About__entry__3">Batam, Indonesia</td>
+<td class="entry" headers="About__entry__4">HSG</td>
+<td class="entry" headers="About__entry__5">OC1 </td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Israel Central (Jerusalem)</td>
+<td class="entry" headers="About__entry__2"><span translate="no">il-jerusalem-1</span></td>
+<td class="entry" headers="About__entry__3">Jerusalem, Israel</td>
+<td class="entry" headers="About__entry__4">MTZ</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Italy Northwest (Milan)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-milan-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Milan, Italy</td>
+<td class="entry" headers="About__entry__4">LIN
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Italy North (Turin)</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-turin-1</span></td>
+<td class="entry" headers="About__entry__3">Turin, Italy</td>
+<td class="entry" headers="About__entry__4">NRQ</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Japan Central (Osaka)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-osaka-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Osaka, Japan</td>
+<td class="entry" headers="About__entry__4">KIX
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Japan East (Tokyo)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-tokyo-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Tokyo, Japan</td>
+<td class="entry" headers="About__entry__4">NRT
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Malaysia West 2 (Kulai)</td>
+<td class="entry" headers="About__entry__2">ap-kulai-2</td>
+<td class="entry" headers="About__entry__3">Kulai, Malaysia</td>
+<td class="entry" headers="About__entry__4">JBP</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Mexico Central (Queretaro)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">mx-queretaro-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Queretaro, Mexico</td>
+<td class="entry" headers="About__entry__4">QRO
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Mexico Northeast (Monterrey)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">mx-monterrey-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Monterrey, Mexico</td>
+<td class="entry" headers="About__entry__4">MTY
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Morocco West (Casablanca)</td>
+<td class="entry" headers="About__entry__2">af-casablanca-1</td>
+<td class="entry" headers="About__entry__3">Casablanca, Morocco</td>
+<td class="entry" headers="About__entry__4">LEJ</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Netherlands Northwest (Amsterdam)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-amsterdam-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Amsterdam, Netherlands</td>
+<td class="entry" headers="About__entry__4">AMS
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Saudi Arabia Central (Riyadh)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">me-riyadh-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Riyadh, Saudi Arabia</td>
+<td class="entry" headers="About__entry__4">RUH</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Saudi Arabia West (Jeddah)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">me-jeddah-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Jeddah, Saudi Arabia</td>
+<td class="entry" headers="About__entry__4">JED
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Serbia Central (Jovanovac)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-jovanovac-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Jovanovac,Serbia</td>
+<td class="entry" headers="About__entry__4">BEG
+</td>
+<td class="entry" headers="About__entry__5">OC20</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Singapore (Singapore)
+</td>
+<td class="entry" headers="About__entry__2">ap-singapore-1
+</td>
+<td class="entry" headers="About__entry__3">Singapore,Singapore</td>
+<td class="entry" headers="About__entry__4">SIN
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Singapore West (Singapore)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-singapore-2</span>
+</td>
+<td class="entry" headers="About__entry__3">Singapore,Singapore</td>
+<td class="entry" headers="About__entry__4">XSP
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">South Africa Central (Johannesburg)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">af-johannesburg-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Johannesburg, South Africa</td>
+<td class="entry" headers="About__entry__4">JNB
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">South Korea Central (Seoul)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-seoul-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Seoul, South Korea</td>
+<td class="entry" headers="About__entry__4">ICN
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">South Korea North (Chuncheon)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">ap-chuncheon-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Chuncheon, South Korea</td>
+<td class="entry" headers="About__entry__4">YNY
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Spain Central (Madrid)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-madrid-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Madrid, Spain</td>
+<td class="entry" headers="About__entry__4">MAD
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Spain Central (Madrid 3)</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-madrid-3</span></td>
+<td class="entry" headers="About__entry__3">Madrid, Spain</td>
+<td class="entry" headers="About__entry__4">ORF</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Sweden Central (Stockholm)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-stockholm-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Stockholm, Sweden</td>
+<td class="entry" headers="About__entry__4">ARN
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">Switzerland North (Zurich)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">eu-zurich-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Zurich, Switzerland</td>
+<td class="entry" headers="About__entry__4">ZRH
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">UAE Central (Abu Dhabi)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">me-abudhabi-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Abu Dhabi, UAE</td>
+<td class="entry" headers="About__entry__4">AUH
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">UAE East (Dubai)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">me-dubai-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Dubai, UAE</td>
+<td class="entry" headers="About__entry__4">DXB
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">UK South (London)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">uk-london-1</span>
+</td>
+<td class="entry" headers="About__entry__3">London, United Kingdom</td>
+<td class="entry" headers="About__entry__4">LHR
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">3</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">UK West (Newport)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">uk-cardiff-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Newport, United Kingdom</td>
+<td class="entry" headers="About__entry__4">CWL
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">US East (Ashburn)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">us-ashburn-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Ashburn, VA</td>
+<td class="entry" headers="About__entry__4">IAD
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">3</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">US Midwest (Chicago)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">us-chicago-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Chicago, IL</td>
+<td class="entry" headers="About__entry__4">ORD
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">3</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">US West (Phoenix)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">us-phoenix-1</span>
+</td>
+<td class="entry" headers="About__entry__3">Phoenix, AZ </td>
+<td class="entry" headers="About__entry__4">PHX
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">3</td>
+</tr>
+<tr class="row">
+<td class="entry" headers="About__entry__1">US West (San Jose)
+</td>
+<td class="entry" headers="About__entry__2"><span translate="no">us-sanjose-1</span>
+</td>
+<td class="entry" headers="About__entry__3">San Jose, CA </td>
+<td class="entry" headers="About__entry__4">SJC
+</td>
+<td class="entry" headers="About__entry__5">OC1</td>
+<td class="entry" headers="About__entry__6">1</td>
+</tr>
+</tbody></table></div>
+</div>
+<p>To subscribe to a region, see <a class="xref" href="/iaas/Content/Identity/Tasks/managingregions.htm">Managing Regions</a>.</p>
+<p class="keepWithNext">For a list of regions in the Oracle Government Cloud realms, see the following topics:</p>
+<ul>
+<li>
+<p>
+<a class="xref" href="/iaas/Content/gov-cloud/govfedramp.htm">Oracle US Government Cloud</a>
+</p>
+</li>
+<li>
+<p>
+<a class="xref" href="/iaas/Content/gov-cloud/govfeddod.htm">Oracle US Defense Cloud</a>
+</p>
+</li>
+<li>
+<p>
+<a class="xref" href="/iaas/Content/gov-cloud/govuksouth.htm">Oracle UK Sovereign Cloud</a>
+</p>
+</li>
+<li>
+<p>
+<a class="xref" href="/iaas/Content/gov-cloud/ausgov.htm">Oracle Cloud Infrastructure for Australia Government and Defence</a>
+</p>
+</li>
+</ul>
+</div>
+</article>
+<article aria-labelledby="ariaid-title3" class="topic nested1" id="ad-names">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title3">Your Tenancy's Availability Domain Names</h2>
+<div class="body">
+<p>To help balance capacity in data centers, Oracle Cloud Infrastructure randomizes availability domains by <strong title="A secure and isolated partition within Oracle Cloud Infrastructure (OCI) where you can create, organize, and administer your cloud resources. When you sign up for OCI, a tenancy is created for your company. Tenancy also refers to the root compartment that contains all of your organization's compartments and other OCI resources." uk-tooltip="">tenancy <span class="vl-1px-up" uk-icon="icon: info; ratio: .8"></span></strong>. For example, the availability domain labeled <code class="ph codeph">PHX-AD-1</code> for tenancyA might be a different data center than the one labeled <code class="ph codeph">PHX-AD-1</code> for tenancyB. </p>
+<p>To track which availability domain corresponds to which data center for each tenancy, Oracle Cloud Infrastructure uses tenancy-specific prefixes for availability domain names. An example prefix is <code class="ph codeph">Uocm:</code>. With this prefix, availability domain names are <code class="ph codeph">Uocm:PHX-AD-1</code>, <code class="ph codeph">Uocm:PHX-AD-2</code>, and so on.</p>
+<p>To get the specific names of your tenancy's availability domains, use the <a class="xref" href="/iaas/api/#/en/identity/latest/AvailabilityDomain/ListAvailabilityDomains">ListAvailabilityDomains</a> operation, which is available in the IAM API. You can also see the names when you use the Console to <a class="xref" href="/iaas/Content/Compute/Tasks/launchinginstance.htm">create an instance</a> and choose which availability domain to create the instance in.</p>
+</div>
+</article>
+<article aria-labelledby="ariaid-title4" class="topic nested1" id="fault">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title4">Fault Domains</h2>
+<div class="body">
+<p>A fault domain is a grouping of hardware and
+            infrastructure within an availability domain. Each availability domain contains three fault domains. Fault domains provide anti-affinity: they let you
+            distribute your instances so that the instances are not on the same physical hardware
+            within a single availability domain. A hardware failure
+            or Compute hardware maintenance event that affects one
+                fault domain does not affect instances in other fault domains. </p>
+<p> To control the placement of your compute instances, bare metal DB system instances, or virtual machine DB system instances, you can optionally specify the fault domain for a new instance or instance pool at launch time. If you don't specify the fault domain, the system selects one for you. Oracle Cloud Infrastructure makes a best-effort anti-affinity placement across different fault domains, while optimizing for available capacity in the availability domain. To change the fault domain for a compute instance, <a class="xref" href="/iaas/Content/Compute/Tasks/edit-fault-domain.htm">edit the fault domain</a>. To change the fault domain for a bare metal or virtual machine DB system instance, terminate it and launch a new instance in the preferred fault domain.</p>
+<p class="keepWithNext">Use fault domains to do the following things:</p>
+<ul>
+<li>Protect against unexpected hardware failures.</li>
+<li>Protect against planned outages because of Compute hardware maintenance.</li>
+</ul>
+<p class="keepWithNext">For more information:</p>
+<ul>
+<li>For recommendations about how to use fault domains when provisioning application and database servers, see <a class="xref" href="/iaas/Content/Compute/References/bestpracticescompute.htm#Fault">Fault Domains</a> in <a class="xref" href="/iaas/Content/Compute/References/bestpracticescompute.htm">Best Practices for Your Compute Instances</a>.</li>
+</ul>
+</div>
+</article>
+<article aria-labelledby="ariaid-title5" class="topic nested1" id="limits">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title5">Subscribed Region Limits</h2>
+<div class="body">
+<p>Trial, free tier, and pay-as-you-go tenancies are limited to one subscribed region. You
+            can request an increase to the limit for pay-as-you-go tenancies, see <a class="xref" href="regions.htm#To_request_a_subscribed_region_limit_increase">To request a subscribed region limit increase</a> for more
+            information.</p>
+<p>Universal monthly credit tenancies can subscribe to all publicly released commercial regions. </p>
+<section class="section" id="limits__request"><h3 class="title sectiontitle vl-no-in-page-toc">
+Requesting a Limit Increase to the Subscribed Region Count
+</h3>
+<p>You can submit a request to increase the subscribed region count for your tenancies from within the Console. If you try to subscribe to a region beyond the limit for your tenancy, you'll be prompted to submit a limit increase request. Additionally, you can launch the request from the service limits page or at any time by clicking the link under the <strong class="ph uicontrol">Help</strong> menu <img alt="Help menu" src="../../libraries/global-block-libraries/../global-images/help-menu.png"/>. </p>
+</section>
+</div>
+<div class="uk-margin-top" uk-accordion=""><div id="To_request_a_subscribed_region_limit_increase"><a class="uk-accordion-title" href="#" id="ariaid-title6">To request a subscribed region limit increase</a><div class="uk-accordion-content"><div aria-labelledby="ariaid-title6" class="topic nested2">
+<div class="body">
+<ol>
+<li>
+<p>Open the <strong class="ph uicontrol">Help</strong> menu <img alt="Help menu" src="../../libraries/global-block-libraries/../global-images/help-menu.png"/>, go to <strong>Support</strong> and click <strong>Request service limit increase</strong>.</p>
+</li>
+<li>
+<p>Enter the following:</p>
+<ul>
+<li>
+<strong>Primary Contact Details:</strong> Enter the name and email address of the person making the request. Enter one email address only. A confirmation will be sent to this address.
+                            </li>
+<li>
+<strong>Service Category:</strong> Select <strong>Regions</strong>.
+                            </li>
+<li>
+<strong>Resource:</strong> Select <strong>Subscribed region count</strong>.
+                            </li>
+<li>
+<strong>Tenancy Limit:</strong> Specify the limit number.
+                            </li>
+<li>
+<strong>Reason for Request:</strong> Enter a reason for your request. If your request is urgent or unusual, please provide details here.</li>
+</ul>
+</li>
+<li>Click <strong>Submit Request</strong>.</li>
+</ol>
+<p>After you submit the request, it is processed. A response can take anywhere from a few minutes to a few days. If your request is granted, a confirmation email is sent to the address provided in the primary contact details. </p>
+<p>If we need additional information about your request, a follow-up email  is sent to the address provided in the primary contact details. </p>
+</div>
+</div></div></div></div>
+</article>
+<article aria-labelledby="ariaid-title7" class="topic nested1" id="Service_Availability_Across_Regions">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title7">Service Availability Across Regions</h2>
+<div class="body">
+<p>
+OCI offers its cloud services in all of its
+            public cloud regions and dedicated cloud regions. However, certain specialized or
+            emerging services are available only in select regions. For more information, see <a class="xref" href="https://www.oracle.com/cloud/distributed-cloud/#service-availability">Service Availability</a>.</p>
+</div>
+</article>
+<article aria-labelledby="ariaid-title8" class="topic nested1" id="Resource">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title8">Resource Availability</h2>
+<div class="body">
+<p>The following sections list the resource types based on their availability: across regions, within a single region, or within a single availability domain. </p>
+<div class="uk-alert uk-alert-success"><span class="vl-1px-up" uk-icon="lifesaver"></span><strong> Tip</strong><br/><br/> In general: IAM resources are cross-region. DB Systems, instances, and volumes are specific to an availability domain. Everything else is regional. Exception: Subnets were originally designed to be specific to an availability domain. Now, you can create <a class="xref" href="/iaas/Content/Network/Tasks/create_subnet.htm">regional subnets</a>, which are what Oracle recommends. </div>
+<section class="section" id="Resource__Cross-Re"><h3 class="title sectiontitle vl-no-in-page-toc">
+Cross-Region Resources
+</h3>
+<ul>
+<li>API signing keys</li>
+<li>compartments</li>
+<li>detectors (Cloud Guard; regional to reporting region)</li>
+<li>dynamic groups</li>
+<li>federation resources</li>
+<li>groups</li>
+<li>managed lists (Cloud Guard)</li>
+<li>network sources</li>
+<li>policies (IAM and Zero Trust Packet Routing
+</li>
+<li>responders (Cloud Guard; regional to reporting region)</li>
+<li>security attributes (Zero Trust Packet Routing)</li>
+<li>security attribute namespaces (Zero Trust Packet Routing)</li>
+<li>tag namespaces</li>
+<li>tag keys</li>
+<li>targets (Cloud Guard; regional to reporting region)</li>
+<li>users</li>
+</ul>
+</section>
+<section class="section"><h3 class="title sectiontitle vl-no-in-page-toc">Regional Resources</h3>
+<ul>
+<li>access policies (Service Mesh)</li>
+<li>agents (Database Migration)</li>
+<li>alarms</li>
+<li>apm-domains (Application Performance Monitoring)</li>
+<li>applications (Data Flow service)</li>
+<li>applications (Functions service)</li>
+<li>artifact-repositories (Artifact Registry)</li>
+<li>backups (OCI Database with PostgreSQL)</li>
+<li>bastions</li>
+<li>blockchain platforms (Blockchain Platform service)</li>
+<li>buckets: Although buckets are regional resources, they can be accessed from any location if you use the correct region-specific Object Storage URL for the API calls.</li>
+<li>catalog items (Fleet Application Management)</li>
+<li>infrastructures (Compute Cloud@Customer service)</li>
+<li>upgrade schedules (Compute Cloud@Customer service)</li>
+<li>clusters (Big Data Service service)</li>
+<li>clusters (Kubernetes Engine service)</li>
+<li>cluster placement groups (Cluster Placement Groups service)</li>
+<li>cloudevents-rules</li>
+<li>compliance policy rules (Fleet Application Management)</li>
+<li>config work requests (Log Analytics)</li>
+<li>configurations (OCI Database with PostgreSQL)</li>
+<li>configuration source providers (Resource Manager)</li>
+<li>connections (Database Migration)</li>
+<li>connectors (Connector Hub)</li>
+<li>content and experience (Content Management)</li>
+<li>customer-premises equipment (CPE)</li>
+<li>dashboards (Console Dashboards)</li>
+<li>dashboards (Management Dashboard)</li>
+<li>dashboard-groups (Console Dashboards)</li>
+<li>data catalogs</li>
+<li>database insights (Ops Insights)</li>
+<li>databases (OCI Database with PostgreSQL)</li>
+<li>datasets (Data Labeling)</li>
+<li>DB Systems (MySQL HeatWave service)</li>
+<li>deployments (GoldenGate)</li>
+<li>desktop pools (Secure Desktops)</li>
+<li>devops projects (DevOps)</li>
+<li>build pipelines (DevOps)</li>
+<li>code repositories (DevOps)</li>
+<li>deployment pipelines (DevOps)</li>
+<li>DHCP options sets</li>
+<li>discovery jobs (Stack Monitoring)</li>
+<li>DrProtectionGroup (Full Stack Disaster Recovery)</li>
+<li>DrPlan (Full Stack Disaster Recovery)</li>
+<li>DrPlanExecution (Full Stack Disaster Recovery)</li>
+<li>dynamic routing gateways (DRGs)</li>
+<li>encryption keys</li>
+<li>entities (Log Analytics)</li>
+<li>fleets (Java Management)</li>
+<li>fleets (Fleet Application Management)</li>
+<li>functions</li>
+<li>generic-artifacts (Artifact Registry)</li>
+<li>groups (OS Management Hub)</li>
+<li>host scans</li>
+<li>images</li>
+<li>ingress gateways (Service Mesh)</li>
+<li>ingress gateway route tables (Service Mesh)</li>
+<li>instances (OS Management Hub)</li>
+<li>lifecycle environments (OS Management Hub)</li>
+<li>lifecycle stages (OS Management Hub)</li>
+<li>iot-domain-groups (Internet of Things)</li>
+<li>internet gateways</li>
+<li>jobs (Database Management)</li>
+<li>jobs (Database Migration)</li>
+<li>jobs (Resource Manager)</li>
+<li>load balancers</li>
+<li>local peering gateways (LPGs)</li>
+<li>log groups (Log Analytics)</li>
+<li>maintenance windows (Fleet Application Management)</li>
+<li>management agent install keys</li>
+<li>management agents</li>
+<li>managed database groups (Database Management)</li>
+<li>managed databases (Database Management)</li>
+<li>management stations (OS Management Hub)</li>
+<li>meshes (Service Mesh)</li>
+<li>metrics</li>
+<li>Media workflow (Media Flow)</li>
+<li>Media workflow configuration (Media Flow) </li>
+<li>Media workflow job (Media Flow) </li>
+<li>Media asset (Media Flow)</li>
+<li>migrations (Database Migration)</li>
+<li>models</li>
+<li>monitors (Health Checks)</li>
+<li>NAT gateways</li>
+<li>network firewall policies</li>
+<li>network security groups</li>
+<li>node pools</li>
+<li>notebook sessions</li>
+<li>object collection rules (Log Analytics)</li>
+<li>OpenSearch clusters (Search with OpenSearch)</li>
+<li>OpenSearch cluster backups (Search with OpenSearch)</li>
+<li>patches (Fleet Application Management)</li>
+<li>platform configurations (Fleet Application Management)</li>
+<li>osddistributeddb (Globally Distributed AI Database)</li>
+<li>osddistributeddbprivateendpoint (Globally Distributed AI Database)</li>
+<li>osdworkrequest (Globally Distributed AI Database)</li>
+<li>port scans</li>
+<li>private endpoints (Database Management)</li>
+<li>private endpoints (Resource Manager)</li>
+<li>private endpoint work requests (Database Management)</li>
+<li>private templates (Resource Manager)</li>
+<li>probes (Health Checks)</li>
+<li>problems (Cloud Guard; regional to reporting region)</li>
+<li>profiles (OS Management Hub)</li>
+<li>projects</li>
+<li>properties (Fleet Application Management)</li>
+<li>provisions (Fleet Application Management)</li>
+<li>queryjob work requests (Log Analytics)</li>
+<li>queues</li>
+<li>registered databases (GoldenGate)</li>
+<li>repositories</li>
+<li>reserved public IPs</li>
+<li>resources (Stack Monitoring)</li>
+<li>route tables</li>
+<li>runs</li>
+<li>runbooks (Fleet Application Management)</li>
+<li>saved searches (Management Dashboard)</li>
+<li>scan recipes</li>
+<li>schedules (Fleet Application Management)</li>
+<li>scheduled tasks (Log Analytics)</li>
+<li>scheduled jobs (OS Management Hub)</li>
+<li>secrets</li>
+<li>security lists</li>
+<li>security zones</li>
+<li>security zone recipes</li>
+<li>service gateways</li>
+<li>sessions (Bastion)</li>
+<li>sharded-database (Globally Distributed Autonomous AI Database)</li>
+<li>sharded-database-work-request (Globally Distributed Autonomous AI Database)</li>
+<li>sharded-database-private-endpoint (Globally Distributed Autonomous AI Database)</li>
+<li>software sources (OS Management Hub)</li>
+<li>stacks (Resource Manager)</li>
+<li>StreamDistributionChannel (Media Streams)</li>
+<li>StreamPackagingConfig (Media Streams)</li>
+<li>StreamCdnConfig (Media Streams)</li>
+<li>storage work requests (Log Analytics)</li>
+<li>subnets: When you create a subnet, you choose whether it's <a class="xref" href="/iaas/Content/Network/Tasks/create_subnet.htm">regional or specific to an availability domain</a>. Oracle recommends using regional subnets.</li>
+<li>subscriptions</li>
+<li>tables</li>
+<li>targets (Vulnerability Scanning)</li>
+<li>threat indicators</li>
+<li>threat types</li>
+<li>topics</li>
+<li>vaults</li>
+<li>virtual cloud networks (VCNs)</li>
+<li>virtual deployments (Service Mesh)</li>
+<li>virtual services (Service Mesh)</li>
+<li>virtual service route tables (Service Mesh)</li>
+<li>volume backups: They can be restored as new volumes to any availability domain within the same region in which they are stored.</li>
+<li>vulnerability reports</li>
+<li>workspaces</li>
+</ul>
+</section>
+<section class="section"><h3 class="title sectiontitle vl-no-in-page-toc">
+Availability Domain-Specific Resources</h3>
+<ul>
+<li>container instances</li>
+<li>DB systems (Oracle Database service)</li>
+<li>ephemeral public IPs</li>
+<li>instances (Compute): They can be attached only to volumes in the same availability domain.</li>
+<li>Lustre file systems (File Storage with Lustre)</li>
+<li>network firewalls</li>
+<li>subnets: When you create a subnet, you choose whether it is <a class="xref" href="/iaas/Content/Network/Tasks/create_subnet.htm">regional or specific to an availability domain</a>. Oracle recommends using regional subnets.</li>
+<li>volumes: They can be attached only to an instance in the same availability domain.</li>
+</ul>
+</section>
+</div>
+</article>
+</article>
+</article>
+<div class="uk-hidden@l">
+<div class="vl-cfs-mount vl-cfs-m" id="vl-cfs-mount-footer"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="vl-floating-toc-container uk-visible@l" vl-floating-toc="">
+<div class="vl-floating-toc-container-inner" vl-floating-toc-inner="">
+<div id="content-toolbar-mount"></div>
+<ul class="uk-nav uk-nav-default vl-floating-toc" uk-scrollspy-nav="closest: li; offset: 50">
+<li class="vl-floating-toc-h1">
+<a href="#top">
+                                Regions and Availability Domains
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#About">
+                                About Regions and Availability Domains
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#ad-names">
+                                Your Tenancy's Availability Domain Names
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#fault">
+                                Fault Domains
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#limits">
+                                Subscribed Region Limits
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#Service_Availability_Across_Regions">
+                                Service Availability Across Regions
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#Resource">
+                                Resource Availability
+                              </a>
+</li>
+</ul>
+<div class="vl-cfs-mount vl-cfs-l" id="vl-cfs-mount"></div>
+<div class="uk-nav uk-nav-default" id="vl-dts-mount"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="vl-footer uk-section uk-section-secondary uk-section-small uk-text-xsmall uk-text-muted" data-trackas="dcoc-footer" vl-footer="">
+<div class="uk-container vl-container-xlarge">
+<ul class="uk-subnav uk-flex-center" uk-margin="">
+<li class="legal"><span>Copyright © 2026, Oracle and/or its affiliates.</span></li>
+<li class="legal"><a href="https://www.oracle.com/corporate/index.html">About Oracle</a></li>
+<li class="legal"><a href="https://www.oracle.com/corporate/contact/index.html">Contact Us</a></li>
+<li class="legal"><a href="/iaas/Content/legalnotices.htm">Legal Notices</a></li>
+<li class="legal"><a href="https://www.oracle.com/legal/privacy/">Terms of Use &amp; Privacy</a></li>
+<li class="legal"><a href="/iaas/Content/General/Reference/docconventions.htm">Document Conventions</a></li>
+<li id="teconsent"></li>
+</ul>
+</div>
+</footer>
+<script src="/iaas/build/front-end.js?650f273c73d500912f798cb55d7de4918961ef0f25a403fc4870d1da10c1156a"></script>
+ 
+ 
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Canonical location schema
 
-`location.schema.json` defines the normalized record serialized as a provider layer's canonical GeoJSON. Version `1.1.0` is provider-neutral: service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes. CSV is a deterministic projection generated from that GeoJSON on demand.
+`location.schema.json` defines the normalized record serialized as a provider layer's canonical GeoJSON. The current contract is version `1.2.0`; it accepts retained `1.1.0` records and newly generated `1.2.0` records so an older snapshot never has to be silently relabeled. Service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes. CSV is a deterministic projection generated from that GeoJSON on demand.
 
 Version 1.1 adds fields needed to represent Chinese provider catalogs without collapsing unlike products or jurisdictions:
 
@@ -10,6 +10,13 @@ Version 1.1 adds fields needed to represent Chinese provider catalogs without co
 - `service_scope` records the product surface that established membership, such as compute, VPC, Cloud Connect, financial cloud, or colocation.
 - `coordinate_crs` makes WGS 84 (`EPSG:4326`) explicit and prevents source coordinates in GCJ-02 or BD-09 from being silently serialized as GeoJSON.
 - `cloud_resource_pool` represents a provider-published pool when the source does not justify inventing region or availability-zone children.
+
+Version 1.2 adds two source-preserving values:
+
+- `super_region` represents CoreWeave's published grouping of availability zones without pretending that it is an ordinary cloud region.
+- `access_status=restricted` represents subscription-, partition-, government-, or scenario-gated access that is broader than a temporary sales restriction and is not dedicated to one customer.
+
+The consolidated 2026-08-05 manifest is intentionally mixed-version and mixed-date: the 2026-08-04 layers retain schema version 1.1 and their original retrieval date, while the new hyperscaler layers use schema version 1.2 and retrieval date 2026-08-05.
 
 ## Google classification
 
@@ -40,6 +47,14 @@ These classes must not be combined into a count of equivalent physical assets. A
 | JD Cloud | `jd_cloud` | `cloud_region`, `availability_zone` |
 | China Telecom Tianyi Cloud | `ctyun_cloud` | `cloud_resource_pool` |
 | Chindata | `chindata_colocation` | `data_center` |
+| Amazon Web Services | `aws_cloud` | `cloud_region`, `availability_zone` |
+| Microsoft Azure | `azure_cloud` | `cloud_region` |
+| Google Cloud | `google_cloud` | `cloud_region`, `availability_zone` |
+| Oracle Cloud Infrastructure | `oracle_cloud` | `cloud_region` |
+| IBM Cloud | `ibm_cloud` | `cloud_region`, `availability_zone` |
+| IBM Cloud | `ibm_classic` | `data_center` |
+| Meta | `meta_data_centers` | `data_center` |
+| CoreWeave | `coreweave_cloud` | `super_region`, `availability_zone` |
 | Multi-provider measurements | `cdn_mapping_observation` | `observed_presence` |
 
 The schema deliberately validates the service naming convention rather than a closed enum. New connectors can therefore be added without invalidating an otherwise compatible schema, but they must register their service here before publication.

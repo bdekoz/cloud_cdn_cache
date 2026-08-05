@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/oracle/regions.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
+  "source_published_at": null,
+  "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+}

@@ -520,6 +520,7 @@ def parse_local_zones(retrieved_at: str) -> tuple[list[dict[str, Any]], dict[str
                 subdivision=None, country=country, country_code=country_code, latitude=lat, longitude=lon,
                 location_precision="city", coordinate_method="legacy" if lat is not None else "unknown",
                 source_key="local-zones", retrieved_at=retrieved_at, confidence="high",
+                parent_record_id=f"aws:cloud_region:{slug(parent_region)}",
                 properties={"geography": geography, "network_border_group": network_border, "parent_region": parent_region, "parent_zone_id": parent_zone_id},
             ))
     return records, {"available_zone_id_count": len(records), "local_zone_group_count": len({row["name"] for row in records})}

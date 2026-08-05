@@ -1,0 +1,36 @@
+{
+  "account_logical_zone_records_generated": 0,
+  "account_logical_zone_slot_count": 39,
+  "coordinate_methods": {
+    "unknown": 53
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/ibm/regions-and-zones.20260805.csv",
+      "path": "data/ibm/regions-and-zones.20260805.csv",
+      "source": "data/ibm/regions-and-zones.20260805.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 40,
+    "cloud_region": 13
+  },
+  "generated_files": [
+    "data/ibm/regions-and-zones.20260805.geojson"
+  ],
+  "geometry_null": 53,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 53
+  },
+  "parser": "update_hyperscalers.py:ibm",
+  "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+  "record_count": 53,
+  "region_count": 13,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+  "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations",
+  "universal_zone_count": 40
+}

@@ -1,0 +1,701 @@
+<!DOCTYPE html><html lang="en"><head><meta name="google-site-verification" content="FJU6EFEZJfI5Chm8K8fXriRjSTNMFXDBuo8o5FGuBOQ" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="build-version" content="3.3.0"><meta name="google-site-verification" content="jGI9fX-364BaZ4wE87D7GkX32GG8m8qsKqKEyV_Czqo" /><!-- Identify the site category and page name for Coremetrics, Medallia --><meta name="IBM.WTMSite" content="IBM_CloudDocs"><meta name="description" content="Find documentation, API &amp; SDK references, tutorials, FAQs, and more resources for IBM Cloud products and services."><link rel="canonical" href="https://cloud.ibm.com/docs/overview?topic=overview-locations"><link rel="alternate" type="text/markdown" href="/docs/overview?topic=overview-locations&amp;format=markdown"><link rel="index" type="text/plain" href="/docs/llms.txt"><title>IBM Cloud regions and data centers for high availability | IBM Cloud Docs</title><link nonce="95414eb03884c5bc21abc868d0f48513" rel="icon" type="image/png" href="/media/docs/images/homepage/favicon.png"><link nonce="95414eb03884c5bc21abc868d0f48513" rel="stylesheet" href='/docs/cache/9d64e4-1653483315/css/docs.css'><script nonce="95414eb03884c5bc21abc868d0f48513" src="https://1.www.s81c.com/common/stats/ibm-common.js" type="text/javascript" async="async" integrity="sha384-BwMB6Bzx1LgxnwEPeaGglTKIpMUROqDnZdhCUd3c8m08+Ap0y4rMvGIE3mk67agI" crossorigin="anonymous"></script><style nonce="95414eb03884c5bc21abc868d0f48513">body {font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;font-weight: 400;color: #161616;margin: 0;padding: 0;}.doc-ui {background-color: #f4f4f4;padding: 1rem;}</style><script nonce="95414eb03884c5bc21abc868d0f48513" type="text/javascript">window._ibmAnalytics = {"settings": {"name": "IBM Cloud Documentation","isSpa": true,"tealiumProfileName": "in-app-usage"},"onLoad": [["ibmStats.pageview", []]]};digitalData = {"page": {"pageInfo": {"ibm": {"siteId": "IBM_" + _ibmAnalytics.settings.name,}},"category": {"primaryCategory": "PC100"}}};</script><script nonce="95414eb03884c5bc21abc868d0f48513" type="text/javascript">var lang;lang = "en";if (lang) {lang = lang.toLowerCase().replace("_", "-");} else {lang = "en";}if (lang === "pt") lang = "pt-pt";</script><script nonce="95414eb03884c5bc21abc868d0f48513" type="text/javascript">var exampleDomainName = "cloud.ibm.com";var productKey = 'bluemix';var appRoute = '';var contextRoot = '/docs/';var aceCommonRoute = 'https://cloud.ibm.com/api/v5';var enableDownloadPDF = 'cos';var enableImageComponent = 'show';var appEnv = 'hide';var enableOldInternalHomepage = '';</script><!-- Analytics enable SPA --><script nonce="95414eb03884c5bc21abc868d0f48513" type="text/javascript">window._analytics = {autoPageEventSpa: true,autoFormEvents: true};process = {env: {},};window.headerConfig = {headerDOMLoaded: true,noChatbot: true};</script></head><body><div id="doc-ui" class="doc-ui  v5"><!-- Docs body --><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="DC.Publisher" content="IBM Corporation">
+  <meta name="DC.rights" content="&#xA9; Copyright IBM Corporation 2019, 2026">
+  <meta name="IBM.Country" content="ZZ">
+  <meta name="DC.Date" content="2026-06-12">
+  <meta name="keywords" content="ibm cloud regions, mzr locations, data center locations, availability zones, data centers, datacenter, regions, locations, ibm cloud regions, multizone regions, MZRs, cloud regions, cloud data centers, multizone, geo, availability zone, zones">
+  <meta name="subcollection" content="overview">
+  <meta name="description" content="Discover IBM Cloud® regions, multizone regions, and data center locations to deploy highly available workloads with low latency connectivity.">
+  <meta name="content.type" content="topic">
+  <meta name="tags" content="{{ services }}">
+  <meta name="account.plan" content="{{ account-plan }}">
+  <meta name="completion.time" content="{{ completion-time }}">
+  <meta name="version" content="{{ version }}">
+  <meta name="deployment.url" content="{{ deployment-url }}">
+  <meta name="industry" content="{{ industry }}">
+  <meta name="compliance" content="{{ compliance }}">
+  <meta name="use.case" content="{{ use-case }}">
+  <meta name="source.format" content="markdown">
+
+  <meta name="github.edit" content="yes" repo="https://github.com/ibm-cloud-docs/overview/blob/master/locations.md">
+  <meta name="github.issue" content="yes" repo="https://github.com/ibm-cloud-docs/overview/issues/new/choose">
+
+  <!-- Licensed Materials - Property of IBM -->
+  <!-- US Government Users Restricted Rights -->
+  <!-- Use, duplication or disclosure restricted by -->
+  <!-- GSA ADP Schedule Contract with IBM Corp. -->
+
+  <title>IBM Cloud regions and data centers for high availability</title>
+</head>
+
+<body>
+  <main role="main">
+    <article aria-labelledby="locations" role="article">
+      <section id="section-locations">
+        <h1 id="locations">IBM Cloud regions and data centers for high availability</h1>
+        <p>Discover IBM Cloud® regions, multizone regions, and data center locations to deploy highly available workloads with low latency connectivity.</p>
+        <p>IBM Cloud has a resilient global network of locations to host your highly available cloud workload. Resources in different locations are consolidated into an account-based billing and usage view. You can also deploy your workloads to the location
+          that is nearest to your customers to achieve low latency connectivity. IBM Cloud provides <span id="#x9774820" data-hd-glossary="term">multizone regions (MZR)<span data-hd-glossary="definition">A region that is spread across physical locations in multiple zones to increase fault tolerance.</span></span>,
+          <span id="#x10127487" data-hd-glossary="term">single-campus multizone regions (SC-MZR)<span data-hd-glossary="definition">A region that consists of multiple zones that are located within a single building or campus. Dependencies such as power, cooling, networking, and physical security might be shared but are designed to provide a high degree of fault independence. </span></span>,
+          and classic <span id="#x2439906" data-hd-glossary="term">data centers<span data-hd-glossary="definition">The physical location of the servers that provide cloud services.</span></span> for classic infrastructure resources.</p>
+        <p>
+          <figure>
+            <img src="images/Global-View-2026.svg" alt="Global map showing MZR and data center locations" title="MZR and data center locations">
+            <figcaption>MZR and data center locations map</figcaption>
+          </figure>
+        </p>
+        <p class="note">This image is an artistic representation and does not reflect actual political or geographic boundaries.</p>
+        <section id="section-regions">
+          <h2 id="regions">Regions</h2>
+          <p>IBM® offers two types of regions: MZRs and single-campus MZRs and both are considered an MZR. The underlying infrastructure in both types provides the same <a href="https://www.ibm.com/support/customer/csol/terms/?id=i126-9268&amp;lc=en" target="_blank"
+              class="external">SLA</a>. A region is an independent geographic territory that consists of one or more zones and is typically referred to by the metropolitan (metro) city area name like Dallas or London.</p>
+          <p id="zone-names">Each <span id="#x2070723" data-hd-glossary="term">zone<span data-hd-glossary="definition">A location within a region that acts as an independent fault domain and has decreased latency to other zones in the region.</span></span> within the region
+            assists with improved fault tolerance and decreased latency. A zone is identified by using two separate names. There is a zone name, for example <code>us-south-1</code> that is a logical identifier for a zone in the context of the current
+            account. There is also a universal zone name that is the identifier for a zone that is consistent across IBM Cloud, for example <code>us-south-dal10-a</code>. The universal zone name provides the location specification for VPC resources by
+            mapping the zone name to a physical location, such as a data center. Alternatively, the location for classic resources is not specified by zone and instead uses the specific data center within the region, such as <code>DAL10</code>. For more
+            information about zone information specific to your account, see <a href="#zone-mapping">Zone mapping per account</a>.</p>
+          <p>By distributing your workloads across three zones and consuming highly available regional cloud resources through virtual private endpoints, you can increase regional availability. Distributing a workload across multiple regions can provide
+            higher availability and serve as the foundation for a disaster recovery plan. There are zonal, regional, and global cloud services that provide a consistent set of resources across regions. The IBM regional services are distributed across
+            zones in an MZR and generally provide 99.99% (tier 3) availability.</p>
+          <section id="section-table-mzr">
+            <h3 id="table-mzr">Multizone regions</h3>
+            <p>MZRs are composed of three or more data centers in multiple zones with independent power, cooling, and network connectivity to ensure that failures in these components will be isolated to a single zone. MZRs provide low latency (&lt; 2-milliseconds
+              latency) and high bandwidth (&gt; 1000 Gbps) connectivity within a zone.</p>
+            <p>Offering the highest level of redundancy and availability by leveraging three separate sites within a region, MZRs have a minimum distance of at least 1 mile between zones and exact distances vary by region. Zone-to-zone latency can be found
+              in the <a href="/docs/vpc?topic=vpc-network-latency-dashboard">network latency dashboards</a>.</p>
+            <p>
+              <figure>
+                <img src="images/mzr.svg" alt="This diagram shows a geography that contains buildings that host a multizone region (MZR)">
+                <figcaption>Multizone region (MZR)</figcaption>
+              </figure>
+            </p>
+            <p>MZRs support different types of compute for both VPC and classic infrastructure resources. The location of classic resources is specified by a data center while VPC resource locations are specified by the zone. For more information about the
+              physical locations available for your account per region for VPC resources, see <a href="#zone-mapping">Zone mapping per account</a>.</p>
+            <p>The following table lists the IBM Cloud MZR locations and zones for the geography.</p>
+            <table id="americas-mzr" tab-title="North and South America" tab-group="mzr" class="simple-tab-table" aria-describedby="tableSummary-a84aa1dd57dc2585e528c44fa60081c0">
+              <caption caption-side="top">
+                MZRs in North and South America<br>
+                <span class="table-summary" id="tableSummary-a84aa1dd57dc2585e528c44fa60081c0">Use the buttons before the table to change the context of the table. The column headers identify the location type in the specific geographical area.</span>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Zone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Dallas (<code>us-south</code>)</td>
+                  <td>us-south-1<br> us-south-2
+                    <br> us-south-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Sao Paulo (<code>br-sao</code>)</td>
+                  <td>br-sao-1<br> br-sao-2
+                    <br> br-sao-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Toronto (<code>ca-tor</code>)</td>
+                  <td>ca-tor-1<br> ca-tor-2
+                    <br> ca-tor-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Washington DC (<code>us-east</code>)</td>
+                  <td>us-east-1<br> us-east-2
+                    <br> us-east-3
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table id="europe-mzr" tab-title="Europe" tab-group="mzr" class="simple-tab-table" aria-describedby="tableSummary-00f5a563ab7c25c751d850e387ee67f2">
+              <caption caption-side="top">
+                MZRs in Europe<br>
+                <span class="table-summary" id="tableSummary-00f5a563ab7c25c751d850e387ee67f2">Use the buttons before the table to change the context of the table. The column headers identify the location type in the specific geographical area.</span>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Zone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Frankfurt (<code>eu-de</code>)</td>
+                  <td>eu-de-1<br> eu-de-2
+                    <br> eu-de-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>London (<code>eu-gb</code>)</td>
+                  <td>eu-gb-1<br> eu-gb-2
+                    <br> eu-gb-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Madrid (<code>eu-es</code>)</td>
+                  <td>eu-es-1<br> eu-es-2
+                    <br> eu-es-3
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table id="asiapacific-mzr" tab-title="Asia Pacific" tab-group="mzr" class="simple-tab-table" aria-describedby="tableSummary-66e2b8e176d445650283f3d50225fa1a">
+              <caption caption-side="top">
+                MZRs in Asia Pacific<br>
+                <span class="table-summary" id="tableSummary-66e2b8e176d445650283f3d50225fa1a">Use the buttons before the table to change the context of the table. The column headers identify the locaiton type in the specific geographical area.</span>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Zone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sydney (<code>au-syd</code>)</td>
+                  <td>au-syd-1<br> au-syd-2
+                    <br> au-syd-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tokyo (<code>jp-tok</code>)</td>
+                  <td>jp-tok-1<br> jp-tok-2
+                    <br> jp-tok-3
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="note">If you're referencing a region when using the CLI, API, SDK, or Terraform, use the programmatic region name. For example, use <code>us-south</code> to target the Dallas (<code>us-south</code>) region.</p>
+          </section>
+          <section id="section-single-campus-mzr">
+            <h3 id="single-campus-mzr">Single-campus MZRs</h3>
+            <p>Single-campus MZRs (SC-MZR) contain three zones in different sections of the same building or within multiple buildings on a campus where the power, cooling, networking, and physical security dependencies might overlap. An SC-MZR is set up
+              with sufficient redundancy and resiliency to help ensure a level of continuous availability and survivability through any one system outage, planned or unplanned.</p>
+            <p>SLAs are maintained because the infrastructure is set up in a concurrently maintainable fashion so that a single failure does not affect all three zones in the same campus. This setup is ideal for services that support users colocated in the
+              zone as it reduces latency to support disaster recovery workloads.</p>
+            <p>
+              <figure>
+                <img src="images/single-campus-mzr.svg" alt="This diagram shows a geography that contains an SC-MZR">
+                <figcaption>Single-campus MZR</figcaption>
+              </figure>
+            </p>
+            <p>The following table lists the SC-MZR locations that are available in IBM Cloud and the associated regions and zones.</p>
+            <table>
+              <caption caption-side="top">single-campus MZRs</caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Zone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Chennai - Airtel (<code>in-che</code>)</td>
+                  <td>in-che-1<br> in-che-2
+                    <br> in-che-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Montreal (<code>ca-mon</code>)</td>
+                  <td>ca-mon-1<br> ca-mon-2
+                    <br> ca-mon-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mumbai - Airtel (<code>in-mum</code>)</td>
+                  <td>in-mum-1<br> in-mum-2
+                    <br> in-mum-3
+                  </td>
+                </tr>
+                <tr>
+                  <td>Osaka (<code>jp-osa</code>)</td>
+                  <td>jp-osa-1<br> jp-osa-2
+                    <br> jp-osa-3
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section id="section-zone-mapping">
+            <h3 id="zone-mapping">Zone mapping per account</h3>
+            <p>Within each region, there are three or more zones that are identified in the API, SDK, CLI, and Terraform by using a <code>regionname-number</code> syntax, for example <code>us-south-1</code>. Each IBM Cloud account has a zone mapping for
+              each region that determines the relationship between the zone and the physical location. The zones map to a physical location, which is referred to by a universal zone name by using a <code>regionname-datacenter-letter</code> syntax, for
+              example <code>us-south-dal10-a</code>.</p>
+            <p>The account zone mapping is established when the first VPC resource is created in the region and is determined by IBM. You can review the assigned zone mapping for an account on the <a href="/infrastructure/overview#endpoints">VPC Infrastructure Overview</a>              page in the Endpoint section. You can also use the <a href="/apidocs/vpc#list-region-zones">VPC API</a> to list the mapping for your account. In rare cases, you can work with your technical account manager to request a change, but each request
+              is evaluated on a case-by-case basis.</p>
+            <p class="tip">Understanding your account’s zone mapping is helpful if you’re creating a mixed VPC and Power Virtual Server application, for example. You can create your VPC resources first, and then review your zone mapping to determine which universal
+              zone the VPC resources are in so that you can ensure that the classic resources are created in the same physical location. Classic infrastructure and IBM® Power® Virtual Server services locations are specified by data center while the physical
+              location for VPC resources are specified by the universal zone name.</p>
+            <p>The following table shows the available physical locations by using their universal zone name, associated data centers, and available <span id="#x5458832" data-hd-glossary="term">Point of Presence (PoP)<span data-hd-glossary="definition">A physical location that stores servers and routers in a network cloud.</span></span>
+              locations per MZR.</p>
+            <table id="americas-universal-zone" tab-title="North and South America" tab-group="zone" class="simple-tab-table" aria-describedby="tableSummary-52cb52bd7e5f4dd3731fa769c445723f">
+              <caption caption-side="top">
+                MZR universal zone names - North and South America<br>
+                <span class="table-summary" id="tableSummary-52cb52bd7e5f4dd3731fa769c445723f">Use the buttons before the table to change the context of the table. The column headers identify the location type.</span>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Universal zone name</th>
+                  <th>Data center</th>
+                  <th>PoP</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Dallas (<code>us-south</code>)</td>
+                  <td>us-south-dal10-a<br> us-south-dal12-a
+                    <br> us-south-dal13-a
+                    <br> us-south-dal14-a
+                  </td>
+                  <td>DAL10<br> DAL12
+                    <br> DAL13
+                    <br> DAL14
+                  </td>
+                  <td>DAL03<br> DAL04
+                  </td>
+                </tr>
+                <tr>
+                  <td>Sao Paulo (<code>br-sao</code>)</td>
+                  <td>br-sao-sao01-a<br> br-sao-sao04-a
+                    <br> br-sao-sao05-a
+                  </td>
+                  <td>SAO01<br> SAO04
+                    <br> SAO05
+                  </td>
+                  <td>SAO02<br> SAO03
+                  </td>
+                </tr>
+                <tr>
+                  <td>Toronto (<code>ca-tor</code>)</td>
+                  <td>ca-tor-tor01-a<br> ca-tor-tor04-a
+                    <br> ca-tor-tor05-a
+                  </td>
+                  <td>TOR01<br> TOR04
+                    <br> TOR05
+                  </td>
+                  <td>TOR02<br> TOR03
+                  </td>
+                </tr>
+                <tr>
+                  <td>Washington DC (<code>us-east</code>)</td>
+                  <td>us-east-wdc04-a<br> us-east-wdc06-a
+                    <br> us-east-wdc07-a
+                  </td>
+                  <td>WDC04<br> WDC06
+                    <br> WDC07
+                  </td>
+                  <td>WDC02<br> WDC05
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table id="europe-universal-zone" tab-title="Europe" tab-group="zone" class="simple-tab-table" aria-describedby="tableSummary-49dc64a4fe3cb99d0cf0961f3cebf7d0">
+              <caption caption-side="top">
+                MZR universal zone names - Europe<br>
+                <span class="table-summary" id="tableSummary-49dc64a4fe3cb99d0cf0961f3cebf7d0">Use the buttons before the table to change the context of the table. The column headers identify the location type.</span>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Universal zone name</th>
+                  <th>Data center</th>
+                  <th>PoP</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Frankfurt (<code>eu-de</code>)</td>
+                  <td>eu-de-fra02-a<br> eu-de-fra04-a
+                    <br> eu-de-fra05-a
+                  </td>
+                  <td>FRA02<br> FRA04
+                    <br> FRA05
+                  </td>
+                  <td>FRA01<br> FRA03
+                  </td>
+                </tr>
+                <tr>
+                  <td>London (<code>eu-gb</code>)</td>
+                  <td>eu-gb-lon04-a<br> eu-gb-lon05-a
+                    <br> eu-gb-lon06-a
+                  </td>
+                  <td>LON04<br> LON05
+                    <br> LON06
+                  </td>
+                  <td>LON01<br> LON03
+                  </td>
+                </tr>
+                <tr>
+                  <td>Madrid (<code>eu-es</code>)</td>
+                  <td>eu-es-mad02-a<br> eu-es-mad04-a
+                    <br> eu-es-mad05-a
+                  </td>
+                  <td>MAD02<br> MAD04
+                    <br> MAD05
+                  </td>
+                  <td>MAD01<br> MAD03
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table id="asiapacific-universal-zone" tab-title="Asia Pacific" tab-group="zone" class="simple-tab-table" aria-describedby="tableSummary-9f67e72007d04e137240aed1f921ed69">
+              <caption caption-side="top">
+                MZR universal zone names - Asia Pacific<br>
+                <span class="table-summary" id="tableSummary-9f67e72007d04e137240aed1f921ed69">Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area.</span>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Universal zone name</th>
+                  <th>Data center</th>
+                  <th>PoP</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sydney (<code>au-syd</code>)</td>
+                  <td>au-syd-syd01-a<br> au-syd-syd04-a
+                    <br> au-syd-syd05-a
+                  </td>
+                  <td>SYD01<br> SYD04
+                    <br> SYD05
+                  </td>
+                  <td>MEL02<br> PER01
+                    <br> SYD02
+                    <br> SYD03
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tokyo (<code>jp-tok</code>)</td>
+                  <td>jp-tok-tok02-a<br> jp-tok-tok04-a
+                    <br> jp-tok-tok05-a
+                  </td>
+                  <td>TOK02<br> TOK04
+                    <br> TOK05
+                  </td>
+                  <td>TOK01<br> TOK03
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="note">If you're referencing a region when using the CLI, API, SDK, or Terraform, ensure that you're using the programmatic region name. For example, use <code>us-south</code> to target the Dallas (<code>us-south</code>) region.</p>
+            <p>The following table shows the available physical locations using their universal zone name, associated data centers, and available PoP locations per SC-MZR.</p>
+            <table>
+              <caption caption-side="top">single-campus MZR universal zone name</caption>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Universal zone name</th>
+                  <th>Data center</th>
+                  <th>PoP</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Chennai - Airtel (<code>in-che</code>)</td>
+                  <td>in-che-che02-a<br> in-che-che02-b
+                    <br> in-che-che02-c
+                  </td>
+                  <td>CHE02</td>
+                  <td>CHE03<br> CHE04
+                  </td>
+                </tr>
+                <tr>
+                  <td>Montreal (<code>ca-mon</code>)</td>
+                  <td>ca-mon-mon04-a<br> ca-mon-mon04-b
+                    <br> ca-mon-mon04-c
+                  </td>
+                  <td>MON04</td>
+                  <td>MON02</td>
+                </tr>
+                <tr>
+                  <td>Mumbai - Airtel (<code>in-mum</code>)</td>
+                  <td>in-mum-mum02-a<br> in-mum-mum03-a
+                    <br> in-mum-mum05-a
+                  </td>
+                  <td>MUM02<br> MUM03
+                    <br> MUM05
+                  </td>
+                  <td>MUM01<br> MUM04
+                  </td>
+                </tr>
+                <tr>
+                  <td>Osaka (<code>jp-osa</code>)</td>
+                  <td>jp-osa-osa21-a<br> jp-osa-osa22-a
+                    <br> jp-osa-osa23-a
+                  </td>
+                  <td>OSA21<br> OSA22
+                    <br> OSA23
+                  </td>
+                  <td>OSA01</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </section>
+        <section id="section-filter-location">
+          <h2 id="filter-location">Viewing resources by location</h2>
+          <p>You can view all resources and locations from the Resource list page in the console. If you want to view and work with resources in a specific location, expand the <strong>Location</strong> filter, and select a location from the list. By expanding
+            a specific location, you can select to filter by regions, zones, or individual data centers.</p>
+          <p>Depending on the type of resource, you might be interested in only specific types of location data. For example, if you created a service or VPC infrastructure service, you can filter the Resource list page by the region and zone codes. However,
+            if you're working with classic infrastructure or Power Virtual Server resources, the specific data center codes are the pertinent information for you.</p>
+          <p>For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can set filters to display only those resources in your resource list. Expand the <strong>London</strong> metro option, and the <strong>London (eu-gb)</strong>            region option. Within that region, you can select from the list of available zones, such as <strong>London 2 (eu-gb-2)</strong>.</p>
+          <p>If you have a classic infrastructure resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code. For example, use <strong>Dallas</strong> for the metro location
+            and then <strong>Dallas 10 (dal10)</strong> for the data center.</p>
+          <p>You can also view resources that are deployed in Satellite locations, which are managed by an IBM Cloud metro or region and determines where the master of your Satellite control plane runs. For example, you might have a Satellite location that's
+            managed by the Dallas metro. Expand the <strong>Dallas</strong> metro option, which includes your Satellite location, like <code>my-satellite-dal</code>. For more information about the metros and regions that manage Satellite locations, see
+            <a href="/docs/satellite?topic=satellite-sat-regions">Regions</a>.</p>
+          <p>You might also want to display your resources that are located globally. The <strong>Global</strong> option means that only one logical, globally accessible instance of the service, independent of any region or zone, is published to customer
+            workloads. These types of resources are accessible from a global endpoint.</p>
+          <p>As illustrated in the following graphic, a data center is a physical building that represents a zone that is located within a multizone region (MZR). An MZR is organized by its metro location. For example, London can encompass more than one
+            grouping of data centers within an MZR. The graphic shows three zones in one MZR that work together in the instance that one of the data centers becomes unavailable. Zones are connected directly to each or through low latency links.</p>
+          <p>
+            <figure>
+              <img src="images/dc-geography.svg" alt="A location hierarchy that shows a geography that contains data center buildings inside of zones that are interconnected with points-of-presence within a metro.">
+              <figcaption>Location hierarchy</figcaption>
+            </figure>
+          </p>
+        </section>
+        <section id="section-data-centers">
+          <h2 id="data-centers">Classic infrastructure data centers</h2>
+          <p>In addition to selecting a region for your resource, you can select from a list of the IBM Cloud data centers, if you're working with classic infrastructure or Power Virtual Server resources.</p>
+          <p>Data centers host the power, cooling, compute, network, and storage resources used for services and apps. They don't provide isolation from multizones in a location.</p>
+          <p>Data centers are based on a POD architecture where each data center can have more than one POD, depending on the on-demand build out. Each POD consists of racks, servers, networks, and storage, along with backup power generators. Placing workload
+            servers across PODs improves the availability.</p>
+          <p>See the following table for the specific code for each data center.</p>
+          <table id="americas" tab-title="North and South America" tab-group="dcs" class="simple-tab-table" aria-describedby="tableSummary-436b72d112ecba24a12abb478ffd8191">
+            <caption caption-side="top">
+              Data centers in North and South America<br>
+              <span class="table-summary" id="tableSummary-436b72d112ecba24a12abb478ffd8191">Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area.</span>
+            </caption>
+            <thead>
+              <tr>
+                <th>Data center</th>
+                <th>Code</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dallas 08 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></td>
+                <td>DAL08</td>
+              </tr>
+              <tr>
+                <td>Dallas 09</td>
+                <td>DAL09</td>
+              </tr>
+              <tr>
+                <td>Dallas 10</td>
+                <td>DAL10</td>
+              </tr>
+              <tr>
+                <td>Dallas 12</td>
+                <td>DAL12</td>
+              </tr>
+              <tr>
+                <td>Dallas 13</td>
+                <td>DAL13</td>
+              </tr>
+              <tr>
+                <td>Dallas 14</td>
+                <td>DAL14</td>
+              </tr>
+              <tr>
+                <td>Montreal 01</td>
+                <td>MON01</td>
+              </tr>
+              <tr>
+                <td>San Jose 03</td>
+                <td>SJC03</td>
+              </tr>
+              <tr>
+                <td>San Jose 04</td>
+                <td>SJC04</td>
+              </tr>
+              <tr>
+                <td>Sao Paulo 01</td>
+                <td>SAO01</td>
+              </tr>
+              <tr>
+                <td>Sao Paulo 04</td>
+                <td>SAO04</td>
+              </tr>
+              <tr>
+                <td>Sao Paulo 05</td>
+                <td>SAO05</td>
+              </tr>
+              <tr>
+                <td>Toronto 01</td>
+                <td>TOR01</td>
+              </tr>
+              <tr>
+                <td>Toronto 04</td>
+                <td>TOR04</td>
+              </tr>
+              <tr>
+                <td>Toronto 05</td>
+                <td>TOR05</td>
+              </tr>
+              <tr>
+                <td>Washington DC 03 <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></td>
+                <td>WDC03</td>
+              </tr>
+              <tr>
+                <td>Washington DC 04</td>
+                <td>WDC04</td>
+              </tr>
+              <tr>
+                <td>Washington DC 06</td>
+                <td>WDC06</td>
+              </tr>
+              <tr>
+                <td>Washington DC 07</td>
+                <td>WDC07</td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="europe" tab-title="Europe" tab-group="dcs" class="simple-tab-table" aria-describedby="tableSummary-63fdabded824ac56fbfa0b4d8820c749">
+            <caption caption-side="top">
+              Data centers in Europe<br>
+              <span class="table-summary" id="tableSummary-63fdabded824ac56fbfa0b4d8820c749">Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area.</span>
+            </caption>
+            <thead>
+              <tr>
+                <th>Data center</th>
+                <th>Code</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Amsterdam 03</td>
+                <td>AMS03</td>
+              </tr>
+              <tr>
+                <td>Frankfurt 02</td>
+                <td>FRA02</td>
+              </tr>
+              <tr>
+                <td>Frankfurt 04</td>
+                <td>FRA04</td>
+              </tr>
+              <tr>
+                <td>Frankfurt 05</td>
+                <td>FRA05</td>
+              </tr>
+              <tr>
+                <td>London 02</td>
+                <td>LON02</td>
+              </tr>
+              <tr>
+                <td>London 04</td>
+                <td>LON04</td>
+              </tr>
+              <tr>
+                <td>London 05</td>
+                <td>LON05</td>
+              </tr>
+              <tr>
+                <td>London 06</td>
+                <td>LON06</td>
+              </tr>
+              <tr>
+                <td>Madrid 02</td>
+                <td>MAD02</td>
+              </tr>
+              <tr>
+                <td>Madrid 04</td>
+                <td>MAD04</td>
+              </tr>
+              <tr>
+                <td>Madrid 05</td>
+                <td>MAD05</td>
+              </tr>
+              <tr>
+                <td>Paris 01</td>
+                <td>PAR01</td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="asiapacific" tab-title="Asia Pacific" tab-group="dcs" class="simple-tab-table" aria-describedby="tableSummary-05610cb8aa9e4cf4aa56d72bd3e484b3">
+            <caption caption-side="top">
+              Data centers in Asia Pacific<br>
+              <span class="table-summary" id="tableSummary-05610cb8aa9e4cf4aa56d72bd3e484b3">Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area.</span>
+            </caption>
+            <thead>
+              <tr>
+                <th>Data center</th>
+                <th>Code</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Chennai 01</td>
+                <td>CHE01</td>
+              </tr>
+              <tr>
+                <td>Osaka 21</td>
+                <td>OSA21</td>
+              </tr>
+              <tr>
+                <td>Osaka 22</td>
+                <td>OSA22</td>
+              </tr>
+              <tr>
+                <td>Osaka 23</td>
+                <td>OSA23</td>
+              </tr>
+              <tr>
+                <td>Singapore 01</td>
+                <td>SNG01</td>
+              </tr>
+              <tr>
+                <td>Sydney 01</td>
+                <td>SYD01</td>
+              </tr>
+              <tr>
+                <td>Sydney 04</td>
+                <td>SYD04</td>
+              </tr>
+              <tr>
+                <td>Sydney 05</td>
+                <td>SYD05</td>
+              </tr>
+              <tr>
+                <td>Tokyo 02</td>
+                <td>TOK02</td>
+              </tr>
+              <tr>
+                <td>Tokyo 04</td>
+                <td>TOK04</td>
+              </tr>
+              <tr>
+                <td>Tokyo 05</td>
+                <td>TOK05</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="note">The table includes certain data centers that are set to close soon. For the list of data centers that are closing, see <a href="/docs/support?topic=support-dc-closure">Data center closures</a>.</p>
+          <hr class="footnotes-sep">
+          <section class="footnotes">
+            <ol class="footnotes-list">
+              <li id="fn1" class="footnote-item">
+                <p>IBM Cloud for Government <a href="https://www.ibm.com/products/cloud/government">Learn more</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+              </li>
+              <li id="fn2" class="footnote-item">
+                <p>IBM Cloud for Government <a href="https://www.ibm.com/products/cloud/government">Learn more</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+              </li>
+            </ol>
+          </section>
+        </section>
+      </section>
+    </article>
+  </main>
+<script type="text/javascript"  src="/wRlq9FH-K3/VIpF/6WcU7D/iJDEhX8QhpGVLSXY/Fl0XSl4/HXkqYywA/Z1IB"></script></body>
+</html></div></body></html>

@@ -1,0 +1,38 @@
+{
+  "ai_object_storage_zone_count": 25,
+  "availability_zone_count": 56,
+  "coordinate_methods": {
+    "unknown": 63
+  },
+  "dedicated_access_zone_count": 38,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/coreweave/regions-and-zones.20260805.csv",
+      "path": "data/coreweave/regions-and-zones.20260805.csv",
+      "source": "data/coreweave/regions-and-zones.20260805.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 56,
+    "super_region": 7
+  },
+  "general_access_zone_count": 18,
+  "generated_files": [
+    "data/coreweave/regions-and-zones.20260805.geojson"
+  ],
+  "geometry_null": 63,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 63
+  },
+  "parser": "update_hyperscalers.py:coreweave",
+  "product_matrix_zone_count": 18,
+  "raw_source_ref": "data/raw/coreweave/all-availability-zones.20260805.md",
+  "record_count": 63,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "326e02236a32f00a03960f8d5a9c92cf29918ac10d613989d4fcce6e79c5cf36",
+  "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones.md",
+  "super_region_count": 7
+}

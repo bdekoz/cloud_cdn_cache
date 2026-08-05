@@ -25,7 +25,7 @@
         "location_precision": "city",
         "metro": "Lagos",
         "name": "Nigeria (Lagos)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:af-south-1",
         "properties": {
           "geography": "Nigeria",
           "network_border_group": "af-south-1-los-1",
@@ -75,7 +75,7 @@
         "location_precision": "city",
         "metro": "Taipei",
         "name": "Taiwan (Taipei)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-northeast-1",
         "properties": {
           "geography": "Taiwan",
           "network_border_group": "ap-northeast-1-tpe-1",
@@ -125,7 +125,7 @@
         "location_precision": "city",
         "metro": "Kolkata",
         "name": "India (Kolkata)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-south-1",
         "properties": {
           "geography": "India",
           "network_border_group": "ap-south-1-ccu-1",
@@ -175,7 +175,7 @@
         "location_precision": "city",
         "metro": "Delhi",
         "name": "India (Delhi)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-south-1",
         "properties": {
           "geography": "India",
           "network_border_group": "ap-south-1-del-1",
@@ -225,7 +225,7 @@
         "location_precision": "city",
         "metro": "Bangkok",
         "name": "Thailand (Bangkok)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-southeast-1",
         "properties": {
           "geography": "Thailand",
           "network_border_group": "ap-southeast-1-bkk-1",
@@ -275,7 +275,7 @@
         "location_precision": "city",
         "metro": "Hanoi",
         "name": "Vietnam (Hanoi)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-southeast-1",
         "properties": {
           "geography": "Vietnam",
           "network_border_group": "ap-southeast-1-han-1",
@@ -325,7 +325,7 @@
         "location_precision": "city",
         "metro": "Manila",
         "name": "Philippines (Manila)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-southeast-1",
         "properties": {
           "geography": "Philippines",
           "network_border_group": "ap-southeast-1-mnl-1",
@@ -375,7 +375,7 @@
         "location_precision": "city",
         "metro": "Auckland",
         "name": "New Zealand (Auckland)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-southeast-2",
         "properties": {
           "geography": "New Zealand",
           "network_border_group": "ap-southeast-2-akl-1",
@@ -425,7 +425,7 @@
         "location_precision": "city",
         "metro": "Perth",
         "name": "Australia (Perth)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:ap-southeast-2",
         "properties": {
           "geography": "Australia",
           "network_border_group": "ap-southeast-2-per-1",
@@ -475,7 +475,7 @@
         "location_precision": "city",
         "metro": "Athens",
         "name": "Greece (Athens)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:eu-central-1",
         "properties": {
           "geography": "Greece",
           "network_border_group": "eu-central-1-ath-1",
@@ -525,7 +525,7 @@
         "location_precision": "city",
         "metro": "Hamburg",
         "name": "Germany (Hamburg)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:eu-central-1",
         "properties": {
           "geography": "Germany",
           "network_border_group": "eu-central-1-ham-1",
@@ -569,7 +569,7 @@
         "location_precision": "city",
         "metro": "Istanbul",
         "name": "Turkey (Istanbul)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:eu-central-1",
         "properties": {
           "geography": "Turkey",
           "network_border_group": "eu-central-1-ist-1",
@@ -619,7 +619,7 @@
         "location_precision": "city",
         "metro": "Warsaw",
         "name": "Poland (Warsaw)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:eu-central-1",
         "properties": {
           "geography": "Poland",
           "network_border_group": "eu-central-1-waw-1",
@@ -669,7 +669,7 @@
         "location_precision": "city",
         "metro": "Copenhagen",
         "name": "Denmark (Copenhagen)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:eu-north-1",
         "properties": {
           "geography": "Denmark",
           "network_border_group": "eu-north-1-cph-1",
@@ -719,7 +719,7 @@
         "location_precision": "city",
         "metro": "Helsinki",
         "name": "Finland (Helsinki)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:eu-north-1",
         "properties": {
           "geography": "Finland",
           "network_border_group": "eu-north-1-hel-1",
@@ -769,7 +769,7 @@
         "location_precision": "city",
         "metro": "Muscat",
         "name": "Oman (Muscat)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:me-south-1",
         "properties": {
           "geography": "Oman",
           "network_border_group": "me-south-1-mct-1",
@@ -819,7 +819,7 @@
         "location_precision": "city",
         "metro": "Atlanta",
         "name": "US East (Atlanta)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Georgia, United States of America",
           "network_border_group": "us-east-1-atl-1",
@@ -869,7 +869,7 @@
         "location_precision": "city",
         "metro": "Atlanta",
         "name": "US East (Atlanta) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Georgia, United States of America",
           "network_border_group": "us-east-1-atl-2",
@@ -919,7 +919,7 @@
         "location_precision": "city",
         "metro": "Boston",
         "name": "US East (Boston)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Massachusetts, United States of America",
           "network_border_group": "us-east-1-bos-1",
@@ -969,7 +969,7 @@
         "location_precision": "city",
         "metro": "Buenos Aires",
         "name": "Argentina (Buenos Aires)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Argentina",
           "network_border_group": "us-east-1-bue-1",
@@ -1019,7 +1019,7 @@
         "location_precision": "city",
         "metro": "Chicago",
         "name": "US East (Chicago)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Illinois, United States of America",
           "network_border_group": "us-east-1-chi-1",
@@ -1069,7 +1069,7 @@
         "location_precision": "city",
         "metro": "Chicago",
         "name": "US East (Chicago) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Illinois, United States of America",
           "network_border_group": "us-east-1-chi-2",
@@ -1119,7 +1119,7 @@
         "location_precision": "city",
         "metro": "Dallas",
         "name": "US East (Dallas)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Texas, United States of America",
           "network_border_group": "us-east-1-dfw-1",
@@ -1169,7 +1169,7 @@
         "location_precision": "city",
         "metro": "Dallas",
         "name": "US East (Dallas) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Texas, United States of America",
           "network_border_group": "us-east-1-dfw-2",
@@ -1219,7 +1219,7 @@
         "location_precision": "city",
         "metro": "Houston",
         "name": "US East (Houston)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Texas, United States of America",
           "network_border_group": "us-east-1-iah-1",
@@ -1269,7 +1269,7 @@
         "location_precision": "city",
         "metro": "Houston",
         "name": "US East (Houston) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Texas, United States of America",
           "network_border_group": "us-east-1-iah-2",
@@ -1319,7 +1319,7 @@
         "location_precision": "city",
         "metro": "Lima",
         "name": "Peru (Lima)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Peru",
           "network_border_group": "us-east-1-lim-1",
@@ -1369,7 +1369,7 @@
         "location_precision": "city",
         "metro": "Kansas City",
         "name": "US East (Kansas City) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Missouri, United States of America",
           "network_border_group": "us-east-1-mci-1",
@@ -1419,7 +1419,7 @@
         "location_precision": "city",
         "metro": "Miami",
         "name": "US East (Miami)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Florida, United States of America",
           "network_border_group": "us-east-1-mia-1",
@@ -1469,7 +1469,7 @@
         "location_precision": "city",
         "metro": "Miami",
         "name": "US East (Miami) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Florida, United States of America",
           "network_border_group": "us-east-1-mia-2",
@@ -1519,7 +1519,7 @@
         "location_precision": "city",
         "metro": "Minneapolis",
         "name": "US East (Minneapolis)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Minnesota, United States of America",
           "network_border_group": "us-east-1-msp-1",
@@ -1563,7 +1563,7 @@
         "location_precision": "city",
         "metro": "New York City",
         "name": "US East (New York City)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "New Jersey, United States of America",
           "network_border_group": "us-east-1-nyc-1",
@@ -1607,7 +1607,7 @@
         "location_precision": "city",
         "metro": "New York City",
         "name": "US East (New York City) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "New Jersey, United States of America",
           "network_border_group": "us-east-1-nyc-2",
@@ -1657,7 +1657,7 @@
         "location_precision": "city",
         "metro": "Philadelphia",
         "name": "US East (Philadelphia)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Pennsylvania, United States of America",
           "network_border_group": "us-east-1-phl-1",
@@ -1707,7 +1707,7 @@
         "location_precision": "city",
         "metro": "Querétaro",
         "name": "México (Querétaro)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Mexico",
           "network_border_group": "us-east-1-qro-1",
@@ -1757,7 +1757,7 @@
         "location_precision": "city",
         "metro": "Santiago",
         "name": "Chile (Santiago)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-east-1",
         "properties": {
           "geography": "Chile",
           "network_border_group": "us-east-1-scl-1",
@@ -1807,7 +1807,7 @@
         "location_precision": "city",
         "metro": "Denver",
         "name": "US West (Denver)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "Colorado, United States of America",
           "network_border_group": "us-west-2-den-1",
@@ -1851,7 +1851,7 @@
         "location_precision": "city",
         "metro": "Honolulu",
         "name": "US West (Honolulu)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "Hawaii, United States of America",
           "network_border_group": "us-west-2-hnl-1",
@@ -1901,7 +1901,7 @@
         "location_precision": "city",
         "metro": "Las Vegas",
         "name": "US West (Las Vegas)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "Nevada, United States of America",
           "network_border_group": "us-west-2-las-1",
@@ -1951,7 +1951,7 @@
         "location_precision": "city",
         "metro": "Los Angeles",
         "name": "US West (Los Angeles)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "California, United States of America",
           "network_border_group": "us-west-2-lax-1",
@@ -2001,7 +2001,7 @@
         "location_precision": "city",
         "metro": "Los Angeles",
         "name": "US West (Los Angeles)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "California, United States of America",
           "network_border_group": "us-west-2-lax-1",
@@ -2051,7 +2051,7 @@
         "location_precision": "city",
         "metro": "Portland",
         "name": "US West (Portland)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "Oregon, United States of America",
           "network_border_group": "us-west-2-pdx-1",
@@ -2101,7 +2101,7 @@
         "location_precision": "city",
         "metro": "Phoenix",
         "name": "US West (Phoenix)*",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "Arizona, United States of America",
           "network_border_group": "us-west-2-phx-1",
@@ -2151,7 +2151,7 @@
         "location_precision": "city",
         "metro": "Phoenix",
         "name": "US West (Phoenix) 2",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "Arizona, United States of America",
           "network_border_group": "us-west-2-phx-2",
@@ -2201,7 +2201,7 @@
         "location_precision": "city",
         "metro": "Seattle",
         "name": "US West (Seattle)",
-        "parent_record_id": null,
+        "parent_record_id": "aws:cloud_region:us-west-2",
         "properties": {
           "geography": "Washington, United States of America",
           "network_border_group": "us-west-2-sea-1",

@@ -1,0 +1,1655 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Sturgeon County",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Sturgeon County",
+        "name": "Sturgeon County",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2026,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/meta-sturgeon-data-centre-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "CA$13 billion+ investment 202 6 break ground ~ 3,000 skilled trade workers on site at peak construction ~ 300 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/SturgeonDataCentre"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:ca-canada-sturgeon-county",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "ca-canada-sturgeon-county",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Odense",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Denmark",
+        "country_code": "DK",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Odense",
+        "name": "Odense",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2017,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/odense-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "10 billion+ DKK investment 2017 break ground 1,500 skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "http://facebook.com/OdenseDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:dk-denmark-odense",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "dk-denmark-odense",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Clonee",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Ireland",
+        "country_code": "IE",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Clonee",
+        "name": "Clonee",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2016,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/clonee-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "€1.4 billion investment 201 6 break ground 1,500 skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "http://facebook.com/CloneeDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:ie-ireland-clonee",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "ie-ireland-clonee",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Luleå",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Sweden",
+        "country_code": "SE",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Luleå",
+        "name": "Luleå",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2011,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/lulea-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "8.7 billion+ SEK investment 201 1 break ground Hundreds of skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "http://facebook.com/LuleaDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:se-sweden-lulea",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "se-sweden-lulea",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Singapore",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Singapore",
+        "country_code": "SG",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Singapore",
+        "name": "Singapore",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2018,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/singapore-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "S$1.4 billion+ investment 2018 break ground 3,000 trade workers on site at peak construction 100+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/SingaporeDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:sg-singapore-singapore",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "sg-singapore-singapore",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Huntsville",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Huntsville",
+        "name": "Huntsville",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2018,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/huntsville-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.5 billion + investment 2018 break ground 1,200 skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/HuntsvilleDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-alabama-huntsville",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-alabama-huntsville",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Alabama"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Montgomery",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Montgomery",
+        "name": "Montgomery",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2024,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/montgomery-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.5 billion+ investment 202 4 break ground 1,000+ skilled trade workers on site at peak construction 100+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "http://www.facebook.com/MontgomeryDataCenter/"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-alabama-montgomery",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-alabama-montgomery",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Alabama"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Mesa",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Mesa",
+        "name": "Mesa",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2021,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/mesa-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1 billion+ investment 2021 break ground 2,000 skilled trade workers on site at peak construction 200+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/MetaMesaDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-arizona-mesa",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-arizona-mesa",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Arizona"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Stanton Springs",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Stanton Springs",
+        "name": "Stanton Springs",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2018,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/stanton-springs-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.5 billion + investment 2018 break ground 1,300 skilled trade workers on site at peak construction 200+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/StantonSpringsDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-georgia-stanton-springs",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-georgia-stanton-springs",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Georgia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Kuna",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Kuna",
+        "name": "Kuna",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2022,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/kuna-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$800 million+ investment 2022 break ground 1,000 skilled trade workers on site at peak construction ~100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/KunaDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-idaho-kuna",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-idaho-kuna",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Idaho"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "DeKalb",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "DeKalb",
+        "name": "DeKalb",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2020,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/dekalb-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1 billion+ investment 2020 break ground 1,200 skilled trade workers on site at peak construction 200+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/DeKalbDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-illinois-dekalb",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-illinois-dekalb",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Illinois"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Jeffersonville",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Jeffersonville",
+        "name": "Jeffersonville",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2024,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/jeffersonville-data-center/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$800 million+ investment 2024 break ground 1,250 skilled trade workers on site at peak construction ~ 100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/JeffersonvilleDataCenter/"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-indiana-jeffersonville",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-indiana-jeffersonville",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Indiana"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Lebanon",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Lebanon",
+        "name": "Lebanon",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2026,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/meta-lebanon-data-center-info-sheet/%20",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$10 billion+ investment 202 6 break ground 4,000+ skilled trade workers on site at peak construction ~ 300 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/LebanonDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-indiana-lebanon",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-indiana-lebanon",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Indiana"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Altoona",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Altoona",
+        "name": "Altoona",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2013,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/altoona-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$2.5 billion + investment 2013 break ground 1,300 skilled trade workers on site at peak construction 400+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "http://facebook.com/AltoonaDataCenter/"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-iowa-altoona",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-iowa-altoona",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Iowa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Richland Parish",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Richland Parish",
+        "name": "Richland Parish",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2024,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/richland-parish-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$50 billion + investment 20 24 break ground 7,500+ skilled trade workers on site at peak construction 1,000 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "http://facebook.com/RichlandParishDataCenter/"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-louisiana-richland-parish",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-louisiana-richland-parish",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Louisiana"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Rosemount",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Rosemount",
+        "name": "Rosemount",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2024,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/rosemount-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$800 million+ investment 202 4 break ground 1,000 skilled trade workers on site at peak construction ~ 100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/RosemountDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-minnesota-rosemount",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-minnesota-rosemount",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Minnesota"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Kansas City",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Kansas City",
+        "name": "Kansas City",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2022,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/kansas-city-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1 billion+ investment 2022 break ground 1,500 skilled trade workers on site at peak construction 100+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/KansasCityDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-missouri-kansas-city",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-missouri-kansas-city",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Missouri"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Sarpy",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Sarpy",
+        "name": "Sarpy",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2017,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/sarpy-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$2.5 billion+ investment 2017 break ground 1,300 skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/SarpyDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-nebraska-sarpy",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-nebraska-sarpy",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Nebraska"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Los Lunas",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Los Lunas",
+        "name": "Los Lunas",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2016,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/los-lunas/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$2.5 billion+ investment 2016 break ground 1,100 skilled trade workers on site at peak construction 400+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/LosLunasDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-new-mexico-los-lunas",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-new-mexico-los-lunas",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "New Mexico"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Forest City",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Forest City",
+        "name": "Forest City",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2010,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/forest-city-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$750 million+ investment 2010 break ground Hundreds of skilled trade workers on site at peak construction 275+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/ForestCityDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-north-carolina-forest-city",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-north-carolina-forest-city",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "North Carolina"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Bowling Green",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Bowling Green",
+        "name": "Bowling Green",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2025,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/bowling-green-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$800 million+ investment 202 5 break ground 1,000+ skilled trade workers on site at peak construction ~100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/BowlingGreenDataCenter/"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-ohio-bowling-green",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-ohio-bowling-green",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Ohio"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "New Albany",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "New Albany",
+        "name": "New Albany",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2017,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/new-albany-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.5 billion + investment 2017 break ground 1,200 skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/NewAlbanyDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-ohio-new-albany",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-ohio-new-albany",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Ohio"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Tulsa",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Tulsa",
+        "name": "Tulsa",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2026,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/meta-tulsa-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1 billion + investment 20 26 break ground 1,000 skilled trade workers on site at peak construction ~100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/TulsaDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-oklahoma-tulsa",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-oklahoma-tulsa",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Oklahoma"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Prineville",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Prineville",
+        "name": "Prineville",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2010,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/prineville-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$2 billion+ investment 2010 break ground 1,000 skilled trade workers on site at peak construction 350+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/PrinevilleDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-oregon-prineville",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-oregon-prineville",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Oregon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Aiken",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Aiken",
+        "name": "Aiken",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2024,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/aiken-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$800 million+ investment 2024 break ground 1,200+ skilled trade workers on site at peak construction ~100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/AikenDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-south-carolina-aiken",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-south-carolina-aiken",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "South Carolina"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Gallatin",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Gallatin",
+        "name": "Gallatin",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2020,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/gallatin-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.5 billion + investment 2020 break ground 1,100 skilled trade workers on site at peak construction 100+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/GallatinDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-tennessee-gallatin",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-tennessee-gallatin",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Tennessee"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "El Paso",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "El Paso",
+        "name": "El Paso",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2025,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/el-paso-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$10 billion+ investment 2025 break ground 4,000+ skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/ElPasoDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-texas-el-paso",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-texas-el-paso",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Texas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Fort Worth",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Fort Worth",
+        "name": "Fort Worth",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2015,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/fort-worth-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.5 billion+ investment 2015 break ground 1,200 skilled trade workers on site at peak construction 200+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/FortWorthDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-texas-fort-worth",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-texas-fort-worth",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Texas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Temple",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Temple",
+        "name": "Temple",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2022,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/temple-data-center-one-pager/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.2 billion investment 2022 break ground 1,200 skilled trade workers on site at peak construction ~100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/TempleDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-texas-temple",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-texas-temple",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Texas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Eagle Mountain",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Eagle Mountain",
+        "name": "Eagle Mountain",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2018,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/eagle-mountain-data-center-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1.5 billion+ investment 2018 break ground 1,200 skilled trade workers on site at peak construction 300+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/EagleMountainDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-utah-eagle-mountain",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-utah-eagle-mountain",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Utah"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Henrico",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Henrico",
+        "name": "Henrico",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2017,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/henrico-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1 billion+ investment 2017 break ground 1,500 skilled trade workers on site at peak construction 200+ operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/HenricoDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-virginia-henrico",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-virginia-henrico",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Virginia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Beaver Dam",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Beaver Dam",
+        "name": "Beaver Dam",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2025,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/beaver-dam-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$1 billion+ investment 202 5 break ground 1,000+ skilled trade workers on site at peak construction 100 + operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/BeaverDamDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-wisconsin-beaver-dam",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-wisconsin-beaver-dam",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Wisconsin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": "Cheyenne",
+        "confidence": "medium",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-05",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-08-05",
+        "lifecycle_status": "unknown",
+        "location_precision": "campus",
+        "metro": "Cheyenne",
+        "name": "Cheyenne",
+        "parent_record_id": null,
+        "properties": {
+          "break_ground_year": 2024,
+          "directory_detail_url": "https://datacenters.atmeta.com/asset/cheyenne-data-center-info-sheet/",
+          "directory_scope": "meta_data_center_location",
+          "directory_summary": "$800 million+ investment 2024 break ground 1,000+ skilled trade workers on site at peak construction ~100 operational jobs supported once completed",
+          "lifecycle_not_inferred_from_break_ground_year": true,
+          "social_urls": [
+            "https://www.facebook.com/CheyenneDataCenter"
+          ]
+        },
+        "provider": "Meta",
+        "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+        "record_id": "meta:data_center:us-wyoming-cheyenne",
+        "retrieved_at": "2026-08-05",
+        "schema_version": "1.2.0",
+        "service": "meta_data_centers",
+        "service_scope": [
+          "owned_data_center"
+        ],
+        "site_code": null,
+        "source_collection": "meta_data_center_directory",
+        "source_published_at": null,
+        "source_record_id": "us-wyoming-cheyenne",
+        "source_scope": "provider_declared",
+        "source_sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+        "source_url": "https://datacenters.atmeta.com/all-locations/",
+        "subdivision": "Wyoming"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

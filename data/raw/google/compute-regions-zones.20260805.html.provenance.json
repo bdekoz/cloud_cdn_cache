@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/google/compute-regions-zones.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "9bde263c31dc807f16750752bc3f822fcc9bc2523ba9c0942ad80b0ecd8c278e",
+  "source_published_at": null,
+  "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones"
+}
