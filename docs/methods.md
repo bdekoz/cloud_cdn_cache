@@ -2,7 +2,7 @@
 
 Date: 2026-08-04
 
-This document explains the assessment, recovery, schema evolution, provider refreshes, mainland-China cloud work, separate edge/CDN track, and separate colocation track. The immutable baseline is [`assessment.20260804.md`](assessment.20260804.md); the implemented result is recorded in [`reassessment.md`](reassessment.md).
+This document explains the assessment, recovery, schema evolution, provider refreshes, hyperscaler coverage review, mainland-China cloud work, separate edge/CDN track, and separate colocation track. The immutable baseline is [`assessment.20260804.md`](assessment.20260804.md); the implemented result is recorded in [`reassessment.md`](reassessment.md).
 
 The central rule is to preserve what a source actually establishes—including its unit, jurisdiction, product scope, uncertainty, and omissions—rather than force every provider into a visually complete point layer.
 
@@ -101,6 +101,18 @@ An update fails closed when a required table, stable ID, parent relationship, or
 | Tencent Cloud | Region and zone tables | Sales restriction and dedicated specialized products are separate from lifecycle | Legacy regional centroid when matched |
 
 Minimal source repairs remain explicit: a concatenated Portugal/Romania CloudFront paragraph, a Nashville count missing an opening parenthesis, and several source spellings retained as aliases. No missing asset is invented to reconcile a page heading.
+
+## Hyperscaler coverage track
+
+The detailed [`hyperscalers.20260804.md`](hyperscalers.20260804.md) review uses a coverage-priority cohort rather than claiming an exact revenue or capacity ranking: AWS, Microsoft Azure, Google Cloud, Oracle Cloud Infrastructure, Alibaba Cloud, Tencent Cloud, Huawei Cloud, IBM Cloud, Meta, and CoreWeave. Cloud regions, availability zones, owned data centers, edge POPs, embedded caches, and observation records remain separate units.
+
+The audit classifies Alibaba and Tencent as strong core region/zone layers; Huawei as a partial, product-scoped core layer; AWS, Microsoft, Google, and Meta as adjacent-only coverage; and Oracle, IBM, and CoreWeave as absent from canonical data. Existing CloudFront, Local Zone, Front Door, Google Edge, Google data-center, Meta FNA, and ASN records are useful evidence, but none substitutes for the missing public-cloud hierarchy.
+
+The generation method starts from stable provider identity and parent relationships, then adds access, lifecycle, realm, jurisdiction, and product-availability properties. AWS uses stable AZ IDs rather than account-mapped letters; Azure remains region-only until a globally meaningful physical-zone identity is available; Google uses provider region and zone IDs; OCI initially remains region-only because availability-domain names are tenancy-specific; IBM uses universal zone names rather than account-logical labels; and CoreWeave preserves General versus Dedicated Access. Meta's owned-and-operated directory is a facility layer, not a cloud-region layer.
+
+Current official directories could support roughly 660 additional hierarchy or site records after connector-specific identity and source-structure gates, plus a separately counted 42-code IBM classic data-center layer. CoreWeave is the recommended first connector because its official directory itemizes 56 AZ rows, access class, and service availability. AWS, Google, Azure, and OCI follow as the missing global public-cloud anchors; IBM and Meta remain separate zone/facility tracks; Alibaba, Tencent, and Huawei receive product and lifecycle enrichment without redefining their stable IDs.
+
+Coordinates are deliberately downstream of membership. A provider locality label can support jurisdiction and a physical-location string, but geometry remains null unless the source supplies coordinates or a separately reviewed centroid layer is requested. Machine-readable APIs are checked weekly, provider documentation and product matrices monthly, and facility lifecycle quarterly or on announced changes. Every refresh retains raw evidence and produces semantic diffs for IDs, parents, access, lifecycle, realm, product availability, and source-count discrepancies.
 
 ## Mainland-China public-cloud track
 
@@ -231,7 +243,7 @@ python3 -B scripts/build_manifest.py --retrieved-at 2026-08-04
 make csv
 ```
 
-`make csv` uses `scripts/geojson-to-csv.jq` to generate every CSV target recorded in the dated manifest. A single target can be generated without materializing the rest, for example `make data/google/edge.20260804.csv`. The outputs are ignored by Git and can be deleted at any time; rerunning the rule reproduces the former checked-in CSVs byte-for-byte. This policy does not apply to raw source, recovery, or historical CSVs.
+`make csv` uses `scripts/geojson-to-csv.jq` to generate every CSV target recorded in the dated manifest. A single target can be generated without materializing the rest, for example `make data/google/edge.20260804.csv`. The outputs are ignored by Git and can be deleted at any time; rerunning the rule reproduces the former checked-in CSVs byte-for-byte. This policy does not apply to raw source, recovery, or historical CSVs. See [`make.md`](make.md) for the complete command reference, cleanup behavior, and troubleshooting.
 
 Use `--fetch` only when intentionally taking new snapshots. Suggested starting cadence is weekly for APIs, monthly for documentation and product directories, quarterly for filings and independent measurements, and event-driven for announced launches or retirements. Every refresh should produce a semantic diff of IDs, parents, jurisdictions, access state, lifecycle, source structure, and aggregate discrepancies before publication.
 

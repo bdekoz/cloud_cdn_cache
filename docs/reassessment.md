@@ -53,6 +53,12 @@ Canonical normalized layers are retained as GeoJSON only. CSV is a lossless on-d
 
 These counts describe unlike entities and must not be presented as a physical-site total. Null geometry is intentional missing evidence. A regional centroid does not imply facility precision.
 
+## Hyperscaler coverage follow-on
+
+The separate [`hyperscalers.20260804.md`](hyperscalers.20260804.md) assessment reviews AWS, Microsoft Azure, Google Cloud, Oracle Cloud Infrastructure, Alibaba Cloud, Tencent Cloud, Huawei Cloud, IBM Cloud, Meta, and CoreWeave as a coverage-priority cohort. It finds two strong core region/zone layers, one partial product-scoped layer, four providers with adjacent infrastructure only, and three providers absent from canonical data.
+
+That report proposes roughly 660 candidate hierarchy or site records, subject to provider-specific identity and source gates, plus a separate 42-code IBM classic data-center layer. CoreWeave is the first recommended implementation because its provider directory exposes itemized AZ identity, access class, and product availability. This is planned work and is not included in the canonical counts above.
+
 ## Mainland-China public-cloud assessment
 
 The ten-provider cohort combines established market leaders with coverage-priority providers. It is not an assertion of exact rank from one through ten. The structured result is [`data/china/provider-assessment.20260804.json`](../data/china/provider-assessment.20260804.json).

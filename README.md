@@ -40,8 +40,10 @@ The repository's original dataset is published under the [Open Data Commons Attr
 - `archive/` contains superseded historical snapshots.
 - `schema/` contains the canonical location contract and field semantics.
 - `scripts/` contains deterministic recovery and provider-update tools; `tests/` validates their checked-in outputs.
-- `docs/` contains the coverage assessment and recovery notes.
+- `docs/` contains coverage assessments, methods, recovery notes, and operator guidance.
 - [`docs/methods.md`](docs/methods.md) documents source selection, refinement rules, coordinate policy, parsing exceptions, observation limits, quarantine, and reproducibility.
+- [`docs/hyperscalers.20260804.md`](docs/hyperscalers.20260804.md) assesses core-cloud coverage for a ten-provider hyperscaler cohort and proposes a staged enrichment plan.
+- [`docs/make.md`](docs/make.md) documents CSV generation, cleanup, validation, refresh usage, and troubleshooting.
 
 The 2024 Meta FNA source fields and the reconstructable 2023 Netflix OCA hostnames have been recovered. See [the recovery record](docs/recovery.20260804.md) for provenance, confidence levels, limitations, and regeneration commands.
 
@@ -49,8 +51,10 @@ Google Edge and owned data centers are now separate normalized layers. See [the 
 
 Cloudflare, Azure Front Door, AWS CloudFront and Local Zones, Fastly, CacheFly, Alibaba, Tencent, Baidu, Huawei, Volcano, Kingsoft, JD, Tianyi, and the partial Chindata directory have normalized refreshes dated 2026-08-04. Google Edge and owned data centers remain distinct options. China Mobile and China Unicom are explicit public-cloud source gaps; China edge/CDN marketing aggregates and the GDS/VNET portfolio totals remain assessments rather than speculative points. The June 2026 ASN observation layer adds Google, Netflix, Meta, Akamai, Microsoft, Apple, and CloudFront evidence without conflating observations with physical locations. See the immutable [baseline assessment](docs/assessment.20260804.md), the implemented [reassessment](docs/reassessment.md), and [methods](docs/methods.md).
 
+The separate [hyperscaler assessment](docs/hyperscalers.20260804.md) finds broad core region-and-zone coverage only for Alibaba and Tencent, partial product-scoped coverage for Huawei, adjacent-only coverage for AWS, Microsoft, Google, and Meta, and no canonical Oracle, IBM, or CoreWeave layer. It proposes stable provider identity and hierarchy work before coordinate enrichment.
+
 The refinement pipeline uses provider-approved, licensed, public filing/tender, and reproducible measurement evidence. Unauthorized or leaked inventories are not used to fill gaps; source and authorization rules are documented in [methods](docs/methods.md).
 
-To generate every normalized CSV projection, run `make csv`. To generate one file, name it directly, for example `make data/google/edge.20260804.csv`. Column order comes from the schema, and arrays or objects are emitted as compact JSON. These generated files are ignored by Git. Raw source CSVs, recovered outputs, and historical CSVs remain retained because they contain evidence or fields that cannot necessarily be reconstructed from canonical GeoJSON.
+To generate every normalized CSV projection, run `make csv`. To generate one file, name it directly, for example `make data/google/edge.20260804.csv`. Column order comes from the schema, and arrays or objects are emitted as compact JSON. These generated files are ignored by Git. Raw source CSVs, recovered outputs, and historical CSVs remain retained because they contain evidence or fields that cannot necessarily be reconstructed from canonical GeoJSON. See [Make usage](docs/make.md) for cleanup, validation, refresh, and troubleshooting details.
 
 I am grateful to [Mozilla](https://mozilla.com) for affording me the time to produce this map. Any errors are of course my own responsibility.
