@@ -5,7 +5,8 @@ With the aim of creating a more comprehensive picture of global cloud and CDN in
 - [Cloudflare's Global Network](https://www.cloudflare.com/en-gb/network/)
 - [Amazon Global Edge Network](https://aws.amazon.com/cloudfront/features/)
 - [Microsoft Edge Locations](https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region)
-- [Google Datacentre/PoP/GGC Locations](https://peering.google.com/static/js/site/modules/pages/infrastructure.html)
+- [Google Edge Network and GGC Locations](https://peering.google.com/static/js/site/modules/pages/infrastructure.html)
+- [Google Owned Data Center Locations](https://datacenters.google/locations/)
 - [Fastly PoPs](https://www.fastly.com/network-map/)
 - [Facebook (now Meta) Network Appliances](https://anuragbhatia.com/post/2024/05/facebook-fna-update-2024-and-backbone-analysis/)
 - [Akamai](https://www.akamai.com/why-akamai)
@@ -25,12 +26,16 @@ All data licensed under the [Open Data Commons Attribution License (ODC-By) v1.0
 ## Repository layout
 
 - `data/` contains the current provider snapshots.
+- `data/google/` contains schema-normalized Google Edge and Google Data Center layers.
 - `data/raw/` contains immutable upstream snapshots used for reproducible recovery.
 - `data/recovered/` contains derived records that restore discarded identity and network fields. The original provider snapshots remain unchanged.
 - `archive/` contains superseded historical snapshots.
-- `scripts/` contains deterministic recovery tools, and `tests/validate_recovery.py` validates their checked-in outputs.
+- `schema/` contains the canonical location contract and field semantics.
+- `scripts/` contains deterministic recovery and provider-update tools; `tests/` validates their checked-in outputs.
 - `docs/` contains the coverage assessment and recovery notes.
 
 The 2024 Meta FNA source fields and the reconstructable 2023 Netflix OCA hostnames have been recovered. See [the recovery record](docs/recovery.20260804.md) for provenance, confidence levels, limitations, and regeneration commands.
+
+Google Edge and owned data centers are now separate normalized layers. See [the Google layer record](docs/google-layers.20260804.md) for source semantics, updater options, null-geometry handling, and validation commands.
 
 I am grateful to [Mozilla](https://mozilla.com) for affording me the time to produce this map. Any errors are of course my own responsibility.

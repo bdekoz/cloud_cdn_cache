@@ -1,0 +1,18 @@
+{
+  "dataset": "Google owned and operated data-center directory",
+  "raw_file": "data/raw/google/data-centers-directory.20260804.html",
+  "raw_bytes": 158819,
+  "raw_sha256": "87d69319ab73ff6798c6ffca17e195cfb01be624a6dd4c821000a8bdc43a0f2a",
+  "retrieved_at": "2026-08-04",
+  "source_published_at": null,
+  "source_url": "https://datacenters.google/locations/",
+  "source_scope": "provider_declared",
+  "source_counts": {
+    "locations": 59,
+    "in_development": 27,
+    "not_marked_in_development": 32,
+    "locations_with_coordinates": 12
+  },
+  "semantics": "The directory describes locations Google says it owns and operates. The source marks development status explicitly but supplies coordinates for only a subset of entries.",
+  "license_status": "No standalone redistribution license is stated in the source snapshot; verify terms before republishing."
+}

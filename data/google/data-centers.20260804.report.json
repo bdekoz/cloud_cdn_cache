@@ -1,0 +1,26 @@
+{
+  "dataset": "google_data_centers",
+  "schema_version": "1.0.0",
+  "retrieved_at": "2026-08-04",
+  "record_count": 59,
+  "records_with_coordinates": 12,
+  "records_without_coordinates": 47,
+  "lifecycle_status_counts": {
+    "in_development": 27,
+    "operational": 32
+  },
+  "raw_source_ref": "data/raw/google/data-centers-directory.20260804.html",
+  "raw_source_sha256": "87d69319ab73ff6798c6ffca17e195cfb01be624a6dd4c821000a8bdc43a0f2a",
+  "csv_file": "data/google/data-centers.20260804.csv",
+  "csv_sha256": "1393e32be82f5622b86a39925e7334aa1bf60b36b24df2076b540e7cd49f50b9",
+  "geojson_file": "data/google/data-centers.20260804.geojson",
+  "geojson_sha256": "c0db4d0eb977b00343b5cc1015ace645a51c1abad72f7d6e317393ede5a80d4b",
+  "previous_normalized_record_count": 0,
+  "added_record_ids": [],
+  "removed_record_ids": [],
+  "legacy_comparison": {
+    "legacy_peering_map_data_center_count": 24,
+    "current_owned_data_center_directory_count": 59,
+    "semantic_note": "The legacy count came from the peering infrastructure map. The new directory has a broader owned-location scope and must not be treated as a row-for-row replacement."
+  }
+}

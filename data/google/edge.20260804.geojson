@@ -1,0 +1,3002 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "1.0.0",
+    "provider": "Google",
+    "service": "google_edge",
+    "retrieved_at": "2026-08-04",
+    "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:melbourne-au",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:melbourne-au",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Melbourne, Australia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Melbourne",
+        "metro": "Melbourne",
+        "subdivision": null,
+        "country": "Australia",
+        "country_code": "AU",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 0,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8388386,
+          -37.6690123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:phoenix-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:phoenix-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Phoenix, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Phoenix",
+        "metro": "Phoenix",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 1,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.03523,
+          33.4339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:montreal-ca",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:montreal-ca",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Montreal, Canada",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Laval (administrative region)",
+        "metro": "Montreal",
+        "subdivision": null,
+        "country": "Canada",
+        "country_code": "CA",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 2,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.73,
+          45.558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:amsterdam-nl",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:amsterdam-nl",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Amsterdam, Netherlands",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Amsterdam",
+        "metro": "Amsterdam",
+        "subdivision": null,
+        "country": "Netherlands",
+        "country_code": "NL",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 3,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.895,
+          52.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:ashburn-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:ashburn-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Ashburn, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Ashburn",
+        "metro": "Ashburn",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 4,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.487,
+          39.044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:atlanta-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:atlanta-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Atlanta, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Atlanta",
+        "metro": "Atlanta",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 5,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.388,
+          33.749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:budapest-hu",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:budapest-hu",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Budapest, Hungary",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Budapest",
+        "metro": "Budapest",
+        "subdivision": null,
+        "country": "Hungary",
+        "country_code": "HU",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 6,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.04,
+          47.498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:buenos-aires-ar",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:buenos-aires-ar",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Buenos Aires, Argentina",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Buenos Aires",
+        "metro": "Buenos Aires",
+        "subdivision": null,
+        "country": "Argentina",
+        "country_code": "AR",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 7,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.382,
+          -34.604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:chennai-in",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:chennai-in",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Chennai, India",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Chennai",
+        "metro": "Chennai",
+        "subdivision": null,
+        "country": "India",
+        "country_code": "IN",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 8,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.251,
+          13.052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:chicago-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:chicago-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Chicago, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Chicago",
+        "metro": "Chicago",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 9,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.63,
+          41.878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:dallas-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:dallas-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Dallas, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Dallas",
+        "metro": "Dallas",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 10,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:denver-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:denver-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Denver, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Denver",
+        "metro": "Denver",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 11,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.985,
+          39.738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:dublin-ie",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:dublin-ie",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Dublin, Ireland",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Dublin",
+        "metro": "Dublin",
+        "subdivision": null,
+        "country": "Ireland",
+        "country_code": "IE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 12,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.26,
+          53.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:frankfurt-de",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:frankfurt-de",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Frankfurt, Germany",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Frankfurt",
+        "metro": "Frankfurt",
+        "subdivision": null,
+        "country": "Germany",
+        "country_code": "DE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 13,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.682,
+          50.111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:fujairah-ae",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:fujairah-ae",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Fujairah, United Arab Emirates",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Fujairah",
+        "metro": "Fujairah",
+        "subdivision": null,
+        "country": "United Arab Emirates",
+        "country_code": "AE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 14,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.353,
+          25.117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:hamburg-de",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:hamburg-de",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Hamburg, Germany",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Hamburg",
+        "metro": "Hamburg",
+        "subdivision": null,
+        "country": "Germany",
+        "country_code": "DE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 15,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.994,
+          53.551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:hong-kong-hk",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:hong-kong-hk",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Hong Kong",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Hong Kong",
+        "metro": "Hong Kong",
+        "subdivision": null,
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 16,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.109,
+          22.396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:johannesburg-za",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:johannesburg-za",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Johannesburg, South Africa",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Johannesburg",
+        "metro": "Johannesburg",
+        "subdivision": null,
+        "country": "South Africa",
+        "country_code": "ZA",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 17,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.047,
+          -26.204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:kyiv-ua",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:kyiv-ua",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Kyiv, Ukraine",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Kyiv",
+        "metro": "Kyiv",
+        "subdivision": null,
+        "country": "Ukraine",
+        "country_code": "UA",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 18,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.523,
+          50.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:kuala-lumpur-my",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:kuala-lumpur-my",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Kuala Lumpur, Malaysia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Kuala Lumpur",
+        "metro": "Kuala Lumpur",
+        "subdivision": null,
+        "country": "Malaysia",
+        "country_code": "MY",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 19,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.687,
+          3.139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:lagos-ng",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:lagos-ng",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Lagos, Nigeria",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Lagos",
+        "metro": "Lagos",
+        "subdivision": null,
+        "country": "Nigeria",
+        "country_code": "NG",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 20,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.379,
+          6.524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:lisbon-pt",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:lisbon-pt",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Lisbon, Portugal",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Lisbon",
+        "metro": "Lisbon",
+        "subdivision": null,
+        "country": "Portugal",
+        "country_code": "PT",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 21,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.139,
+          38.722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:london-gb",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:london-gb",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "London, United Kingdom",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "London",
+        "metro": "London",
+        "subdivision": null,
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 22,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.125,
+          51.509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:los-angeles-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:los-angeles-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Los Angeles, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Los Angeles",
+        "metro": "Los Angeles",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 23,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.244,
+          34.052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:madrid-es",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:madrid-es",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Madrid, Spain",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Madrid",
+        "metro": "Madrid",
+        "subdivision": null,
+        "country": "Spain",
+        "country_code": "ES",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 24,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.704,
+          40.417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:marseille-fr",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:marseille-fr",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Marseille, France",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Marseille",
+        "metro": "Marseille",
+        "subdivision": null,
+        "country": "France",
+        "country_code": "FR",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 25,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.37,
+          43.296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:mexico-city-mx",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:mexico-city-mx",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Mexico City, Mexico",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Mexico City",
+        "metro": "Mexico City",
+        "subdivision": null,
+        "country": "Mexico",
+        "country_code": "MX",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 26,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.133,
+          19.433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:miami-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:miami-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Miami, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Miami",
+        "metro": "Miami",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 27,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.204,
+          25.789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:milan-it",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:milan-it",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Milan, Italy",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Milan",
+        "metro": "Milan",
+        "subdivision": null,
+        "country": "Italy",
+        "country_code": "IT",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 28,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.187,
+          45.465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:mombasa-ke",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:mombasa-ke",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Mombasa, Kenya",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Mombasa",
+        "metro": "Mombasa",
+        "subdivision": null,
+        "country": "Kenya",
+        "country_code": "KE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 29,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.668,
+          -4.043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:moscow-ru",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:moscow-ru",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Moscow, Russia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Moscow",
+        "metro": "Moscow",
+        "subdivision": null,
+        "country": "Russia",
+        "country_code": "RU",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 30,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.617,
+          55.756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:mumbai-in",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:mumbai-in",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Mumbai, India",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Mumbai",
+        "metro": "Mumbai",
+        "subdivision": null,
+        "country": "India",
+        "country_code": "IN",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 31,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.878,
+          19.076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:munich-de",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:munich-de",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Munich, Germany",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Munich",
+        "metro": "Munich",
+        "subdivision": null,
+        "country": "Germany",
+        "country_code": "DE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 32,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.582,
+          48.135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:muscat-om",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:muscat-om",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Muscat, Oman",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Muscat",
+        "metro": "Muscat",
+        "subdivision": null,
+        "country": "Oman",
+        "country_code": "OM",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 33,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.54,
+          23.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:delhi-in",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:delhi-in",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Delhi, India",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Delhi",
+        "metro": "Delhi",
+        "subdivision": null,
+        "country": "India",
+        "country_code": "IN",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 34,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.225,
+          28.635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:new-york-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:new-york-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "New York, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "New York",
+        "metro": "New York",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 35,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978,
+          40.706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:osaka-jp",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:osaka-jp",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Osaka, Japan",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Osaka",
+        "metro": "Osaka",
+        "subdivision": null,
+        "country": "Japan",
+        "country_code": "JP",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 36,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.502,
+          34.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:palo-alto-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:palo-alto-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Palo Alto, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Palo Alto",
+        "metro": "Palo Alto",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 37,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143,
+          37.442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:paris-fr",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:paris-fr",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Paris, France",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Paris",
+        "metro": "Paris",
+        "subdivision": null,
+        "country": "France",
+        "country_code": "FR",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 38,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.352,
+          48.857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:prague-cz",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:prague-cz",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Prague, Czechia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Prague",
+        "metro": "Prague",
+        "subdivision": null,
+        "country": "Czechia",
+        "country_code": "CZ",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 39,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.438,
+          50.076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:rio-de-janeiro-br",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:rio-de-janeiro-br",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Rio de Janeiro, Brazil",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Rio de Janeiro",
+        "metro": "Rio de Janeiro",
+        "subdivision": null,
+        "country": "Brazil",
+        "country_code": "BR",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 40,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.197,
+          -22.908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:saint-petersburg-ru",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:saint-petersburg-ru",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Saint Petersburg, Russia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Saint Petersburg",
+        "metro": "Saint Petersburg",
+        "subdivision": null,
+        "country": "Russia",
+        "country_code": "RU",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 41,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.335,
+          59.934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:san-jose-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:san-jose-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "San Jose, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "San Jose",
+        "metro": "San Jose",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 42,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.895,
+          37.339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:santiago-cl",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:santiago-cl",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Santiago, Chile",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Santiago",
+        "metro": "Santiago",
+        "subdivision": null,
+        "country": "Chile",
+        "country_code": "CL",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 43,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.642,
+          -33.469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:sao-paulo-br",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:sao-paulo-br",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "São Paulo, Brazil",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "São Paulo",
+        "metro": "São Paulo",
+        "subdivision": null,
+        "country": "Brazil",
+        "country_code": "BR",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 44,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.633,
+          -23.551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:seattle-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:seattle-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Seattle, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Seattle",
+        "metro": "Seattle",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 45,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332,
+          47.606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:singapore-sg",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:singapore-sg",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Singapore",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Singapore",
+        "metro": "Singapore",
+        "subdivision": null,
+        "country": "Singapore",
+        "country_code": "SG",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 46,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851,
+          1.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:sofia-bg",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:sofia-bg",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Sofia, Bulgaria",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Sofia",
+        "metro": "Sofia",
+        "subdivision": null,
+        "country": "Bulgaria",
+        "country_code": "BG",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 47,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.322,
+          42.698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:stockholm-se",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:stockholm-se",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Stockholm, Sweden",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Stockholm",
+        "metro": "Stockholm",
+        "subdivision": null,
+        "country": "Sweden",
+        "country_code": "SE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 48,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.065,
+          59.329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:sydney-au",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:sydney-au",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Sydney, Australia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Sydney",
+        "metro": "Sydney",
+        "subdivision": null,
+        "country": "Australia",
+        "country_code": "AU",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 49,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207,
+          -33.867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:taipei-tw",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:taipei-tw",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Taipei, Taiwan",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Taipei",
+        "metro": "Taipei",
+        "subdivision": null,
+        "country": "Taiwan",
+        "country_code": "TW",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 50,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56,
+          25.091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:shinjuku-jp",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:shinjuku-jp",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Shinjuku, Japan",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Shinjuku",
+        "metro": "Shinjuku",
+        "subdivision": null,
+        "country": "Japan",
+        "country_code": "JP",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 51,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.692,
+          35.689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:toronto-ca",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:toronto-ca",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Toronto, Canada",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Toronto",
+        "metro": "Toronto",
+        "subdivision": null,
+        "country": "Canada",
+        "country_code": "CA",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 52,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.383,
+          43.653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:zurich-ch",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:zurich-ch",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Zurich, Switzerland",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Zurich",
+        "metro": "Zurich",
+        "subdivision": null,
+        "country": "Switzerland",
+        "country_code": "CH",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 53,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.539,
+          47.369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:bogota-co",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:bogota-co",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Bogota, Colombia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Bogota",
+        "metro": "Bogota",
+        "subdivision": null,
+        "country": "Colombia",
+        "country_code": "CO",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 54,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.076,
+          4.598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:warsaw-pl",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:warsaw-pl",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Warsaw, Poland",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Warsaw",
+        "metro": "Warsaw",
+        "subdivision": null,
+        "country": "Poland",
+        "country_code": "PL",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 55,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.004,
+          52.227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:brussels-be",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:brussels-be",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Brussels, Belgium",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Brussels",
+        "metro": "Brussels",
+        "subdivision": null,
+        "country": "Belgium",
+        "country_code": "BE",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 56,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.34878,
+          50.85045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:doha-qa",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:doha-qa",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Doha, Qatar",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Doha",
+        "metro": "Doha",
+        "subdivision": null,
+        "country": "Qatar",
+        "country_code": "QA",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 57,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.534817,
+          25.286106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:helsinki-fi",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:helsinki-fi",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Helsinki, Finland",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Helsinki",
+        "metro": "Helsinki",
+        "subdivision": null,
+        "country": "Finland",
+        "country_code": "FI",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 58,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.945831,
+          60.192059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:jakarta-id",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:jakarta-id",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Jakarta, Indonesia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Jakarta",
+        "metro": "Jakarta",
+        "subdivision": null,
+        "country": "Indonesia",
+        "country_code": "ID",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 59,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.816666,
+          -6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:manila-ph",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:manila-ph",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Manila, Philippines",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Manila",
+        "metro": "Manila",
+        "subdivision": null,
+        "country": "Philippines",
+        "country_code": "PH",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 60,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.984222,
+          14.599512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:salt-lake-city-us",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:salt-lake-city-us",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Salt Lake City, United States",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Salt Lake City",
+        "metro": "Salt Lake City",
+        "subdivision": null,
+        "country": "United States",
+        "country_code": "US",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 61,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.876183,
+          40.758701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:seoul-kr",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:seoul-kr",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Seoul, South Korea",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Seoul",
+        "metro": "Seoul",
+        "subdivision": null,
+        "country": "South Korea",
+        "country_code": "KR",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 62,
+          "label_method": "legacy_coordinate_match",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.024612,
+          37.5326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:tel-aviv-il",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:tel-aviv-il",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Tel Aviv, Israel",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Herzliya",
+        "metro": "Tel Aviv",
+        "subdivision": null,
+        "country": "Israel",
+        "country_code": "IL",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 63,
+          "label_method": "legacy_coordinate_match_with_curated_normalization",
+          "label_source_ref": "data/Google_GGC_01-12-2023.csv"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.843311,
+          32.166313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "google:edge_pop:dammam-sa",
+      "properties": {
+        "schema_version": "1.0.0",
+        "record_id": "google:edge_pop:dammam-sa",
+        "aliases": [],
+        "provider": "Google",
+        "service": "google_edge",
+        "entity_type": "edge_pop",
+        "source_collection": "google_peering_infrastructure",
+        "source_record_id": null,
+        "name": "Dammam, Saudi Arabia",
+        "site_code": null,
+        "lifecycle_status": "operational",
+        "source_scope": "provider_declared",
+        "city": "Dammam",
+        "metro": "Dammam",
+        "subdivision": null,
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "location_precision": "metro",
+        "coordinate_method": "provider",
+        "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+        "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
+        "source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+        "source_published_at": null,
+        "retrieved_at": "2026-08-04",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "confidence": "medium",
+        "properties": {
+          "representation": "metro_with_one_or_more_edge_pops",
+          "provider_coordinate_index": 64,
+          "label_method": "curated_coordinate_match",
+          "label_source_ref": null
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.797085,
+          26.474211
+        ]
+      }
+    }
+  ]
+}

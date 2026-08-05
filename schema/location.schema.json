@@ -1,0 +1,270 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/stevesong/cloud_cdn_cache/blob/main/schema/location.schema.json",
+  "title": "Canonical CDN and cloud infrastructure location",
+  "description": "A provider-declared or independently observed infrastructure location before CSV or GeoJSON serialization.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "aliases",
+    "provider",
+    "service",
+    "entity_type",
+    "source_collection",
+    "source_record_id",
+    "name",
+    "site_code",
+    "lifecycle_status",
+    "source_scope",
+    "city",
+    "metro",
+    "subdivision",
+    "country",
+    "country_code",
+    "latitude",
+    "longitude",
+    "location_precision",
+    "coordinate_method",
+    "source_url",
+    "raw_source_ref",
+    "source_sha256",
+    "source_published_at",
+    "retrieved_at",
+    "first_seen",
+    "last_seen",
+    "confidence",
+    "properties"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?::[a-z0-9][a-z0-9._-]*){2,}$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "service": {
+      "enum": [
+        "google_edge",
+        "google_data_centers",
+        "google_global_cache"
+      ]
+    },
+    "entity_type": {
+      "enum": [
+        "edge_pop",
+        "data_center",
+        "embedded_cache"
+      ]
+    },
+    "source_collection": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_]*$"
+    },
+    "source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "site_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "lifecycle_status": {
+      "enum": [
+        "operational",
+        "in_development",
+        "planned",
+        "unknown"
+      ]
+    },
+    "source_scope": {
+      "enum": [
+        "provider_declared",
+        "observed",
+        "inferred"
+      ]
+    },
+    "city": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "metro": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "subdivision": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "country": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "country_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Z]{2}$"
+    },
+    "latitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -90,
+      "maximum": 90
+    },
+    "longitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -180,
+      "maximum": 180
+    },
+    "location_precision": {
+      "enum": [
+        "facility",
+        "campus",
+        "metro",
+        "city",
+        "region",
+        "unknown"
+      ]
+    },
+    "coordinate_method": {
+      "enum": [
+        "provider",
+        "geocoded",
+        "legacy",
+        "unknown"
+      ]
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "raw_source_ref": {
+      "type": "string",
+      "pattern": "^data/raw/"
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "source_published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "first_seen": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_seen": {
+      "type": "string",
+      "format": "date"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "properties": {
+      "type": "object"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "latitude": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "longitude": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "longitude": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "longitude": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "latitude": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "latitude": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  ]
+}
