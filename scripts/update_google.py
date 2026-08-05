@@ -643,18 +643,26 @@ def build_data_center_records(
 
 def load_previous_records(
     output_dir: Path, prefix: str, current_path: Path
-) -> dict[str, dict[str, str]]:
+) -> dict[str, dict[str, Any]]:
     candidates = sorted(
-        path for path in output_dir.glob(f"{prefix}.*.csv") if path != current_path
+        (
+            path
+            for path in output_dir.glob(f"{prefix}.*.geojson")
+            if path != current_path
+        ),
+        reverse=True,
     )
-    if not candidates:
-        return {}
-    with candidates[-1].open(newline="", encoding="utf-8-sig") as handle:
-        return {row["record_id"]: row for row in csv.DictReader(handle)}
+    for candidate in candidates:
+        collection = json.loads(candidate.read_text(encoding="utf-8"))
+        return {
+            feature["properties"]["record_id"]: feature["properties"]
+            for feature in collection.get("features", [])
+        }
+    return {}
 
 
 def inherit_history(
-    records: list[dict[str, Any]], previous: dict[str, dict[str, str]]
+    records: list[dict[str, Any]], previous: dict[str, dict[str, Any]]
 ) -> tuple[list[str], list[str]]:
     current_ids = {record["record_id"] for record in records}
     for record in records:
@@ -685,23 +693,6 @@ def validate_records(
             raise ValueError(f"Schema validation failed at record {index}: {details}")
         if record["first_seen"] > record["last_seen"]:
             raise ValueError(f"first_seen exceeds last_seen for {record['record_id']}")
-
-
-def csv_value(value: Any) -> Any:
-    if value is None:
-        return ""
-    if isinstance(value, (dict, list)):
-        return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
-    return value
-
-
-def write_csv(path: Path, records: list[dict[str, Any]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=CANONICAL_FIELDS, lineterminator="\n")
-        writer.writeheader()
-        for record in records:
-            writer.writerow({field: csv_value(record[field]) for field in CANONICAL_FIELDS})
 
 
 def write_geojson(
@@ -766,10 +757,9 @@ def write_layer(
     csv_path = output_dir / f"{prefix}.{tag}.csv"
     geojson_path = output_dir / f"{prefix}.{tag}.geojson"
     report_path = output_dir / f"{prefix}.{tag}.report.json"
-    previous = load_previous_records(output_dir, prefix, csv_path)
+    previous = load_previous_records(output_dir, prefix, geojson_path)
     added_ids, removed_ids = inherit_history(records, previous)
     validate_records(records, validator)
-    write_csv(csv_path, records)
     write_geojson(geojson_path, records, service, retrieved_at, source_url)
     write_json(
         report_path,
@@ -789,8 +779,14 @@ def write_layer(
             ),
             "raw_source_ref": repo_ref(raw_source),
             "raw_source_sha256": sha256(raw_source),
-            "csv_file": repo_ref(csv_path),
-            "csv_sha256": sha256(csv_path),
+            "derived_files": {
+                "csv": {
+                    "generator": f"make {repo_ref(csv_path)}",
+                    "path": repo_ref(csv_path),
+                    "source": repo_ref(geojson_path),
+                }
+            },
+            "generated_files": [repo_ref(geojson_path)],
             "geojson_file": repo_ref(geojson_path),
             "geojson_sha256": sha256(geojson_path),
             "previous_normalized_record_count": len(previous),

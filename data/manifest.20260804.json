@@ -20,21 +20,24 @@
       "coordinate_methods": {
         "provider": 65
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/google/edge.20260804.csv",
+          "path": "data/google/edge.20260804.csv",
+          "source": "data/google/edge.20260804.geojson"
+        }
+      },
       "entity_types": {
         "edge_pop": 65
       },
       "files": {
-        "csv": {
-          "path": "data/google/edge.20260804.csv",
-          "sha256": "a08eb2daf44a1ace5af8beea4e5772cdb8443b0e284e513c04dcb369d62e1562"
-        },
         "geojson": {
           "path": "data/google/edge.20260804.geojson",
           "sha256": "75f941f72de0f449abc8a462766d09640b9e52ee3e3645d7d83e3ab3c8355841"
         },
         "report": {
           "path": "data/google/edge.20260804.report.json",
-          "sha256": "2134668e6503d48f5ad304e62acd06fbfe3315debcacb25984bb43401fafabcd"
+          "sha256": "b65df79bd3ee629b1693a0e97413576d7ad1d26e94c9cf5ce71cc256c9f4672a"
         }
       },
       "geometry_null": 0,
@@ -69,21 +72,24 @@
         "provider": 12,
         "unknown": 47
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/google/data-centers.20260804.csv",
+          "path": "data/google/data-centers.20260804.csv",
+          "source": "data/google/data-centers.20260804.geojson"
+        }
+      },
       "entity_types": {
         "data_center": 59
       },
       "files": {
-        "csv": {
-          "path": "data/google/data-centers.20260804.csv",
-          "sha256": "ae02f5232233c403804d5f0d72fa50b94a4edfca05337ac62b533cea7cd8f1bd"
-        },
         "geojson": {
           "path": "data/google/data-centers.20260804.geojson",
           "sha256": "0ee958e568ae74a9964a97744e6e732ba3f0d0902d29975cba92acfaa5906960"
         },
         "report": {
           "path": "data/google/data-centers.20260804.report.json",
-          "sha256": "7aa057631b754b39d0cc178c0c70288949047cce283a9a3158ec7f6b0585289d"
+          "sha256": "5c29c9e8c2e0a1ea400843050e7607d7f186653dfcccf8130ff416eac4939fb2"
         }
       },
       "geometry_null": 47,
@@ -118,21 +124,24 @@
         "legacy": 243,
         "unknown": 95
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/cloudflare/edge.20260804.csv",
+          "path": "data/cloudflare/edge.20260804.csv",
+          "source": "data/cloudflare/edge.20260804.geojson"
+        }
+      },
       "entity_types": {
         "edge_pop": 338
       },
       "files": {
-        "csv": {
-          "path": "data/cloudflare/edge.20260804.csv",
-          "sha256": "12ccc784d9b9993c997c624e465b910e31b906ab1ad16833d6da69679c998f16"
-        },
         "geojson": {
           "path": "data/cloudflare/edge.20260804.geojson",
           "sha256": "d7eb0f6b02b1e706f8da1f32522cc1df50e26bcee7219404da3a0e82764e66b9"
         },
         "report": {
           "path": "data/cloudflare/edge.20260804.report.json",
-          "sha256": "1be4dea51b332e32e2faa7b275828f3daf28a70a1e1ac9d5a73e527e9c7bc246"
+          "sha256": "f70507f188d435e843531d386b32f137ce491c4f972d2a0dea5f47de56610467"
         }
       },
       "geometry_null": 95,
@@ -167,21 +176,24 @@
         "legacy": 104,
         "unknown": 6
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/microsoft/front-door.20260804.csv",
+          "path": "data/microsoft/front-door.20260804.csv",
+          "source": "data/microsoft/front-door.20260804.geojson"
+        }
+      },
       "entity_types": {
         "edge_pop": 110
       },
       "files": {
-        "csv": {
-          "path": "data/microsoft/front-door.20260804.csv",
-          "sha256": "8064e187dd47242f375dfabec2cc93db1f9385f9a2780b9bd3900529b57d4d7d"
-        },
         "geojson": {
           "path": "data/microsoft/front-door.20260804.geojson",
           "sha256": "2dde512afe539af7504a68b4c6683868a5b5749faebe652a5a0900d31514f461"
         },
         "report": {
           "path": "data/microsoft/front-door.20260804.report.json",
-          "sha256": "ccb2886d8a3e7763ec9f8d761d92446060811d0f27aa4bac00b3e17cc6a6a156"
+          "sha256": "1602572ad15b23c112c0868c1777c55261cdaad95cd3beeab77ba8a0f262a984"
         }
       },
       "geometry_null": 6,
@@ -216,21 +228,24 @@
         "legacy": 97,
         "unknown": 31
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/microsoft/front-door-codes.20260804.csv",
+          "path": "data/microsoft/front-door-codes.20260804.csv",
+          "source": "data/microsoft/front-door-codes.20260804.geojson"
+        }
+      },
       "entity_types": {
         "edge_pop": 128
       },
       "files": {
-        "csv": {
-          "path": "data/microsoft/front-door-codes.20260804.csv",
-          "sha256": "466d66bd9fde71984dc4901e5f0e7b29237d385765e08ab80754dcc0e2edcf28"
-        },
         "geojson": {
           "path": "data/microsoft/front-door-codes.20260804.geojson",
           "sha256": "690b507e821f92a0c78a5c0dd3d6dfee916c3278af3c4fef902ecc0f56479289"
         },
         "report": {
           "path": "data/microsoft/front-door-codes.20260804.report.json",
-          "sha256": "a569dfc14563d834a96cbcd9a27255eb1e44515579cf00af88743e11f6f10b67"
+          "sha256": "7fbb6cd9eee1e61de2fe194a926bd65699bbb6ef83667a9e7c46b26cc830b910"
         }
       },
       "geometry_null": 31,
@@ -265,21 +280,24 @@
         "legacy": 56,
         "unknown": 46
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/aws/cloudfront.20260804.csv",
+          "path": "data/aws/cloudfront.20260804.csv",
+          "source": "data/aws/cloudfront.20260804.geojson"
+        }
+      },
       "entity_types": {
         "edge_pop": 102
       },
       "files": {
-        "csv": {
-          "path": "data/aws/cloudfront.20260804.csv",
-          "sha256": "26d3bbcd981572a12fe2daa4ab557e0c25e5a2cf47e7d2905bb1e12b320c22cc"
-        },
         "geojson": {
           "path": "data/aws/cloudfront.20260804.geojson",
           "sha256": "4f674f2f87598553b56bf7b88cca8b098ec4ed5bb0f6177b8c6eda41fc555dc1"
         },
         "report": {
           "path": "data/aws/cloudfront.20260804.report.json",
-          "sha256": "bf9d7268a80ff21f413c58570c966fb11944af1a1630b980380714631be65934"
+          "sha256": "de423926f8a7996333489f6276055215e32fc39443a110eefc1cde5b437a13fd"
         }
       },
       "geometry_null": 46,
@@ -314,21 +332,24 @@
         "legacy": 41,
         "unknown": 4
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/aws/local-zones.20260804.csv",
+          "path": "data/aws/local-zones.20260804.csv",
+          "source": "data/aws/local-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "local_zone": 45
       },
       "files": {
-        "csv": {
-          "path": "data/aws/local-zones.20260804.csv",
-          "sha256": "f9507cc4c1d6a2bb574dd885b2b4bbc6f5d579d6675de15c0545195ddffe67cb"
-        },
         "geojson": {
           "path": "data/aws/local-zones.20260804.geojson",
           "sha256": "6a6c4c147e0977dcf0035d6b684eca57ce89712f34e1e87ed716bba311c148a5"
         },
         "report": {
           "path": "data/aws/local-zones.20260804.report.json",
-          "sha256": "d15d812c61cd60736d73c9291b8ec20b347129be588bc0dafc8ec84df8a45b4f"
+          "sha256": "c2c4157b2dc6585c75b09e517a0688f18b2673de1ad1a981776b8760a507b3af"
         }
       },
       "geometry_null": 4,
@@ -362,21 +383,24 @@
       "coordinate_methods": {
         "provider": 164
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/fastly/pops.20260804.csv",
+          "path": "data/fastly/pops.20260804.csv",
+          "source": "data/fastly/pops.20260804.geojson"
+        }
+      },
       "entity_types": {
         "edge_pop": 164
       },
       "files": {
-        "csv": {
-          "path": "data/fastly/pops.20260804.csv",
-          "sha256": "4d1eb726f562f9a6c5046b384a1ef273b686ee4979bff1811c66bb5dbd8e4e1d"
-        },
         "geojson": {
           "path": "data/fastly/pops.20260804.geojson",
           "sha256": "d3bd443938952a33fb693197fc5485fdd019d94a624b5278d4b6fa32fe4e450e"
         },
         "report": {
           "path": "data/fastly/pops.20260804.report.json",
-          "sha256": "5ecf5e31e15907249d14d86e71788a5e522f9de76dd9ce8138c41265c77fbd22"
+          "sha256": "94d2f9d78bf9d6e2bc15189651e9ec8c344514322a307e1cb79f9678f6adead4"
         }
       },
       "geometry_null": 0,
@@ -411,21 +435,24 @@
         "legacy": 63,
         "unknown": 24
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/cachefly/locations.20260804.csv",
+          "path": "data/cachefly/locations.20260804.csv",
+          "source": "data/cachefly/locations.20260804.geojson"
+        }
+      },
       "entity_types": {
         "edge_pop": 87
       },
       "files": {
-        "csv": {
-          "path": "data/cachefly/locations.20260804.csv",
-          "sha256": "6841b199f583803059f584905fc7001c43b777f54913e2c81adff5701b7d84e3"
-        },
         "geojson": {
           "path": "data/cachefly/locations.20260804.geojson",
           "sha256": "42f15e987b3d452c608a01d1e62793d02bab76d9f4fb04a0b7bc547037a0b203"
         },
         "report": {
           "path": "data/cachefly/locations.20260804.report.json",
-          "sha256": "99c236ee58f61763ba0177d8239e45f36687028c1cd1c375b7838c75154e741b"
+          "sha256": "0b84ebfb794a5f9119aaf94a05dd2b9664c9f1cd21948a96944818c76f17a8a9"
         }
       },
       "geometry_null": 24,
@@ -460,22 +487,25 @@
         "legacy": 83,
         "unknown": 54
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/alibaba/regions-and-zones.20260804.csv",
+          "path": "data/alibaba/regions-and-zones.20260804.csv",
+          "source": "data/alibaba/regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 105,
         "cloud_region": 32
       },
       "files": {
-        "csv": {
-          "path": "data/alibaba/regions-and-zones.20260804.csv",
-          "sha256": "eac98d4d5bb63c3fed9f6b9d9dc3d5ea0c0a204a968f2d71b4b24172ce492c88"
-        },
         "geojson": {
           "path": "data/alibaba/regions-and-zones.20260804.geojson",
           "sha256": "d8255e4f28efec492801d9deece3e8e3954e5e8350d89945f3f0406d7a56382a"
         },
         "report": {
           "path": "data/alibaba/regions-and-zones.20260804.report.json",
-          "sha256": "39611731c3f9e69fc97b0f3b3621da5b8d5412e3ff61db41f753a62c458250fe"
+          "sha256": "7d72fea38266323a064a62051532b364a2fb04c4b104afdc004478dd4e811c51"
         }
       },
       "geometry_null": 54,
@@ -510,22 +540,25 @@
         "legacy": 75,
         "unknown": 9
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tencent/regions-and-zones.20260804.csv",
+          "path": "data/tencent/regions-and-zones.20260804.csv",
+          "source": "data/tencent/regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 62,
         "cloud_region": 22
       },
       "files": {
-        "csv": {
-          "path": "data/tencent/regions-and-zones.20260804.csv",
-          "sha256": "a96fecad5d7c587934b80907d5d49e4a99582d360551437f5a4e10b88d0a8277"
-        },
         "geojson": {
           "path": "data/tencent/regions-and-zones.20260804.geojson",
           "sha256": "c8d9882e958dfb46b2c5b2dcea2b7e0c8f92a3a2fd5e09fdd975c8a6c68cf363"
         },
         "report": {
           "path": "data/tencent/regions-and-zones.20260804.report.json",
-          "sha256": "997ca8fc73d37a0a3b2f69948804ec091d5fcd8bd1edf9e079b0905328091eb6"
+          "sha256": "77e0a5dec7955d4ea5379cbee6b7f005731c04152f37a0344169c66df416e8c7"
         }
       },
       "geometry_null": 9,
@@ -559,22 +592,25 @@
       "coordinate_methods": {
         "unknown": 27
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/baidu/regions-and-zones.20260804.csv",
+          "path": "data/baidu/regions-and-zones.20260804.csv",
+          "source": "data/baidu/regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 19,
         "cloud_region": 8
       },
       "files": {
-        "csv": {
-          "path": "data/baidu/regions-and-zones.20260804.csv",
-          "sha256": "9b55a02de855e3f4a4bb5520f8deca0b40e86fb8e03c73069dd9d12c93b9a4e4"
-        },
         "geojson": {
           "path": "data/baidu/regions-and-zones.20260804.geojson",
           "sha256": "2bdb72842f3aa5f8d5993f685b54184cb75e51f434f13e79e144b5c2aecb1597"
         },
         "report": {
           "path": "data/baidu/regions-and-zones.20260804.report.json",
-          "sha256": "2611825ea4b857f2bb850eefcba58b1ddf66e55780d511055974a522f5b33796"
+          "sha256": "7caf63b637f507ef01019b3e73701d9d693656e2e4ecf3f35a7b5f39bbc689a6"
         }
       },
       "geometry_null": 27,
@@ -608,21 +644,24 @@
       "coordinate_methods": {
         "unknown": 9
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/huawei/mainland-regions.20260804.csv",
+          "path": "data/huawei/mainland-regions.20260804.csv",
+          "source": "data/huawei/mainland-regions.20260804.geojson"
+        }
+      },
       "entity_types": {
         "cloud_region": 9
       },
       "files": {
-        "csv": {
-          "path": "data/huawei/mainland-regions.20260804.csv",
-          "sha256": "ca9472dc9da16d3265e6b8295527880821d6184bafb430e16a4f789fa638ddf7"
-        },
         "geojson": {
           "path": "data/huawei/mainland-regions.20260804.geojson",
           "sha256": "b26a65f83bd27b338b478f5545a9bc70af8eb3336c3772719cd737833981cecd"
         },
         "report": {
           "path": "data/huawei/mainland-regions.20260804.report.json",
-          "sha256": "accd0542ad7931c91d0b34f67a86ccbc379cbbca3419cd86788b6f6863f1b8e4"
+          "sha256": "b36aaa44b0a4208735c9bfca2bf7968464adf3aed770800529f0bf1a329de8ff"
         }
       },
       "geometry_null": 9,
@@ -656,22 +695,25 @@
       "coordinate_methods": {
         "unknown": 17
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/volcano/regions-and-zones.20260804.csv",
+          "path": "data/volcano/regions-and-zones.20260804.csv",
+          "source": "data/volcano/regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 13,
         "cloud_region": 4
       },
       "files": {
-        "csv": {
-          "path": "data/volcano/regions-and-zones.20260804.csv",
-          "sha256": "28fcad79a405f62a171c44bffbf0c882b05c60b58cc89091aee09c07eb1e23e1"
-        },
         "geojson": {
           "path": "data/volcano/regions-and-zones.20260804.geojson",
           "sha256": "075e65d2bd782541c95670eb9e46c3f2f2e9290d14a741b86922e4dfc6ce3fe5"
         },
         "report": {
           "path": "data/volcano/regions-and-zones.20260804.report.json",
-          "sha256": "58139acc313c37628b232d8a107e67cdc010f40105eb14e9cd7f69e1eb6eccb7"
+          "sha256": "6d4d35a48adc02ddb20d212cdca18b705a6e53811e4081152803be001e1a18cb"
         }
       },
       "geometry_null": 17,
@@ -705,22 +747,25 @@
       "coordinate_methods": {
         "unknown": 22
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/kingsoft/mainland-regions-and-zones.20260804.csv",
+          "path": "data/kingsoft/mainland-regions-and-zones.20260804.csv",
+          "source": "data/kingsoft/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 14,
         "cloud_region": 8
       },
       "files": {
-        "csv": {
-          "path": "data/kingsoft/mainland-regions-and-zones.20260804.csv",
-          "sha256": "f09e210060dc6d99b092fe14e29814f2d39bfeb98dd1e5edd870ab53aae635ec"
-        },
         "geojson": {
           "path": "data/kingsoft/mainland-regions-and-zones.20260804.geojson",
           "sha256": "db876f1d7e8e7714d5cc1e13091e2fd0ec10284e7e8f441994bc87568a7746d4"
         },
         "report": {
           "path": "data/kingsoft/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "640df50ef247aeed08c0f865d278a8a1a0c4fb5ecf7adc23e545ed2fc45ac4a0"
+          "sha256": "90a623e9667201c07b36622afafcaaefae256081815d0283231e1162e89ce07f"
         }
       },
       "geometry_null": 22,
@@ -754,22 +799,25 @@
       "coordinate_methods": {
         "unknown": 14
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/jd/mainland-regions-and-zones.20260804.csv",
+          "path": "data/jd/mainland-regions-and-zones.20260804.csv",
+          "source": "data/jd/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 10,
         "cloud_region": 4
       },
       "files": {
-        "csv": {
-          "path": "data/jd/mainland-regions-and-zones.20260804.csv",
-          "sha256": "c273d826fe72a06a783c979f9fd33ed5691d880f55562246a2e2287fbecd0798"
-        },
         "geojson": {
           "path": "data/jd/mainland-regions-and-zones.20260804.geojson",
           "sha256": "3c57272c974f01aaf297aafacd065d7631f1fdfb118540a1b5a6ee4b09d820ef"
         },
         "report": {
           "path": "data/jd/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "db590e0fc913966cce1914435da4fb1fc924441ba96b0b42a0cde1858ec8c141"
+          "sha256": "9ad184bab4162e554714d7973593d4c19b3d197f0c9de2acde8a22faa1edb072"
         }
       },
       "geometry_null": 14,
@@ -803,21 +851,24 @@
       "coordinate_methods": {
         "unknown": 63
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tianyi/vpc-resource-pools.20260804.csv",
+          "path": "data/tianyi/vpc-resource-pools.20260804.csv",
+          "source": "data/tianyi/vpc-resource-pools.20260804.geojson"
+        }
+      },
       "entity_types": {
         "cloud_resource_pool": 63
       },
       "files": {
-        "csv": {
-          "path": "data/tianyi/vpc-resource-pools.20260804.csv",
-          "sha256": "c6e0239a2a5cc61c945be8b62109dbfb8410faf663312b750f28e8e4f506bac6"
-        },
         "geojson": {
           "path": "data/tianyi/vpc-resource-pools.20260804.geojson",
           "sha256": "9f2e1538d19e7de792e0b82186074d94fb2c52f3b23a9991630ee7f22839e54f"
         },
         "report": {
           "path": "data/tianyi/vpc-resource-pools.20260804.report.json",
-          "sha256": "4ca57f6a85cc4bd4a43cce6e113b923ea50f2f79a334c3f6b1518c5b45107e28"
+          "sha256": "b0f82d2f2b0a21ff6d682b9c2643918fb3b333f3068ad993b03c031b34fce877"
         }
       },
       "geometry_null": 63,
@@ -851,21 +902,24 @@
       "coordinate_methods": {
         "unknown": 4
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/chindata/data-centers.20260804.csv",
+          "path": "data/chindata/data-centers.20260804.csv",
+          "source": "data/chindata/data-centers.20260804.geojson"
+        }
+      },
       "entity_types": {
         "data_center": 4
       },
       "files": {
-        "csv": {
-          "path": "data/chindata/data-centers.20260804.csv",
-          "sha256": "3c0d22c41397bfcbf4101647f8c3fb09d82088a0c65a5766655a32dfcf725a50"
-        },
         "geojson": {
           "path": "data/chindata/data-centers.20260804.geojson",
           "sha256": "28e320d929ca0523faf459f3f3e30d1c6937900568bba0279d7978253383c4fe"
         },
         "report": {
           "path": "data/chindata/data-centers.20260804.report.json",
-          "sha256": "dbd1b5ce9f2a15cdcc03a881853a69847dc2bccf9a0be9685df6773abca76aef"
+          "sha256": "5d1c595907f5b182b284ae645f5afb8ea1304570b2c6301361d443dbb91346fa"
         }
       },
       "geometry_null": 4,
@@ -899,21 +953,24 @@
       "coordinate_methods": {
         "unknown": 13638
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/observations/cdn-mapping.20260804.csv",
+          "path": "data/observations/cdn-mapping.20260804.csv",
+          "source": "data/observations/cdn-mapping.20260804.geojson"
+        }
+      },
       "entity_types": {
         "observed_presence": 13638
       },
       "files": {
-        "csv": {
-          "path": "data/observations/cdn-mapping.20260804.csv",
-          "sha256": "c23ce9e3fff83e67fdb6de8d984b9850921f9ad915b5c37da022c124148c3e13"
-        },
         "geojson": {
           "path": "data/observations/cdn-mapping.20260804.geojson",
           "sha256": "c867751261bab9baf51dc6f77b828d653ad4a09a7aae092948391502ffdb52e5"
         },
         "report": {
           "path": "data/observations/cdn-mapping.20260804.report.json",
-          "sha256": "a6dd3563e5305e996736366ec28181f9c532d453c7648ce783a4fae6fbdb0bdc"
+          "sha256": "90efbf60656e012139c3bd2267abf29170d79d18086052ebeee40465dbcc8442"
         }
       },
       "geometry_null": 13638,
@@ -1004,22 +1061,25 @@
         "legacy": 49,
         "unknown": 24
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/alibaba/mainland-regions-and-zones.20260804.csv",
+          "path": "data/alibaba/mainland-regions-and-zones.20260804.csv",
+          "source": "data/alibaba/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 60,
         "cloud_region": 13
       },
       "files": {
-        "csv": {
-          "path": "data/alibaba/mainland-regions-and-zones.20260804.csv",
-          "sha256": "73e69a3081d156f83731296d689f19e005d9d0ef2e73946e9c33edd62cca1761"
-        },
         "geojson": {
           "path": "data/alibaba/mainland-regions-and-zones.20260804.geojson",
           "sha256": "1423fdc945c70049dc2da73e2646f5394d8b6f2bc14e0f50b1726bd6c9a7b2b2"
         },
         "report": {
           "path": "data/alibaba/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "a6daffe7bcd64e15cb9c6a3d68609f8b49265c60675fc14c6bfc51d3826a029d"
+          "sha256": "1c1d7bcd2bcaa7c6a0c7eeb2df6b10f7bde890201fcdcdcca9a36779a3086c0f"
         }
       },
       "geometry_null": 24,
@@ -1055,22 +1115,25 @@
         "legacy": 29,
         "unknown": 2
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tencent/mainland-regions-and-zones.20260804.csv",
+          "path": "data/tencent/mainland-regions-and-zones.20260804.csv",
+          "source": "data/tencent/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 24,
         "cloud_region": 7
       },
       "files": {
-        "csv": {
-          "path": "data/tencent/mainland-regions-and-zones.20260804.csv",
-          "sha256": "7ea0214e56002d77e48f5618efc90725b902d48751f643856f0c7ca988de5ad7"
-        },
         "geojson": {
           "path": "data/tencent/mainland-regions-and-zones.20260804.geojson",
           "sha256": "019da1eed59ec47f9f70730fc96af681b0ee3b16cbc612853f9fca222d0c9b6a"
         },
         "report": {
           "path": "data/tencent/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "090bf503d172fe28490bc2b6f368b60203cc294356b45b41dd73350f15d629cf"
+          "sha256": "c4f300ae1495aa5cd10d7c68cc207d12691ca977b86a0d571500f3b1881b7edd"
         }
       },
       "geometry_null": 2,
@@ -1106,22 +1169,25 @@
         "legacy": 13,
         "unknown": 4
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tencent/mainland-specialized-regions-and-zones.20260804.csv",
+          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.csv",
+          "source": "data/tencent/mainland-specialized-regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 13,
         "cloud_region": 4
       },
       "files": {
-        "csv": {
-          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.csv",
-          "sha256": "d8482288bf33d367423c7e4f35a372a7e44c8bfb5845af201ea319bd39e69733"
-        },
         "geojson": {
           "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.geojson",
           "sha256": "195daa19bcff484b64a025ff093c806fad5f30c84d3b06d01f11ac8344a7ece9"
         },
         "report": {
           "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.report.json",
-          "sha256": "0645d19d4b80fe60445f935a1c7b02b029657c1f6c4ca7ba195766c9b3c0182b"
+          "sha256": "96288195dbb2d192b3d4c5d69616ab2971fc0894a095ebc985852b1738d02512"
         }
       },
       "geometry_null": 4,
@@ -1156,22 +1222,25 @@
       "coordinate_methods": {
         "unknown": 25
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/baidu/mainland-regions-and-zones.20260804.csv",
+          "path": "data/baidu/mainland-regions-and-zones.20260804.csv",
+          "source": "data/baidu/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 18,
         "cloud_region": 7
       },
       "files": {
-        "csv": {
-          "path": "data/baidu/mainland-regions-and-zones.20260804.csv",
-          "sha256": "a5355ea950a7f5bcc1ff60e7b7b568a7ddf60bd926178ba85fc467b8195e2e22"
-        },
         "geojson": {
           "path": "data/baidu/mainland-regions-and-zones.20260804.geojson",
           "sha256": "bb667d648662152a3a8322bb64e6ca44c257719d101265a6544eb337f76d130c"
         },
         "report": {
           "path": "data/baidu/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "f12a9a9cec09503fa48978491952380ce47b6f7669aad793a01187acd5c8093d"
+          "sha256": "1f0093135941319c36255966bb377e46bfb763c2bb22bab23fa96027951bc551"
         }
       },
       "geometry_null": 25,
@@ -1206,22 +1275,25 @@
       "coordinate_methods": {
         "unknown": 14
       },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/volcano/mainland-regions-and-zones.20260804.csv",
+          "path": "data/volcano/mainland-regions-and-zones.20260804.csv",
+          "source": "data/volcano/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
       "entity_types": {
         "availability_zone": 11,
         "cloud_region": 3
       },
       "files": {
-        "csv": {
-          "path": "data/volcano/mainland-regions-and-zones.20260804.csv",
-          "sha256": "3b3d4b5fece141f4d318f8c1d31675c753604527c7936cc7b18ab17f1ab3503c"
-        },
         "geojson": {
           "path": "data/volcano/mainland-regions-and-zones.20260804.geojson",
           "sha256": "983fc8a0bcef11dfc98a283511b0f5e8f5a52cfb9eb1d6fb4dfa0f0d200310c1"
         },
         "report": {
           "path": "data/volcano/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "f82755ec2a43713ecc271055b3f2512cb74f1c40feb23d958977e045acba0eb8"
+          "sha256": "451e57640aade30271ac8ac15c2d034ffa381153273f2a9e0e79d0d0d9ee732d"
         }
       },
       "geometry_null": 14,

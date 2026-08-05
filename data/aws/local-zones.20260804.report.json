@@ -4,11 +4,17 @@
     "legacy": 41,
     "unknown": 4
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/aws/local-zones.20260804.csv",
+      "path": "data/aws/local-zones.20260804.csv",
+      "source": "data/aws/local-zones.20260804.geojson"
+    }
+  },
   "entity_types": {
     "local_zone": 45
   },
   "generated_files": [
-    "data/aws/local-zones.20260804.csv",
     "data/aws/local-zones.20260804.geojson"
   ],
   "geometry_null": 4,

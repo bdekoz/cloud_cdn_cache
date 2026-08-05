@@ -6,12 +6,12 @@ Google Edge and Google-owned data centers are represented as separate provider-d
 
 ## Outputs
 
-| Layer | CSV | GeoJSON | Records |
+| Layer | Canonical GeoJSON | Derived CSV target | Records |
 |---|---|---|---:|
-| Google Edge | [`data/google/edge.20260804.csv`](../data/google/edge.20260804.csv) | [`data/google/edge.20260804.geojson`](../data/google/edge.20260804.geojson) | 65 |
-| Google Data Centers | [`data/google/data-centers.20260804.csv`](../data/google/data-centers.20260804.csv) | [`data/google/data-centers.20260804.geojson`](../data/google/data-centers.20260804.geojson) | 59 |
+| Google Edge | [`data/google/edge.20260804.geojson`](../data/google/edge.20260804.geojson) | `data/google/edge.20260804.csv` | 65 |
+| Google Data Centers | [`data/google/data-centers.20260804.geojson`](../data/google/data-centers.20260804.geojson) | `data/google/data-centers.20260804.csv` | 59 |
 
-Each layer has a neighboring `.report.json` containing output checksums, counts, lifecycle summaries, and comparison notes. Canonical records conform to [`schema/location.schema.json`](../schema/location.schema.json). CSV and GeoJSON are generated from the same ordered in-memory records.
+Each layer has a neighboring `.report.json` containing the canonical GeoJSON checksum, counts, lifecycle summaries, comparison notes, and the CSV derivation recipe. Canonical records conform to [`schema/location.schema.json`](../schema/location.schema.json). Generate both CSV projections with `make csv`, or one with `make data/google/edge.20260804.csv`.
 
 ## Google Edge
 
@@ -62,7 +62,7 @@ python3 -B scripts/update_google.py --retrieved-at 2026-08-04 --dataset data-cen
 python3 -B scripts/update_google.py --retrieved-at 2026-08-04 --dataset all
 ```
 
-To capture new official snapshots before normalization, select the desired dataset and add `--fetch`. The retrieval date controls raw and normalized filenames. Existing normalized snapshots are inspected so matching stable IDs can inherit `first_seen`; additions and removals are written to the layer report.
+To capture new official snapshots before normalization, select the desired dataset and add `--fetch`. The retrieval date controls raw and normalized filenames. Existing canonical GeoJSON snapshots are inspected so matching stable IDs can inherit `first_seen`; additions and removals are written to the layer report. Updaters emit GeoJSON and reports only; CSV remains an optional projection.
 
 The updater requires Python 3 and the dependency declared in `requirements.txt`.
 
@@ -79,9 +79,9 @@ Validation covers:
 - JSON Schema 2020-12 conformance
 - Unique stable IDs
 - ISO country codes and coordinate bounds
-- CSV/GeoJSON record parity
+- On-demand CSV/GeoJSON record parity
 - Null-geometry behavior
-- Raw and generated SHA-256 checksums
+- Raw and canonical GeoJSON SHA-256 checksums
 - Edge and lifecycle counts
 - Legacy GGC preservation
 - Independent `edge`, `data-center`, and `all` updater options

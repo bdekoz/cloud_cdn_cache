@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import json
 from collections import Counter
 from datetime import date
@@ -58,17 +57,14 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def optional(value: str) -> str | None:
-    return value or None
-
-
 def layer_manifest(layer: str, tag: str) -> dict[str, Any]:
     base = REPO_ROOT / "data" / f"{layer}.{tag}"
     csv_path = Path(f"{base}.csv")
     geojson_path = Path(f"{base}.geojson")
     report_path = Path(f"{base}.report.json")
-    with csv_path.open(encoding="utf-8", newline="") as handle:
-        rows = list(csv.DictReader(handle))
+    collection = json.loads(geojson_path.read_text(encoding="utf-8"))
+    features = collection["features"]
+    rows = [feature["properties"] for feature in features]
     sources = {}
     for row in rows:
         key = (row["raw_source_ref"], row["source_sha256"], row["source_url"])
@@ -76,17 +72,23 @@ def layer_manifest(layer: str, tag: str) -> dict[str, Any]:
             "raw_source_ref": key[0],
             "sha256": key[1],
             "source_url": key[2],
-            "source_published_at": optional(row["source_published_at"]),
+            "source_published_at": row["source_published_at"],
         }
     return {
         "coordinate_methods": dict(sorted(Counter(row["coordinate_method"] for row in rows).items())),
+        "derived_files": {
+            "csv": {
+                "generator": f"make {repo_ref(csv_path)}",
+                "path": repo_ref(csv_path),
+                "source": repo_ref(geojson_path),
+            }
+        },
         "entity_types": dict(sorted(Counter(row["entity_type"] for row in rows).items())),
         "files": {
-            "csv": {"path": repo_ref(csv_path), "sha256": sha256(csv_path)},
             "geojson": {"path": repo_ref(geojson_path), "sha256": sha256(geojson_path)},
             "report": {"path": repo_ref(report_path), "sha256": sha256(report_path)},
         },
-        "geometry_null": sum(not row["latitude"] for row in rows),
+        "geometry_null": sum(feature["geometry"] is None for feature in features),
         "layer": layer,
         "providers": sorted({row["provider"] for row in rows}),
         "record_count": len(rows),

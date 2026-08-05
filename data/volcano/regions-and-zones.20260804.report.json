@@ -4,12 +4,18 @@
   "coordinate_methods": {
     "unknown": 17
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/volcano/regions-and-zones.20260804.csv",
+      "path": "data/volcano/regions-and-zones.20260804.csv",
+      "source": "data/volcano/regions-and-zones.20260804.geojson"
+    }
+  },
   "entity_types": {
     "availability_zone": 13,
     "cloud_region": 4
   },
   "generated_files": [
-    "data/volcano/regions-and-zones.20260804.csv",
     "data/volcano/regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 17,

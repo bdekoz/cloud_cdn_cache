@@ -3,11 +3,17 @@
     "legacy": 243,
     "unknown": 95
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/cloudflare/edge.20260804.csv",
+      "path": "data/cloudflare/edge.20260804.csv",
+      "source": "data/cloudflare/edge.20260804.geojson"
+    }
+  },
   "entity_types": {
     "edge_pop": 338
   },
   "generated_files": [
-    "data/cloudflare/edge.20260804.csv",
     "data/cloudflare/edge.20260804.geojson"
   ],
   "geographic_group_count": 7,

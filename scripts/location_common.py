@@ -174,19 +174,6 @@ def apply_history(records: list[dict[str, Any]], previous: dict[str, dict[str, A
             record["first_seen"] = earlier["first_seen"]
 
 
-def write_csv(path: Path, records: list[dict[str, Any]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=CANONICAL_FIELDS, lineterminator="\n")
-        writer.writeheader()
-        for record in records:
-            row = dict(record)
-            row["aliases"] = json.dumps(row["aliases"], ensure_ascii=False, separators=(",", ":"))
-            row["service_scope"] = json.dumps(row["service_scope"], ensure_ascii=False, separators=(",", ":"))
-            row["properties"] = json.dumps(row["properties"], ensure_ascii=False, sort_keys=True, separators=(",", ":"))
-            writer.writerow(row)
-
-
 def write_geojson(path: Path, records: list[dict[str, Any]]) -> None:
     features = []
     for record in records:
@@ -220,12 +207,18 @@ def write_layer(
     csv_path = output_dir / f"{layer_name}.{tag}.csv"
     geojson_path = output_dir / f"{layer_name}.{tag}.geojson"
     report_path = output_dir / f"{layer_name}.{tag}.report.json"
-    write_csv(csv_path, records)
     write_geojson(geojson_path, records)
     report: dict[str, Any] = {
         "coordinate_methods": _counts(records, "coordinate_method"),
+        "derived_files": {
+            "csv": {
+                "generator": f"make {repo_ref(csv_path)}",
+                "path": repo_ref(csv_path),
+                "source": repo_ref(geojson_path),
+            }
+        },
         "entity_types": _counts(records, "entity_type"),
-        "generated_files": [repo_ref(csv_path), repo_ref(geojson_path)],
+        "generated_files": [repo_ref(geojson_path)],
         "geometry_null": sum(row["latitude"] is None for row in records),
         "layer": layer_name,
         "lifecycle_statuses": _counts(records, "lifecycle_status"),

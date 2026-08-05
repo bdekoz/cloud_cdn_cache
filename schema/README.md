@@ -1,6 +1,6 @@
 # Canonical location schema
 
-`location.schema.json` defines the normalized record used before serializing a provider layer to CSV and GeoJSON. Version `1.1.0` is provider-neutral: service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes.
+`location.schema.json` defines the normalized record serialized as a provider layer's canonical GeoJSON. Version `1.1.0` is provider-neutral: service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes. CSV is a deterministic projection generated from that GeoJSON on demand.
 
 Version 1.1 adds fields needed to represent Chinese provider catalogs without collapsing unlike products or jurisdictions:
 
@@ -65,7 +65,7 @@ Serialized coordinates are always WGS 84 and use `coordinate_crs=EPSG:4326`. If 
 
 Mainland views are generated as subsets of full provider layers. They reuse canonical IDs and are therefore views, not additional records. Hong Kong is never treated as mainland China merely because a provider groups it on a China-facing documentation page.
 
-For GeoJSON, `[longitude, latitude]` becomes the feature geometry and the remaining canonical fields become feature properties. For CSV, `aliases` and `properties` are encoded as compact JSON values. Both formats are generated from the same ordered canonical record stream.
+For GeoJSON, `[longitude, latitude]` becomes the feature geometry and the remaining canonical fields become feature properties. The GeoJSON is the retained publication artifact. `scripts/geojson-to-csv.jq` reconstructs every required schema field, restores latitude and longitude from point geometry, uses the schema's `required` array for column order, and encodes arrays or objects as compact JSON. Run `make csv` for every normalized layer or name one CSV target directly.
 
 ## Provenance and history
 

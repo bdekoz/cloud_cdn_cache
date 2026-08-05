@@ -4,6 +4,13 @@
     "legacy": 83,
     "unknown": 54
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/alibaba/regions-and-zones.20260804.csv",
+      "path": "data/alibaba/regions-and-zones.20260804.csv",
+      "source": "data/alibaba/regions-and-zones.20260804.geojson"
+    }
+  },
   "entity_types": {
     "availability_zone": 105,
     "cloud_region": 32
@@ -13,7 +20,6 @@
     "government cloud"
   ],
   "generated_files": [
-    "data/alibaba/regions-and-zones.20260804.csv",
     "data/alibaba/regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 54,

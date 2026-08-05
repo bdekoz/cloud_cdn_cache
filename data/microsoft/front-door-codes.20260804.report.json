@@ -4,12 +4,18 @@
     "legacy": 97,
     "unknown": 31
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/front-door-codes.20260804.csv",
+      "path": "data/microsoft/front-door-codes.20260804.csv",
+      "source": "data/microsoft/front-door-codes.20260804.geojson"
+    }
+  },
   "directory_row_count": 128,
   "entity_types": {
     "edge_pop": 128
   },
   "generated_files": [
-    "data/microsoft/front-door-codes.20260804.csv",
     "data/microsoft/front-door-codes.20260804.geojson"
   ],
   "geometry_null": 31,

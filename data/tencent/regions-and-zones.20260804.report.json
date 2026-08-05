@@ -4,12 +4,18 @@
     "legacy": 75,
     "unknown": 9
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/tencent/regions-and-zones.20260804.csv",
+      "path": "data/tencent/regions-and-zones.20260804.csv",
+      "source": "data/tencent/regions-and-zones.20260804.geojson"
+    }
+  },
   "entity_types": {
     "availability_zone": 62,
     "cloud_region": 22
   },
   "generated_files": [
-    "data/tencent/regions-and-zones.20260804.csv",
     "data/tencent/regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 9,

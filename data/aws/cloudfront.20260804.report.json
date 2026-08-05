@@ -3,11 +3,17 @@
     "legacy": 56,
     "unknown": 46
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/aws/cloudfront.20260804.csv",
+      "path": "data/aws/cloudfront.20260804.csv",
+      "source": "data/aws/cloudfront.20260804.geojson"
+    }
+  },
   "entity_types": {
     "edge_pop": 102
   },
   "generated_files": [
-    "data/aws/cloudfront.20260804.csv",
     "data/aws/cloudfront.20260804.geojson"
   ],
   "geometry_null": 46,

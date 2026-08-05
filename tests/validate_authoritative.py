@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import io
 import json
 import subprocess
 import sys
@@ -62,17 +63,49 @@ def canonical_from_feature(feature: dict[str, Any]) -> dict[str, Any]:
     return record
 
 
-def load_csv_coordinates(path: Path) -> dict[str, tuple[float | None, float | None]]:
-    result = {}
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle):
-            assert isinstance(json.loads(row["aliases"]), list)
-            assert isinstance(json.loads(row["service_scope"]), list)
-            assert isinstance(json.loads(row["properties"]), dict)
-            lat = float(row["latitude"]) if row["latitude"] else None
-            lon = float(row["longitude"]) if row["longitude"] else None
-            result[row["record_id"]] = (lat, lon)
-    return result
+def derive_csv_records(path: Path, schema: dict[str, Any]) -> list[dict[str, Any]]:
+    result = subprocess.run(
+        [
+            "jq",
+            "-r",
+            "--slurpfile",
+            "schema",
+            str(ROOT / "schema/location.schema.json"),
+            "-f",
+            str(ROOT / "scripts/geojson-to-csv.jq"),
+            str(path),
+        ],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    reader = csv.DictReader(io.StringIO(result.stdout))
+    assert reader.fieldnames == schema["required"]
+    records = []
+    for row in reader:
+        record: dict[str, Any] = dict(row)
+        for field in ("aliases", "service_scope", "properties"):
+            record[field] = json.loads(row[field])
+        for field in ("latitude", "longitude"):
+            record[field] = float(row[field]) if row[field] else None
+        for field, definition in schema["properties"].items():
+            field_type = definition.get("type")
+            if isinstance(field_type, list) and "null" in field_type and not row[field]:
+                record[field] = None
+        records.append(record)
+    return records
+
+
+def validate_report_outputs(report: dict[str, Any], layer: str) -> None:
+    geojson_path = f"data/{layer}.{TAG}.geojson"
+    csv_path = f"data/{layer}.{TAG}.csv"
+    assert report["generated_files"] == [geojson_path]
+    assert report["derived_files"]["csv"] == {
+        "generator": f"make {csv_path}",
+        "path": csv_path,
+        "source": geojson_path,
+    }
 
 
 def validate_layers() -> None:
@@ -81,11 +114,11 @@ def validate_layers() -> None:
     all_ids: set[str] = set()
     services: set[str] = set()
     for layer, expected_count in LAYERS.items():
-        csv_path = ROOT / "data" / f"{layer}.{TAG}.csv"
         geojson_path = ROOT / "data" / f"{layer}.{TAG}.geojson"
         report_path = ROOT / "data" / f"{layer}.{TAG}.report.json"
         payload = json.loads(geojson_path.read_text(encoding="utf-8"))
         report = json.loads(report_path.read_text(encoding="utf-8"))
+        validate_report_outputs(report, layer)
         records = [canonical_from_feature(feature) for feature in payload["features"]]
         assert len(records) == expected_count == report["record_count"], layer
         ids = [record["record_id"] for record in records]
@@ -93,12 +126,11 @@ def validate_layers() -> None:
         assert len(ids) == len(set(ids)), f"{layer}: duplicate record IDs"
         assert not (all_ids & set(ids)), f"{layer}: cross-layer record ID collision"
         all_ids.update(ids)
-        csv_coordinates = load_csv_coordinates(csv_path)
-        assert set(csv_coordinates) == set(ids), f"{layer}: CSV/GeoJSON ID mismatch"
+        csv_records = derive_csv_records(geojson_path, schema)
+        assert csv_records == records, f"{layer}: derived CSV/GeoJSON mismatch"
         for record in records:
             errors = list(validator.iter_errors(record))
             assert not errors, f"{layer}: {record['record_id']}: {errors[0].message if errors else ''}"
-            assert csv_coordinates[record["record_id"]] == (record["latitude"], record["longitude"])
             assert record["schema_version"] == "1.1.0"
             assert record["coordinate_crs"] == ("EPSG:4326" if record["latitude"] is not None else None)
             if record["parent_record_id"] is not None:
@@ -121,7 +153,9 @@ def validate_views() -> None:
     for view, (parent, expected_count) in VIEWS.items():
         payload = json.loads((ROOT / "data" / f"{view}.{TAG}.geojson").read_text(encoding="utf-8"))
         report = json.loads((ROOT / "data" / f"{view}.{TAG}.report.json").read_text(encoding="utf-8"))
+        validate_report_outputs(report, view)
         records = [canonical_from_feature(feature) for feature in payload["features"]]
+        assert derive_csv_records(ROOT / "data" / f"{view}.{TAG}.geojson", schema) == records
         ids = {record["record_id"] for record in records}
         parent_payload = json.loads((ROOT / "data" / f"{parent}.{TAG}.geojson").read_text(encoding="utf-8"))
         parent_ids = {feature["properties"]["record_id"] for feature in parent_payload["features"]}
@@ -237,13 +271,27 @@ def validate_manifest() -> None:
         "google/edge", "google/data-centers", *LAYERS.keys()
     }
     for layer in manifest["layers"]:
+        assert set(layer["files"]) == {"geojson", "report"}
         for file_record in layer["files"].values():
             assert digest(ROOT / file_record["path"]) == file_record["sha256"]
+        csv_file = layer["derived_files"]["csv"]
+        assert csv_file == {
+            "generator": f"make {csv_file['path']}",
+            "path": layer["files"]["geojson"]["path"].removesuffix(".geojson") + ".csv",
+            "source": layer["files"]["geojson"]["path"],
+        }
         assert sum(layer["entity_types"].values()) == layer["record_count"]
     for view in manifest["views"]:
         assert view["view_of"] in {layer["layer"] for layer in manifest["layers"]}
+        assert set(view["files"]) == {"geojson", "report"}
         for file_record in view["files"].values():
             assert digest(ROOT / file_record["path"]) == file_record["sha256"]
+        csv_file = view["derived_files"]["csv"]
+        assert csv_file == {
+            "generator": f"make {csv_file['path']}",
+            "path": view["files"]["geojson"]["path"].removesuffix(".geojson") + ".csv",
+            "source": view["files"]["geojson"]["path"],
+        }
     for assessment in manifest["assessments"]:
         assert digest(ROOT / assessment["path"]) == assessment["sha256"]
 
@@ -272,15 +320,15 @@ def validate_regeneration() -> None:
             "--retrieved-at", "2026-08-04", "--output-root", str(output_root),
         ], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
         for layer in LAYERS:
-            for extension in ("csv", "geojson"):
-                checked_in = ROOT / "data" / f"{layer}.{TAG}.{extension}"
-                regenerated = output_root / "data" / f"{layer}.{TAG}.{extension}"
-                assert checked_in.read_bytes() == regenerated.read_bytes(), f"non-deterministic output: {layer}.{extension}"
+            checked_in = ROOT / "data" / f"{layer}.{TAG}.geojson"
+            regenerated = output_root / "data" / f"{layer}.{TAG}.geojson"
+            assert checked_in.read_bytes() == regenerated.read_bytes(), f"non-deterministic output: {layer}.geojson"
+            assert not regenerated.with_suffix(".csv").exists(), f"unexpected generated CSV: {layer}"
         for view in VIEWS:
-            for extension in ("csv", "geojson"):
-                checked_in = ROOT / "data" / f"{view}.{TAG}.{extension}"
-                regenerated = output_root / "data" / f"{view}.{TAG}.{extension}"
-                assert checked_in.read_bytes() == regenerated.read_bytes(), f"non-deterministic output: {view}.{extension}"
+            checked_in = ROOT / "data" / f"{view}.{TAG}.geojson"
+            regenerated = output_root / "data" / f"{view}.{TAG}.geojson"
+            assert checked_in.read_bytes() == regenerated.read_bytes(), f"non-deterministic output: {view}.geojson"
+            assert not regenerated.with_suffix(".csv").exists(), f"unexpected generated CSV: {view}"
         for assessment in (
             "china/provider-assessment", "china-edge/provider-assessment", "china-colocation/operator-assessment"
         ):

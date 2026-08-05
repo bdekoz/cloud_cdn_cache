@@ -10,8 +10,16 @@
   },
   "raw_source_ref": "data/raw/google/peering-infrastructure.20260804.html",
   "raw_source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
-  "csv_file": "data/google/edge.20260804.csv",
-  "csv_sha256": "a08eb2daf44a1ace5af8beea4e5772cdb8443b0e284e513c04dcb369d62e1562",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/google/edge.20260804.csv",
+      "path": "data/google/edge.20260804.csv",
+      "source": "data/google/edge.20260804.geojson"
+    }
+  },
+  "generated_files": [
+    "data/google/edge.20260804.geojson"
+  ],
   "geojson_file": "data/google/edge.20260804.geojson",
   "geojson_sha256": "75f941f72de0f449abc8a462766d09640b9e52ee3e3645d7d83e3ab3c8355841",
   "previous_normalized_record_count": 0,

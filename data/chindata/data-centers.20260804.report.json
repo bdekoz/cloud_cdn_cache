@@ -3,13 +3,19 @@
   "coordinate_methods": {
     "unknown": 4
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/chindata/data-centers.20260804.csv",
+      "path": "data/chindata/data-centers.20260804.csv",
+      "source": "data/chindata/data-centers.20260804.geojson"
+    }
+  },
   "directory_code_count": 4,
   "entity_types": {
     "data_center": 4
   },
   "facility_location_count": 0,
   "generated_files": [
-    "data/chindata/data-centers.20260804.csv",
     "data/chindata/data-centers.20260804.geojson"
   ],
   "geometry_null": 4,

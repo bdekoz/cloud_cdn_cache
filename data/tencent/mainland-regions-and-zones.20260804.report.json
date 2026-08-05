@@ -5,13 +5,19 @@
     "legacy": 29,
     "unknown": 2
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/tencent/mainland-regions-and-zones.20260804.csv",
+      "path": "data/tencent/mainland-regions-and-zones.20260804.csv",
+      "source": "data/tencent/mainland-regions-and-zones.20260804.geojson"
+    }
+  },
   "derived_from_layer": "data/tencent/regions-and-zones",
   "entity_types": {
     "availability_zone": 24,
     "cloud_region": 7
   },
   "generated_files": [
-    "data/tencent/mainland-regions-and-zones.20260804.csv",
     "data/tencent/mainland-regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 2,

@@ -5,13 +5,19 @@
     "legacy": 49,
     "unknown": 24
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/alibaba/mainland-regions-and-zones.20260804.csv",
+      "path": "data/alibaba/mainland-regions-and-zones.20260804.csv",
+      "source": "data/alibaba/mainland-regions-and-zones.20260804.geojson"
+    }
+  },
   "derived_from_layer": "data/alibaba/regions-and-zones",
   "entity_types": {
     "availability_zone": 60,
     "cloud_region": 13
   },
   "generated_files": [
-    "data/alibaba/mainland-regions-and-zones.20260804.csv",
     "data/alibaba/mainland-regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 24,

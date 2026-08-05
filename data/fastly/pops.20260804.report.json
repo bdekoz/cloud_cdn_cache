@@ -2,11 +2,17 @@
   "coordinate_methods": {
     "provider": 164
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/fastly/pops.20260804.csv",
+      "path": "data/fastly/pops.20260804.csv",
+      "source": "data/fastly/pops.20260804.geojson"
+    }
+  },
   "entity_types": {
     "edge_pop": 164
   },
   "generated_files": [
-    "data/fastly/pops.20260804.csv",
     "data/fastly/pops.20260804.geojson"
   ],
   "geometry_null": 0,

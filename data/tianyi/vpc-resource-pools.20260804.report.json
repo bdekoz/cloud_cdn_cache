@@ -4,11 +4,17 @@
   "coordinate_methods": {
     "unknown": 63
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/tianyi/vpc-resource-pools.20260804.csv",
+      "path": "data/tianyi/vpc-resource-pools.20260804.csv",
+      "source": "data/tianyi/vpc-resource-pools.20260804.geojson"
+    }
+  },
   "entity_types": {
     "cloud_resource_pool": 63
   },
   "generated_files": [
-    "data/tianyi/vpc-resource-pools.20260804.csv",
     "data/tianyi/vpc-resource-pools.20260804.geojson"
   ],
   "geometry_null": 63,

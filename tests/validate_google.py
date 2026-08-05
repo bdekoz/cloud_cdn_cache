@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import io
 import json
 import subprocess
 import sys
@@ -59,9 +60,24 @@ def csv_record(row: dict[str, str]) -> dict[str, object]:
     return result
 
 
-def read_csv_records(path: Path) -> list[dict[str, object]]:
-    with path.open(newline="", encoding="utf-8-sig") as handle:
-        return [csv_record(row) for row in csv.DictReader(handle)]
+def derive_csv_records(path: Path) -> list[dict[str, object]]:
+    result = subprocess.run(
+        [
+            "jq",
+            "-r",
+            "--slurpfile",
+            "schema",
+            str(SCHEMA_PATH),
+            "-f",
+            str(REPO_ROOT / "scripts/geojson-to-csv.jq"),
+            str(path),
+        ],
+        cwd=REPO_ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return [csv_record(row) for row in csv.DictReader(io.StringIO(result.stdout))]
 
 
 def geojson_records(path: Path) -> list[dict[str, object]]:
@@ -110,10 +126,9 @@ def validate_raw_provenance() -> None:
 
 
 def validate_edge(validator: Draft202012Validator) -> None:
-    csv_path = GOOGLE_DIR / f"edge.{TAG}.csv"
     geojson_path = GOOGLE_DIR / f"edge.{TAG}.geojson"
     report = read_json(GOOGLE_DIR / f"edge.{TAG}.report.json")
-    csv_rows = read_csv_records(csv_path)
+    csv_rows = derive_csv_records(geojson_path)
     geojson_rows = geojson_records(geojson_path)
 
     assert csv_rows == geojson_rows
@@ -125,17 +140,21 @@ def validate_edge(validator: Draft202012Validator) -> None:
     assert all(row["location_precision"] == "metro" for row in csv_rows)
     assert any(row["record_id"] == "google:edge_pop:dammam-sa" for row in csv_rows)
     assert report["record_count"] == len(csv_rows)
-    assert report["csv_sha256"] == sha256(csv_path)
+    assert report["derived_files"]["csv"] == {
+        "generator": f"make data/google/edge.{TAG}.csv",
+        "path": f"data/google/edge.{TAG}.csv",
+        "source": f"data/google/edge.{TAG}.geojson",
+    }
+    assert report["generated_files"] == [f"data/google/edge.{TAG}.geojson"]
     assert report["geojson_sha256"] == sha256(geojson_path)
     assert report["legacy_comparison"]["legacy_coordinate_match_count"] == 64
     assert report["legacy_comparison"]["current_source_only_count"] == 1
 
 
 def validate_data_centers(validator: Draft202012Validator) -> None:
-    csv_path = GOOGLE_DIR / f"data-centers.{TAG}.csv"
     geojson_path = GOOGLE_DIR / f"data-centers.{TAG}.geojson"
     report = read_json(GOOGLE_DIR / f"data-centers.{TAG}.report.json")
-    csv_rows = read_csv_records(csv_path)
+    csv_rows = derive_csv_records(geojson_path)
     geojson_rows = geojson_records(geojson_path)
 
     assert csv_rows == geojson_rows
@@ -153,7 +172,12 @@ def validate_data_centers(validator: Draft202012Validator) -> None:
         for row in csv_rows
     )
     assert report["record_count"] == len(csv_rows)
-    assert report["csv_sha256"] == sha256(csv_path)
+    assert report["derived_files"]["csv"] == {
+        "generator": f"make data/google/data-centers.{TAG}.csv",
+        "path": f"data/google/data-centers.{TAG}.csv",
+        "source": f"data/google/data-centers.{TAG}.geojson",
+    }
+    assert report["generated_files"] == [f"data/google/data-centers.{TAG}.geojson"]
     assert report["geojson_sha256"] == sha256(geojson_path)
     assert (
         report["legacy_comparison"]["legacy_peering_map_data_center_count"] == 24
@@ -191,12 +215,11 @@ def validate_deterministic_regeneration() -> None:
             text=True,
         )
         for name in (
-            f"edge.{TAG}.csv",
             f"edge.{TAG}.geojson",
-            f"data-centers.{TAG}.csv",
             f"data-centers.{TAG}.geojson",
         ):
             assert sha256(output_dir / name) == sha256(GOOGLE_DIR / name), name
+        assert not list(output_dir.glob(f"*.{TAG}.csv"))
 
         for dataset, expected_prefix, absent_prefix in (
             ("edge", "edge", "data-centers"),
@@ -220,8 +243,9 @@ def validate_deterministic_regeneration() -> None:
                 capture_output=True,
                 text=True,
             )
-            assert (option_dir / f"{expected_prefix}.{TAG}.csv").exists()
-            assert not (option_dir / f"{absent_prefix}.{TAG}.csv").exists()
+            assert (option_dir / f"{expected_prefix}.{TAG}.geojson").exists()
+            assert not (option_dir / f"{absent_prefix}.{TAG}.geojson").exists()
+            assert not list(option_dir.glob(f"*.{TAG}.csv"))
 
 
 def main() -> None:

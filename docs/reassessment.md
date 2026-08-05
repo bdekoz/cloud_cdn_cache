@@ -25,6 +25,8 @@ Schema 1.1.0 adds parent relationships, mainland/Hong Kong/Macao/Taiwan jurisdic
 
 Every generated record has stable identity, source URL, immutable raw reference and SHA-256, source/retrieval dates, lifecycle, source scope, jurisdiction, access state, service scope, precision, coordinate method/CRS, and confidence.
 
+Canonical normalized layers are retained as GeoJSON only. CSV is a lossless on-demand projection: a jq program follows the schema-required field order, restores coordinates from point geometry, and compactly encodes arrays and objects. The Makefile can generate all projections or one named target. The manifest hashes only retained GeoJSON and reports and records the CSV source and generation command separately. Evidence-bearing raw, recovered, and historical CSVs are unaffected.
+
 ## Canonical coverage
 
 | Layer | Records | Record meaning | Geometry |
@@ -88,7 +90,7 @@ The ten-provider cohort combines established market leaders with coverage-priori
 | Baidu mainland regions and zones | 25 | Baidu full layer |
 | Volcano mainland regions and zones | 14 | Volcano full layer |
 
-View IDs must be subsets of their parents. Tencent general and specialized mainland views are disjoint. The manifest hashes the views but excludes all 160 rows from its canonical count.
+View IDs must be subsets of their parents. Tencent general and specialized mainland views are disjoint. The manifest hashes the retained GeoJSON views, records their derived CSV recipes, and excludes all 160 rows from its canonical count.
 
 ## Separate China edge/CDN track
 
@@ -185,7 +187,7 @@ Unsupported Baidu global claims and an uncited Alibaba estimate layer remain qua
 
 ## Verification status
 
-The suite validates schema conformance, coordinate CRS, stable IDs, parent integrity, view subsets, jurisdiction/access semantics, raw hashes, CSV/GeoJSON parity, provider-specific source counts, assessment gates, quarantine evidence, and byte-for-byte regeneration.
+The suite validates schema conformance, coordinate CRS, stable IDs, parent integrity, view subsets, jurisdiction/access semantics, raw hashes, on-demand CSV/GeoJSON parity, provider-specific source counts, assessment gates, quarantine evidence, and byte-for-byte canonical GeoJSON regeneration.
 
 At this assessment date:
 

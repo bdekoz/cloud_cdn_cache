@@ -3,6 +3,13 @@
   "coordinate_methods": {
     "unknown": 22
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/kingsoft/mainland-regions-and-zones.20260804.csv",
+      "path": "data/kingsoft/mainland-regions-and-zones.20260804.csv",
+      "source": "data/kingsoft/mainland-regions-and-zones.20260804.geojson"
+    }
+  },
   "entity_types": {
     "availability_zone": 14,
     "cloud_region": 8
@@ -13,7 +20,6 @@
   "financial_region_count": 2,
   "financial_zone_count": 2,
   "generated_files": [
-    "data/kingsoft/mainland-regions-and-zones.20260804.csv",
     "data/kingsoft/mainland-regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 22,

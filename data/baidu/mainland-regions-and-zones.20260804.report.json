@@ -4,13 +4,19 @@
   "coordinate_methods": {
     "unknown": 25
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/baidu/mainland-regions-and-zones.20260804.csv",
+      "path": "data/baidu/mainland-regions-and-zones.20260804.csv",
+      "source": "data/baidu/mainland-regions-and-zones.20260804.geojson"
+    }
+  },
   "derived_from_layer": "data/baidu/regions-and-zones",
   "entity_types": {
     "availability_zone": 18,
     "cloud_region": 7
   },
   "generated_files": [
-    "data/baidu/mainland-regions-and-zones.20260804.csv",
     "data/baidu/mainland-regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 25,

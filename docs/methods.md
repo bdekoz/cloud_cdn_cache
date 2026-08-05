@@ -19,11 +19,11 @@ Counts use the smallest defensible source unit:
 - An observed provider/ASN pair is one measurement record. It is not a provider-declared POP.
 - A province-coverage claim or a fleet total is assessment evidence, not a location record.
 
-Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate parity. Derived mainland views repeat canonical IDs from their parent layers and are excluded from the manifest's canonical `record_count`.
+Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate parity. Derived mainland views repeat canonical IDs from their parent layers and are excluded from the manifest's canonical `record_count`. Raw, recovered, and historical CSVs remain evidence-bearing artifacts; only schema-normalized CSV publication snapshots with complete GeoJSON equivalents are disposable projections.
 
 ## Schema 1.1
 
-[`schema/location.schema.json`](../schema/location.schema.json) is a JSON Schema 2020-12 contract used before CSV and GeoJSON serialization. Version 1.1.0 adds the distinctions required by the China work:
+[`schema/location.schema.json`](../schema/location.schema.json) is a JSON Schema 2020-12 contract used before canonical GeoJSON serialization. Version 1.1.0 adds the distinctions required by the China work:
 
 - `parent_record_id` links a zone to its published region.
 - `jurisdiction_scope` separates mainland China, Hong Kong, Macao, Taiwan, other, global, and unknown scopes.
@@ -33,7 +33,7 @@ Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate p
 - `coordinate_method=transformed` is available for a documented GCJ-02 or BD-09 conversion.
 - `cloud_resource_pool` represents a published pool without inventing region or zone semantics.
 
-Stable provider IDs are preferred for `record_id`, `source_record_id`, and `site_code`. When no provider ID exists, identity derivation must be deterministic and documented. Retrieval dates and row numbers are never identity inputs. CSV and GeoJSON are written from one sorted canonical record stream; arrays and nested properties use compact JSON in CSV.
+Stable provider IDs are preferred for `record_id`, `source_record_id`, and `site_code`. When no provider ID exists, identity derivation must be deterministic and documented. Retrieval dates and row numbers are never identity inputs. Updaters write one sorted canonical GeoJSON stream. The jq projection restores coordinates from geometry, orders columns by the schema's `required` array, recursively sorts object keys, and uses compact JSON for arrays and nested properties.
 
 `lifecycle_status` and `access_status` answer different questions. A Tencent zone can be operational while sales-restricted. A financial-cloud region can be operational and dedicated. Neither condition is represented as inactive.
 
@@ -72,7 +72,7 @@ Each normalized refresh starts with an immutable response under `data/raw/<sourc
 
 Records repeat the raw path and digest, allowing every row to be tied to exact evidence. The pipeline does not publish a parse of a live page without retaining the response that was parsed.
 
-[`data/manifest.20260804.json`](../data/manifest.20260804.json) now covers 19 canonical layers, five derived views, and three assessment artifacts. Canonical counts exclude views. The manifest hashes every output and report and includes the quarantine audit.
+[`data/manifest.20260804.json`](../data/manifest.20260804.json) now covers 19 canonical layers, five derived views, and three assessment artifacts. Canonical counts exclude views. The manifest hashes retained GeoJSON and reports, records each un-hashed CSV target with its source and generator command, and includes the quarantine audit.
 
 Provider documentation, APIs, independent research, and registry data can have terms different from this repository's ODC-By license. Retention in `data/raw` is not a blanket relicensing assertion; provenance files flag source-specific review requirements.
 
@@ -80,7 +80,7 @@ Provider documentation, APIs, independent research, and registry data can have t
 
 The common update sequence is:
 
-`fetch → checksum and provenance → parse → normalize → schema validation → semantic assertions → source diff → review → publish`
+`fetch → checksum and provenance → parse → normalize → schema validation → semantic assertions → source diff → review → publish GeoJSON → optionally project CSV`
 
 An update fails closed when a required table, stable ID, parent relationship, or expected source structure disappears. Known source disagreements are preserved as report fields and asserted in tests. A change in an aggregate claim never causes synthetic rows to be added.
 
@@ -202,7 +202,7 @@ Validation covers:
 - zone-to-region parent integrity;
 - view IDs as subsets of parent layers and no double counting;
 - jurisdiction, access, lifecycle, and service-scope semantics;
-- deterministic ordering and CSV/GeoJSON parity;
+- deterministic ordering and on-demand CSV/GeoJSON parity;
 - raw snapshot digests against provenance sidecars;
 - provider-specific counts and known source inconsistencies;
 - assessment gates for China Mobile, China Unicom, edge aggregates, GDS, and VNET;
@@ -228,7 +228,10 @@ python3 -B scripts/update_china_colocation.py --retrieved-at 2026-08-04
 python3 -B scripts/update_observations.py --retrieved-at 2026-08-04
 python3 -B scripts/audit_quarantine.py
 python3 -B scripts/build_manifest.py --retrieved-at 2026-08-04
+make csv
 ```
+
+`make csv` uses `scripts/geojson-to-csv.jq` to generate every CSV target recorded in the dated manifest. A single target can be generated without materializing the rest, for example `make data/google/edge.20260804.csv`. The outputs are ignored by Git and can be deleted at any time; rerunning the rule reproduces the former checked-in CSVs byte-for-byte. This policy does not apply to raw source, recovery, or historical CSVs.
 
 Use `--fetch` only when intentionally taking new snapshots. Suggested starting cadence is weekly for APIs, monthly for documentation and product directories, quarterly for filings and independent measurements, and event-driven for announced launches or retirements. Every refresh should produce a semantic diff of IDs, parents, jurisdictions, access state, lifecycle, source structure, and aggregate discrepancies before publication.
 

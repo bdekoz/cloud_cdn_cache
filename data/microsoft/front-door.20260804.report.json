@@ -7,11 +7,17 @@
     "legacy": 104,
     "unknown": 6
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/front-door.20260804.csv",
+      "path": "data/microsoft/front-door.20260804.csv",
+      "source": "data/microsoft/front-door.20260804.geojson"
+    }
+  },
   "entity_types": {
     "edge_pop": 110
   },
   "generated_files": [
-    "data/microsoft/front-door.20260804.csv",
     "data/microsoft/front-door.20260804.geojson"
   ],
   "geometry_null": 6,

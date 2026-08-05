@@ -3,12 +3,18 @@
   "coordinate_methods": {
     "unknown": 27
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/baidu/regions-and-zones.20260804.csv",
+      "path": "data/baidu/regions-and-zones.20260804.csv",
+      "source": "data/baidu/regions-and-zones.20260804.geojson"
+    }
+  },
   "entity_types": {
     "availability_zone": 19,
     "cloud_region": 8
   },
   "generated_files": [
-    "data/baidu/regions-and-zones.20260804.csv",
     "data/baidu/regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 27,

@@ -2,11 +2,17 @@
   "coordinate_methods": {
     "unknown": 13638
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/observations/cdn-mapping.20260804.csv",
+      "path": "data/observations/cdn-mapping.20260804.csv",
+      "source": "data/observations/cdn-mapping.20260804.geojson"
+    }
+  },
   "entity_types": {
     "observed_presence": 13638
   },
   "generated_files": [
-    "data/observations/cdn-mapping.20260804.csv",
     "data/observations/cdn-mapping.20260804.geojson"
   ],
   "geometry_null": 13638,

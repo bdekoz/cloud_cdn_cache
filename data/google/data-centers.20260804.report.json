@@ -11,8 +11,16 @@
   },
   "raw_source_ref": "data/raw/google/data-centers-directory.20260804.html",
   "raw_source_sha256": "87d69319ab73ff6798c6ffca17e195cfb01be624a6dd4c821000a8bdc43a0f2a",
-  "csv_file": "data/google/data-centers.20260804.csv",
-  "csv_sha256": "ae02f5232233c403804d5f0d72fa50b94a4edfca05337ac62b533cea7cd8f1bd",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/google/data-centers.20260804.csv",
+      "path": "data/google/data-centers.20260804.csv",
+      "source": "data/google/data-centers.20260804.geojson"
+    }
+  },
+  "generated_files": [
+    "data/google/data-centers.20260804.geojson"
+  ],
   "geojson_file": "data/google/data-centers.20260804.geojson",
   "geojson_sha256": "0ee958e568ae74a9964a97744e6e732ba3f0d0902d29975cba92acfaa5906960",
   "previous_normalized_record_count": 0,

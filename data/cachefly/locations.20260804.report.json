@@ -3,11 +3,17 @@
     "legacy": 63,
     "unknown": 24
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/cachefly/locations.20260804.csv",
+      "path": "data/cachefly/locations.20260804.csv",
+      "source": "data/cachefly/locations.20260804.geojson"
+    }
+  },
   "entity_types": {
     "edge_pop": 87
   },
   "generated_files": [
-    "data/cachefly/locations.20260804.csv",
     "data/cachefly/locations.20260804.geojson"
   ],
   "geometry_null": 24,

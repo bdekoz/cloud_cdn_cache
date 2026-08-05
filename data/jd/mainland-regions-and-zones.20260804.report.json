@@ -4,12 +4,18 @@
   "coordinate_methods": {
     "unknown": 14
   },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/jd/mainland-regions-and-zones.20260804.csv",
+      "path": "data/jd/mainland-regions-and-zones.20260804.csv",
+      "source": "data/jd/mainland-regions-and-zones.20260804.geojson"
+    }
+  },
   "entity_types": {
     "availability_zone": 10,
     "cloud_region": 4
   },
   "generated_files": [
-    "data/jd/mainland-regions-and-zones.20260804.csv",
     "data/jd/mainland-regions-and-zones.20260804.geojson"
   ],
   "geometry_null": 14,
