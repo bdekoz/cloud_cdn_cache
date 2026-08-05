@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Broad Google-owned IP ranges; not GGC-specific. Source-specific terms apply; no blanket relicensing is asserted.",
+  "raw_source_ref": "data/raw/network/google/goog.20260805.json",
+  "retrieved_at": "2026-08-05",
+  "sha256": "49651f705f9ac1ab55a7a7d8dc82d075acbdfb78deffc2d2b8cc0af65540149e",
+  "source_published_at": "2026-08-04",
+  "source_url": "https://www.gstatic.com/ipranges/goog.json"
+}

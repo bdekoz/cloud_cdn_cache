@@ -18,62 +18,6 @@
         "lifecycle_status": "unknown",
         "location_precision": "unknown",
         "metro": null,
-        "name": "AS0 — ",
-        "parent_record_id": null,
-        "properties": {
-          "as_name": "",
-          "asn": 0,
-          "dataset": "Akamai",
-          "download_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/akamai.csv",
-          "measurement_method": "routed-prefix TLS certificate scan",
-          "observation_scope": "asn_presence",
-          "observed_at": "2026-06-06",
-          "tls_domains": [
-            "edgesuite.net",
-            "edgekey.net",
-            "akamaized.net",
-            "akamaihd.net",
-            "akamai.net"
-          ]
-        },
-        "provider": "Akamai",
-        "raw_source_ref": "data/raw/observations/akamai.202606.csv",
-        "record_id": "observation:observed_presence:akamai-0",
-        "retrieved_at": "2026-08-04",
-        "schema_version": "1.1.0",
-        "service": "cdn_mapping_observation",
-        "service_scope": [
-          "tls_measurement"
-        ],
-        "site_code": null,
-        "source_collection": "anurag_bhatia_cdn_mapping_2026",
-        "source_published_at": "2026-06-06",
-        "source_record_id": "0",
-        "source_scope": "observed",
-        "source_sha256": "6753f046780a58614eb47c8ad4181735aff4505eb1ebb4bef37758fedd33451d",
-        "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
-        "subdivision": null
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": null,
-      "properties": {
-        "access_status": "not_applicable",
-        "aliases": [],
-        "city": null,
-        "confidence": "medium",
-        "coordinate_crs": null,
-        "coordinate_method": "unknown",
-        "country": null,
-        "country_code": null,
-        "entity_type": "observed_presence",
-        "first_seen": "2026-06-06",
-        "jurisdiction_scope": "global",
-        "last_seen": "2026-06-06",
-        "lifecycle_status": "unknown",
-        "location_precision": "unknown",
-        "metro": null,
         "name": "AS10010 — TOKAI Communications Corporation",
         "parent_record_id": null,
         "properties": {
@@ -61282,59 +61226,6 @@
         "lifecycle_status": "unknown",
         "location_precision": "unknown",
         "metro": null,
-        "name": "AS0 — ",
-        "parent_record_id": null,
-        "properties": {
-          "as_name": "",
-          "asn": 0,
-          "dataset": "Apple",
-          "download_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/apple.csv",
-          "measurement_method": "routed-prefix TLS certificate scan",
-          "observation_scope": "asn_presence",
-          "observed_at": "2026-06-06",
-          "tls_domains": [
-            "apple.com",
-            "itunes.apple.com"
-          ]
-        },
-        "provider": "Apple",
-        "raw_source_ref": "data/raw/observations/apple.202606.csv",
-        "record_id": "observation:observed_presence:apple-0",
-        "retrieved_at": "2026-08-04",
-        "schema_version": "1.1.0",
-        "service": "cdn_mapping_observation",
-        "service_scope": [
-          "tls_measurement"
-        ],
-        "site_code": null,
-        "source_collection": "anurag_bhatia_cdn_mapping_2026",
-        "source_published_at": "2026-06-06",
-        "source_record_id": "0",
-        "source_scope": "observed",
-        "source_sha256": "9555e266dfc21430f52cf4bae030cda8723cdbceb4daa8d4510363d056a99576",
-        "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
-        "subdivision": null
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": null,
-      "properties": {
-        "access_status": "not_applicable",
-        "aliases": [],
-        "city": null,
-        "confidence": "medium",
-        "coordinate_crs": null,
-        "coordinate_method": "unknown",
-        "country": null,
-        "country_code": null,
-        "entity_type": "observed_presence",
-        "first_seen": "2026-06-06",
-        "jurisdiction_scope": "global",
-        "last_seen": "2026-06-06",
-        "lifecycle_status": "unknown",
-        "location_precision": "unknown",
-        "metro": null,
         "name": "AS10010 — TOKAI Communications Corporation",
         "parent_record_id": null,
         "properties": {
@@ -112904,59 +112795,6 @@
         "lifecycle_status": "unknown",
         "location_precision": "unknown",
         "metro": null,
-        "name": "AS0 — ",
-        "parent_record_id": null,
-        "properties": {
-          "as_name": "",
-          "asn": 0,
-          "dataset": "AWS CloudFront",
-          "download_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/aws-cloudfront.csv",
-          "measurement_method": "routed-prefix TLS certificate scan",
-          "observation_scope": "asn_presence",
-          "observed_at": "2026-06-06",
-          "tls_domains": [
-            "amazonaws.com",
-            "awsstatic.com"
-          ]
-        },
-        "provider": "Amazon Web Services",
-        "raw_source_ref": "data/raw/observations/aws-cloudfront.202606.csv",
-        "record_id": "observation:observed_presence:aws-cloudfront-0",
-        "retrieved_at": "2026-08-04",
-        "schema_version": "1.1.0",
-        "service": "cdn_mapping_observation",
-        "service_scope": [
-          "tls_measurement"
-        ],
-        "site_code": null,
-        "source_collection": "anurag_bhatia_cdn_mapping_2026",
-        "source_published_at": "2026-06-06",
-        "source_record_id": "0",
-        "source_scope": "observed",
-        "source_sha256": "0a94ed7e60cbc27441eca676f84dc3da1889c15a376c879df4bbda1ca92479ba",
-        "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
-        "subdivision": null
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": null,
-      "properties": {
-        "access_status": "not_applicable",
-        "aliases": [],
-        "city": null,
-        "confidence": "medium",
-        "coordinate_crs": null,
-        "coordinate_method": "unknown",
-        "country": null,
-        "country_code": null,
-        "entity_type": "observed_presence",
-        "first_seen": "2026-06-06",
-        "jurisdiction_scope": "global",
-        "last_seen": "2026-06-06",
-        "lifecycle_status": "unknown",
-        "location_precision": "unknown",
-        "metro": null,
         "name": "AS1054 — Zont LLC",
         "parent_record_id": null,
         "properties": {
@@ -124382,59 +124220,6 @@
         "source_record_id": "9908",
         "source_scope": "observed",
         "source_sha256": "0a94ed7e60cbc27441eca676f84dc3da1889c15a376c879df4bbda1ca92479ba",
-        "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
-        "subdivision": null
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": null,
-      "properties": {
-        "access_status": "not_applicable",
-        "aliases": [],
-        "city": null,
-        "confidence": "medium",
-        "coordinate_crs": null,
-        "coordinate_method": "unknown",
-        "country": null,
-        "country_code": null,
-        "entity_type": "observed_presence",
-        "first_seen": "2026-06-06",
-        "jurisdiction_scope": "global",
-        "last_seen": "2026-06-06",
-        "lifecycle_status": "unknown",
-        "location_precision": "unknown",
-        "metro": null,
-        "name": "AS0 — ",
-        "parent_record_id": null,
-        "properties": {
-          "as_name": "",
-          "asn": 0,
-          "dataset": "Facebook/Meta FNA",
-          "download_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/fna.csv",
-          "measurement_method": "routed-prefix TLS certificate scan",
-          "observation_scope": "asn_presence",
-          "observed_at": "2026-06-06",
-          "tls_domains": [
-            "fbcdn.net",
-            "fna.whatsapp.net"
-          ]
-        },
-        "provider": "Meta",
-        "raw_source_ref": "data/raw/observations/fna.202606.csv",
-        "record_id": "observation:observed_presence:fna-0",
-        "retrieved_at": "2026-08-04",
-        "schema_version": "1.1.0",
-        "service": "cdn_mapping_observation",
-        "service_scope": [
-          "tls_measurement"
-        ],
-        "site_code": null,
-        "source_collection": "anurag_bhatia_cdn_mapping_2026",
-        "source_published_at": "2026-06-06",
-        "source_record_id": "0",
-        "source_scope": "observed",
-        "source_sha256": "08ca98e221779a246746d04b5613d94b7774c5f2075cbc278e14d09d0c81dab2",
         "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
         "subdivision": null
       },
@@ -259426,58 +259211,6 @@
         "source_record_id": "9997",
         "source_scope": "observed",
         "source_sha256": "08ca98e221779a246746d04b5613d94b7774c5f2075cbc278e14d09d0c81dab2",
-        "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
-        "subdivision": null
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": null,
-      "properties": {
-        "access_status": "not_applicable",
-        "aliases": [],
-        "city": null,
-        "confidence": "medium",
-        "coordinate_crs": null,
-        "coordinate_method": "unknown",
-        "country": null,
-        "country_code": null,
-        "entity_type": "observed_presence",
-        "first_seen": "2026-06-06",
-        "jurisdiction_scope": "global",
-        "last_seen": "2026-06-06",
-        "lifecycle_status": "unknown",
-        "location_precision": "unknown",
-        "metro": null,
-        "name": "AS0 — ",
-        "parent_record_id": null,
-        "properties": {
-          "as_name": "",
-          "asn": 0,
-          "dataset": "Google GGC",
-          "download_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/ggc.csv",
-          "measurement_method": "routed-prefix TLS certificate scan",
-          "observation_scope": "asn_presence",
-          "observed_at": "2026-06-06",
-          "tls_domains": [
-            "googlevideo.com"
-          ]
-        },
-        "provider": "Google",
-        "raw_source_ref": "data/raw/observations/ggc.202606.csv",
-        "record_id": "observation:observed_presence:ggc-0",
-        "retrieved_at": "2026-08-04",
-        "schema_version": "1.1.0",
-        "service": "cdn_mapping_observation",
-        "service_scope": [
-          "tls_measurement"
-        ],
-        "site_code": null,
-        "source_collection": "anurag_bhatia_cdn_mapping_2026",
-        "source_published_at": "2026-06-06",
-        "source_record_id": "0",
-        "source_scope": "observed",
-        "source_sha256": "db98c2d2c16cd3761ab004b42c32c53c293db430cd86d625e4ed0803144a8416",
         "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
         "subdivision": null
       },
@@ -480293,58 +480026,6 @@
         "lifecycle_status": "unknown",
         "location_precision": "unknown",
         "metro": null,
-        "name": "AS0 — ",
-        "parent_record_id": null,
-        "properties": {
-          "as_name": "",
-          "asn": 0,
-          "dataset": "Microsoft CDN",
-          "download_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/microsoft.csv",
-          "measurement_method": "routed-prefix TLS certificate scan",
-          "observation_scope": "asn_presence",
-          "observed_at": "2026-06-06",
-          "tls_domains": [
-            "microsoft.com"
-          ]
-        },
-        "provider": "Microsoft",
-        "raw_source_ref": "data/raw/observations/microsoft.202606.csv",
-        "record_id": "observation:observed_presence:microsoft-0",
-        "retrieved_at": "2026-08-04",
-        "schema_version": "1.1.0",
-        "service": "cdn_mapping_observation",
-        "service_scope": [
-          "tls_measurement"
-        ],
-        "site_code": null,
-        "source_collection": "anurag_bhatia_cdn_mapping_2026",
-        "source_published_at": "2026-06-06",
-        "source_record_id": "0",
-        "source_scope": "observed",
-        "source_sha256": "e263865f1a0b358130a9cf7d9b1053818d5eabf51a1c1eb748a3690dca127bdf",
-        "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
-        "subdivision": null
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": null,
-      "properties": {
-        "access_status": "not_applicable",
-        "aliases": [],
-        "city": null,
-        "confidence": "medium",
-        "coordinate_crs": null,
-        "coordinate_method": "unknown",
-        "country": null,
-        "country_code": null,
-        "entity_type": "observed_presence",
-        "first_seen": "2026-06-06",
-        "jurisdiction_scope": "global",
-        "last_seen": "2026-06-06",
-        "lifecycle_status": "unknown",
-        "location_precision": "unknown",
-        "metro": null,
         "name": "AS10010 — TOKAI Communications Corporation",
         "parent_record_id": null,
         "properties": {
@@ -566330,59 +566011,6 @@
         "source_record_id": "997",
         "source_scope": "observed",
         "source_sha256": "e263865f1a0b358130a9cf7d9b1053818d5eabf51a1c1eb748a3690dca127bdf",
-        "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
-        "subdivision": null
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": null,
-      "properties": {
-        "access_status": "not_applicable",
-        "aliases": [],
-        "city": null,
-        "confidence": "medium",
-        "coordinate_crs": null,
-        "coordinate_method": "unknown",
-        "country": null,
-        "country_code": null,
-        "entity_type": "observed_presence",
-        "first_seen": "2026-06-06",
-        "jurisdiction_scope": "global",
-        "last_seen": "2026-06-06",
-        "lifecycle_status": "unknown",
-        "location_precision": "unknown",
-        "metro": null,
-        "name": "AS0 — ",
-        "parent_record_id": null,
-        "properties": {
-          "as_name": "",
-          "asn": 0,
-          "dataset": "Netflix OCA",
-          "download_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/oca.csv",
-          "measurement_method": "routed-prefix TLS certificate scan",
-          "observation_scope": "asn_presence",
-          "observed_at": "2026-06-06",
-          "tls_domains": [
-            "oca.nflxvideo.net",
-            "assets.nflxext.com"
-          ]
-        },
-        "provider": "Netflix",
-        "raw_source_ref": "data/raw/observations/oca.202606.csv",
-        "record_id": "observation:observed_presence:oca-0",
-        "retrieved_at": "2026-08-04",
-        "schema_version": "1.1.0",
-        "service": "cdn_mapping_observation",
-        "service_scope": [
-          "tls_measurement"
-        ],
-        "site_code": null,
-        "source_collection": "anurag_bhatia_cdn_mapping_2026",
-        "source_published_at": "2026-06-06",
-        "source_record_id": "0",
-        "source_scope": "observed",
-        "source_sha256": "491daea62145d8427f6fa759ba3b58a73c03433e793c6e826eb8316f903fd54e",
         "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
         "subdivision": null
       },

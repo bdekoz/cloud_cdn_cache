@@ -1,6 +1,7 @@
 {
+  "accepted_record_count": 13631,
   "coordinate_methods": {
-    "unknown": 13638
+    "unknown": 13631
   },
   "derived_files": {
     "csv": {
@@ -10,81 +11,151 @@
     }
   },
   "entity_types": {
-    "observed_presence": 13638
+    "observed_presence": 13631
   },
   "generated_files": [
     "data/observations/cdn-mapping.20260804.geojson"
   ],
-  "geometry_null": 13638,
+  "geometry_null": 13631,
   "geometry_policy": "ASN observations have null geometry; the CSVs do not contain locations.",
   "layer": "cdn-mapping",
   "license_status": "not stated in source; review before downstream redistribution",
   "lifecycle_statuses": {
-    "unknown": 13638
+    "unknown": 13631
   },
   "observation_date": "2026-06-06",
   "parser": "update_observations.py",
   "provider_counts": {
-    "Akamai": 1094,
-    "Amazon Web Services": 217,
-    "Apple": 974,
-    "Google": 4247,
-    "Meta": 2548,
-    "Microsoft": 1655,
-    "Netflix": 2903
+    "Akamai": 1093,
+    "Amazon Web Services": 216,
+    "Apple": 973,
+    "Google": 4246,
+    "Meta": 2547,
+    "Microsoft": 1654,
+    "Netflix": 2902
   },
+  "raw_record_count": 13638,
   "raw_source_ref": "data/raw/observations/cdn-mapping-study.20260804.html",
-  "record_count": 13638,
+  "record_count": 13631,
+  "rejected_record_count": 7,
+  "rejected_records": [
+    {
+      "as_name": "",
+      "asn": "0",
+      "dataset": "Google GGC",
+      "reason": "invalid_asn",
+      "row_number": 254
+    },
+    {
+      "as_name": "",
+      "asn": "0",
+      "dataset": "Netflix OCA",
+      "reason": "invalid_asn",
+      "row_number": 842
+    },
+    {
+      "as_name": "",
+      "asn": "0",
+      "dataset": "Facebook/Meta FNA",
+      "reason": "invalid_asn",
+      "row_number": 474
+    },
+    {
+      "as_name": "",
+      "asn": "0",
+      "dataset": "Akamai",
+      "reason": "invalid_asn",
+      "row_number": 328
+    },
+    {
+      "as_name": "",
+      "asn": "0",
+      "dataset": "Microsoft CDN",
+      "reason": "invalid_asn",
+      "row_number": 163
+    },
+    {
+      "as_name": "",
+      "asn": "0",
+      "dataset": "Apple",
+      "reason": "invalid_asn",
+      "row_number": 89
+    },
+    {
+      "as_name": "",
+      "asn": "0",
+      "dataset": "AWS CloudFront",
+      "reason": "invalid_asn",
+      "row_number": 50
+    }
+  ],
+  "rejections_by_reason": {
+    "invalid_asn": 7
+  },
   "retrieved_at": "2026-08-04",
   "schema": "schema/location.schema.json",
   "schema_version": "1.1.0",
   "source_files": [
     {
+      "accepted_record_count": 4246,
       "dataset": "Google GGC",
+      "raw_record_count": 4247,
       "raw_source_ref": "data/raw/observations/ggc.202606.csv",
-      "record_count": 4247,
+      "rejected_record_count": 1,
       "sha256": "db98c2d2c16cd3761ab004b42c32c53c293db430cd86d625e4ed0803144a8416",
       "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/ggc.csv"
     },
     {
+      "accepted_record_count": 2902,
       "dataset": "Netflix OCA",
+      "raw_record_count": 2903,
       "raw_source_ref": "data/raw/observations/oca.202606.csv",
-      "record_count": 2903,
+      "rejected_record_count": 1,
       "sha256": "491daea62145d8427f6fa759ba3b58a73c03433e793c6e826eb8316f903fd54e",
       "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/oca.csv"
     },
     {
+      "accepted_record_count": 2547,
       "dataset": "Facebook/Meta FNA",
+      "raw_record_count": 2548,
       "raw_source_ref": "data/raw/observations/fna.202606.csv",
-      "record_count": 2548,
+      "rejected_record_count": 1,
       "sha256": "08ca98e221779a246746d04b5613d94b7774c5f2075cbc278e14d09d0c81dab2",
       "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/fna.csv"
     },
     {
+      "accepted_record_count": 1093,
       "dataset": "Akamai",
+      "raw_record_count": 1094,
       "raw_source_ref": "data/raw/observations/akamai.202606.csv",
-      "record_count": 1094,
+      "rejected_record_count": 1,
       "sha256": "6753f046780a58614eb47c8ad4181735aff4505eb1ebb4bef37758fedd33451d",
       "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/akamai.csv"
     },
     {
+      "accepted_record_count": 1654,
       "dataset": "Microsoft CDN",
+      "raw_record_count": 1655,
       "raw_source_ref": "data/raw/observations/microsoft.202606.csv",
-      "record_count": 1655,
+      "rejected_record_count": 1,
       "sha256": "e263865f1a0b358130a9cf7d9b1053818d5eabf51a1c1eb748a3690dca127bdf",
       "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/microsoft.csv"
     },
     {
+      "accepted_record_count": 973,
       "dataset": "Apple",
+      "raw_record_count": 974,
       "raw_source_ref": "data/raw/observations/apple.202606.csv",
-      "record_count": 974,
+      "rejected_record_count": 1,
       "sha256": "9555e266dfc21430f52cf4bae030cda8723cdbceb4daa8d4510363d056a99576",
       "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/apple.csv"
     },
     {
+      "accepted_record_count": 216,
       "dataset": "AWS CloudFront",
+      "raw_record_count": 217,
       "raw_source_ref": "data/raw/observations/aws-cloudfront.202606.csv",
-      "record_count": 217,
+      "rejected_record_count": 1,
       "sha256": "0a94ed7e60cbc27441eca676f84dc3da1889c15a376c879df4bbda1ca92479ba",
       "source_url": "https://cdn.anuragbhatia.com/web/post/2026/06/cdn-mapping-across-the-globe/aws-cloudfront.csv"
     }

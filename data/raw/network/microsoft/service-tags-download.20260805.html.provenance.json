@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Official download landing page used to resolve the versioned Azure Service Tags file. Source-specific terms apply; no blanket relicensing is asserted.",
+  "raw_source_ref": "data/raw/network/microsoft/service-tags-download.20260805.html",
+  "retrieved_at": "2026-08-05",
+  "sha256": "2108a1c3bd6e2139f00dcd53c8223b48b326a613cf9519121b6940e9fdd3b124",
+  "source_published_at": "2026-08-04",
+  "source_url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "application/vnd.google-earth.kml+xml",
+  "notes": "Public My Maps KML embedded by the June 2026 study. It is a partial MaxMind city-geolocation observation layer, not a facility inventory. No explicit redistribution license was found.",
+  "raw_source_ref": "data/raw/observations/global-cdn-mapping.20260805.kml",
+  "retrieved_at": "2026-08-05",
+  "sha256": "1653601361be84d557f8f1ef55a70c65092ee465959b7ec673125e9bce4c6bef",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://www.google.com/maps/d/kml?mid=1AHRJ8wfAVk2nHYWuO8Mojs0zp__9V0o&forcekml=1"
+}

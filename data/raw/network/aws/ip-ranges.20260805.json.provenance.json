@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "AWS public IP-range feed; normalized scope is GLOBAL CLOUDFRONT only. Source-specific terms apply; no blanket relicensing is asserted.",
+  "raw_source_ref": "data/raw/network/aws/ip-ranges.20260805.json",
+  "retrieved_at": "2026-08-05",
+  "sha256": "32b566893e8379cc34efed72c5c86a0555634cf10b0f6c4fafb834fe054d3a59",
+  "source_published_at": "2026-08-04",
+  "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Google Cloud customer-resource external IP ranges; not a site inventory. Source-specific terms apply; no blanket relicensing is asserted.",
+  "raw_source_ref": "data/raw/network/google/cloud.20260805.json",
+  "retrieved_at": "2026-08-05",
+  "sha256": "855a52f1a165852ced727bfc55641ec92cd6721c3cbd255a15380a74d8274506",
+  "source_published_at": "2026-08-04",
+  "source_url": "https://www.gstatic.com/ipranges/cloud.json"
+}

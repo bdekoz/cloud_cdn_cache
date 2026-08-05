@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Full Azure Public Service Tags snapshot; normalized scope is AzureFrontDoor.Frontend only. Source-specific terms apply; no blanket relicensing is asserted.",
+  "raw_source_ref": "data/raw/network/microsoft/service-tags-public.20260805.json",
+  "retrieved_at": "2026-08-05",
+  "sha256": "abf68a1296deff23569777b68c3b048b4f3207c051239ba2d6c8e778310edfbf",
+  "source_published_at": "2026-08-04",
+  "source_url": "https://download.microsoft.com/download/7/1/d/71d86715-5596-4529-9b13-da13a5de5b63/ServiceTags_Public_20260803.json"
+}

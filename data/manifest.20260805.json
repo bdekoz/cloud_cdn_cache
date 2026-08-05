@@ -14,7 +14,7 @@
     }
   ],
   "generated_from_retained_snapshots_at": "2026-08-05",
-  "layer_count": 27,
+  "layer_count": 28,
   "layers": [
     {
       "coordinate_methods": {
@@ -969,7 +969,7 @@
     },
     {
       "coordinate_methods": {
-        "unknown": 13638
+        "unknown": 13631
       },
       "derived_files": {
         "csv": {
@@ -979,19 +979,19 @@
         }
       },
       "entity_types": {
-        "observed_presence": 13638
+        "observed_presence": 13631
       },
       "files": {
         "geojson": {
           "path": "data/observations/cdn-mapping.20260804.geojson",
-          "sha256": "c867751261bab9baf51dc6f77b828d653ad4a09a7aae092948391502ffdb52e5"
+          "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b"
         },
         "report": {
           "path": "data/observations/cdn-mapping.20260804.report.json",
-          "sha256": "90efbf60656e012139c3bd2267abf29170d79d18086052ebeee40465dbcc8442"
+          "sha256": "3a1442ee1015bc1cadd84f73a6c3e14b3fe15a7558b93e404ed38d5316e83919"
         }
       },
-      "geometry_null": 13638,
+      "geometry_null": 13631,
       "layer": "observations/cdn-mapping",
       "providers": [
         "Akamai",
@@ -1002,7 +1002,7 @@
         "Microsoft",
         "Netflix"
       ],
-      "record_count": 13638,
+      "record_count": 13631,
       "retrieved_at": [
         "2026-08-04"
       ],
@@ -1498,19 +1498,367 @@
           "source_url": "https://datacenters.atmeta.com/all-locations/"
         }
       ]
+    },
+    {
+      "coordinate_methods": {
+        "geocoded": 11659
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/observations/cdn-mapping-cities.20260805.csv",
+          "path": "data/observations/cdn-mapping-cities.20260805.csv",
+          "source": "data/observations/cdn-mapping-cities.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "observed_presence": 11659
+      },
+      "files": {
+        "geojson": {
+          "path": "data/observations/cdn-mapping-cities.20260805.geojson",
+          "sha256": "d6592b8ec86bf37ea1b3a89d409861f8e0fbb9ab533f542e9fe73a3b73b9fee0"
+        },
+        "report": {
+          "path": "data/observations/cdn-mapping-cities.20260805.report.json",
+          "sha256": "e5f9cd0c58ec720914796dfe9cad8b271e6e4c30e60701c50fe1d8a1be9d2b07"
+        }
+      },
+      "geometry_null": 0,
+      "layer": "observations/cdn-mapping-cities",
+      "providers": [
+        "Google",
+        "Meta",
+        "Netflix"
+      ],
+      "record_count": 11659,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "cdn_mapping_city_observation"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/observations/global-cdn-mapping.20260805.kml",
+          "sha256": "1653601361be84d557f8f1ef55a70c65092ee465959b7ec673125e9bce4c6bef",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://www.google.com/maps/d/kml?mid=1AHRJ8wfAVk2nHYWuO8Mojs0zp__9V0o&forcekml=1"
+        }
+      ]
     }
   ],
+  "network_evidence_layer_count": 3,
+  "network_evidence_layers": [
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/provider-prefixes.20260805.csv",
+          "path": "data/network/provider-prefixes.20260805.csv",
+          "source": "data/network/provider-prefixes.20260805.json"
+        }
+      },
+      "evidence_types": {
+        "provider_prefix": 1581
+      },
+      "files": {
+        "json": {
+          "path": "data/network/provider-prefixes.20260805.json",
+          "sha256": "0f1359c37181c304695e6c41236b2429c6739ca27e29b0aaaddba0d8dd2af715"
+        },
+        "report": {
+          "path": "data/network/provider-prefixes.20260805.report.json",
+          "sha256": "03c9bfd076126952bba16dec917874ccc17e267636e0cd0ea8064f1831b54e57"
+        }
+      },
+      "layer": "provider-prefixes",
+      "providers": [
+        "Amazon Web Services",
+        "Google",
+        "Google Cloud",
+        "Microsoft Azure"
+      ],
+      "record_count": 1581,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_cloudfront",
+        "azure_front_door",
+        "google_cloud_customer_ranges",
+        "google_owned_network"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/network/aws/ip-ranges.20260805.json",
+          "sha256": "32b566893e8379cc34efed72c5c86a0555634cf10b0f6c4fafb834fe054d3a59",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+        },
+        {
+          "raw_source_ref": "data/raw/network/google/cloud.20260805.json",
+          "sha256": "855a52f1a165852ced727bfc55641ec92cd6721c3cbd255a15380a74d8274506",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://www.gstatic.com/ipranges/cloud.json"
+        },
+        {
+          "raw_source_ref": "data/raw/network/google/goog.20260805.json",
+          "sha256": "49651f705f9ac1ab55a7a7d8dc82d075acbdfb78deffc2d2b8cc0af65540149e",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://www.gstatic.com/ipranges/goog.json"
+        },
+        {
+          "raw_source_ref": "data/raw/network/microsoft/service-tags-public.20260805.json",
+          "sha256": "abf68a1296deff23569777b68c3b048b4f3207c051239ba2d6c8e778310edfbf",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://download.microsoft.com/download/7/1/d/71d86715-5596-4529-9b13-da13a5de5b63/ServiceTags_Public_20260803.json"
+        }
+      ],
+      "statuses": {
+        "published": 1581
+      }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/ripestat-routing.20260805.csv",
+          "path": "data/network/ripestat-routing.20260805.csv",
+          "source": "data/network/ripestat-routing.20260805.json"
+        }
+      },
+      "evidence_types": {
+        "routing_origin": 8,
+        "rpki_validation": 7
+      },
+      "files": {
+        "json": {
+          "path": "data/network/ripestat-routing.20260805.json",
+          "sha256": "f0ef9415578e5c88f1f2afa2a0667c3825dac2ba680077d8a471800d6b46500d"
+        },
+        "report": {
+          "path": "data/network/ripestat-routing.20260805.report.json",
+          "sha256": "dd367e919c4c8a666b0573130d6d7c1969350873fb002d5492e6aee403b65807"
+        }
+      },
+      "layer": "ripestat-routing",
+      "providers": [
+        "Amazon Web Services",
+        "Google",
+        "Google Cloud",
+        "Microsoft Azure"
+      ],
+      "record_count": 15,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_cloudfront",
+        "azure_front_door",
+        "google_cloud_customer_ranges",
+        "google_owned_network"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2001%3A3fc6%3A20%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2001%3A4860%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2600%3A1900%3A4000%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3A1000%3A4%3A%3A5e1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=3.160.0.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=4.145.22.161&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=8.34.208.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=8.8.4.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=15169&prefix=2001%3A4860%3A%3A%2F32&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=15169&prefix=8.8.4.0%2F24&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=3.128.0.0%2F10&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=396982&prefix=2600%3A1900%3A4000%3A%3A%2F44&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=396982&prefix=8.34.208.0%2F24&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=8075&prefix=2603%3A1000%3A%3A%2F25&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=8075&prefix=4.144.0.0%2F12&sourceapp=cloud-cdn-cache"
+        }
+      ],
+      "statuses": {
+        "announced": 7,
+        "not_announced": 1,
+        "valid": 7
+      }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/peeringdb-relationships.20260805.csv",
+          "path": "data/network/peeringdb-relationships.20260805.csv",
+          "source": "data/network/peeringdb-relationships.20260805.json"
+        }
+      },
+      "evidence_types": {
+        "facility_registration": 498,
+        "ix_membership": 1031
+      },
+      "files": {
+        "json": {
+          "path": "data/network/peeringdb-relationships.20260805.json",
+          "sha256": "5392a828a976ebc93d25e8a7853abdfd2f1a22b8119388fdb28cf4222bc23e81"
+        },
+        "report": {
+          "path": "data/network/peeringdb-relationships.20260805.report.json",
+          "sha256": "46f9c81fb25798cbb1e133e83b824d36ff0dd7eab53c3f5f28dd3fdb83008c59"
+        }
+      },
+      "layer": "peeringdb-relationships",
+      "providers": [
+        "Amazon Web Services",
+        "Google",
+        "Google Cloud",
+        "Microsoft"
+      ],
+      "record_count": 1529,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_network",
+        "google_cloud_network",
+        "google_network",
+        "microsoft_network"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "registry"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/network/peeringdb/provider-relationships-pilot.20260805.json",
+          "sha256": "af01e495da3a1a6f462033393a03371e4cc89349cc7ec7ff8044eacca80ad3b9",
+          "source_published_at": null,
+          "source_url": "https://www.peeringdb.com/api/netfac"
+        },
+        {
+          "raw_source_ref": "data/raw/network/peeringdb/provider-relationships-pilot.20260805.json",
+          "sha256": "af01e495da3a1a6f462033393a03371e4cc89349cc7ec7ff8044eacca80ad3b9",
+          "source_published_at": null,
+          "source_url": "https://www.peeringdb.com/api/netixlan"
+        }
+      ],
+      "statuses": {
+        "not_operational": 5,
+        "operational": 1026,
+        "registered": 498
+      }
+    }
+  ],
+  "network_evidence_record_count": 3125,
+  "network_evidence_schema": {
+    "path": "schema/network-evidence.schema.json",
+    "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",
+    "version": "1.0.0"
+  },
   "quarantine": {
     "audit_path": "data/quarantine/audit.20260804.json",
     "audit_sha256": "04436c3e7bf4b0864e70bd0be95d4c95ef9e314eb32d63a18f514436ae4beadc"
   },
-  "record_count": 15726,
+  "record_count": 27378,
   "schema": {
     "path": "schema/location.schema.json",
     "sha256": "dbd1065a59c6ba5c7bbf6de3042f8158d2112b4637ce40fb6315cc3d1558cd12",
     "version": "1.2.0"
   },
-  "scope_note": "Canonical counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and are excluded from record_count.",
+  "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
   "view_count": 5,
   "views": [
     {

@@ -1,0 +1,121 @@
+{
+  "accepted_record_count": 11659,
+  "article_country_counts": {
+    "Google GGC": 215,
+    "Meta FNA": 204,
+    "Netflix OCA": 181
+  },
+  "coordinate_methods": {
+    "geocoded": 11659
+  },
+  "country_coverage_gaps": {
+    "Google GGC": 17,
+    "Meta FNA": 21,
+    "Netflix OCA": 0
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/observations/cdn-mapping-cities.20260805.csv",
+      "path": "data/observations/cdn-mapping-cities.20260805.csv",
+      "source": "data/observations/cdn-mapping-cities.20260805.geojson"
+    }
+  },
+  "entity_types": {
+    "observed_presence": 11659
+  },
+  "folder_counts": {
+    "Google GGC (Part1)": 2000,
+    "Google GGC (Part2)": 802,
+    "Google GGC (Part3)": 2000,
+    "Meta FNA (Part1)": 2000,
+    "Meta FNA (Part2)": 736,
+    "Netflix OCA (Part1)": 2000,
+    "Netflix OCA (Part2)": 2000,
+    "Netflix OCA (Part3)": 125
+  },
+  "folders_at_2000_record_limit": [
+    "Google GGC (Part1)",
+    "Google GGC (Part3)",
+    "Meta FNA (Part1)",
+    "Netflix OCA (Part1)",
+    "Netflix OCA (Part2)"
+  ],
+  "generated_files": [
+    "data/observations/cdn-mapping-cities.20260805.geojson"
+  ],
+  "geometry_null": 0,
+  "geometry_policy": "Coordinates are MaxMind city-geolocation evidence and never facility or POP coordinates.",
+  "layer": "cdn-mapping-cities",
+  "license_status": "not stated in source; review before downstream redistribution",
+  "lifecycle_statuses": {
+    "unknown": 11659
+  },
+  "missing_city_counts": {
+    "Netflix OCA": 599
+  },
+  "parser": "update_observation_cities.py",
+  "partiality_basis": "The public map contains only Google GGC, Meta FNA, and Netflix OCA. Its Google and Meta country counts are lower than the article aggregates, and several folders contain exactly 2,000 placemarks.",
+  "provider_counts": {
+    "Facebook/Meta FNA": 2736,
+    "Google GGC": 4802,
+    "Netflix OCA": 4121
+  },
+  "provider_raw_counts": {
+    "Google GGC": 4802,
+    "Meta FNA": 2736,
+    "Netflix OCA": 4125
+  },
+  "raw_record_count": 11663,
+  "raw_source_ref": "data/raw/observations/global-cdn-mapping.20260805.kml",
+  "record_count": 11659,
+  "rejected_record_count": 4,
+  "rejected_records": [
+    {
+      "asn": "0.0",
+      "folder": "Netflix OCA (Part1)",
+      "position": 1,
+      "reason": "invalid_asn"
+    },
+    {
+      "asn": "0.0",
+      "folder": "Netflix OCA (Part1)",
+      "position": 2,
+      "reason": "invalid_asn"
+    },
+    {
+      "asn": "0.0",
+      "folder": "Netflix OCA (Part1)",
+      "position": 3,
+      "reason": "invalid_asn"
+    },
+    {
+      "asn": "0.0",
+      "folder": "Netflix OCA (Part1)",
+      "position": 4,
+      "reason": "invalid_asn"
+    }
+  ],
+  "rejections_by_reason": {
+    "invalid_asn": 4
+  },
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "source_sha256": "1653601361be84d557f8f1ef55a70c65092ee465959b7ec673125e9bce4c6bef",
+  "source_url": "https://www.google.com/maps/d/kml?mid=1AHRJ8wfAVk2nHYWuO8Mojs0zp__9V0o&forcekml=1",
+  "unique_asn_counts": {
+    "Google GGC": 3344,
+    "Meta FNA": 1896,
+    "Netflix OCA": 2902
+  },
+  "unique_city_country_counts": {
+    "Google GGC": 2814,
+    "Meta FNA": 1622,
+    "Netflix OCA": 2357
+  },
+  "valid_country_counts": {
+    "Google GGC": 198,
+    "Meta FNA": 183,
+    "Netflix OCA": 181
+  }
+}

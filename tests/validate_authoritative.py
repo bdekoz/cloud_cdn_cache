@@ -35,7 +35,7 @@ LAYERS = {
     "jd/mainland-regions-and-zones": 14,
     "tianyi/vpc-resource-pools": 63,
     "chindata/data-centers": 4,
-    "observations/cdn-mapping": 13638,
+    "observations/cdn-mapping": 13631,
 }
 
 VIEWS = {
@@ -226,8 +226,25 @@ def validate_semantics() -> None:
     assert reports["chindata/data-centers"]["directory_code_count"] == 4
     assert reports["chindata/data-centers"]["facility_location_count"] == 0
     observations = reports["observations/cdn-mapping"]
-    assert observations["record_count"] == observations["geometry_null"] == 13638
-    assert observations["provider_counts"]["Apple"] == 974
+    assert observations["record_count"] == observations["geometry_null"] == 13631
+    assert observations["accepted_record_count"] == 13631
+    assert observations["raw_record_count"] == 13638
+    assert observations["rejected_record_count"] == 7
+    assert observations["rejections_by_reason"] == {"invalid_asn": 7}
+    assert {row["asn"] for row in observations["rejected_records"]} == {"0"}
+    assert {row["dataset"] for row in observations["rejected_records"]} == {
+        "Google GGC", "Netflix OCA", "Facebook/Meta FNA", "Akamai",
+        "Microsoft CDN", "Apple", "AWS CloudFront",
+    }
+    assert observations["provider_counts"] == {
+        "Akamai": 1093,
+        "Amazon Web Services": 216,
+        "Apple": 973,
+        "Google": 4246,
+        "Meta": 2547,
+        "Microsoft": 1654,
+        "Netflix": 2902,
+    }
     assert observations["license_status"].startswith("not stated")
 
 
@@ -268,7 +285,9 @@ def validate_assessments() -> None:
 def validate_manifest() -> None:
     manifest = json.loads((ROOT / "data/manifest.20260804.json").read_text(encoding="utf-8"))
     assert manifest["layer_count"] == 19
-    assert manifest["record_count"] == 15113
+    assert manifest["record_count"] == 15106
+    assert manifest["network_evidence_layer_count"] == 0
+    assert manifest["network_evidence_record_count"] == 0
     assert manifest["view_count"] == 5
     assert sum(view["record_count"] for view in manifest["views"]) == 160
     assert manifest["schema"]["version"] == "1.2.0"

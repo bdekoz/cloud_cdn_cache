@@ -8,13 +8,13 @@ This report records the implemented result. The original [`assessment.20260804.m
 
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.
 
-The current consolidated manifest contains 15,726 canonical records across 27 layers. Five mainland views contain 160 repeated source-layer IDs and are deliberately excluded from that count. Three assessment JSON files record providers whose public evidence is aggregate, product-scoped, or insufficient for canonical locations.
+The current consolidated manifest contains 27,378 location-schema records across 28 layers and 3,125 separately counted network-evidence records across three layers. Five mainland views contain 160 repeated source-layer IDs and are deliberately excluded from the location count. Three assessment JSON files record providers whose public evidence is aggregate, product-scoped, or insufficient for canonical locations.
 
 The main improvement is semantic, not merely numeric: provider declarations, current lifecycle, access restriction, jurisdiction, product scope, inferred or inherited coordinates, independent observations, partial directories, aggregate marketing coverage, and quarantined claims are now distinct.
 
 ## Schema and publication model
 
-Schema 1.1.0 added parent relationships, mainland/Hong Kong/Macao/Taiwan jurisdiction, access state, service scope, coordinate CRS, transformed-coordinate support, and cloud resource pools. Schema 1.2.0 adds CoreWeave's provider-defined `super_region` and general `restricted` access. The contract accepts both record versions so older snapshots remain historically accurate. Together these contracts prevent several common errors:
+Location schema 1.1.0 added parent relationships, mainland/Hong Kong/Macao/Taiwan jurisdiction, access state, service scope, coordinate CRS, transformed-coordinate support, and cloud resource pools. Schema 1.2.0 adds CoreWeave's provider-defined `super_region` and general `restricted` access. The contract accepts both record versions so older snapshots remain historically accurate. A separate network-evidence schema 1.0.0 represents prefixes, routing origins, RPKI state, facility registrations, IX memberships, and future measurements without geometry. Together these contracts prevent several common errors:
 
 - treating Hong Kong as mainland China;
 - treating a dedicated financial cloud as a public region;
@@ -22,10 +22,11 @@ Schema 1.1.0 added parent relationships, mainland/Hong Kong/Macao/Taiwan jurisdi
 - turning a named resource pool into an invented region/AZ hierarchy;
 - serializing Chinese GCJ-02 or BD-09 coordinates as WGS 84 without transformation;
 - double-counting derived mainland views as new infrastructure.
+- treating a prefix, origin ASN, registry relationship, or latency result as a physical POP.
 
 Every generated record has stable identity, source URL, immutable raw reference and SHA-256, source/retrieval dates, lifecycle, source scope, jurisdiction, access state, service scope, precision, coordinate method/CRS, and confidence.
 
-Canonical normalized layers are retained as GeoJSON only. CSV is a lossless on-demand projection: a jq program follows the schema-required field order, restores coordinates from point geometry, and compactly encodes arrays and objects. The Makefile can generate all projections or one named target. The manifest hashes only retained GeoJSON and reports and records the CSV source and generation command separately. Evidence-bearing raw, recovered, and historical CSVs are unaffected.
+Canonical normalized location layers are retained as GeoJSON; network layers are retained as `NetworkEvidenceCollection` JSON. CSV is a lossless on-demand projection: jq follows the applicable schema-required field order, restores location coordinates from point geometry, and compactly encodes arrays and objects. The Makefile can generate all projections or one named target. The manifest hashes only retained canonical JSON/GeoJSON and reports and records the CSV source and generation command separately. Evidence-bearing raw, recovered, and historical CSVs are unaffected.
 
 ## Canonical coverage
 
@@ -49,7 +50,8 @@ Canonical normalized layers are retained as GeoJSON only. CSV is a lossless on-d
 | JD Cloud | 14 | 4 mainland regions + 10 zones | 14 null |
 | Tianyi Cloud | 63 | 40 regional + 23 AZ-capable VPC resource pools | 63 null |
 | Chindata | 4 | Partial current data-center directory code | 4 null |
-| June 2026 observation layer | 13,638 | Positive provider/ASN TLS observation | 13,638 null |
+| June 2026 ASN observation layer | 13,631 | Valid positive provider/ASN TLS observation; seven raw AS0 rows rejected | 13,631 null |
+| June 2026 partial city observations | 11,659 | Provider/ASN/MaxMind city geolocation from public map | 11,659 points; none is a facility coordinate |
 | CoreWeave core cloud | 63 | 7 super regions + 56 availability zones | 63 null |
 | AWS core cloud | 147 | 39 regions + 108 itemized stable AZ IDs | 147 null |
 | Google Cloud core | 173 | 43 regions + 130 availability zones | 173 null |
@@ -169,7 +171,19 @@ This boundary avoids both security harm and false precision: an unauthorized lis
 
 The Meta recovery restores hostname, IP, ASN, AS name, address family, and airport/city identity from the original 2024 source export. Netflix recovery reconstructs only hostnames justified by retained simplified fields and labels partial reconstructions.
 
-The June 2026 observation layer contributes 13,638 provider/ASN TLS observations: Google 4,247; Netflix 2,903; Meta 2,548; Microsoft 1,655; Akamai 1,094; Apple 974; and CloudFront 217. The source does not publish city/IP detail in the normalized inputs, so geometry remains null.
+The June 2026 provider CSVs contain 13,638 raw rows, but each of the seven files contains one invalid AS0 row with a blank name. The corrected layer preserves the raw total and rejects those rows, contributing 13,631 valid provider/ASN TLS observations: Google 4,246; Netflix 2,902; Meta 2,547; Microsoft 1,654; Akamai 1,093; Apple 973; and CloudFront 216. These records remain null-geometry ASN evidence.
+
+The separately retained public KML contributes 11,659 valid MaxMind city-coordinate observations after rejecting four Netflix AS0 placemarks: Google GGC 4,802; Meta FNA 2,736; and Netflix OCA 4,121. It is explicitly partial. Google and Meta cover 198 and 183 countries in the KML versus article aggregates of 215 and 204; Netflix matches 181. Five folders contain exactly 2,000 rows, 599 accepted Netflix records lack a usable city, and Akamai, Microsoft, Apple, and CloudFront are absent. Coordinates are city geolocation evidence, not POP/facility coordinates, and source redistribution rights remain unresolved.
+
+## Network-context implementation
+
+The non-spatial provider-prefix layer contributes 1,581 records: 150 GLOBAL CloudFront, 114 broad Google-owned, 1,091 Google Cloud customer-resource, and 226 Azure Front Door frontend ranges. It contains 1,337 IPv4 and 244 IPv6 declarations. Feed scope is preserved, and no prefix is converted into geometry.
+
+The deterministic RIPEstat pilot selects one IPv4 and one IPv6 prefix from each of four feed scopes. Eight sampled route observations and seven RPKI validations are retained. Seven samples returned announced, RPKI-valid origin/prefix pairs. One CloudFront IPv6 sample was not announced; the negative is limited to that sampled address and time. RIPEstat geolocation was deliberately excluded because it would reuse MaxMind rather than independently corroborate the study.
+
+The bounded PeeringDB pilot covers four returned provider origins—AS8075, AS15169, AS16509, and AS396982—and retains 498 facility registrations plus 1,031 IX memberships. These records assert only what the registry says about each network ASN. They do not prove CDN appliance presence, facility ownership, or a physical provider site. PeeringDB's AUP remains applicable and requires review before broader reuse or redistribution.
+
+RIPE Atlas has not been executed. No provider-approved targets or Atlas credentials/credits are available. A future run must first fix its target list, probe sampling, IPv4/IPv6 and DNS context, rate/repetition, controls, credit budget, and publication terms. The detailed implementation and gate are recorded in [`network-evidence.20260805.md`](network-evidence.20260805.md).
 
 Unsupported Baidu global claims and an uncited Alibaba estimate layer remain quarantined with hashes. They are preserved as historical evidence but are not presented as current coverage.
 
@@ -205,8 +219,9 @@ Unsupported Baidu global claims and an uncited Alibaba estimate layer remain qua
 
 ### Priority 4: coordinates, registries, and licensing
 
-- Use licensed PeeringDB/IX/facility evidence as linked observations, not ownership proof.
-- Add RIPEstat/RPKI and reproducible latency measurements at ASN/site-ID level where useful.
+- Keep the implemented PeeringDB pilot bounded and linked as registry evidence; obtain a clear bulk reuse/redistribution basis before expanding it.
+- Refresh provider-prefix and RIPEstat/RPKI layers as time-versioned evidence without converting them into sites.
+- Execute RIPE Atlas only after approved targets, credentials/credits, and the reviewed measurement specification are available.
 - Complete a source-rights matrix before republishing retained provider or independent raw snapshots outside this repository.
 
 ## Verification status
@@ -216,9 +231,11 @@ The suite validates schema conformance, coordinate CRS, stable IDs, parent integ
 At this assessment date:
 
 - Google validation passes for 65 edge metros and 59 data-center locations.
-- The authoritative/observation suite passes for 14,989 records across 17 non-Google canonical layers.
+- The authoritative/ASN-observation suite passes for 14,982 records across 17 non-Google baseline layers.
 - The hyperscaler suite passes for 613 records across eight new layers and checks mixed-date manifest generation.
-- Together with the two baseline Google layers, they comprise the 15,726 records in the 27-layer manifest.
+- The partial city-observation suite passes for 11,659 records.
+- The network suite passes for 3,125 records across provider-prefix, RIPEstat, and PeeringDB layers.
+- Together with the two baseline Google layers, the location-schema layers comprise 27,378 records across 28 layers; network evidence remains separately counted.
 - Recovery validation remains separate and passes unchanged.
 
 Recommended update flow:

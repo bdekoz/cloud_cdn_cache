@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Bundled network-info and RPKI-validation API responses for a deterministic provider-prefix sample; no geolocation endpoint is used.",
+  "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+  "retrieved_at": "2026-08-05",
+  "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+  "source_published_at": null,
+  "source_url": "https://stat.ripe.net/data/"
+}

@@ -19,7 +19,7 @@ Eight new canonical layers add 613 provider-declared records:
 | IBM classic data centers | 42 | Stable data-center code | Kept separate from VPC region/zone totals |
 | Meta data centers | 33 | Current directory card | Lifecycle is unknown unless the directory explicitly states current status |
 
-The consolidated [`manifest.20260805.json`](../data/manifest.20260805.json) now contains 15,726 canonical records across 27 layers. Its five existing mainland views contain 160 repeated IDs and remain excluded from the canonical count.
+The hyperscaler implementation added 613 records to the then-current location inventory. Subsequent observation QA rejected seven invalid AS0 rows and added the separate 11,659-row partial city layer; the current [`manifest.20260805.json`](../data/manifest.20260805.json) therefore contains 27,378 location-schema records across 28 layers plus 3,125 separately counted network-evidence records. Its five existing mainland views contain 160 repeated IDs and remain excluded from the location count. See [`network-evidence.20260805.md`](network-evidence.20260805.md) for that later work.
 
 All 613 new records have null geometry. Provider locality labels support country, jurisdiction, and descriptive properties, but they do not establish a WGS 84 facility point.
 

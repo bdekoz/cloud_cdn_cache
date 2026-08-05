@@ -1,0 +1,74 @@
+{
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/provider-prefixes.20260805.csv",
+      "path": "data/network/provider-prefixes.20260805.csv",
+      "source": "data/network/provider-prefixes.20260805.json"
+    }
+  },
+  "evidence_types": {
+    "provider_prefix": 1581
+  },
+  "family_counts": {
+    "ipv4": 1337,
+    "ipv6": 244
+  },
+  "generated_files": [
+    "data/network/provider-prefixes.20260805.json"
+  ],
+  "layer": "provider-prefixes",
+  "parser": "update_network.py:prefixes",
+  "provider_counts": {
+    "Amazon Web Services": 150,
+    "Google": 114,
+    "Google Cloud": 1091,
+    "Microsoft Azure": 226
+  },
+  "record_count": 1581,
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "scope_counts": {
+    "aws_cloudfront_global": 150,
+    "azure_front_door_frontend": 226,
+    "google_cloud_customer": 1091,
+    "google_owned": 114
+  },
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "source_terms_status": "Official public operational feeds retained with source-specific terms; repository licensing does not automatically relicense them.",
+  "sources": [
+    {
+      "raw_source_ref": "data/raw/network/aws/ip-ranges.20260805.json",
+      "sha256": "32b566893e8379cc34efed72c5c86a0555634cf10b0f6c4fafb834fe054d3a59",
+      "source_published_at": "2026-08-04",
+      "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+    },
+    {
+      "raw_source_ref": "data/raw/network/google/goog.20260805.json",
+      "sha256": "49651f705f9ac1ab55a7a7d8dc82d075acbdfb78deffc2d2b8cc0af65540149e",
+      "source_published_at": "2026-08-04",
+      "source_url": "https://www.gstatic.com/ipranges/goog.json"
+    },
+    {
+      "raw_source_ref": "data/raw/network/google/cloud.20260805.json",
+      "sha256": "855a52f1a165852ced727bfc55641ec92cd6721c3cbd255a15380a74d8274506",
+      "source_published_at": "2026-08-04",
+      "source_url": "https://www.gstatic.com/ipranges/cloud.json"
+    },
+    {
+      "raw_source_ref": "data/raw/network/microsoft/service-tags-download.20260805.html",
+      "sha256": "2108a1c3bd6e2139f00dcd53c8223b48b326a613cf9519121b6940e9fdd3b124",
+      "source_published_at": "2026-08-04",
+      "source_url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519"
+    },
+    {
+      "raw_source_ref": "data/raw/network/microsoft/service-tags-public.20260805.json",
+      "sha256": "abf68a1296deff23569777b68c3b048b4f3207c051239ba2d6c8e778310edfbf",
+      "source_published_at": "2026-08-04",
+      "source_url": "https://download.microsoft.com/download/7/1/d/71d86715-5596-4529-9b13-da13a5de5b63/ServiceTags_Public_20260803.json"
+    }
+  ],
+  "statuses": {
+    "published": 1581
+  }
+}

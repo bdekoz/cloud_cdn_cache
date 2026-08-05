@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+from collections import Counter
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -52,19 +53,43 @@ def raw_path(dataset: str) -> Path:
     return REPO_ROOT / "data/raw/observations" / DATASETS[dataset]["file"]
 
 
-def build_records(retrieved_at: str) -> list[dict[str, Any]]:
+def build_records(retrieved_at: str) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
     records = []
+    source_stats: dict[str, dict[str, Any]] = {}
     for dataset, config in DATASETS.items():
         path = raw_path(dataset)
         digest = sha256(path)
         with path.open(encoding="utf-8-sig", newline="") as handle:
             rows = list(csv.DictReader(handle))
-        for row in rows:
+        rejected: list[dict[str, Any]] = []
+        accepted = 0
+        for row_number, row in enumerate(rows, start=2):
             asn = row["asn"].strip()
             as_name = row["asname"].strip()
+            try:
+                asn_number = int(asn)
+            except ValueError:
+                asn_number = 0
+            if not 1 <= asn_number <= 4_294_967_295:
+                rejected.append({
+                    "asn": asn,
+                    "as_name": as_name,
+                    "reason": "invalid_asn",
+                    "row_number": row_number,
+                })
+                continue
+            if not as_name:
+                rejected.append({
+                    "asn": asn,
+                    "as_name": as_name,
+                    "reason": "blank_as_name",
+                    "row_number": row_number,
+                })
+                continue
+            accepted += 1
             records.append(canonical_record(
                 schema_version=SCHEMA_VERSION,
-                record_id=f"observation:observed_presence:{slug(dataset)}-{asn}",
+                record_id=f"observation:observed_presence:{slug(dataset)}-{asn_number}",
                 aliases=[],
                 provider=config["provider"],
                 service="cdn_mapping_observation",
@@ -74,8 +99,8 @@ def build_records(retrieved_at: str) -> list[dict[str, Any]]:
                 access_status="not_applicable",
                 service_scope=["tls_measurement"],
                 source_collection="anurag_bhatia_cdn_mapping_2026",
-                source_record_id=asn,
-                name=f"AS{asn} — {as_name}",
+                source_record_id=str(asn_number),
+                name=f"AS{asn_number} — {as_name}",
                 site_code=None,
                 lifecycle_status="unknown",
                 source_scope="observed",
@@ -99,7 +124,7 @@ def build_records(retrieved_at: str) -> list[dict[str, Any]]:
                 confidence="medium",
                 properties={
                     "as_name": as_name,
-                    "asn": int(asn),
+                    "asn": asn_number,
                     "dataset": config["label"],
                     "download_url": f"{DOWNLOAD_BASE}/{dataset}.csv",
                     "measurement_method": "routed-prefix TLS certificate scan",
@@ -108,7 +133,13 @@ def build_records(retrieved_at: str) -> list[dict[str, Any]]:
                     "tls_domains": config["tls_domains"],
                 },
             ))
-    return records
+        source_stats[dataset] = {
+            "accepted_record_count": accepted,
+            "raw_record_count": len(rows),
+            "rejected_record_count": len(rejected),
+            "rejected_records": rejected,
+        }
+    return records, source_stats
 
 
 def main() -> None:
@@ -126,6 +157,7 @@ def main() -> None:
         source_published_at=PUBLISHED_AT,
         notes="Methodology page for the June 2026 TLS-certificate scan. No explicit data license was found; redistribution rights require review.",
     )
+    records, source_stats = build_records(args.retrieved_at)
     source_manifest = []
     for dataset, config in DATASETS.items():
         path = raw_path(dataset)
@@ -137,9 +169,16 @@ def main() -> None:
             source_published_at=PUBLISHED_AT,
             notes="Positive ASN-level CDN-presence observations from the June 2026 study. No explicit data license was found; redistribution rights require review.",
         )
-        with path.open(encoding="utf-8-sig", newline="") as handle:
-            count = sum(1 for _ in csv.DictReader(handle))
-        source_manifest.append({"dataset": config["label"], "raw_source_ref": repo_ref(path), "record_count": count, "sha256": sha256(path), "source_url": download_url})
+        stats = source_stats[dataset]
+        source_manifest.append({
+            "accepted_record_count": stats["accepted_record_count"],
+            "dataset": config["label"],
+            "raw_record_count": stats["raw_record_count"],
+            "raw_source_ref": repo_ref(path),
+            "rejected_record_count": stats["rejected_record_count"],
+            "sha256": sha256(path),
+            "source_url": download_url,
+        })
     asn_wise_path = raw_dir / "asn-wise-cdn-mapping.202606.csv"
     if asn_wise_path.exists():
         write_provenance(
@@ -147,7 +186,11 @@ def main() -> None:
             retrieved_at=args.retrieved_at, media_type="text/csv", source_published_at=PUBLISHED_AT,
             notes="Cross-provider ASN matrix published with the study. Retained as corroborating evidence; individual provider CSVs are the normalized inputs because this matrix omits Apple.",
         )
-    records = build_records(args.retrieved_at)
+    rejected_records = [
+        {"dataset": DATASETS[dataset]["label"], **rejection}
+        for dataset, stats in source_stats.items()
+        for rejection in stats["rejected_records"]
+    ]
     report = write_layer(
         records=records, output_dir=args.output_root / "data/observations", layer_name="cdn-mapping",
         retrieved_at=args.retrieved_at, source_url=STUDY_URL, raw_path=study_path,
@@ -156,7 +199,12 @@ def main() -> None:
             "geometry_policy": "ASN observations have null geometry; the CSVs do not contain locations.",
             "license_status": "not stated in source; review before downstream redistribution",
             "observation_date": PUBLISHED_AT,
+            "accepted_record_count": len(records),
             "provider_counts": {config["provider"]: sum(row["provider"] == config["provider"] for row in records) for config in DATASETS.values()},
+            "raw_record_count": sum(stats["raw_record_count"] for stats in source_stats.values()),
+            "rejected_record_count": len(rejected_records),
+            "rejections_by_reason": dict(sorted(Counter(row["reason"] for row in rejected_records).items())),
+            "rejected_records": rejected_records,
             "source_files": source_manifest,
         },
     )

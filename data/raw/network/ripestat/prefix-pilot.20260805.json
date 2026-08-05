@@ -1,0 +1,529 @@
+{
+  "queries": [
+    {
+      "declared_prefix": "3.160.0.0/14",
+      "feed_scope": "aws_cloudfront_global",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=3.160.0.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [
+              "16509"
+            ],
+            "prefix": "3.128.0.0/10"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 13,
+          "query_id": "20260805100919-c327c9fc-5239-492d-b0f3-f35c178ab9a9",
+          "see_also": [],
+          "server_id": "app198",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:19.499865",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:2d4d4591cfecf54009b5",
+      "provider": "Amazon Web Services",
+      "rpki_validation": [
+        {
+          "asn": 16509,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=3.128.0.0%2F10&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.4-2026.07.30",
+            "cached": false,
+            "data": {
+              "prefix": "3.128.0.0/10",
+              "resource": "16509",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 10,
+                  "origin": "16509",
+                  "prefix": "3.128.0.0/10",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1361814",
+            "process_time": 59,
+            "query_id": "20260805100919-eac4b56e-3b45-4050-85af-b5f010effc0d",
+            "see_also": [],
+            "server_id": "app172",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-08-05T10:09:19.996682",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "3.160.0.1",
+      "service": "aws_cloudfront"
+    },
+    {
+      "declared_prefix": "2001:3fc6:20::/43",
+      "feed_scope": "aws_cloudfront_global",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2001%3A3fc6%3A20%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [],
+            "prefix": ""
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 13,
+          "query_id": "20260805100920-8793a590-edbb-413c-8eaa-a50a0681cc39",
+          "see_also": [],
+          "server_id": "app191",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:20.450727",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:1708b9ca4258d153a6c8",
+      "provider": "Amazon Web Services",
+      "rpki_validation": [],
+      "sampled_address": "2001:3fc6:20::1",
+      "service": "aws_cloudfront"
+    },
+    {
+      "declared_prefix": "4.145.22.160/29",
+      "feed_scope": "azure_front_door_frontend",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=4.145.22.161&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [
+              "8075"
+            ],
+            "prefix": "4.144.0.0/12"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 13,
+          "query_id": "20260805100920-30c2aec8-0be7-49b2-8cd6-761c0f4b0e3b",
+          "see_also": [],
+          "server_id": "app186",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:20.919589",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:13bfbd1074b5feb92be7",
+      "provider": "Microsoft Azure",
+      "rpki_validation": [
+        {
+          "asn": 8075,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=8075&prefix=4.144.0.0%2F12&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.4-2026.07.30",
+            "cached": false,
+            "data": {
+              "prefix": "4.144.0.0/12",
+              "resource": "8075",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 12,
+                  "origin": "8075",
+                  "prefix": "4.144.0.0/12",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1361814",
+            "process_time": 57,
+            "query_id": "20260805100922-118bf57f-8702-48e7-b189-826620a11f05",
+            "see_also": [],
+            "server_id": "app178",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-08-05T10:09:22.160365",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "4.145.22.161",
+      "service": "azure_front_door"
+    },
+    {
+      "declared_prefix": "2603:1000:4::5e0/123",
+      "feed_scope": "azure_front_door_frontend",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3A1000%3A4%3A%3A5e1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [
+              "8075"
+            ],
+            "prefix": "2603:1000::/25"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 13,
+          "query_id": "20260805100922-2f2938f5-0641-4677-a5b1-50dc6e936d51",
+          "see_also": [],
+          "server_id": "app190",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:22.606043",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:1e21ee5863b854d02922",
+      "provider": "Microsoft Azure",
+      "rpki_validation": [
+        {
+          "asn": 8075,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=8075&prefix=2603%3A1000%3A%3A%2F25&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.4-2026.07.30",
+            "cached": false,
+            "data": {
+              "prefix": "2603:1000::/25",
+              "resource": "8075",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 25,
+                  "origin": "8075",
+                  "prefix": "2603:1000::/25",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1361814",
+            "process_time": 55,
+            "query_id": "20260805100923-cbe3b476-704e-4b97-ada2-e865e5c9bee4",
+            "see_also": [],
+            "server_id": "app163",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-08-05T10:09:23.101053",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2603:1000:4::5e1",
+      "service": "azure_front_door"
+    },
+    {
+      "declared_prefix": "8.34.208.0/23",
+      "feed_scope": "google_cloud_customer",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=8.34.208.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [
+              "396982"
+            ],
+            "prefix": "8.34.208.0/24"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 11,
+          "query_id": "20260805100923-72d2349a-6991-40ae-abbe-f20159e32783",
+          "see_also": [],
+          "server_id": "app189",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:23.549666",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:1e870bdf6d54f577412c",
+      "provider": "Google Cloud",
+      "rpki_validation": [
+        {
+          "asn": 396982,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=396982&prefix=8.34.208.0%2F24&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.4-2026.07.30",
+            "cached": false,
+            "data": {
+              "prefix": "8.34.208.0/24",
+              "resource": "396982",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 24,
+                  "origin": "396982",
+                  "prefix": "8.34.208.0/21",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1361814",
+            "process_time": 52,
+            "query_id": "20260805100923-4529f8d9-3426-49f7-9858-1fca6d2929c5",
+            "see_also": [],
+            "server_id": "app160",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-08-05T10:09:24.033525",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "8.34.208.1",
+      "service": "google_cloud_customer_ranges"
+    },
+    {
+      "declared_prefix": "2600:1900:4000::/44",
+      "feed_scope": "google_cloud_customer",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2600%3A1900%3A4000%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [
+              "396982"
+            ],
+            "prefix": "2600:1900:4000::/44"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 16,
+          "query_id": "20260805100924-0827f3cf-c632-4c87-9367-fdd2825859a5",
+          "see_also": [],
+          "server_id": "app173",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:24.491355",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:d7706e082be6781ef6de",
+      "provider": "Google Cloud",
+      "rpki_validation": [
+        {
+          "asn": 396982,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=396982&prefix=2600%3A1900%3A4000%3A%3A%2F44&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.4-2026.07.30",
+            "cached": false,
+            "data": {
+              "prefix": "2600:1900:4000::/44",
+              "resource": "396982",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 44,
+                  "origin": "396982",
+                  "prefix": "2600:1900:4000::/44",
+                  "validity": "valid"
+                },
+                {
+                  "max_length": 31,
+                  "origin": "396982",
+                  "prefix": "2600:1900::/31",
+                  "validity": "invalid_length"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1361814",
+            "process_time": 53,
+            "query_id": "20260805100924-39c64a9d-5981-41bd-9305-4b4319c7a114",
+            "see_also": [],
+            "server_id": "app162",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-08-05T10:09:24.984629",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2600:1900:4000::1",
+      "service": "google_cloud_customer_ranges"
+    },
+    {
+      "declared_prefix": "8.8.4.0/24",
+      "feed_scope": "google_owned",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=8.8.4.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [
+              "15169"
+            ],
+            "prefix": "8.8.4.0/24"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 16,
+          "query_id": "20260805100925-5cc03eec-d607-40dc-91d3-b4f05d3099d3",
+          "see_also": [],
+          "server_id": "app174",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:26.004383",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:83b0ebf3e3a84fa05877",
+      "provider": "Google",
+      "rpki_validation": [
+        {
+          "asn": 15169,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=15169&prefix=8.8.4.0%2F24&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.4-2026.07.30",
+            "cached": true,
+            "data": {
+              "prefix": "8.8.4.0/24",
+              "resource": "15169",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 24,
+                  "origin": "15169",
+                  "prefix": "8.8.4.0/24",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1361814",
+            "process_time": 7,
+            "query_id": "20260805100926-6979ac90-574d-41cd-8bfa-7c4a1fe2dbed",
+            "see_also": [],
+            "server_id": "app163",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-08-05T10:09:26.460000",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "8.8.4.1",
+      "service": "google_owned_network"
+    },
+    {
+      "declared_prefix": "2001:4860::/32",
+      "feed_scope": "google_owned",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2001%3A4860%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.4-2026.07.30",
+          "cached": false,
+          "data": {
+            "asns": [
+              "15169"
+            ],
+            "prefix": "2001:4860::/32"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1361814",
+          "process_time": 10,
+          "query_id": "20260805100926-1338412e-254a-4f01-9fd0-80cdb5944320",
+          "see_also": [],
+          "server_id": "app195",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-08-05T10:09:26.918743",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:c9a6eee03dbba7b6e5d9",
+      "provider": "Google",
+      "rpki_validation": [
+        {
+          "asn": 15169,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=15169&prefix=2001%3A4860%3A%3A%2F32&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.4-2026.07.30",
+            "cached": false,
+            "data": {
+              "prefix": "2001:4860::/32",
+              "resource": "15169",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 32,
+                  "origin": "15169",
+                  "prefix": "2001:4860::/32",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1361814",
+            "process_time": 146,
+            "query_id": "20260805100927-342f8e56-a466-4154-8ee8-24b1b4decac8",
+            "see_also": [],
+            "server_id": "app178",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-08-05T10:09:27.570118",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2001:4860::1",
+      "service": "google_owned_network"
+    }
+  ],
+  "retrieved_at": "2026-08-05",
+  "sample_per_family": 1,
+  "sample_policy": "For each retained feed scope and IP family, sort canonical prefixes by network address/prefix length and query the first N. Query one address inside each selected prefix.",
+  "sourceapp": "cloud-cdn-cache"
+}

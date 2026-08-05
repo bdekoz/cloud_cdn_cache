@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Bounded PeeringDB research snapshot for four sampled provider origin ASNs. PeeringDB AUP applies; registered facility/IX relationships do not prove CDN presence or ownership.",
+  "raw_source_ref": "data/raw/network/peeringdb/provider-relationships-pilot.20260805.json",
+  "retrieved_at": "2026-08-05",
+  "sha256": "af01e495da3a1a6f462033393a03371e4cc89349cc7ec7ff8044eacca80ad3b9",
+  "source_published_at": null,
+  "source_url": "https://www.peeringdb.com/api/"
+}

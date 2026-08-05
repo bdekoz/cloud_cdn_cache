@@ -1,0 +1,41 @@
+{
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/ripestat-routing.20260805.csv",
+      "path": "data/network/ripestat-routing.20260805.csv",
+      "source": "data/network/ripestat-routing.20260805.json"
+    }
+  },
+  "evidence_types": {
+    "routing_origin": 8,
+    "rpki_validation": 7
+  },
+  "generated_files": [
+    "data/network/ripestat-routing.20260805.json"
+  ],
+  "layer": "ripestat-routing",
+  "parser": "update_network.py:ripestat",
+  "provider_counts": {
+    "Amazon Web Services": 3,
+    "Google": 4,
+    "Google Cloud": 4,
+    "Microsoft Azure": 4
+  },
+  "provider_prefix_record_count": 1581,
+  "queried_prefix_count": 8,
+  "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+  "record_count": 15,
+  "retrieved_at": "2026-08-05",
+  "sample_per_family": 1,
+  "sample_policy": "For each retained feed scope and IP family, sort canonical prefixes by network address/prefix length and query the first N. Query one address inside each selected prefix.",
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "source_url": "https://stat.ripe.net/data/",
+  "sourceapp": "cloud-cdn-cache",
+  "statuses": {
+    "announced": 7,
+    "not_announced": 1,
+    "valid": 7
+  }
+}

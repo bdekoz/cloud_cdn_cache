@@ -2,7 +2,7 @@
 
 Date: 2026-08-04; updated 2026-08-05
 
-This document explains the assessment, recovery, schema evolution, provider refreshes, hyperscaler coverage review, mainland-China cloud work, separate edge/CDN track, and separate colocation track. The immutable baseline is [`assessment.20260804.md`](assessment.20260804.md); the implemented result is recorded in [`reassessment.md`](reassessment.md).
+This document explains the assessment, recovery, schema evolution, provider refreshes, hyperscaler coverage review, mainland-China cloud work, separate edge/CDN and colocation tracks, independent observations, and non-spatial network evidence. The immutable baseline is [`assessment.20260804.md`](assessment.20260804.md); the implemented result is recorded in [`reassessment.md`](reassessment.md), with item 4/5 detail in [`network-evidence.20260805.md`](network-evidence.20260805.md).
 
 The central rule is to preserve what a source actually establishes—including its unit, jurisdiction, product scope, uncertainty, and omissions—rather than force every provider into a visually complete point layer.
 
@@ -17,9 +17,11 @@ Counts use the smallest defensible source unit:
 - A region and each availability zone are separate records when both stable IDs are published.
 - A named resource pool remains a resource pool if the source does not publish a region ID or individual zone children.
 - An observed provider/ASN pair is one measurement record. It is not a provider-declared POP.
+- A provider/ASN/city point from the study map is one MaxMind geolocation observation. It is not a cache or facility count.
+- A prefix, routed origin, RPKI result, facility registration, or IX membership is non-spatial network evidence and is never counted as a location.
 - A province-coverage claim or a fleet total is assessment evidence, not a location record.
 
-Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate parity. Derived mainland views repeat canonical IDs from their parent layers and are excluded from the manifest's canonical `record_count`. Raw, recovered, and historical CSVs remain evidence-bearing artifacts; only schema-normalized CSV publication snapshots with complete GeoJSON equivalents are disposable projections.
+Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate parity. Derived mainland views repeat canonical IDs from their parent layers and are excluded from the manifest's canonical `record_count`. Network-evidence records have their own count and are also excluded from the location total. Raw, recovered, and historical CSVs remain evidence-bearing artifacts; only schema-normalized CSV publication snapshots with complete canonical GeoJSON or network JSON equivalents are disposable projections.
 
 ## Schema contracts 1.1 and 1.2
 
@@ -34,6 +36,8 @@ Legacy CSV/GeoJSON pairs are counted once after checking record and coordinate p
 - `cloud_resource_pool` represents a published pool without inventing region or zone semantics.
 
 Version 1.2.0 adds `super_region` and `access_status=restricted`. The contract accepts both record versions: previously retained 1.1 snapshots are not rewritten merely because a new connector needs 1.2 semantics. New hyperscaler outputs use 1.2.
+
+[`schema/network-evidence.schema.json`](../schema/network-evidence.schema.json) is a separate JSON Schema 2020-12 contract. Its `provider_prefix`, `routing_origin`, `rpki_validation`, `facility_registration`, `ix_membership`, `measurement_run`, and `reachability_observation` types describe time-bound assertions without geometry. Prefix/ASN and ASN/facility/IX relationships are many-to-many. This separation prevents a routed CIDR, registered PeeringDB relationship, or latency result from becoming a synthetic POP.
 
 Stable provider IDs are preferred for `record_id`, `source_record_id`, and `site_code`. When no provider ID exists, identity derivation must be deterministic and documented. Retrieval dates and row numbers are never identity inputs. Updaters write one sorted canonical GeoJSON stream. The jq projection restores coordinates from geometry, orders columns by the schema's `required` array, recursively sorts object keys, and uses compact JSON for arrays and nested properties.
 
@@ -74,7 +78,7 @@ Each normalized refresh starts with an immutable response under `data/raw/<sourc
 
 Records repeat the raw path and digest, allowing every row to be tied to exact evidence. The pipeline does not publish a parse of a live page without retaining the response that was parsed.
 
-[`data/manifest.20260805.json`](../data/manifest.20260805.json) covers 27 canonical layers, five derived views, and three assessment artifacts. Canonical counts exclude views. Each entry records its real snapshot tag, so the 19 baseline layers and five views remain dated 2026-08-04 while eight hyperscaler layers are dated 2026-08-05. The manifest hashes retained GeoJSON and reports, records each un-hashed CSV target with its source and generator command, and includes the quarantine audit. The 2026-08-04 manifest remains a reproducible historical index.
+[`data/manifest.20260805.json`](../data/manifest.20260805.json) covers 28 location-schema layers, five derived views, three non-spatial network-evidence layers, and three assessment artifacts. Location counts exclude views and network records. Each entry records its real snapshot tag, so the 19 baseline layers and five views remain dated 2026-08-04 while eight hyperscaler layers, the city-observation layer, and all network layers are dated 2026-08-05. The manifest hashes retained GeoJSON/JSON and reports, records each un-hashed CSV target with its source and generator command, and includes the quarantine audit. The 2026-08-04 manifest remains a reproducible historical index.
 
 Provider documentation, APIs, independent research, and registry data can have terms different from this repository's ODC-By license. Retention in `data/raw` is not a blanket relicensing assertion; provenance files flag source-specific review requirements.
 
@@ -108,7 +112,7 @@ Minimal source repairs remain explicit: a concatenated Portugal/Romania CloudFro
 
 The detailed [`hyperscalers.20260804.md`](hyperscalers.20260804.md) review uses a coverage-priority cohort rather than claiming an exact revenue or capacity ranking: AWS, Microsoft Azure, Google Cloud, Oracle Cloud Infrastructure, Alibaba Cloud, Tencent Cloud, Huawei Cloud, IBM Cloud, Meta, and CoreWeave. Implementation is recorded separately in [`hyperscalers.implementation.20260805.md`](hyperscalers.implementation.20260805.md).
 
-The 2026-08-05 work adds 613 records across eight layers: CoreWeave 63, AWS 147, Google Cloud 173, Azure 57, OCI 45, IBM regions/universal zones 53, IBM classic data centers 42, and Meta data centers 33. The consolidated result is 15,726 records across 27 layers. Cloud regions, availability zones, super regions, owned data centers, edge POPs, embedded caches, and observations remain unlike units.
+The 2026-08-05 hyperscaler work adds 613 records across eight layers: CoreWeave 63, AWS 147, Google Cloud 173, Azure 57, OCI 45, IBM regions/universal zones 53, IBM classic data centers 42, and Meta data centers 33. With the separately counted city-observation work, the consolidated result is 27,378 location-schema records across 28 layers plus 3,125 network-evidence records. Cloud regions, availability zones, super regions, owned data centers, edge POPs, embedded caches, and observations remain unlike units.
 
 ### Schema and identity method
 
@@ -228,11 +232,23 @@ Hong Kong, Macao, and Taiwan are never silently folded into `mainland_china`. Pr
 
 ## Independent observations, recovery, and quarantine
 
-The June 2026 measurement layer contains 13,638 positive provider/ASN TLS observations. Its source inputs provide ASN and AS name, so every record has null geometry. These records are evidence of visible behavior in an ASN at one time, not appliance counts or physical sites.
+The June 2026 provider CSVs contain 13,638 source rows. Every file has one invalid `ASN 0` row with a blank AS name. Raw evidence is unchanged, while normalization rejects all seven and emits 13,631 valid provider/ASN TLS observations. Reports preserve raw, accepted, and rejected counts. These rows have null geometry and are evidence of visible behavior in an ASN at one time, not appliance counts or physical sites.
+
+The study's public My Maps KML is normalized separately as 11,659 valid provider/ASN/MaxMind city-coordinate observations after four Netflix AS0 rows are rejected. It covers only Google GGC, Meta FNA, and Netflix OCA. Google and Meta contain 198 and 183 countries versus article aggregates of 215 and 204; Netflix matches 181. Five folders hit exactly 2,000 rows, and 599 accepted Netflix rows have no usable city. Every coordinate is `geocoded`, city/unknown precision, and explicitly not a facility. The KML license is unstated and the report marks the layer partial.
 
 Meta recovery joins the original 2024 source export back to the simplified map layer and restores hostname, IP, ASN, AS name, address family, and airport/city identity. Netflix recovery reconstructs hostnames only where simplified fields retain enough information. Confidence and unmatched records are preserved; details are in [`recovery.20260804.md`](recovery.20260804.md).
 
 Quarantine preserves bytes and hashes but excludes claims from current coverage. The unsupported 35-location Baidu file and the uncited 14-feature Alibaba estimate remain under [`data/quarantine/`](../data/quarantine/). Quarantine is reversible and does not rewrite historical evidence.
+
+## Network context and measurement method
+
+The provider-prefix layer contains 1,581 declarations: 150 GLOBAL CloudFront ranges, 114 broad Google-owned ranges, 1,091 Google Cloud customer-resource ranges, and 226 `AzureFrontDoor.Frontend` ranges. It includes 1,337 IPv4 and 244 IPv6 records. Full official snapshots are retained, but normalization is deliberately service-scoped; none of these prefixes is a location.
+
+The RIPEstat pilot sorts prefixes by network address and prefix length, selects one IPv4 and one IPv6 prefix per feed scope, and queries one address inside each. `network-info` supplies the containing routed prefix and origin ASN; each returned origin/prefix pair is passed to `rpki-validation`. Eight routing results and seven RPKI results are retained. Seven samples were announced and RPKI-valid; one CloudFront IPv6 sample was not announced. A sampled negative is not generalized to the declared prefix. RIPEstat MaxMind endpoints are excluded because they would reuse the study's geolocation family rather than provide independent corroboration.
+
+The bounded PeeringDB pilot covers AS8075, AS15169, AS16509, and AS396982, the provider origins returned by RIPEstat. Paginated `netfac` and `netixlan` responses produce 498 facility registrations and 1,031 IX memberships. These are registered relationships for the ASN, not proof of a CDN appliance, provider ownership, or physical site. Every row carries both semantic warnings. PeeringDB's AUP applies, and bulk reuse or redistribution requires a separate rights review.
+
+RIPE Atlas was not executed. The workspace has no Atlas API key/credits or provider-approved target list. A future measurement must define approved targets, stable country/ASN-stratified probes, IPv4/IPv6 and DNS context, ping/traceroute rates, repetition windows, controls, credit budget, measurement IDs, and publication terms. Latency, anycast selection, and intentionally imprecise probe coordinates must never become facility points. The full gate and methodology are recorded in [`network-evidence.20260805.md`](network-evidence.20260805.md).
 
 ## Validation and reproducibility
 
@@ -245,6 +261,7 @@ Validation covers:
 - view IDs as subsets of parent layers and no double counting;
 - jurisdiction, access, lifecycle, and service-scope semantics;
 - deterministic ordering and on-demand CSV/GeoJSON parity;
+- non-spatial network-schema conformance, canonical CIDRs, and on-demand JSON-to-CSV parity;
 - raw snapshot digests against provenance sidecars;
 - provider-specific counts and known source inconsistencies;
 - assessment gates for China Mobile, China Unicom, edge aggregates, GDS, and VNET;
@@ -257,6 +274,8 @@ python3 -B tests/validate_recovery.py
 python3 -B tests/validate_google.py
 python3 -B tests/validate_authoritative.py
 python3 -B tests/validate_hyperscalers.py
+python3 -B tests/validate_observation_cities.py
+python3 -B tests/validate_network.py
 git diff --check
 ```
 
@@ -270,12 +289,15 @@ python3 -B scripts/update_china_edge.py --retrieved-at 2026-08-04
 python3 -B scripts/update_china_colocation.py --retrieved-at 2026-08-04
 python3 -B scripts/update_observations.py --retrieved-at 2026-08-04
 python3 -B scripts/update_hyperscalers.py --retrieved-at 2026-08-05
+python3 -B scripts/update_observation_cities.py --retrieved-at 2026-08-05
+python3 -B scripts/update_network.py --retrieved-at 2026-08-05
+python3 -B scripts/update_peeringdb.py --retrieved-at 2026-08-05
 python3 -B scripts/audit_quarantine.py
 python3 -B scripts/build_manifest.py --retrieved-at 2026-08-05
 make csv
 ```
 
-`make csv` uses `scripts/geojson-to-csv.jq` to generate every CSV target recorded in the dated manifest. A single target can be generated without materializing the rest, for example `make data/google/cloud-regions-and-zones.20260805.csv`. The outputs are ignored by Git and can be deleted at any time; rerunning the rule reproduces the former checked-in CSVs byte-for-byte. This policy does not apply to raw source, recovery, or historical CSVs. See [`make.md`](make.md) for the complete command reference, cleanup behavior, and troubleshooting.
+`make csv` uses `scripts/geojson-to-csv.jq` for location layers and `scripts/network-json-to-csv.jq` for network evidence. A single target can be generated without materializing the rest, for example `make data/network/provider-prefixes.20260805.csv`. The outputs are ignored by Git and can be deleted at any time; rerunning the rule reproduces them from retained canonical JSON. This policy does not apply to raw source, recovery, or historical CSVs. See [`make.md`](make.md) for the complete command reference, cleanup behavior, and troubleshooting.
 
 Use `--fetch` only when intentionally taking new snapshots. Suggested starting cadence is weekly for APIs, monthly for documentation and product directories, quarterly for filings and independent measurements, and event-driven for announced launches or retirements. Every refresh should produce a semantic diff of IDs, parents, jurisdictions, access state, lifecycle, source structure, and aggregate discrepancies before publication.
 
@@ -288,4 +310,6 @@ Use `--fetch` only when intentionally taking new snapshots. Suggested starting c
 - GDS and VNET do not currently clear the public facility-identity gate used here.
 - Chindata's code layer is partial and has no code-to-city mapping in the captured directory.
 - Observation data is time-bound and cannot establish exhaustiveness.
+- The public city KML is partial and its Google/Meta country coverage does not match the article aggregates.
+- Atlas latency validation remains gated on approved targets, credentials/credits, and a reviewed measurement specification.
 - Source-specific redistribution terms require review before raw provider or third-party content is republished elsewhere.

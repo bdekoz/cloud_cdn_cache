@@ -969,7 +969,7 @@
     },
     {
       "coordinate_methods": {
-        "unknown": 13638
+        "unknown": 13631
       },
       "derived_files": {
         "csv": {
@@ -979,19 +979,19 @@
         }
       },
       "entity_types": {
-        "observed_presence": 13638
+        "observed_presence": 13631
       },
       "files": {
         "geojson": {
           "path": "data/observations/cdn-mapping.20260804.geojson",
-          "sha256": "c867751261bab9baf51dc6f77b828d653ad4a09a7aae092948391502ffdb52e5"
+          "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b"
         },
         "report": {
           "path": "data/observations/cdn-mapping.20260804.report.json",
-          "sha256": "90efbf60656e012139c3bd2267abf29170d79d18086052ebeee40465dbcc8442"
+          "sha256": "3a1442ee1015bc1cadd84f73a6c3e14b3fe15a7558b93e404ed38d5316e83919"
         }
       },
-      "geometry_null": 13638,
+      "geometry_null": 13631,
       "layer": "observations/cdn-mapping",
       "providers": [
         "Akamai",
@@ -1002,7 +1002,7 @@
         "Microsoft",
         "Netflix"
       ],
-      "record_count": 13638,
+      "record_count": 13631,
       "retrieved_at": [
         "2026-08-04"
       ],
@@ -1062,17 +1062,25 @@
       ]
     }
   ],
+  "network_evidence_layer_count": 0,
+  "network_evidence_layers": [],
+  "network_evidence_record_count": 0,
+  "network_evidence_schema": {
+    "path": "schema/network-evidence.schema.json",
+    "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",
+    "version": "1.0.0"
+  },
   "quarantine": {
     "audit_path": "data/quarantine/audit.20260804.json",
     "audit_sha256": "04436c3e7bf4b0864e70bd0be95d4c95ef9e314eb32d63a18f514436ae4beadc"
   },
-  "record_count": 15113,
+  "record_count": 15106,
   "schema": {
     "path": "schema/location.schema.json",
     "sha256": "dbd1065a59c6ba5c7bbf6de3042f8158d2112b4637ce40fb6315cc3d1558cd12",
     "version": "1.2.0"
   },
-  "scope_note": "Canonical counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and are excluded from record_count.",
+  "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
   "view_count": 5,
   "views": [
     {

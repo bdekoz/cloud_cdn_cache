@@ -198,15 +198,22 @@ def validate_ibm_meta(by_layer: dict[str, list[dict[str, Any]]]) -> None:
 
 def validate_manifest() -> None:
     manifest = json.loads((ROOT / "data/manifest.20260805.json").read_text(encoding="utf-8"))
-    assert manifest["layer_count"] == 27
-    assert manifest["record_count"] == 15726
+    assert manifest["layer_count"] == 28
+    assert manifest["record_count"] == 27378
+    assert manifest["network_evidence_layer_count"] == 3
+    assert manifest["network_evidence_record_count"] == 3125
     assert manifest["view_count"] == 5
     assert manifest["schema"]["version"] == "1.2.0"
     assert manifest["schema"]["sha256"] == digest(ROOT / manifest["schema"]["path"])
     by_name = {layer["layer"]: layer for layer in manifest["layers"]}
     assert set(LAYERS) <= set(by_name)
     assert all(by_name[name]["snapshot_tag"] == TAG for name in LAYERS)
-    assert all(layer["snapshot_tag"] == "20260804" for name, layer in by_name.items() if name not in LAYERS)
+    assert by_name["observations/cdn-mapping-cities"]["snapshot_tag"] == TAG
+    assert all(
+        layer["snapshot_tag"] == "20260804"
+        for name, layer in by_name.items()
+        if name not in {*LAYERS, "observations/cdn-mapping-cities"}
+    )
     assert {version for layer in manifest["layers"] for version in layer["schema_versions"]} == {"1.1.0", "1.2.0"}
     for layer in manifest["layers"] + manifest["views"]:
         for file_record in layer["files"].values():

@@ -56,6 +56,7 @@ These classes must not be combined into a count of equivalent physical assets. A
 | Meta | `meta_data_centers` | `data_center` |
 | CoreWeave | `coreweave_cloud` | `super_region`, `availability_zone` |
 | Multi-provider measurements | `cdn_mapping_observation` | `observed_presence` |
+| Multi-provider city geolocation | `cdn_mapping_city_observation` | `observed_presence` |
 
 The schema deliberately validates the service naming convention rather than a closed enum. New connectors can therefore be added without invalidating an otherwise compatible schema, but they must register their service here before publication.
 
@@ -89,3 +90,18 @@ Every record points to a repository-relative immutable raw source with `raw_sour
 Provider-declared locations use `source_scope=provider_declared`. Independently measured ASN, DNS, TLS, or routing observations must use `observed` or `inferred` and must not overwrite provider-declared records.
 
 Entity-specific values that do not apply to every layer—such as `asset_count`, `asn`, `hostname`, IP-family, provider region ID, network-border group, or live component status—belong in `properties`. This keeps the cross-provider core compact while retaining source evidence.
+
+## Network evidence schema
+
+`network-evidence.schema.json` is a separate, non-spatial contract for provider prefix declarations, routing origins, RPKI validation, PeeringDB registrations, and RIPE Atlas measurements. These assertions are deliberately excluded from the location schema and from GeoJSON because none of them, by itself, establishes a physical POP or facility.
+
+| Evidence type | Relationship | Meaning | Explicit non-claim |
+|---|---|---|---|
+| `provider_prefix` | `declares_prefix` | A provider feed published a CIDR for a named service or scope | The prefix is not a POP location |
+| `routing_origin` | `originates_prefix` | RIPE RIS observed an ASN originating the sampled prefix | The origin ASN is not proof of ownership or colocation |
+| `rpki_validation` | `validated_by_rpki` | RIPEstat reported the origin/prefix RPKI state | RPKI validity is not location evidence |
+| `facility_registration` | `registered_at_facility` | A network registered a facility relationship | The CDN appliance is not thereby proven present |
+| `ix_membership` | `present_at_ix` | A network registered an IX relationship | IX membership is not a provider-owned POP |
+| `measurement_run` / `reachability_observation` | measurement relationships | A reproducible probe selection and sampled result | Latency and routing do not reveal exact server coordinates |
+
+Network outputs are `NetworkEvidenceCollection` JSON documents. Records carry independent observation time, retrieval time, source version, raw checksum, validity interval, and confidence. Prefix and ASN relationships are many-to-many and time-bound. Location layers may reference network record IDs in future properties, but network evidence must never overwrite provider-declared location records or manufacture geometry.

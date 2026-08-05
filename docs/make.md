@@ -2,7 +2,7 @@
 
 Date: 2026-08-04; updated 2026-08-05
 
-The Makefile manages disposable CSV projections and repository validation. It does not fetch provider sources or regenerate canonical data. Schema-normalized GeoJSON is the retained publication format; CSV is created only when a consumer needs it.
+The Makefile manages disposable CSV projections, validation, and the bounded network refresh workflow. Schema-normalized GeoJSON is retained for locations, `NetworkEvidenceCollection` JSON is retained for network assertions, and CSV is created only when a consumer needs it. Other provider refreshes remain explicit updater commands.
 
 ## Requirements
 
@@ -26,9 +26,11 @@ Generate just one projection:
 make data/google/edge.20260804.csv
 make data/coreweave/regions-and-zones.20260805.csv
 make data/google/cloud-regions-and-zones.20260805.csv
+make data/observations/cdn-mapping-cities.20260805.csv
+make data/network/provider-prefixes.20260805.csv
 ```
 
-A direct target does not generate unrelated CSV files. The default manifest is `data/manifest.20260805.json`; it references older 2026-08-04 GeoJSON where that is the true snapshot date and the new hyperscaler files at 2026-08-05.
+A direct target does not generate unrelated CSV files. The default manifest is `data/manifest.20260805.json`; it references older 2026-08-04 GeoJSON where that is the true snapshot date and the new hyperscaler, city-observation, and network files at 2026-08-05.
 
 For another retrieval date, point Make at its manifest:
 
@@ -40,7 +42,7 @@ This requires `data/manifest.20260901.json` and the GeoJSON files referenced by 
 
 ## What the rule does
 
-The dated manifest supplies the GeoJSON target list. For each target, `scripts/geojson-to-csv.jq`:
+The dated manifest supplies both its location GeoJSON and network JSON target lists. For a location target, `scripts/geojson-to-csv.jq`:
 
 1. reads column order from `schema/location.schema.json` → `required`;
 2. copies canonical properties into the row;
@@ -48,7 +50,7 @@ The dated manifest supplies the GeoJSON target list. For each target, `scripts/g
 4. serializes arrays and objects as compact JSON with recursively sorted object keys;
 5. applies CSV quoting only where commas, quotes, carriage returns, or newlines require it.
 
-Each CSV depends on its GeoJSON source, the schema, and the jq program. Make rebuilds the target when any dependency is newer. Output is first written to a neighboring `.tmp` file and renamed after jq succeeds, so an existing CSV is not partially overwritten.
+For a network target, `scripts/network-json-to-csv.jq` reads record order from `schema/network-evidence.schema.json` and serializes the collection's `records` without inventing geometry. Each CSV depends on its canonical JSON/GeoJSON source, applicable schema, and jq program. Make rebuilds the target when any dependency is newer. Output is first written to a neighboring `.tmp` file and renamed after jq succeeds, so an existing CSV is not partially overwritten.
 
 Normalized CSV projections are ignored by Git and are not hashed as retained files in the manifest. Reports and the manifest instead record the target path, canonical GeoJSON source, and Make command.
 
@@ -72,7 +74,7 @@ Run all checked-in validation suites and the whitespace/error check:
 make check
 ```
 
-This validates recovery outputs, Google layers, all authoritative and observation layers, the eight hyperscaler layers, manifests, reports, deterministic updater regeneration, cross-layer parents, and in-memory jq/GeoJSON-to-CSV parity. It does not need materialized normalized CSVs.
+This validates recovery outputs, Google layers, all authoritative and observation layers, the eight hyperscaler layers, the partial city map, all network-evidence layers, manifests, reports, deterministic updater regeneration, cross-layer parents, canonical CIDRs, and in-memory jq CSV parity. It does not need materialized normalized CSVs.
 
 To force a projection to be rebuilt even when Make considers it current:
 
@@ -102,10 +104,26 @@ Valid dataset names are `coreweave`, `aws`, `google`, `azure`, `oci`, `ibm`, and
 
 Use updater `--fetch` options only when deliberately taking a new upstream snapshot. A reviewed refresh should preserve the raw response and provenance, pass schema and semantic checks, and inspect additions, removals, lifecycle changes, access changes, and parent changes before publication.
 
+### Network refresh
+
+Regenerate provider prefixes, RIPEstat routing/RPKI evidence, and PeeringDB relationships from the retained 2026-08-05 raw snapshots:
+
+```sh
+make refresh-network-offline
+```
+
+Deliberately fetch current provider feeds, run the eight-prefix RIPEstat pilot, fetch the bounded four-ASN PeeringDB pilot, and rebuild the manifest:
+
+```sh
+make refresh-network RETRIEVED_AT=2026-08-05
+```
+
+For a genuinely new snapshot, set a new ISO date, review the upstream source versions and rights, then inspect every semantic diff before publication. The fetch target does not create RIPE Atlas measurements. Atlas remains gated on an approved target list, API credentials/credits, and the measurement policy in `network-evidence.20260805.md`.
+
 ## Troubleshooting
 
 - `jq: command not found`: install jq and rerun the command.
 - `test -f data/manifest.<date>.json` fails: build or select an existing dated manifest.
-- `No rule to make target ...geojson`: the manifest names a missing canonical source, or the requested CSV has no matching GeoJSON.
+- `No rule to make target ...geojson` or `...json`: the manifest names a missing canonical source, or the requested CSV has no matching location/network document.
 - CSV did not rebuild: use `make -B <target>` and check timestamps on the GeoJSON, schema, and jq program.
 - A CSV appears in `git status`: only manifest-declared normalized targets are expected to be ignored; raw, recovered, historical, or unregistered files remain visible intentionally.

@@ -11,10 +11,12 @@ from pathlib import Path
 from typing import Any
 
 from location_common import REPO_ROOT, SCHEMA_CONTRACT_VERSION, SCHEMA_PATH, repo_ref, retrieval_tag, sha256, write_json
+from network_common import NETWORK_SCHEMA_PATH, NETWORK_SCHEMA_VERSION
 
 
 BASELINE_TAG = "20260804"
 HYPERSCALER_TAG = "20260805"
+NETWORK_TAG = "20260805"
 
 BASELINE_LAYERS = (
     "google/edge",
@@ -47,6 +49,16 @@ HYPERSCALER_LAYERS = (
     "ibm/regions-and-zones",
     "ibm/classic-data-centers",
     "meta/data-centers",
+)
+
+CURRENT_OBSERVATION_LAYERS = (
+    "observations/cdn-mapping-cities",
+)
+
+NETWORK_EVIDENCE_LAYERS = (
+    "provider-prefixes",
+    "ripestat-routing",
+    "peeringdb-relationships",
 )
 
 VIEW_NAMES = {
@@ -120,6 +132,48 @@ def assessment_manifest(name: str, tag: str) -> dict[str, str]:
     return {"path": repo_ref(path), "sha256": sha256(path)}
 
 
+def network_layer_manifest(layer: str, tag: str) -> dict[str, Any]:
+    base = REPO_ROOT / "data/network" / f"{layer}.{tag}"
+    json_path = Path(f"{base}.json")
+    csv_path = Path(f"{base}.csv")
+    report_path = Path(f"{base}.report.json")
+    collection = json.loads(json_path.read_text(encoding="utf-8"))
+    records = collection["records"]
+    sources = {}
+    for record in records:
+        key = (record["raw_source_ref"], record["source_sha256"], record["source_url"])
+        sources[key] = {
+            "raw_source_ref": key[0],
+            "sha256": key[1],
+            "source_published_at": record["source_published_at"],
+            "source_url": key[2],
+        }
+    return {
+        "derived_files": {
+            "csv": {
+                "generator": f"make {repo_ref(csv_path)}",
+                "path": repo_ref(csv_path),
+                "source": repo_ref(json_path),
+            }
+        },
+        "evidence_types": dict(sorted(Counter(record["evidence_type"] for record in records).items())),
+        "files": {
+            "json": {"path": repo_ref(json_path), "sha256": sha256(json_path)},
+            "report": {"path": repo_ref(report_path), "sha256": sha256(report_path)},
+        },
+        "layer": layer,
+        "providers": sorted({record["provider"] for record in records if record["provider"]}),
+        "record_count": len(records),
+        "retrieved_at": sorted({record["retrieved_at"] for record in records}),
+        "schema_versions": sorted({collection["schema_version"]}),
+        "services": sorted({record["service"] for record in records if record["service"]}),
+        "snapshot_tag": tag,
+        "source_scopes": sorted({record["source_scope"] for record in records}),
+        "sources": sorted(sources.values(), key=lambda source: (source["raw_source_ref"], source["source_url"])),
+        "statuses": dict(sorted(Counter(record["status"] for record in records).items())),
+    }
+
+
 def main() -> None:
     args = parse_args()
     tag = retrieval_tag(args.retrieved_at)
@@ -129,7 +183,11 @@ def main() -> None:
     layer_specs = [(layer, BASELINE_TAG) for layer in BASELINE_LAYERS]
     if tag >= HYPERSCALER_TAG:
         layer_specs.extend((layer, HYPERSCALER_TAG) for layer in HYPERSCALER_LAYERS)
+        layer_specs.extend((layer, HYPERSCALER_TAG) for layer in CURRENT_OBSERVATION_LAYERS)
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
+    network_layers = []
+    if tag >= NETWORK_TAG:
+        network_layers = [network_layer_manifest(layer, NETWORK_TAG) for layer in NETWORK_EVIDENCE_LAYERS]
     views = []
     for view, parent in VIEW_NAMES.items():
         entry = layer_manifest(view, BASELINE_TAG)
@@ -141,14 +199,22 @@ def main() -> None:
         "generated_from_retained_snapshots_at": args.retrieved_at,
         "layer_count": len(layers),
         "layers": layers,
+        "network_evidence_layer_count": len(network_layers),
+        "network_evidence_layers": network_layers,
+        "network_evidence_record_count": sum(layer["record_count"] for layer in network_layers),
+        "network_evidence_schema": {
+            "path": repo_ref(NETWORK_SCHEMA_PATH),
+            "sha256": sha256(NETWORK_SCHEMA_PATH),
+            "version": NETWORK_SCHEMA_VERSION,
+        },
         "record_count": sum(layer["record_count"] for layer in layers),
         "schema": {"path": repo_ref(SCHEMA_PATH), "sha256": sha256(SCHEMA_PATH), "version": SCHEMA_CONTRACT_VERSION},
-        "scope_note": "Canonical counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and are excluded from record_count.",
+        "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
         "quarantine": {"audit_path": repo_ref(quarantine_audit), "audit_sha256": sha256(quarantine_audit)},
         "view_count": len(views),
         "views": views,
     })
-    print(json.dumps({"layer_count": len(layers), "record_count": sum(layer["record_count"] for layer in layers), "view_count": len(views), "output": repo_ref(output)}, sort_keys=True))
+    print(json.dumps({"layer_count": len(layers), "network_evidence_layer_count": len(network_layers), "network_evidence_record_count": sum(layer["record_count"] for layer in network_layers), "record_count": sum(layer["record_count"] for layer in layers), "view_count": len(views), "output": repo_ref(output)}, sort_keys=True))
 
 
 if __name__ == "__main__":

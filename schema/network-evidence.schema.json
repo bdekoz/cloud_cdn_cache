@@ -1,0 +1,457 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/stevesong/cloud_cdn_cache/blob/main/schema/network-evidence.schema.json",
+  "title": "Network evidence collection",
+  "description": "Time-bound prefix, routing, registry, and measurement assertions that must not be interpreted as physical infrastructure locations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "schema_version",
+    "layer",
+    "retrieved_at",
+    "records"
+  ],
+  "properties": {
+    "type": {
+      "const": "NetworkEvidenceCollection"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "layer": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]*$"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    }
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_id",
+        "evidence_type",
+        "subject_type",
+        "subject_id",
+        "provider",
+        "service",
+        "prefix",
+        "ip_family",
+        "asn",
+        "relationship_type",
+        "object_type",
+        "object_id",
+        "status",
+        "source_scope",
+        "source_url",
+        "raw_source_ref",
+        "source_sha256",
+        "source_published_at",
+        "retrieved_at",
+        "observed_at",
+        "valid_from",
+        "valid_to",
+        "confidence",
+        "properties"
+      ],
+      "properties": {
+        "record_id": {
+          "type": "string",
+          "pattern": "^network:[a-z0-9][a-z0-9_-]*:[a-z0-9][a-z0-9._:-]*$"
+        },
+        "evidence_type": {
+          "enum": [
+            "provider_prefix",
+            "routing_origin",
+            "rpki_validation",
+            "facility_registration",
+            "ix_membership",
+            "measurement_run",
+            "reachability_observation"
+          ]
+        },
+        "subject_type": {
+          "enum": [
+            "prefix",
+            "asn",
+            "network",
+            "measurement"
+          ]
+        },
+        "subject_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provider": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "service": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-z0-9][a-z0-9_]*$"
+        },
+        "prefix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9A-Fa-f:.]+/[0-9]{1,3}$"
+        },
+        "ip_family": {
+          "enum": [
+            4,
+            6,
+            null
+          ]
+        },
+        "asn": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 4294967295
+        },
+        "relationship_type": {
+          "enum": [
+            "declares_prefix",
+            "originates_prefix",
+            "validated_by_rpki",
+            "registered_at_facility",
+            "present_at_ix",
+            "defines_measurement",
+            "measured_from_probe",
+            null
+          ]
+        },
+        "object_type": {
+          "enum": [
+            "provider_service",
+            "asn",
+            "prefix",
+            "facility",
+            "internet_exchange",
+            "measurement",
+            "probe",
+            null
+          ]
+        },
+        "object_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_]*$"
+        },
+        "source_scope": {
+          "enum": [
+            "provider_declared",
+            "registry",
+            "observed",
+            "inferred"
+          ]
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "raw_source_ref": {
+          "type": "string",
+          "pattern": "^data/raw/"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "properties": {
+          "type": "object"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "evidence_type": {
+                "const": "provider_prefix"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "provider": {
+                "type": "string"
+              },
+              "service": {
+                "type": "string"
+              },
+              "prefix": {
+                "type": "string"
+              },
+              "ip_family": {
+                "enum": [
+                  4,
+                  6
+                ]
+              },
+              "asn": {
+                "type": "null"
+              },
+              "relationship_type": {
+                "const": "declares_prefix"
+              },
+              "object_type": {
+                "const": "provider_service"
+              },
+              "object_id": {
+                "type": "string"
+              },
+              "status": {
+                "const": "published"
+              },
+              "source_scope": {
+                "const": "provider_declared"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "evidence_type": {
+                "const": "routing_origin"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "prefix": {
+                "type": "string"
+              },
+              "ip_family": {
+                "enum": [
+                  4,
+                  6
+                ]
+              },
+              "relationship_type": {
+                "const": "originates_prefix"
+              },
+              "object_type": {
+                "const": "asn"
+              },
+              "source_scope": {
+                "const": "observed"
+              }
+            },
+            "oneOf": [
+              {
+                "properties": {
+                  "status": {
+                    "const": "announced"
+                  },
+                  "asn": {
+                    "type": "integer"
+                  },
+                  "object_id": {
+                    "type": "string"
+                  }
+                }
+              },
+              {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "not_announced",
+                      "unknown"
+                    ]
+                  },
+                  "asn": {
+                    "type": "null"
+                  },
+                  "object_id": {
+                    "type": "null"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "evidence_type": {
+                "const": "rpki_validation"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "prefix": {
+                "type": "string"
+              },
+              "ip_family": {
+                "enum": [
+                  4,
+                  6
+                ]
+              },
+              "asn": {
+                "type": "integer"
+              },
+              "relationship_type": {
+                "const": "validated_by_rpki"
+              },
+              "object_type": {
+                "const": "prefix"
+              },
+              "object_id": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "valid",
+                  "invalid_asn",
+                  "invalid_length",
+                  "unknown"
+                ]
+              },
+              "source_scope": {
+                "const": "observed"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "evidence_type": {
+                "const": "facility_registration"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "subject_type": {
+                "const": "asn"
+              },
+              "prefix": {
+                "type": "null"
+              },
+              "ip_family": {
+                "type": "null"
+              },
+              "asn": {
+                "type": "integer"
+              },
+              "relationship_type": {
+                "const": "registered_at_facility"
+              },
+              "object_type": {
+                "const": "facility"
+              },
+              "object_id": {
+                "type": "string"
+              },
+              "source_scope": {
+                "const": "registry"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "evidence_type": {
+                "const": "ix_membership"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "subject_type": {
+                "const": "asn"
+              },
+              "prefix": {
+                "type": "null"
+              },
+              "ip_family": {
+                "type": "null"
+              },
+              "asn": {
+                "type": "integer"
+              },
+              "relationship_type": {
+                "const": "present_at_ix"
+              },
+              "object_type": {
+                "const": "internet_exchange"
+              },
+              "object_id": {
+                "type": "string"
+              },
+              "source_scope": {
+                "const": "registry"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

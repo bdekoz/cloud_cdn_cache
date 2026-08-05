@@ -1,0 +1,54 @@
+{
+  "aup_status": "PeeringDB AUP applies. This is a bounded operational-research pilot; review permission before bulk reuse or redistribution.",
+  "aup_url": "https://www.peeringdb.com/aup",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/peeringdb-relationships.20260805.csv",
+      "path": "data/network/peeringdb-relationships.20260805.csv",
+      "source": "data/network/peeringdb-relationships.20260805.json"
+    }
+  },
+  "evidence_types": {
+    "facility_registration": 498,
+    "ix_membership": 1031
+  },
+  "generated_files": [
+    "data/network/peeringdb-relationships.20260805.json"
+  ],
+  "layer": "peeringdb-relationships",
+  "network_count": 4,
+  "parser": "update_peeringdb.py",
+  "provider_counts": {
+    "Amazon Web Services": 529,
+    "Google": 454,
+    "Google Cloud": 8,
+    "Microsoft": 538
+  },
+  "record_count": 1529,
+  "relationship_counts": {
+    "facility_registration": 498,
+    "ix_membership": 1031
+  },
+  "relationship_counts_by_asn": {
+    "AS15169": 454,
+    "AS16509": 529,
+    "AS396982": 8,
+    "AS8075": 538
+  },
+  "retrieved_at": "2026-08-05",
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "scope": "Bounded research pilot for origin ASNs found in the 2026-08-05 RIPEstat prefix sample.",
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "statuses": {
+    "not_operational": 5,
+    "operational": 1026,
+    "registered": 498
+  },
+  "target_asns": [
+    8075,
+    15169,
+    16509,
+    396982
+  ]
+}
