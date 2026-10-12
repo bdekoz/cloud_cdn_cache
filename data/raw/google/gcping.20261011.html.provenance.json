@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "GCPing is not an official Google product. Endpoint catalog and methodology only; no latency measurement or physical-location assertion. Source-specific terms may apply.",
+  "raw_source_ref": "data/raw/google/gcping.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "5f5e1fe94433d0f705ff8a591c8431b2262eabc3083c66eff02906e6915dc2df",
+  "source_published_at": null,
+  "source_url": "https://gcping.com/"
+}

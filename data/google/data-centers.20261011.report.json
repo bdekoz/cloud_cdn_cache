@@ -1,0 +1,67 @@
+{
+  "dataset": "google_data_centers",
+  "schema_version": "1.1.0",
+  "retrieved_at": "2026-10-11",
+  "record_count": 68,
+  "records_with_coordinates": 12,
+  "records_without_coordinates": 56,
+  "lifecycle_status_counts": {
+    "in_development": 31,
+    "operational": 37
+  },
+  "raw_source_ref": "data/raw/google/data-centers-directory.20261011.html",
+  "raw_source_sha256": "736c284a6b6ed1f09b5df168157aeb9b079bb11cb1cc6e3f6329f6d672fc1f86",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/google/data-centers.20261011.csv",
+      "path": "data/google/data-centers.20261011.csv",
+      "source": "data/google/data-centers.20261011.geojson"
+    }
+  },
+  "generated_files": [
+    "data/google/data-centers.20261011.geojson"
+  ],
+  "geojson_file": "data/google/data-centers.20261011.geojson",
+  "geojson_sha256": "d86ea60dfbb62b66bdb188650f130fbdccdb280cd8c2681eb812082ffc81553c",
+  "previous_normalized_record_count": 59,
+  "added_record_ids": [
+    "google:data_center:berkeley-county-south-carolina-us",
+    "google:data_center:columbia-county-georgia-us",
+    "google:data_center:columbus-ohio-us",
+    "google:data_center:fort-wayne-indiana-us",
+    "google:data_center:lancaster-ohio-us",
+    "google:data_center:loudoun-county-virginia-us",
+    "google:data_center:morgan-county-indiana-us",
+    "google:data_center:muhos-finland-fi",
+    "google:data_center:new-albany-ohio-us",
+    "google:data_center:prince-william-county-virginia-us",
+    "google:data_center:pryor-mayes-county-oklahoma-us",
+    "google:data_center:tulsa-oklahoma-us",
+    "google:data_center:vaala-finland-fi",
+    "google:data_center:van-buren-township-michigan-us"
+  ],
+  "removed_record_ids": [
+    "google:data_center:central-ohio-us",
+    "google:data_center:ellis-county-texas-us",
+    "google:data_center:indiana-us",
+    "google:data_center:mayes-county-oklahoma-us",
+    "google:data_center:northern-virginia-us"
+  ],
+  "lifecycle_changes": [
+    {
+      "record_id": "google:data_center:lincoln-nebraska-us",
+      "previous": "in_development",
+      "current": "operational"
+    },
+    {
+      "record_id": "google:data_center:mesa-arizona-us",
+      "previous": "in_development",
+      "current": "operational"
+    }
+  ],
+  "legacy_comparison": {
+    "legacy_peering_map_data_center_count": 24,
+    "current_owned_data_center_directory_count": 68,
+    "semantic_note": "The legacy count came from the peering infrastructure map. The new directory has a broader owned-location scope and must not be treated as a row-for-row replacement."
+  }
+}

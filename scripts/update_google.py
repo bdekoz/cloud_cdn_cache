@@ -648,7 +648,7 @@ def load_previous_records(
         (
             path
             for path in output_dir.glob(f"{prefix}.*.geojson")
-            if path != current_path
+            if path.name.split(".")[-2] < current_path.name.split(".")[-2]
         ),
         reverse=True,
     )
@@ -792,6 +792,12 @@ def write_layer(
             "previous_normalized_record_count": len(previous),
             "added_record_ids": added_ids if previous else [],
             "removed_record_ids": removed_ids,
+            **({"lifecycle_changes": [
+                {"record_id": record["record_id"], "previous": previous[record["record_id"]]["lifecycle_status"], "current": record["lifecycle_status"]}
+                for record in records
+                if record["record_id"] in previous
+                and record["lifecycle_status"] != previous[record["record_id"]]["lifecycle_status"]
+            ]} if previous else {}),
             "legacy_comparison": comparison,
         },
     )

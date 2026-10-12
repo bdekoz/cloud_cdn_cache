@@ -17,6 +17,7 @@ from network_common import NETWORK_SCHEMA_PATH, NETWORK_SCHEMA_VERSION
 BASELINE_TAG = "20260804"
 HYPERSCALER_TAG = "20260805"
 NETWORK_TAG = "20260805"
+GOOGLE_REFRESH_TAG = "20261011"
 
 BASELINE_LAYERS = (
     "google/edge",
@@ -99,6 +100,13 @@ def layer_manifest(layer: str, tag: str) -> dict[str, Any]:
             "sha256": key[1],
             "source_url": key[2],
             "source_published_at": row["source_published_at"],
+        }
+    report = json.loads(report_path.read_text(encoding="utf-8"))
+    for source in report.get("enrichment_sources", []):
+        key = (source["raw_source_ref"], source["source_sha256"], source["source_url"])
+        sources[key] = {
+            "raw_source_ref": key[0], "sha256": key[1], "source_url": key[2],
+            "source_published_at": None, "source_scope": source["source_scope"],
         }
     return {
         "coordinate_methods": dict(sorted(Counter(row["coordinate_method"] for row in rows).items())),
@@ -184,6 +192,11 @@ def main() -> None:
     if tag >= HYPERSCALER_TAG:
         layer_specs.extend((layer, HYPERSCALER_TAG) for layer in HYPERSCALER_LAYERS)
         layer_specs.extend((layer, HYPERSCALER_TAG) for layer in CURRENT_OBSERVATION_LAYERS)
+    if tag >= GOOGLE_REFRESH_TAG:
+        layer_specs = [
+            (layer, GOOGLE_REFRESH_TAG if layer.startswith("google/") else snapshot_tag)
+            for layer, snapshot_tag in layer_specs
+        ]
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     network_layers = []
     if tag >= NETWORK_TAG:

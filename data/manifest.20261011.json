@@ -1,0 +1,2166 @@
+{
+  "assessments": [
+    {
+      "path": "data/china/provider-assessment.20260804.json",
+      "sha256": "f55fa5dfca2b41999e4893d7a78b13de21ae70e70483ff76872de6c44f0ba686"
+    },
+    {
+      "path": "data/china-edge/provider-assessment.20260804.json",
+      "sha256": "a61c08de4e03a71389837afa4183b73f46adacb28c9703c58d8546cec5420cda"
+    },
+    {
+      "path": "data/china-colocation/operator-assessment.20260804.json",
+      "sha256": "30b95cddad88be1dab47abc5c46bbfc98a1c401ebe0e50dc4e6b4dc7b00be8fd"
+    }
+  ],
+  "generated_from_retained_snapshots_at": "2026-10-11",
+  "layer_count": 28,
+  "layers": [
+    {
+      "coordinate_methods": {
+        "provider": 65
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/google/edge.20261011.csv",
+          "path": "data/google/edge.20261011.csv",
+          "source": "data/google/edge.20261011.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 65
+      },
+      "files": {
+        "geojson": {
+          "path": "data/google/edge.20261011.geojson",
+          "sha256": "68a70eb60f6860423676e7681e8fa70139f42f5d398629a1c72739c994bb3752"
+        },
+        "report": {
+          "path": "data/google/edge.20261011.report.json",
+          "sha256": "f10b8a42b5fdd27abaa1c58eadffd5b58c7439851b76b7e4787d4381d82c013e"
+        }
+      },
+      "geometry_null": 0,
+      "layer": "google/edge",
+      "providers": [
+        "Google"
+      ],
+      "record_count": 65,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "google_edge"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/google/peering-infrastructure.20261011.html",
+          "sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+          "source_published_at": null,
+          "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "provider": 12,
+        "unknown": 56
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/google/data-centers.20261011.csv",
+          "path": "data/google/data-centers.20261011.csv",
+          "source": "data/google/data-centers.20261011.geojson"
+        }
+      },
+      "entity_types": {
+        "data_center": 68
+      },
+      "files": {
+        "geojson": {
+          "path": "data/google/data-centers.20261011.geojson",
+          "sha256": "d86ea60dfbb62b66bdb188650f130fbdccdb280cd8c2681eb812082ffc81553c"
+        },
+        "report": {
+          "path": "data/google/data-centers.20261011.report.json",
+          "sha256": "c9ce06f679110b13f542a1b4cfa62e8f6c99ab3a73d8c759f009d393aced7e9f"
+        }
+      },
+      "geometry_null": 56,
+      "layer": "google/data-centers",
+      "providers": [
+        "Google"
+      ],
+      "record_count": 68,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "google_data_centers"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/google/data-centers-directory.20261011.html",
+          "sha256": "736c284a6b6ed1f09b5df168157aeb9b079bb11cb1cc6e3f6329f6d672fc1f86",
+          "source_published_at": null,
+          "source_url": "https://datacenters.google/locations/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 243,
+        "unknown": 95
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/cloudflare/edge.20260804.csv",
+          "path": "data/cloudflare/edge.20260804.csv",
+          "source": "data/cloudflare/edge.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 338
+      },
+      "files": {
+        "geojson": {
+          "path": "data/cloudflare/edge.20260804.geojson",
+          "sha256": "d7eb0f6b02b1e706f8da1f32522cc1df50e26bcee7219404da3a0e82764e66b9"
+        },
+        "report": {
+          "path": "data/cloudflare/edge.20260804.report.json",
+          "sha256": "f70507f188d435e843531d386b32f137ce491c4f972d2a0dea5f47de56610467"
+        }
+      },
+      "geometry_null": 95,
+      "layer": "cloudflare/edge",
+      "providers": [
+        "Cloudflare"
+      ],
+      "record_count": 338,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "cloudflare_network"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/cloudflare/components.20260804.json",
+          "sha256": "35b387547f03b1e995e562529f28265aac34a623cb38ae9501af3f8409f39c7a",
+          "source_published_at": null,
+          "source_url": "https://www.cloudflarestatus.com/api/v2/components.json"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 104,
+        "unknown": 6
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/microsoft/front-door.20260804.csv",
+          "path": "data/microsoft/front-door.20260804.csv",
+          "source": "data/microsoft/front-door.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 110
+      },
+      "files": {
+        "geojson": {
+          "path": "data/microsoft/front-door.20260804.geojson",
+          "sha256": "2dde512afe539af7504a68b4c6683868a5b5749faebe652a5a0900d31514f461"
+        },
+        "report": {
+          "path": "data/microsoft/front-door.20260804.report.json",
+          "sha256": "1602572ad15b23c112c0868c1777c55261cdaad95cd3beeab77ba8a0f262a984"
+        }
+      },
+      "geometry_null": 6,
+      "layer": "microsoft/front-door",
+      "providers": [
+        "Microsoft"
+      ],
+      "record_count": 110,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "azure_front_door"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/microsoft/frontdoor-locations.20260804.html",
+          "sha256": "c6091adc897435689a00d523ab24ac0de02286ce39121d03b789729141851def",
+          "source_published_at": "2025-09-25",
+          "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 97,
+        "unknown": 31
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/microsoft/front-door-codes.20260804.csv",
+          "path": "data/microsoft/front-door-codes.20260804.csv",
+          "source": "data/microsoft/front-door-codes.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 128
+      },
+      "files": {
+        "geojson": {
+          "path": "data/microsoft/front-door-codes.20260804.geojson",
+          "sha256": "690b507e821f92a0c78a5c0dd3d6dfee916c3278af3c4fef902ecc0f56479289"
+        },
+        "report": {
+          "path": "data/microsoft/front-door-codes.20260804.report.json",
+          "sha256": "7fbb6cd9eee1e61de2fe194a926bd65699bbb6ef83667a9e7c46b26cc830b910"
+        }
+      },
+      "geometry_null": 31,
+      "layer": "microsoft/front-door-codes",
+      "providers": [
+        "Microsoft"
+      ],
+      "record_count": 128,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "azure_front_door"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/microsoft/frontdoor-codes.20260804.html",
+          "sha256": "a31aa26abbf6946a10c1322f13c7903c64e5bdac5a007c5fc5e8cbda7428fa92",
+          "source_published_at": "2025-12-18",
+          "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 56,
+        "unknown": 46
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/aws/cloudfront.20260804.csv",
+          "path": "data/aws/cloudfront.20260804.csv",
+          "source": "data/aws/cloudfront.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 102
+      },
+      "files": {
+        "geojson": {
+          "path": "data/aws/cloudfront.20260804.geojson",
+          "sha256": "4f674f2f87598553b56bf7b88cca8b098ec4ed5bb0f6177b8c6eda41fc555dc1"
+        },
+        "report": {
+          "path": "data/aws/cloudfront.20260804.report.json",
+          "sha256": "de423926f8a7996333489f6276055215e32fc39443a110eefc1cde5b437a13fd"
+        }
+      },
+      "geometry_null": 46,
+      "layer": "aws/cloudfront",
+      "providers": [
+        "Amazon Web Services"
+      ],
+      "record_count": 102,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "aws_cloudfront"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+          "sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+          "source_published_at": null,
+          "source_url": "https://aws.amazon.com/cloudfront/features/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 41,
+        "unknown": 4
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/aws/local-zones.20260804.csv",
+          "path": "data/aws/local-zones.20260804.csv",
+          "source": "data/aws/local-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "local_zone": 45
+      },
+      "files": {
+        "geojson": {
+          "path": "data/aws/local-zones.20260804.geojson",
+          "sha256": "5e3baa8f1aa598475cac8642b71883a399e260390a75237481c5d471fcce4a90"
+        },
+        "report": {
+          "path": "data/aws/local-zones.20260804.report.json",
+          "sha256": "c2c4157b2dc6585c75b09e517a0688f18b2673de1ad1a981776b8760a507b3af"
+        }
+      },
+      "geometry_null": 4,
+      "layer": "aws/local-zones",
+      "providers": [
+        "Amazon Web Services"
+      ],
+      "record_count": 45,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "aws_local_zones"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/aws/available-local-zones.20260804.html",
+          "sha256": "f3a6e3ce2449d296b7f34c481f8d89a27dc9ee2d077e4e7a7e8e1cfed4390d52",
+          "source_published_at": null,
+          "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "provider": 164
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/fastly/pops.20260804.csv",
+          "path": "data/fastly/pops.20260804.csv",
+          "source": "data/fastly/pops.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 164
+      },
+      "files": {
+        "geojson": {
+          "path": "data/fastly/pops.20260804.geojson",
+          "sha256": "d3bd443938952a33fb693197fc5485fdd019d94a624b5278d4b6fa32fe4e450e"
+        },
+        "report": {
+          "path": "data/fastly/pops.20260804.report.json",
+          "sha256": "94d2f9d78bf9d6e2bc15189651e9ec8c344514322a307e1cb79f9678f6adead4"
+        }
+      },
+      "geometry_null": 0,
+      "layer": "fastly/pops",
+      "providers": [
+        "Fastly"
+      ],
+      "record_count": 164,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "fastly_network"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/fastly/global-pop-network.20260804.html",
+          "sha256": "62009f2ea2793eb0d9434e637d203486b3a1bc647097d15c7a578340d8050894",
+          "source_published_at": null,
+          "source_url": "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 63,
+        "unknown": 24
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/cachefly/locations.20260804.csv",
+          "path": "data/cachefly/locations.20260804.csv",
+          "source": "data/cachefly/locations.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 87
+      },
+      "files": {
+        "geojson": {
+          "path": "data/cachefly/locations.20260804.geojson",
+          "sha256": "42f15e987b3d452c608a01d1e62793d02bab76d9f4fb04a0b7bc547037a0b203"
+        },
+        "report": {
+          "path": "data/cachefly/locations.20260804.report.json",
+          "sha256": "0b84ebfb794a5f9119aaf94a05dd2b9664c9f1cd21948a96944818c76f17a8a9"
+        }
+      },
+      "geometry_null": 24,
+      "layer": "cachefly/locations",
+      "providers": [
+        "CacheFly"
+      ],
+      "record_count": 87,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "cachefly_network"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/cachefly/network-map.20260804.html",
+          "sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
+          "source_published_at": "2026-03-24",
+          "source_url": "https://www.cachefly.com/network-map/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 83,
+        "unknown": 54
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/alibaba/regions-and-zones.20260804.csv",
+          "path": "data/alibaba/regions-and-zones.20260804.csv",
+          "source": "data/alibaba/regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 105,
+        "cloud_region": 32
+      },
+      "files": {
+        "geojson": {
+          "path": "data/alibaba/regions-and-zones.20260804.geojson",
+          "sha256": "d8255e4f28efec492801d9deece3e8e3954e5e8350d89945f3f0406d7a56382a"
+        },
+        "report": {
+          "path": "data/alibaba/regions-and-zones.20260804.report.json",
+          "sha256": "7d72fea38266323a064a62051532b364a2fb04c4b104afdc004478dd4e811c51"
+        }
+      },
+      "geometry_null": 54,
+      "layer": "alibaba/regions-and-zones",
+      "providers": [
+        "Alibaba Cloud"
+      ],
+      "record_count": 137,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "alibaba_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/alibaba/regions-and-zones.20260804.html",
+          "sha256": "e150b5f4b9a11f117cc851a3cb616a512ce5ee4f4821a2eec269bd9bb1939c7f",
+          "source_published_at": "2026-07-01",
+          "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 75,
+        "unknown": 9
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tencent/regions-and-zones.20260804.csv",
+          "path": "data/tencent/regions-and-zones.20260804.csv",
+          "source": "data/tencent/regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 62,
+        "cloud_region": 22
+      },
+      "files": {
+        "geojson": {
+          "path": "data/tencent/regions-and-zones.20260804.geojson",
+          "sha256": "c8d9882e958dfb46b2c5b2dcea2b7e0c8f92a3a2fd5e09fdd975c8a6c68cf363"
+        },
+        "report": {
+          "path": "data/tencent/regions-and-zones.20260804.report.json",
+          "sha256": "77e0a5dec7955d4ea5379cbee6b7f005731c04152f37a0344169c66df416e8c7"
+        }
+      },
+      "geometry_null": 9,
+      "layer": "tencent/regions-and-zones",
+      "providers": [
+        "Tencent Cloud"
+      ],
+      "record_count": 84,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "tencent_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+          "sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+          "source_published_at": "2026-02-12",
+          "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 27
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/baidu/regions-and-zones.20260804.csv",
+          "path": "data/baidu/regions-and-zones.20260804.csv",
+          "source": "data/baidu/regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 19,
+        "cloud_region": 8
+      },
+      "files": {
+        "geojson": {
+          "path": "data/baidu/regions-and-zones.20260804.geojson",
+          "sha256": "2bdb72842f3aa5f8d5993f685b54184cb75e51f434f13e79e144b5c2aecb1597"
+        },
+        "report": {
+          "path": "data/baidu/regions-and-zones.20260804.report.json",
+          "sha256": "7caf63b637f507ef01019b3e73701d9d693656e2e4ecf3f35a7b5f39bbc689a6"
+        }
+      },
+      "geometry_null": 27,
+      "layer": "baidu/regions-and-zones",
+      "providers": [
+        "Baidu AI Cloud"
+      ],
+      "record_count": 27,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "baidu_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/baidu/bcc-service-domains.20260804.html",
+          "sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+          "source_published_at": "2025-08-20",
+          "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 9
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/huawei/mainland-regions.20260804.csv",
+          "path": "data/huawei/mainland-regions.20260804.csv",
+          "source": "data/huawei/mainland-regions.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "cloud_region": 9
+      },
+      "files": {
+        "geojson": {
+          "path": "data/huawei/mainland-regions.20260804.geojson",
+          "sha256": "b26a65f83bd27b338b478f5545a9bc70af8eb3336c3772719cd737833981cecd"
+        },
+        "report": {
+          "path": "data/huawei/mainland-regions.20260804.report.json",
+          "sha256": "b36aaa44b0a4208735c9bfca2bf7968464adf3aed770800529f0bf1a329de8ff"
+        }
+      },
+      "geometry_null": 9,
+      "layer": "huawei/mainland-regions",
+      "providers": [
+        "Huawei Cloud"
+      ],
+      "record_count": 9,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "huawei_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
+          "sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
+          "source_published_at": "2026-01-29",
+          "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 17
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/volcano/regions-and-zones.20260804.csv",
+          "path": "data/volcano/regions-and-zones.20260804.csv",
+          "source": "data/volcano/regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 13,
+        "cloud_region": 4
+      },
+      "files": {
+        "geojson": {
+          "path": "data/volcano/regions-and-zones.20260804.geojson",
+          "sha256": "075e65d2bd782541c95670eb9e46c3f2f2e9290d14a741b86922e4dfc6ce3fe5"
+        },
+        "report": {
+          "path": "data/volcano/regions-and-zones.20260804.report.json",
+          "sha256": "6d4d35a48adc02ddb20d212cdca18b705a6e53811e4081152803be001e1a18cb"
+        }
+      },
+      "geometry_null": 17,
+      "layer": "volcano/regions-and-zones",
+      "providers": [
+        "Volcano Engine"
+      ],
+      "record_count": 17,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "volcano_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/volcano/regions-and-zones.20260804.json",
+          "sha256": "84385367a41e5f6d11a76092822df9327c779a643b3b3c5eac5fd6c118539359",
+          "source_published_at": "2025-09-26",
+          "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 22
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/kingsoft/mainland-regions-and-zones.20260804.csv",
+          "path": "data/kingsoft/mainland-regions-and-zones.20260804.csv",
+          "source": "data/kingsoft/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 14,
+        "cloud_region": 8
+      },
+      "files": {
+        "geojson": {
+          "path": "data/kingsoft/mainland-regions-and-zones.20260804.geojson",
+          "sha256": "db876f1d7e8e7714d5cc1e13091e2fd0ec10284e7e8f441994bc87568a7746d4"
+        },
+        "report": {
+          "path": "data/kingsoft/mainland-regions-and-zones.20260804.report.json",
+          "sha256": "90a623e9667201c07b36622afafcaaefae256081815d0283231e1162e89ce07f"
+        }
+      },
+      "geometry_null": 22,
+      "layer": "kingsoft/mainland-regions-and-zones",
+      "providers": [
+        "Kingsoft Cloud"
+      ],
+      "record_count": 22,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "kingsoft_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/kingsoft/kec-regions-and-zones.20260804.html",
+          "sha256": "dbde5504164eafaebae1da902e05b5ac7563e4c461124766a5083cbcf015df20",
+          "source_published_at": "2026-01-09",
+          "source_url": "https://docs.ksyun.com/documents/6965"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 14
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/jd/mainland-regions-and-zones.20260804.csv",
+          "path": "data/jd/mainland-regions-and-zones.20260804.csv",
+          "source": "data/jd/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 10,
+        "cloud_region": 4
+      },
+      "files": {
+        "geojson": {
+          "path": "data/jd/mainland-regions-and-zones.20260804.geojson",
+          "sha256": "3c57272c974f01aaf297aafacd065d7631f1fdfb118540a1b5a6ee4b09d820ef"
+        },
+        "report": {
+          "path": "data/jd/mainland-regions-and-zones.20260804.report.json",
+          "sha256": "9ad184bab4162e554714d7973593d4c19b3d197f0c9de2acde8a22faa1edb072"
+        }
+      },
+      "geometry_null": 14,
+      "layer": "jd/mainland-regions-and-zones",
+      "providers": [
+        "JD Cloud"
+      ],
+      "record_count": 14,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "jd_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
+          "sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+          "source_published_at": null,
+          "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 63
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tianyi/vpc-resource-pools.20260804.csv",
+          "path": "data/tianyi/vpc-resource-pools.20260804.csv",
+          "source": "data/tianyi/vpc-resource-pools.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "cloud_resource_pool": 63
+      },
+      "files": {
+        "geojson": {
+          "path": "data/tianyi/vpc-resource-pools.20260804.geojson",
+          "sha256": "9f2e1538d19e7de792e0b82186074d94fb2c52f3b23a9991630ee7f22839e54f"
+        },
+        "report": {
+          "path": "data/tianyi/vpc-resource-pools.20260804.report.json",
+          "sha256": "b0f82d2f2b0a21ff6d682b9c2643918fb3b333f3068ad993b03c031b34fce877"
+        }
+      },
+      "geometry_null": 63,
+      "layer": "tianyi/vpc-resource-pools",
+      "providers": [
+        "China Telecom Tianyi Cloud"
+      ],
+      "record_count": 63,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "ctyun_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/tianyi/vpc-resource-pools.20260804.html",
+          "sha256": "17bd8059960fa9ec3bc11fdd6833cfbd131bca06b573281e5cfba276a5420c35",
+          "source_published_at": "2026-06-24",
+          "source_url": "https://www.ctyun.cn/document/10026755/10196575"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 4
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/chindata/data-centers.20260804.csv",
+          "path": "data/chindata/data-centers.20260804.csv",
+          "source": "data/chindata/data-centers.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "data_center": 4
+      },
+      "files": {
+        "geojson": {
+          "path": "data/chindata/data-centers.20260804.geojson",
+          "sha256": "28e320d929ca0523faf459f3f3e30d1c6937900568bba0279d7978253383c4fe"
+        },
+        "report": {
+          "path": "data/chindata/data-centers.20260804.report.json",
+          "sha256": "5d1c595907f5b182b284ae645f5afb8ea1304570b2c6301361d443dbb91346fa"
+        }
+      },
+      "geometry_null": 4,
+      "layer": "chindata/data-centers",
+      "providers": [
+        "Chindata"
+      ],
+      "record_count": 4,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "chindata_colocation"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-colocation/chindata-locations.20260804.html",
+          "sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+          "source_published_at": null,
+          "source_url": "https://www.chindatagroup.com/global.html"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 13631
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/observations/cdn-mapping.20260804.csv",
+          "path": "data/observations/cdn-mapping.20260804.csv",
+          "source": "data/observations/cdn-mapping.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "observed_presence": 13631
+      },
+      "files": {
+        "geojson": {
+          "path": "data/observations/cdn-mapping.20260804.geojson",
+          "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b"
+        },
+        "report": {
+          "path": "data/observations/cdn-mapping.20260804.report.json",
+          "sha256": "3a1442ee1015bc1cadd84f73a6c3e14b3fe15a7558b93e404ed38d5316e83919"
+        }
+      },
+      "geometry_null": 13631,
+      "layer": "observations/cdn-mapping",
+      "providers": [
+        "Akamai",
+        "Amazon Web Services",
+        "Apple",
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Netflix"
+      ],
+      "record_count": 13631,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "cdn_mapping_observation"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/observations/akamai.202606.csv",
+          "sha256": "6753f046780a58614eb47c8ad4181735aff4505eb1ebb4bef37758fedd33451d",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/apple.202606.csv",
+          "sha256": "9555e266dfc21430f52cf4bae030cda8723cdbceb4daa8d4510363d056a99576",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/aws-cloudfront.202606.csv",
+          "sha256": "0a94ed7e60cbc27441eca676f84dc3da1889c15a376c879df4bbda1ca92479ba",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/fna.202606.csv",
+          "sha256": "08ca98e221779a246746d04b5613d94b7774c5f2075cbc278e14d09d0c81dab2",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/ggc.202606.csv",
+          "sha256": "db98c2d2c16cd3761ab004b42c32c53c293db430cd86d625e4ed0803144a8416",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/microsoft.202606.csv",
+          "sha256": "e263865f1a0b358130a9cf7d9b1053818d5eabf51a1c1eb748a3690dca127bdf",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        },
+        {
+          "raw_source_ref": "data/raw/observations/oca.202606.csv",
+          "sha256": "491daea62145d8427f6fa759ba3b58a73c03433e793c6e826eb8316f903fd54e",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 63
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/coreweave/regions-and-zones.20260805.csv",
+          "path": "data/coreweave/regions-and-zones.20260805.csv",
+          "source": "data/coreweave/regions-and-zones.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 56,
+        "super_region": 7
+      },
+      "files": {
+        "geojson": {
+          "path": "data/coreweave/regions-and-zones.20260805.geojson",
+          "sha256": "9ed6db98c44592a29f1ff8e6dfdcefc8c0b7535c9c9fa5d01650e7e5ffcbf8e0"
+        },
+        "report": {
+          "path": "data/coreweave/regions-and-zones.20260805.report.json",
+          "sha256": "086238896d011307c6d1840a3c6fb651d20fcb961076c0500cb5a0a8a6536ecd"
+        }
+      },
+      "geometry_null": 63,
+      "layer": "coreweave/regions-and-zones",
+      "providers": [
+        "CoreWeave"
+      ],
+      "record_count": 63,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "coreweave_cloud"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/coreweave/all-availability-zones.20260805.md",
+          "sha256": "326e02236a32f00a03960f8d5a9c92cf29918ac10d613989d4fcce6e79c5cf36",
+          "source_published_at": "2026-04-17",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones.md"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 147
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/aws/regions-and-zones.20260805.csv",
+          "path": "data/aws/regions-and-zones.20260805.csv",
+          "source": "data/aws/regions-and-zones.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 108,
+        "cloud_region": 39
+      },
+      "files": {
+        "geojson": {
+          "path": "data/aws/regions-and-zones.20260805.geojson",
+          "sha256": "778c3c6b3901298ac27530b64753b6c5c2ae2b0d7be9a6dc2af7d528a1a3337f"
+        },
+        "report": {
+          "path": "data/aws/regions-and-zones.20260805.report.json",
+          "sha256": "6c5834ec243c4e7a4788701391c28875628622688284525e18a9eba68dcc3523"
+        }
+      },
+      "geometry_null": 147,
+      "layer": "aws/regions-and-zones",
+      "providers": [
+        "Amazon Web Services"
+      ],
+      "record_count": 147,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "aws_cloud"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+          "sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+          "source_published_at": null,
+          "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+        },
+        {
+          "raw_source_ref": "data/raw/aws/china-regions.20260805.html",
+          "sha256": "a4555615a49c142a38c07b0b764844624aaba9d04bae0f5b8001fee7a441f084",
+          "source_published_at": null,
+          "source_url": "https://docs.amazonaws.cn/en_us/aws/latest/userguide/ARNs.html"
+        },
+        {
+          "raw_source_ref": "data/raw/aws/european-sovereign-cloud.20260805.html",
+          "sha256": "cf85db34be998648b06bac0592cb08384a3b8a36957d27be777c24a79b5b57ea",
+          "source_published_at": "2026-01-14",
+          "source_url": "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud/"
+        },
+        {
+          "raw_source_ref": "data/raw/aws/govcloud-regions.20260805.html",
+          "sha256": "00533a92d7924d5a784a975e285c31e03c11071a044d395bca81735f31d0d4dd",
+          "source_published_at": null,
+          "source_url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/using-govcloud.html"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 176
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/google/cloud-regions-and-zones.20261011.csv",
+          "path": "data/google/cloud-regions-and-zones.20261011.csv",
+          "source": "data/google/cloud-regions-and-zones.20261011.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 133,
+        "cloud_region": 43
+      },
+      "files": {
+        "geojson": {
+          "path": "data/google/cloud-regions-and-zones.20261011.geojson",
+          "sha256": "ca7c214de479fcdc02fc800e5aa325c67b378b697c97cc1356ba84287137517e"
+        },
+        "report": {
+          "path": "data/google/cloud-regions-and-zones.20261011.report.json",
+          "sha256": "d86ded96237aa17a6cabbc000f61c1981e7d701ab6d69420394e20810f6d92b9"
+        }
+      },
+      "geometry_null": 176,
+      "layer": "google/cloud-regions-and-zones",
+      "providers": [
+        "Google Cloud"
+      ],
+      "record_count": 176,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "google_cloud"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/google/compute-ai-zones.20261011.html",
+          "sha256": "58b73b52ff17ac9f56bb38f1e674fc073cbd5acb6817e04f26922cb713083a09",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones/ai-zones"
+        },
+        {
+          "raw_source_ref": "data/raw/google/compute-gpu-regions-zones.20261011.html",
+          "sha256": "3e7827f48ee5e8ac4fd064b31e0fff02e75b6d14f4f29011ab8f0025b6ceece5",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones/gpu-regions-zones"
+        },
+        {
+          "raw_source_ref": "data/raw/google/compute-regions-zones.20261011.html",
+          "sha256": "85f597350f519a38fb3fb3ab8269156ebe19ce54d9e654c7185840884b1632d8",
+          "source_published_at": null,
+          "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones"
+        },
+        {
+          "raw_source_ref": "data/raw/google/gcping-endpoints.20261011.json",
+          "sha256": "c67374ab49c2c0e2174c4e34e59278ed70a6f67e359928957b6c8e8db25c125f",
+          "source_published_at": null,
+          "source_scope": "observed",
+          "source_url": "https://global.gcping.com/api/endpoints"
+        },
+        {
+          "raw_source_ref": "data/raw/google/gcping.20261011.html",
+          "sha256": "5f5e1fe94433d0f705ff8a591c8431b2262eabc3083c66eff02906e6915dc2df",
+          "source_published_at": null,
+          "source_scope": "observed",
+          "source_url": "https://gcping.com/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 57
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/microsoft/cloud-regions.20260805.csv",
+          "path": "data/microsoft/cloud-regions.20260805.csv",
+          "source": "data/microsoft/cloud-regions.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "cloud_region": 57
+      },
+      "files": {
+        "geojson": {
+          "path": "data/microsoft/cloud-regions.20260805.geojson",
+          "sha256": "253f7f12c28a290c0dc433ee455bbcbb66a58f9ec97bc14fdc40bc73172a03cd"
+        },
+        "report": {
+          "path": "data/microsoft/cloud-regions.20260805.report.json",
+          "sha256": "2b35f53037c0bbe5e33af6c181ce20fcdb0fac08db58df2557b009ad91895ad8"
+        }
+      },
+      "geometry_null": 57,
+      "layer": "microsoft/cloud-regions",
+      "providers": [
+        "Microsoft Azure"
+      ],
+      "record_count": 57,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "azure_cloud"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/microsoft/regions-list.20260805.html",
+          "sha256": "3f0828c900c03ad2ee1e7f811963b3c7545e31cb1c7f201413a80ef400bdc39d",
+          "source_published_at": null,
+          "source_url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 45
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/oracle/cloud-regions.20260805.csv",
+          "path": "data/oracle/cloud-regions.20260805.csv",
+          "source": "data/oracle/cloud-regions.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "cloud_region": 45
+      },
+      "files": {
+        "geojson": {
+          "path": "data/oracle/cloud-regions.20260805.geojson",
+          "sha256": "2006bfcffa27873107116cb2c99387d7822b9a0c47b205de378e3fea8cf7b738"
+        },
+        "report": {
+          "path": "data/oracle/cloud-regions.20260805.report.json",
+          "sha256": "6c1c6560fb02560a3b554e2e6f7b2d1b0af3b9a3b4cd0ccee6f44d58a7cd85e8"
+        }
+      },
+      "geometry_null": 45,
+      "layer": "oracle/cloud-regions",
+      "providers": [
+        "Oracle Cloud Infrastructure"
+      ],
+      "record_count": 45,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "oracle_cloud"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/oracle/regions.20260805.html",
+          "sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
+          "source_published_at": null,
+          "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 53
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/ibm/regions-and-zones.20260805.csv",
+          "path": "data/ibm/regions-and-zones.20260805.csv",
+          "source": "data/ibm/regions-and-zones.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 40,
+        "cloud_region": 13
+      },
+      "files": {
+        "geojson": {
+          "path": "data/ibm/regions-and-zones.20260805.geojson",
+          "sha256": "e991686549fee13ee1b98e926d4d74caf3ac9e2e67366eceb4d3e2907739e2da"
+        },
+        "report": {
+          "path": "data/ibm/regions-and-zones.20260805.report.json",
+          "sha256": "91f7c6671ccb762d8184836986d5de5d839a17dab4bbd884d8c07514aca9f1cb"
+        }
+      },
+      "geometry_null": 53,
+      "layer": "ibm/regions-and-zones",
+      "providers": [
+        "IBM Cloud"
+      ],
+      "record_count": 53,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "ibm_cloud"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+          "sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+          "source_published_at": null,
+          "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 42
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/ibm/classic-data-centers.20260805.csv",
+          "path": "data/ibm/classic-data-centers.20260805.csv",
+          "source": "data/ibm/classic-data-centers.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "data_center": 42
+      },
+      "files": {
+        "geojson": {
+          "path": "data/ibm/classic-data-centers.20260805.geojson",
+          "sha256": "b5eadee51c16ad94f76ae917e65fae0f8de94a0f3a72487df0f6e8c281aab65e"
+        },
+        "report": {
+          "path": "data/ibm/classic-data-centers.20260805.report.json",
+          "sha256": "5123709413fabc7e8d875622452ec3b00d9ed4fcb2ddaa850e40662d2f8060a1"
+        }
+      },
+      "geometry_null": 42,
+      "layer": "ibm/classic-data-centers",
+      "providers": [
+        "IBM Cloud"
+      ],
+      "record_count": 42,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "ibm_classic"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/ibm/locations.20260805.html",
+          "sha256": "8c55e3ddec4c43404073f1e419613b732feff4785633939831ba0f2cfcec8db7",
+          "source_published_at": null,
+          "source_url": "https://cloud.ibm.com/docs/overview?topic=overview-locations"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 33
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/meta/data-centers.20260805.csv",
+          "path": "data/meta/data-centers.20260805.csv",
+          "source": "data/meta/data-centers.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "data_center": 33
+      },
+      "files": {
+        "geojson": {
+          "path": "data/meta/data-centers.20260805.geojson",
+          "sha256": "d4872993338c27a39c0863a46c382478a6c1c8c93fe4f2bd9573067b2acb9e07"
+        },
+        "report": {
+          "path": "data/meta/data-centers.20260805.report.json",
+          "sha256": "04469c7a8c725036ddd23927089b0e4b1703188959f2eda7a0724c915dc74ad6"
+        }
+      },
+      "geometry_null": 33,
+      "layer": "meta/data-centers",
+      "providers": [
+        "Meta"
+      ],
+      "record_count": 33,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "meta_data_centers"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/meta/data-center-locations.20260805.html",
+          "sha256": "83d5aad58f65ca66183c5bbf53aa3260736a8b776a3da8f4ab6f211351c540c0",
+          "source_published_at": null,
+          "source_url": "https://datacenters.atmeta.com/all-locations/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "geocoded": 11659
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/observations/cdn-mapping-cities.20260805.csv",
+          "path": "data/observations/cdn-mapping-cities.20260805.csv",
+          "source": "data/observations/cdn-mapping-cities.20260805.geojson"
+        }
+      },
+      "entity_types": {
+        "observed_presence": 11659
+      },
+      "files": {
+        "geojson": {
+          "path": "data/observations/cdn-mapping-cities.20260805.geojson",
+          "sha256": "d6592b8ec86bf37ea1b3a89d409861f8e0fbb9ab533f542e9fe73a3b73b9fee0"
+        },
+        "report": {
+          "path": "data/observations/cdn-mapping-cities.20260805.report.json",
+          "sha256": "e5f9cd0c58ec720914796dfe9cad8b271e6e4c30e60701c50fe1d8a1be9d2b07"
+        }
+      },
+      "geometry_null": 0,
+      "layer": "observations/cdn-mapping-cities",
+      "providers": [
+        "Google",
+        "Meta",
+        "Netflix"
+      ],
+      "record_count": 11659,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "cdn_mapping_city_observation"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/observations/global-cdn-mapping.20260805.kml",
+          "sha256": "1653601361be84d557f8f1ef55a70c65092ee465959b7ec673125e9bce4c6bef",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://www.google.com/maps/d/kml?mid=1AHRJ8wfAVk2nHYWuO8Mojs0zp__9V0o&forcekml=1"
+        }
+      ]
+    }
+  ],
+  "network_evidence_layer_count": 3,
+  "network_evidence_layers": [
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/provider-prefixes.20260805.csv",
+          "path": "data/network/provider-prefixes.20260805.csv",
+          "source": "data/network/provider-prefixes.20260805.json"
+        }
+      },
+      "evidence_types": {
+        "provider_prefix": 1581
+      },
+      "files": {
+        "json": {
+          "path": "data/network/provider-prefixes.20260805.json",
+          "sha256": "0f1359c37181c304695e6c41236b2429c6739ca27e29b0aaaddba0d8dd2af715"
+        },
+        "report": {
+          "path": "data/network/provider-prefixes.20260805.report.json",
+          "sha256": "03c9bfd076126952bba16dec917874ccc17e267636e0cd0ea8064f1831b54e57"
+        }
+      },
+      "layer": "provider-prefixes",
+      "providers": [
+        "Amazon Web Services",
+        "Google",
+        "Google Cloud",
+        "Microsoft Azure"
+      ],
+      "record_count": 1581,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_cloudfront",
+        "azure_front_door",
+        "google_cloud_customer_ranges",
+        "google_owned_network"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/network/aws/ip-ranges.20260805.json",
+          "sha256": "32b566893e8379cc34efed72c5c86a0555634cf10b0f6c4fafb834fe054d3a59",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+        },
+        {
+          "raw_source_ref": "data/raw/network/google/cloud.20260805.json",
+          "sha256": "855a52f1a165852ced727bfc55641ec92cd6721c3cbd255a15380a74d8274506",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://www.gstatic.com/ipranges/cloud.json"
+        },
+        {
+          "raw_source_ref": "data/raw/network/google/goog.20260805.json",
+          "sha256": "49651f705f9ac1ab55a7a7d8dc82d075acbdfb78deffc2d2b8cc0af65540149e",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://www.gstatic.com/ipranges/goog.json"
+        },
+        {
+          "raw_source_ref": "data/raw/network/microsoft/service-tags-public.20260805.json",
+          "sha256": "abf68a1296deff23569777b68c3b048b4f3207c051239ba2d6c8e778310edfbf",
+          "source_published_at": "2026-08-04",
+          "source_url": "https://download.microsoft.com/download/7/1/d/71d86715-5596-4529-9b13-da13a5de5b63/ServiceTags_Public_20260803.json"
+        }
+      ],
+      "statuses": {
+        "published": 1581
+      }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/ripestat-routing.20260805.csv",
+          "path": "data/network/ripestat-routing.20260805.csv",
+          "source": "data/network/ripestat-routing.20260805.json"
+        }
+      },
+      "evidence_types": {
+        "routing_origin": 8,
+        "rpki_validation": 7
+      },
+      "files": {
+        "json": {
+          "path": "data/network/ripestat-routing.20260805.json",
+          "sha256": "f0ef9415578e5c88f1f2afa2a0667c3825dac2ba680077d8a471800d6b46500d"
+        },
+        "report": {
+          "path": "data/network/ripestat-routing.20260805.report.json",
+          "sha256": "dd367e919c4c8a666b0573130d6d7c1969350873fb002d5492e6aee403b65807"
+        }
+      },
+      "layer": "ripestat-routing",
+      "providers": [
+        "Amazon Web Services",
+        "Google",
+        "Google Cloud",
+        "Microsoft Azure"
+      ],
+      "record_count": 15,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_cloudfront",
+        "azure_front_door",
+        "google_cloud_customer_ranges",
+        "google_owned_network"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2001%3A3fc6%3A20%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2001%3A4860%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2600%3A1900%3A4000%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3A1000%3A4%3A%3A5e1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=3.160.0.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=4.145.22.161&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=8.34.208.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=8.8.4.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=15169&prefix=2001%3A4860%3A%3A%2F32&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=15169&prefix=8.8.4.0%2F24&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=3.128.0.0%2F10&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=396982&prefix=2600%3A1900%3A4000%3A%3A%2F44&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=396982&prefix=8.34.208.0%2F24&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=8075&prefix=2603%3A1000%3A%3A%2F25&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/network/ripestat/prefix-pilot.20260805.json",
+          "sha256": "b2fc862a9ee6e2b4021187b33551babb8da804866543f5ed87a6f462a58ea913",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=8075&prefix=4.144.0.0%2F12&sourceapp=cloud-cdn-cache"
+        }
+      ],
+      "statuses": {
+        "announced": 7,
+        "not_announced": 1,
+        "valid": 7
+      }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/peeringdb-relationships.20260805.csv",
+          "path": "data/network/peeringdb-relationships.20260805.csv",
+          "source": "data/network/peeringdb-relationships.20260805.json"
+        }
+      },
+      "evidence_types": {
+        "facility_registration": 498,
+        "ix_membership": 1031
+      },
+      "files": {
+        "json": {
+          "path": "data/network/peeringdb-relationships.20260805.json",
+          "sha256": "5392a828a976ebc93d25e8a7853abdfd2f1a22b8119388fdb28cf4222bc23e81"
+        },
+        "report": {
+          "path": "data/network/peeringdb-relationships.20260805.report.json",
+          "sha256": "46f9c81fb25798cbb1e133e83b824d36ff0dd7eab53c3f5f28dd3fdb83008c59"
+        }
+      },
+      "layer": "peeringdb-relationships",
+      "providers": [
+        "Amazon Web Services",
+        "Google",
+        "Google Cloud",
+        "Microsoft"
+      ],
+      "record_count": 1529,
+      "retrieved_at": [
+        "2026-08-05"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_network",
+        "google_cloud_network",
+        "google_network",
+        "microsoft_network"
+      ],
+      "snapshot_tag": "20260805",
+      "source_scopes": [
+        "registry"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/network/peeringdb/provider-relationships-pilot.20260805.json",
+          "sha256": "af01e495da3a1a6f462033393a03371e4cc89349cc7ec7ff8044eacca80ad3b9",
+          "source_published_at": null,
+          "source_url": "https://www.peeringdb.com/api/netfac"
+        },
+        {
+          "raw_source_ref": "data/raw/network/peeringdb/provider-relationships-pilot.20260805.json",
+          "sha256": "af01e495da3a1a6f462033393a03371e4cc89349cc7ec7ff8044eacca80ad3b9",
+          "source_published_at": null,
+          "source_url": "https://www.peeringdb.com/api/netixlan"
+        }
+      ],
+      "statuses": {
+        "not_operational": 5,
+        "operational": 1026,
+        "registered": 498
+      }
+    }
+  ],
+  "network_evidence_record_count": 3125,
+  "network_evidence_schema": {
+    "path": "schema/network-evidence.schema.json",
+    "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",
+    "version": "1.0.0"
+  },
+  "quarantine": {
+    "audit_path": "data/quarantine/audit.20260804.json",
+    "audit_sha256": "04436c3e7bf4b0864e70bd0be95d4c95ef9e314eb32d63a18f514436ae4beadc"
+  },
+  "record_count": 27390,
+  "schema": {
+    "path": "schema/location.schema.json",
+    "sha256": "dbd1065a59c6ba5c7bbf6de3042f8158d2112b4637ce40fb6315cc3d1558cd12",
+    "version": "1.2.0"
+  },
+  "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
+  "view_count": 5,
+  "views": [
+    {
+      "coordinate_methods": {
+        "legacy": 49,
+        "unknown": 24
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/alibaba/mainland-regions-and-zones.20260804.csv",
+          "path": "data/alibaba/mainland-regions-and-zones.20260804.csv",
+          "source": "data/alibaba/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 60,
+        "cloud_region": 13
+      },
+      "files": {
+        "geojson": {
+          "path": "data/alibaba/mainland-regions-and-zones.20260804.geojson",
+          "sha256": "1423fdc945c70049dc2da73e2646f5394d8b6f2bc14e0f50b1726bd6c9a7b2b2"
+        },
+        "report": {
+          "path": "data/alibaba/mainland-regions-and-zones.20260804.report.json",
+          "sha256": "1c1d7bcd2bcaa7c6a0c7eeb2df6b10f7bde890201fcdcdcca9a36779a3086c0f"
+        }
+      },
+      "geometry_null": 24,
+      "layer": "alibaba/mainland-regions-and-zones",
+      "providers": [
+        "Alibaba Cloud"
+      ],
+      "record_count": 73,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "alibaba_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/alibaba/regions-and-zones.20260804.html",
+          "sha256": "e150b5f4b9a11f117cc851a3cb616a512ce5ee4f4821a2eec269bd9bb1939c7f",
+          "source_published_at": "2026-07-01",
+          "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+        }
+      ],
+      "view_of": "alibaba/regions-and-zones"
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 29,
+        "unknown": 2
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tencent/mainland-regions-and-zones.20260804.csv",
+          "path": "data/tencent/mainland-regions-and-zones.20260804.csv",
+          "source": "data/tencent/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 24,
+        "cloud_region": 7
+      },
+      "files": {
+        "geojson": {
+          "path": "data/tencent/mainland-regions-and-zones.20260804.geojson",
+          "sha256": "019da1eed59ec47f9f70730fc96af681b0ee3b16cbc612853f9fca222d0c9b6a"
+        },
+        "report": {
+          "path": "data/tencent/mainland-regions-and-zones.20260804.report.json",
+          "sha256": "c4f300ae1495aa5cd10d7c68cc207d12691ca977b86a0d571500f3b1881b7edd"
+        }
+      },
+      "geometry_null": 2,
+      "layer": "tencent/mainland-regions-and-zones",
+      "providers": [
+        "Tencent Cloud"
+      ],
+      "record_count": 31,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "tencent_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+          "sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+          "source_published_at": "2026-02-12",
+          "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en"
+        }
+      ],
+      "view_of": "tencent/regions-and-zones"
+    },
+    {
+      "coordinate_methods": {
+        "legacy": 13,
+        "unknown": 4
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/tencent/mainland-specialized-regions-and-zones.20260804.csv",
+          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.csv",
+          "source": "data/tencent/mainland-specialized-regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 13,
+        "cloud_region": 4
+      },
+      "files": {
+        "geojson": {
+          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.geojson",
+          "sha256": "195daa19bcff484b64a025ff093c806fad5f30c84d3b06d01f11ac8344a7ece9"
+        },
+        "report": {
+          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.report.json",
+          "sha256": "96288195dbb2d192b3d4c5d69616ab2971fc0894a095ebc985852b1738d02512"
+        }
+      },
+      "geometry_null": 4,
+      "layer": "tencent/mainland-specialized-regions-and-zones",
+      "providers": [
+        "Tencent Cloud"
+      ],
+      "record_count": 17,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "tencent_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
+          "sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
+          "source_published_at": "2026-02-12",
+          "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en"
+        }
+      ],
+      "view_of": "tencent/regions-and-zones"
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 25
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/baidu/mainland-regions-and-zones.20260804.csv",
+          "path": "data/baidu/mainland-regions-and-zones.20260804.csv",
+          "source": "data/baidu/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 18,
+        "cloud_region": 7
+      },
+      "files": {
+        "geojson": {
+          "path": "data/baidu/mainland-regions-and-zones.20260804.geojson",
+          "sha256": "bb667d648662152a3a8322bb64e6ca44c257719d101265a6544eb337f76d130c"
+        },
+        "report": {
+          "path": "data/baidu/mainland-regions-and-zones.20260804.report.json",
+          "sha256": "1f0093135941319c36255966bb377e46bfb763c2bb22bab23fa96027951bc551"
+        }
+      },
+      "geometry_null": 25,
+      "layer": "baidu/mainland-regions-and-zones",
+      "providers": [
+        "Baidu AI Cloud"
+      ],
+      "record_count": 25,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "baidu_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/baidu/bcc-service-domains.20260804.html",
+          "sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+          "source_published_at": "2025-08-20",
+          "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
+        }
+      ],
+      "view_of": "baidu/regions-and-zones"
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 14
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/volcano/mainland-regions-and-zones.20260804.csv",
+          "path": "data/volcano/mainland-regions-and-zones.20260804.csv",
+          "source": "data/volcano/mainland-regions-and-zones.20260804.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 11,
+        "cloud_region": 3
+      },
+      "files": {
+        "geojson": {
+          "path": "data/volcano/mainland-regions-and-zones.20260804.geojson",
+          "sha256": "983fc8a0bcef11dfc98a283511b0f5e8f5a52cfb9eb1d6fb4dfa0f0d200310c1"
+        },
+        "report": {
+          "path": "data/volcano/mainland-regions-and-zones.20260804.report.json",
+          "sha256": "451e57640aade30271ac8ac15c2d034ffa381153273f2a9e0e79d0d0d9ee732d"
+        }
+      },
+      "geometry_null": 14,
+      "layer": "volcano/mainland-regions-and-zones",
+      "providers": [
+        "Volcano Engine"
+      ],
+      "record_count": 14,
+      "retrieved_at": [
+        "2026-08-04"
+      ],
+      "schema_versions": [
+        "1.1.0"
+      ],
+      "services": [
+        "volcano_cloud"
+      ],
+      "snapshot_tag": "20260804",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/volcano/regions-and-zones.20260804.json",
+          "sha256": "84385367a41e5f6d11a76092822df9327c779a643b3b3c5eac5fd6c118539359",
+          "source_published_at": "2025-09-26",
+          "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en"
+        }
+      ],
+      "view_of": "volcano/regions-and-zones"
+    }
+  ]
+}

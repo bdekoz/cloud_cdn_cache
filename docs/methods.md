@@ -1,6 +1,6 @@
 # Data refinement methods
 
-Date: 2026-08-04; updated 2026-08-05
+Date: 2026-08-04; updated 2026-10-11
 
 This document explains the assessment, recovery, schema evolution, provider refreshes, hyperscaler coverage review, mainland-China cloud work, separate edge/CDN and colocation tracks, independent observations, and non-spatial network evidence. The immutable baseline is [`assessment.20260804.md`](assessment.20260804.md); the implemented result is recorded in [`reassessment.md`](reassessment.md), with item 4/5 detail in [`network-evidence.20260805.md`](network-evidence.20260805.md).
 
@@ -68,6 +68,8 @@ Data supplied by a provider, customer, or researcher can be considered when the 
 
 ## Raw snapshots and provenance
 
+The October [Google refresh](google-enrichment.20261011.md) retains seven new raw snapshots and keeps source-specific provenance for AI identities, GPU listings, and GCPing endpoints. GCPing contributes endpoint metadata rather than canonical membership, coordinates, or stored latency values.
+
 Each normalized refresh starts with an immutable response under `data/raw/<source>/`. A sidecar provenance JSON records:
 
 - source URL and media type;
@@ -79,6 +81,8 @@ Each normalized refresh starts with an immutable response under `data/raw/<sourc
 Records repeat the raw path and digest, allowing every row to be tied to exact evidence. The pipeline does not publish a parse of a live page without retaining the response that was parsed.
 
 [`data/manifest.20260805.json`](../data/manifest.20260805.json) covers 28 location-schema layers, five derived views, three non-spatial network-evidence layers, and three assessment artifacts. Location counts exclude views and network records. Each entry records its real snapshot tag, so the 19 baseline layers and five views remain dated 2026-08-04 while eight hyperscaler layers, the city-observation layer, and all network layers are dated 2026-08-05. The manifest hashes retained GeoJSON/JSON and reports, records each un-hashed CSV target with its source and generator command, and includes the quarantine audit. The 2026-08-04 manifest remains a reproducible historical index.
+
+The current [`manifest.20261011.json`](../data/manifest.20261011.json) selects the three October Google layers while retaining August tags for other providers. It contains 27,390 location-schema records across the same 28 layers, plus 3,125 network records. Earlier manifests remain reproducible historical indexes. Snapshot-history lookup uses only dates earlier than the requested snapshot.
 
 Provider documentation, APIs, independent research, and registry data can have terms different from this repository's ODC-By license. Retention in `data/raw` is not a blanket relicensing assertion; provenance files flag source-specific review requirements.
 
@@ -129,6 +133,8 @@ Identity rules are provider-specific:
 - CoreWeave uses seven named super regions and 56 stable AZ names. The earlier idea of deriving 52 ordinary regions was rejected after parsing the retained source.
 
 ### Source joins and boundary decisions
+
+The October Google layer adds three AI zones from the explicit AI directory. Each retains its own locality, restricted project visibility, canonical region parent, and separate standard parent-zone relationship. Shared software schedules and sometimes infrastructure prevent interpreting AI zones as additional independent failure domains. The GPU table joins to 89 zone IDs, with absent rows treated as unknown support. The GCPing catalog joins by exact region code to all 43 regions; its global load balancer remains report metadata. See the [Google enrichment record](google-enrichment.20261011.md) for counts, properties, and commands.
 
 CoreWeave's directory provides access class and AI Object Storage; its separate instance matrix joins GPU and CPU availability to 18 General Access AZs. AWS reports 39 regions and 123 aggregate AZs, but the stable directory itemizes only 108 AZ IDs; the 15-row gap stays in the report. Azure's source contains 57 public regions, eight restricted markings, and 39 zone-support flags. Google's table provides 43 regions, 130 zones, locality, machine types, CPU platforms, options, and low-CO2 status. OCI's current itemized commercial table has 45 regions, including 40 with one AD and five with three.
 

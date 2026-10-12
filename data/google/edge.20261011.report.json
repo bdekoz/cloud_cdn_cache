@@ -1,0 +1,42 @@
+{
+  "dataset": "google_edge",
+  "schema_version": "1.1.0",
+  "retrieved_at": "2026-10-11",
+  "record_count": 65,
+  "records_with_coordinates": 65,
+  "records_without_coordinates": 0,
+  "lifecycle_status_counts": {
+    "operational": 65
+  },
+  "raw_source_ref": "data/raw/google/peering-infrastructure.20261011.html",
+  "raw_source_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/google/edge.20261011.csv",
+      "path": "data/google/edge.20261011.csv",
+      "source": "data/google/edge.20261011.geojson"
+    }
+  },
+  "generated_files": [
+    "data/google/edge.20261011.geojson"
+  ],
+  "geojson_file": "data/google/edge.20261011.geojson",
+  "geojson_sha256": "68a70eb60f6860423676e7681e8fa70139f42f5d398629a1c72739c994bb3752",
+  "previous_normalized_record_count": 65,
+  "added_record_ids": [],
+  "removed_record_ids": [],
+  "lifecycle_changes": [],
+  "legacy_comparison": {
+    "legacy_edge_record_count": 64,
+    "current_edge_record_count": 65,
+    "legacy_coordinate_match_count": 64,
+    "current_source_only_count": 1,
+    "current_source_only_coordinates": [
+      [
+        26.474211,
+        49.797085
+      ]
+    ],
+    "semantic_note": "Each record is a provider-declared metro where one or more edge POPs exist; record counts are not facility counts."
+  }
+}

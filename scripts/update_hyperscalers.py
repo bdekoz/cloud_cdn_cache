@@ -26,6 +26,7 @@ from location_common import (
     sha256,
     slug,
     write_layer,
+    write_json,
     write_provenance,
 )
 
@@ -76,6 +77,30 @@ SOURCES: dict[str, dict[str, str | None]] = {
     "google-compute": {
         "url": "https://docs.cloud.google.com/compute/docs/regions-zones",
         "path": "data/raw/google/compute-regions-zones.{tag}.html",
+        "media_type": "text/html",
+        "published": None,
+    },
+    "google-ai-zones": {
+        "url": "https://docs.cloud.google.com/compute/docs/regions-zones/ai-zones",
+        "path": "data/raw/google/compute-ai-zones.{tag}.html",
+        "media_type": "text/html",
+        "published": None,
+    },
+    "google-gpu-zones": {
+        "url": "https://docs.cloud.google.com/compute/docs/regions-zones/gpu-regions-zones",
+        "path": "data/raw/google/compute-gpu-regions-zones.{tag}.html",
+        "media_type": "text/html",
+        "published": None,
+    },
+    "gcping-endpoints": {
+        "url": "https://global.gcping.com/api/endpoints",
+        "path": "data/raw/google/gcping-endpoints.{tag}.json",
+        "media_type": "application/json",
+        "published": None,
+    },
+    "gcping-methodology": {
+        "url": "https://gcping.com/",
+        "path": "data/raw/google/gcping.{tag}.html",
         "media_type": "text/html",
         "published": None,
     },
@@ -160,6 +185,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--dataset", choices=("all", *DATASET_SOURCES), default="all")
     parser.add_argument("--retrieved-at", default=date.today().isoformat())
     parser.add_argument("--fetch", action="store_true")
+    parser.add_argument(
+        "--google-enrichment", action="store_true",
+        help="Join retained GCPing endpoints, GPU availability and explicit AI zones to Google Cloud.",
+    )
     parser.add_argument("--schema", type=Path, default=SCHEMA_PATH)
     parser.add_argument("--output-root", type=Path, default=REPO_ROOT)
     return parser.parse_args()
@@ -490,7 +519,7 @@ def split_list(value: str) -> list[str]:
     return sorted({clean_text(item) for item in clean_text(value).split(",") if clean_text(item)})
 
 
-def parse_google(retrieved_at: str) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+def parse_google(retrieved_at: str, *, enrich: bool = False) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     soup = BeautifulSoup(source_path("google-compute", retrieved_at).read_bytes(), "html.parser")
     tables = soup.find_all("table")
     assert len(tables) == 1
@@ -506,11 +535,11 @@ def parse_google(retrieved_at: str) -> tuple[list[dict[str, Any]], dict[str, Any
             "machine_types": split_list(cells[2]), "cpus": split_list(cells[3]),
             "options": split_list(cells[4]), "low_co2": "Low CO" in cells[5],
         })
-    assert len(rows) == 130
+    assert rows, "Google Compute zone directory is empty"
+    assert len({row["zone"] for row in rows}) == len(rows), "Duplicate Google zone ID"
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         grouped[row["region"]].append(row)
-    assert len(grouped) == 43
     records: list[dict[str, Any]] = []
     for region, zones in sorted(grouped.items()):
         location = zones[0]["location"]
@@ -542,7 +571,145 @@ def parse_google(retrieved_at: str) -> tuple[list[dict[str, Any]], dict[str, Any
                     "location_label": row["location"],
                 },
             ))
-    return records, {"region_count": 43, "availability_zone_count": 130, "product_availability_joined": True}
+    report = {
+        "region_count": len(grouped), "availability_zone_count": len(rows),
+        "product_availability_joined": True,
+    }
+    if enrich:
+        report.update(enrich_google(records, retrieved_at))
+    return records, report
+
+
+GOOGLE_ENRICHMENT_SOURCES = (
+    "google-ai-zones", "google-gpu-zones", "gcping-endpoints", "gcping-methodology",
+)
+
+
+def enrichment_source(key: str, retrieved_at: str) -> dict[str, Any]:
+    return {
+        "source_url": SOURCES[key]["url"],
+        "raw_source_ref": repo_ref(source_path(key, retrieved_at)),
+        "source_sha256": sha256(source_path(key, retrieved_at)),
+        "retrieved_at": retrieved_at,
+        "source_scope": "observed" if key.startswith("gcping-") else "provider_declared",
+    }
+
+
+def google_table(key: str, retrieved_at: str, headers: list[str]) -> list[list[str]]:
+    soup = BeautifulSoup(source_path(key, retrieved_at).read_bytes(), "html.parser")
+    matches = []
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        if not rows:
+            continue
+        cells = [clean_text(cell.get_text(" ", strip=True)) for cell in rows[0].find_all(["th", "td"])]
+        if cells == headers:
+            matches.append(rows[1:])
+    assert len(matches) == 1, f"Expected one {key} table with headers {headers}"
+    result = []
+    for tr in matches[0]:
+        cells = [clean_text(cell.get_text(" ", strip=True)) for cell in tr.find_all(["th", "td"])]
+        assert len(cells) == len(headers), (key, cells)
+        result.append(cells)
+    assert result, f"Empty {key} directory"
+    return result
+
+
+def enrich_google(records: list[dict[str, Any]], retrieved_at: str) -> dict[str, Any]:
+    regions = {row["site_code"]: row for row in records if row["entity_type"] == "cloud_region"}
+    zones = {row["site_code"]: row for row in records if row["entity_type"] == "availability_zone"}
+    standard_count = len(zones)
+    methodology = BeautifulSoup(source_path("gcping-methodology", retrieved_at).read_bytes(), "html.parser").get_text(" ", strip=True)
+    assert "Cloud Run" in methodology and "not an official Google project" in methodology, "GCPing methodology changed"
+    for row in zones.values():
+        row["properties"]["zone_kind"] = "standard"
+    ai_rows = google_table("google-ai-zones", retrieved_at, [
+        "AI zone", "AI zone location", "Google Cloud region", "Google Cloud region location", "Parent zone",
+    ])
+    for zone, location, region, region_location, parent in ai_rows:
+        assert re.fullmatch(rf"{re.escape(region)}-ai\d+[a-z]", zone), zone
+        assert zone not in zones and region in regions and parent in zones, zone
+        assert zones[parent]["parent_record_id"] == regions[region]["record_id"], zone
+        assert zone[-1] == parent[-1], zone
+        city, subdivision, country, country_code = place_from_label(location, country_hint=google_country_hint(region))
+        assert country_code, location
+        record = base_record(
+            source_key="google-ai-zones", retrieved_at=retrieved_at,
+            prefix="google", identifier=zone, provider="Google Cloud", service="google_cloud",
+            entity_type="availability_zone", collection="google_compute_ai_zones",
+            source_record_id=zone, name=zone, site_code=zone, lifecycle_status="operational",
+            access_status="restricted", service_scope=["compute", "ai_ml"], city=city, metro=city,
+            subdivision=subdivision, country=country, country_code=country_code,
+            location_precision="region", parent_record_id=regions[region]["record_id"],
+            properties={
+                "zone_kind": "ai", "location_label": location, "region_location_label": region_location,
+                "parent_zone_id": parent, "parent_zone_record_id": zones[parent]["record_id"],
+                "failure_independence": "shares_software_schedule_and_sometimes_infrastructure_with_parent_zone",
+                "access_requirement": "enable_ai_zone_visibility_for_project",
+            },
+        )
+        records.append(record)
+        zones[zone] = record
+
+    gpu_rows = google_table("google-gpu-zones", retrieved_at, ["Zone", "Location", "Zone type", "GPU machine type"])
+    gpu_ids = set()
+    for zone, location, kind, machines in gpu_rows:
+        assert zone in zones and zone not in gpu_ids, zone
+        expected_kind = "AI zone" if zones[zone]["properties"]["zone_kind"] == "ai" else "Standard"
+        assert kind == expected_kind, (zone, kind)
+        machine_types = sorted({clean_text(value) for value in machines.split("•") if clean_text(value)})
+        assert machine_types, zone
+        zones[zone]["properties"]["gpu_availability"] = {
+            **enrichment_source("google-gpu-zones", retrieved_at),
+            "location_label": location, "machine_types": machine_types,
+            "availability_semantics": "listed_support_not_live_capacity_or_quota",
+        }
+        gpu_ids.add(zone)
+
+    endpoints = json.loads(source_path("gcping-endpoints", retrieved_at).read_text(encoding="utf-8"))
+    assert isinstance(endpoints, dict) and endpoints, "Empty GCPing catalog"
+    unknown = []
+    matched = set()
+    for key, endpoint in sorted(endpoints.items()):
+        assert endpoint["Region"] == key and endpoint["RegionName"], key
+        assert re.fullmatch(r"https://[a-z0-9.-]+(?::\d+)?/?", endpoint["URL"]), endpoint
+        if key == "global":
+            continue
+        if key not in regions:
+            unknown.append(key)
+            continue
+        assert re.fullmatch(rf"https://{re.escape(key)}-[a-z0-9-]+\.a\.run\.app", endpoint["URL"]), endpoint
+        regions[key]["properties"]["gcping"] = {
+            **enrichment_source("gcping-endpoints", retrieved_at),
+            "region_label": endpoint["RegionName"], "endpoint_url": endpoint["URL"],
+            "endpoint_type": "cloud_run_https", "methodology_url": "https://gcping.com/",
+            "official_google_product": False,
+            "measurement_semantics": "caller_relative_https_request_response_time_not_icmp_or_inter_region_latency",
+        }
+        matched.add(key)
+    for region, row in regions.items():
+        children = [zone for zone, record in zones.items() if record["parent_record_id"] == row["record_id"]]
+        ai_ids = sorted(zone for zone in children if zones[zone]["properties"]["zone_kind"] == "ai")
+        row["properties"].update({
+            "availability_zone_ids": sorted(children), "availability_zone_count": len(children),
+            "standard_availability_zone_count": len(children) - len(ai_ids),
+            "ai_zone_ids": ai_ids, "ai_zone_count": len(ai_ids),
+            "gpu_zone_ids": sorted(gpu_ids.intersection(children)),
+        })
+    return {
+        "availability_zone_count": len(zones), "standard_availability_zone_count": standard_count,
+        "ai_zone_count": len(ai_rows), "gpu_availability_zone_count": len(gpu_ids),
+        "gpu_unlisted_zone_ids": sorted(set(zones) - gpu_ids),
+        "gpu_unlisted_semantics": "absence_from_gpu_table_does_not_establish_no_gpu_support",
+        "gcping": {
+            "catalog_entry_count": len(endpoints), "matched_region_count": len(matched),
+            "unmatched_endpoint_region_ids": unknown, "regions_without_endpoint": sorted(set(regions) - matched),
+            "global_endpoint": endpoints.get("global"),
+            "global_semantics": "global_https_load_balancer_not_a_cloud_region_or_physical_site",
+            "latency_measurements_collected": False,
+        },
+        "enrichment_sources": [enrichment_source(key, retrieved_at) for key in GOOGLE_ENRICHMENT_SOURCES],
+    }
 
 
 def azure_country(programmatic_name: str, geography: str) -> tuple[str | None, str | None]:
@@ -845,7 +1012,11 @@ def main() -> None:
     args = parse_args()
     retrieval_tag(args.retrieved_at)
     selected = tuple(DATASET_SOURCES) if args.dataset == "all" else (args.dataset,)
+    if args.google_enrichment and "google" not in selected:
+        raise ValueError("--google-enrichment requires --dataset google or all")
     source_keys = {key for dataset in selected for key in DATASET_SOURCES[dataset]}
+    if args.google_enrichment:
+        source_keys.update(GOOGLE_ENRICHMENT_SOURCES)
     for key in sorted(source_keys):
         info = SOURCES[key]
         raw_path = source_path(key, args.retrieved_at)
@@ -859,11 +1030,19 @@ def main() -> None:
             retrieved_at=args.retrieved_at,
             media_type=str(info["media_type"]),
             source_published_at=info["published"],
-            notes="Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+            notes=(
+                "GCPing is not an official Google product. Endpoint catalog and methodology only; "
+                "no latency measurement or physical-location assertion. Source-specific terms may apply."
+                if key.startswith("gcping-") else
+                "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply."
+            ),
         )
     summaries: dict[str, dict[str, Any]] = {}
     for dataset in selected:
-        parsed = PARSERS[dataset](args.retrieved_at)
+        parsed = (
+            parse_google(args.retrieved_at, enrich=True)
+            if dataset == "google" and args.google_enrichment else PARSERS[dataset](args.retrieved_at)
+        )
         outputs = ((dataset, parsed[0], parsed[1]),)
         if dataset == "ibm":
             outputs = (("ibm", parsed[0], parsed[1]), ("ibm-classic", parsed[2], parsed[3]))
@@ -881,6 +1060,11 @@ def main() -> None:
                 schema_version=SCHEMA_CONTRACT_VERSION,
                 extra_report=extra,
             )
+            if output_key == "google" and args.google_enrichment:
+                tag = retrieval_tag(args.retrieved_at)
+                geojson_path = args.output_root / output_dir / f"{layer_name}.{tag}.geojson"
+                report["geojson_sha256"] = sha256(geojson_path)
+                write_json(geojson_path.with_suffix(".report.json"), report)
             summaries[output_key] = report
     print(json.dumps({key: {"record_count": value["record_count"], "geometry_null": value["geometry_null"]} for key, value in summaries.items()}, indent=2, sort_keys=True))
 

@@ -151,7 +151,7 @@ def validate_records(records: Iterable[dict[str, Any]], schema_path: Path = SCHE
 def load_previous_records(output_dir: Path, layer_name: str, current_tag: str) -> dict[str, dict[str, Any]]:
     candidates = sorted(output_dir.glob(f"{layer_name}.*.geojson"), reverse=True)
     for candidate in candidates:
-        if f".{current_tag}." in candidate.name:
+        if candidate.name.split(".")[-2] >= current_tag:
             continue
         payload = json.loads(candidate.read_text(encoding="utf-8"))
         result: dict[str, dict[str, Any]] = {}

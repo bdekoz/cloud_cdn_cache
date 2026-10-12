@@ -1,6 +1,6 @@
 # Post-refinement dataset reassessment
 
-Date: 2026-08-04; updated 2026-08-05
+Date: 2026-08-04; updated 2026-10-11
 
 This report records the implemented result. The original [`assessment.20260804.md`](assessment.20260804.md) is the read-only baseline and has not been revised. Detailed methods, source policy, parsing decisions, and commands are in [`methods.md`](methods.md).
 
@@ -8,7 +8,7 @@ This report records the implemented result. The original [`assessment.20260804.m
 
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.
 
-The current consolidated manifest contains 27,378 location-schema records across 28 layers and 3,125 separately counted network-evidence records across three layers. Five mainland views contain 160 repeated source-layer IDs and are deliberately excluded from the location count. Three assessment JSON files record providers whose public evidence is aggregate, product-scoped, or insufficient for canonical locations.
+The current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,390 location-schema records across 28 layers and 3,125 separately counted network-evidence records across three layers. The October [Google refresh](google-enrichment.20261011.md) adds nine net owned-directory entries and three explicitly listed AI zones to the August inventory, and joins GCPing endpoints and GPU availability. Five mainland views contain 160 repeated source-layer IDs and are deliberately excluded from the location count. Three assessment JSON files record providers whose public evidence is aggregate, product-scoped, or insufficient for canonical locations.
 
 The main improvement is semantic, not merely numeric: provider declarations, current lifecycle, access restriction, jurisdiction, product scope, inferred or inherited coordinates, independent observations, partial directories, aggregate marketing coverage, and quarantined claims are now distinct.
 
@@ -33,7 +33,7 @@ Canonical normalized location layers are retained as GeoJSON; network layers are
 | Layer | Records | Record meaning | Geometry |
 |---|---:|---|---:|
 | Google Edge | 65 | Provider-declared peering/edge metro | 65 points |
-| Google owned data centers | 59 | Directory entry; 27 in development | 12 points, 47 null |
+| Google owned data centers | 68 | Directory entry; 31 in development | 12 points, 56 null |
 | Cloudflare | 338 | Geographic status-API component/site code | 243 points, 95 null |
 | Azure Front Door metros | 110 | Listed metro with explicit asset count | 104 points, 6 null |
 | Azure Front Door codes | 128 | Provider abbreviation-directory row | 97 points, 31 null |
@@ -54,7 +54,7 @@ Canonical normalized location layers are retained as GeoJSON; network layers are
 | June 2026 partial city observations | 11,659 | Provider/ASN/MaxMind city geolocation from public map | 11,659 points; none is a facility coordinate |
 | CoreWeave core cloud | 63 | 7 super regions + 56 availability zones | 63 null |
 | AWS core cloud | 147 | 39 regions + 108 itemized stable AZ IDs | 147 null |
-| Google Cloud core | 173 | 43 regions + 130 availability zones | 173 null |
+| Google Cloud core | 176 | 43 regions + 130 standard zones + 3 AI zones | 176 null |
 | Azure public cloud | 57 | Programmatic public-cloud region | 57 null |
 | OCI commercial cloud | 45 | Region with realm, key, and AD count | 45 null |
 | IBM Cloud core | 53 | 13 regions + 40 universal zones | 53 null |
@@ -72,7 +72,7 @@ The exact increment is 613 records, replacing the earlier rough estimate. Import
 - CoreWeave has seven published super regions and 56 AZs, not 52 ordinary parent regions.
 - AWS has 39 region records but only 108 itemized stable AZ IDs in the retained directory; the 15-AZ gap from the 123 aggregate is not synthesized.
 - Azure has 57 region records, including eight restricted and 39 with zone support; it has no manufactured child zones.
-- Google has 43 regions and 130 zones with Compute product properties.
+- The August Google implementation has 43 regions and 130 standard zones with Compute properties; the October refresh adds three explicit AI zones, 43 GCPing endpoints, and 89 GPU-availability joins.
 - OCI's retained itemized commercial table has 45 regions; AD counts remain properties.
 - IBM has 13 regions and 40 universal zones; its 39 account-logical labels are not identities. Its 42 classic data centers are separate.
 - Meta's current directory has 33 cards. All retain `lifecycle_status=unknown` unless current status is explicit.
@@ -230,12 +230,12 @@ The suite validates schema conformance, coordinate CRS, stable IDs, parent integ
 
 At this assessment date:
 
-- Google validation passes for 65 edge metros and 59 data-center locations.
+- Google validation covers the August snapshots and the October refresh: 65 edge metros, 68 data-center entries, 43 regions, 130 standard zones, three AI zones, and the endpoint/GPU joins.
 - The authoritative/ASN-observation suite passes for 14,982 records across 17 non-Google baseline layers.
 - The hyperscaler suite passes for 613 records across eight new layers and checks mixed-date manifest generation.
 - The partial city-observation suite passes for 11,659 records.
 - The network suite passes for 3,125 records across provider-prefix, RIPEstat, and PeeringDB layers.
-- Together with the two baseline Google layers, the location-schema layers comprise 27,378 records across 28 layers; network evidence remains separately counted.
+- With the refreshed Google layers, the location-schema inventory comprises 27,390 records across 28 layers; network evidence remains separately counted.
 - Recovery validation remains separate and passes unchanged.
 
 Recommended update flow:

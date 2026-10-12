@@ -8,6 +8,7 @@ import hashlib
 import io
 import json
 import subprocess
+import shutil
 import sys
 import tempfile
 from collections import Counter
@@ -94,7 +95,7 @@ def geojson_records(path: Path) -> list[dict[str, object]]:
             longitude, latitude = feature["geometry"]["coordinates"]
             record["latitude"] = latitude
             record["longitude"] = longitude
-        assert feature["id"] == record["record_id"]
+        assert feature.get("id", record["record_id"]) == record["record_id"]
         result.append(record)
     return result
 
@@ -248,6 +249,143 @@ def validate_deterministic_regeneration() -> None:
             assert not list(option_dir.glob(f"*.{TAG}.csv"))
 
 
+def validate_current_google(validator: Draft202012Validator) -> None:
+    tag = "20261011"
+    by_layer = {}
+    for layer, count in (("edge", 65), ("data-centers", 68), ("cloud-regions-and-zones", 176)):
+        path = GOOGLE_DIR / f"{layer}.{tag}.geojson"
+        rows = geojson_records(path)
+        report = read_json(path.with_suffix(".report.json"))
+        assert len(rows) == report["record_count"] == count
+        assert derive_csv_records(path) == rows
+        validate_records(rows, validator)
+        assert report["geojson_sha256"] == sha256(path)
+        assert all(row["retrieved_at"] == row["last_seen"] == "2026-10-11" for row in rows)
+        baseline_tag = "20260805" if layer == "cloud-regions-and-zones" else TAG
+        baseline = {row["record_id"]: row for row in geojson_records(GOOGLE_DIR / f"{layer}.{baseline_tag}.geojson")}
+        for row in rows:
+            assert row["first_seen"] == (baseline[row["record_id"]]["first_seen"] if row["record_id"] in baseline else "2026-10-11")
+            assert row["source_sha256"] == sha256(REPO_ROOT / row["raw_source_ref"])
+        by_layer[layer] = rows
+
+    edges = by_layer["edge"]
+    old_edges = geojson_records(GOOGLE_DIR / f"edge.{TAG}.geojson")
+    assert [(row["record_id"], row["latitude"], row["longitude"]) for row in edges] == [
+        (row["record_id"], row["latitude"], row["longitude"]) for row in old_edges
+    ]
+    centers = by_layer["data-centers"]
+    assert Counter(row["lifecycle_status"] for row in centers) == {"operational": 37, "in_development": 31}
+    assert sum(row["latitude"] is not None for row in centers) == 12
+    center_report = read_json(GOOGLE_DIR / f"data-centers.{tag}.report.json")
+    assert len(center_report["added_record_ids"]) == 14
+    assert len(center_report["removed_record_ids"]) == 5
+    assert {change["record_id"] for change in center_report["lifecycle_changes"]} == {
+        "google:data_center:lincoln-nebraska-us", "google:data_center:mesa-arizona-us",
+    }
+    assert all(change["previous"] == "in_development" and change["current"] == "operational" for change in center_report["lifecycle_changes"])
+
+    cloud = by_layer["cloud-regions-and-zones"]
+    assert all(row["latitude"] is row["longitude"] is None for row in cloud)
+    regions = {row["site_code"]: row for row in cloud if row["entity_type"] == "cloud_region"}
+    zones = {row["site_code"]: row for row in cloud if row["entity_type"] == "availability_zone"}
+    assert len(regions) == 43 and len(zones) == 133
+    parents = {
+        "europe-west4-ai1a": ("europe-west4-a", "De Kooy", "NL"),
+        "us-central1-ai1a": ("us-central1-a", "Lincoln", "US"),
+        "us-south1-ai1b": ("us-south1-b", "Austin", "US"),
+    }
+    assert {code for code, row in zones.items() if row["properties"]["zone_kind"] == "ai"} == set(parents)
+    for code, (parent, city, country) in parents.items():
+        row = zones[code]
+        assert row["city"] == city and row["country_code"] == country
+        assert row["access_status"] == "restricted"
+        assert row["properties"]["parent_zone_record_id"] == zones[parent]["record_id"]
+        assert row["parent_record_id"] == zones[parent]["parent_record_id"]
+        assert row["properties"]["access_requirement"] == "enable_ai_zone_visibility_for_project"
+    for code, row in zones.items():
+        region = code.rsplit("-", 1)[0]
+        assert row["parent_record_id"] == regions[region]["record_id"]
+        assert code in regions[region]["properties"]["availability_zone_ids"]
+        if code not in parents:
+            assert row["properties"]["zone_kind"] == "standard" and row["access_status"] == "public"
+    endpoints = read_json(REPO_ROOT / f"data/raw/google/gcping-endpoints.{tag}.json")
+    assert set(endpoints) - {"global"} == set(regions)
+    for code, row in regions.items():
+        properties = row["properties"]
+        endpoint = properties["gcping"]
+        assert endpoint["endpoint_url"] == endpoints[code]["URL"]
+        assert endpoint["region_label"] == endpoints[code]["RegionName"]
+        assert endpoint["source_scope"] == "observed"
+        assert endpoint["official_google_product"] is False
+        assert endpoint["source_sha256"] == sha256(REPO_ROOT / endpoint["raw_source_ref"])
+        children = [child for child in zones.values() if child["parent_record_id"] == row["record_id"]]
+        assert properties["availability_zone_count"] == len(children)
+        assert properties["standard_availability_zone_count"] + properties["ai_zone_count"] == len(children)
+        assert properties["gpu_zone_ids"] == sorted(child["site_code"] for child in children if "gpu_availability" in child["properties"])
+    assert "global" not in regions
+    assert all("gcping" not in row["properties"] for row in zones.values())
+    gpu_zones = [row for row in zones.values() if "gpu_availability" in row["properties"]]
+    assert len(gpu_zones) == 89
+    assert zones["europe-west4-ai1a"]["properties"]["gpu_availability"]["machine_types"] == ["G4"]
+    assert all("gpu_availability" not in zones[code]["properties"] for code in ("us-central1-ai1a", "us-south1-ai1b"))
+    for row in gpu_zones:
+        gpu = row["properties"]["gpu_availability"]
+        assert gpu["source_sha256"] == sha256(REPO_ROOT / gpu["raw_source_ref"])
+    cloud_report = read_json(GOOGLE_DIR / f"cloud-regions-and-zones.{tag}.report.json")
+    assert cloud_report["standard_availability_zone_count"] == 130
+    assert cloud_report["ai_zone_count"] == 3
+    assert cloud_report["gcping"]["latency_measurements_collected"] is False
+    assert cloud_report["gcping"]["regions_without_endpoint"] == []
+    assert cloud_report["gcping"]["unmatched_endpoint_region_ids"] == []
+    assert set(cloud_report["gpu_unlisted_zone_ids"]) == set(zones) - {row["site_code"] for row in gpu_zones}
+    for raw in (REPO_ROOT / "data/raw/google").glob(f"*.{tag}.*"):
+        if raw.name.endswith(".provenance.json"):
+            continue
+        manifest_path = raw.with_suffix(".provenance.json") if raw.name.startswith(("peering-", "data-centers-")) else raw.with_suffix(raw.suffix + ".provenance.json")
+        provenance = read_json(manifest_path)
+        assert provenance.get("raw_sha256", provenance.get("sha256")) == sha256(raw)
+        assert provenance["retrieved_at"] == "2026-10-11"
+    manifest = read_json(REPO_ROOT / f"data/manifest.{tag}.json")
+    assert manifest["record_count"] == 27390 and manifest["layer_count"] == 28
+    for layer in manifest["layers"]:
+        if layer["layer"].startswith("google/"):
+            assert layer["snapshot_tag"] == tag
+        for file in layer["files"].values():
+            assert sha256(REPO_ROOT / file["path"]) == file["sha256"]
+        for source in layer["sources"]:
+            assert sha256(REPO_ROOT / source["raw_source_ref"]) == source["sha256"]
+    cloud_manifest = next(layer for layer in manifest["layers"] if layer["layer"] == "google/cloud-regions-and-zones")
+    assert len(cloud_manifest["sources"]) == 5
+
+
+def validate_current_regeneration() -> None:
+    with tempfile.TemporaryDirectory(prefix="cloud-cdn-google-enrichment-") as temp:
+        output_root = Path(temp)
+        output_dir = output_root / "data/google"
+        output_dir.mkdir(parents=True)
+        for name in (f"edge.{TAG}.geojson", f"data-centers.{TAG}.geojson", "cloud-regions-and-zones.20260805.geojson"):
+            shutil.copyfile(GOOGLE_DIR / name, output_dir / name)
+        commands = [
+            ["scripts/update_google.py", "--output-dir", str(output_dir)],
+            ["scripts/update_hyperscalers.py", "--dataset", "google", "--google-enrichment", "--output-root", str(output_root)],
+        ]
+        for args in commands:
+            subprocess.run([sys.executable, "-B", *args, "--retrieved-at", "2026-10-11"], cwd=REPO_ROOT, check=True, capture_output=True, text=True)
+        for layer in ("edge", "data-centers", "cloud-regions-and-zones"):
+            name = f"{layer}.20261011.geojson"
+            assert (output_dir / name).read_bytes() == (GOOGLE_DIR / name).read_bytes(), name
+            actual = read_json((output_dir / name).with_suffix(".report.json"))
+            expected = read_json((GOOGLE_DIR / name).with_suffix(".report.json"))
+            for field in ("derived_files", "generated_files", "geojson_file"):
+                actual.pop(field, None)
+                expected.pop(field, None)
+            assert actual == expected, layer
+        assert not list(output_dir.glob("*.csv"))
+        manifest_output = output_root / "manifest.json"
+        subprocess.run([sys.executable, "-B", "scripts/build_manifest.py", "--retrieved-at", "2026-10-11", "--output", str(manifest_output)], cwd=REPO_ROOT, check=True, capture_output=True)
+        assert manifest_output.read_bytes() == (REPO_ROOT / "data/manifest.20261011.json").read_bytes()
+
+
 def main() -> None:
     validator = schema_validator()
     validate_raw_provenance()
@@ -255,9 +393,12 @@ def main() -> None:
     validate_data_centers(validator)
     validate_legacy_google_unchanged_in_scope()
     validate_deterministic_regeneration()
+    validate_current_google(validator)
+    validate_current_regeneration()
     print(
-        "Google validation passed: 65 edge metros; 59 data-center locations "
-        "(27 in development, 12 with provider coordinates)."
+        "Google validation passed: retained historical layers; 65 current edge metros; "
+        "68 data-center locations; 43 regions, 130 standard zones and 3 AI zones; "
+        "43 GCPing endpoints and 89 GPU-availability joins."
     )
 
 

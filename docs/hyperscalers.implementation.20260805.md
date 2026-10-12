@@ -2,6 +2,8 @@
 
 Date: 2026-08-05
 
+The later [`Google enrichment`](google-enrichment.20261011.md) refreshes Google Cloud, adds three explicitly listed AI zones, and joins GPU availability and GCPing endpoints. This report retains the August implementation counts.
+
 This report records implementation of the public-source portion of the plan in [`hyperscalers.20260804.md`](hyperscalers.20260804.md). The original dataset baseline, [`assessment.20260804.md`](assessment.20260804.md), remains read-only. General refinement methods and the consolidated result are documented in [`methods.md`](methods.md) and [`reassessment.md`](reassessment.md).
 
 ## Outcome

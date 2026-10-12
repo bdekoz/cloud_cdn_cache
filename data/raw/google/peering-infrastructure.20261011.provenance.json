@@ -1,0 +1,17 @@
+{
+  "dataset": "Google peering infrastructure map",
+  "raw_file": "data/raw/google/peering-infrastructure.20261011.html",
+  "raw_bytes": 45491,
+  "raw_sha256": "2996f291f73bc4d55606645438f0685e43efa0e5f64ca79de35773e8e893c0bc",
+  "retrieved_at": "2026-10-11",
+  "source_published_at": null,
+  "source_url": "https://peering.google.com/static/js/site/modules/pages/infrastructure.html",
+  "source_scope": "provider_declared",
+  "source_counts": {
+    "data_centers": 24,
+    "edge_pops": 65,
+    "global_cache_nodes": 1179
+  },
+  "semantics": "The edge POP coordinates represent metros where at least one edge POP is present, not individual facilities.",
+  "license_status": "No standalone redistribution license is stated in the source snapshot; verify terms before republishing."
+}

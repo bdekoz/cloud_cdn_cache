@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.",
+  "raw_source_ref": "data/raw/google/compute-gpu-regions-zones.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "3e7827f48ee5e8ac4fd064b31e0fff02e75b6d14f4f29011ab8f0025b6ceece5",
+  "source_published_at": null,
+  "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones/gpu-regions-zones"
+}

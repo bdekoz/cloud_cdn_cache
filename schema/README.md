@@ -25,8 +25,12 @@ The consolidated 2026-08-05 manifest is intentionally mixed-version and mixed-da
 | Google Edge | `google_edge` | `edge_pop` | `google_peering_infrastructure` |
 | Google Data Centers | `google_data_centers` | `data_center` | `google_data_centers_directory` |
 | Google Global Cache | `google_global_cache` | `embedded_cache` | `google_peering_infrastructure` |
+| Google Cloud standard hierarchy | `google_cloud` | `cloud_region`, `availability_zone` | `google_compute_regions_and_zones` |
+| Google Cloud AI zones | `google_cloud` | `availability_zone` | `google_compute_ai_zones` |
 
 These classes must not be combined into a count of equivalent physical assets. An edge POP is an interconnection location, an owned data center is a campus or facility, and a GGC node is an embedded cache in another network.
+
+Google AI zones use `properties.zone_kind=ai` and restricted project visibility. The canonical parent is the Cloud region; `properties.parent_zone_record_id` separately links to the standard zone whose software schedule and sometimes infrastructure are shared. GPU and GCPing joins keep their own provenance inside properties. Endpoint metadata does not create locations or coordinates. See [`Google enrichment`](../docs/google-enrichment.20261011.md).
 
 ## Registered services
 

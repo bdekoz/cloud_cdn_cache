@@ -1,0 +1,129 @@
+{
+  "ai_zone_count": 3,
+  "availability_zone_count": 133,
+  "coordinate_methods": {
+    "unknown": 176
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/google/cloud-regions-and-zones.20261011.csv",
+      "path": "data/google/cloud-regions-and-zones.20261011.csv",
+      "source": "data/google/cloud-regions-and-zones.20261011.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/google/compute-ai-zones.20261011.html",
+      "retrieved_at": "2026-10-11",
+      "source_scope": "provider_declared",
+      "source_sha256": "58b73b52ff17ac9f56bb38f1e674fc073cbd5acb6817e04f26922cb713083a09",
+      "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones/ai-zones"
+    },
+    {
+      "raw_source_ref": "data/raw/google/compute-gpu-regions-zones.20261011.html",
+      "retrieved_at": "2026-10-11",
+      "source_scope": "provider_declared",
+      "source_sha256": "3e7827f48ee5e8ac4fd064b31e0fff02e75b6d14f4f29011ab8f0025b6ceece5",
+      "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones/gpu-regions-zones"
+    },
+    {
+      "raw_source_ref": "data/raw/google/gcping-endpoints.20261011.json",
+      "retrieved_at": "2026-10-11",
+      "source_scope": "observed",
+      "source_sha256": "c67374ab49c2c0e2174c4e34e59278ed70a6f67e359928957b6c8e8db25c125f",
+      "source_url": "https://global.gcping.com/api/endpoints"
+    },
+    {
+      "raw_source_ref": "data/raw/google/gcping.20261011.html",
+      "retrieved_at": "2026-10-11",
+      "source_scope": "observed",
+      "source_sha256": "5f5e1fe94433d0f705ff8a591c8431b2262eabc3083c66eff02906e6915dc2df",
+      "source_url": "https://gcping.com/"
+    }
+  ],
+  "entity_types": {
+    "availability_zone": 133,
+    "cloud_region": 43
+  },
+  "gcping": {
+    "catalog_entry_count": 44,
+    "global_endpoint": {
+      "Region": "global",
+      "RegionName": "Global External HTTPS Load Balancer",
+      "URL": "https://global.gcping.com"
+    },
+    "global_semantics": "global_https_load_balancer_not_a_cloud_region_or_physical_site",
+    "latency_measurements_collected": false,
+    "matched_region_count": 43,
+    "regions_without_endpoint": [],
+    "unmatched_endpoint_region_ids": []
+  },
+  "generated_files": [
+    "data/google/cloud-regions-and-zones.20261011.geojson"
+  ],
+  "geojson_sha256": "ca7c214de479fcdc02fc800e5aa325c67b378b697c97cc1356ba84287137517e",
+  "geometry_null": 176,
+  "gpu_availability_zone_count": 89,
+  "gpu_unlisted_semantics": "absence_from_gpu_table_does_not_establish_no_gpu_support",
+  "gpu_unlisted_zone_ids": [
+    "africa-south1-a",
+    "africa-south1-b",
+    "africa-south1-c",
+    "asia-east2-b",
+    "asia-northeast2-a",
+    "asia-northeast2-b",
+    "asia-northeast2-c",
+    "asia-south2-b",
+    "asia-southeast3-a",
+    "asia-southeast3-b",
+    "asia-southeast3-c",
+    "australia-southeast2-a",
+    "australia-southeast2-c",
+    "europe-central2-a",
+    "europe-north2-a",
+    "europe-north2-b",
+    "europe-north2-c",
+    "europe-southwest1-a",
+    "europe-southwest1-b",
+    "europe-southwest1-c",
+    "europe-west10-a",
+    "europe-west10-c",
+    "europe-west12-a",
+    "europe-west12-b",
+    "europe-west12-c",
+    "europe-west6-a",
+    "europe-west8-a",
+    "europe-west9-a",
+    "europe-west9-b",
+    "me-central1-a",
+    "me-central1-b",
+    "me-central1-c",
+    "me-central2-b",
+    "northamerica-northeast1-a",
+    "northamerica-south1-a",
+    "northamerica-south1-b",
+    "northamerica-south1-c",
+    "southamerica-west1-a",
+    "southamerica-west1-b",
+    "southamerica-west1-c",
+    "us-central1-ai1a",
+    "us-south1-ai1b",
+    "us-south1-c",
+    "us-west2-a"
+  ],
+  "layer": "cloud-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 176
+  },
+  "parser": "update_hyperscalers.py:google",
+  "product_availability_joined": true,
+  "raw_source_ref": "data/raw/google/compute-regions-zones.20261011.html",
+  "record_count": 176,
+  "region_count": 43,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "85f597350f519a38fb3fb3ab8269156ebe19ce54d9e654c7185840884b1632d8",
+  "source_url": "https://docs.cloud.google.com/compute/docs/regions-zones",
+  "standard_availability_zone_count": 130
+}

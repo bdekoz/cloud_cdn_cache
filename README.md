@@ -26,10 +26,10 @@ The repository's original dataset is published under the [Open Data Commons Attr
 ## Repository layout
 
 - `data/` contains the current provider snapshots.
-- `data/manifest.20260805.json` is the current consolidated hash/count/source manifest for 28 location-schema layers, five derived views, three network-evidence layers, and the China assessment artifacts. It preserves the actual 2026-08-04 tags of older layers.
+- `data/manifest.20261011.json` is the current consolidated hash/count/source manifest for 28 location-schema layers, five derived views, three network-evidence layers, and the China assessment artifacts. It selects the October Google refresh and preserves the actual August tags of other layers.
 - Schema-normalized location layers are committed as canonical GeoJSON and network assertions as canonical JSON; their CSV projections are generated on demand with `jq` and `make`.
-- `data/google/` contains schema-normalized Google Edge and Google Data Center layers.
-- Provider subdirectories under `data/` contain schema-normalized authoritative refreshes dated 2026-08-04 or 2026-08-05; each manifest entry records its actual snapshot tag.
+- `data/google/` contains schema-normalized Google Edge, owned data-center, and Cloud region/zone layers, including AI zones, GPU availability, and GCPing endpoints.
+- Provider subdirectories under `data/` contain schema-normalized authoritative snapshots; each manifest entry records its actual retrieval tag, including the 2026-10-11 Google refresh.
 - `data/china/` records the ten-provider mainland public-cloud assessment; provider directories contain generated cloud layers and explicit mainland views.
 - `data/china-edge/` records the separate ten-provider CDN/edge assessment without manufacturing POPs from fleet totals or province coverage.
 - `data/china-colocation/` records the separate GDS, VNET, and Chindata assessment; `data/chindata/` contains the partial code-based current directory.
@@ -45,12 +45,13 @@ The repository's original dataset is published under the [Open Data Commons Attr
 - [`docs/methods.md`](docs/methods.md) documents source selection, refinement rules, coordinate policy, parsing exceptions, observation limits, quarantine, and reproducibility.
 - [`docs/hyperscalers.20260804.md`](docs/hyperscalers.20260804.md) assesses core-cloud coverage for a ten-provider hyperscaler cohort and proposes a staged enrichment plan.
 - [`docs/hyperscalers.implementation.20260805.md`](docs/hyperscalers.implementation.20260805.md) records the implemented CoreWeave, AWS, Google Cloud, Azure, OCI, IBM, IBM classic, and Meta layers.
+- [`docs/google-enrichment.20261011.md`](docs/google-enrichment.20261011.md) records the current Google refresh, AI-zone identities, GPU availability, GCPing joins, and reproduction commands.
 - [`docs/network-evidence.20260805.md`](docs/network-evidence.20260805.md) records the ASN correction, partial city map, provider prefixes, RIPEstat/RPKI pilot, bounded PeeringDB pilot, and RIPE Atlas measurement gate.
 - [`docs/make.md`](docs/make.md) documents CSV generation, cleanup, validation, refresh usage, and troubleshooting.
 
 The 2024 Meta FNA source fields and the reconstructable 2023 Netflix OCA hostnames have been recovered. See [the recovery record](docs/recovery.20260804.md) for provenance, confidence levels, limitations, and regeneration commands.
 
-Google Edge and owned data centers are now separate normalized layers. See [the Google layer record](docs/google-layers.20260804.md) for source semantics, updater options, null-geometry handling, and validation commands.
+The 2026-10-11 [Google enrichment](docs/google-enrichment.20261011.md) retains 65 edge metros, refreshes the owned data-center directory to 68 entries, and publishes 43 Cloud regions, 130 standard zones, and three explicitly listed AI zones. All 43 regions have supplementary GCPing endpoints; 89 zones have published GPU listings. Cloud geometry remains null, and no latency samples were collected. The [original Google layer record](docs/google-layers.20260804.md) documents the August snapshots.
 
 Cloudflare, Azure Front Door, AWS CloudFront and Local Zones, Fastly, CacheFly, Alibaba, Tencent, Baidu, Huawei, Volcano, Kingsoft, JD, Tianyi, and the partial Chindata directory have normalized refreshes dated 2026-08-04. Google Edge and owned data centers remain distinct options. China Mobile and China Unicom are explicit public-cloud source gaps; China edge/CDN marketing aggregates and the GDS/VNET portfolio totals remain assessments rather than speculative points. The corrected June 2026 ASN layer adds 13,631 valid Google, Netflix, Meta, Akamai, Microsoft, Apple, and CloudFront observations. A separate partial KML contributes 11,659 MaxMind city observations for Google, Meta, and Netflix. Provider prefixes, sampled RIPEstat routing/RPKI state, and bounded PeeringDB registrations remain separately counted non-spatial evidence. See the immutable [baseline assessment](docs/assessment.20260804.md), the implemented [reassessment](docs/reassessment.md), and [methods](docs/methods.md).
 
@@ -58,6 +59,6 @@ The [hyperscaler assessment](docs/hyperscalers.20260804.md) identified the missi
 
 The refinement pipeline uses provider-approved, licensed, public filing/tender, and reproducible measurement evidence. Unauthorized or leaked inventories are not used to fill gaps; source and authorization rules are documented in [methods](docs/methods.md).
 
-To generate every normalized CSV projection, run `make csv`. To generate one file, name it directly, for example `make data/network/provider-prefixes.20260805.csv`. Column order comes from the applicable schema, and arrays or objects are emitted as compact JSON. These generated files are ignored by Git. Raw source CSVs, recovered outputs, and historical CSVs remain retained because they contain evidence or fields that cannot necessarily be reconstructed from canonical JSON. See [Make usage](docs/make.md) for cleanup, validation, refresh, and troubleshooting details.
+To generate every normalized CSV projection from the current manifest, run `make RETRIEVED_AT=2026-10-11 csv`; plain `make csv` selects the August manifest. To generate one file, name it directly, for example `make data/google/cloud-regions-and-zones.20261011.csv`. Column order comes from the applicable schema, and arrays or objects are emitted as compact JSON. These generated files are ignored by Git. Raw source CSVs, recovered outputs, and historical CSVs remain retained because they contain evidence or fields that cannot necessarily be reconstructed from canonical JSON. See [Make usage](docs/make.md) for cleanup, validation, refresh, and troubleshooting details.
 
 I am grateful to [Mozilla](https://mozilla.com) for affording me the time to produce this map. Any errors are of course my own responsibility.

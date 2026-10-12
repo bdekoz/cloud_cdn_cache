@@ -2,6 +2,8 @@
 
 Date: 2026-08-04
 
+For the current snapshots, Cloud AI zones, GPU listings, and GCPing endpoint joins, see [`google-enrichment.20261011.md`](google-enrichment.20261011.md). This dated record describes the retained August edge and owned-directory layers.
+
 Google Edge and Google-owned data centers are represented as separate provider-declared layers under schema version `1.1.0`. They are not interchangeable asset counts, and neither replaces the existing Google Global Cache snapshot. The 1.1 regeneration adds explicit jurisdiction, access, service-scope, parent, and coordinate-CRS fields without changing membership.
 
 ## Outputs
