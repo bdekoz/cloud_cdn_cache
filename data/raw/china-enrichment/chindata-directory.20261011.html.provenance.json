@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+  "resolved_url": "https://www.chindatagroup.com/global.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/global.html"
+}

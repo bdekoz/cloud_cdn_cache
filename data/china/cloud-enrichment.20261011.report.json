@@ -1,0 +1,84 @@
+{
+  "geometry_note": "No coordinates were supplied by these directory sources; all refreshed geometry is null.",
+  "layers": {
+    "alibaba/regions-and-zones": {
+      "entity_types": {
+        "availability_zone": 133,
+        "cloud_region": 38
+      },
+      "record_count": 171
+    },
+    "aws/regions-and-zones": {
+      "entity_types": {
+        "availability_zone": 108,
+        "cloud_region": 39
+      },
+      "record_count": 147
+    },
+    "baidu/regions-and-zones": {
+      "entity_types": {
+        "availability_zone": 19,
+        "cloud_region": 8
+      },
+      "record_count": 27
+    },
+    "huawei/regions": {
+      "entity_types": {
+        "cloud_region": 31
+      },
+      "record_count": 31
+    },
+    "jd/mainland-regions-and-zones": {
+      "entity_types": {
+        "availability_zone": 10,
+        "cloud_region": 4
+      },
+      "record_count": 14
+    },
+    "kingsoft/mainland-regions-and-zones": {
+      "entity_types": {
+        "availability_zone": 14,
+        "cloud_region": 8
+      },
+      "record_count": 22
+    },
+    "microsoft/china-cloud-regions": {
+      "entity_types": {
+        "cloud_region": 6
+      },
+      "record_count": 6
+    },
+    "qiniu/resource-pools-and-regions": {
+      "entity_types": {
+        "cloud_region": 21,
+        "cloud_resource_pool": 2
+      },
+      "record_count": 23
+    },
+    "tencent/regions-and-zones": {
+      "entity_types": {
+        "availability_zone": 71,
+        "cloud_region": 26
+      },
+      "record_count": 97
+    },
+    "tianyi/vpc-resource-pools": {
+      "entity_types": {
+        "cloud_resource_pool": 63
+      },
+      "record_count": 63
+    },
+    "volcano/regions-and-zones": {
+      "entity_types": {
+        "availability_zone": 18,
+        "cloud_region": 6
+      },
+      "record_count": 24
+    }
+  },
+  "retrieved_at": "2026-10-11",
+  "source_catalog": {
+    "path": "data/raw/china-enrichment/catalog.20261011.json",
+    "sha256": "76c341314aa714324def1fd5e0a471f206601360909fbb3d710732cc090d4351"
+  }
+}

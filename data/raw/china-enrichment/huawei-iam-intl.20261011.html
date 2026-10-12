@@ -1,0 +1,673 @@
+<!DOCTYPE html> <html lang="en-US" site="hk"> <head> <meta name="referrer" content="no-referrer-when-downgrade" /> <link rel="canonical" data-link-type="uri" href="https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html" /> <title>Before You Start_API Reference_Identity and Access Management_Identity and Access Management (New Edition)-Huawei Cloud</title> <meta name="keywords" content="Before You Start,IAM 5.0 API Reference" /> <meta name="description" content="Welcome to Identity and Access Management (IAM). IAM provides identity authentication, permissions management, and access control." /> <meta charset="UTF-8" /> <meta name="applicable-device" content="pc,mobile" /> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /> <meta name="baidu-site-verification" content="nsMgQr28vc" /> <meta http-equiv="x-dns-prefetch-control" content="on" /> <meta name="cache" content="pep-disable-cache" /> <script
+        src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/special_iframe.js"></script> <meta name="templateName" content="doc-common-detail-pep2.0-module" /> <meta name="referrer" content="no-referrer-when-downgrade" /> <meta name="pep-template-version" content="1.9.27" /> <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;" /> <meta property="og:title" content="Before You Start_Identity and Access Management_Identity and Access Management (New Edition)-Huawei Cloud"> <meta property="og:type" content="website"> <meta property="og:description" content="Welcome to Identity and Access Management (IAM). IAM provides identity authentication, permissions management, and access control."> <meta property="og:url" content="https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html"> <meta property="og:site_name" content="Huawei Cloud"> <meta property="og:image" content="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/seo/og.jpeg"> <meta property="twitter:title" content="Before You Start_Identity and Access Management_Identity and Access Management (New Edition)-Huawei Cloud"> <meta property="twitter:type" content="website"> <meta property="twitter:description" content="Welcome to Identity and Access Management (IAM). IAM provides identity authentication, permissions management, and access control."> <meta property="twitter:url" content="https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html"> <meta property="twitter:site_name" content="Huawei Cloud"> <meta property="twitter:image" content="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/seo/twitter.jpeg"> <link rel="icon" href="https://www.huaweicloud.com/favicon.ico"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/css/hk/portal-global.css"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-hk/2.0.61/index.css"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.18/theme-token.css"> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/globalInfo.min.js" crossorigin="anonymous"></script> <!-- --> <meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw" /> <meta name="sogou_site_verification" content="u4x6sJNooE" /> <link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" /> <link rel="dns-prefetch" href="https://portal.hc-cdn.com" /> <link rel="dns-prefetch" href="https://support.huaweicloud.com" /> <link rel="dns-prefetch" href="https://activity.huaweicloud.com" /> <link rel="dns-prefetch" href="https://portal.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" /> <!-- --> <script>
+    window.dataLayer = window.dataLayer || [];
+    window.$closeBiReport2018 = true
+
+    window.$siteInfo = window.$siteInfo || {};
+    window.$siteInfo.site = "hk";
+    window.$siteInfo.lang = "en-us".replace("_", "-");
+</script> <script>
+        (function(){
+            window.recordTier = window.recordTier || [];
+            window.recordTier.push({eventName: 'dtm.js'});
+        })();
+    </script> <script>window.$cssList = [];window.$aioList = [];window.$aioCdnPrefix = 'https://res.hc-cdn.com/';</script> <script src="https://res.hc-cdn.com/cnpm-portal-utils/1.4.33/PortalUtils.umd.js"></script> <script type="importmap">
+        {
+         "imports": {
+           "svelte": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/index.js",
+           "svelte/store": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/store.js",
+           "svelte/motion": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/motion.js",
+           "svelte/transition": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/transition.js",
+           "svelte/animate": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/animate.js",
+           "svelte/easing": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/easing.js",
+           "svelte/events": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/events.js",
+           "svelte/internal/client": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-client.js",
+           "svelte/legacy": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/legacy.js",
+           "svelte/reactivity": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity.js",
+           "svelte/reactivity/window": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity-window.js",
+           "svelte/attachments": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/attachments.js",
+           "svelte/internal/disclose-version": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-disclose-version.js"
+          }
+        }
+      </script> <script>
+        window.gConfig =  window.gConfig || {};
+        window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+        var hClassName ;
+        if(window.gConfig.isMobile) {
+          hClassName = ' phone';
+        } else {
+          hClassName = ' pc';
+        }
+        if(window.$cssList) {
+          for(var i=0; i<window.$cssList.length; i++) {
+            document.write('<link rel="stylesheet" href="'+window.$cssList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+          }
+        }
+        var root = document.documentElement;
+        root.className += hClassName ;
+    </script> <script>
+    window.gConfig =  window.gConfig || {};
+    window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+    var hClassName;
+    if(window.gConfig.isMobile){
+        hClassName = ' phone';
+    }else{
+        hClassName = ' pc';  
+    }
+    if(window.$aioList) {
+        for(var i=0; i<window.$aioList.length; i++) {
+            if(window.$aioCdnPrefix){
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="'+window.$aioCdnPrefix+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            } else {
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/'+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            }
+            
+        }
+    }
+    var root = document.documentElement;
+    root.className += hClassName ; 
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.gConfig.seed.push({
+        name: '@cloud/link-to',
+        data: {
+            "packages": {
+                "@cloud/link-to": {
+                    "path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+                    "version": "3.1.12"
+                }
+            }
+        }
+    });
+</script> <link href="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/css/index_revision.css?20240716&sttl=3.0.86" rel="stylesheet" /> <link href="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/css/default.min.css" rel="stylesheet" /> <link rel="alternate" hreflang="en-us" href="https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="id-id" href="https://support.huaweicloud.com/intl/id-id/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="es-us" href="https://support.huaweicloud.com/intl/es-us/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="pt-br" href="https://support.huaweicloud.com/intl/pt-br/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="tr-tr" href="https://support.huaweicloud.com/intl/tr-tr/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="ar-ae" href="https://support.huaweicloud.com/intl/ar-mena/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="th-th" href="https://support.huaweicloud.com/intl/th-th/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="zh-hk" href="https://support.huaweicloud.com/intl/zh-cn/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="ja-jp" href="https://support.huaweicloud.com/intl/ja-jp/api-iam5/iam_02_1101.html" /> <link rel="alternate" hreflang="x-default" href="https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html" /> <script>
+        // 规避资料不规范出现这些未定义的方法
+        function image_size() { }
+        function highlightSearch() { }
+        function initImageViewer(Selector) { }
+    </script> <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Help Center",
+            "item": "https://support.huaweicloud.com/intl/en-us/index.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Identity and Access Management_Identity and Access Management (New Edition)",
+            "item": "https://support.huaweicloud.com/intl/en-us/productdesc-iam5/iam_01_1107.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "API Reference",
+            "item": "https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html"
+            },
+            {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Before You Start",
+            "item": ""
+            }
+            ]
+        }
+    </script> </head> <body class="scrolled"> <div id="header" bi_parent_name="navigation" meta-data-adjust-app="hide"> <div class="header-container"> <div class="header-prompt"> <div class="header-prompt-wrapper"> <div class="header-prompt-content"> <i class="por-icon por-icon-error"></i> <p>检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 <a href="https://www.huaweicloud.com/intl/zh-cn">https://www.huaweicloud.com/intl/zh-cn</a></p> </div> <div class="header-prompt-radio"> <i class="header-prompt-checkbox active"></i> <p>不再显示此消息</p> <i class="header-prompt-closed por-icon por-icon-close"></i> </div> </div></div> <div class="header-topnav"> <div class="header-topnav-wrapper"> <li class="header-lang "> <div class="header-lang-current"><i class="header-icon-earth"></i><span class="header-lang-label">Intl-English</span><i class="header-icon-arrow-down"></i></div> <div class="header-lang-list"> <div class="header-site" bi_parent_name="International"> <div class="header-site-left">International</div> <ul class="header-site-right"> <li class="header-lang-item active"><a href="javascript:changeLangNew('en-us')">English</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('id-id')">Bahasa Indonesia</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('es-us')">Español</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('pt-br')">Português</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('tr-tr')">Türkçe</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('ar-mena')">عربي</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('th-th')">ไทย</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('zh-cn')">简体中文</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('ja-jp')">日本語</a></li> </ul> </div> <div class="header-site" bi_parent_name="中国站"> <div class="header-site-left">中国站</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="//www.huaweicloud.com/">简体中文</a></li> </ul> </div> <div class="header-site" bi_parent_name="Europe"> <div class="header-site-left">Europe</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/">English</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/de-de/">Deutsch</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/es-es/">Español</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/fr-fr/">Français</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/nl-nl/">Nederlands</a></li> </ul> </div> </div> </li> </div></div> <div class="header-wrapper"> <div class="header-bottom"> <div class="header-bottom-wrapper"> <a class="header-logo" rel="nofollow" bi_name="logo" title="Huawei Cloud" href="https://www.huaweicloud.com/intl/"> <img src="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/yunying/new-header/logo.png" alt="Huawei Cloud"> </a> <div class="header-nav"> <div class="header-nav-scroll"> <ul class="header-nav-list"> <li data-key="product"> <a data-href="https://www.huaweicloud.com/intl/en-us/product/"> <span>Products</span> </a> </li> <li data-key="solution"> <a data-href="https://www.huaweicloud.com/intl/en-us/solution/"> <span>Solutions</span> </a> </li> <li data-key="price"> <a data-href="https://www.huaweicloud.com/intl/en-us/pricing.html"> <span>Pricing</span> </a> </li> <li data-key="market"> <a data-href="https://marketplace.huaweicloud.com/intl/"> <span>KooGallery</span> </a> </li> <li data-key="partner"> <a data-href="https://www.huaweicloud.com/intl/en-us/partners/"> <span>Partners</span> </a> </li> <li data-key="developers"> <a data-href="https://developer.huaweicloud.com/intl/en-us/"> <span>Developers</span> </a> </li> <li data-key="support"> <a data-href="https://www.huaweicloud.com/intl/en-us/service/index.html"> <span>Support</span> </a> </li> <li data-key="about"> <a data-href="https://www.huaweicloud.com/intl/en-us/about/index.html"> <span>About Us</span> </a> </li> </ul> </div> <div class="header-bottom-mask"></div> <div class="header-nav-hover-line"></div> </div> <div class="header-tools"> <div class="header-search J-header-search simplify" bi_parent_name="search"> <form class="header-search-inner J-serach-form" tabindex="-1" data-api-search-url="https://www.huaweicloud.com/intl/en-us/s/" data-api-report="https://portal-intl.huaweicloud.com/stats/pip.gif" data-api-hot="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC&amp;language=en-us" data-api-autoword="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot=""> <div class="header-search-content J-search-content"> <input class="J-search-input" id="header-navigation-search-input" maxlength="128" type="text" data-active-placeholder="Search" autocomplete="off"> <div class="close-icon"></div> <button type="submit" class="header-search-submit" bi_name="#header-navigation-search-input"> <i></i> </button> <i class="por-icon por-icon-cancel header-search-close J-search-close"></i> <div class="header-search-droplist J-search-drop J-search-autoword" data-clickable-asyn="true"> <div class="J-search-hot"> <div class="J-search-popular" bi_parent_name="recommend"> <div class="J-search-title"></div> <ul class="J-search-popular-content"> </ul> </div> </div> <div class="J-search-related" bi_parent_name="related"> <ul></ul> <div class="J-search-keyWordsAll"><a>Show more results for “<span></span>” <i class="header-icon-arrow-right"></i></a></div> </div> </div> </div> </form> <div class="header-search-button"> <input class="search-default" type="text" data-active-placeholder="搜索" autocomplete="off" placeholder="搜索"> <i></i> </div> </div> <div class="header-menu-search-mb"> <span class="header-icon-search"></span> </div> <ul class="header-tools-right header-main"> <li><a href="https://www.huaweicloud.com/intl/en-us/contact-sales.html" rel="nofollow">Contact Us</a></li> <li><a href="https://support.huaweicloud.com/intl/en-us/index.html">Documentation</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=en-us" rel="nofollow">Console</a></li> <li class="header-login-mobile"> <span class="header-icon-user js-login"></span> <div class="header-user-info user-info-layer user-unlogin header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"><a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/accountindex/accountInfo" target="_blank" bi_name="My Account" rel="nofollow">My Account</a></li> <li><a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/allview" target="_blank" bi_name="Billing &amp; Costs" rel="nofollow">Billing &amp; Costs</a></li> <li><a href="https://console-intl.huaweicloud.com/ticket/?locale=en-us#/ticketindex/serviceTickets" target="_blank" bi_name="Service Tickets" rel="nofollow">Service Tickets</a></li> <li class="message"><a href="https://console-intl.huaweicloud.com/mc/?locale=en-us#/" target="_blank" bi_name="Unread Messages" rel="nofollow">Unread Messages</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=en-us" target="_blank" bi_name="Console" class="mb-special" rel="nofollow">Console</a></li> <li class="isVendor" style="display: none;"><a href="https://account-intl.huaweicloud.com/obmgr/?locale=en-us#/obmgr/index" target="_blank" bi_name="Partner Center" rel="nofollow">Partner Center</a></li> <li class="header-user-info-split "></li> <li class="header-user-info-item-account account-item button-container"> <a class="header-user-info-button-common" data-login-href="https://auth.huaweicloud.com/authui/login.html?locale=en-us&amp;service=" href="https://auth.huaweicloud.com/authui/login.html?locale=en-us&amp;service=" target="_blank" rel="nofollow">Sign In</a> <a class="header-user-info-button-red js-register" data-register-href="https://reg.huaweicloud.com/registerui/intl/m/register.html?hwid=login&amp;locale=en-us&amp;service=" href="https://reg.huaweicloud.com/registerui/intl/m/register.html?hwid=login&amp;locale=en-us&amp;service=" target="_blank" rel="nofollow">Sign Up</a> </li> </ul> </div></li><li class="header-login"><a data-login-href="https://auth.huaweicloud.com/authui/login?locale=en-us&amp;service=" href="https://auth.huaweicloud.com/authui/login?locale=en-us&amp;service=" rel="nofollow" class="btn js-login">Sign In</a></li> <li class="header-register"><a href="https://reg.huaweicloud.com/registerui/intl/register.html?locale=en-us&amp;service=" class="btn js-register" rel="nofollow"> Sign Up </a></li><li class="header-user user-info"> <div class="header-user-avator"> <img class="header-tool-user-avator-img account-pic lazyload" data-src="//res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/v2_resources/images/global/headPic.png?sttl=20180413"> </div> <div class="header-user-name"><span class="my-acct"></span><i class="header-nav-item-icon"></i></div> <div class="header-user-info user-info-layer header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"> <a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/accountindex/accountInfo" target="_blank" bi_name="My Account" rel="nofollow">My Account</a> <a class="restricted" href="https://account-intl.huaweicloud.com/usercenter/?#/complete" target="_blank" bi_name="Complete Sign Up"> <i></i> <span>Complete Sign Up</span> </a> </li> <li><a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/allview" target="_blank" bi_name="Billing &amp; Costs" rel="nofollow">Billing &amp; Costs</a> </li> <li><a href="https://console-intl.huaweicloud.com/ticket/?locale=en-us#/ticketindex/serviceTickets" target="_blank" bi_name="Service Tickets" rel="nofollow">Service Tickets</a> </li> <li class="message"><a href="https://console-intl.huaweicloud.com/mc/?locale=en-us#/" target="_blank" bi_name="Unread Messages" rel="nofollow">Unread Messages</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=en-us" target="_blank" bi_name="Console" class="mb-special" rel="nofollow">Console</a> </li> <li class="isVendor" style="display: none;"><a href="https://account-intl.huaweicloud.com/obmgr/?locale=en-us#/obmgr/index" target="_blank" bi_name="Partner Center" rel="nofollow">Partner Center</a></li> <li class="header-user-info-split "></li> <li class="logout"> <a href="#" class="bottom-username" rel="nofollow"><span class="my-acct"></span></a> <a class="logout-btn" mate_data_ts="intl_v3_top_navigation.click.logout_20170820" href="https://portal-intl.huaweicloud.com/index/logout" rel="nofollow">Log Out</a> </li> </ul> </div></li> </ul> <div class="header-menu-mb" bi_name="HamburgNavigation" data-clickable="true"> <span></span> <span></span> <span></span> </div></div> </div></div> <script type="text/html" id="holder-drop"></script> <script type="text/html" id="holder-mbnav"></script> <div class="header-mbshearch header-backdrop" bi_parent_name="search_mb"> <div class="header-mbshearch-innner"> <form class="header-mbshearch-form" action method="get" data-api-search-url="https://www.huaweicloud.com/intl/en-us/s/" data-api-hot="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC&amp;language=en-us" data-api-report="https://portal-intl.huaweicloud.com/stats/pip.gif" data-api-autoword="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot=""> <div class="header-mbshearch-form-row"> <div><div class="header-mbshearch-input-box"><i class=""></i><input type="text" maxlength="128" class="header-mbshearch-input" autocomplete="off"></div></div> <div><a class="header-mbshearch-cancel">Cancel</a></div> </div> </form> <div class="header-mbshearch-droplist" data-clickable-asyn="true"> <div class="J-mbshearch-hot"> <div class="J-mbshearch-popular"> <div class="J-mbshearch-title"></div> <ul class="J-mbshearch-popular-content"> </ul> </div> </div> <ul class="J-mbshearch-related"> </ul> </div> </div></div> </div> </div></div> <script>
+  var htmlLang = $("html").attr("lang") || "en-US";
+  htmlLang = htmlLang.toLocaleLowerCase();
+  var langMatch = true;
+  function getUrlLang(){
+    var langUrlReg = /intl\/([a-zA-Z\-]*)\//i;
+    var urlLang = langUrlReg.test(location.pathname)?location.pathname.match(langUrlReg)[1]:"en-us";
+    return urlLang;
+  }
+  var urlLang = getUrlLang();
+
+  function isLangMatch(){
+    // 多语言插件导航优先取当前url语言
+    return htmlLang === urlLang;
+  }
+
+  langMatch = isLangMatch();
+  if(!langMatch && urlLang !== 'ar-mena'){
+    var $langArr = urlLang.split('-');
+    $("#header .header-container").hide();
+    htmlLang = urlLang;
+    $("html").attr("lang", $langArr[0]+"-"+$langArr[1].toUpperCase());
+  }
+
+  // 国际站移动端文字超长情况下自适应宽度
+  $('body').addClass('por-tab-self-adaption')
+</script> <div id="content" class="help-page home-page" bi_parent_name="support"> <div bi_parent_name="hk-content"> <div> <a id="support-hidden-menu" hidden href="/intl/en-us/iam5/v3_support_leftmenu_fragment.html"></a> <a id="support-hidden-index" hidden href="/intl/en-us/support_all_doc_fragment.html"></a> </div> <div class="support-section support-content" id="support-content"> <div class="support-body" data-prod="iam5" bi_parent_name="iam5_main"> <div class="wrapper"> <div class="support-section support-nav" id="support-nav"></div> <script>
+    !(function (win, $) {
+        !(function initAllDoc() {
+            const origin = window.location.origin;
+            const url = `${origin}/intl/en-us/support_all_doc_fragment.html`;
+            $.ajax({
+                type: 'get',
+                url: url,
+                timeout: 10000,
+                success: function (data) {
+                    initBase(data);
+                },
+            });
+        })();
+
+        function initBase(allDoc) {
+            let url = '';
+            let code = 'iam5' || '';
+            const origin = window.location.origin;
+
+            if (code === 'pcre' && queryString('product')) {
+                code = queryString('product');
+            }
+            if (code) {
+                url = `${origin}/intl/en-us/${code}/v3_support_leftmenu_fragment.html`;
+            }
+            $.ajax({
+                type: 'get',
+                url: url,
+                timeout: 10000,
+                success: function (data) {
+                    initCommon(data, allDoc, code);
+                },
+            });
+        }
+
+        function queryString(key) {
+            var url = window.location.href;
+            var val = url.match(new RegExp('[?&]' + key + '=([^&#]*)(&?)', 'i'));
+            return val ? val[1] : val;
+        }
+
+        function initCommon(data, allDoc, code) {
+            var peplang = $('html').attr('lang').toLowerCase();
+            var scripts = [
+                "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/common_revision.min.js?20240716&sttl=3.0.86",
+                "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/maintainable_revision.min.js?20240716&sttl=3.0.86"
+            ];
+            $(data).find('ul.help-tsr li.nav-item').eq(1).find('a').attr('target', '_blank').removeClass('ajax-nav');
+            $('#support-nav').html($(data));
+            $('#support-nav').find('.side-nav-menu .side-menu-box').html($(allDoc));
+            if (peplang === 'es-us' || peplang === 'pt-br' || peplang === 'ja-jp') {
+                $('#support-nav .side-nav').find('.nav-item.level1').each((_index, item) => {
+                    if ($(item).attr('data-append') === 'false' && $(item).next().attr('data-append') === 'true') {
+                        $(item).after(`<li class="nav-item level1 append-tip"><a style="padding: 0;font-size: 12px;overflow: visible;max-height: initial;-webkit-line-clamp: initial;">The content is not currently available in your target language. View in English.</a></li>`);
+                    }
+                    if ($(item).attr('data-append') === 'true') {
+                        $(item).find('a').attr('target', '_blank');
+                    }
+                })
+            };
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            };
+        }
+        !(function () {
+            var sWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            if (sWidth >= 768) {
+                $('.side-menu-box .item.item-search-mb').remove();
+            } else {
+                $('.side-menu-box .item.item-search-pc').remove();
+            }
+        })();
+    })(window, jQuery);
+</script> <div class="support-main" data-handbook-type="api"> <span class="move-line"></span> <div class="crumbs"> <a class="link help-link" href="/intl/en-us/index.html" mate_data_ts_v2="en-us_support_detail_iam5_breadcrumb.click_Help Center">Help Center</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/intl/en-us/productdesc-iam5/iam_01_1107.html" mate_data_ts_v2="en-us_support_detail_iam5_breadcrumb.click_Identity and Access Management_Identity and Access Management (New Edition)">Identity and Access Management_Identity and Access Management (New Edition)</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html" mate_data_ts_v2="en-us_support_detail_iam5_breadcrumb.click_API Reference">API Reference</a><span>&#47;</span> <span class="text">Before You Start</span> </div> <div class="help-content help-center-document cf" data-current-handbookcode="api-iam5" data-handbook-type="api" > <div id="adOutsideDiv"><div id="helpAdDiv"></div></div> <div class="updateTime"> Updated on <span class="updateInfo">2025-11-07 GMT+08:00</span> <div class="doc-tips"> </div> </div> <div class="help-view-pdf" mate_data_ts_v2="en-us_support_detail_iam5.click_View PDF"> <a target="_blank" href="https://support.huaweicloud.com/intl/en-us/api-iam5/IAM 5.0 API Reference-pdf.pdf"><i></i><span>View PDF</span></a> </div> <div class="help-view-share"> <a href="javascript:void(0);"><i></i><span>Share</span></a> <div class="share-content"> <ul class="share-list"> <li class="share-item share-x-com" mate_data_ts_v2="en-us_support_detail_iam5.click_x.com"> <a href="javascript:void(0);"><i></i><span>x.com</span></a> </li> <li class="share-item share-facebook" mate_data_ts_v2="en-us_support_detail_iam5.click_Facebook"> <a href="javascript:void(0);"><i></i><span>Facebook</span></a> </li> <li class="share-item share-linked-in" mate_data_ts_v2="en-us_support_detail_iam5.click_LinkedIn"> <a href="javascript:void(0);"><i></i><span>LinkedIn</span></a> </li> <li class="share-item share-copy" mate_data_ts_v2="en-us_support_detail_iam5.click_copy_link"> <a href="javascript:void(0);"><i></i><span data-copy-text="Copy link" data-copied-text="Copied">Copy link</span></a> </li> </ul> </div> </div> <div class="share-item share-copy-fixed"> <i class="copy-success"></i> <p>Copied.</p> <span class="copy-close"></span> </div> <a name="iam_02_1101"></a><a name="iam_02_1101"></a> <h1 class="topictitle1">Before You Start</h1> <div id="body1512366443584"> <p id="iam_02_1101__p15658415195716">Welcome to Identity and Access Management (IAM). IAM provides identity authentication, permissions management, and access control. With IAM, you can create and manage users and grant them permissions to allow or deny their access to cloud resources.</p> <p id="iam_02_1101__p365810154573">IAM supports the console access and programmatic access (API access). This document describes how to use APIs to perform operations on IAM, such as creating users and user groups. Before calling IAM APIs, ensure that you have understood the basic concepts of this service. For details, see the <em id="iam_02_1101__i8422301883">Identity and Access Management Service Overview</em>.</p> <div class="section" id="iam_02_1101__section5182131375015"> <h4 class="sectiontitle">Basic Concepts</h4> <ul id="iam_02_1101__ul7362432243"> <li id="iam_02_1101__li63622312415">Account <p id="iam_02_1101__p71407511248"><a name="iam_02_1101__li63622312415"></a><a name="li63622312415"></a>An account is created upon successful registration with Huawei Cloud. The account has full access permissions for all of its cloud services and resources. It can be used to reset user passwords and grant user permissions. The account is a payment entity and should not be used directly to perform routine management. For security purposes, create IAM users and grant them permissions for routine management.</p></li> <li id="iam_02_1101__li685812328118">IAM user <p id="iam_02_1101__p1486410325110"><a name="iam_02_1101__li685812328118"></a><a name="li685812328118"></a>An IAM user is created using an account to use cloud services. Each IAM user has their own identity credentials (password and access keys).</p> <p id="iam_02_1101__p17864143231113">An IAM user can view the account ID and IAM user ID on the page of the console.</p></li> <li id="iam_02_1101__li8848551781">Region <p id="iam_02_1101__p225765617812"><a name="iam_02_1101__li8848551781"></a><a name="li8848551781"></a>Regions are divided based on geographical location and network latency. Public services, such as Elastic Cloud Server (ECS), Elastic Volume Service (EVS), Object Storage Service (OBS), Virtual Private Cloud (VPC), Elastic IP (EIP), and Image Management Service (IMS), are shared within the same region. Regions are classified into universal regions and dedicated regions. A universal region provides universal cloud services for common tenants. A dedicated region provides specific services for specific tenants.</p></li> <li id="iam_02_1101__li2612458684">AZ <p id="iam_02_1101__p169525916812"><a name="iam_02_1101__li2612458684"></a><a name="li2612458684"></a>An AZ contains one or more physical data centers. Each AZ has independent cooling, fire extinguishing, moisture-proof, and electricity facilities. Within an AZ, computing, network, storage, and other resources are logically divided into multiple clusters. AZs within a region are interconnected by optical fibers for high-availability networking.</p></li> </ul> </div> </div> </div> <script>
+    (function ($) {
+      $.fn.bigrender = function (opts) {
+
+        var winHeight = document.documentElement.clientHeight;
+        var sum = 0;
+        var count = 0;
+        var flash = new Array();
+
+        // 'class' 是textarea父节点的类；'textarea' 是textarea标签的类；'threshold'是距离进入屏幕还有150像素就开始渲染；'remove'是否删除textarea标签       
+        options = $.extend({
+          'class': '.br-warp',
+          'textarea': '.br-rendered',
+          'threshold': 150,
+          'remove': true,
+        }, opts);
+
+        $brenders = $(options.class);
+        // 渲染首屏的内容
+        initBigrender();
+        // 绑定滚动条事件
+        scrollDisplay();
+
+
+        // 函数定义
+        function initBigrender() {
+          $brenders.each(function (n, object) {
+            sum++;
+            if (isRender($(this))) {
+              display($(this));
+              count++;
+              flash[n] = true;
+            } else {
+              flash[n] = false;
+            }
+          });
+        }
+
+        // 判断时候需要渲染
+        function isRender(object) {
+          offsetTop = object.offset().top;
+          ojh = object.outerHeight(true);
+          st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+
+          if (offsetTop + ojh + options.threshold >= st && offsetTop - options.threshold < (st + winHeight)) {
+            return true;
+          } else return false;
+
+        }
+
+        // 渲染textarea内的html代码
+        function display(object) {
+          $display = object.find(options.textarea).eq(0);
+          object.append($display.val());
+          if (options.remove) {
+            $display.remove();
+          }
+        }
+
+        // 屏幕绑定滚动条事件，当待渲染的内容进入可视屏幕就触发isRender函数
+        function scrollDisplay() {
+          $(window).scroll(function () {
+            if (count < sum) {
+              $brenders.each(function (n, object) {
+                if (!flash[n]) {
+                  if (isRender($(this))) {
+                    display($(this));
+                    count++;
+                    flash[n] = true;
+                  }
+                }
+              });
+            }
+          });
+        }
+      };
+    })(jQuery);
+    window.addEventListener('DOMContentLoaded', function (event) {
+      $.fn.bigrender({ 'threshold': 100 });
+    });
+    $(document).data('ajaxNav') && $(document).data('ajaxNav').addEvent('load', function () {
+      $.fn.bigrender({ 'threshold': 100 });
+    });
+  </script> <div class="help-detail-feedback "> <div class="action"> <p class="next"> <span class="label js-title"></span> <a class="link help-link js-title" href="https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1107.html" mate_data_ts_v2="en-us_support_detail_iam5.click_Next topic: API Overview">Next topic: API Overview</a> </p> </div> </div> <div class="relevant-content"> <div class="doc-bottom-feedback"> <h3 class="feedback-title"> <span>What is your overall rating for this page?</span> </h3> <div class="help-form" bi_parent_name="feedback"> <div class="help-btn-wrap"> <div class="help-form-content"> <div class="star-score-btns"> <div id="score0" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_0星"><span>0</span><i class="help-form-n"></i></div> <div id="score1" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_1星"><span>1</span><i class="help-form-n"></i></div> <div id="score2" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_2星"><span>2</span><i class="help-form-n"></i></div> <div id="score3" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_3星"><span>3</span><i class="help-form-n"></i></div> <div id="score4" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_4星"><span>4</span><i class="help-form-n"></i></div> <div id="score5" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_5星"><span>5</span><i class="help-form-n"></i></div> <div id="score6" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_6星"><span>6</span><i class="help-form-n"></i></div> <div id="score7" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_7星"><span>7</span><i class="help-form-m"></i></div> <div id="score8" class="help-form-btn help-btn-unuse" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_8星"><span>8</span><i class="help-form-m"></i></div> <div id="score9" class="help-form-btn help-btn-use" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_9星"><span>9</span><i class="help-form-y"></i></div> <div id="score10" class="help-form-btn help-btn-use" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_10星"><span>10</span><i class="help-form-y"></i></div> </div> <div class="star-score-tip"> <span>Very dissatisfied</span><span>Very satisfied</span> </div> </div> <a class="help-form-btn provide-feedback" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_提供反馈">Provide feedback</a> </div> <div class="por-tip success help-form-success"> <div class="por-tip-content"> <i class="por-icon por-icon-success"></i> <div class="por-tip-wenzi"> <p>Thank you very much for your feedback. We will continue working to improve the documentation.<span class="logged-text-str">See the reply and handling status in <a href="https://developer.huaweicloud.com/intl/en-us/console/support/my-suggestion" target="_blank">My Cloud VOC</a>.</span></p> <span class="por-tip-remove"></span> </div> </div> </div> <div class="por-tip error help-form-false"> <div class="por-tip-content"> <i class="por-icon por-icon-error"></i> <div class="por-tip-wenzi"> <span>The system is busy. Please try again later.</span> <span class="por-tip-remove"></span> </div> </div> </div> <form action="" data-evaluate-level=""> <div class="question-negative"> <div class="support-mast">What problems have you encountered? (Select up to 3 items)</div> <div class="por-checkbox-group"> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Hard to understand" name="question" id="support_suggest_0"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_0" class="">Hard to understand</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Incorrect content" name="question" id="support_suggest_1"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_1">Incorrect content</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Incomplete content" name="question" id="support_suggest_2"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_2">Incomplete content</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Poor navigation" name="question" id="support_suggest_3"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_3">Poor navigation</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Product issues" name="question" id="support_suggest_4"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_4">Product issues</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Poor translation" name="question" id="support_suggest_5"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_5">Poor translation</label> </div> </div> </div> <div class="question-positive"> <div class="support-mast">What did you like most? (Select up to 3 items)</div> <div class="por-checkbox-group"> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Easy to understand" name="question_positive" id="support_suggest_0_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_0_positive">Easy to understand</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Correct content" name="question_positive" id="support_suggest_1_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_1_positive">Correct content</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Comprehensive content" name="question_positive" id="support_suggest_2_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_2_positive">Comprehensive content</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Easy navigation" name="question_positive" id="support_suggest_3_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_3_positive">Easy navigation</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Complete product functions" name="question_positive" id="support_suggest_4_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_4_positive">Complete product functions</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="Good translation" name="question_positive" id="support_suggest_5_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_5_positive">Good translation</label> </div> </div> </div> <p class="support-mast optional">Feedback</p> <div class="textarea-wrapper"> <textarea maxlength="500" rows="10" cols="30" placeholder="Your comments and suggestions are greatly appreciated."></textarea> <div class="textarea-numbers"><span>0</span>/500</div> </div> <p class="important choose"> <span class="por-icon por-icon-error"></span>Select at least one type of issue, and enter your comments or suggestions. </p> <p class="important length"><span class="por-icon por-icon-error"></span>Enter a maximum of 500 characters.</p> <a href="javascript:void(0)" class="por-btn por-btn-primary submit" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_直接提交">Submit</a> <a href="javascript:void(0)" class="por-btn por-btn-secondary false" mate_data_ts_v2="en-us_support_detail_iam5_bottomfeedback.click_取消">Cancel</a> </form> <div class="contact-decs"> <p>For any further questions, feel free to contact us through the chatbot.</p> <a href="https://console-intl.huaweicloud.com/smartadvisor/" class="help-form-more" target="_blank">Chatbot </a> </div> </div> </div> </div> </div> <div class="guide-buoy" mate_data_ts_v2="en-us_support_detail_iam5_introduction.open"></div> <div class="guide-model"> <div class="img-container" mate_data_ts_v2="en-us_support_detail_iam5_introduction.close"></div> </div> </div> </div> <span class="show-menu-btn"></span> </div> </div> </div> <div class="footer-service" meta-data-adjust-app="hide"></div> <script src="https://res.hc-cdn.com/cnpm-portal-utils/1.4.16/PortalUtils.umd.js"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/clipboard.js"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/highlight.min.js"></script> <script>
+  var furionAppCode = '';
+  var $currentUrl = location.href;
+  const $path = location.pathname;
+  if($currentUrl.indexOf("/pricing/calculator.html") !== -1 || $currentUrl.indexOf("/pricing/index.html") !== -1){
+    furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+  }else if($currentUrl.indexOf("https://activity.huaweicloud.com") === 0) {
+    furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+  } else if ($currentUrl.indexOf("https://support.huaweicloud.com") === 0) {
+    furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+  }else{
+    furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+  }
+  if(!window.__fr && furionAppCode){
+    !function(x, n) {
+      window[n] = window[n] || {};
+      window[n].config = {
+          appId: furionAppCode,setting: "api,jsTrack,uba,longtask,rtti",hashMode: true,closeReportFMP: true,
+      };
+      var o = document.createElement('script');
+      o.src = x, o.async = !0;
+      var d = document.body.firstChild;
+      document.body.insertBefore(o, d);
+    }('https://portal.hc-cdn.com/FurionSdkStatic/3.6.55/furion-cdn.min.js', '__fr');
+  }
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=3.0.86"></script> <script>
+    if (window.NodeList && !NodeList.prototype.forEach) {
+        NodeList.prototype.forEach = function (callback, thisArg) {
+            thisArg = thisArg || window;
+            for (var i = 0; i < this.length; i++) {
+                callback.call(thisArg, this[i], i, this);
+            }
+        };
+    }
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/global.min.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.18/theme-token.js?sttl=3.0.86&ttr=1.2.20" crossorigin="anonymous"></script> <script type="text/javascript" src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/feloader.js" crossorigin="anonymous"></script> <div class="hide-sttl" style="height: 0;width:0" data-sttl="3.0.86"></div> <script>
+    window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+</script> <!-- TODO：兼容AEM的埋点 Begin--> <script>
+    // edit--china--en-us--declaration
+    var $ts_site = "hk";
+    var $ts_lang = "en-us".replace("_", "-");
+    var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+    var channel = "support";
+    var $uri = channel?"/detail.html":"detail.html";
+    var $pepchannel = (channel+$uri).split("/").join("_").replace(".html","");
+    window.matedataDomain = $ts_domain;
+
+    // if open in app, should change ts_domain in to "app"
+    if( /pcloudApp/i.test(navigator.userAgent) ) {
+        window.matedataDomain = "app";
+    }else{
+        var str = window.location.search;
+        var suband = "type=android";
+        var subios = "type=ios";
+        if( str.indexOf(subios)!=-1 || str.indexOf(suband)!=-1 ){
+            window.matedataDomain = "app";
+        }
+    }
+
+    // 新系统中生成的方式需要改下
+    window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+    window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+    window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+    window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+    window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+    window.pep_uaid = ($ts_site=="china") ? "UA-55836286-1" : "UA-55836286-39";
+    window.mate_data_ts_pageType = $pepchannel;
+</script> <!-- TODO：兼容AEM的埋点 End--> <script>
+    function showFooter(){
+       if(window.matedataDomain != "app") {
+           $("#footer .footer-nav").css('display','block');
+           $("#footer .footer-copyright-container").css('display','block');
+           $(".footer-service .footer-wrapper").css('display','block');
+           $("#footer #videoDiv").css('display','none');
+       }
+    }
+    if (window.feloader) {
+        feloader.onLoad(function(){
+            feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+            feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+            showFooter()
+        })
+    }
+    else{
+        document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+        document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+        showFooter();
+    }
+
+    // 处理一下a标签href是tel的场景
+    var telsEle = $("a[href^='tel:'][target]");
+    telsEle .removeAttr("target");
+</script> <script>
+    if (window.$aioList && window.$aioList.length > 0) {
+        for (var i = 0; i < window.$aioList.length; i++) {
+            var tmpComponent = window.$aioList[i];
+            if (tmpComponent) {
+                var tmpComponentInfo = tmpComponent.split("/");
+                if (tmpComponentInfo.length == 2) {
+                    var name = tmpComponentInfo[0];
+                    var version = tmpComponentInfo[1];
+                    var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+                    var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+                    if (eleVersionAttr && eleVersionAttr != version) {
+                        var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+                        linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+                    }
+                }
+            }
+        }
+    }
+</script> <script>
+    // document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+    window.refLan = "";
+    window.$PEP = true;
+
+    function getSiteFromURL() {
+        url = window.location.host;
+        urlArr = url.split(".");
+        if (urlArr[0] == "www") {
+            reg = "CN";
+        } else {
+            reg = "HK"
+        }
+        return reg;
+    }
+    var siteStr = $('html').attr("site")
+    if (siteStr) {
+        window.reg = siteStr == "china" ? "CN" : siteStr.toUpperCase();
+    } else {
+        window.reg = getSiteFromURL();
+    }
+
+    window.promptLan = $('html').attr("lang");
+
+    if (document.referrer != "") {
+        if (document.referrer.indexOf("/authui/login") == -1) {
+            if (document.referrer.indexOf(".com/intl") != -1) {
+                window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US" : "zh-CN";
+            }
+        } else {
+            //window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+            if (document.referrer.indexOf("locale=") != -1) {
+                window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = window.promptLan;
+            }
+        }
+    } else {
+        window.refLan = window.promptLan;
+    }
+</script> <!--/* 55 trace for some special page */--> <script>
+    !function ($) {
+        if (window.dataLayer && window.dataLayer.push) {
+
+            if (window.location.pathname == "/consultation/") {
+                $("#submitBtn").click(function (e) {
+                    window.dataLayer.push({
+                        "event": "consultSubmit",
+                        "productName": $("#applicationscene").val()
+                    });
+                })
+            }
+
+            $("#header .header-login").click(function (e) {
+                window.dataLayer.push({
+                    "event": "loginIntention"
+                })
+            });
+
+            $("#header .header-register").click(function (e) {
+                window.dataLayer.push({
+                    "event": "creationIntention",
+                    "pageType": window.mate_data_ts_pageType,
+                    "pagePosition": "Header"
+                })
+            });
+
+
+        }
+    }(jQuery);
+</script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=3.0.86"></script> <script>
+    $("a[href*='/pep-dialog/']").each(function () {
+        var ele = $(this);
+        var href = ele.attr("href");
+        var path = href.replace(/.html/g, "");
+        var ajaxPath = path.indexOf("activity/") == -1 ? path : path.split("activity/")[1];
+        var arr = path.split("/");
+        var dialogName = arr[arr.length - 1];
+        var location_lang = $('html').attr('lang').toLowerCase();
+        var site = $('html').attr('site').toLowerCase() == 'china' ? 'china' : 'hk';  //  站点判断，国内：china；国际站：hk
+        var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled" : "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+        ele.css('pointer-events', 'auto');
+        ele.on("click", function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+                $("body [data-pep-path*='" + dialogName + "']").remove();
+            }
+            // dialog for activity
+            $.ajax({
+                url: dialogUrl,
+                success: function (data) {
+                    if (data) {
+                        data = data.replace('block', 'none');
+                        $("body").append(data);
+                        $("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+                        window.activityModal.show('#modal-rule', true);
+                    }
+                }
+            })
+        });
+    });
+</script> <time style="display:none!important;" datetime="2025-08-11T20:50:40.000+08:00">2025-08-11</time> <div id="footer"> <div class="footer-nav"> <div class="footer-wrapper"> <div class="footer-nav-left"> <div class="footer-submenu-links"> <a class="footer-submenu-link" href="https://www.huaweicloud.com/intl/en-us/contact-sales.html" rel="nofollow">Contact Sales</a> <a class="footer-submenu-link" href="https://console-intl.huaweicloud.com/ticket/?region=ap-southeast-1&amp;locale=en-us#/ticketindex/createIndex" rel="nofollow">After-Sales</a> <a class="footer-submenu-link" href="https://www.huaweicloud.com/intl/en-us/service/help-tools.html" rel="nofollow">Self Service</a> </div> <ul class="footer-law-mb"> <li><a href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_st.html" rel="nofollow">Site Terms</a></li> <li><a href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_prp_intl.html" rel="nofollow">Privacy Statement</a></li> </ul> <ul class="footer-nav-icons"> <li> <a class="footer-link footer-icon-wrapper" href="https://twitter.com/HuaweiCloud1" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/推特-default.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/推特-hover.png')" class="footer-icon-hover"></i> </a> </li> <li> <a class="footer-link footer-icon-wrapper" href="https://www.youtube.com/user/HuaweiCloudComputing" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/yunying/new-header/1692235623225415471.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/形状结合备份.svg')" class="footer-icon-hover"></i> </a> </li> <li> <a class="footer-link footer-icon-wrapper" href="https://www.linkedin.com/showcase/3718023" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/yunying/new-header/1692235623231746773.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/形状备份.svg')" class="footer-icon-hover"></i> </a> </li> </ul> </div> <div class="footer-nav-main"> <div class="footer-nav-column"> <p class="footer-menu-title">Explore Huawei Cloud</p> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/about/index.html" target="_blank" rel="nofollow">Why Us</a> <a class="footer-menu-link" href="https://support.huaweicloud.com/intl/en-us/what-is.html" target="_blank">Cloud Computing Concepts</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/cases.html" target="_blank" rel="nofollow">Customer Stories</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/securecenter/overallsafety.html" target="_blank" rel="nofollow">Trust Center</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_cua.html" target="_blank" rel="nofollow">Legal</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/news.html" target="_blank" rel="nofollow">Press Releases</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Featured Services</p> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/ecs.html" target="_blank">Elastic Cloud Server (ECS)</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/eip.html" target="_blank">Elastic IP (EIP)</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/mysql.html" target="_blank">RDS for MySQL</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/evs.html" target="_blank">Elastic Volume Service (EVS)</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/mrs.html" target="_blank">MapReduce Service (MRS)</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Service and Support</p> <a class="footer-menu-link" href="https://support.huaweicloud.com/intl/en-us/index.html" target="_blank">Documentation</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/contact-sales.html" target="_blank">Contact Us</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/notice.1.html" target="_blank">Public Notices</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/service/supportplans.html" target="_blank">Support Plans</a> <a class="footer-menu-link" href="https://status.service.huaweicloud.com/intl/#/home" target="_blank">Service Health Dashboard</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Account and Payment</p> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/#/userindex/balanceRecharge" target="_blank" rel="nofollow">Top Up</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/invoiceCenter" target="_blank" rel="nofollow">Invoices</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/allview" target="_blank" rel="nofollow">Billing Center</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/accountindex/accountInfo" target="_blank" rel="nofollow">My Account</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/creditsList" target="_blank" rel="nofollow">Payment Method</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Quick Links</p> <a class="footer-menu-link" href="https://www.huawei.com/en/" target="_blank" rel="nofollow">Huawei Corporate</a> <a class="footer-menu-link" href="https://e.huawei.com/en/" target="_blank" rel="nofollow">Huawei Enterprise</a> <a class="footer-menu-link" href="https://consumer.huawei.com/en/?utm_source=huaweicloud&amp;utm_medium=footer" target="_blank" rel="nofollow">Huawei Consumer Business</a> <a class="footer-menu-link" href="https://developer.huawei.com/consumer/en/" target="_blank" rel="nofollow">Huawei Developers</a> </div> </div> </div> </div> <div class="footer-copyright-container"> <div class="footer-wrapper footer-copyright-wrapper"> <div class="footer-copyright"> <p>© 2026, Huawei Cloud Computing Technologies Co., Ltd. and/or its affiliates. All rights reserved.</p> </div> <ul class="footer-law"> <li><a class="footer-link" href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_st.html" rel="nofollow">Site Terms</a></li> <li><a class="footer-link" href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_prp_intl.html" rel="nofollow">Privacy Statement</a></li> </ul> </div> </div> </div> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/hk/portal-global.js?sttl=3.0.86&ttr=1.2.20" crossorigin="anonymous"></script> <script>
+    function refreshHeader($tmpForPEP){
+      $("#header .header-container").empty().append($tmpForPEP.querySelector("#header .header-container").innerHTML);
+      $("#header .header-topnav").empty().append($tmpForPEP.querySelector("#header .header-topnav").innerHTML);
+      $("#footer .footer-nav").empty().append($tmpForPEP.querySelector("#footer .footer-nav").innerHTML);
+      $("#footer .footer-copyright-container").empty().append($tmpForPEP.querySelector("#footer .footer-copyright-container").innerHTML);
+      $("#header .header-container").show();
+    }
+
+    function getHeaderScript(){
+      var scripts = [
+          "https://portal.hc-cdn.com/cpage-pep-header-and-footer-hk/2.0.61/header-and-footer-hk.umd.js?sttl=3.0.86&ttr=1.2.20",
+          "https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/portalLoginHK.min.js?sttl=3.0.86&ttr=1.2.20"
+      ];
+      for(var i = 0; i < scripts.length; i++) {
+          var script = document.createElement('script');
+          script.type = 'text/javaScript';
+          script.setAttribute('crossorigin','anonymous');
+          script.src = scripts[i];
+          document.getElementsByTagName('body')[0].appendChild(script);
+      }
+    }
+    // 国际站英文导航下拉
+    var domain = (window.location.origin.indexOf('.huaweicloud.com') > -1 || window.location.origin.indexOf('.huaweisre.com') > -1)? 'prod' : 'dev';
+
+    var originsWhiteList = ['https://www.huaweicloud.com','https://activity.huaweicloud.com','https://support.huaweicloud.com','https://beian.huaweicloud.com'];
+    var currentOrigin = originsWhiteList.includes(window.location.origin)?window.location.origin:'https://www.huaweicloud.com';
+    var url = currentOrigin+"/intl/en-us/common/header-footer-hk-en-us-2023.html";
+    var $tmpForPEP = document.createElement("div");
+    $.ajax({
+        url: url,
+        async: true,
+        timeout: 1e4,
+        success: function(response) {
+            $tmpForPEP.innerHTML = response;
+            // 下拉部分
+            $("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);
+            if(window.langMatch === false){
+              refreshHeader($tmpForPEP);
+            }
+            getHeaderScript();
+        },
+        error:function(){
+          $("#header .header-container").show();
+          getHeaderScript();
+        }
+    });
+</script> <style> .float-bar-nav>.item.tel>p>a { white-space: nowrap; transform: rotate(270deg); transform-origin: 59px 53px; } @media(max-width:768px){ #footer .footer-nav, #footer .footer-copyright-container{ display: block !important; } } </style> <div class="video-div"> <div class="video-modal-wrapper"> <div class="video-close-btn"></div> </div> </div> <div id="videoDiv" style="z-index: 9999; display: none; position: relative"> <div id="videobg" style=" position: absolute; background: #000; opacity: 0.3; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30); "></div> <div id="videoplayerDiv" style="position: absolute"> <div id="videoContainer" style="width: 700px; height: 500px; background-color: black"> <span id="closeBtn"><img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/close_grey_1.svg?sttl=3.0.86" alt="" height="22" width="22" onclick="closeVideo()" /></span> <div id="videoplayer" style="height: 500px; width: 700px"></div> </div> </div> </div> <script type="text/javascript">
+        var videoDomain = '//bbs-video.huaweicloud.com';
+
+        var _videoProtocol = 'https:' == document.location.protocol ? 'https:' : 'http:';
+        var tag2urlMap = [];
+        var loading = false;
+        var isLogin = false;
+        function play(video_url, video_desc, domain) {
+            if (/(\.mp4|\.mu38)/.test(video_url)) {
+                _play(video_url, video_desc, domain);
+            } else {
+                if (tag2urlMap[video_url]) _play(tag2urlMap[video_url], video_desc, domain);
+                else {
+                    if (loading) return;
+                    loading = true;
+                    $.ajax({
+                        type: 'GET',
+                        url: 'https://bbs.huaweicloud.com/api/video/out-play?tag=' + video_url,
+                        dataType: 'text',
+                        success: function (result) {
+                            loading = false;
+                            tag2urlMap[video_url] = result;
+                            _play(tag2urlMap[video_url], video_desc, domain);
+                        },
+                        error: function () {
+                            loading = false;
+                        },
+                    });
+                }
+            }
+        }
+        function _play(video_url, video_desc, domain) {
+            var reg = RegExp(/bbs/);
+            var tmp = video_url;
+            var contentAsset = '/content/dam/';
+            var bbsAsset = '/FileServer/getFile/';
+            if (!video_url.match(reg)) {
+                if (video_url.match(contentAsset) || video_url.match(bbsAsset)) {
+                    tmp = video_url;
+                } else if (domain) {
+                    var tmp = _videoProtocol + domain + video_url;
+                } else {
+                    var tmp = _videoProtocol + videoDomain + video_url;
+                }
+            }
+            tmp = tmp.replace(/m3u8/, 'mp4');
+            tmp = tmp.replace(/bbs\.huaweicloud\.com/, 'bbs-video.huaweicloud.com');
+
+            var ua = navigator && navigator.userAgent;
+
+            var win_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var obj = '#videoplayer';
+            if (win_width < 700) {
+                $('#videoContainer')
+                    .width(win_width)
+                    .height((win_width * 3) / 4);
+                $(obj)
+                    .width(win_width)
+                    .height((win_width * 3) / 4);
+            }
+            var h = $(obj).height();
+            var w = $(obj).width();
+
+            $(obj).append(
+                '<video src="' +
+                tmp +
+                '" height="' +
+                h +
+                '" width="' +
+                w +
+                '" autoplay="autoplay" controls="controls" controlslist="nodownload"></video>',
+            );
+            if($.fn.videoPointEvent) { //videoPointEvent和empujarPointEvent为新增埋点事件
+                var el = $('#videoplayer').find('video')[0];
+                $.fn.videoPointEvent(el);
+            }
+
+            var userAgent = navigator.userAgent;
+            var isOpera = userAgent.indexOf('Opera') > -1;
+            var height = document.body.offsetHeight;
+            $('#videobg').css('width', $(window).width());
+            $('#videobg').css('height', height);
+            $('#videobg').css('top', -height);
+            $('#videobg').css('left', '0px');
+            $('#videoplayerDiv').css('left', ($(window).width() - $('#videoplayer').width()) / 2);
+            $('#videoplayerDiv').css(
+                'top',
+                ($(window).height() - $('#videoplayer').height()) / 2 + $(window).scrollTop() - height,
+            );
+            $('#videoDiv').show();
+        }
+
+        function closeVideo() {
+            if($.fn.empujarPointEvent) {
+                $.fn.empujarPointEvent();
+            }
+            if (!!window.ActiveXObject || 'ActiveXObject' in window) {
+                $('#videoplayer').remove();
+                $('#closeBtn').append('<div id="videoplayer" style="height:500px;width:700px;">');
+            } else {
+                $('#videoplayer').html('');
+            }
+            $('#videoDiv').hide();
+        }
+    </script> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-note.svg" id="support-hidden-image-note" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-warning.svg" id="support-hidden-image-warning" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-danger.svg" id="support-hidden-image-danger" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-notice.svg" id="support-hidden-image-notice" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-caution.svg" id="support-hidden-image-caution" alt="" hidden="" /> </body> </html> 

@@ -1,0 +1,14 @@
+{
+  "archive_encoding": "gzip",
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/unicom-ai-pools.20261011.html.gz",
+  "resolved_url": "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357",
+  "retrieved_at": "2026-10-11",
+  "sha256": "b6227f49abbe9679a87f0b3b73b8868c37157fcda44cecc78212c96c95003fac",
+  "source_published_at": null,
+  "source_updated_at": "2026-08-28",
+  "source_url": "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357",
+  "uncompressed_sha256": "c5d58a1342b80347d10dc3397c685dd107f55f2ae38d92f56ee6792c444fc0c9"
+}

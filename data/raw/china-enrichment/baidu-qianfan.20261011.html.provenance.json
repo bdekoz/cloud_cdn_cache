@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/baidu-qianfan.20261011.html",
+  "resolved_url": "https://cloud.baidu.com/doc/qianfan/index.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "95fbd43324fdb4063ef64cf78cd7e357858230d1f5de20dfdc72f03d0f1f103c",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hlonvybn2"
+}

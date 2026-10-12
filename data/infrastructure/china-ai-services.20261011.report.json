@@ -1,0 +1,26 @@
+{
+  "category_counts": {
+    "ai_api_endpoint": 48,
+    "ai_service_platform": 4,
+    "ai_service_region": 13,
+    "cloud_product_region": 8,
+    "gpu_product_catalog": 1,
+    "model_service_listing": 61
+  },
+  "explicit_gaps": [
+    "Unicom Hohhot matrix/endpoint pool label alias unresolved",
+    "Unicom Shanghai endpoint requires a customer-manager contact in the general API directory",
+    "UCloud provider region/AZ IDs not published in UPHost label directory"
+  ],
+  "record_count": 135,
+  "relationships_resolved_against": [
+    "data/vendors/registry.20261011.json",
+    "data/alibaba/regions-and-zones.20261011.geojson"
+  ],
+  "source_catalog": {
+    "path": "data/raw/china-enrichment/catalog.20261011.json",
+    "sha256": "76c341314aa714324def1fd5e0a471f206601360909fbb3d710732cc090d4351"
+  },
+  "vendor_registry_excluded_from_infrastructure_totals": true,
+  "vendor_registry_record_count": 47
+}

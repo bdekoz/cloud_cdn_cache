@@ -1,0 +1,109 @@
+{
+  "added_record_ids": [
+    "alibaba:availability_zone:ap-northeast-2c",
+    "alibaba:availability_zone:cn-beijing-finance-1f",
+    "alibaba:availability_zone:cn-beijing-finance-1k",
+    "alibaba:availability_zone:cn-beijing-finance-1l",
+    "alibaba:availability_zone:cn-hangzhou-finance-b",
+    "alibaba:availability_zone:cn-hangzhou-finance-c",
+    "alibaba:availability_zone:cn-hangzhou-finance-d",
+    "alibaba:availability_zone:cn-hangzhou-finance-h",
+    "alibaba:availability_zone:cn-hangzhou-finance-i",
+    "alibaba:availability_zone:cn-hangzhou-finance-j",
+    "alibaba:availability_zone:cn-hangzhou-finance-k",
+    "alibaba:availability_zone:cn-north-2-gov-1a",
+    "alibaba:availability_zone:cn-north-2-gov-1b",
+    "alibaba:availability_zone:cn-north-2-gov-1c",
+    "alibaba:availability_zone:cn-north-2-gov-1d",
+    "alibaba:availability_zone:cn-north-2-gov-1e",
+    "alibaba:availability_zone:cn-shanghai-finance-1a",
+    "alibaba:availability_zone:cn-shanghai-finance-1b",
+    "alibaba:availability_zone:cn-shanghai-finance-1f",
+    "alibaba:availability_zone:cn-shanghai-finance-1g",
+    "alibaba:availability_zone:cn-shanghai-finance-1k",
+    "alibaba:availability_zone:cn-shanghai-finance-1z",
+    "alibaba:availability_zone:cn-shenzhen-finance-1a",
+    "alibaba:availability_zone:cn-shenzhen-finance-1b",
+    "alibaba:availability_zone:cn-shenzhen-finance-1d",
+    "alibaba:availability_zone:cn-shenzhen-finance-1e",
+    "alibaba:availability_zone:sa-east-1a",
+    "alibaba:availability_zone:sa-east-1b",
+    "alibaba:cloud_region:cn-beijing-finance-1",
+    "alibaba:cloud_region:cn-hangzhou-finance",
+    "alibaba:cloud_region:cn-north-2-gov-1",
+    "alibaba:cloud_region:cn-shanghai-finance-1",
+    "alibaba:cloud_region:cn-shenzhen-finance-1",
+    "alibaba:cloud_region:sa-east-1"
+  ],
+  "chinese_directory_corroboration": null,
+  "coordinate_methods": {
+    "unknown": 171
+  },
+  "currently_listed_record_count": 171,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/alibaba/regions-and-zones.20261011.csv",
+      "path": "data/alibaba/regions-and-zones.20261011.csv",
+      "source": "data/alibaba/regions-and-zones.20261011.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "capture_method": "http_response",
+      "raw_source_ref": "data/raw/china-enrichment/alibaba-marketing.20261011.html",
+      "retrieved_at": "2026-10-11",
+      "source_id": "alibaba-marketing",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "669041d0d3f4bbd24a0edbbe3dec480521521a7bce1c0d2adcc3aec77f0c2c5e",
+      "source_updated_at": null,
+      "source_url": "https://www.alibabacloud.com/en/global-locations"
+    }
+  ],
+  "entity_types": {
+    "availability_zone": 133,
+    "cloud_region": 38
+  },
+  "generated_files": [
+    "data/alibaba/regions-and-zones.20261011.geojson"
+  ],
+  "geometry_null": 171,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 163,
+    "unknown": 8
+  },
+  "parser": "update_china_enrichment.py:alibaba",
+  "raw_source_ref": "data/raw/china-enrichment/alibaba-directory.20261011.html",
+  "record_count": 171,
+  "retained_predecessor_ids_not_listed": [],
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "scope_region_counts": {
+    "financial_cloud": 4,
+    "government_cloud": 1,
+    "public_cloud": 33
+  },
+  "source_conflicts": [
+    {
+      "itemized_zone_count": 2,
+      "marketing_declared_zone_count": 3,
+      "marketing_source": {
+        "capture_method": "http_response",
+        "raw_source_ref": "data/raw/china-enrichment/alibaba-marketing.20261011.html",
+        "retrieved_at": "2026-10-11",
+        "source_id": "alibaba-marketing",
+        "source_published_at": null,
+        "source_sha256": "669041d0d3f4bbd24a0edbbe3dec480521521a7bce1c0d2adcc3aec77f0c2c5e",
+        "source_updated_at": null,
+        "source_url": "https://www.alibabacloud.com/en/global-locations"
+      },
+      "region_id": "ap-southeast-8",
+      "status": "unresolved",
+      "synthetic_zone_generated": false
+    }
+  ],
+  "source_sha256": "8248e4772f5145002fdcea4eed4909509f7c2303af2df62873855acd43154831",
+  "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+}

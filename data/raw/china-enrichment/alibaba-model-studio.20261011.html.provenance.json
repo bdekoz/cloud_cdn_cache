@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/alibaba-model-studio.20261011.html",
+  "resolved_url": "https://www.alibabacloud.com/help/en/model-studio/regions",
+  "retrieved_at": "2026-10-11",
+  "sha256": "b6438f9b9be6bf83359adf72dccab7d34718f15edfe91b6abf58424595ca64f9",
+  "source_published_at": null,
+  "source_updated_at": "2026-10-11",
+  "source_url": "https://www.alibabacloud.com/help/en/model-studio/regions"
+}

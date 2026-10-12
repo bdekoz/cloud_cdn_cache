@@ -1,0 +1,354 @@
+{
+  "capture_method": "public_http_json_responses",
+  "records": [
+    {
+      "ip_address": "101.47.10.109",
+      "observed_at": "2026-10-12T03:28:28.946249Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "150436"
+          ],
+          "prefix": "101.47.8.0/21"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 11,
+        "query_id": "20261012032828-6d3fd994-90c9-485f-acb9-3a012819b07e",
+        "see_also": [],
+        "server_id": "app170",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:28.870215",
+        "version": "1.1"
+      },
+      "response_sha256": "f3374bb48682751313f53f1e829b8c485ec53255e8c571ee7b5bf1b2b136034e",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=101.47.10.109"
+    },
+    {
+      "ip_address": "104.18.16.93",
+      "observed_at": "2026-10-12T03:28:28.951206Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "13335"
+          ],
+          "prefix": "104.18.16.0/20"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 11,
+        "query_id": "20261012032828-47f3de17-cb16-4ca3-9406-2ac777283998",
+        "see_also": [],
+        "server_id": "app191",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:28.875495",
+        "version": "1.1"
+      },
+      "response_sha256": "da43af19fe349fd0ff54e4e31ba368894c70583a18bbbcbd69f5777df2257882",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=104.18.16.93"
+    },
+    {
+      "ip_address": "104.18.20.246",
+      "observed_at": "2026-10-12T03:28:29.059032Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "13335"
+          ],
+          "prefix": "104.18.16.0/20"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 15,
+        "query_id": "20261012032828-76f9de9e-016e-4b80-8dc6-08f907093cf3",
+        "see_also": [],
+        "server_id": "app181",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:28.981207",
+        "version": "1.1"
+      },
+      "response_sha256": "5bc2263a349626c5471bfd4a6aad6588fa7f288b34471345df4f0fde1f359265",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=104.18.20.246"
+    },
+    {
+      "ip_address": "104.18.28.136",
+      "observed_at": "2026-10-12T03:28:29.137256Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "13335"
+          ],
+          "prefix": "104.18.16.0/20"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 12,
+        "query_id": "20261012032829-369ec39d-072d-4c4c-98fc-0e19412f58e0",
+        "see_also": [],
+        "server_id": "app187",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:29.061828",
+        "version": "1.1"
+      },
+      "response_sha256": "8a319279ed7db00d6eca1f9814edb5ee134d318f0dbd82867f5f46ab4e277fc5",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=104.18.28.136"
+    },
+    {
+      "ip_address": "202.52.252.121",
+      "observed_at": "2026-10-12T03:28:29.621046Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "150436"
+          ],
+          "prefix": "202.52.252.0/22"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 10,
+        "query_id": "20261012032829-726eafa7-3f5d-44d3-a4db-df3c55550575",
+        "see_also": [],
+        "server_id": "app160",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:29.543976",
+        "version": "1.1"
+      },
+      "response_sha256": "878e227458997208d342f707431e5138f6dc38a6665014c605742a1166d2bfc6",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=202.52.252.121"
+    },
+    {
+      "ip_address": "23.46.216.134",
+      "observed_at": "2026-10-12T03:28:29.425175Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "20940"
+          ],
+          "prefix": "23.46.216.0/24"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 10,
+        "query_id": "20261012032829-45897159-c84d-4822-bb6d-bedb9ac83ec0",
+        "see_also": [],
+        "server_id": "app167",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:29.352151",
+        "version": "1.1"
+      },
+      "response_sha256": "d6dc38c504b45a919be062b42f3b8d81a4172e8c0318ef491bd2bdcfc92091e5",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=23.46.216.134"
+    },
+    {
+      "ip_address": "3.173.21.63",
+      "observed_at": "2026-10-12T03:28:29.733765Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "16509"
+          ],
+          "prefix": "3.173.21.0/24"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 10,
+        "query_id": "20261012032829-92ba8edc-b967-45fa-8fd9-9d26168bb180",
+        "see_also": [],
+        "server_id": "app183",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:29.656303",
+        "version": "1.1"
+      },
+      "response_sha256": "e40802d65d21b081b08026720125346a9b702b150018f011cb09d6a9e7fe5538",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=3.173.21.63"
+    },
+    {
+      "ip_address": "35.253.220.11",
+      "observed_at": "2026-10-12T03:28:29.587666Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "396982"
+          ],
+          "prefix": "35.253.0.0/16"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 10,
+        "query_id": "20261012032829-1374769a-8758-448b-a529-11588c781680",
+        "see_also": [],
+        "server_id": "app165",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:29.516105",
+        "version": "1.1"
+      },
+      "response_sha256": "0519e348b129da3f36843c7c3777654beaceca0354d734fbf7f906f9dee01459",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=35.253.220.11"
+    },
+    {
+      "ip_address": "39.96.198.249",
+      "observed_at": "2026-10-12T03:28:29.908003Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "37963"
+          ],
+          "prefix": "39.96.0.0/14"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 15,
+        "query_id": "20261012032829-046d70c7-6fd6-4f62-b0c9-5f0423d28a43",
+        "see_also": [],
+        "server_id": "app164",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:29.831264",
+        "version": "1.1"
+      },
+      "response_sha256": "f08dd1f822673e91da2cab4907dc406d94e30845e4d06bebf35b1e237957fe9d",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=39.96.198.249"
+    },
+    {
+      "ip_address": "39.96.23.86",
+      "observed_at": "2026-10-12T03:28:30.057469Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "37963"
+          ],
+          "prefix": "39.96.0.0/14"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 15,
+        "query_id": "20261012032829-c708f9e1-110f-4785-ba9b-69d1a7ad4b50",
+        "see_also": [],
+        "server_id": "app188",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:29.983991",
+        "version": "1.1"
+      },
+      "response_sha256": "3ac585140693c66443ef926a31746b490620e27dfa68ae7b0b7421131d987462",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=39.96.23.86"
+    },
+    {
+      "ip_address": "43.153.127.241",
+      "observed_at": "2026-10-12T03:28:30.273639Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "132203"
+          ],
+          "prefix": "43.153.64.0/18"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 9,
+        "query_id": "20261012032830-bbb63cbd-0aca-4dcf-ad8c-00286f070237",
+        "see_also": [],
+        "server_id": "app192",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:30.169952",
+        "version": "1.1"
+      },
+      "response_sha256": "346b072bb366e0a1a55b5d0554d922b1e58a61521e36f7402ebc2e74dd558aa2",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=43.153.127.241"
+    },
+    {
+      "ip_address": "43.159.104.94",
+      "observed_at": "2026-10-12T03:28:30.351045Z",
+      "response": {
+        "build_version": "v0.11.22-2026.10.09",
+        "cached": false,
+        "data": {
+          "asns": [
+            "139341"
+          ],
+          "prefix": "43.159.104.0/24"
+        },
+        "data_call_name": "network-info",
+        "data_call_status": "supported",
+        "messages": [],
+        "pipeline": "1457171",
+        "process_time": 11,
+        "query_id": "20261012032830-ef8bc31d-6006-4f89-af6a-1cc9b65d6ee7",
+        "see_also": [],
+        "server_id": "app182",
+        "status": "ok",
+        "status_code": 200,
+        "time": "2026-10-12T03:28:30.281536",
+        "version": "1.1"
+      },
+      "response_sha256": "a5ef6388f7b5c041476637e29ccc184b86b9aaa90cb5c1eb6923be695de377a1",
+      "result": "retrieved",
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=43.159.104.94"
+    }
+  ],
+  "retrieved_at": "2026-10-11"
+}

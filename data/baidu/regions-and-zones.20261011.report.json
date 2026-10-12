@@ -1,0 +1,37 @@
+{
+  "availability_zone_count": 19,
+  "coordinate_methods": {
+    "unknown": 27
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/baidu/regions-and-zones.20261011.csv",
+      "path": "data/baidu/regions-and-zones.20261011.csv",
+      "source": "data/baidu/regions-and-zones.20261011.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 19,
+    "cloud_region": 8
+  },
+  "generated_files": [
+    "data/baidu/regions-and-zones.20261011.geojson"
+  ],
+  "geometry_null": 27,
+  "hong_kong_kept_separate": true,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 27
+  },
+  "mainland_availability_zone_count": 18,
+  "mainland_region_count": 7,
+  "parser": "update_china_enrichment.py:baidu",
+  "raw_source_ref": "data/raw/china-enrichment/baidu-bcc.20261011.html",
+  "record_count": 27,
+  "region_count": 8,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+  "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
+}

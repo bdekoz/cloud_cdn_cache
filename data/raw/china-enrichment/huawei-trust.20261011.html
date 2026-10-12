@@ -1,0 +1,920 @@
+<!doctype html> <html lang="en-US" site="hk"> <head> <meta charset="UTF-8"> <meta name="applicable-device" content="pc,mobile"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> <meta name="baidu-site-verification" content="nsMgQr28vc" /> <meta http-equiv="x-dns-prefetch-control" content="on"> <meta name="templateName" content="common-pep2.0"> <title>Regions and Locations of Data Centers_HUAWEI CLOUD</title> <meta name="keywords" content="Data Protection,Regions and Locations of Data Centers" /> <meta name="description" content="Data Protection,Regions and Locations of Data Centers" /> <link rel="canonical" href="https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html"/> <meta name="referrer" content="no-referrer-when-downgrade" /> <meta name="pep-template-version" content="1.9.27" /> <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;" /> <meta property="og:title" content="Regions and Locations of Data Centers_HUAWEI CLOUD"> <meta property="og:type" content="website"> <meta property="og:description" content="Data Protection,Regions and Locations of Data Centers"> <meta property="og:url" content="https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html"> <meta property="og:site_name" content="Huawei Cloud"> <meta property="og:image" content="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/seo/og.jpeg"> <meta property="twitter:title" content="Regions and Locations of Data Centers_HUAWEI CLOUD"> <meta property="twitter:type" content="website"> <meta property="twitter:description" content="Data Protection,Regions and Locations of Data Centers"> <meta property="twitter:url" content="https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html"> <meta property="twitter:site_name" content="Huawei Cloud"> <meta property="twitter:image" content="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/seo/twitter.jpeg"> <link rel="icon" href="https://www.huaweicloud.com/favicon.ico"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/css/hk/portal-global.css"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-hk/2.0.61/index.css"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.18/theme-token.css"> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/globalInfo.min.js" crossorigin="anonymous"></script> <!-- --> <meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw" /> <meta name="sogou_site_verification" content="u4x6sJNooE" /> <link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" /> <link rel="dns-prefetch" href="https://portal.hc-cdn.com" /> <link rel="dns-prefetch" href="https://support.huaweicloud.com" /> <link rel="dns-prefetch" href="https://activity.huaweicloud.com" /> <link rel="dns-prefetch" href="https://portal.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" /> <!-- --> <script>
+    window.dataLayer = window.dataLayer || [];
+    window.$closeBiReport2018 = true
+
+    window.$siteInfo = window.$siteInfo || {};
+    window.$siteInfo.site = "hk";
+    window.$siteInfo.lang = "en-us".replace("_", "-");
+</script> <script>
+        (function(){
+            window.recordTier = window.recordTier || [];
+            window.recordTier.push({eventName: 'dtm.js'});
+        })();
+    </script> <script>window.$cssList = ["https://res.hc-cdn.com/cnpm-pep-components/2.3.60/cnpm-pep-topic-banner","https://res.hc-cdn.com/cnpm-pep-components/2.3.74/cnpm-pep-common-banner-v2","https://res.hc-cdn.com/cnpm-pep-components/2.3.83/cnpm-pep-datacenter-location-query","https://res.hc-cdn.com/cnpm-pep-components/2.4.15/cnpm-pep-product-horizontal-card-v2","https://res.hc-cdn.com/cnpm-pep-components/2.1.13/cnpm-pep-service-singlecard","https://res.hc-cdn.com/cnpm-pep-components/2.3.38/cnpm-pep-solution-thirdParty","https://res.hc-cdn.com/cnpm-pep-components/2.1.32/cnpm-pep-hot-topic"];window.$aioList = [];window.$aioCdnPrefix = 'https://res.hc-cdn.com/';</script> <script src="https://res.hc-cdn.com/cnpm-portal-utils/1.4.33/PortalUtils.umd.js"></script> <script type="importmap">
+        {
+         "imports": {
+           "svelte": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/index.js",
+           "svelte/store": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/store.js",
+           "svelte/motion": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/motion.js",
+           "svelte/transition": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/transition.js",
+           "svelte/animate": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/animate.js",
+           "svelte/easing": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/easing.js",
+           "svelte/events": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/events.js",
+           "svelte/internal/client": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-client.js",
+           "svelte/legacy": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/legacy.js",
+           "svelte/reactivity": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity.js",
+           "svelte/reactivity/window": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity-window.js",
+           "svelte/attachments": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/attachments.js",
+           "svelte/internal/disclose-version": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-disclose-version.js"
+          }
+        }
+      </script> <script>
+        window.gConfig =  window.gConfig || {};
+        window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+        var hClassName ;
+        if(window.gConfig.isMobile) {
+          hClassName = ' phone';
+        } else {
+          hClassName = ' pc';
+        }
+        if(window.$cssList) {
+          for(var i=0; i<window.$cssList.length; i++) {
+            document.write('<link rel="stylesheet" href="'+window.$cssList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+          }
+        }
+        var root = document.documentElement;
+        root.className += hClassName ;
+    </script> <script>
+    window.gConfig =  window.gConfig || {};
+    window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+    var hClassName;
+    if(window.gConfig.isMobile){
+        hClassName = ' phone';
+    }else{
+        hClassName = ' pc';  
+    }
+    if(window.$aioList) {
+        for(var i=0; i<window.$aioList.length; i++) {
+            if(window.$aioCdnPrefix){
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="'+window.$aioCdnPrefix+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            } else {
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/'+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            }
+            
+        }
+    }
+    var root = document.documentElement;
+    root.className += hClassName ; 
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.gConfig.seed.push({
+        name: '@cloud/link-to',
+        data: {
+            "packages": {
+                "@cloud/link-to": {
+                    "path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+                    "version": "3.1.12"
+                }
+            }
+        }
+    });
+</script> </head> <body class=""> <div id="header" bi_parent_name="navigation" meta-data-adjust-app="hide"> <div class="header-container"> <div class="header-prompt"> <div class="header-prompt-wrapper"> <div class="header-prompt-content"> <i class="por-icon por-icon-error"></i> <p>检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 <a href="https://www.huaweicloud.com/intl/zh-cn">https://www.huaweicloud.com/intl/zh-cn</a></p> </div> <div class="header-prompt-radio"> <i class="header-prompt-checkbox active"></i> <p>不再显示此消息</p> <i class="header-prompt-closed por-icon por-icon-close"></i> </div> </div></div> <div class="header-topnav"> <div class="header-topnav-wrapper"> <li class="header-lang "> <div class="header-lang-current"><i class="header-icon-earth"></i><span class="header-lang-label">Intl-English</span><i class="header-icon-arrow-down"></i></div> <div class="header-lang-list"> <div class="header-site" bi_parent_name="International"> <div class="header-site-left">International</div> <ul class="header-site-right"> <li class="header-lang-item active"><a href="javascript:changeLangNew('en-us')">English</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('id-id')">Bahasa Indonesia</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('es-us')">Español</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('pt-br')">Português</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('tr-tr')">Türkçe</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('ar-mena')">عربي</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('th-th')">ไทย</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('zh-cn')">简体中文</a></li> <li class="header-lang-item"><a href="javascript:changeLangNew('ja-jp')">日本語</a></li> </ul> </div> <div class="header-site" bi_parent_name="中国站"> <div class="header-site-left">中国站</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="//www.huaweicloud.com/">简体中文</a></li> </ul> </div> <div class="header-site" bi_parent_name="Europe"> <div class="header-site-left">Europe</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/">English</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/de-de/">Deutsch</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/es-es/">Español</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/fr-fr/">Français</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/nl-nl/">Nederlands</a></li> </ul> </div> </div> </li> </div></div> <div class="header-wrapper"> <div class="header-bottom"> <div class="header-bottom-wrapper"> <a class="header-logo" rel="nofollow" bi_name="logo" title="Huawei Cloud" href="https://www.huaweicloud.com/intl/"> <img src="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/yunying/new-header/logo.png" alt="Huawei Cloud"> </a> <div class="header-nav"> <div class="header-nav-scroll"> <ul class="header-nav-list"> <li data-key="product"> <a data-href="https://www.huaweicloud.com/intl/en-us/product/"> <span>Products</span> </a> </li> <li data-key="solution"> <a data-href="https://www.huaweicloud.com/intl/en-us/solution/"> <span>Solutions</span> </a> </li> <li data-key="price"> <a data-href="https://www.huaweicloud.com/intl/en-us/pricing.html"> <span>Pricing</span> </a> </li> <li data-key="market"> <a data-href="https://marketplace.huaweicloud.com/intl/"> <span>KooGallery</span> </a> </li> <li data-key="partner"> <a data-href="https://www.huaweicloud.com/intl/en-us/partners/"> <span>Partners</span> </a> </li> <li data-key="developers"> <a data-href="https://developer.huaweicloud.com/intl/en-us/"> <span>Developers</span> </a> </li> <li data-key="support"> <a data-href="https://www.huaweicloud.com/intl/en-us/service/index.html"> <span>Support</span> </a> </li> <li data-key="about"> <a data-href="https://www.huaweicloud.com/intl/en-us/about/index.html"> <span>About Us</span> </a> </li> </ul> </div> <div class="header-bottom-mask"></div> <div class="header-nav-hover-line"></div> </div> <div class="header-tools"> <div class="header-search J-header-search simplify" bi_parent_name="search"> <form class="header-search-inner J-serach-form" tabindex="-1" data-api-search-url="https://www.huaweicloud.com/intl/en-us/s/" data-api-report="https://portal-intl.huaweicloud.com/stats/pip.gif" data-api-hot="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC&amp;language=en-us" data-api-autoword="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot=""> <div class="header-search-content J-search-content"> <input class="J-search-input" id="header-navigation-search-input" maxlength="128" type="text" data-active-placeholder="Search" autocomplete="off"> <div class="close-icon"></div> <button type="submit" class="header-search-submit" bi_name="#header-navigation-search-input"> <i></i> </button> <i class="por-icon por-icon-cancel header-search-close J-search-close"></i> <div class="header-search-droplist J-search-drop J-search-autoword" data-clickable-asyn="true"> <div class="J-search-hot"> <div class="J-search-popular" bi_parent_name="recommend"> <div class="J-search-title"></div> <ul class="J-search-popular-content"> </ul> </div> </div> <div class="J-search-related" bi_parent_name="related"> <ul></ul> <div class="J-search-keyWordsAll"><a>Show more results for “<span></span>” <i class="header-icon-arrow-right"></i></a></div> </div> </div> </div> </form> <div class="header-search-button"> <input class="search-default" type="text" data-active-placeholder="搜索" autocomplete="off" placeholder="搜索"> <i></i> </div> </div> <div class="header-menu-search-mb"> <span class="header-icon-search"></span> </div> <ul class="header-tools-right header-main"> <li><a href="https://www.huaweicloud.com/intl/en-us/contact-sales.html" rel="nofollow">Contact Us</a></li> <li><a href="https://support.huaweicloud.com/intl/en-us/index.html">Documentation</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=en-us" rel="nofollow">Console</a></li> <li class="header-login-mobile"> <span class="header-icon-user js-login"></span> <div class="header-user-info user-info-layer user-unlogin header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"><a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/accountindex/accountInfo" target="_blank" bi_name="My Account" rel="nofollow">My Account</a></li> <li><a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/allview" target="_blank" bi_name="Billing &amp; Costs" rel="nofollow">Billing &amp; Costs</a></li> <li><a href="https://console-intl.huaweicloud.com/ticket/?locale=en-us#/ticketindex/serviceTickets" target="_blank" bi_name="Service Tickets" rel="nofollow">Service Tickets</a></li> <li class="message"><a href="https://console-intl.huaweicloud.com/mc/?locale=en-us#/" target="_blank" bi_name="Unread Messages" rel="nofollow">Unread Messages</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=en-us" target="_blank" bi_name="Console" class="mb-special" rel="nofollow">Console</a></li> <li class="isVendor" style="display: none;"><a href="https://account-intl.huaweicloud.com/obmgr/?locale=en-us#/obmgr/index" target="_blank" bi_name="Partner Center" rel="nofollow">Partner Center</a></li> <li class="header-user-info-split "></li> <li class="header-user-info-item-account account-item button-container"> <a class="header-user-info-button-common" data-login-href="https://auth.huaweicloud.com/authui/login.html?locale=en-us&amp;service=" href="https://auth.huaweicloud.com/authui/login.html?locale=en-us&amp;service=" target="_blank" rel="nofollow">Sign In</a> <a class="header-user-info-button-red js-register" data-register-href="https://reg.huaweicloud.com/registerui/intl/m/register.html?hwid=login&amp;locale=en-us&amp;service=" href="https://reg.huaweicloud.com/registerui/intl/m/register.html?hwid=login&amp;locale=en-us&amp;service=" target="_blank" rel="nofollow">Sign Up</a> </li> </ul> </div></li><li class="header-login"><a data-login-href="https://auth.huaweicloud.com/authui/login?locale=en-us&amp;service=" href="https://auth.huaweicloud.com/authui/login?locale=en-us&amp;service=" rel="nofollow" class="btn js-login">Sign In</a></li> <li class="header-register"><a href="https://reg.huaweicloud.com/registerui/intl/register.html?locale=en-us&amp;service=" class="btn js-register" rel="nofollow"> Sign Up </a></li><li class="header-user user-info"> <div class="header-user-avator"> <img class="header-tool-user-avator-img account-pic lazyload" data-src="//res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/v2_resources/images/global/headPic.png?sttl=20180413"> </div> <div class="header-user-name"><span class="my-acct"></span><i class="header-nav-item-icon"></i></div> <div class="header-user-info user-info-layer header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"> <a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/accountindex/accountInfo" target="_blank" bi_name="My Account" rel="nofollow">My Account</a> <a class="restricted" href="https://account-intl.huaweicloud.com/usercenter/?#/complete" target="_blank" bi_name="Complete Sign Up"> <i></i> <span>Complete Sign Up</span> </a> </li> <li><a href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/allview" target="_blank" bi_name="Billing &amp; Costs" rel="nofollow">Billing &amp; Costs</a> </li> <li><a href="https://console-intl.huaweicloud.com/ticket/?locale=en-us#/ticketindex/serviceTickets" target="_blank" bi_name="Service Tickets" rel="nofollow">Service Tickets</a> </li> <li class="message"><a href="https://console-intl.huaweicloud.com/mc/?locale=en-us#/" target="_blank" bi_name="Unread Messages" rel="nofollow">Unread Messages</a></li> <li><a href="https://console-intl.huaweicloud.com/?locale=en-us" target="_blank" bi_name="Console" class="mb-special" rel="nofollow">Console</a> </li> <li class="isVendor" style="display: none;"><a href="https://account-intl.huaweicloud.com/obmgr/?locale=en-us#/obmgr/index" target="_blank" bi_name="Partner Center" rel="nofollow">Partner Center</a></li> <li class="header-user-info-split "></li> <li class="logout"> <a href="#" class="bottom-username" rel="nofollow"><span class="my-acct"></span></a> <a class="logout-btn" mate_data_ts="intl_v3_top_navigation.click.logout_20170820" href="https://portal-intl.huaweicloud.com/index/logout" rel="nofollow">Log Out</a> </li> </ul> </div></li> </ul> <div class="header-menu-mb" bi_name="HamburgNavigation" data-clickable="true"> <span></span> <span></span> <span></span> </div></div> </div></div> <script type="text/html" id="holder-drop"></script> <script type="text/html" id="holder-mbnav"></script> <div class="header-mbshearch header-backdrop" bi_parent_name="search_mb"> <div class="header-mbshearch-innner"> <form class="header-mbshearch-form" action method="get" data-api-search-url="https://www.huaweicloud.com/intl/en-us/s/" data-api-hot="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC&amp;language=en-us" data-api-report="https://portal-intl.huaweicloud.com/stats/pip.gif" data-api-autoword="https://portal-intl.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot=""> <div class="header-mbshearch-form-row"> <div><div class="header-mbshearch-input-box"><i class=""></i><input type="text" maxlength="128" class="header-mbshearch-input" autocomplete="off"></div></div> <div><a class="header-mbshearch-cancel">Cancel</a></div> </div> </form> <div class="header-mbshearch-droplist" data-clickable-asyn="true"> <div class="J-mbshearch-hot"> <div class="J-mbshearch-popular"> <div class="J-mbshearch-title"></div> <ul class="J-mbshearch-popular-content"> </ul> </div> </div> <ul class="J-mbshearch-related"> </ul> </div> </div></div> </div> </div></div> <script>
+  var htmlLang = $("html").attr("lang") || "en-US";
+  htmlLang = htmlLang.toLocaleLowerCase();
+  var langMatch = true;
+  function getUrlLang(){
+    var langUrlReg = /intl\/([a-zA-Z\-]*)\//i;
+    var urlLang = langUrlReg.test(location.pathname)?location.pathname.match(langUrlReg)[1]:"en-us";
+    return urlLang;
+  }
+  var urlLang = getUrlLang();
+
+  function isLangMatch(){
+    // 多语言插件导航优先取当前url语言
+    return htmlLang === urlLang;
+  }
+
+  langMatch = isLangMatch();
+  if(!langMatch && urlLang !== 'ar-mena'){
+    var $langArr = urlLang.split('-');
+    $("#header .header-container").hide();
+    htmlLang = urlLang;
+    $("html").attr("lang", $langArr[0]+"-"+$langArr[1].toUpperCase());
+  }
+
+  // 国际站移动端文字超长情况下自适应宽度
+  $('body').addClass('por-tab-self-adaption')
+</script> <div id="content" data-site="hk" data-channelFrom="" data-promotion-theme="black" data-promotion-title-align="center"> <div id="common-components-container"> <div data-mod-id="pep-topic-banner_1606958300331"> </div> <div data-mod-id="pep-common-banner-v2_1702449774178"> <div data-mod-name-pc="@cloud/pep-common-banner-v2/pc/index" data-mod-name-m="@cloud/pep-common-banner-v2/m/index" class="pep-common-banner-v2 height-350 " data-mod-name="pep-common-banner-v2" data-bg="transblack" style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/banner@2x_2.jpeg)"> <div class="bg-mb mb" style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/banner_mb_4.jpeg)"></div> <div class="por-section "> <div class="por-container"> <div class="por-section-body"> <ul class="por-breadcrumb"> <li class="por-breadcrumb-item"> <a class="por-link" href="https://www.huaweicloud.com/intl/en-us/securecenter/overallsafety.html" target="_blank">Trust Center Overview</a> </li> <li class="por-breadcrumb-item"> <a class="por-link" href="https://www.huaweicloud.com/intl/en-us/securecenter/data_protection.html" target="_blank">Data Protection</a> </li> <li class="por-breadcrumb-item"> <a class="por-link" >Regions and Locations of Data Centers</a> </li> </ul> <div class="prodoc-banner-main"> <div class="prodoc-title-content half-content "> <div class="prodoc-banner-title"> <h2 class="pc"> Regions and Locations of Data Centers </h2> <h2 class="mb"> Regions and Locations of Data Centers </h2> </div> </div> </div> </div> </div> </div> <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/pep-common-banner-v2', data : {"packages":{"@cloud/pep-common-banner-v2":{"path":"//portal.hc-cdn.com/cnpm-pep-components/2.3.74/cnpm-pep-common-banner-v2/","version":"2.3.74"},"@cloud/link-to":{"path":"//portal.hc-cdn.com/cnpm-link-to/3.1.9/","version":"3.1.9"},"@cloud/lazyload":{"path":"//portal.hc-cdn.com/cnpm-lazyload/2.0.10/","version":"2.0.10"},"@cloud/xtemplate-runtime":{"path":"//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/pep-common-banner-v2/m/index":{"requires":["@cloud/link-to","@cloud/lazyload"]},"@cloud/pep-common-banner-v2/pc/index":{"requires":["@cloud/link-to","@cloud/lazyload"]}}} })</script> </div> </div> <div data-mod-id="pep-datacenter-location-query_1733306108787"> <div data-mod-name-pc="@cloud/pep-datacenter-location-query/pc/index" data-mod-name-m="@cloud/pep-datacenter-location-query/m/index" class="pep-datacenter-location-query" data-mod-name="pep-datacenter-location-query"> <div class="por-section" data-bg="grey"> <div class="por-container"> <div class="por-section-body radius_border_XL"> <div class="por-row"> <div class="por-col location-select-content"> <div class="location-title">Select a Geolocation</div> <div class="por-select por-select-block"> <select class="por-native" name="fruits"> <option value="location_0">China</option> <option value="location_1">Asia Pacific</option> <option value="location_2">Africa</option> <option value="location_3">Latin America</option> <option value="location_4">Turkey</option> <option value="location_5">Middle East</option> </select> </div> <div class="por-text-body-t2 location-remarks">You can select a region to purchase and deploy services as needed. The region you select is where your data is stored. We will never move your data on the cloud across regions without your express authorization.</div> </div> <div class="por-col"> <div class="region-table"> <div class="por-fixed-table-body"> <table class="por-fixed-table"> <thead> <tr> <th colspan="1"> <div class="th-inner">Cloud Service Regions</div> </th> </tr> </thead> <tbody> <tr data-location="location_0"> <td style="width:calc(100%/1)">CN North-Beijing4</td> </tr> <tr data-location="location_0"> <td style="width:calc(100%/1)">CN East-Shanghai1</td> </tr> <tr data-location="location_0"> <td style="width:calc(100%/1)">CN East2</td> </tr> <tr data-location="location_0"> <td style="width:calc(100%/1)">CN East-Qingdao</td> </tr> <tr data-location="location_0"> <td style="width:calc(100%/1)">CN South-Guangzhou</td> </tr> <tr data-location="location_0"> <td style="width:calc(100%/1)">CN Southwest-Guiyang1</td> </tr> <tr data-location="location_0"> <td style="width:calc(100%/1)">CN-Hong Kong</td> </tr> <tr data-location="location_1"> <td style="width:calc(100%/1)">AP-Bangkok</td> </tr> <tr data-location="location_1"> <td style="width:calc(100%/1)">AP-Singapore</td> </tr> <tr data-location="location_1"> <td style="width:calc(100%/1)">AP-Jakarta</td> </tr> <tr data-location="location_1"> <td style="width:calc(100%/1)">AP-Manila</td> </tr> <tr data-location="location_2"> <td style="width:calc(100%/1)">AF-Johannesburg</td> </tr> <tr data-location="location_2"> <td style="width:calc(100%/1)">AF-Cairo</td> </tr> <tr data-location="location_3"> <td style="width:calc(100%/1)">LA-Mexico City2</td> </tr> <tr data-location="location_3"> <td style="width:calc(100%/1)">LA-Sao Paulo1</td> </tr> <tr data-location="location_3"> <td style="width:calc(100%/1)">LA-Santiago</td> </tr> <tr data-location="location_4"> <td style="width:calc(100%/1)">TR-Istanbul</td> </tr> <tr data-location="location_5"> <td style="width:calc(100%/1)">ME-Riyadh</td> </tr> </tbody> </table> </div> </div> <div class="por-text-body-t2 region-remarks">When using cloud services, customers are advised to select regions closer to their clients and take care to act in accordance with all local laws and regulations to ensure that their data is stored in these regions.</div> <dl> <dt>Compliance</dt> <dd class="por-text-body-t2"><p>For more details about Huawei Cloud's compliance, go to <strong><a href="https://www.huaweicloud.com/intl/en-us/securecenter/compliance.html" class="por-link">Trust Center</a> </strong>on our website.</p></dd> <dt>Product Availability</dt> <dd class="por-text-body-t2"><p>For more details about Huawei Cloud product and service availability, go to <strong><a href="https://www.huaweicloud.com/intl/en-us/global/" rel="noopener noreferrer" target="_blank" class="por-link">Global Infrastructure</a></strong> on our website.</p></dd> </dl> </div> </div> </div> </div> </div> <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/pep-datacenter-location-query', data : {"packages":{"@cloud/pep-datacenter-location-query":{"path":"//portal.hc-cdn.com/cnpm-pep-components/2.3.83/cnpm-pep-datacenter-location-query/","version":"2.3.83"},"@cloud/link-to":{"path":"//portal.hc-cdn.com/cnpm-link-to/3.1.9/","version":"3.1.9"},"@cloud/lazyload":{"path":"//portal.hc-cdn.com/cnpm-lazyload/2.0.10/","version":"2.0.10"},"@cloud/xtemplate-runtime":{"path":"//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/pep-datacenter-location-query/m/index":{"requires":["@cloud/link-to","@cloud/lazyload"]},"@cloud/pep-datacenter-location-query/pc/index":{"requires":["@cloud/link-to","@cloud/lazyload"]}}} })</script> </div> </div> <div data-mod-id="pep-product-horizontal-card-v2_1711419316856"> </div> <div data-mod-id="pep-service-singlecard_1606963905736"> </div> <div data-mod-id="pep-solution-thirdParty_1607044072129"> </div> <div data-mod-id="pep-hot-topic_1607046284113"> </div> <div data-mod-id="pep-service-singlecard_1607047223472"> </div> <div data-mod-id="pep-service-singlecard_1607047229317"> </div> <script>
+          window.gConfig = window.gConfig || {};
+          window.gConfig.seed = window.gConfig.seed || [];
+          window.$devPath = {"@cloud/pep-topic-banner":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.3.60/cnpm-pep-topic-banner"},"@cloud/pep-common-banner-v2":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.3.74/cnpm-pep-common-banner-v2"},"@cloud/pep-datacenter-location-query":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.3.83/cnpm-pep-datacenter-location-query"},"@cloud/pep-product-horizontal-card-v2":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.4.15/cnpm-pep-product-horizontal-card-v2"},"@cloud/pep-service-singlecard":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.1.13/cnpm-pep-service-singlecard"},"@cloud/pep-solution-thirdParty":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.3.38/cnpm-pep-solution-thirdParty"},"@cloud/pep-hot-topic":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.1.32/cnpm-pep-hot-topic"}};
+          for(var i = 0; i < window.gConfig.seed.length; i++) {
+            var tmpSeed = window.gConfig.seed[i].data;
+            var name = window.gConfig.seed[i].name;
+            if(tmpSeed && tmpSeed.packages && window.$devPath[name]) {
+              tmpSeed.packages[name] = window.$devPath[name];
+            }
+          }
+        </script> </div> </div> <script>
+            var components = $("#common-components-container").children("div:not([data-mod-id='pep-empty-page'])");
+            var count = 0;
+            for (var i = 0; i < components.length; i++) {
+                var tempComponent = $(components[i]);
+                if(tempComponent.children().length > 0){
+                    tempComponent.attr("id", "section-" + count);
+                    count++;
+                }
+                
+                tempComponent = null;
+            }
+        </script> <div id="footer"> <div class="footer-nav"> <div class="footer-wrapper"> <div class="footer-nav-left"> <div class="footer-submenu-links"> <a class="footer-submenu-link" href="https://www.huaweicloud.com/intl/en-us/contact-sales.html" rel="nofollow">Contact Sales</a> <a class="footer-submenu-link" href="https://console-intl.huaweicloud.com/ticket/?region=ap-southeast-1&amp;locale=en-us#/ticketindex/createIndex" rel="nofollow">After-Sales</a> <a class="footer-submenu-link" href="https://www.huaweicloud.com/intl/en-us/service/help-tools.html" rel="nofollow">Self Service</a> </div> <ul class="footer-law-mb"> <li><a href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_st.html" rel="nofollow">Site Terms</a></li> <li><a href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_prp_intl.html" rel="nofollow">Privacy Statement</a></li> </ul> <ul class="footer-nav-icons"> <li> <a class="footer-link footer-icon-wrapper" href="https://twitter.com/HuaweiCloud1" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/推特-default.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/推特-hover.png')" class="footer-icon-hover"></i> </a> </li> <li> <a class="footer-link footer-icon-wrapper" href="https://www.youtube.com/user/HuaweiCloudComputing" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/yunying/new-header/1692235623225415471.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/形状结合备份.svg')" class="footer-icon-hover"></i> </a> </li> <li> <a class="footer-link footer-icon-wrapper" href="https://www.linkedin.com/showcase/3718023" target="_blank" rel="nofollow"> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/yunying/new-header/1692235623231746773.png')" class="footer-icon"></i> <i style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/形状备份.svg')" class="footer-icon-hover"></i> </a> </li> </ul> </div> <div class="footer-nav-main"> <div class="footer-nav-column"> <p class="footer-menu-title">Explore Huawei Cloud</p> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/about/index.html" target="_blank" rel="nofollow">Why Us</a> <a class="footer-menu-link" href="https://support.huaweicloud.com/intl/en-us/what-is.html" target="_blank">Cloud Computing Concepts</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/cases.html" target="_blank" rel="nofollow">Customer Stories</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/securecenter/overallsafety.html" target="_blank" rel="nofollow">Trust Center</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_cua.html" target="_blank" rel="nofollow">Legal</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/news.html" target="_blank" rel="nofollow">Press Releases</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Featured Services</p> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/ecs.html" target="_blank">Elastic Cloud Server (ECS)</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/eip.html" target="_blank">Elastic IP (EIP)</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/mysql.html" target="_blank">RDS for MySQL</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/evs.html" target="_blank">Elastic Volume Service (EVS)</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/product/mrs.html" target="_blank">MapReduce Service (MRS)</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Service and Support</p> <a class="footer-menu-link" href="https://support.huaweicloud.com/intl/en-us/index.html" target="_blank">Documentation</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/contact-sales.html" target="_blank">Contact Us</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/notice.1.html" target="_blank">Public Notices</a> <a class="footer-menu-link" href="https://www.huaweicloud.com/intl/en-us/service/supportplans.html" target="_blank">Support Plans</a> <a class="footer-menu-link" href="https://status.service.huaweicloud.com/intl/#/home" target="_blank">Service Health Dashboard</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Account and Payment</p> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/#/userindex/balanceRecharge" target="_blank" rel="nofollow">Top Up</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/invoiceCenter" target="_blank" rel="nofollow">Invoices</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/allview" target="_blank" rel="nofollow">Billing Center</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/accountindex/accountInfo" target="_blank" rel="nofollow">My Account</a> <a class="footer-menu-link" href="https://account-intl.huaweicloud.com/usercenter/?locale=en-us#/userindex/creditsList" target="_blank" rel="nofollow">Payment Method</a> </div> <div class="footer-nav-column"> <p class="footer-menu-title">Quick Links</p> <a class="footer-menu-link" href="https://www.huawei.com/en/" target="_blank" rel="nofollow">Huawei Corporate</a> <a class="footer-menu-link" href="https://e.huawei.com/en/" target="_blank" rel="nofollow">Huawei Enterprise</a> <a class="footer-menu-link" href="https://consumer.huawei.com/en/?utm_source=huaweicloud&amp;utm_medium=footer" target="_blank" rel="nofollow">Huawei Consumer Business</a> <a class="footer-menu-link" href="https://developer.huawei.com/consumer/en/" target="_blank" rel="nofollow">Huawei Developers</a> </div> </div> </div> </div> <div class="footer-copyright-container"> <div class="footer-wrapper footer-copyright-wrapper"> <div class="footer-copyright"> <p>© 2026, Huawei Cloud Computing Technologies Co., Ltd. and/or its affiliates. All rights reserved.</p> </div> <ul class="footer-law"> <li><a class="footer-link" href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_st.html" rel="nofollow">Site Terms</a></li> <li><a class="footer-link" href="https://www.huaweicloud.com/intl/en-us/declaration-sg/sa_prp_intl.html" rel="nofollow">Privacy Statement</a></li> </ul> </div> </div> </div> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/hk/portal-global.js?sttl=1.2.20&ttr=1.2.20" crossorigin="anonymous"></script> <script>
+    function refreshHeader($tmpForPEP){
+      $("#header .header-container").empty().append($tmpForPEP.querySelector("#header .header-container").innerHTML);
+      $("#header .header-topnav").empty().append($tmpForPEP.querySelector("#header .header-topnav").innerHTML);
+      $("#footer .footer-nav").empty().append($tmpForPEP.querySelector("#footer .footer-nav").innerHTML);
+      $("#footer .footer-copyright-container").empty().append($tmpForPEP.querySelector("#footer .footer-copyright-container").innerHTML);
+      $("#header .header-container").show();
+    }
+
+    function getHeaderScript(){
+      var scripts = [
+          "https://portal.hc-cdn.com/cpage-pep-header-and-footer-hk/2.0.61/header-and-footer-hk.umd.js?sttl=1.2.20&ttr=1.2.20",
+          "https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/portalLoginHK.min.js?sttl=1.2.20&ttr=1.2.20"
+      ];
+      for(var i = 0; i < scripts.length; i++) {
+          var script = document.createElement('script');
+          script.type = 'text/javaScript';
+          script.setAttribute('crossorigin','anonymous');
+          script.src = scripts[i];
+          document.getElementsByTagName('body')[0].appendChild(script);
+      }
+    }
+    // 国际站英文导航下拉
+    var domain = (window.location.origin.indexOf('.huaweicloud.com') > -1 || window.location.origin.indexOf('.huaweisre.com') > -1)? 'prod' : 'dev';
+
+    var originsWhiteList = ['https://www.huaweicloud.com','https://activity.huaweicloud.com','https://support.huaweicloud.com','https://beian.huaweicloud.com'];
+    var currentOrigin = originsWhiteList.includes(window.location.origin)?window.location.origin:'https://www.huaweicloud.com';
+    var url = currentOrigin+"/intl/en-us/common/header-footer-hk-en-us-2023.html";
+    var $tmpForPEP = document.createElement("div");
+    $.ajax({
+        url: url,
+        async: true,
+        timeout: 1e4,
+        success: function(response) {
+            $tmpForPEP.innerHTML = response;
+            // 下拉部分
+            $("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);
+            if(window.langMatch === false){
+              refreshHeader($tmpForPEP);
+            }
+            getHeaderScript();
+        },
+        error:function(){
+          $("#header .header-container").show();
+          getHeaderScript();
+        }
+    });
+</script> <style> .float-bar-nav>.item.tel>p>a { white-space: nowrap; transform: rotate(270deg); transform-origin: 59px 53px; } @media(max-width:768px){ #footer .footer-nav, #footer .footer-copyright-container{ display: block !important; } } </style> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/ViewMotion.min.1.2.js?sttl=1.2.20"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/dcSlideShow.min.js?20171012&sttl=1.2.20"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/swiper-3.4.2.jquery.min.js?20171012&sttl=1.2.20"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/product/js/checkURL.js?sttl=1.2.20"></script> <div class="por-modal por-modal-player" data-hide="modal" id="common-video-play-modal"> <div class="por-player"> <video class="por-native" controls="" src=""></video> <i class="por-player-close" data-hide="modal"></i> </div> </div> <script>
+            // 链接为视频链接，处理统一使用portalUI播放器打开
+            $("[href*='mp4']").on('click',function(event) {
+                if($(event.target).closest("[data-show],[data-src],[video-src]").length === 0){
+                    var $target = $(event.target).closest("[href*='mp4']");
+                    // 当前触发target的href属性为视频链接
+                    var targetHref = $target.attr('href');
+                    if(targetHref && targetHref.includes('mp4')){
+                        var $videoModal = $('#common-video-play-modal');
+                        var $videoInModal = $('#common-video-play-modal video');
+                        if($videoModal.length && $videoInModal.length) {
+                            event.preventDefault();
+                            $videoInModal.attr('src',targetHref)
+                            $videoModal.porModal('show')
+                            event.stopPropagation();
+                        }
+                    }
+                }
+            });
+        </script> <script>
+            function dealWithImageHTL() {
+                if (/pcloudApp/i.test(navigator.userAgent)) {
+                    $("[data-pep-src]").hide();
+                    return;
+                } else {
+                    var str = window.location.search;
+                    var suband = "type=android";
+                    var subios = "type=ios";
+                    if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+                        $("[data-pep-src]").hide();
+                        return;
+                    }
+                }
+                $("[data-pep-src]").each(function () {
+                    $(this).attr("src", $(this).attr("data-pep-src"));
+                });
+            }
+        
+            dealWithImageHTL();
+        </script> <script>
+            //display video for product-VideoTutorials-v5
+            $('.product-video-list li').each(function () {
+                var pcUrl = $(this).attr("data-vedio-pc-url") || '';
+                var mbUrl = $(this).attr("data-video-mb-url") || pcUrl || '';
+                var ua = navigator && navigator.userAgent;
+                if ((/Android|webOS|iPhone|iPod|Windows Phone|(BlackBerry).*Version|(BB10).*Version|IEMobile|Opera Mini/i).test(ua)) {
+                    $(this).find(".product-play-btn2").on('click', function () {
+                        play(encodeURI(mbUrl), '')
+                    })
+                } else {
+                    $(this).find(".product-play-btn2").on('click', function () {
+                        play(encodeURI(pcUrl), '')
+                    })
+                }
+            })
+            window.channelFrom = $('#content').attr('data-channelFrom');
+            window.hrefName = $('#content').attr('data-hrefName');
+            if ($('#content').attr('data-site') == 'hk') {
+                localStorage.setItem('currentActivitySite', 'hk');
+            }
+            else {
+                localStorage.setItem('currentActivitySite', 'china');
+            }
+        </script> <script>
+  var furionAppCode = '';
+  var $currentUrl = location.href;
+  const $path = location.pathname;
+  if($currentUrl.indexOf("/pricing/calculator.html") !== -1 || $currentUrl.indexOf("/pricing/index.html") !== -1){
+    furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+  }else if($currentUrl.indexOf("https://activity.huaweicloud.com") === 0) {
+    furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+  } else if ($currentUrl.indexOf("https://support.huaweicloud.com") === 0) {
+    furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+  }else{
+    furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+  }
+  if(!window.__fr && furionAppCode){
+    !function(x, n) {
+      window[n] = window[n] || {};
+      window[n].config = {
+          appId: furionAppCode,setting: "api,jsTrack,uba,longtask,rtti",hashMode: true,closeReportFMP: true,
+      };
+      var o = document.createElement('script');
+      o.src = x, o.async = !0;
+      var d = document.body.firstChild;
+      document.body.insertBefore(o, d);
+    }('https://portal.hc-cdn.com/FurionSdkStatic/3.6.55/furion-cdn.min.js', '__fr');
+  }
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=1.2.20"></script> <script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.18/theme-token.js?sttl=1.2.20&ttr=1.2.20" crossorigin="anonymous"></script> <script type="text/javascript" src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/feloader.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/global.min.js" crossorigin="anonymous"></script> <div class="hide-sttl" style="height:0;width:0" data-sttl="1.2.20"></div> <script>
+  window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+</script> <script>
+    $('body').addClass('header-white');
+  </script> <script>
+  // edit--china--en-us--declaration
+  var $ts_site = "hk";
+  var $ts_lang = "en-us".replace("_", "-");
+  var $lang_site_gate  = $ts_site !== "eu" && $ts_lang !== "tr-tr";
+  var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+  var $pepchannel = "securecenter/data_protection/region_query.html".split("/").join("_").replace(".html","");
+  window.matedataDomain = $ts_domain;
+
+  // if open in app, should change ts_domain in to "app"
+  if (/pcloudApp/i.test(navigator.userAgent)) {
+      window.matedataDomain = "app";
+  } else {
+      var str = window.location.search;
+      var suband = "type=android";
+      var subios = "type=ios";
+      if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+        window.matedataDomain = "app";
+      }
+  }
+
+  // 新系统中生成的方式需要改下
+  window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+  window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+  window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+  window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+  window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+  window.pep_uaid = ($ts_site=="china") ? "UA-55836286-1" : "UA-55836286-39";
+  window.mate_data_ts_pageType = $pepchannel;
+
+</script> <script>
+function showFooter() {
+  if (window.matedataDomain != "app") {
+      $("#footer .footer-nav").css('display', 'block');
+      $("#footer .footer-copyright-container").css('display', 'block');
+      $(".footer-service .footer-wrapper").css('display', 'block');
+      $("#footer #videoDiv").css('display', 'none');
+  }
+}
+if (window.feloader) {
+  feloader.onLoad(function () {
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js?sttl=' + window.sttlVersion);
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=' + new Date().getTime());
+    showFooter();
+  })
+} else {
+  document.write("<script src='https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js'><\/script>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=" + new Date().getTime() + "'>");
+  showFooter();
+}
+
+</script> <script src="https://portal.hc-cdn.com/bi/uba.in.js?v=2.17"></script> <script>
+    var portalDomain = window.location.href.indexOf('.huaweicloud.com/eu/') > -1 ? 'https://portal.eu.huaweicloud.com' : 'https://portal-intl.huaweicloud.com',
+        ssoDomain = window.location.href.indexOf('.huaweicloud.com/eu/') > -1 ? "https://auth.eu.huaweicloud.com" : 'https://auth-intl.huaweicloud.com';
+    var isVerified = false;//定义实名认证变量
+    var isLogin = false; //定义登录变量
+
+    function getUaCookie(c_name) {
+        if (document.cookie.length > 0) {
+            var c_start = document.cookie.indexOf(c_name + "=");
+            if (c_start != -1) {
+                c_start = c_start + c_name.length + 1;
+                var c_end = document.cookie.indexOf(";", c_start);
+                if (c_end == -1) c_end = document.cookie.length;
+                return decodeURI(document.cookie.substring(c_start, c_end));
+            }
+        }
+        return "";
+    }
+
+    var jsonParamInit = {};
+    var jsonParamView = {};
+    var jsonParamEvent = {};
+    jsonParamInit['UserAccount'] = 'host';
+    jsonParamEvent['rec_account'] = getUaCookie("ua");
+    jsonParamView['rec_account'] = getUaCookie("ua");
+
+    function showMenu(data) {
+        data = data || [];
+        var isVendor = data.isVendor || false;
+        var isIsv = data.isIsv || false;
+        var $_target = $(".user-info-layer ul.account-nav");
+        if (isVendor) {
+            $_target.find("li").hide();
+            $_target.find(".isVendor,.logout").show();
+        } else if (isIsv) {
+            $_target.find(".isIsv").show();
+            $_target.find(".isVendor").show();
+        }
+    }
+    function removeTicket(query) {
+        return query.replace(/ticket=[^&]*&?/, '');
+    }
+    function showName(nameShow) {
+        var win_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var isPc = win_width > 768 ? true : false;
+        $('.user-info').find('.my-acct').text(nameShow);
+        $('.user-info').find('.my-acct').attr('title', nameShow);
+
+        //  实名认证下展示用户名pc端
+        if (isPc && $('.hwid').length === 0) {
+            if ($('.account-nav .account-item').css("display")!='none' ) {
+                $('<li><a href="javascript:void(0);"style="color: #8A8E99; width: 100%; cursor:default;" class="hwid">' + nameShow + '</a><li class="header-user-info-split"></li>').insertAfter('.account-item'); 
+            }
+        }
+    }
+    window.cnpmLoginCallback = function loginCallback(data) {
+        if (data.flag == 1) {          
+            var win_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var isPc = win_width > 768 ? true : false;
+            // 登录后显示的用户名
+            var nameShow = '';
+
+            var username = data.username;
+            isLogin = true;
+            jsonParamInit['UserAccount'] = data.userId;
+            jsonParamEvent['rec_account'] = data.userId;
+            jsonParamView['rec_account'] = data.userId;
+            jsonParamInit['xdomain_type'] = data.xdomain_type;
+
+
+            var image_url = data.image_url;
+            if (image_url && image_url.small) {
+                $(".account-pic").attr("src", image_url.small);
+            }
+            if (data.xdomain_type != "HWC_CN") {
+                isGrayuser();
+            }
+            $("#header").addClass('logined');
+            
+            //  用户名展示
+            // 1、未升级华为id的，只显示华为云账号名
+            // 2、升级了华为id的，不管华为id和账号名是否一致，只展示 HWID
+            // 3、iam子账号登录，只显示iam用户名
+
+            // 请求客户域
+            var queryDomain = portalDomain;
+            var queryUrl = queryDomain + '/rest/cbc/cbccustomerregservice/v1/account/' + data.domainId;
+            $.ajax({
+                type: 'get',
+                url: queryUrl,
+                crossDomain: true,
+                async: true,
+                timeout: 10000,
+                xhrFields: { withCredentials: true },
+                success: function (data) {
+                    // 用户升级了
+                    if (data.account) {
+                        if (data.account.domain_type === 'HWID') {
+                            nameShow = data.account.xdomain_name || '';
+                        } else {
+                            nameShow = data.account.domain_name || '';
+                        }
+                    } else {
+                        // 用户没升级 展示原来的华为云用户名
+                        nameShow = username;
+                    }
+
+                    showName(nameShow)
+                },
+                error: function (data) {
+                    // 异常保护，取isLogin的username展示
+                    showName(username)
+                },
+            });
+
+            //导航用户菜单展示
+            showMenu(data);
+
+            // get user site info and show tips when user is HWC_CN
+            if (data.xdomain_type == "HWC_CN") {
+                window.prompts && window.prompts(true, window.reg, window.promptLan, window.refLan, window.promptTips, true);
+                window.menuPrompts && window.menuPrompts(true, window.reg, window.promptLan, window.refLan, window.promptTips, true);
+            }
+        }
+        if (window.observer) {
+            observer('login').publish(null, data);
+        }
+    }
+
+    function isGrayuser() {
+        var is_gray_user = portalDomain + '/rest/portalappindustryservice/v1/userquery/grayusers';
+        $.ajax({ url: is_gray_user, xhrFields: { withCredentials: true } });
+    }
+
+    function getScript(win, doc, tag, src, always) {
+        var script = doc.createElement(tag),
+            h = doc.getElementsByTagName(tag)[0];
+        script.async = 1;
+        script.src = src;
+
+        if (script.addEventListener) {
+            script.addEventListener("load", always, false);
+        } else if (script.attachEvent) {
+            script.attachEvent("onreadystatechange", function () {
+                var target = window.event.srcElement;
+                if (target.readyState == "loaded" || target.readyState == "complete") {
+                    always.call(target);
+                }
+            });
+        }
+        h.parentNode.insertBefore(script, h)
+    }
+    jQuery(function () {
+        var href = encodeURIComponent(removeTicket(window.location.href));
+        //登陆之后回到本页面
+        $("[data-login-href]").each(function () {
+            $(this).attr("href", $(this).data('login-href') + href);
+        });
+
+        function $parseQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            return r != null ? unescape(r[2]) : null;
+        };
+        if ($parseQueryString("fromacct") || $parseQueryString("fromuser")) {
+            $(document).on("mouseenter", "a", function (e) {
+                var fromacct = $parseQueryString("fromacct") || $parseQueryString("fromuser");
+                var fromflag = $parseQueryString("fromacct") ? "fromacct" : "fromuser";
+                var tmpEle = $("<div></div>");
+                tmpEle.text(fromacct);
+                fromacct = tmpEle.html();
+                var $this = $(this);
+                var href = $this.attr("href");
+                if (href && (href.indexOf("//") == 0 || href.indexOf("http") == 0) && href.indexOf(fromflag) == -1) {
+                    var targetHref = (href.indexOf(".html?") != -1 || href.indexOf("/?") != -1) ? (href + "&" + fromflag + "=" + fromacct) : (href + "?" + fromflag + "=" + fromacct);
+                    $this.attr("href", targetHref);
+                }
+            })
+        }
+
+        var login_check_url = portalDomain + "/index/islogin?callback=?";
+        window.raw_onerror = window.onerror;
+        window.onerror = function (errorMsg, url, lineNumber) {
+            return true;
+        }
+        var check_login_url = portalDomain + '/index/islogin?callback=loginCallback';
+    });
+    var ua = navigator && navigator.userAgent;
+    function getUserverified() {
+        var url = portalDomain + "/rest/portalappindustryservice/v1/userquery/verified-status?callback=?";
+        jQuery.getJSON(url, function (data) {
+            if (data) {
+                if (data.retCode == "0") {
+                    if (data.isVerified) {
+                        isVerified = true;
+                        $(".phone-acct").find(".account-pic").show();
+                        $(".account-pic-no-ident").hide();
+                        $(".true-name-li").hide();
+                    } else {
+                        if (!data.isShow) {
+                            if (ua.toLowerCase().indexOf('android') > -1 || (/iPad/i).test(ua) || (/iPhone/i).test(ua)) {
+                                $("body").removeClass("autShow");
+                            } else {
+                                $("body").addClass("autShow");
+                                over = setInterval(settime, 1000);//1000毫秒
+
+                            };
+                        } else {
+                            $("body").removeClass("autShow");
+                        };
+                        $(".phone-acct").find(".account-pic").hide();
+                        $(".account-pic-no-ident").show();
+                        $(".true-name-li").show();
+                    }
+                } else {
+                    $(".phone-acct").find(".account-pic").show();
+                    $(".account-pic-no-ident").hide();
+                    $(".true-name-li").hide();
+                }
+
+            } else {
+                $(".phone-acct").find(".account-pic").show();
+                $(".account-pic-no-ident").hide();
+                $(".true-name-li").hide();
+            }
+        });
+    }
+    time = 10;
+    function settime() {
+        time--;
+        if (time == 0) {
+            clearInterval(over);
+            //倒计时结束
+            $("body").removeClass("autShow");
+        }
+    }
+
+    $(".Authentication").on('click', '.close', function (event) {
+        $("body").removeClass("autShow");
+    });
+
+</script> <script>
+
+function guidGenerator() {
+      var d = (new Date).getTime();
+      var uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+        var r = (d + Math.random() * 16) % 16 | 0;
+        d = Math.floor(d / 16);
+        return (c == "x" ? r : r & 3 | 8).toString(16)
+      });
+      return uuid
+}
+    
+
+
+var _ubaParams = _ubaParams || {};
+    _ubaParams.cloudBIType = 2;
+    _ubaParams.download;
+    _ubaParams.download_suc = 1;
+    _ubaParams.Num2 = 2;
+    _ubaParams.Num4 = 4;
+    _ubaParams.sdkGaUpload = "2";
+    _ubaParams.biReqQueue = _ubaParams.biReqQueue || [];
+    _ubaParams.gaReqQueue = _ubaParams.gaReqQueue || [];
+    _ubaParams.isGAReady = false;
+    _ubaParams.isGAUpload = false;
+    _ubaParams.userAccount;
+    _ubaParams.pageViewID = _ubaParams.pageViewID || guidGenerator();
+    _ubaParams.bi_C1_20 = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20"];
+    _ubaParams.bi_D1_20 = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12", "D13", "D14", "D15", "D16", "D17", "D18", "D19", "D20"];
+    _ubaParams.timinhObj = window.performance ? window.performance.timing : "";
+    _ubaParams.memberID = "";
+    _ubaParams.siteId = "";
+    _ubaParams.companyID = "";
+    _ubaParams.downloadHeat;
+    _ubaParams.downloadHeat_suc = 1;
+    _ubaParams.ReqQueueSend = function (ReqQueue) {
+      if (ReqQueue && ReqQueue.length > 0) {
+        while (ReqQueue.length > 0) {
+          var req = ReqQueue.pop();
+          if (typeof req == "object") {
+            if (req.type == "event") {
+              if (req.jp) {
+                req.jp.transport = "beacon"
+              }
+              ga("send", "event", req.ec, req.ea, req.el, req.ev, req.jp)
+            } else if (req.type == "pageview") {
+              if (req.jp) {
+                req.jp.transport = "beacon"
+              }
+              ga("send", "pageview", req.page, req.jp)
+            } else if (req.type == "sendPageView") {
+              _sendPageView(req.page, req.jp)
+            } else if (req.type == "sendEvent") {
+              _sendEvent(req.en, req.ec, req.ea, req.el, req.ev, req.jp)
+            }
+          }
+        }
+      }
+    };
+
+  window.ifInitBi = false;
+
+  function getGrayCookie(name) {
+    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg))
+        return unescape(arr[2]);
+    else
+        return '';
+}
+
+  if ((document.referrer && document.referrer.indexOf('huaweicloud') === -1) || // 渠道来源，立即上报
+   window.location.search.indexOf('pageviewNow')!==-1) { // 强制上报，也进行
+   if($lang_site_gate){
+    pageViewNow();
+    // 然后引入ubajs，保证页面埋点事件的正常上报
+    var isGray = getGrayCookie("gpbc");
+    var ubajs = "https://portal.hc-cdn.com/bi/uba.js";
+    if (isGray && isGray.length > 10) {
+        ubajs = "https://portal.hc-cdn.com/bi/alpha/uba.js"
+    }
+    $(document).ready(function() {
+        $.getScript(ubajs, function() {});
+    });
+   }
+    
+  }
+
+  window.cnpmDefaultLoginCallback = function (_loginData) {
+    if (!window.ifInitBi) {
+      window.ifInitBi = true;
+      try {
+        if (typeof window.initBi === 'function') {
+          window.initBi(window.jsonParamInit, window.jsonParamView, window.jsonParamEvent);
+        }
+        if (!window.isLogin) {
+          window.promptQueryIP && window.promptQueryIP();
+        }
+      } catch (e) { }
+    }
+  };
+
+
+
+
+    function init(statType, appKey, gaid, jsonParam) {
+      if (arguments.length != _ubaParams.Num4) {
+        return
+      }
+      if (!(jsonParam.UserAccount && typeof appKey == "string")) {
+        return
+      }
+      if (jsonParam && jsonParam.siteId) {
+        _ubaParams.siteId = jsonParam.siteId
+      }
+      if (jsonParam && jsonParam.companyID) {
+        _ubaParams.companyID = jsonParam.companyID
+      }
+      _ubaParams.memberID = jsonParam.MemberID || "";
+      _ubaParams.userAccount = jsonParam.UserAccount;
+      if (_ubaParams.download === _ubaParams.download_suc) {
+        _initCloudBI(appKey, jsonParam)
+      } else {
+        _initCloudBI(appKey, jsonParam);
+        _ubaParams.download = _ubaParams.download_suc;
+        _ubaParams.ReqQueueSend(_ubaParams.biReqQueue)
+      }
+    }
+
+    var initCBISDK = init;
+
+    function isLoadStarted() {
+      var flag = true;
+      return flag
+    }
+
+    function onEvent(eventCategory, eventAction, eventLabel, eventValue, jsonParam) {
+      if (arguments.length < _ubaParams.Num2) {
+        return
+      }
+      if (!(eventCategory && typeof eventCategory == "string")) {
+        return
+      }
+      if (!(eventAction && typeof eventAction == "string")) {
+        return
+      }
+      var eventName = eventCategory + "_" + eventAction;
+      if (jsonParam && jsonParam.eventPrivacyName) {
+        eventName = jsonParam.eventPrivacyName
+      }
+      if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+        _sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+      } else if (_ubaParams.download == _ubaParams.download_suc && !isLoadStarted()) {
+        window.addEventListener("load", function (event) {
+          _sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+        })
+      } else {
+        _ubaParams.biReqQueue.push({
+          type: "sendEvent",
+          en: eventName,
+          ec: eventCategory,
+          ea: eventAction,
+          el: eventLabel,
+          ev: eventValue,
+          jp: jsonParam
+        })
+      }
+    }
+
+    function onPageView(page, jsonParam) {
+      if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+        _sendPageView(page, jsonParam)
+      } else {
+        _ubaParams.biReqQueue.push({
+          type: "sendPageView",
+          page: page,
+          jp: jsonParam
+        });
+        _ubaParams.ReqQueueSend(_ubaParams.biReqQueue);
+      }
+    }
+    function onDmpa(userId, jsonParam) { }
+    function onException(exceptionMessage, exceptionStack, jsonParam) { }
+
+  function pageViewNow() {
+    // uba.js start
+    
+    if (!Array.prototype.indexOf) {
+      Array.prototype.indexOf = function (val) {
+        var value = this;
+        for (var i = 0; i < value.length; i++) {
+          if (value[i] == val)
+            return i
+        }
+        return -1
+      }
+    }
+    // uba.js end
+    if (!window.ifInitBi) {
+      window.ifInitBi = true;
+      var $ts_site = "china";
+      window.pep_uaid = ($ts_site == "china") ? "UA-55836286-1" : "UA-55836286-39";
+
+      init(2, "c9770c4dac06fe3b76ec9c7ad47273d0", window.pep_uaid, jsonParamInit);
+      var domain_pre = (window.location.host || "").split(".")[0] || "";
+      autoEventTracking(domain_pre, jsonParamEvent)
+      if (window.ab_test) {
+        jsonParamView.ab_test = window.ab_test
+      }
+      if (window.ab_version) {
+        jsonParamView.ab_version = window.ab_version
+      }
+      window.channelFrom = window.channelFrom || $('#content').attr('data-channelFrom');
+      if (typeof channelFrom != "undefined") {
+        if (channelFrom) {
+          jsonParamInit["D17"] = channelFrom;
+          jsonParamView["D17"] = channelFrom;
+        }
+      }
+
+      jsonParamView['rec_account'] = getUaCookie('ua')
+      jsonParamView["C1"] = $(document).attr("title");
+      jsonParamView["D15"] = "HC";
+
+      onPageView(window.location.pathname + window.location.search, jsonParamView);
+
+    }
+  }
+
+
+</script> <script>
+    if (window.$aioList && window.$aioList.length > 0) {
+        for (var i = 0; i < window.$aioList.length; i++) {
+            var tmpComponent = window.$aioList[i];
+            if (tmpComponent) {
+                var tmpComponentInfo = tmpComponent.split("/");
+                if (tmpComponentInfo.length == 2) {
+                    var name = tmpComponentInfo[0];
+                    var version = tmpComponentInfo[1];
+                    var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+                    var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+                    if (eleVersionAttr && eleVersionAttr != version) {
+                        var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+                        linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+                    }
+                }
+            }
+        }
+    }
+</script> <script>
+    // document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+    window.refLan = "";
+    window.$PEP = true;
+
+    function getSiteFromURL() {
+        url = window.location.host;
+        urlArr = url.split(".");
+        if (urlArr[0] == "www") {
+            reg = "CN";
+        } else {
+            reg = "HK"
+        }
+        return reg;
+    }
+    var siteStr = $('html').attr("site")
+    if (siteStr) {
+        window.reg = siteStr == "china" ? "CN" : siteStr.toUpperCase();
+    } else {
+        window.reg = getSiteFromURL();
+    }
+
+    window.promptLan = $('html').attr("lang");
+
+    if (document.referrer != "") {
+        if (document.referrer.indexOf("/authui/login") == -1) {
+            if (document.referrer.indexOf(".com/intl") != -1) {
+                window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US" : "zh-CN";
+            }
+        } else {
+            //window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+            if (document.referrer.indexOf("locale=") != -1) {
+                window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = window.promptLan;
+            }
+        }
+    } else {
+        window.refLan = window.promptLan;
+    }
+</script> <!--/* 55 trace for some special page */--> <script>
+    !function ($) {
+        if (window.dataLayer && window.dataLayer.push) {
+
+            if (window.location.pathname == "/consultation/") {
+                $("#submitBtn").click(function (e) {
+                    window.dataLayer.push({
+                        "event": "consultSubmit",
+                        "productName": $("#applicationscene").val()
+                    });
+                })
+            }
+
+            $("#header .header-login").click(function (e) {
+                window.dataLayer.push({
+                    "event": "loginIntention"
+                })
+            });
+
+            $("#header .header-register").click(function (e) {
+                window.dataLayer.push({
+                    "event": "creationIntention",
+                    "pageType": window.mate_data_ts_pageType,
+                    "pagePosition": "Header"
+                })
+            });
+
+
+        }
+    }(jQuery);
+</script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=1.2.20"></script> <script>
+    $("a[href*='/pep-dialog/']").each(function () {
+        var ele = $(this);
+        var href = ele.attr("href");
+        var path = href.replace(/.html/g, "");
+        var ajaxPath = path.indexOf("activity/") == -1 ? path : path.split("activity/")[1];
+        var arr = path.split("/");
+        var dialogName = arr[arr.length - 1];
+        var location_lang = $('html').attr('lang').toLowerCase();
+        var site = $('html').attr('site').toLowerCase() == 'china' ? 'china' : 'hk';  //  站点判断，国内：china；国际站：hk
+        var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled" : "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+        ele.css('pointer-events', 'auto');
+        ele.on("click", function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+                $("body [data-pep-path*='" + dialogName + "']").remove();
+            }
+            // dialog for activity
+            $.ajax({
+                url: dialogUrl,
+                success: function (data) {
+                    if (data) {
+                        data = data.replace('block', 'none');
+                        $("body").append(data);
+                        $("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+                        window.activityModal.show('#modal-rule', true);
+                    }
+                }
+            })
+        });
+    });
+</script> </body> </html> 

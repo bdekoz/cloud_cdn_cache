@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/plain",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/alibaba-gpu.20261011.html",
+  "resolved_url": "https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-instance-families",
+  "retrieved_at": "2026-10-11",
+  "sha256": "a0cd11c079c7357012d0b953dde2701117b59d9f1ff8816a7417117b6d01b0ce",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-instance-families"
+}

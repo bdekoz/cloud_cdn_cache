@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/telecom-quantum-sdwan.20261011.html",
+  "resolved_url": "https://www.chinatelecomglobal.com/whats-new/37555",
+  "retrieved_at": "2026-10-11",
+  "sha256": "bc451775394366f62dff3e971def7be61f9b14ef608e9b4719f930fb42f20d36",
+  "source_published_at": "2026-06-18",
+  "source_updated_at": null,
+  "source_url": "https://www.chinatelecomglobal.com/whats-new/37555"
+}

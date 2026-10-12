@@ -1,0 +1,17 @@
+{
+  "bytes": 1131,
+  "capture_method": "reviewed_fact_archive",
+  "direct_capture_error": "<urlopen error _ssl.c:1064: The handshake operation timed out>",
+  "direct_capture_result": "failed",
+  "media_type": "application/json",
+  "notes": "Retained previously reviewed first-party facts; direct HTTP capture failed. This is not a new HTML response.",
+  "path": "data/raw/china-enrichment/miit-green-facilities-announcement.20261011.reviewed.json",
+  "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-announcement.20261011.reviewed.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-11",
+  "sha256": "1fc4db41af7ab92fdd82b839bd079154c3707a4285b0c1bf8747406f741ee8e1",
+  "source_id": "miit-green-facilities-announcement",
+  "source_published_at": "2025-12-29",
+  "source_updated_at": null,
+  "source_url": "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2025/art_d8a6906d6e5048369ae66b3a40ea20b8.html"
+}

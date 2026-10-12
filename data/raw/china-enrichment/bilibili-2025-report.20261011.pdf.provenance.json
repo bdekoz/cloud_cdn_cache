@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "application/pdf",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/bilibili-2025-report.20261011.pdf",
+  "resolved_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf",
+  "retrieved_at": "2026-10-11",
+  "sha256": "a769eefc602b5484813cafdeecaa55eba204f7a9f767f0aa62113766a8d02fc0",
+  "source_published_at": "2026-04-16",
+  "source_updated_at": null,
+  "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf"
+}

@@ -1,0 +1,224 @@
+{
+  "approved_plan": "data/china/enrichment-plan.20261011.json",
+  "baseline_audit": "data/china/vendor-coverage-assessment.20261011.json",
+  "baseline_audit_preserved": true,
+  "coverage_units": {
+    "ai_service_assertions": 135,
+    "azure_china_regions": 6,
+    "carrier_assertions": 12,
+    "facility_and_portfolio_assertions": 66,
+    "network_assertions": 42,
+    "new_location_records_net": 105,
+    "qiniu_product_records": 23,
+    "refreshed_chinese_cloud_vendor_records": 449,
+    "units_are_separate_not_equivalent_physical_assets": true,
+    "vendor_and_brand_references": 47
+  },
+  "implemented_tracks": [
+    "Public-cloud directory refresh, global Huawei product-region union, Azure China and Qiniu",
+    "Legacy/quarantine candidate identity reconciliation with no coordinate or capacity inheritance",
+    "Vendor/operator/model-brand registry and explicit AI access, storage, execution and model-listing scopes",
+    "Government final facility recognition list and dated/undated portfolio evidence",
+    "Named carrier cables, landing stations, backhaul and emerging WAN service declarations",
+    "Bounded public DNS/TLS/HEAD observations, sampled routing and APNIC/PeeringDB context"
+  ],
+  "legacy_reconciliation": {
+    "candidate_matched_rows": 58,
+    "canonical_records_generated": 0,
+    "input_rows": 109,
+    "path": "data/china/legacy-reconciliation.20261011.json",
+    "sha256": "2f29b0bc3b10648ce4a833317b55462d5d6c3d1f311bafbef9dda3f15a2c0b1a"
+  },
+  "outputs": [
+    {
+      "path": "data/alibaba/regions-and-zones.20261011.geojson",
+      "record_count": 171,
+      "record_types": {
+        "availability_zone": 133,
+        "cloud_region": 38
+      },
+      "sha256": "e18df2b13adeaaaa4b10bf1d2c5ee0c02f58fa47f7af166a88cb297cf1d05d4e"
+    },
+    {
+      "path": "data/aws/regions-and-zones.20261011.geojson",
+      "record_count": 147,
+      "record_types": {
+        "availability_zone": 108,
+        "cloud_region": 39
+      },
+      "sha256": "4c0eae97f86067840f231b0c36e7c2f8c01e7bc033cc01a75a4e4b7b6494ede9"
+    },
+    {
+      "path": "data/baidu/regions-and-zones.20261011.geojson",
+      "record_count": 27,
+      "record_types": {
+        "availability_zone": 19,
+        "cloud_region": 8
+      },
+      "sha256": "b5c28ae85d80e5e19c25849b876115eae3837286178b52583918e183e20af164"
+    },
+    {
+      "path": "data/huawei/regions.20261011.geojson",
+      "record_count": 31,
+      "record_types": {
+        "cloud_region": 31
+      },
+      "sha256": "dd413fd84f0684c4b21936e52dec7556ce79a027871cc08cd33fd3b21ff417a8"
+    },
+    {
+      "path": "data/jd/mainland-regions-and-zones.20261011.geojson",
+      "record_count": 14,
+      "record_types": {
+        "availability_zone": 10,
+        "cloud_region": 4
+      },
+      "sha256": "17ac545e377912f40b8369623dae5d0d39ae9c6d5bd57894b38eb2fba80769dc"
+    },
+    {
+      "path": "data/kingsoft/mainland-regions-and-zones.20261011.geojson",
+      "record_count": 22,
+      "record_types": {
+        "availability_zone": 14,
+        "cloud_region": 8
+      },
+      "sha256": "9fbc91f6d961d31032c20ee8d34d62e376d8b0a5121d9f7e7c101c99ca3589a6"
+    },
+    {
+      "path": "data/microsoft/china-cloud-regions.20261011.geojson",
+      "record_count": 6,
+      "record_types": {
+        "cloud_region": 6
+      },
+      "sha256": "1c818879dcd4dea4e25536263621d755c0331493084435545217fa2afd562dab"
+    },
+    {
+      "path": "data/qiniu/resource-pools-and-regions.20261011.geojson",
+      "record_count": 23,
+      "record_types": {
+        "cloud_region": 21,
+        "cloud_resource_pool": 2
+      },
+      "sha256": "a156164864f64d10c9417d979e202ec9a437c72f523aef71ba0eaabf3e249c49"
+    },
+    {
+      "path": "data/tencent/regions-and-zones.20261011.geojson",
+      "record_count": 97,
+      "record_types": {
+        "availability_zone": 71,
+        "cloud_region": 26
+      },
+      "sha256": "2bc21869ac7ff7b73e54223115e65d999cb86b30784212e4fef4a3814d67503d"
+    },
+    {
+      "path": "data/tianyi/vpc-resource-pools.20261011.geojson",
+      "record_count": 63,
+      "record_types": {
+        "cloud_resource_pool": 63
+      },
+      "sha256": "58ebc35590386ccda28f06817f04b2bf85fda04701207e9bc1ab0ef912945b36"
+    },
+    {
+      "path": "data/volcano/regions-and-zones.20261011.geojson",
+      "record_count": 24,
+      "record_types": {
+        "availability_zone": 18,
+        "cloud_region": 6
+      },
+      "sha256": "3392685ecdedd9be2c5aba03a2b2e7178d389906b26c5f25b4423d38ac7bb1ca"
+    },
+    {
+      "path": "data/chindata/data-centers.20261011.geojson",
+      "record_count": 4,
+      "record_types": {
+        "data_center": 4
+      },
+      "sha256": "5f59fe01b8141f4827cb556233da332cfaa86768a531fbfb375ca519f1c99f29"
+    },
+    {
+      "path": "data/infrastructure/china-ai-services.20261011.json",
+      "record_count": 135,
+      "record_types": {
+        "ai_api_endpoint": 48,
+        "ai_service_platform": 4,
+        "ai_service_region": 13,
+        "cloud_product_region": 8,
+        "gpu_product_catalog": 1,
+        "model_service_listing": 61
+      },
+      "sha256": "10c04053d8a17f4405ee1faa4d5757ae7fb6a7eef41bc82b27bce0eaac1de7c8"
+    },
+    {
+      "path": "data/infrastructure/china-facilities-and-portfolios.20261011.json",
+      "record_count": 66,
+      "record_types": {
+        "compute_energy_collaboration": 1,
+        "edge_network_portfolio": 2,
+        "provider_infrastructure_portfolio": 3,
+        "recognized_compute_facility": 60
+      },
+      "sha256": "fdd0e74b9db9adfd10568dacd0c7c402be00fb278dcdbef3394766a58eda5d98"
+    },
+    {
+      "path": "data/infrastructure/china-carrier-links.20261011.json",
+      "record_count": 12,
+      "record_types": {
+        "cable_landing_station": 3,
+        "carrier_backbone_portfolio": 2,
+        "network_interconnect_presence": 2,
+        "quantum_secured_wan_service": 1,
+        "submarine_cable_system": 3,
+        "terrestrial_fiber_link": 1
+      },
+      "sha256": "813f149cf48276eba1d1877f6f230d511cf2200c7dd5a14dd2b6809e21e9e5a4"
+    },
+    {
+      "path": "data/network/china-vendor-evidence.20261011.json",
+      "record_count": 42,
+      "record_types": {
+        "facility_registration": 2,
+        "ix_membership": 4,
+        "measurement_run": 1,
+        "reachability_observation": 23,
+        "routing_origin": 12
+      },
+      "sha256": "7a83fb7863d26c83ca375222c31ea37a996595582e43a4120aedc377cf14d6b3"
+    },
+    {
+      "path": "data/vendors/registry.20261011.json",
+      "record_count": 47,
+      "record_types": {
+        "vendor_identity": 47
+      },
+      "sha256": "3ee7ea3eee19b380d390658a6b53c2147e5870d6c744f591dfd8f094efbea439"
+    }
+  ],
+  "primary_output_raw_source_count": 57,
+  "remaining_gaps": [
+    "No consolidated public ECS region/AZ inventory for China Mobile or China Unicom; Unicom AI pools are product-scoped.",
+    "Huawei product-region union is not universal availability or an AZ directory; Qianfan geography remains unresolved.",
+    "Alibaba Johor marketing/list discrepancy, Volcano declared/listed AZ discrepancies and Qiniu Tokyo row alignment remain explicit.",
+    "Tencent Shanghai financial AZ 1 is not listed in the captured current directory; retained August evidence does not prove closure.",
+    "No defensible facility coordinates, installed GPUs, regional GPU stock, or model-specific execution sites from these sources.",
+    "Seedance2.ai legal entity, jurisdiction and upstream hosting remain unresolved; direct current terms capture unavailable.",
+    "VNET Q2 facts are indexed first-party evidence with a direct HTTP 403 gap; undated GDS/edge portfolios are not current site lists.",
+    "MIIT recognition entries and Chindata codes still require facility/campus/operator alias and current-lifecycle resolution.",
+    "API frontend observations and sampled network registrations do not establish inference hosting or exhaustive global availability.",
+    "Carrier routes are not surveyed alignments; dated landing/design/commissioning claims require later lifecycle evidence."
+  ],
+  "retrieved_at": "2026-10-11",
+  "source_catalog": {
+    "capture_methods": {
+      "bounded_native_dns_tls_head": 1,
+      "http_response": 56,
+      "public_http_json_responses": 1,
+      "public_network_metadata_and_bounded_relationship_extracts": 1,
+      "public_rdap_registration_fact_extract": 1,
+      "reviewed_fact_archive": 3,
+      "search_index_primary_page_fact_extract": 1
+    },
+    "path": "data/raw/china-enrichment/catalog.20261011.json",
+    "sha256": "76c341314aa714324def1fd5e0a471f206601360909fbb3d710732cc090d4351",
+    "source_count": 64
+  },
+  "source_use_note": "The catalog includes corroborating and contextual sources plus explicitly marked unused document shells. Output primary references alone do not enumerate nested supporting evidence."
+}

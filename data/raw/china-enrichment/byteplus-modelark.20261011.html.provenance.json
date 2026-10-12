@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/byteplus-modelark.20261011.html",
+  "resolved_url": "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1",
+  "retrieved_at": "2026-10-11",
+  "sha256": "1904e523c6b13e478ef53807de689db342741275da9a20c6528d3640c7865441",
+  "source_published_at": null,
+  "source_updated_at": "2026-09-28",
+  "source_url": "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1"
+}

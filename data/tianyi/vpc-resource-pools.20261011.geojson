@@ -1,0 +1,3155 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "杭州2"
+        ],
+        "city": "Hangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hangzhou",
+        "name": "杭州2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "杭州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-00179b0ec3318a01",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "杭州2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "南京2"
+        ],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nanjing",
+        "name": "南京2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "南京",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-03f4411e3a887493",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "南京2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "昆明2"
+        ],
+        "city": "Kunming",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Kunming",
+        "name": "昆明2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "southwest",
+          "region_group_source": "西南",
+          "source_place_basis": "昆明",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-04ccf143f50ac3f5",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "昆明2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西安3"
+        ],
+        "city": "Xi'an",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Xi'an",
+        "name": "西安3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "西安",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-0850fbe9bf9c0515",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "西安3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "兰州2"
+        ],
+        "city": "Lanzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Lanzhou",
+        "name": "兰州2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "兰州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-0aba128694c55e91",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "兰州2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "武汉41"
+        ],
+        "city": "Wuhan",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Wuhan",
+        "name": "武汉41",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "武汉",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-13b2dc69ba9ee13f",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "武汉41",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "中卫5"
+        ],
+        "city": "Zhongwei",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Zhongwei",
+        "name": "中卫5",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "中卫",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-18725ddb51ebf747",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "中卫5",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "佛山7"
+        ],
+        "city": "Foshan",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Foshan",
+        "name": "佛山7",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "佛山",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-1b60daf7bce0203f",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "佛山7",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西安7"
+        ],
+        "city": "Xi'an",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Xi'an",
+        "name": "西安7",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "西安",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-1e85c4c0f1ea529d",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "西安7",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "北京5"
+        ],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "北京5",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "北京",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-224ac1e17cef0770",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "北京5",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "辽阳1"
+        ],
+        "city": "Liaoyang",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Liaoyang",
+        "name": "辽阳1",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "辽阳",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-32ce00d60632d927",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "辽阳1",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "内蒙6"
+        ],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": null,
+        "name": "内蒙6",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "内蒙",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-34eef794abea38aa",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "内蒙6",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": "Inner Mongolia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "晋中"
+        ],
+        "city": "Jinzhong",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Jinzhong",
+        "name": "晋中",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "晋中",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-3a476d87c7ff5043",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "晋中",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "上海36"
+        ],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "上海36",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "上海",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-3b70810b106d5c52",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "上海36",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "石家庄20"
+        ],
+        "city": "Shijiazhuang",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shijiazhuang",
+        "name": "石家庄20",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "石家庄",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-3e8f3cb6f9884cf2",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "石家庄20",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "北京9"
+        ],
+        "city": "Beijing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Beijing",
+        "name": "北京9",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "北京",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-3f5b9404c476b39c",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "北京9",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "福州4"
+        ],
+        "city": "Fuzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Fuzhou",
+        "name": "福州4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "福州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-40cd6a3008382c4a",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "福州4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "南宁2"
+        ],
+        "city": "Nanning",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nanning",
+        "name": "南宁2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "南宁",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-47b7329bea1d0996",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "南宁2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "长沙42"
+        ],
+        "city": "Changsha",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Changsha",
+        "name": "长沙42",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "长沙",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-499329dbe4be48ca",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "长沙42",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "呼和浩特3"
+        ],
+        "city": "Hohhot",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hohhot",
+        "name": "呼和浩特3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "呼和浩特",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-5250e8a182363eab",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "呼和浩特3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "乌鲁木齐27"
+        ],
+        "city": "Urumqi",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Urumqi",
+        "name": "乌鲁木齐27",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "乌鲁木齐",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-542be4868cdc7d5b",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "乌鲁木齐27",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华北2"
+        ],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": null,
+        "name": "华北2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": null,
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-65e86545f9d0e267",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "华北2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "武汉3"
+        ],
+        "city": "Wuhan",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Wuhan",
+        "name": "武汉3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "武汉",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-683fa268eef7b7a1",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "武汉3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "佛山3"
+        ],
+        "city": "Foshan",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Foshan",
+        "name": "佛山3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "佛山",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-690a9ee11e3cd71f",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "佛山3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "福州25"
+        ],
+        "city": "Fuzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Fuzhou",
+        "name": "福州25",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "福州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-6911073e73cff3b9",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "福州25",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西安4"
+        ],
+        "city": "Xi'an",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Xi'an",
+        "name": "西安4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "西安",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-6e900d6e9bc8ddbb",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "西安4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "九江"
+        ],
+        "city": "Jiujiang",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Jiujiang",
+        "name": "九江",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "九江",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-76d9c9607f4b7c67",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "九江",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "厦门3"
+        ],
+        "city": "Xiamen",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Xiamen",
+        "name": "厦门3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "厦门",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-79cebec3f7c7a118",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "厦门3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "郑州5"
+        ],
+        "city": "Zhengzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Zhengzhou",
+        "name": "郑州5",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "郑州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-8423578f2d42047b",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "郑州5",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "南宁23"
+        ],
+        "city": "Nanning",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nanning",
+        "name": "南宁23",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "南宁",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-8892d0a04aa35a16",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "南宁23",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "贵州3"
+        ],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": null,
+        "name": "贵州3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "southwest",
+          "region_group_source": "西南",
+          "source_place_basis": "贵州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-8a515e6ceed6a8cc",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "贵州3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": "Guizhou"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "拉萨3"
+        ],
+        "city": "Lhasa",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Lhasa",
+        "name": "拉萨3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "southwest",
+          "region_group_source": "西南",
+          "source_place_basis": "拉萨",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-8e8e853f907e4e5a",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "拉萨3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "上海15"
+        ],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "上海15",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "上海",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-8fb49c0343a45243",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "上海15",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "芜湖2"
+        ],
+        "city": "Wuhu",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Wuhu",
+        "name": "芜湖2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "芜湖",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-909e4d8200463910",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "芜湖2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "青岛20"
+        ],
+        "city": "Qingdao",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Qingdao",
+        "name": "青岛20",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "青岛",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-9a369699696be7c0",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "青岛20",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "中卫2"
+        ],
+        "city": "Zhongwei",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Zhongwei",
+        "name": "中卫2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "中卫",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-9b2ecc64a37f36ef",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "中卫2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "南京3"
+        ],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nanjing",
+        "name": "南京3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "南京",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-9b71906f5279d103",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "南京3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西宁2"
+        ],
+        "city": "Xining",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Xining",
+        "name": "西宁2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "西宁",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-9be34e98cae12123",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "西宁2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "重庆2"
+        ],
+        "city": "Chongqing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chongqing",
+        "name": "重庆2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "southwest",
+          "region_group_source": "西南",
+          "source_place_basis": "重庆",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-9eaf5ab515d2fbde",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "重庆2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "南京4"
+        ],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nanjing",
+        "name": "南京4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "南京",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-9ff809b1b83de4c2",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "南京4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "南京5"
+        ],
+        "city": "Nanjing",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nanjing",
+        "name": "南京5",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "南京",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-af773bb011734cf3",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "南京5",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "上海7"
+        ],
+        "city": "Shanghai",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shanghai",
+        "name": "上海7",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "上海",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-af838a91339ca0bf",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "上海7",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华东1"
+        ],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": null,
+        "name": "华东1",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": null,
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-b1629b7b9f4da4e9",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "华东1",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "海口2"
+        ],
+        "city": "Haikou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Haikou",
+        "name": "海口2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "海口",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-b4f30820a4c2c426",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "海口2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西安5"
+        ],
+        "city": "Xi'an",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Xi'an",
+        "name": "西安5",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "西安",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-c6912e5d49c81796",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "西安5",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "郴州2"
+        ],
+        "city": "Chenzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chenzhou",
+        "name": "郴州2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "郴州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-c6f5338351ac38b3",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "郴州2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "长沙3"
+        ],
+        "city": "Changsha",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Changsha",
+        "name": "长沙3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "长沙",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-c90bb62565da3410",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "长沙3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "武汉4"
+        ],
+        "city": "Wuhan",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Wuhan",
+        "name": "武汉4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "武汉",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-cc78acfc7cf64527",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "武汉4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "合肥2"
+        ],
+        "city": "Hefei",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hefei",
+        "name": "合肥2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "合肥",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-ccd122fb2d7e87a8",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "合肥2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西南1"
+        ],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": null,
+        "name": "西南1",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "southwest",
+          "region_group_source": "西南",
+          "source_place_basis": null,
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-d0f554a061e3d7b3",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "西南1",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "乌鲁木齐4"
+        ],
+        "city": "Urumqi",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Urumqi",
+        "name": "乌鲁木齐4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "乌鲁木齐",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-d66f2e2d83529683",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "乌鲁木齐4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "广州6"
+        ],
+        "city": "Guangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Guangzhou",
+        "name": "广州6",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "广州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-d77518dcbf31810f",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "广州6",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "乌鲁木齐7"
+        ],
+        "city": "Urumqi",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Urumqi",
+        "name": "乌鲁木齐7",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "乌鲁木齐",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-dcbe06e374cf1d11",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "乌鲁木齐7",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "庆阳2"
+        ],
+        "city": "Qingyang",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Qingyang",
+        "name": "庆阳2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "northwest",
+          "region_group_source": "西北",
+          "source_place_basis": "庆阳",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-de09b4e2bddf5d39",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "庆阳2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "华南2"
+        ],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": null,
+        "name": "华南2",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": null,
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-de8018e2dc340f7a",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "华南2",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "南昌5"
+        ],
+        "city": "Nanchang",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Nanchang",
+        "name": "南昌5",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "南昌",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-e0093efd7ab3a58c",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "南昌5",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "成都4"
+        ],
+        "city": "Chengdu",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Chengdu",
+        "name": "成都4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "southwest",
+          "region_group_source": "西南",
+          "source_place_basis": "成都",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-e207b6d11415b18e",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "成都4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "芜湖4"
+        ],
+        "city": "Wuhu",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Wuhu",
+        "name": "芜湖4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "芜湖",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-ed265c2bfd9bcfb8",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "芜湖4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "太原4"
+        ],
+        "city": "Taiyuan",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Taiyuan",
+        "name": "太原4",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "太原",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-ee4064090cdc986f",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "太原4",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "福州3"
+        ],
+        "city": "Fuzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Fuzhou",
+        "name": "福州3",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "regional",
+          "region_group": "south",
+          "region_group_source": "华南",
+          "source_place_basis": "福州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-f26f85331ecf1ee5",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "福州3",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "沈阳8"
+        ],
+        "city": "Shenyang",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Shenyang",
+        "name": "沈阳8",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "north",
+          "region_group_source": "北方",
+          "source_place_basis": "沈阳",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-f7ef569db868d7e9",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "沈阳8",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "杭州7"
+        ],
+        "city": "Hangzhou",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "city",
+        "metro": "Hangzhou",
+        "name": "杭州7",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "east",
+          "region_group_source": "华东",
+          "source_place_basis": "杭州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-feea57f6d408cf9b",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "杭州7",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [
+          "西南2-贵州"
+        ],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "operational",
+        "location_precision": "region",
+        "metro": null,
+        "name": "西南2-贵州",
+        "parent_record_id": null,
+        "properties": {
+          "pool_architecture": "az_capable",
+          "region_group": "southwest",
+          "region_group_source": "西南",
+          "source_place_basis": "贵州",
+          "source_updated_at": "2026-06-24",
+          "zone_children_generated": false
+        },
+        "provider": "China Telecom Tianyi Cloud",
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "record_id": "ctyun:cloud_resource_pool:vpc-ff755027789a97cf",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "ctyun_cloud",
+        "service_scope": [
+          "vpc"
+        ],
+        "site_code": null,
+        "source_collection": "ctyun_vpc_resource_pools",
+        "source_published_at": null,
+        "source_record_id": "西南2-贵州",
+        "source_scope": "provider_declared",
+        "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+        "subdivision": "Guizhou"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

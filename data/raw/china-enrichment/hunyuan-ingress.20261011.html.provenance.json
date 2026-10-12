@@ -1,0 +1,13 @@
+{
+  "capture_method": "http_response",
+  "http_body_encoding": "gzip",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/hunyuan-ingress.20261011.html",
+  "resolved_url": "https://cloud.tencent.com/document/product/1729/101841",
+  "retrieved_at": "2026-10-11",
+  "sha256": "b4e1d290ab5d0d2cd6c97faab2fd27427bea7e732092b0970dcf5757783e8ca3",
+  "source_published_at": null,
+  "source_updated_at": "2025-05-21",
+  "source_url": "https://cloud.tencent.com/document/product/1729/101841"
+}

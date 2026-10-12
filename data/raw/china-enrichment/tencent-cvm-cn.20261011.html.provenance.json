@@ -1,0 +1,13 @@
+{
+  "capture_method": "http_response",
+  "http_body_encoding": "gzip",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/tencent-cvm-cn.20261011.html",
+  "resolved_url": "https://cloud.tencent.com/document/product/213/6091",
+  "retrieved_at": "2026-10-11",
+  "sha256": "e6bdf03ee94e8ddda1bd01122293c98a71d673e6ea4eb5c9771852d4006d8ca9",
+  "source_published_at": null,
+  "source_updated_at": "2026-09-18",
+  "source_url": "https://cloud.tencent.com/document/product/213/6091"
+}

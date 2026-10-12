@@ -11,7 +11,7 @@ The current manifest also includes separately counted `InfrastructureEvidenceCol
 - GNU Make
 - `jq`
 - Python 3 plus the packages in `requirements.txt` for `make check`
-- Poppler's `pdftotext` for the retained Russian/Yandex certification review
+- Poppler's `pdftotext` for Russian/Yandex certifications, China's final recognition directory and corporate/carrier filings
 
 Run `make help` for the short command list.
 
@@ -36,6 +36,8 @@ make data/network/provider-prefixes.20260805.csv
 A direct target does not generate unrelated CSV files. The default manifest is `data/manifest.20260805.json`; it references older 2026-08-04 GeoJSON where that is the true snapshot date and the new hyperscaler, city-observation, and network files at 2026-08-05.
 
 The current Google refresh is selected by `make RETRIEVED_AT=2026-10-11 csv`. Its manifest retains older dates for other providers and includes the October Google Cloud, AI-zone, GPU, and GCPing enrichment. A direct current target is `make data/google/cloud-regions-and-zones.20261011.csv`. See [`google-enrichment.20261011.md`](google-enrichment.20261011.md) for the offline updater commands.
+
+That manifest also selects the implemented [China enrichment](china-enrichment.20261011.md). CSV targets include the refreshed cloud directories, new Qiniu/Azure China layers, three China infrastructure layers, endpoint/network evidence and the separately counted vendor registry. Infrastructure and registry CSVs use `scripts/infrastructure-json-to-csv.jq`. Examples are `make data/qiniu/resource-pools-and-regions.20261011.csv` and `make data/vendors/registry.20261011.csv`. `make check` validates source-token completeness, ambiguous labels, recognition entries, external joins, native observation bounds and offline regeneration.
 
 For another retrieval date, point Make at its manifest:
 

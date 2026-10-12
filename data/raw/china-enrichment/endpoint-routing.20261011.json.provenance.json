@@ -1,0 +1,9 @@
+{
+  "capture_method": "public_http_json_responses",
+  "notes": "Bounded public endpoint/routing/registration evidence. No inference calls, credentials or private-address connections. This does not establish hosting geography or facility ownership.",
+  "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+  "retrieved_at": "2026-10-11",
+  "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+  "source_published_at": null,
+  "source_url": "https://stat.ripe.net/data/network-info/data.json"
+}

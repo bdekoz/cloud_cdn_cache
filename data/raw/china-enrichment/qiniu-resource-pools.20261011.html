@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html class="articles-doc articles-doc-show" lang="zh-cn" xml:lang="zh-cn">
+  <head>
+    <script type="text/javascript">var qns = window._qns || []; window._qns=qns;qns.push(["setStartLoadTime",new Date().getTime()]);qns.push(["setAccountID","591ead7b54630dd7aed533df"]);</script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="pK2pGfijN1Ec1yMnf1denBq5qIQsEeW9JsQScIWr3Ot7LD9H3rcTOnFpeUCr1oaS+pKQ4Nrul8Z6/LjdOa6SiQ==" />
+    <meta charset="utf-8">
+    <meta name="google" value="notranslate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="资源池、地域和可用区">
+    <meta name="keywords" content="资源池、地域和可用区">
+    <meta name="updated" content="2026-05-06 15:55:40 +0800">
+    <meta name="space" content="qvm">
+    <meta name="version" content="69faf3fc789c6991c6a8714a">
+    <meta name="article_id" content="5a7418339540336fd8415075">
+    <title>资源池、地域和可用区_产品简介_云主机 - 七牛开发者中心</title>
+    <link rel="icon" type="image/x-icon" href="https://static.qiniu.com/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://dn-mars-assets.qbox.me/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://dn-mars-assets.qbox.me/highlight.js/9.12.0/styles/github-gist.min.css">
+    <link rel="stylesheet" media="all" href="/assets/application-e43045ba3758274e2a49cb60b744e5cbb08026d002379020ab66ed5bba30f877.css" />
+    <script src="/assets/application-c173b96a1e98a224d817f9ec08be0264921b28f598f7953a8044aac1547facc5.js"></script>
+    <script>
+      (function(para) {
+        var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+        if(typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+          return false;
+        }
+        w['sensorsDataAnalytic201505'] = n;
+        w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+        var ifs = ['track','quick','register','registerPage','registerOnce','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister','getAppStatus'];
+        for (var i = 0; i < ifs.length; i++) {
+          w[n][ifs[i]] = w[n].call(null, ifs[i]);
+        }
+        if (!w[n]._t) {
+          x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+          x.async = 1;
+          x.src = p;
+          x.setAttribute('charset','UTF-8');
+          w[n].para = para;
+          y.parentNode.insertBefore(x, y);
+        }
+      })({
+        sdk_url: 'https://static.sensorsdata.cn/sdk/1.13.14/sensorsdata.min.js',
+        heatmap_url: 'https://static.sensorsdata.cn/sdk/1.13.14/heatmap.min.js',
+        name: 'sensors',
+        server_url: 'https://sensors.qiniu.com/sa?project=default',
+        heatmap:{}
+      });
+      sensors.quick('autoTrack');
+    </script>
+    <script>
+      function getQueryVariable(variable){
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+          var pair = vars[i].split("=");
+          if(pair[0] == variable){return pair[1];}
+        }
+        return(false);
+      }
+    </script>
+  </head>
+
+  <body class="articles-page articles-page-show">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">您正在使用 <strong>旧浏览器</strong> . 为了更好的体验，请 <a href="http://browsehappy.com/">更新</a> 您的浏览器.</p>
+    <![endif]-->
+
+    <script>
+      if (getQueryVariable('portal_modal') == 1) {
+        $('body').addClass('portal_modal')
+      }
+    </script>
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="sidebar-toggle" href="javascript:;"><i class="fa fa-bars"></i></a>
+          
+          <a class="navbar-brand" href="/"><img width="50" src="/assets/logo-white-b90d685a6b146884636382426d11b7236f5f7ca1c5dfafdb6fa777a0f976fc1f.png" alt="Logo white" /><span>开发者中心</span></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown" id="spaces-dropdown">
+              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                产品与服务 <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu space-dropdown-menu top-space-dropdown-menu" style="max-height: calc(100vh - 70px);overflow-y: auto">
+                  <li class="kodo"><a href="/kodo">对象存储</a></li>
+                  <li class="las"><a href="/las">全栈应用服务器</a></li>
+                  <li class="fusion"><a href="/fusion">CDN</a></li>
+                  <li class="aitokenapi"><a href="/aitokenapi">AI 大模型推理</a></li>
+                  <li class="dora"><a href="/dora">智能多媒体服务</a></li>
+                  <li class="mikustream"><a href="/mikustream">Miku 快直播</a></li>
+                  <li class="ssl"><a href="/ssl">SSL 证书服务</a></li>
+                  <li class="qvm"><a href="/qvm">云主机</a></li>
+                  <li class="censor"><a href="/censor">内容审核</a></li>
+                  <li class="qvs"><a href="/qvs">视频监控</a></li>
+                  <li class="dcdn"><a href="/dcdn">全站加速</a></li>
+                  <li class="tutugo"><a href="/tutugo">拓图 AI</a></li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a href="/af">账户财务</a>
+            </li>
+
+            <li class="mobile dropdown" id="sdk-dropdown">
+              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                SDK &amp; 工具 <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu sdk-dropdown-menu">
+                <li><a href="/sdk#official-sdk">官方 SDK</a></li>
+                <li><a href="/sdk#community-sdk">社区 SDK</a></li>
+                <li><a href="/sdk#official-tool">开发者工具</a></li>
+                <li><a href="/sdk#community-plugin">社区插件</a></li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a href="/consult">智慧咨询</a>
+            </li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+
+            <li class="mobile www-item"><a target="_blank" href="https://www.qiniu.com/">官网</a></li>
+
+            <li class="mobile portal-item"><a target="_blank" href="https://portal.qiniu.com/">管理控制台</a></li>
+
+            <li class="dropdown hidden more-dropdown" id="more-dropdown">
+              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                更多 <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu more-dropdown-menu">
+                <li><a href="https://www.qiniu.com/" class="text-sub" target="_blank">官网</a></li>
+                <li><a href="https://portal.qiniu.com/" class="text-sub" target="_blank">管理控制台</a></li>
+              </ul>
+            </li>
+
+            <li class="mobile ">
+              <a href="/sdk">SDK &amp; 工具</a>
+            </li>
+            <li class="mobile ">
+              <a href="/consult">智慧咨询</a>
+            </li>
+            <li class="mobile search-item">
+              <a href="/search">输入搜索的关键字</a>
+            </li>
+            <li class="dropdown hidden userinfo" id="user-dropdown">
+              <a href="javascript:;" class="dropdown-toggle user-email" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu user-dropdown-menu">
+                <li><a href="https://sso.qiniu.com/signout" class="text-sub">退出当前帐号</a></li>
+              </ul>
+            </li>
+            <li class="need-signin"><a href="https://sso.qiniu.com?client_id=qauxtCZX9RGtu5wVf4E8qrruem5Ko2I0ZFzuHV4uIYzgAioQVhjE5QAZuLP8Lh2o&amp;redirect_url=https://developer.qiniu.com">登录</a></li>
+            <li class="need-signin"><a target="_blank" href="https://portal.qiniu.com/signup">注册</a></li>
+          </ul>
+
+          <div class="search-form nav navbar-nav navbar-right col-md-2 col-sm-2">
+            <form action="/search">
+              <input type="text" name="keyword" class="form-control search-box" placeholder="输入搜索的关键字" tabindex="1">
+              <i class="icon fa fa-search"></i>
+            </form>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="topic-container" slug=region-zone space=qvm>
+  <div class="topic-sidebar-wrap">
+  <h3 class="space-title qvm">
+    <a href="/qvm">云主机</a>
+    <a class="tool folder" arial-value="true" title="展开所有菜单" class="btn copybtn" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-angle-right"></i></a>
+  </h3>
+  <div class="doctree">
+    
+    
+    
+    <ul>
+        <li class="cate-product_introduction branch">
+          <a class="node-title category" href="javascript:;">
+            <span>产品简介</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="leaf"><a class="node-title   tree-level-1" href="/qvm/4289/qvm-overview"><span>产品介绍</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/4296/qvm-features"><span>产品优势</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/4297/qvm-scenarios"><span>应用场景</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title active  tree-level-1" href="/qvm/4190/region-zone"><span>资源池、地域和可用区</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/6867/quota-management"><span>配额管理</span><i class="icon fa"></i></a></li></ol></li></ul>
+    <ul>
+        <li class="cate-buying_guide branch">
+          <a class="node-title category" href="javascript:;">
+            <span>购买指南</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="leaf"><a class="node-title   tree-level-1" href="/qvm/4238/qvm-billing-contrast"><span>计费说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/6649/disable-delete-resources-following-the-account-is-frozen"><span>欠费/冻结说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/5659/five-days-have-no-reason-to-refund"><span>退款说明</span><i class="icon fa"></i></a></li></ol></li></ul>
+    <ul>
+        <li class="cate-quick_start branch">
+          <a class="node-title category" href="javascript:;">
+            <span>快速入门</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="leaf"><a class="node-title   tree-level-1" href="/qvm/4228/qvm-linux-quickstart"><span>注册与购买</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>QVM 选型</span><i class="icon fa"></i></a></li></ol></li></ul>
+    <ul>
+        <li class="cate-development_guidelines branch">
+          <a class="node-title category" href="javascript:;">
+            <span>使用指南</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>云主机</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>实例</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4290/qvm-instance-overview"><span>实例概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4208/qvm-instance-family"><span>实例规格族</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4298/qvm-instance-management"><span>实例管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/8024/support-with-the-instance-of-the-specification"><span>支持变配的实例规格</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title   tree-level-3" href="/qvm/4308/qvm-linux-login"><span>连接登录 Linux 类型实例</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6860/use-telnet-login-linux-software-example"><span>使用远程登录软件登录 Linux 实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6861/using-the-command-connection-linux-instance"><span>使用命令连接Linux 实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6862/use-the-management-terminal-vnc-connected-linux-instance"><span>使用管理终端(VNC方式)连接Linux实例</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title   tree-level-3" href="/qvm/4307/qvm-Windows-login"><span>连接登录  Windows 类型实例</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6863/use-microsoft-remote-desktop-connection-for-mac-connection-Windows-instance"><span>使用Microsoft Remote Desktop Connection for Mac连接Windwos 实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6864/use-the-management-terminal-vnc-connection-Windows-instance"><span>使用管理终端(VNC方式)连接Windows实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6865/use-the-remote-desktop-mstsc-connection-Windows-instance"><span>使用远程桌面（MSTSC方式）连接 Windows 实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6859/with-rdesktop-software-connection"><span>使用rdesktop软件连接Windows 实例</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>镜像</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4292/qvm-mirror-overview"><span>镜像概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7773/Mirror%20fee%20file"><span>镜像计费</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>自定义镜像操作指南</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6927/create-a-custom-image"><span>创建自定义镜像</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>云硬盘</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4301/qvm-storage-overview"><span>存储概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7041/cloud-drive-performance"><span>云硬盘性能</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4233/qvm-disk"><span>磁盘管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7288/the-local-store"><span>本地存储</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6826/using-the-snapshot-created-cloud-disk"><span>使用快照创建云盘</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>分区格式化云盘</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7413/partitions-formatted-is-greater-than-2-tib-data-plate"><span>分区格式化大于 2 TiB数据盘</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6866/formatting-data-plate"><span>格式化数据盘</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>扩容磁盘</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7416/summary-of-capacity"><span>扩容概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7417/online-expansion-cloud-disk-linux"><span>在线扩容云盘（Linux系统）</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7418/offline-expanding-cloud-disk-linux"><span>离线扩容云盘（Linux系统）</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7082/release-the-cloud-disk"><span>释放云盘</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>快照</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7048/what-is-a-snapshot"><span>什么是快照？</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5886/the-snapshot-charge-standard"><span>快照收费标准</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7912/automatic-snapshot-strategy"><span>自动快照策略概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7913/how-to-use-the-automatic-snapshot-strategy"><span>如何使用自动快照策略</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>安全组</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7106/summary-of-the-security-group"><span>安全组概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7107/commonly-used-port-security-group"><span>安全组常用端口</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7108/security-group-application-cases"><span>安全组应用案例</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4232/qvm-key"><span>SSH 密钥对</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>网络</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4305/qvm-netsec-overview"><span>网络与安全性概述</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>弹性公网 IP</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7553/eip-product-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7555/peak-bandwidth-limitations"><span>使用限制</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title   tree-level-2" href="/qvm/4206/qvm-vpc"><span>专有网络</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5039/vpc-best-practices"><span>最佳实践</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7922/high-speed-channel"><span>高速通道</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>IPv6网关</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>产品简介</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6948/what-is-the-ipv6-gateway"><span>什么是IPv6网关</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6974/ipv6-gateway-basic-concepts"><span>IPv6网关基本概念</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6975/use-restrictions"><span>使用限制</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>快速入门</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6976/building-ipv6-proprietary-networks"><span>搭建IPv6专有网络</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>配置IPv6地址</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>Windows实例配置IPv6地址</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/7011/windows-instance-using-ipv6-navigation"><span>Windows实例使用IPv6导航</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>Linux实例配置IPv6地址</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/7713/linux-instance-using-ipv6"><span>Linux实例使用IPv6导航</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/7714/building-ipv6-vpc"><span>步骤1：搭建IPv6 VPC</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/7715/assign-ipv6-address"><span>步骤2：分配IPv6地址</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/7718/ipv6-public-network-bandwidth"><span>步骤3：开通IPv6公网带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/7020/Linux-configure-ipv6-address"><span>步骤4：配置IPv6地址</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/10561/add-ipv6-security-group-rules"><span>步骤5：添加IPv6安全组规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/7719/test-network-connectivity"><span>步骤6：测试网络连通性</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>用户指南</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6977/vpc-open-ipv6"><span>VPC开启IPv6</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title   tree-level-4" href="/qvm/6978/switch-on-ipv6"><span>交换机开启IPv6</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6981/management-of-ipv6-route-in-the-routing-table"><span>管理路由表中IPv6路由</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>管理IPv6网关</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6979/ipv6-gateway-specification"><span>IPv6网关规格</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6980/new-ipv6-gateway"><span>新建IPv6网关</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6982/modify-the-ipv6-gateway"><span>修改IPv6网关</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6983/delete-the-ipv6-gateway"><span>删除IPv6网关</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6984/change-of-the-specifications-of-the-ipv6-gateway"><span>变更IPv6网关的规格</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>管理IPv6公网带宽</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6985/open-the-ipv6-public-network-bandwidth"><span>开通IPv6公网带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6986/change-of-ipv6-gateway-peak-bandwidth"><span>变更IPv6网关带宽峰值</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6987/delete-the-ipv6-public-network-bandwidth"><span>删除IPv6公网带宽</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>管理仅主动出规则</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6988/create-only-the-active-rules"><span>创建仅主动出规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/6989/remove-only-the-active-rules"><span>删除仅主动出规则</span><i class="icon fa"></i></a></li></ol></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>私网连接</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7702/PrivateLink-product-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/8020/support-private-network-region"><span>支持私网连接的地域和可用区</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7704/Product%20usage%20scenarios"><span>使用场景</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/8018/pricing-instructions"><span>定价说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7705/Product%20use%20restrictions"><span>使用限制</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>使用入门</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7707/Private%20network%20access%20service%20between%20cross-account%20VPC"><span>跨账号VPC间的私网访问服务</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7708/Private%20network%20access%20service%20between%20VPC%20with%20the%20same%20account"><span>同账号VPC间的私网访问服务</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>VPN网关</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5518/what-is-a-vpn-gateway"><span>什么是VPN网关</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5523/the-vpn-gateway-product-pricing"><span>VPN网关产品定价</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5521/the-vpn-gateway-use-restrictions"><span>使用限制</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5520/the-vpn-gateway-usage-scenarios"><span>使用场景</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5524/introduction-to-ipsec-vpn"><span>IPSEC-VPN入门</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title   tree-level-3" href="/qvm/5525/introduction-to-ssl-vpn"><span>SSL-VPN入门</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7914/linux-client-remote-connection"><span>Linux客户端远程连接</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7915/windows-client-remote-connection"><span>Windows客户端远程连接</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7921/vpn-User-gateway"><span>用户网关</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title   tree-level-2" href="/qvm/5746/nat-gateway-product-introduction"><span>NAT 网关</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5749/functions-overview"><span>增强型公网NAT网关（新推出）</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5748/what-is-a-nat-gateway"><span>NAT网关产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5752/NAT-usage-scenarios"><span>公网 NAT 实例规格说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5751/NAT-product-advantage"><span>公网NAT网关计费说明</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>共享带宽</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7046/a-product-profile-of-the-shared-bandwidth"><span>产品简介</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>产品定价</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6335/shared-bw-package-in-monthly"><span>包年包月</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6336/shared-bw-volume-pricing"><span>按量计费</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6330/owe-the-instructions"><span>欠费说明</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>用户指南</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6346/create-the-shared-bandwidth-instance"><span>创建共享带宽实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6332/add-the-eip-management"><span>管理添加的EIP</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>云企业网</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6681/enterprise-network"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6507/CEN-product-advantage"><span>产品优势</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6508/CEN-usage-scenarios"><span>使用场景</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6509/CEN-use-restrictions"><span>使用限制</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>计费说明</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6687/billing-instructions"><span>计费说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6511/CEN-owe-the-instructions"><span>欠费说明</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6512/CEN-quick-start"><span>快速入门</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>云企业网用户指南</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6529/CEN-instance"><span>云企业网实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6525/CEN-across-accounts-authorized-network-instance"><span>跨账号网络实例授权</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6530/CEN-package"><span>带宽包管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6532/CEN-prepaid-bandwidth-renewal"><span>跨地域互通带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6539/CEN-network"><span>路由信息管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6547/CEN-the-routing-policy"><span>路由策略管理</span><i class="icon fa"></i></a></li></ol></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>负载均衡</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4295/slb-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4256/qvm-slb-quickstart"><span>使用入门</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4251/qvm-slb-instance"><span>SLB 实例规格</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4254/qvm-backend-server"><span>后端服务器</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4253/qvm-listener"><span>监听</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4265/qvm-slb-certificate-management"><span>证书管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4326/slb-monitoring"><span>监控</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4324/slb-access-control"><span>访问控制</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>弹性伸缩</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6451/ess-product-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6456/ess-telescopic-group"><span>伸缩组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6455/ess-scaling-rules"><span>伸缩规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6457/ess-telescopic-configuration"><span>伸缩配置</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6459/ess-common-problems"><span>常见问题</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>文件存储 NAS</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5871/nas-intro"><span>文件存储 NAS 简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10391/nas-use-restrictions"><span>NAS 使用限制</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6911/how-to-select-the-file-storage-object-storage-and-block-storage"><span>如何选用文件存储、对象存储和块存储？</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>挂载文件系统</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5609/the-nas-performance-test"><span>NAS性能测试</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5376/matters-needing-attention"><span>注意事项</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5377/nfs-client-in-the-linux-system"><span>在Linux系统中安装NFS客户端</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5378/mount-the-nfs-file-system-in-the-linux-system"><span>在Linux系统中挂载NFS文件系统</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6913/automatically-mount-nfs-file-systems"><span>Linux自动挂载NFS文件系统</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5379/mount-smb-file-system"><span>Windows 挂载 SMB 文件系统</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6914/windows-automatically-mount-smb-file-system"><span>Windows 自动挂载SMB文件系统</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5380/unmount-the-filesystem"><span>卸载文件系统</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>云数据库</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title   tree-level-2" href="/qvm/7737/cloud-database-rds"><span>云数据库RDS</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/11985/database-exclusive-agency-cost"><span>数据库独享代理费用说明</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>云数据库 PostgreSQL</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7180/cloud-postgresql-database-Product-Introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7182/PostgreSQL-introduction-to-use"><span>使用入门</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7181/PostgreSQL-use-restrictions"><span>使用限制</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7184/PostgreSQL-instance-management"><span>实例管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7185/connect-the-postgresql-instance"><span>连接PostgreSQL实例</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>云数据库 MySQL</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/10740/read-only-instance-specification-list"><span>只读实例规格列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4272/mysql-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4274/mysql-cost-overview"><span>计费说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4267/qvm-mysql-quickstart"><span>使用入门</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/8026/mysql-database-backup-recovery"><span>MySQL 单库备份恢复</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4280/mysql-instance-management"><span>实例管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4275/rds-account-management"><span>账号管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4273/mysql-network-management"><span>网络管理</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4279/mysql-log-management"><span>日志管理</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>云数据库 SQL Server</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7177/SQLSever-product-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5544/the-stored-procedure"><span>存储过程</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5542/the-connection-instance"><span>连接实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5535/cloud-sql-server-database-use-restrictions"><span>使用限制</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>初始化设置</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/5540/apply-for-the-web-address"><span>申请外网地址</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/5539/set-the-white-list"><span>设置白名单</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/5541/create-the-database-and-the-account-number"><span>创建数据库和账号</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5537/create-an-instance"><span>创建实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5536/sql-server-using-the-process"><span>使用流程</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5543/read-only-instance"><span>只读实例</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>云数据库 PolarDB</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6695/polardb-product-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6696/polardb-product-advantage"><span>产品优势</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6697/polardb-product-pricing"><span>产品定价</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6700/polardb-quick-start"><span>快速入门</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6698/polardb-use-restrictions"><span>使用限制</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>云数据库 Redis</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4220/qvm-redis-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4264/redis-userguide"><span>使用入门</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4270/redis-manage-instances"><span>管理实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4268/qvm-redis-backup-restore"><span>备份与恢复</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>云数据库 MongoDB</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5476/what-is-mongodb-cloud-database"><span>什么是MongoDB云数据库</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>系统架构</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5479/MongoDB%20features"><span>功能特性</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5504/mongo-application-scenario"><span>MongoDB 应用场景</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5480/cloud-mongo-database-and-self-built-database-comparative-advantage"><span>云数据库MongoDB与自建数据库对比优势</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>快速入门</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>用户指南</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5506/version-and-the-storage-engine"><span>版本和存储引擎</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5513/directing-a-common-problem"><span>MongoDB 常见问题</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>迁云服务</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>服务器迁移中心</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7801/qsmc-product-introduction"><span>产品简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7811/qsmc-use-restrictions"><span>使用限制</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7862/the-migration-time-to-assess"><span>迁移时间评估</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>用户指南</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7814/import-migration-source"><span>导入迁移源</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/7815/create-and-start-the-migration-task"><span>创建并启动迁移任务</span><i class="icon fa"></i></a></li></ol></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>网络安全产品</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>Web应用防火墙</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/8034/functions"><span>WAF功能和接入方式</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/8036/pay-method"><span>计费方式和定价</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/8035/waf-specs"><span>套餐和规格说明</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>网站防护配置</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>网站接入</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8046/operate-domain"><span>域名操作</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>Web 安全</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8041/deep-learning"><span>数据安全</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8038/web-defense-protect"><span>Web 入侵防护</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>Bot 管理</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8056/crawler-rule"><span>设置爬虫相关规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8057/data-risk-control"><span>设置数据风控</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8058/app-protect"><span>App防护</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>访问控制限流</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8052/cc-scan"><span>CC 安全防护和扫描防护</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8054/ip-blacklist"><span>设置IP黑名单</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8055/custom-rule"><span>设置自定义防护策略</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-4" href="javascript:;"><span>防护白名单</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8047/website-white-list"><span>设置网站防护白名单</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8048/defense-white-list"><span>设置Web入侵防护白名单</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8049/data-security-whitelist"><span>设置数据安全白名单</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8050/bot-whitelist"><span>设置Bot管理白名单</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-5" href="/qvm/8051/acl-whitelist"><span>设置访问控制白名单</span><i class="icon fa"></i></a></li></ol></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>经典版 DDoS 高防 IP</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4994/ddos-product-overview"><span>高防产品概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/4996/ddos-product-advantage"><span>产品优势</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>购买指南</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5685/arrearage-instructions"><span>欠费说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4973/security-ddos-ip-price-list"><span>经典版 DDoS 高防 IP价格表</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>使用须知</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5001/ddos-cc-protection"><span>CC 防护</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5000/ddos-elastic-protection"><span>弹性防护</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5003/ddos-ip-blocking"><span>IP 封堵</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5005/ddos-source-ip-segment"><span>回源 IP 段</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5006/ddos-forward-flow"><span>转发流量</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-3" href="javascript:;"><span>使用指南</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4963/anti-ddos-ip-using-document"><span>购买高防IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6853/ddos-set-up-the-business-website"><span>四层端口接入</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6852/ddos-ip-set-up-website-business"><span>七层域名接入</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6854/ddos-released-back-to-the-source-ip"><span>放行回源 IP 段</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6871/DDOS-IP-modify-the-dns"><span>修改DNS解析</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6870/DDOS-ip-local-authentication-configuration"><span>本地验证配置</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5002/ddos-set-the-cc-protection"><span>设置CC防护</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/5004/ddos-set-the-elastic-protection"><span>设置弹性防护</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4972/set-the-forwarding-rules"><span>设置转发规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4974/ddos-set-white-list-url"><span>设置白名单URL、白名单IP、黑名单IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/4979/ddos-cc-policy-rules"><span>设置CC策略规则</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title   tree-level-2" href="/qvm/6098/new-bgp-high-ip"><span>企业版 DDoS 高防 IP</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title   tree-level-3" href="/qvm/6099/new-bgpip-product-pricing"><span>计费方式</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6100/functional-packages-that"><span>功能套餐说明</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6102/upgrade-new-bgp-high-ip-instance-specifications"><span>升级企业版 DDoS 高防IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6180/continue-feixin-bgp-high-ip-protection"><span>续费企业版 DDoS 高防 IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6101/buy-new-bgp-high-ip-protection"><span>购买企业版 BGP 高防 IP</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title   tree-level-3" href="/qvm/6103/protection-website-business"><span>防护网站业务（七层规则）</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6104/step-1:-add-site-configuration"><span>步骤1：添加网站配置</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6105/step-2:-business-access-new-bgp-high-configuration"><span>步骤2：配置证书</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6107/step-4:-set-the-cc-protection-strategy"><span>步骤3：设置CC防护策略</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title   tree-level-3" href="/qvm/6109/protection-of-the-business-website"><span>防护非网站业务（四层规则）</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6110/step-1:-add-port-configuration"><span>步骤1：添加端口配置</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6111/step-2:-configure-forward-strategy"><span>步骤2：设置DDoS防护策略</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6112/step-3:-look-at-the-business-flow"><span>步骤3：设置健康检查规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-4" href="/qvm/6183/step-4:-set-the-session-remains"><span>步骤4：设置会话保持</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6114/access-to-the-settings"><span>接入设置</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/9859/security-product-overview"><span>经典版 DDoS 高防 IP 和 企业版 DDoS 高防 IP 的区别</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6946/qiniu-black-hole-strategy"><span>黑洞策略FAQ</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>备案</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4294/record-introduction"><span>备案简介</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4260/qvm-knowledge"><span>备案相关知识</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4195/qvm-registration-number"><span>申请备案服务号</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4184/qvm-first-guide"><span>首次备案指南</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4187/qvm-change-record"><span>变更备案指南</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4188/qvm-access-registration"><span>接入备案指南</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4185/qvm-record-users"><span>增加网站备案（已是七牛云备案用户）</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4186/qvm-new-site"><span>新增网站备案（原备案不在七牛云）</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4201/qvm-public-security"><span>公安备案</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/4203/qvm-delete-registration"><span>注销备案</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/5873/cloud-monitor"><span>统一告警服务</span><i class="icon fa"></i></a></li></ol></li></ul>
+    <ul>
+        <li class="cate-api branch">
+          <a class="node-title category" href="javascript:;">
+            <span>API 文档</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="leaf"><a class="node-title   tree-level-1" href="/qvm/5567/openapi-overview"><span>API 概述</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/8006/common-params"><span>常用公共参数信息</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>地域</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5593/openapi-ecs-describe-regions"><span>查看区域列表</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>实例</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5594/openapi-ecs-describe-instance-type"><span>查看实例规格详情列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5595/openapi-ecs-describe-available-resources"><span>查看可用资源列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5564/create-instance"><span>创建云主机</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5565/openapi-describe-instance-list"><span>查看云主机列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5566/openapi-describe-instance"><span>查看云主机详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8017/modify-postpaid-instance-spec"><span>修改后付费主机规格</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5591/openapi-ecs-renew-instance"><span>续费云主机</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8005/modify-prepaid-instance-spec"><span>修改预付费云主机规格</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7796/modify-ecs-instance"><span>修改主机信息</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5883/remove-ecs"><span>删除云主机</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7516/start-instance"><span>云主机开机</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7517/reboot-instance"><span>云主机重启</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7519/stop-instance"><span>云主机关机</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7783/replace-the-system-disk"><span>更换系统盘</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7794/reset-vnc-password"><span>重置 VNC 密码</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7795/get-vnc-url"><span>获取 VNC 登录地址</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7797/instance-monitor"><span>实例监控信息</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>磁盘</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7521/ecs-disk"><span>磁盘列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7541/create-disk"><span>创建磁盘</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7545/diskinfo"><span>磁盘详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7546/delete-disk"><span>删除磁盘</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7547/attach-disk"><span>挂载磁盘</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7548/detach-disk"><span>卸载磁盘</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7711/modify-the-disk-capacity"><span>磁盘扩容</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title   tree-level-1" href="/qvm/7777/snapshot"><span>快照</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7778/the-snapshot-list"><span>快照列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7779/a-snapshot-of-the-details"><span>快照详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7780/create-a-snapshot"><span>创建快照</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7781/to-delete-a-snapshot"><span>删除快照</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>镜像</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7543/list-image"><span>镜像列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7544/create-image"><span>创建镜像</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7549/imageinfo"><span>镜像详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7551/delete-custom-image"><span>删除镜像</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>秘钥对</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7554/describe-keypairs"><span>密钥对列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7556/describe-keypair"><span>密钥对详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7557/import-keypair"><span>密钥对导入</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7558/delete-keypair"><span>删除密钥对</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7559/attach-keypair"><span>绑定密钥对</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7560/detach-keypair"><span>解绑密钥对</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>安全组</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7568/create-security-group"><span>创建安全组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8075/update-security-group"><span>修改安全组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8076/delete-security-group"><span>删除安全组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7561/describe-security-groups"><span>安全组列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7567/describe-security-group"><span>安全组详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7569/join-security-group"><span>绑定安全组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7570/leave-security-group"><span>解绑安全组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7571/describe-ingress-rules"><span>安全组入网规则列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7572/create-ingress-rule"><span>创建安全组入网规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7573/delete-ingress-rule"><span>删除安全组入网规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7574/describe-egress-rules"><span>安全组出网规则列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7575/create-egress-rule"><span>创建安全组出网规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7576/delete-egress-rule"><span>删除安全组出网规则</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>VPC</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7577/describe-vpcs"><span>专有网络列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7578/describe-vpc"><span>专有网络详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7579/create-vpc"><span>创建专有网络</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7580/delete-vpc"><span>删除专有网络</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>VSwitch</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7581/describe-vswitches"><span>虚拟交换机列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7583/describe-vswitch"><span>虚拟交换机详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7585/create-vswitch"><span>创建虚拟交换机</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7584/delete-vswitch"><span>删除虚拟交换机</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>EIP</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7586/describe-eips"><span>弹性公网 IP 列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7587/describe-eip"><span>弹性公网 IP 详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7588/create-eip"><span>创建弹性公网 IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7589/renew-eip"><span>续费弹性公网 IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7590/delete-eip"><span>删除弹性公网 IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7591/associate-eip"><span>绑定弹性公网 IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7592/unassociate-eip"><span>解绑弹性公网 IP</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7593/modify-eip-spec"><span>弹性公网 IP 变配</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>共享带宽</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8011/common-bandwidth-index"><span>查询共享带宽列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8008/create-common-bandwidth"><span>创建共享带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8009/modify-common-bandwidth-spec"><span>修改共享带宽规格</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8010/modify-common-bandwidth-attribute"><span>修改共享带宽属性</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8016/renew-common-bandwidth"><span>续费共享带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8019/cb-to-prepaid"><span>后付费共享带宽转预付费</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8014/delete-common-bandwidth"><span>删除共享带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8012/add-eip-to-cb"><span>添加弹性 IP 到共享带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8013/list-ip-in-cb"><span>查询加入带宽包的弹性 IP 列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8015/remove-eip-from-cb"><span>从共享带宽移除弹性 IP</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>弹性伸缩</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10400/list-groups"><span>查询伸缩组列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10402/create-group"><span>创建伸缩组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10403/modify-group"><span>修改伸缩组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10404/delete-group"><span>删除伸缩组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10405/enable-group"><span>启用伸缩组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10406/disable-group"><span>禁用伸缩组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10415/list-instances"><span>查询主机列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10416/attach-ecs"><span>手动添加主机到伸缩组</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10417/remove-instance"><span>移出伸缩组内的主机</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10410/list-rules"><span>查询伸缩组规则列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10411/create-rule"><span>创建伸缩组规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10413/trigger-rule"><span>执行伸缩组规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10412/delete-rule"><span>删除伸缩组规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10407/list-configurations"><span>查询伸缩组的所有配置</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10408/create-configuration"><span>创建弹性伸缩配置</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10409/delete-configuration"><span>删除弹性伸缩配置</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10414/list-activities"><span>查询伸缩活动</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>经典版 DDoS 高防 IP</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>资源管理</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/10838/create-resource"><span>创建高防实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/10840/modify-resource"><span>升级高防实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/10839/renew-resource"><span>续费高防实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7504/resource-list"><span>获取资源列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7478/modify-ddos-name"><span>修改实例名称</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7482/modify-ddos-elastic-limit"><span>修改弹性防护带宽</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>四层规则管理</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7485/level4-rules"><span>获取四层规则列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7483/create-level4-rule"><span>创建四层规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7484/modify-level4-rule"><span>修改四层规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7486/level4-rule-detail"><span>删除四层规则</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7487/modify-level4-health-check"><span>修改四层规则健康检查</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7488/modify-keep-time"><span>修改四层规则会话保持</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>Web应用防火墙 (WAF)</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10849/list-waf"><span>查询WAF实例列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10846/create-waf-instance"><span>创建WAF实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10847/update-waf"><span>升级WAF实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/10848/renew-waf"><span>续费WAF实例</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title   tree-level-1" href="/qvm/7786/resource-tags"><span>标签</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7787/tag-list"><span>标签列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7789/upsert-label"><span>创建/更新标签</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7788/the-label-details"><span>标签详情</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7790/remove-tag"><span>删除标签</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7793/list-resource-tags"><span>资源标签列表查询</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7791/attach-tag-to-resource"><span>资源添加标签</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7792/detach-tag-from-resource"><span>资源删除标签</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>财务</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7710/make-an-inquiry"><span>询价</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7763/get-order-information"><span>订单详情查询</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8081/list-atomics"><span>查询子订单列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7596/unpaid-orders"><span>未支付订单列表</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7594/order-pay"><span>支付订单</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7595/order-cancel"><span>取消订单</span><i class="icon fa"></i></a></li></ol></li></ol></li></ul>
+    <ul>
+        <li class="cate-sdk branch">
+          <a class="node-title category" href="javascript:;">
+            <span>SDK 下载</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="leaf"><a class="node-title   tree-level-1" href="/qvm/7491/stack-go"><span>Go SDK</span><i class="icon fa"></i></a></li></ol></li></ul>
+    
+    <ul>
+        <li class="cate-best_practices branch">
+          <a class="node-title category" href="javascript:;">
+            <span>最佳实践</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>服务器迁移最佳实践</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8001/using-qsmc-client-windows-gui-version"><span>使用 QSMC客户端Windows GUI版本</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8002/incremental-migration-source-server"><span>增量迁移源服务器</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8003/multithreaded-accelerated-migration"><span>多线程加速迁移</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/8023/qsmc-private-network-transmission-migration"><span>私网传输迁移</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/8004/the-private-network-transmission-migration"><span>私网传输迁移</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/10581/sharedmirror"><span>阿里云镜像共享到七牛云创建主机实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/10837/deployment-practice-of-high-availability-clusters"><span>部署高可用计算集群实践</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>网站与应用实践</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/7067/the-realization-of-the-data-transmission-way-qvm-instance"><span>QVM实例数据传输的实现方式</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/5116/how-to-make-the-defense-support-according-to-the-domain-name-back-to-the-source"><span>设置高防根据域名回源到不同的业务服务器</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/4269/qvm-kodo"><span>云主机和对象存储内网互通实践</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/7066/qvm-security-group-practice-a"><span>QVM安全组实践（一）</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/7127/qvm-security-group-practice-2"><span>QVM安全组实践（二）</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/7126/qvm-instance-building-windows-active-directory"><span>QVM实例搭建Windows系统AD域</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/7069/a-high-availability-architecture-deployment-scheme"><span>高可用架构部署方案</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/5686/by-using-iptables-do-nat-the-web-site"><span>通过用 iptables 做 NAT 代理上网</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-1" href="/qvm/4288/server-migration-qiniu"><span>使用迁移工具迁移服务器至QVM</span><i class="icon fa"></i></a></li></ol></li></ul>
+    <ul>
+        <li class="cate-troubleshooting branch">
+          <a class="node-title category" href="javascript:;">
+            <span>故障排查</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="leaf"><a class="node-title   tree-level-1" href="/qvm/7930/cloud-host-migration-faq"><span>云主机迁移 FAQ</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title   tree-level-1" href="/qvm/4317/qvm-instance-faq"><span>云主机</span><i class="icon fa"></i></a><ol><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>磁盘/CPU/内存/带宽</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7061/cloud-server-qvm-network-bandwidth-and-network-bandwidth"><span>云服务器QVM的入网带宽和出网带宽</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7062/monitor-the-log-tool-of-cpu-and-memory"><span>监控CPU和内存的日志工具</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7063/linux-instance-disk-space-and-full-inode-full-screen-problem"><span>Linux实例磁盘空间满和inode满的问题排查方法</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>远程连接 FAQ</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/13581/qvm-ssh-connection"><span>云主机SSH连接</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7052/windows-instance-prompt-error-due-to-the-agreement-the-session-will-be-interrupted-please-connect-to-the-remote-computer-again"><span>Windows实例提示“由于协议错误，会话将被中断。请重新连接到远程计算机。”</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7051/unable-to-connect-to-the-windows-instance"><span>无法连接到Windows实例</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7053/windows-instance-prompt-error-credentials-will-not-work"><span>Windows实例提示“凭据无法工作”报错</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5146/how-to-install-grub-for-linux-server"><span>如何为 Linux 服务器安装 GRUB</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/6869/remote-connection-windows-instances-when-solving-method-of-authentication-error"><span>远程连接Windows实例时出现身份验证错误的处理方法</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5099/connection-on-redis"><span>为什么云主机连接不上 Redis？</span><i class="icon fa"></i></a></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>QVM 网络 FAQ</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7055/use-the-ping-command-packet-loss-or-not-the-link-test-method"><span>使用ping命令丢包或不通时的链路测试方法</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7056/don-t-have-access-to-detailed-screening-method-of-ecs-instance-running-in-the-web-site"><span>无法访问 QVM 实例中运行网站的详细排查方法</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7057/check-the-tcp-port-80-is-working-correctly"><span>检查TCP 80端口是否正常工作</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7058/linux-instance-website-lost-package-delay-high-screening-method"><span>Linux实例网站访问丢包延时高的排查方法</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/7059/windows-instance-network-access-packet-delay-high-screening-method"><span>Windows实例网络访问丢包延时高的排查方法</span><i class="icon fa"></i></a></li></ol></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5147/the-backend-server-common-problems"><span>后端服务器常见问题</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6656/security-group-common-ports-and-special-unsealed"><span>安全组常用端口和特殊端口解封</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/6912/inspection-and-rectification-steps-noresvport-mount-parameters-problem"><span>noresvport挂载参数问题检查及整改步骤</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5390/cloud-host-reverse-dns-application-process"><span>云主机反向解析的申请流程</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5608/linux-on-nfs-performance-are-only-a-few-mb-speed"><span>Linux上NFS性能只有几MB速度</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5145/the-common-problems-in-migration-tool"><span>迁移工具常见问题</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/5144/the-common-problems-in-load-balancing"><span>负载均衡常见问题</span><i class="icon fa"></i></a></li><li class="branch"><a class="node-title  sub-category tree-level-2" href="javascript:;"><span>其他</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/5675/seven-niuyun-host-gift-card-use-is-introduced"><span>七牛主机礼品卡使用介绍</span><i class="icon fa"></i></a></li><li class="leaf"><a class="node-title   tree-level-3" href="/qvm/13580/qvm-security-events"><span>云主机安全事件</span><i class="icon fa"></i></a></li></ol></li></ol></li><li class="branch"><a class="node-title  sub-category tree-level-1" href="javascript:;"><span>常见问题导航</span><i class="icon fa"></i></a><ol><li class="leaf"><a class="node-title   tree-level-2" href="/qvm/7065/cloud-hosting-the-faq"><span>云主机FAQ</span><i class="icon fa"></i></a></li></ol></li></ol></li></ul>
+    <ul>
+        <li class="cate-service_agreement branch">
+          <a class="node-title category" href="javascript:;">
+            <span>服务协议</span>
+            <i class="icon fa"></i>
+          </a>
+          <ol>
+      <li class="leaf"><a class="node-title   tree-level-1" href="/qvm/6668/qvm-the-terms-of-service"><span>云服务器服务（QVM）服务条款</span><i class="icon fa"></i></a></li></ol></li></ul>
+    <ul>
+      <li class="cate-tools branch closed">
+        <a class="node-title category" href="/faq?space=qvm">常见问题</a>      </li>
+    </ul>
+    
+    
+  </div>
+</div>
+  
+  <div class="topic-content-wrap">
+    <div class="container">
+      <div class="article-content">
+        <div class="topic-title">
+          <div class="rating-right">
+            <div class="rating">
+                    <li index="1" data-toggle="tooltip" data-placement="top" container="body" title="根本没有帮助">                      <i class="fa fa-star-o"></i>
+</li>                    <li index="2" data-toggle="tooltip" data-placement="top" container="body" title="文档较差">                      <i class="fa fa-star-o"></i>
+</li>                    <li index="3" data-toggle="tooltip" data-placement="top" container="body" title="文档一般">                      <i class="fa fa-star-o"></i>
+</li>                    <li index="4" data-toggle="tooltip" data-placement="top" container="body" title="文档不错">                      <i class="fa fa-star-o"></i>
+</li>                    <li index="5" data-toggle="tooltip" data-placement="top" container="body" title="文档很好">                      <i class="fa fa-star-o"></i>
+</li>            </div>
+          </div>
+          <div class="doctree">
+            <a href="/qvm">云主机</a> > <span>产品简介</span> > <span>资源池、地域和可用区</span>
+          </div>
+          <h1>            <span>资源池、地域和可用区</span>            </h1>
+          <p class="topic-meta">最近更新时间: 2026-05-06 15:55:40</p>
+        </div>
+
+        <div class="topic-detail">
+          <p data-v-md-line="1"><a id="region"></a></p>
+<h1 data-v-md-heading="什么是资源池、地域和可用区？" data-v-md-line="4"><strong>什么是资源池、地域和可用区？</strong></h1>
+<p data-v-md-line="5">资源池包含了不同的地域和可用区。<br>
+地域和可用区指的云主机QVM 所在数据中心的位置，您可以在特定的区域、可用区创建资源。</p>
+<p data-v-md-line="9"><strong>资源池：</strong> 不同的资源池提供了不同的产品服务，七牛云有两大资源池，资源池一和资源池三的产品与服务<strong>完全隔离，互不相通。</strong><br>
+<strong>地域：</strong> 从地理位置和网络时延维度划分，<strong>同一个资源池的同一地域内网互通。</strong><br>
+<strong>可用区：</strong> 可用区是指在同一地域内，电力和网络互相独立的物理区域。<strong>同一地域内的可用区与可用区之间内网互通</strong>，可用区之间能做到故障容错。例如：当你的应用需要较高的容灾能力时，QVM 实例最好部署在同一地域的不同可用区内；当你的应用在实例之间需要较低的网络延迟时，QVM 实例最好部署在同一可用区内。</p>
+<blockquote data-v-md-line="14">
+<p data-v-md-line="14">注意：</p>
+<ol data-v-md-line="15">
+<li>实例创建成功后不能更换资源池、地域和可用区。</li>
+<li>不同资源池资源完全隔离，如上海1和上海3是两个地域。</li>
+</ol>
+</blockquote>
+<h1 data-v-md-heading="资源池、地域、可用区关联图" data-v-md-line="18"><strong>资源池、地域、可用区关联图</strong></h1>
+<p data-v-md-line="19">资源池一和资源池三的产品与服务<strong>完全隔离，互不相通。</strong>，以上海、杭州为例，关联关系如下图：</p>
+<p data-v-md-line="21"><img src="https://dn-odum9helk.qbox.me/FieTFORcqz5B4a0Ua_IcH9wffkJk?imageMogr2/auto-orient/thumbnail/500x/blur/1x0" alt=""></p>
+<h1 data-v-md-heading="资源池和服务" data-v-md-line="24"><strong>资源池和服务</strong></h1>
+<table data-v-md-line="25">
+<thead>
+<tr>
+<th>产品与服务</th>
+<th>资源池一</th>
+<th>资源池三</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>云主机</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>云硬盘</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>镜像服务</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>弹性公网IP</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>负载均衡</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>弹性伸缩</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>NAT网关</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>VPN网关</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>共享带宽</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>云企业网</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>IPv6网关</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>云数据库 MySQL</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>云数据库 SQL Server</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>云数据库 PostgreSQL</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>云数据库 PolarDB</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>云数据库 Redis</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>云数据库 MongoDB</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>Web应用防火墙</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>BGP 高防 IP</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+</tbody>
+</table>
+<h1 data-v-md-heading="资源池一地域" data-v-md-line="48"><strong>资源池一地域</strong></h1>
+<div data-v-md-line="49"><table><thead><tr><th>大区</th><th>地域</th><th>Region ID</th></tr></thead><tbody><tr><td rowspan="5">华北</td><td>青岛1</td><td>cn-qingdao</td></tr><tr><td>北京1</td><td>cn-beijing</td></tr><tr><td>张家口1</td><td>cn-zhangjiakou</td></tr><tr><td>呼和浩特1</td><td>cn-huhehaote</td></tr><tr><td>乌兰察布1<td>cn-wulanchabu</td></tr><tr><td rowspan="2">华东 </td><td>杭州1</td><td>cn-hangzhou</td></tr><tr><td>上海1</td><td>cn-shanghai</td></tr><tr><td>华南 </td><td>深圳1</td><td>cn-shenzhen</td></tr><tr><td>西北</td><td>成都1</td><td>cn-chengdu</td></tr><tr><td>香港</td><td>香港1</td><td>cn-hongkong</td></tr><tr><td rowspan="4">亚太东南 </td><td>新加坡1</td><td>ap-southeast-1</td></tr><tr><td>吉隆坡1</td><td>ap-southeast-3</td></tr><tr><td>雅加达1</td><td>ap-southeast-5</td></tr><tr><td rowspan="2">东京1</td></tr><tr><td>亚太南部</td><td>ap-northeast-1</td></tr><tr><td>中东东部</td><td>迪拜1</td><td>me-east-1</td></tr><tr><td>美国东部 </td><td>弗吉尼亚1</td><td>us-east-1</td></tr><tr><td>美国西部</td><td>硅谷1</td><td>us-west-1</td></tr><tr><td>欧洲中部</td><td>法兰克福1</td><td>eu-central-1</td></tr></tbody></table>
+</div><h1 data-v-md-heading="资源池三地域" data-v-md-line="52"><strong>资源池三地域</strong></h1>
+<div data-v-md-line="54"><table><thead><tr><th>大区</th><th>地域</th><th>Region ID</th></tr></thead><tbody><tr><td>华北</td><td>北京3</td><td>grand-cn-north-4</td></tr><tr><td>华东</td><td>上海3</td><td>grand-cn-east-3</td></tr><tr><td>华南</td><td>广州3</td><td>grand-cn-south-1</td></tr></tbody></table></div>
+        </div>
+
+        <div class="rating-bottom">
+  <span>以上内容是否对您有帮助？</span>
+  <div class="rating">
+          <li index="1" data-toggle="tooltip" data-placement="top" container="body" title="根本没有帮助">            <i class="fa fa-star-o"></i>
+</li>          <li index="2" data-toggle="tooltip" data-placement="top" container="body" title="文档较差">            <i class="fa fa-star-o"></i>
+</li>          <li index="3" data-toggle="tooltip" data-placement="top" container="body" title="文档一般">            <i class="fa fa-star-o"></i>
+</li>          <li index="4" data-toggle="tooltip" data-placement="top" container="body" title="文档不错">            <i class="fa fa-star-o"></i>
+</li>          <li index="5" data-toggle="tooltip" data-placement="top" container="body" title="文档很好">            <i class="fa fa-star-o"></i>
+</li>  </div>
+</div>
+
+<div class="feedback">
+  <div class="header">
+    文档反馈
+    <small>(如有产品使用问题，请<a href="https://support.qiniu.com/tickets/category" target="_blank"> 提交工单</a>)</small>
+  </div>
+  <div class="body">
+    <div id="feedbackform">
+      <div>
+         <input type="email" id="creator" placeholder="请输入邮箱" required="required" />
+        <span class="err-info"></span>
+      </div>
+      <div>
+        <textarea name="content" id="content" rows="3" placeholder="请留下你宝贵的意见" required="required">
+</textarea>
+      </div>
+      <div>
+        <button class="btn btn-primary" disabled>提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade alert-modal-css form-wrapper" id="feedback-modal" tabindex="-1" role="dialog" aria-labelledby="feedback-modal-label" data-keyboard="false" data-backdrop="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="feedback-modal-label">产品及服务咨询</h4>
+          </div>
+          <div class="modal-body">
+            <div id="feedback-alert-success" class="alert alert-success" style="display: none; text-align: center;">
+              提交成功！
+            </div>
+            <div id="feedback-alert-error" class="alert alert-danger" style="display: none; text-align: center;">
+              </i> 提交失败，稍后重试！
+            </div>
+            <div class="tips text-center">
+              此表单仅用于产品及服务售前咨询（您也可以拨打400-808-9176转2）<br />
+              如有售后技术咨询，请<a class="more underline" href="https://support.qiniu.com/tickets/category">提交工单</a>            </div>
+
+            <form class="form-horizontal" id="feedback-form" action="/feedbacks?t=dbe56857-ea5c-4c9f-8cdc-d8b188290158" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="d7zCO6PXVY89QWMjwvveX0m+vlF5i/L3mRvKsQYKAcwnnQZD4RH0T/clpvhXhB6Z+H5SCCWKv62//uWPlfIahg==" />
+              <input value="http://developer-source.qiniu.io/qvm/4190/region-zone" type="hidden" name="feedback[referer]" id="feedback_referer" />              <div class="form-group">
+                <label for="feedback-content" class="col-sm-2 control-label">咨询内容<small class="text-danger">*</small></label>
+                <div class="col-sm-10">
+                  <textarea maxLength="255" class="form-control" id="feedback-content" validate="true" name="feedback[content]" cols="" rows="5">
+</textarea>
+                  <div class="div-error">
+                    <label for="" class="error-label">请填写咨询内容</label>
+                  </div>
+                  <div class="maxLength-tips">
+                    <label for="" class="maxLength-label">最多可输入255字</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="feedback-name" class="col-sm-2 control-label">姓名<small class="text-danger">*</small></label>
+                <div class="col-sm-10">
+                  <input class="form-control" id="feedback-name" validate="true" type="text" name="feedback[name]" />
+                  <div class="div-error">
+                    <label for="" class="error-label">请填写姓名</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="feedback-company" class="col-sm-2 control-label">公司名称</label>
+                <div class="col-sm-10">
+                  <input class="form-control" id="feedback-company" type="text" name="feedback[company]" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="feedback-city" class="col-sm-2 control-label">省份<small class="text-danger">*</small></label>
+                <div class="col-sm-10" id="province_city" data-required="true">
+                  <select name="feedback[province]" id="province" class="province form-control" data-value="北京" data-required="true"></select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="feedback-phone" class="col-sm-2 control-label">联系电话<small class="text-danger">*</small></label>
+                <div class="col-sm-10">
+                  <input class="form-control" id="feedback-phone" validate="true" type="tel" name="feedback[phone]" />
+                  <div class="div-error">
+                    <label for="" class="error-label">请以正确的格式填写联系电话</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="feedback-email" class="col-sm-2 control-label">电子邮箱<small class="text-danger">*</small></label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="feedback-email" validate="true" name="feedback[email]" />
+                  <div class="div-error">
+                    <label for="" class="error-label">请填写电子邮箱</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="actions">
+                <button name="button" type="submit" class="btn btn-primary" id="feedback-submit" disabled="disabled" data-disable-with="正在提交中...">提交</button>
+              </div>
+</form>          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row links">
+          <div class="col-md-2">
+            <div class="copyright">© 2026 七牛云</div>
+          </div>
+          <div class="col-md-10">
+            <ul class="qiniu-sites list-unstyled">
+              <li><a href="http://www.qiniu.com" target="_blank">七牛官网</a></li>
+              <li><a href="https://portal.qiniu.com" target="_blank">开发者平台</a></li>
+              <li><a href="https://segmentfault.com/qiniu" target="_blank">问答社区</a></li>
+              <li><a href="https://support.qiniu.com" target="_blank">技术支持</a></li>
+              <li><a href="https://status.qiniu.com/" target="_blank">服务状态</a></li>
+              <li><a href="/brand">七牛标识</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8">
+            <a class="out_link" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000961" target="_blank"><span class="icon icon-aq">沪公网安备 31011502000961 号</span></a>
+            <a class="out_link" href="http://www.beian.miit.gov.cn" target="_blank"><span>沪 ICP 备 11037377 号-5</span></a>
+          </div>
+          <div class="col-md-4">
+            <div class="social-follow">
+              <ul class="social-links list-unstyled">
+                <li><a href="https://github.com/qiniu" target="_blank"><i class="fa fa-lg fa-github-alt"></i></a></li>
+                <li><a href="http://e.weibo.com/qiniutek" target="_blank"><i class="fa fa-lg fa-weibo"></i></a></li>
+                <li class="social-weixin-qrcode">
+                  <a href="javascript:;"><i class="fa fa-lg fa-weixin"></i></a>
+                  <div class="popover fade top in" id="wexin-qrcode-popover">
+                    <div class="arrow"></div>
+                    <div class="popover-content"><img width="140" src="/assets/weixin-qrcode-e4ddfa8a1a16b96c60e4b671b676dfd168ab4f91b5a700a755dde294347fc0f0.png" alt="Weixin qrcode" /></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- feedback entry -->
+    <div id="feedback-entry"></div>
+    <script src="https://www.qiniu.com/externals/loader.js"></script>
+    <script>
+      window.__qiniu_www_externals__.load('feedback-entry-v5', document.getElementById('feedback-entry'))
+    </script>
+
+    <script type="text/javascript" src="https://dn-mars-assets.qbox.me/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://dn-mars-assets.qbox.me/highlight.js/9.12.0/languages/go.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-91376707-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>
+      // portal iframe通过  portal_modal  参数判断，嵌入文档
+      window.onload = function() {
+        if (getQueryVariable('portal_modal') == 1) {
+          var links = $('.portal_modal').find('a')
+          for (let item of links) {
+            if (item.target !== '_blank' && item.href && item.href.indexOf('portal_modal=1') === -1) {
+              let query = item.href.indexOf('?') == -1 ? '?portal_modal=1' : '&portal_modal=1'
+              let index = item.href.indexOf('#')
+              let newHref = index != -1 ? item.href.slice(0, index) + query + item.href.slice(index) : item.href + query
+              $(item).attr('href', newHref)
+            }
+          }
+          if (window.parent !== window.self ) {
+            window.parent.postMessage({ event: 'location:href' , payload: window.location.href }, 'https://portal.qiniu.com')
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/siliconflow-quickstart.20261011.html",
+  "resolved_url": "https://docs.siliconflow.com/en/userguide/quickstart",
+  "retrieved_at": "2026-10-11",
+  "sha256": "7675c741df34a7263748840521460f1b6dd99cdee7ccbdf8c1ef563bf8836a7e",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://docs.siliconflow.com/en/userguide/quickstart"
+}

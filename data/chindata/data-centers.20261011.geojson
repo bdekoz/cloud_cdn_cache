@@ -1,0 +1,189 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "unknown",
+        "location_precision": "unknown",
+        "metro": null,
+        "name": "ChinaNorth H01",
+        "parent_record_id": null,
+        "properties": {
+          "code_to_campus_alias_not_established": true,
+          "directory_is_partial": true,
+          "directory_listing_does_not_establish_current_lifecycle": true,
+          "source_updated_at": null
+        },
+        "provider": "Chindata",
+        "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+        "record_id": "chindata:data_center:chinanorth-h01",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "chindata_colocation",
+        "service_scope": [
+          "colocation"
+        ],
+        "site_code": "ChinaNorth H01",
+        "source_collection": "chindata_chindata_colocation_directory",
+        "source_published_at": null,
+        "source_record_id": "ChinaNorth H01",
+        "source_scope": "provider_declared",
+        "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+        "source_url": "https://www.chindatagroup.com/global.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "unknown",
+        "location_precision": "unknown",
+        "metro": null,
+        "name": "ChinaNorth H02",
+        "parent_record_id": null,
+        "properties": {
+          "code_to_campus_alias_not_established": true,
+          "directory_is_partial": true,
+          "directory_listing_does_not_establish_current_lifecycle": true,
+          "source_updated_at": null
+        },
+        "provider": "Chindata",
+        "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+        "record_id": "chindata:data_center:chinanorth-h02",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "chindata_colocation",
+        "service_scope": [
+          "colocation"
+        ],
+        "site_code": "ChinaNorth H02",
+        "source_collection": "chindata_chindata_colocation_directory",
+        "source_published_at": null,
+        "source_record_id": "ChinaNorth H02",
+        "source_scope": "provider_declared",
+        "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+        "source_url": "https://www.chindatagroup.com/global.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "unknown",
+        "location_precision": "unknown",
+        "metro": null,
+        "name": "ChinaNorth H04",
+        "parent_record_id": null,
+        "properties": {
+          "code_to_campus_alias_not_established": true,
+          "directory_is_partial": true,
+          "directory_listing_does_not_establish_current_lifecycle": true,
+          "source_updated_at": null
+        },
+        "provider": "Chindata",
+        "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+        "record_id": "chindata:data_center:chinanorth-h04",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "chindata_colocation",
+        "service_scope": [
+          "colocation"
+        ],
+        "site_code": "ChinaNorth H04",
+        "source_collection": "chindata_chindata_colocation_directory",
+        "source_published_at": null,
+        "source_record_id": "ChinaNorth H04",
+        "source_scope": "provider_declared",
+        "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+        "source_url": "https://www.chindatagroup.com/global.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "not_applicable",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "China",
+        "country_code": "CN",
+        "entity_type": "data_center",
+        "first_seen": "2026-08-04",
+        "jurisdiction_scope": "mainland_china",
+        "last_seen": "2026-10-11",
+        "lifecycle_status": "unknown",
+        "location_precision": "unknown",
+        "metro": null,
+        "name": "ChinaNorth W01",
+        "parent_record_id": null,
+        "properties": {
+          "code_to_campus_alias_not_established": true,
+          "directory_is_partial": true,
+          "directory_listing_does_not_establish_current_lifecycle": true,
+          "source_updated_at": null
+        },
+        "provider": "Chindata",
+        "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+        "record_id": "chindata:data_center:chinanorth-w01",
+        "retrieved_at": "2026-10-11",
+        "schema_version": "1.2.0",
+        "service": "chindata_colocation",
+        "service_scope": [
+          "colocation"
+        ],
+        "site_code": "ChinaNorth W01",
+        "source_collection": "chindata_chindata_colocation_directory",
+        "source_published_at": null,
+        "source_record_id": "ChinaNorth W01",
+        "source_scope": "provider_declared",
+        "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+        "source_url": "https://www.chindatagroup.com/global.html",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

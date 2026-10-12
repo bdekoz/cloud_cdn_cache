@@ -1,0 +1,55 @@
+{
+  "coordinate_methods": {
+    "unknown": 4
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/chindata/data-centers.20261011.csv",
+      "path": "data/chindata/data-centers.20261011.csv",
+      "source": "data/chindata/data-centers.20261011.geojson"
+    }
+  },
+  "directory_completeness": "partial",
+  "entity_types": {
+    "data_center": 4
+  },
+  "generated_files": [
+    "data/chindata/data-centers.20261011.geojson"
+  ],
+  "geometry_null": 4,
+  "layer": "data-centers",
+  "lifecycle_statuses": {
+    "unknown": 4
+  },
+  "parser": "update_china_facilities.py:chindata",
+  "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+  "record_count": 4,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+  "source_url": "https://www.chindatagroup.com/global.html",
+  "unresolved_campus_aliases": [
+    {
+      "directory_codes": [
+        "ChinaNorth H01",
+        "ChinaNorth H02",
+        "ChinaNorth H04",
+        "ChinaNorth W01"
+      ],
+      "named_campus": "Sangyuan",
+      "provider": "Chindata",
+      "relationship": "not_established",
+      "source": {
+        "capture_method": "http_response",
+        "raw_source_ref": "data/raw/china-enrichment/chindata-sangyuan.20261011.html",
+        "retrieved_at": "2026-10-11",
+        "source_id": "chindata-sangyuan",
+        "source_published_at": "2026-07-02",
+        "source_sha256": "f6574668d2562e3f31e9d7b3b8805540a5305a3b99428d9b6293ce30561fd024",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/media/news/533.html"
+      }
+    }
+  ]
+}

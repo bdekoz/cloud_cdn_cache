@@ -1,0 +1,33 @@
+{
+  "coordinate_methods": {
+    "unknown": 14
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/huawei/mainland-regions.20261011.csv",
+      "path": "data/huawei/mainland-regions.20261011.csv",
+      "source": "data/huawei/mainland-regions.20261011.geojson"
+    }
+  },
+  "entity_types": {
+    "cloud_region": 14
+  },
+  "generated_files": [
+    "data/huawei/mainland-regions.20261011.geojson"
+  ],
+  "geometry_null": 14,
+  "jurisdiction_filter": "mainland_china",
+  "layer": "mainland-regions",
+  "lifecycle_statuses": {
+    "unknown": 14
+  },
+  "parser": "update_china_enrichment.py:huawei:mainland",
+  "raw_source_ref": "data/raw/china-enrichment/huawei-identity-policy.20261011.html",
+  "record_count": 14,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "31e884a8a6a35414e504be158ffab1fccfc90ce6899857b27453e8a24b12d93f",
+  "source_url": "https://support.huaweicloud.com/intl/en-us/usermanual-iam5/iam_01_1334.html",
+  "view_of": "huawei/regions"
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/telecom-hkis1.20261011.html",
+  "resolved_url": "https://www.chinatelecomglobal.com/sc/whats-new/37253",
+  "retrieved_at": "2026-10-11",
+  "sha256": "d33e74ac52a61dbf80599a26f10a506c2e350126c28255d60a4b2b5fad8adfd4",
+  "source_published_at": "2023-01-12",
+  "source_updated_at": null,
+  "source_url": "https://www.chinatelecomglobal.com/sc/whats-new/37253"
+}

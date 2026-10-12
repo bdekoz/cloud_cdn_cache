@@ -1,0 +1,74 @@
+{
+  "added_record_ids": [
+    "tencent:availability_zone:ap-bangkok-3",
+    "tencent:availability_zone:ap-johorbahru-1",
+    "tencent:availability_zone:ap-johorbahru-2",
+    "tencent:availability_zone:ap-osaka-1",
+    "tencent:availability_zone:ap-shanghai-10",
+    "tencent:availability_zone:ap-shanghai-adc-5",
+    "tencent:availability_zone:ap-zhongwei-adc-1",
+    "tencent:availability_zone:eu-frankfurt-3",
+    "tencent:availability_zone:na-queretaro-1",
+    "tencent:cloud_region:ap-johorbahru",
+    "tencent:cloud_region:ap-osaka",
+    "tencent:cloud_region:ap-zhongwei-adc",
+    "tencent:cloud_region:na-queretaro"
+  ],
+  "chinese_directory_corroboration": {
+    "explicit_id_count": 96,
+    "ids_only_in_chinese_directory": [],
+    "ids_only_in_english_directory": [],
+    "source": {
+      "capture_method": "http_response",
+      "raw_source_ref": "data/raw/china-enrichment/tencent-cvm-cn.20261011.html",
+      "retrieved_at": "2026-10-11",
+      "source_id": "tencent-cvm-cn",
+      "source_published_at": null,
+      "source_sha256": "e6bdf03ee94e8ddda1bd01122293c98a71d673e6ea4eb5c9771852d4006d8ca9",
+      "source_updated_at": "2026-09-18",
+      "source_url": "https://cloud.tencent.com/document/product/213/6091"
+    }
+  },
+  "coordinate_methods": {
+    "unknown": 97
+  },
+  "currently_listed_record_count": 96,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/tencent/regions-and-zones.20261011.csv",
+      "path": "data/tencent/regions-and-zones.20261011.csv",
+      "source": "data/tencent/regions-and-zones.20261011.geojson"
+    }
+  },
+  "enrichment_sources": [],
+  "entity_types": {
+    "availability_zone": 71,
+    "cloud_region": 26
+  },
+  "generated_files": [
+    "data/tencent/regions-and-zones.20261011.geojson"
+  ],
+  "geometry_null": 97,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 96,
+    "unknown": 1
+  },
+  "parser": "update_china_enrichment.py:tencent",
+  "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+  "record_count": 97,
+  "retained_predecessor_ids_not_listed": [
+    "tencent:availability_zone:ap-shanghai-fsi-1"
+  ],
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "scope_region_counts": {
+    "automotive_cloud": 2,
+    "financial_cloud": 3,
+    "public_cloud": 21
+  },
+  "source_conflicts": [],
+  "source_sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+  "source_url": "https://www.tencentcloud.com/document/product/213/6091"
+}

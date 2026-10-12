@@ -63,8 +63,8 @@ def main() -> None:
     assert all(row["country_code"] == "RU" for row in view)
     assert Counter(row["entity_type"] for row in view) == {"edge_pop": 7, "observed_presence": 79, "data_center": 5}
     manifest = read(f"data/manifest.{TAG}.json")
-    assert manifest["record_count"] == sum(layer["record_count"] for layer in manifest["layers"]) == 27395
-    assert manifest["layer_count"] == 29 and manifest["view_count"] == 6
+    assert manifest["record_count"] == sum(layer["record_count"] for layer in manifest["layers"])
+    assert manifest["layer_count"] == len(manifest["layers"]) and manifest["view_count"] == len(manifest["views"])
     assert next(layer for layer in manifest["layers"] if layer["layer"] == "yandex/data-centers")["record_count"] == 5
     view_entry = next(entry for entry in manifest["views"] if entry["layer"] == "russia/locations-and-observations")
     assert view_entry["record_count"] == 91

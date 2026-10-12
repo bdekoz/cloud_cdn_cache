@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/jd-cvm.20261011.html",
+  "resolved_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+  "retrieved_at": "2026-10-11",
+  "sha256": "ae17e748d18edfa50e3927e11479d5d267e8c445df4e13237e031bd03443d8cc",
+  "source_published_at": null,
+  "source_updated_at": "2025-06-17",
+  "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones"
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+  "resolved_url": "https://www.amazonaws.cn/en/about-aws/china/",
+  "retrieved_at": "2026-10-11",
+  "sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.amazonaws.cn/en/about-aws/china/"
+}

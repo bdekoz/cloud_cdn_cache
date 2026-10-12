@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/telecom-adc.20261011.html",
+  "resolved_url": "https://www.chinatelecomglobal.com/sc/whats-new/37385",
+  "retrieved_at": "2026-10-11",
+  "sha256": "c3899206fcf98626d4513f0d5e957c497a349cfce16c7098caaca5e510616ccc",
+  "source_published_at": "2025-03-25",
+  "source_updated_at": null,
+  "source_url": "https://www.chinatelecomglobal.com/sc/whats-new/37385"
+}

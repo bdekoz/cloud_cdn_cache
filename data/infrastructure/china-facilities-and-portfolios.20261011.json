@@ -1,0 +1,2900 @@
+{
+  "categories": {
+    "compute_energy_collaboration": "A named compute/energy collaboration and its proposed work areas, distinct from commissioned facilities or contracted grid capacity.",
+    "edge_network_portfolio": "An aggregate edge-network coverage declaration; fleet or city totals do not establish individual POP identities.",
+    "provider_infrastructure_portfolio": "A provider/filing aggregate for capacity, facilities or suppliers with explicit units and an as-of date when supplied.",
+    "recognized_compute_facility": "A named building/facility entry in a government recognition directory; not proof of current operation, ownership, exact location or independent site identity."
+  },
+  "records": [
+    {
+      "category": "edge_network_portfolio",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "global_marketing_fleet_not_itemized_sites",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "baishan edge portfolio",
+      "parties": [
+        {
+          "name": "baishan",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "as_of": null,
+        "canonical_edge_locations_generated": 0,
+        "changed_marketing_totals_do_not_establish_openings_or_closures": true,
+        "countries_and_regions": 60,
+        "covered_city_count_min": 290,
+        "global_edge_node_count_min": 1500,
+        "international_carrier_partners_min": 170,
+        "redundancy_bandwidth_tbps_min": 90
+      },
+      "provider": "baishan",
+      "raw_source_ref": "data/raw/china-enrichment/baishan-edge.20261011.html",
+      "record_id": "baishan:edge_network_portfolio:coverage",
+      "relationships": [
+        {
+          "relationship_type": "describes_vendor",
+          "target_record_id": "vendor:identity:baishan"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "665634bbb34731d12319f50bafc337fba9a079310eddfb133e43ac9567028945",
+      "source_updated_at": null,
+      "source_url": "https://intl.baishancloud.com/",
+      "spatial_representation": "none",
+      "unit": "aggregate_coverage_declaration"
+    },
+    {
+      "category": "provider_infrastructure_portfolio",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "corporate_filing_supplier_population_not_facility_locations",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Bilibili server and bandwidth suppliers 2025",
+      "parties": [
+        {
+          "name": "Bilibili",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "as_of": "2025-12-31",
+        "combined_expenditure_share_percent": 57,
+        "obsolete_2022_server_totals_not_used": true,
+        "printed_source_page": 126,
+        "providers_with_at_least_ten_percent_expenditure": 4,
+        "suppliers_are_not_data_centers": true,
+        "telecom_service_provider_count": 116
+      },
+      "provider": "Bilibili",
+      "raw_source_ref": "data/raw/china-enrichment/bilibili-2025-report.20261011.pdf",
+      "record_id": "bilibili:provider_infrastructure_portfolio:2025-telecom-suppliers",
+      "relationships": [
+        {
+          "relationship_type": "describes_vendor",
+          "target_record_id": "vendor:identity:bilibili"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-04-16",
+      "source_scope": "provider_declared",
+      "source_sha256": "a769eefc602b5484813cafdeecaa55eba204f7a9f767f0aa62113766a8d02fc0",
+      "source_updated_at": null,
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf",
+      "spatial_representation": "none",
+      "unit": "supplier_portfolio"
+    },
+    {
+      "category": "provider_infrastructure_portfolio",
+      "confidence": "high",
+      "country_codes": [
+        "CN",
+        "HK"
+      ],
+      "country_scope": "declared_market_footprint_not_facility_identity",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "GDS market portfolio",
+      "parties": [
+        {
+          "name": "GDS Holdings",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "as_of": null,
+        "market_totals_not_converted_to_facility_rows": true,
+        "operational_data_centers_declared": 51,
+        "undated_page_not_complete_current_inventory": true,
+        "under_construction_data_centers_declared": 16
+      },
+      "provider": "GDS Holdings",
+      "raw_source_ref": "data/raw/china-enrichment/gds-directory.20261011.html",
+      "record_id": "gds:provider_infrastructure_portfolio:directory",
+      "relationships": [
+        {
+          "relationship_type": "describes_vendor",
+          "target_record_id": "vendor:identity:gds"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "98b20981f41841510d7332b8acc48b968367add8db2aadce098269ef89d73743",
+      "source_updated_at": null,
+      "source_url": "https://www.gds-services.com/about_4.html",
+      "spatial_representation": "none",
+      "unit": "aggregate_portfolio"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信云计算贵州信息园 A9 数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信云计算贵州信息园 A9 数据中心",
+        "source_row": 15
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-027b99e2c18860e8",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "阿里飞天云智能华东算力中心项目枫泾基地 B 楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "alibaba"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "阿里飞天云智能华东算力中心项目枫泾基地 B 楼",
+        "source_row": 40
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-05cd6fe8e0e99d62",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:alibaba"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "国家税务总局新余市渝水区税务局中心机房",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "国家税务总局新余市渝水区税务局中心机房",
+        "source_row": 60
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-077addd5aa3248f1",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国联通（青岛）智算中心 DC1",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-unicom"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国联通（青岛）智算中心 DC1",
+        "source_row": 12
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-0a2dbe2b361383df",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-unicom"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信陕西公司西咸云基地 5#数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信陕西公司西咸云基地 5#数据中心",
+        "source_row": 20
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-10adb58b241e9dba",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "北京联通首钢园数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-unicom"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "北京联通首钢园数据中心",
+        "source_row": 16
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-1177acb4d1fc3131",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-unicom"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信东数西算国家枢纽庆阳算力中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信东数西算国家枢纽庆阳算力中心",
+        "source_row": 6
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-11f91a99e7ce48c6",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "樟树市公安局数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "樟树市公安局数据中心",
+        "source_row": 57
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-13d54b13310e8dd2",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信昌吉云基地 4 号数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信昌吉云基地 4 号数据中心",
+        "source_row": 4
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-15dc5b26a3c2713d",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国人民保险集团股份有限公司北方信息中心数据机房一",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国人民保险集团股份有限公司北方信息中心数据机房一",
+        "source_row": 48
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-1bc378d1bc7a6aea",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "国家电投集团贵安数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "国家电投集团贵安数据中心",
+        "source_row": 28
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-249fde56182f1584",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国联通福州智云数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-unicom"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国联通福州智云数据中心",
+        "source_row": 23
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-251b0389292a1ae5",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-unicom"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "抖音—中联绿色大数据产业基地 6 号楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "volcano"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "抖音—中联绿色大数据产业基地 6 号楼",
+        "source_row": 32
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-334406ac3f2647c0",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:volcano"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信无锡国际数据中心三期 A 栋",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信无锡国际数据中心三期 A 栋",
+        "source_row": 7
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-3a562e85f51e962a",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "数据港—阿里巴巴广东云计算数据中心河源集群源城机房C 栋",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "alibaba",
+          "dataport"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "数据港—阿里巴巴广东云计算数据中心河源集群源城机房C 栋",
+        "source_row": 34
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-3b37e604ad4f66f5",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:alibaba"
+        },
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:dataport"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "克拉玛依职业技术学院数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "克拉玛依职业技术学院数据中心",
+        "source_row": 52
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-3b4509c5ff0b5559",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动（云南昆明）数据中心 B02 栋",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动（云南昆明）数据中心 B02 栋",
+        "source_row": 25
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-49c7ad1cc1ecf164",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "快手智能云乌兰察布大数据二园区数据中心项目 B1 机房楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "kuaishou"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "快手智能云乌兰察布大数据二园区数据中心项目 B1 机房楼",
+        "source_row": 42
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-567cd97650f4f397",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:kuaishou"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动（甘肃庆阳）绿色智算中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动（甘肃庆阳）绿色智算中心",
+        "source_row": 18
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-5b0c752d19c99b74",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "新丝绸之路云计算中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "新丝绸之路云计算中心",
+        "source_row": 31
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-64e172e61db8d291",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "常熟农商银行燕谷数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "常熟农商银行燕谷数据中心",
+        "source_row": 50
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-6bdfb0ef0c8b80a3",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "南昌市西湖区数智西湖数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "南昌市西湖区数智西湖数据中心",
+        "source_row": 59
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-761136c82960634f",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信安徽智算中心 A2 楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信安徽智算中心 A2 楼",
+        "source_row": 13
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-82ba030b9c85a7d0",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "广西金融广场数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "广西金融广场数据中心",
+        "source_row": 49
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-8a5769f547976a2e",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "浩云长盛中卫 2 号数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "浩云长盛中卫 2 号数据中心",
+        "source_row": 37
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-900c8dcbf2530f14",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信云计算内蒙古信息园 A8 数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信云计算内蒙古信息园 A8 数据中心",
+        "source_row": 11
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-9166cabc74407a16",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信浙江分公司温州滨海数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信浙江分公司温州滨海数据中心",
+        "source_row": 3
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-92c51f190eb08679",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动（福建福州）数据中心 A—1 栋",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动（福建福州）数据中心 A—1 栋",
+        "source_row": 24
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-957e2a0b48ba0cfc",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "昆山博浩 5G 大数据创新中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "昆山博浩 5G 大数据创新中心",
+        "source_row": 43
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-96f100989c42fbbf",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动京津冀（天津）西青数据中心 A1 机楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动京津冀（天津）西青数据中心 A1 机楼",
+        "source_row": 22
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-987d09cc49ebec3a",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信东盟国际信息园 2 号数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信东盟国际信息园 2 号数据中心",
+        "source_row": 26
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-a638708c1fa611ca",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "四川能投天府云数据产业基地 D1 楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "四川能投天府云数据产业基地 D1 楼",
+        "source_row": 39
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-a8dc01582295bee1",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "克拉玛依碳和水冷数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "克拉玛依碳和水冷数据中心",
+        "source_row": 30
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-aabe85e95215c562",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动长三角（南京）数据中心 1 号楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动长三角（南京）数据中心 1 号楼",
+        "source_row": 14
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-aca3ed028ec5f167",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "合盈数据（怀来）科技产业园 ND11 数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "heying"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "合盈数据（怀来）科技产业园 ND11 数据中心",
+        "source_row": 45
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-acbfb2efb1862cb9",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:heying"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信苏州公司吴江算力调度中心 1#算力机楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信苏州公司吴江算力调度中心 1#算力机楼",
+        "source_row": 8
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-b11b4079a6382b2d",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "尚航华东云基地 1 号楼数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "尚航华东云基地 1 号楼数据中心",
+        "source_row": 38
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-b2435bd63d10e009",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信临港信息园区 A4 数据研发机楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信临港信息园区 A4 数据研发机楼",
+        "source_row": 10
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-b27c0d6fefb091e1",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动（重庆）数据中心 C 栋",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动（重庆）数据中心 C 栋",
+        "source_row": 21
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-b450b892680380cc",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "交通银行数据中心浦江园区（一期）",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "交通银行数据中心浦江园区（一期）",
+        "source_row": 47
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-ba4197d3e73a0fb5",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "润泽数据中心 A—8",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "runze"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "润泽数据中心 A—8",
+        "source_row": 46
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-bd0b207dc3ba9507",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:runze"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动长三角（金华）数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动长三角（金华）数据中心",
+        "source_row": 9
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-bdc3aaeae5ab932d",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "新疆医科大学数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "新疆医科大学数据中心",
+        "source_row": 55
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-c11ad689d16ec5c4",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "美利云中卫数据中心 C1 数据机房楼项目",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "meiliyun"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "美利云中卫数据中心 C1 数据机房楼项目",
+        "source_row": 44
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-c5c6f3f9ea5c270d",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:meiliyun"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "弘盛铜业数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "弘盛铜业数据中心",
+        "source_row": 1
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-cb670848ab53229a",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "泽悦数据中心 A—1",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "泽悦数据中心 A—1",
+        "source_row": 33
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-cd135f9f5907ce48",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "嘉庚智算中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "嘉庚智算中心",
+        "source_row": 54
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-d11c54ce280aac01",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "国家税务总局九江市税务局云数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "国家税务总局九江市税务局云数据中心",
+        "source_row": 56
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-d8a2a035c62a2c20",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "广州懋源云 5G 交互中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "广州懋源云 5G 交互中心",
+        "source_row": 36
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-de1a19a93847087a",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "华章数据佛山蓝湾云计算产业园 C1、C2 栋数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "华章数据佛山蓝湾云计算产业园 C1、C2 栋数据中心",
+        "source_row": 35
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-e0158b43a6116d13",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信兰州新区大数据产业园 A 座机楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信兰州新区大数据产业园 A 座机楼",
+        "source_row": 5
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-eac7d0b825a3ade7",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "西部（重庆）科学城先进数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "西部（重庆）科学城先进数据中心",
+        "source_row": 58
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-ece5ed5afba0550f",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "北京城市副中心行政办公区数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "北京城市副中心行政办公区数据中心",
+        "source_row": 51
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-efe61b19f05ec1f5",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "南方电网绿色智慧数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "南方电网绿色智慧数据中心",
+        "source_row": 29
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-f0800f1724882480",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信中部云计算大数据中心（临空基地）",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信中部云计算大数据中心（临空基地）",
+        "source_row": 17
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-f0a0b96f16c41e09",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "山西大学思创楼数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "山西大学思创楼数据中心",
+        "source_row": 53
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-f359f0c5f5f4ce94",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信四川公司西信二期数据中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信四川公司西信二期数据中心",
+        "source_row": 19
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-f460013739406a84",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国电信杭州智算中心 1 号楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "tianyi"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国电信杭州智算中心 1 号楼",
+        "source_row": 2
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-fa6fc55716edf8b2",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:tianyi"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "中国移动长三角（无锡）数据中心 3 号楼",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [
+          "china-mobile"
+        ],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "中国移动长三角（无锡）数据中心 3 号楼",
+        "source_row": 27
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-fdc78cfe4c1914da",
+      "relationships": [
+        {
+          "relationship_type": "source_name_mentions_vendor",
+          "target_record_id": "vendor:identity:china-mobile"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "recognized_compute_facility",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "national_mainland_china_designation_directory",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "互盟 5G 数据交换中心",
+      "parties": [
+        {
+          "name": "MIIT and co-signing institutions",
+          "role": "recognizing_institution"
+        }
+      ],
+      "properties": {
+        "buildings_campuses_and_combined_entries_not_split": true,
+        "current_operation_and_physical_coordinates_not_established": true,
+        "identity_method": "recognition_year_and_source_label_hash",
+        "list_status": "final",
+        "named_vendor_candidates": [],
+        "ownership_and_operator_role_not_established_by_name": true,
+        "recognition_year": 2025,
+        "source_facility_label": "互盟 5G 数据交换中心",
+        "source_row": 41
+      },
+      "provider": "Named facility operator unresolved",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "miit:recognized_compute_facility:recognition-2025-feb743be6b8c6a0f",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "recognition_directory_entry"
+    },
+    {
+      "category": "compute_energy_collaboration",
+      "confidence": "medium",
+      "country_codes": [],
+      "country_scope": "source_geography_not_established",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "VNET and CATL compute-energy collaboration",
+      "parties": [
+        {
+          "name": "VNET Group",
+          "role": "collaboration_partner"
+        },
+        {
+          "name": "Contemporary Amperex Technology Co., Limited (CATL)",
+          "role": "collaboration_partner"
+        }
+      ],
+      "properties": {
+        "commissioned_assets_and_grid_capacity_not_established": true,
+        "declared_work_areas": [
+          "gigawatt-scale compute-energy facilities",
+          "distributed compute-energy networks",
+          "zero-carbon token ecosystem"
+        ]
+      },
+      "provider": "VNET Group",
+      "raw_source_ref": "data/raw/china-enrichment/vnet-q2.20261011.reviewed.json",
+      "record_id": "vnet:compute_energy_collaboration:catl",
+      "relationships": [
+        {
+          "relationship_type": "announced_by",
+          "target_record_id": "vendor:identity:vnet"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-18",
+      "source_scope": "provider_declared",
+      "source_sha256": "e6042350bfd2b6518e5be91914c5cdfc9b28e3010e0381c977dacdd970262b04",
+      "source_updated_at": null,
+      "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results",
+      "spatial_representation": "none",
+      "unit": "collaboration_agreement"
+    },
+    {
+      "category": "provider_infrastructure_portfolio",
+      "confidence": "medium",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "provider_wholesale_portfolio_scope",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "VNET wholesale capacity Q2 2026",
+      "parties": [
+        {
+          "name": "VNET Group",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "as_of": "2026-06-30",
+        "capacity_not_converted_to_facility_or_gpu_counts": true,
+        "capture_method": "search_index_primary_page_fact_extract",
+        "wholesale_capacity_in_service_mw": 1007,
+        "wholesale_capacity_utilized_mw": 744
+      },
+      "provider": "VNET Group",
+      "raw_source_ref": "data/raw/china-enrichment/vnet-q2.20261011.reviewed.json",
+      "record_id": "vnet:provider_infrastructure_portfolio:2026-q2",
+      "relationships": [
+        {
+          "relationship_type": "describes_vendor",
+          "target_record_id": "vendor:identity:vnet"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-18",
+      "source_scope": "provider_declared",
+      "source_sha256": "e6042350bfd2b6518e5be91914c5cdfc9b28e3010e0381c977dacdd970262b04",
+      "source_updated_at": null,
+      "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results",
+      "spatial_representation": "none",
+      "unit": "aggregate_portfolio"
+    },
+    {
+      "category": "edge_network_portfolio",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "global_marketing_fleet_not_itemized_sites",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "wangsu edge portfolio",
+      "parties": [
+        {
+          "name": "wangsu",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "as_of": null,
+        "canonical_edge_locations_generated": 0,
+        "carrier_count_min": 100,
+        "changed_marketing_totals_do_not_establish_openings_or_closures": true,
+        "countries_and_regions_min": 70,
+        "global_node_count_min": 2800
+      },
+      "provider": "wangsu",
+      "raw_source_ref": "data/raw/china-enrichment/wangsu-cdn.20261011.html",
+      "record_id": "wangsu:edge_network_portfolio:coverage",
+      "relationships": [
+        {
+          "relationship_type": "describes_vendor",
+          "target_record_id": "vendor:identity:wangsu"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "6cca1c6ce48f84eafe34ea4635dfcf0c156d4f68ef485211dd48c365670fef27",
+      "source_updated_at": null,
+      "source_url": "https://online.wangsu.com/product/cdn",
+      "spatial_representation": "none",
+      "unit": "aggregate_coverage_declaration"
+    }
+  ],
+  "retrieved_at": "2026-10-11",
+  "schema_version": "1.0.0",
+  "scope_note": "Recognition entries, supplier populations, portfolio metrics and collaboration plans are unlike units. All geometry is null. Vendor name mentions do not establish ownership or an operator/tenant contract.",
+  "type": "InfrastructureEvidenceCollection"
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/minimax.20261011.html",
+  "resolved_url": "https://platform.minimax.io/docs/api-reference/api-overview",
+  "retrieved_at": "2026-10-11",
+  "sha256": "3ff2349831596c748fbe3a9186acc0365a08e7ca64fb25bdeecaffc585431190",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://platform.minimax.io/docs/api-reference/api-overview"
+}

@@ -1,0 +1,34 @@
+{
+  "coordinate_methods": {
+    "unknown": 25
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/baidu/mainland-regions-and-zones.20261011.csv",
+      "path": "data/baidu/mainland-regions-and-zones.20261011.csv",
+      "source": "data/baidu/mainland-regions-and-zones.20261011.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 18,
+    "cloud_region": 7
+  },
+  "generated_files": [
+    "data/baidu/mainland-regions-and-zones.20261011.geojson"
+  ],
+  "geometry_null": 25,
+  "jurisdiction_filter": "mainland_china",
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 25
+  },
+  "parser": "update_china_enrichment.py:baidu:mainland",
+  "raw_source_ref": "data/raw/china-enrichment/baidu-bcc.20261011.html",
+  "record_count": 25,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+  "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl",
+  "view_of": "baidu/regions-and-zones"
+}

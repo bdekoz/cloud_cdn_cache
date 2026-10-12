@@ -1,5 +1,7 @@
 # China vendor coverage review and enrichment plan
 
+Implementation status: the approved plan has been carried out for available public evidence; see [China enrichment](china-enrichment.20261011.md) and its [serialized implementation record](../data/china/enrichment-implementation.20261011.json). This review retains its pre-enrichment August baseline and original comparisons.
+
 Reviewed: 2026-10-11. This is a coverage assessment and plan, not an implementation
 of the proposed location refresh. The review covers 31 vendors/platforms and 25
 primary-source pages or filings. Some sources are indexed first-party extracts;

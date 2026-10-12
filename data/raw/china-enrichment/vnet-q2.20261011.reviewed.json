@@ -1,0 +1,20 @@
+{
+  "capture_method": "search_index_primary_page_fact_extract",
+  "facts": {
+    "as_of": "2026-06-30",
+    "collaboration_areas": [
+      "gigawatt-scale compute-energy facilities",
+      "distributed compute-energy networks",
+      "zero-carbon token ecosystem"
+    ],
+    "compute_energy_collaboration_partner": "Contemporary Amperex Technology Co., Limited (CATL)",
+    "wholesale_capacity_in_service_mw": 1007,
+    "wholesale_capacity_utilized_mw": 744
+  },
+  "limitations": [
+    "Direct official IR HTTP capture returned 403; facts extracted from the indexed official second-quarter release. Portfolio MW are not facility identities or independent capacity measurements."
+  ],
+  "retrieved_at": "2026-10-11",
+  "source_published_at": "2026-08-18",
+  "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results"
+}

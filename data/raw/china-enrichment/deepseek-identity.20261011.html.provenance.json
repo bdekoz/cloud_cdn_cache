@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/deepseek-identity.20261011.html",
+  "resolved_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "339984e36a795843ee2b5b917797072ec249f3c0e9ff7cbbfe754c01caa4f069",
+  "source_published_at": null,
+  "source_updated_at": "2026-02-10",
+  "source_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html"
+}

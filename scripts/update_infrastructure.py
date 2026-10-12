@@ -247,7 +247,7 @@ def parse_named_systems() -> list[dict]:
     return rows
 
 
-def validate_collection(collection: dict) -> None:
+def validate_collection(collection: dict, *, external_record_ids: set[str] | None = None) -> None:
     validator = Draft202012Validator(json.loads(SCHEMA.read_text()), format_checker=FormatChecker())
     validator.validate(collection)
     ids = {row["record_id"] for row in collection["records"]}
@@ -259,7 +259,7 @@ def validate_collection(collection: dict) -> None:
         if row["source_sha256"] != sha256(REPO_ROOT / row["raw_source_ref"]):
             raise ValueError(f"Source checksum mismatch for {row['record_id']}")
         for relationship in row["relationships"]:
-            if relationship["target_record_id"] not in ids:
+            if relationship["target_record_id"] not in ids | (external_record_ids or set()):
                 raise ValueError(f"Unresolved relationship in {row['record_id']}")
 
 

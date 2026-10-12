@@ -1,0 +1,9 @@
+{
+  "capture_method": "public_network_metadata_and_bounded_relationship_extracts",
+  "notes": "Bounded public endpoint/routing/registration evidence. No inference calls, credentials or private-address connections. This does not establish hosting geography or facility ownership.",
+  "raw_source_ref": "data/raw/china-enrichment/endpoint-peeringdb.20261011.json",
+  "retrieved_at": "2026-10-11",
+  "sha256": "8e4aa40633d8829bc520ad0fa742c59d845c4a6425a74b5c438b933b005178aa",
+  "source_published_at": null,
+  "source_url": "https://www.peeringdb.com/api/"
+}

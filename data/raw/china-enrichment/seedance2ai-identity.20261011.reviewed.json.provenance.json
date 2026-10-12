@@ -1,0 +1,17 @@
+{
+  "bytes": 1045,
+  "capture_method": "reviewed_fact_archive",
+  "direct_capture_error": "<urlopen error [Errno -2] Name or service not known>",
+  "direct_capture_result": "failed",
+  "media_type": "application/json",
+  "notes": "Retained previously reviewed first-party facts; direct HTTP capture failed. This is not a new HTML response.",
+  "path": "data/raw/china-enrichment/seedance2ai-identity.20261011.reviewed.json",
+  "raw_source_ref": "data/raw/china-enrichment/seedance2ai-identity.20261011.reviewed.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-11",
+  "sha256": "9b814e3a510f93aeae743041db57be8eaa8dbc22f55260a551e21347a94f4934",
+  "source_id": "seedance2ai-identity",
+  "source_published_at": null,
+  "source_updated_at": "2025-10-29",
+  "source_url": "https://seedance2.ai/zh-hant/terms-of-service"
+}

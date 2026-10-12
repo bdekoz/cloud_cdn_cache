@@ -1,0 +1,34 @@
+{
+  "coordinate_methods": {
+    "unknown": 14
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/volcano/mainland-regions-and-zones.20261011.csv",
+      "path": "data/volcano/mainland-regions-and-zones.20261011.csv",
+      "source": "data/volcano/mainland-regions-and-zones.20261011.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 11,
+    "cloud_region": 3
+  },
+  "generated_files": [
+    "data/volcano/mainland-regions-and-zones.20261011.geojson"
+  ],
+  "geometry_null": 14,
+  "jurisdiction_filter": "mainland_china",
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 14
+  },
+  "parser": "update_china_enrichment.py:volcano:mainland",
+  "raw_source_ref": "data/raw/china-enrichment/volcano-directory.20261011.json",
+  "record_count": 14,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "b1e0a987509d1afbf33703083cda9f697e207b1909a2b9f310955afcf1c6cad5",
+  "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en",
+  "view_of": "volcano/regions-and-zones"
+}

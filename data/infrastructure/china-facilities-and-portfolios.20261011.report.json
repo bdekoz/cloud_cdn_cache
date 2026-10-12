@@ -1,0 +1,35 @@
+{
+  "category_counts": {
+    "compute_energy_collaboration": 1,
+    "edge_network_portfolio": 2,
+    "provider_infrastructure_portfolio": 3,
+    "recognized_compute_facility": 60
+  },
+  "external_vendor_registry": "data/vendors/registry.20261011.json",
+  "known_recognitions_are_not_current_operational_site_inventory": true,
+  "recognized_directory_entry_count": 60,
+  "record_count": 66,
+  "unresolved_aliases": [
+    {
+      "directory_codes": [
+        "ChinaNorth H01",
+        "ChinaNorth H02",
+        "ChinaNorth H04",
+        "ChinaNorth W01"
+      ],
+      "named_campus": "Sangyuan",
+      "provider": "Chindata",
+      "relationship": "not_established",
+      "source": {
+        "capture_method": "http_response",
+        "raw_source_ref": "data/raw/china-enrichment/chindata-sangyuan.20261011.html",
+        "retrieved_at": "2026-10-11",
+        "source_id": "chindata-sangyuan",
+        "source_published_at": "2026-07-02",
+        "source_sha256": "f6574668d2562e3f31e9d7b3b8805540a5305a3b99428d9b6293ce30561fd024",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/media/news/533.html"
+      }
+    }
+  ]
+}

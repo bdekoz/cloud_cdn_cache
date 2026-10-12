@@ -1,0 +1,34 @@
+{
+  "coordinate_methods": {
+    "unknown": 32
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/tencent/mainland-regions-and-zones.20261011.csv",
+      "path": "data/tencent/mainland-regions-and-zones.20261011.csv",
+      "source": "data/tencent/mainland-regions-and-zones.20261011.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 25,
+    "cloud_region": 7
+  },
+  "generated_files": [
+    "data/tencent/mainland-regions-and-zones.20261011.geojson"
+  ],
+  "geometry_null": 32,
+  "jurisdiction_filter": "mainland_china",
+  "layer": "mainland-regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 32
+  },
+  "parser": "update_china_enrichment.py:tencent:mainland",
+  "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+  "record_count": 32,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+  "source_url": "https://www.tencentcloud.com/document/product/213/6091",
+  "view_of": "tencent/regions-and-zones"
+}

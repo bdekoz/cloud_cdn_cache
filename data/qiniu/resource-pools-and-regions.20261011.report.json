@@ -1,0 +1,51 @@
+{
+  "availability_zones_generated": 0,
+  "coordinate_methods": {
+    "unknown": 23
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/qiniu/resource-pools-and-regions.20261011.csv",
+      "path": "data/qiniu/resource-pools-and-regions.20261011.csv",
+      "source": "data/qiniu/resource-pools-and-regions.20261011.geojson"
+    }
+  },
+  "entity_types": {
+    "cloud_region": 21,
+    "cloud_resource_pool": 2
+  },
+  "generated_files": [
+    "data/qiniu/resource-pools-and-regions.20261011.geojson"
+  ],
+  "geometry_null": 23,
+  "layer": "resource-pools-and-regions",
+  "lifecycle_statuses": {
+    "operational": 23
+  },
+  "parser": "update_china_enrichment.py:qiniu",
+  "raw_source_ref": "data/raw/china-enrichment/qiniu-resource-pools.20261011.html",
+  "record_count": 23,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_alignment_gaps": [
+    {
+      "pool_id": "1",
+      "reason": "no provider region ID in row",
+      "source_cells": [
+        "东京1"
+      ]
+    },
+    {
+      "pool_id": "1",
+      "reason": "region token is explicit but no geographic label on its row",
+      "region_id": "ap-northeast-1",
+      "source_cells": [
+        "亚太南部",
+        "ap-northeast-1"
+      ]
+    }
+  ],
+  "source_sha256": "12ee13b3f0087bada545ac9f83b9c0d17b5de9c5ce77199d58d53f3240a8dbb9",
+  "source_url": "https://developer.qiniu.com/qvm/4190/region-zone"
+}

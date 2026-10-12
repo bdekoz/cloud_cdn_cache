@@ -1,0 +1,1354 @@
+{
+  "canonical_records_generated": 0,
+  "inputs": [
+    {
+      "candidate_match_count": 12,
+      "path": "data/alibaba_cloud_data_centers_2.geojson",
+      "records": [
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-hangzhou"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Hangzhou)",
+          "legacy_label": "China East 1 (Hangzhou)",
+          "legacy_row_for_audit_only": 1,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-shanghai"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Shanghai)",
+          "legacy_label": "China East 2 (Shanghai)",
+          "legacy_row_for_audit_only": 2,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Qingyuan)",
+          "legacy_label": "China North 1 (Qingyuan)",
+          "legacy_row_for_audit_only": 3,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-beijing"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Beijing)",
+          "legacy_label": "China North 2 (Beijing)",
+          "legacy_row_for_audit_only": 4,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-huhehaote"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Hohhot)",
+          "legacy_label": "China North 3 (Hohhot)",
+          "legacy_row_for_audit_only": 5,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-shenzhen"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Shenzhen)",
+          "legacy_label": "China South 1 (Shenzhen)",
+          "legacy_row_for_audit_only": 6,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-chengdu"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Chengdu)",
+          "legacy_label": "China Southwest 1 (Chengdu)",
+          "legacy_row_for_audit_only": 7,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-hongkong"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "China (Hong Kong)",
+          "legacy_label": "Hong Kong (Hong Kong)",
+          "legacy_row_for_audit_only": 8,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "United States (Silicon Valley)",
+          "legacy_label": "US West 1 (Silicon Valley)",
+          "legacy_row_for_audit_only": 9,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "United States (Virginia)",
+          "legacy_label": "US East 1 (Virginia)",
+          "legacy_row_for_audit_only": 10,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:ap-northeast-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "Japan (Tokyo)",
+          "legacy_label": "Japan East 1 (Tokyo)",
+          "legacy_row_for_audit_only": 11,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:ap-southeast-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "Singapore",
+          "legacy_label": "Singapore (Singapore)",
+          "legacy_row_for_audit_only": 12,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "Australia (Sydney)",
+          "legacy_label": "Australia East 1 (Sydney)",
+          "legacy_row_for_audit_only": 13,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:ap-southeast-3"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "Malaysia (Kuala Lumpur)",
+          "legacy_label": "Malaysia West 1 (Kuala Lumpur)",
+          "legacy_row_for_audit_only": 14,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:ap-southeast-5"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "Indonesia (Jakarta)",
+          "legacy_label": "Indonesia South 1 (Jakarta)",
+          "legacy_row_for_audit_only": 15,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "India (Mumbai)",
+          "legacy_label": "India West 1 (Mumbai)",
+          "legacy_row_for_audit_only": 16,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:eu-central-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "Germany (Frankfurt)",
+          "legacy_label": "Germany Central 1 (Frankfurt)",
+          "legacy_row_for_audit_only": 17,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "United Kingdom (London)",
+          "legacy_label": "UK South 1 (London)",
+          "legacy_row_for_audit_only": 18,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "United Arab Emirates (Dubai)",
+          "legacy_label": "UAE North 1 (Dubai)",
+          "legacy_row_for_audit_only": 19,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": false
+        }
+      ],
+      "role": "legacy_unreconciled",
+      "sha256": "40cdfc3598a1d64ca55404b27d81aa53651c80e93e0ee8eb2b9de314e7d17f6a"
+    },
+    {
+      "candidate_match_count": 33,
+      "path": "data/tencent_cloud_data_centers.geojson",
+      "records": [
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-guangzhou",
+          "legacy_label": "Guangzhou Zone 1",
+          "legacy_row_for_audit_only": 1,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "ap-guangzhou-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-guangzhou",
+          "legacy_label": "Guangzhou Zone 2",
+          "legacy_row_for_audit_only": 2,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "ap-guangzhou-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-guangzhou-3"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-guangzhou",
+          "legacy_label": "Guangzhou Zone 3",
+          "legacy_row_for_audit_only": 3,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-guangzhou-3",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-shanghai",
+          "legacy_label": "Shanghai Zone 1",
+          "legacy_row_for_audit_only": 4,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "ap-shanghai-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-shanghai-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-shanghai",
+          "legacy_label": "Shanghai Zone 2",
+          "legacy_row_for_audit_only": 5,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-shanghai-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-shanghai-3"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-shanghai",
+          "legacy_label": "Shanghai Zone 3",
+          "legacy_row_for_audit_only": 6,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-shanghai-3",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-shanghai-4"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-shanghai",
+          "legacy_label": "Shanghai Zone 4",
+          "legacy_row_for_audit_only": 7,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-shanghai-4",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-shanghai-5"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-shanghai",
+          "legacy_label": "Shanghai Zone 5",
+          "legacy_row_for_audit_only": 8,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-shanghai-5",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-beijing",
+          "legacy_label": "Beijing Zone 1",
+          "legacy_row_for_audit_only": 9,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "ap-beijing-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-beijing",
+          "legacy_label": "Beijing Zone 2",
+          "legacy_row_for_audit_only": 10,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "ap-beijing-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-beijing-3"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-beijing",
+          "legacy_label": "Beijing Zone 3",
+          "legacy_row_for_audit_only": 11,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-beijing-3",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-beijing-4"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-beijing",
+          "legacy_label": "Beijing Zone 4",
+          "legacy_row_for_audit_only": 12,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-beijing-4",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-beijing-5"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-beijing",
+          "legacy_label": "Beijing Zone 5",
+          "legacy_row_for_audit_only": 13,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-beijing-5",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-chengdu-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-chengdu",
+          "legacy_label": "Chengdu Zone 1",
+          "legacy_row_for_audit_only": 14,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-chengdu-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-chengdu-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-chengdu",
+          "legacy_label": "Chengdu Zone 2",
+          "legacy_row_for_audit_only": 15,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-chengdu-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-chongqing-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-chongqing",
+          "legacy_label": "Chongqing Zone 1",
+          "legacy_row_for_audit_only": 16,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-chongqing-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-nanjing-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-nanjing",
+          "legacy_label": "Nanjing Zone 1",
+          "legacy_row_for_audit_only": 17,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-nanjing-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-nanjing-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-nanjing",
+          "legacy_label": "Nanjing Zone 2",
+          "legacy_row_for_audit_only": 18,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-nanjing-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-hongkong-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-hongkong",
+          "legacy_label": "Hong Kong Zone 1",
+          "legacy_row_for_audit_only": 19,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-hongkong-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-hongkong-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-hongkong",
+          "legacy_label": "Hong Kong Zone 2",
+          "legacy_row_for_audit_only": 20,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-hongkong-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-hongkong-3"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-hongkong",
+          "legacy_label": "Hong Kong Zone 3",
+          "legacy_row_for_audit_only": 21,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-hongkong-3",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-tokyo-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-tokyo",
+          "legacy_label": "Tokyo Zone 1",
+          "legacy_row_for_audit_only": 22,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-tokyo-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-tokyo-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-tokyo",
+          "legacy_label": "Tokyo Zone 2",
+          "legacy_row_for_audit_only": 23,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-tokyo-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-seoul-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-seoul",
+          "legacy_label": "Seoul Zone 1",
+          "legacy_row_for_audit_only": 24,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-seoul-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-seoul-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-seoul",
+          "legacy_label": "Seoul Zone 2",
+          "legacy_row_for_audit_only": 25,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-seoul-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-singapore-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-singapore",
+          "legacy_label": "Singapore Zone 1",
+          "legacy_row_for_audit_only": 26,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-singapore-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-singapore-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-singapore",
+          "legacy_label": "Singapore Zone 2",
+          "legacy_row_for_audit_only": 27,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-singapore-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-singapore-3"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-singapore",
+          "legacy_label": "Singapore Zone 3",
+          "legacy_row_for_audit_only": 28,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-singapore-3",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-bangkok-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-bangkok",
+          "legacy_label": "Bangkok Zone 1",
+          "legacy_row_for_audit_only": 29,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-bangkok-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-bangkok-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-bangkok",
+          "legacy_label": "Bangkok Zone 2",
+          "legacy_row_for_audit_only": 30,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-bangkok-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:ap-jakarta-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-jakarta",
+          "legacy_label": "Jakarta Zone 1",
+          "legacy_row_for_audit_only": 31,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-jakarta-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-mumbai",
+          "legacy_label": "Mumbai Zone 1",
+          "legacy_row_for_audit_only": 32,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "ap-mumbai-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-mumbai",
+          "legacy_label": "Mumbai Zone 2",
+          "legacy_row_for_audit_only": 33,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "ap-mumbai-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:na-siliconvalley-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "na-siliconvalley",
+          "legacy_label": "Silicon Valley Zone 1",
+          "legacy_row_for_audit_only": 34,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "na-siliconvalley-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:na-siliconvalley-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "na-siliconvalley",
+          "legacy_label": "Silicon Valley Zone 2",
+          "legacy_row_for_audit_only": 35,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "na-siliconvalley-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:na-ashburn-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "na-ashburn",
+          "legacy_label": "Virginia Zone 1",
+          "legacy_row_for_audit_only": 36,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "na-ashburn-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:na-ashburn-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "na-ashburn",
+          "legacy_label": "Virginia Zone 2",
+          "legacy_row_for_audit_only": 37,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "na-ashburn-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:sa-saopaulo-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "sa-saopaulo",
+          "legacy_label": "Sao Paulo Zone 1",
+          "legacy_row_for_audit_only": 38,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "sa-saopaulo-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:eu-frankfurt-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-frankfurt",
+          "legacy_label": "Frankfurt Zone 1",
+          "legacy_row_for_audit_only": 39,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "eu-frankfurt-1",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [
+            "tencent:availability_zone:eu-frankfurt-2"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-frankfurt",
+          "legacy_label": "Frankfurt Zone 2",
+          "legacy_row_for_audit_only": 40,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "eu-frankfurt-2",
+          "quarantine_exclusion_retained": false
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-moscow",
+          "legacy_label": "Moscow Zone 1",
+          "legacy_row_for_audit_only": 41,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "eu-moscow-1",
+          "quarantine_exclusion_retained": false
+        }
+      ],
+      "role": "legacy_unreconciled",
+      "sha256": "33f328f6f6828a21c5d2d9898a58af66885b519962c1adeff11922b2424615c9"
+    },
+    {
+      "candidate_match_count": 13,
+      "path": "data/quarantine/alibaba_cloud_data_centers_3.geojson",
+      "records": [
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-zhangjiakou"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "China North 3 (Zhangjiakou) - The \"Green\" Hyperscale",
+          "legacy_row_for_audit_only": 1,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "cn-zhangjiakou",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-hangzhou"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "China East 1 (Hangzhou) - Global HQ",
+          "legacy_row_for_audit_only": 2,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "cn-hangzhou",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-beijing"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "China North 2 (Beijing)",
+          "legacy_row_for_audit_only": 3,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "cn-beijing",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:ap-southeast-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Singapore (SG) - International HQ",
+          "legacy_row_for_audit_only": 4,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-southeast-1",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:us-west-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "US West 1 (Silicon Valley)",
+          "legacy_row_for_audit_only": 5,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "us-west-1",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:us-east-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "US East 1 (Virginia)",
+          "legacy_row_for_audit_only": 6,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "us-east-1",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:eu-central-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Germany (Frankfurt)",
+          "legacy_row_for_audit_only": 7,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "eu-central-1",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:na-south-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Mexico (Mexico City)",
+          "legacy_row_for_audit_only": 8,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "na-south-1",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:ap-southeast-5"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Indonesia (Jakarta)",
+          "legacy_row_for_audit_only": 9,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-southeast-5",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:ap-northeast-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Japan (Tokyo)",
+          "legacy_row_for_audit_only": 10,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "ap-northeast-1",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:me-central-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Saudi Arabia (Riyadh)",
+          "legacy_row_for_audit_only": 11,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "me-central-1",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:cn-hongkong"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Hong Kong (China) - Network Gateway",
+          "legacy_row_for_audit_only": 12,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "cn-hongkong",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "France (Paris)",
+          "legacy_row_for_audit_only": 13,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": "eu-central-2",
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [
+            "alibaba:cloud_region:me-east-1"
+          ],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": null,
+          "legacy_label": "Dubai (UAE)",
+          "legacy_row_for_audit_only": 14,
+          "match_state": "candidate_id_or_exact_label_match",
+          "provider_id_candidate": "me-east-1",
+          "quarantine_exclusion_retained": true
+        }
+      ],
+      "role": "quarantined",
+      "sha256": "dfb83fd80fcbf32d143a42fa497f18b26d7dd8f2dfbd2b8ea7ed155f77bc7dcf"
+    },
+    {
+      "candidate_match_count": 0,
+      "path": "data/quarantine/baidu_cloud_data_centers_2.geojson",
+      "records": [
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "cn-bj",
+          "legacy_label": "North China - Beijing Region",
+          "legacy_row_for_audit_only": 1,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "cn-gz",
+          "legacy_label": "South China - Guangzhou Region",
+          "legacy_row_for_audit_only": 2,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "cn-suz",
+          "legacy_label": "East China - Suzhou Region",
+          "legacy_row_for_audit_only": 3,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "cn-wh",
+          "legacy_label": "Central China - Wuhan Region",
+          "legacy_row_for_audit_only": 4,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "cn-xa",
+          "legacy_label": "West China - Xi'an Region",
+          "legacy_row_for_audit_only": 5,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "cn-hk",
+          "legacy_label": "Hong Kong Region",
+          "legacy_row_for_audit_only": 6,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-singapore",
+          "legacy_label": "Singapore Region",
+          "legacy_row_for_audit_only": 7,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "us-va",
+          "legacy_label": "Virginia Region (US East)",
+          "legacy_row_for_audit_only": 8,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "us-ca",
+          "legacy_label": "California Region (US West)",
+          "legacy_row_for_audit_only": 9,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-frankfurt",
+          "legacy_label": "Frankfurt Region (EU)",
+          "legacy_row_for_audit_only": 10,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-mumbai",
+          "legacy_label": "Mumbai Region (India)",
+          "legacy_row_for_audit_only": 11,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-tokyo",
+          "legacy_label": "Tokyo Region (Japan)",
+          "legacy_row_for_audit_only": 12,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-seoul",
+          "legacy_label": "Seoul Region (Korea)",
+          "legacy_row_for_audit_only": 13,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-bangkok",
+          "legacy_label": "Bangkok Region (Thailand)",
+          "legacy_row_for_audit_only": 14,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-jakarta",
+          "legacy_label": "Jakarta Region (Indonesia)",
+          "legacy_row_for_audit_only": 15,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-kualalumpur",
+          "legacy_label": "Kuala Lumpur Region (Malaysia)",
+          "legacy_row_for_audit_only": 16,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-manila",
+          "legacy_label": "Manila Region (Philippines)",
+          "legacy_row_for_audit_only": 17,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-hochiminh",
+          "legacy_label": "Ho Chi Minh City Region (Vietnam)",
+          "legacy_row_for_audit_only": 18,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-sydney",
+          "legacy_label": "Sydney Region (Australia)",
+          "legacy_row_for_audit_only": 19,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "ap-melbourne",
+          "legacy_label": "Melbourne Region (Australia)",
+          "legacy_row_for_audit_only": 20,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-london",
+          "legacy_label": "London Region (UK)",
+          "legacy_row_for_audit_only": 21,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-paris",
+          "legacy_label": "Paris Region (France)",
+          "legacy_row_for_audit_only": 22,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-stockholm",
+          "legacy_label": "Stockholm Region (Sweden)",
+          "legacy_row_for_audit_only": 23,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-milan",
+          "legacy_label": "Milan Region (Italy)",
+          "legacy_row_for_audit_only": 24,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "sa-saopaulo",
+          "legacy_label": "São Paulo Region (Brazil)",
+          "legacy_row_for_audit_only": 25,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "na-mexicocity",
+          "legacy_label": "Mexico City Region (Mexico)",
+          "legacy_row_for_audit_only": 26,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "na-toronto",
+          "legacy_label": "Toronto Region (Canada)",
+          "legacy_row_for_audit_only": 27,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "me-dubai",
+          "legacy_label": "Dubai Region (UAE)",
+          "legacy_row_for_audit_only": 28,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "me-riyadh",
+          "legacy_label": "Riyadh Region (Saudi Arabia)",
+          "legacy_row_for_audit_only": 29,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-istanbul",
+          "legacy_label": "Istanbul Region (Turkey)",
+          "legacy_row_for_audit_only": 30,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "eu-moscow",
+          "legacy_label": "Moscow Region (Russia)",
+          "legacy_row_for_audit_only": 31,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "af-johannesburg",
+          "legacy_label": "Johannesburg Region (South Africa)",
+          "legacy_row_for_audit_only": 32,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "af-cairo",
+          "legacy_label": "Cairo Region (Egypt)",
+          "legacy_row_for_audit_only": 33,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "af-lagos",
+          "legacy_label": "Lagos Region (Nigeria)",
+          "legacy_row_for_audit_only": 34,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        },
+        {
+          "candidate_current_record_ids": [],
+          "canonical_alias_not_automatically_created": true,
+          "geometry_and_capacity_not_inherited": true,
+          "legacy_claimed_region": "af-nairobi",
+          "legacy_label": "Nairobi Region (Kenya)",
+          "legacy_row_for_audit_only": 35,
+          "match_state": "no_explicit_current_identity_match",
+          "provider_id_candidate": null,
+          "quarantine_exclusion_retained": true
+        }
+      ],
+      "role": "quarantined",
+      "sha256": "077c2fd87ff5750854d64bfc01d658cafb6d0f18f80b732f96a3916233af9553"
+    }
+  ],
+  "retrieved_at": "2026-10-11",
+  "scope_note": "Candidate identity matches do not grant provenance to historical geometry, speculative capacity, or unsupported entities. Quarantined inputs remain excluded; aliases require separate review."
+}

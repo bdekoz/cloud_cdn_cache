@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/baishan-edge.20261011.html",
+  "resolved_url": "https://en.baishan.com/",
+  "retrieved_at": "2026-10-11",
+  "sha256": "665634bbb34731d12319f50bafc337fba9a079310eddfb133e43ac9567028945",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://intl.baishancloud.com/"
+}

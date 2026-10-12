@@ -113,8 +113,10 @@ def main() -> None:
             raise AssertionError(f"Accepted invalid evidence: {defect}")
     manifest_path = ROOT / f"data/manifest.{TAG}.json"
     manifest = read(manifest_path)
-    assert manifest["record_count"] == 27395 and manifest["network_evidence_record_count"] == 3125
-    assert manifest["infrastructure_evidence_record_count"] == 84
+    assert manifest["record_count"] == sum(layer["record_count"] for layer in manifest["layers"])
+    assert manifest["network_evidence_record_count"] == sum(layer["record_count"] for layer in manifest["network_evidence_layers"])
+    assert manifest["infrastructure_evidence_record_count"] == sum(layer["record_count"] for layer in manifest["infrastructure_evidence_layers"])
+    assert next(layer for layer in manifest["infrastructure_evidence_layers"] if layer["layer"] == "infrastructure/connectivity")["record_count"] == 84
     assert manifest["infrastructure_evidence_layers"][0]["unit_counts"] == Counter(row["unit"] for row in rows)
     assert manifest["infrastructure_evidence_views"][0]["record_count"] == 3
     for layer in manifest["infrastructure_evidence_layers"] + manifest["infrastructure_evidence_views"]:

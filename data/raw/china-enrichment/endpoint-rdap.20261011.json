@@ -1,0 +1,115 @@
+{
+  "capture_method": "public_rdap_registration_fact_extract",
+  "records": [
+    {
+      "asn": 37963,
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2008-09-04T06:40:40Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2021-10-27T00:00:46Z"
+        }
+      ],
+      "facts": {
+        "country": "CN",
+        "endAutnum": 37963,
+        "handle": "AS37963",
+        "name": "ALIBABA-CN-NET",
+        "startAutnum": 37963,
+        "status": [
+          "active"
+        ]
+      },
+      "observed_at": "2026-10-12T03:42:49.881409Z",
+      "response_sha256": "aaf60acb37bb5b67c02dfb583c5b2c488ce8ab9f5aafb42e47ecc679d689d0a1",
+      "result": "retrieved",
+      "source_url": "https://rdap.apnic.net/autnum/37963"
+    },
+    {
+      "asn": 132203,
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2012-03-13T06:08:35Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2020-07-22T13:11:06Z"
+        }
+      ],
+      "facts": {
+        "country": "CN",
+        "endAutnum": 132203,
+        "handle": "AS132203",
+        "name": "TENCENT-NET-AP-CN",
+        "startAutnum": 132203,
+        "status": [
+          "active"
+        ]
+      },
+      "observed_at": "2026-10-12T03:42:49.883002Z",
+      "response_sha256": "6206e06c7661c7ef19035f82db744c67941346d383526d331a71a87e1bba9e14",
+      "result": "retrieved",
+      "source_url": "https://rdap.apnic.net/autnum/132203"
+    },
+    {
+      "asn": 139341,
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2019-07-24T00:00:16Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2021-08-20T00:35:02Z"
+        }
+      ],
+      "facts": {
+        "country": "SG",
+        "endAutnum": 139341,
+        "handle": "AS139341",
+        "name": "ACE-AS-AP",
+        "startAutnum": 139341,
+        "status": [
+          "active"
+        ]
+      },
+      "observed_at": "2026-10-12T03:42:49.884169Z",
+      "response_sha256": "79eb45cf09d29a0cd47e1d65e6be8d798d0955f6248c125f9fba21baba75ef98",
+      "result": "retrieved",
+      "source_url": "https://rdap.apnic.net/autnum/139341"
+    },
+    {
+      "asn": 150436,
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2022-11-22T00:30:49Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-04-12T00:28:22Z"
+        }
+      ],
+      "facts": {
+        "country": "SG",
+        "endAutnum": 150436,
+        "handle": "AS150436",
+        "name": "BYTEPLUS-AS-AP",
+        "startAutnum": 150436,
+        "status": [
+          "active"
+        ]
+      },
+      "observed_at": "2026-10-12T03:42:49.885847Z",
+      "response_sha256": "4636a8b8f54df7f8a0e5e6ccbced08317b67af63e76f0fb91dc11645c3ae6f60",
+      "result": "retrieved",
+      "source_url": "https://rdap.apnic.net/autnum/150436"
+    }
+  ],
+  "retrieved_at": "2026-10-11",
+  "scope_note": "Registered name/country is registry context, not server location. Contact/person fields omitted."
+}

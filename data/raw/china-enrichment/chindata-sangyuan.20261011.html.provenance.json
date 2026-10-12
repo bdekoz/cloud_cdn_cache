@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/chindata-sangyuan.20261011.html",
+  "resolved_url": "https://www.chindatagroup.com/media/news/533.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "f6574668d2562e3f31e9d7b3b8805540a5305a3b99428d9b6293ce30561fd024",
+  "source_published_at": "2026-07-02",
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/media/news/533.html"
+}

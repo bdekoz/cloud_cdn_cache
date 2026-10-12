@@ -1,0 +1,17 @@
+{
+  "bytes": 891,
+  "capture_method": "search_index_primary_page_fact_extract",
+  "direct_capture_error": "HTTP Error 403: Forbidden",
+  "direct_capture_result": "failed",
+  "media_type": "application/json",
+  "notes": "Indexed official primary-source facts, not original HTTP HTML.",
+  "path": "data/raw/china-enrichment/vnet-q2.20261011.reviewed.json",
+  "raw_source_ref": "data/raw/china-enrichment/vnet-q2.20261011.reviewed.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-11",
+  "sha256": "e6042350bfd2b6518e5be91914c5cdfc9b28e3010e0381c977dacdd970262b04",
+  "source_id": "vnet-q2",
+  "source_published_at": "2026-08-18",
+  "source_updated_at": null,
+  "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results"
+}

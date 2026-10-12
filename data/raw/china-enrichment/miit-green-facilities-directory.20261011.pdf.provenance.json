@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "application/pdf",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+  "resolved_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+  "retrieved_at": "2026-10-11",
+  "sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+  "source_published_at": "2025-12-29",
+  "source_updated_at": null,
+  "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf"
+}

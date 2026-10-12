@@ -1,0 +1,731 @@
+{
+  "capture_method": "bounded_native_dns_tls_head",
+  "records": [
+    {
+      "certificate_not_after": "Jan  5 23:59:59 2027 GMT",
+      "certificate_sha256": "cee736e8dd93ff61838b9cccc3bcd954efb8b967768f9111d535e37cb269328a",
+      "completed_at": "2026-10-12T03:28:23.378676Z",
+      "connected_ip": "59.80.22.5",
+      "connection_and_tls_ms": 604.03,
+      "dns_addresses": [
+        "59.80.22.5"
+      ],
+      "endpoint_record_ids": [
+        "cucloud:ai_api_endpoint:aisp-endpoint-28e5c1c868b21178"
+      ],
+      "hostname": "aigw-gzgy2.cucloud.cn",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:22.588549Z",
+      "port": 443,
+      "provider": "China Unicom Cloud",
+      "source_urls": [
+        "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.2",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Jan  5 23:59:59 2027 GMT",
+      "certificate_sha256": "cee736e8dd93ff61838b9cccc3bcd954efb8b967768f9111d535e37cb269328a",
+      "completed_at": "2026-10-12T03:28:23.313292Z",
+      "connected_ip": "59.80.22.5",
+      "connection_and_tls_ms": 554.003,
+      "dns_addresses": [
+        "59.80.22.5"
+      ],
+      "endpoint_record_ids": [
+        "cucloud:ai_api_endpoint:aisp-endpoint-968d09ef4dc8ac8b"
+      ],
+      "hostname": "aigw-hbwh4.cucloud.cn",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:22.589213Z",
+      "port": 443,
+      "provider": "China Unicom Cloud",
+      "source_urls": [
+        "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.2",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Jan  5 23:59:59 2027 GMT",
+      "certificate_sha256": "cee736e8dd93ff61838b9cccc3bcd954efb8b967768f9111d535e37cb269328a",
+      "completed_at": "2026-10-12T03:28:23.424695Z",
+      "connected_ip": "59.80.22.5",
+      "connection_and_tls_ms": 657.135,
+      "dns_addresses": [
+        "59.80.22.5"
+      ],
+      "endpoint_record_ids": [
+        "cucloud:ai_api_endpoint:aisp-endpoint-8a8cefb47eae7c7b"
+      ],
+      "hostname": "aigw-jnzs5.cucloud.cn",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:22.590377Z",
+      "port": 443,
+      "provider": "China Unicom Cloud",
+      "source_urls": [
+        "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.2",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Jan  5 23:59:59 2027 GMT",
+      "certificate_sha256": "cee736e8dd93ff61838b9cccc3bcd954efb8b967768f9111d535e37cb269328a",
+      "completed_at": "2026-10-12T03:28:23.407419Z",
+      "connected_ip": "59.80.22.5",
+      "connection_and_tls_ms": 624.984,
+      "dns_addresses": [
+        "59.80.22.5"
+      ],
+      "endpoint_record_ids": [
+        "cucloud:ai_api_endpoint:aisp-endpoint-fa62184dfeec2fcf"
+      ],
+      "hostname": "aigw-nmhhht.cucloud.cn",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:22.593876Z",
+      "port": 443,
+      "provider": "China Unicom Cloud",
+      "source_urls": [
+        "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.2",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Dec 25 23:59:59 2026 GMT",
+      "certificate_sha256": "0b11247609057dad781691852f01ae2ea52c9c47cd63290f32f85cba525b475d",
+      "completed_at": "2026-10-12T03:28:23.687173Z",
+      "connected_ip": "3.173.21.63",
+      "connection_and_tls_ms": 90.301,
+      "dns_addresses": [
+        "3.173.21.63"
+      ],
+      "endpoint_record_ids": [
+        "deepseek:ai_api_endpoint:direct"
+      ],
+      "hostname": "api.deepseek.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 401 Unauthorized",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.313427Z",
+      "port": 443,
+      "provider": "deepseek",
+      "source_urls": [
+        "https://api-docs.deepseek.com/"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Nov 12 04:06:21 2026 GMT",
+      "certificate_sha256": "2218e52ed646f1c77010cd9e3d9113ca8e019371e8bec9a2ab052ae009b14f5b",
+      "completed_at": "2026-10-12T03:28:23.994382Z",
+      "connected_ip": "104.18.16.93",
+      "connection_and_tls_ms": 72.82,
+      "dns_addresses": [
+        "104.18.16.93",
+        "104.18.17.93",
+        "2606:4700::6812:105d",
+        "2606:4700::6812:115d"
+      ],
+      "endpoint_record_ids": [
+        "moonshot:ai_api_endpoint:overseas-coding"
+      ],
+      "hostname": "api.kimi.ai",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.378902Z",
+      "port": 443,
+      "provider": "moonshot",
+      "source_urls": [
+        "https://www.kimi.com/en/help/kimi-code/faq"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Dec  2 16:24:57 2026 GMT",
+      "certificate_sha256": "4c5e863c23eb0298e6bfafd16bb7009d5e1015d832103059014fbeecf5067b30",
+      "completed_at": "2026-10-12T03:28:23.975221Z",
+      "connected_ip": "104.18.20.246",
+      "connection_and_tls_ms": 79.573,
+      "dns_addresses": [
+        "104.18.20.246",
+        "104.18.21.246",
+        "2606:4700::6812:14f6",
+        "2606:4700::6812:15f6"
+      ],
+      "endpoint_record_ids": [
+        "moonshot:ai_api_endpoint:china-coding"
+      ],
+      "hostname": "api.kimi.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 302 Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.407538Z",
+      "port": 443,
+      "provider": "moonshot",
+      "source_urls": [
+        "https://www.kimi.com/en/help/kimi-code/faq"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Jan  6 07:49:11 2027 GMT",
+      "certificate_sha256": "e26694696b73435e8cd5950dbd49f34e8ffc4e09d67eab535c676d6edf321d16",
+      "completed_at": "2026-10-12T03:28:23.652551Z",
+      "connected_ip": "23.46.216.134",
+      "connection_and_tls_ms": 76.754,
+      "dns_addresses": [
+        "23.46.216.134",
+        "23.46.216.149",
+        "2600:1406:2e00:62::172e:d886",
+        "2600:1406:2e00:62::172e:d895"
+      ],
+      "endpoint_record_ids": [
+        "minimax:ai_api_endpoint:anthropic-compatible",
+        "minimax:ai_api_endpoint:openai-compatible"
+      ],
+      "hostname": "api.minimax.io",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.424874Z",
+      "port": 443,
+      "provider": "minimax",
+      "source_urls": [
+        "https://platform.minimax.io/docs/guides/quickstart",
+        "https://platform.minimax.io/docs/guides/quickstart"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Nov 26 11:15:02 2026 GMT",
+      "certificate_sha256": "21a39c068cb52f8b9bf9ff17449ca019aedc988ba1179b0563146cf40151b93b",
+      "completed_at": "2026-10-12T03:28:23.989585Z",
+      "connected_ip": "104.18.28.136",
+      "connection_and_tls_ms": 77.709,
+      "dns_addresses": [
+        "104.18.28.136",
+        "104.18.29.136",
+        "2606:4700::6812:1c88",
+        "2606:4700::6812:1d88"
+      ],
+      "endpoint_record_ids": [
+        "moonshot:ai_api_endpoint:overseas-open"
+      ],
+      "hostname": "api.moonshot.ai",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.652673Z",
+      "port": 443,
+      "provider": "moonshot",
+      "source_urls": [
+        "https://www.kimi.com/en/help/kimi-code/faq"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Mar 24 23:59:59 2027 GMT",
+      "certificate_sha256": "441819a0e2cc64bb03c21c4a0fe3645719d5b871ca75b5f65b1ad582a06d18a6",
+      "completed_at": "2026-10-12T03:28:24.656622Z",
+      "connected_ip": "8.147.223.37",
+      "connection_and_tls_ms": 749.288,
+      "dns_addresses": [
+        "8.147.223.37"
+      ],
+      "endpoint_record_ids": [
+        "moonshot:ai_api_endpoint:china-open"
+      ],
+      "hostname": "api.moonshot.cn",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.687332Z",
+      "port": 443,
+      "provider": "moonshot",
+      "source_urls": [
+        "https://www.kimi.com/en/help/kimi-code/faq"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.2",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Nov  9 06:16:03 2026 GMT",
+      "certificate_sha256": "645a9b390a1b3f50416d281e829f6efb2bb38292ba47b373414f4f880d7ef309",
+      "completed_at": "2026-10-12T03:28:24.519346Z",
+      "connected_ip": "47.85.102.97",
+      "connection_and_tls_ms": 282.666,
+      "dns_addresses": [
+        "47.85.102.97",
+        "47.85.105.126",
+        "47.90.171.203"
+      ],
+      "endpoint_record_ids": [
+        "siliconflow:ai_api_endpoint:open-platform"
+      ],
+      "hostname": "api.siliconflow.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.975398Z",
+      "port": 443,
+      "provider": "siliconflow",
+      "source_urls": [
+        "https://docs.siliconflow.com/en/userguide/quickstart"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Nov 27 23:59:59 2026 GMT",
+      "certificate_sha256": "bc25e2444955cebdbdb25c8e054b5151bd0ddcaad23cd3635841207c41e85070",
+      "completed_at": "2026-10-12T03:28:24.436224Z",
+      "connected_ip": "47.251.169.173",
+      "connection_and_tls_ms": 231.89,
+      "dns_addresses": [
+        "240b:4004:b:181c:6f21:75a2:da0c:8343",
+        "240b:4004:b:18e0:97fd:7574:2c3b:332e",
+        "47.251.169.173",
+        "47.251.69.60"
+      ],
+      "endpoint_record_ids": [
+        "zai:ai_api_endpoint:open-platform"
+      ],
+      "hostname": "api.z.ai",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 301 Moved Permanently",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.989725Z",
+      "port": 443,
+      "provider": "zai",
+      "source_urls": [
+        "https://docs.z.ai/guides/overview/quick-start"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Dec 12 23:59:59 2026 GMT",
+      "certificate_sha256": "60809ce8f7c6ea2f1c4d6c08ddf8db162d7d1d7cdc4e45537256f75882dec45b",
+      "completed_at": "2026-10-12T03:28:26.117965Z",
+      "connected_ip": "101.47.10.109",
+      "connection_and_tls_ms": 1647.279,
+      "dns_addresses": [
+        "101.47.10.109"
+      ],
+      "endpoint_record_ids": [
+        "byteplus:ai_api_endpoint:modelark-ap-southeast-1"
+      ],
+      "hostname": "ark.ap-southeast.bytepluses.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 401 Unauthorized",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:23.994512Z",
+      "port": 443,
+      "provider": "BytePlus",
+      "source_urls": [
+        "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Jan 27 23:59:59 2027 GMT",
+      "certificate_sha256": "c2ee547c67e54fdc7e4db7faee5236cf1c64cbc865927814b37d3001b57f5c7d",
+      "completed_at": "2026-10-12T03:28:25.157922Z",
+      "connected_ip": "202.52.252.121",
+      "connection_and_tls_ms": 364.212,
+      "dns_addresses": [
+        "202.52.252.121"
+      ],
+      "endpoint_record_ids": [
+        "byteplus:ai_api_endpoint:modelark-eu-west-1"
+      ],
+      "hostname": "ark.eu-west.bytepluses.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 401 Unauthorized",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:24.436336Z",
+      "port": 443,
+      "provider": "BytePlus",
+      "source_urls": [
+        "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Apr  2 04:01:32 2027 GMT",
+      "certificate_sha256": "558f49689f915cb4292549dbc432b00249626c0eb95dcbbd74127734843b05ec",
+      "completed_at": "2026-10-12T03:28:25.316328Z",
+      "connected_ip": "47.239.43.76",
+      "connection_and_tls_ms": 407.045,
+      "dns_addresses": [
+        "47.239.43.76",
+        "47.239.64.68"
+      ],
+      "endpoint_record_ids": [
+        "alibaba:ai_api_endpoint:model-studio-cn-hongkong-dashscope"
+      ],
+      "hostname": "cn-hongkong.dashscope.aliyuncs.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:24.519467Z",
+      "port": 443,
+      "provider": "Alibaba Cloud",
+      "source_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/regions"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Nov  2 08:06:18 2026 GMT",
+      "certificate_sha256": "9e621febea357ff4460b91bf8b0b4bfe654d2e100edbc74770e76519d734830e",
+      "completed_at": "2026-10-12T03:28:26.581207Z",
+      "connected_ip": "47.236.117.191",
+      "connection_and_tls_ms": 728.619,
+      "dns_addresses": [
+        "47.236.117.191",
+        "47.236.175.160",
+        "47.245.114.142"
+      ],
+      "endpoint_record_ids": [
+        "alibaba:ai_api_endpoint:model-studio-ap-southeast-1-dashscope"
+      ],
+      "hostname": "dashscope-intl.aliyuncs.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:24.656757Z",
+      "port": 443,
+      "provider": "Alibaba Cloud",
+      "source_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/regions"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Nov  2 08:06:18 2026 GMT",
+      "certificate_sha256": "9e621febea357ff4460b91bf8b0b4bfe654d2e100edbc74770e76519d734830e",
+      "completed_at": "2026-10-12T03:28:26.102141Z",
+      "connected_ip": "39.96.198.249",
+      "connection_and_tls_ms": 568.691,
+      "dns_addresses": [
+        "2408:400a:3e:ef00:ce6f:bc78:1534:33d0",
+        "2408:400a:3e:ef02:12f:bd95:e827:51d",
+        "39.96.198.249",
+        "39.96.213.166",
+        "8.140.217.18",
+        "8.152.159.24"
+      ],
+      "endpoint_record_ids": [
+        "alibaba:ai_api_endpoint:model-studio-cn-beijing-dashscope"
+      ],
+      "hostname": "dashscope.aliyuncs.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:25.158340Z",
+      "port": 443,
+      "provider": "Alibaba Cloud",
+      "source_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/regions"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Feb 25 23:59:59 2027 GMT",
+      "certificate_sha256": "481908e6476a55be05377a787f145d6031ca0c7f687c76a0ee8bc91adaf45a9f",
+      "completed_at": "2026-10-12T03:28:25.467337Z",
+      "connected_ip": "43.153.127.241",
+      "connection_and_tls_ms": 120.605,
+      "dns_addresses": [
+        "43.153.127.241",
+        "43.159.158.19"
+      ],
+      "endpoint_record_ids": [
+        "tencent:ai_api_endpoint:hunyuan-ai-tencentcloudapi-com"
+      ],
+      "hostname": "hunyuan.ai.tencentcloudapi.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:25.316453Z",
+      "port": 443,
+      "provider": "Tencent Cloud",
+      "source_urls": [
+        "https://cloud.tencent.com/document/product/1729/105701"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Apr  7 23:59:59 2027 GMT",
+      "certificate_sha256": "a2e14a31f8a63e180e29063cb31b6290fa0e18e8b82d75f6fc6c0f6339140bdb",
+      "completed_at": "2026-10-12T03:28:26.530797Z",
+      "connected_ip": "43.159.104.94",
+      "connection_and_tls_ms": 380.041,
+      "dns_addresses": [
+        "43.159.104.94"
+      ],
+      "endpoint_record_ids": [
+        "tencent:ai_api_endpoint:hunyuan-tencentcloudapi-com"
+      ],
+      "hostname": "hunyuan.tencentcloudapi.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:25.467442Z",
+      "port": 443,
+      "provider": "Tencent Cloud",
+      "source_urls": [
+        "https://cloud.tencent.com/document/product/1729/101841"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Dec  7 21:27:54 2026 GMT",
+      "certificate_sha256": "3db8e72085cebc60d33270ce904386622437b78cb6a31eada8a9d9b525af89a8",
+      "completed_at": "2026-10-12T03:28:26.399509Z",
+      "connected_ip": "35.253.220.11",
+      "connection_and_tls_ms": 147.033,
+      "dns_addresses": [
+        "35.253.220.11"
+      ],
+      "endpoint_record_ids": [
+        "fal:ai_api_endpoint:queue"
+      ],
+      "hostname": "queue.fal.run",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:26.102283Z",
+      "port": 443,
+      "provider": "fal",
+      "source_urls": [
+        "https://fal.ai/docs/documentation/model-apis/inference/queue"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Feb 14 12:36:04 2027 GMT",
+      "certificate_sha256": "cc7c08805b2b0c44f53faae5d917ac07367fd9112971ca2405b8fa2e4b0acd51",
+      "completed_at": "2026-10-12T03:28:27.522929Z",
+      "connected_ip": "47.245.102.28",
+      "connection_and_tls_ms": 879.353,
+      "dns_addresses": [
+        "47.245.102.28",
+        "8.219.175.122"
+      ],
+      "endpoint_record_ids": [
+        "alibaba:ai_api_endpoint:model-studio-ap-southeast-1-trial"
+      ],
+      "hostname": "trial.ap-southeast-1.maas.aliyuncs.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:26.118143Z",
+      "port": 443,
+      "provider": "Alibaba Cloud",
+      "source_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/regions"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Feb 14 12:36:04 2027 GMT",
+      "certificate_sha256": "cc7c08805b2b0c44f53faae5d917ac07367fd9112971ca2405b8fa2e4b0acd51",
+      "completed_at": "2026-10-12T03:28:28.435839Z",
+      "connected_ip": "39.96.23.86",
+      "connection_and_tls_ms": 1622.755,
+      "dns_addresses": [
+        "2408:400a:3e:effb:c146:fb04:1e3d:60c1",
+        "2408:400a:3e:effc:4a80:f93f:c1d:c32e",
+        "39.96.23.86",
+        "39.96.28.99"
+      ],
+      "endpoint_record_ids": [
+        "alibaba:ai_api_endpoint:model-studio-cn-beijing-trial"
+      ],
+      "hostname": "trial.cn-beijing.maas.aliyuncs.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 401 Unauthorized",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:26.399628Z",
+      "port": 443,
+      "provider": "Alibaba Cloud",
+      "source_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/regions"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    },
+    {
+      "certificate_not_after": "Feb 14 12:36:04 2027 GMT",
+      "certificate_sha256": "491f6defb4c45400c95b527aa56b4cb020bfcc574f64a68c8ee231854c5db5f0",
+      "completed_at": "2026-10-12T03:28:27.476830Z",
+      "connected_ip": "47.238.119.208",
+      "connection_and_tls_ms": 521.143,
+      "dns_addresses": [
+        "240b:4001:2b4:9600:3d0e:1e69:dce3:68c5",
+        "240b:4001:2b4:9601:69da:74b4:57e:6d37",
+        "47.238.119.208",
+        "47.239.72.37"
+      ],
+      "endpoint_record_ids": [
+        "alibaba:ai_api_endpoint:model-studio-cn-hongkong-trial"
+      ],
+      "hostname": "trial.cn-hongkong.maas.aliyuncs.com",
+      "http_method": "HEAD",
+      "http_path": "/",
+      "http_response_does_not_establish_model_availability": true,
+      "http_status_line": "HTTP/1.1 404 Not Found",
+      "measurement_vantage_geography": "not_established",
+      "non_public_addresses_not_contacted": [],
+      "observed_at": "2026-10-12T03:28:26.530979Z",
+      "port": 443,
+      "provider": "Alibaba Cloud",
+      "source_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/regions"
+      ],
+      "status": "tls_verified",
+      "tls_verification_required": true,
+      "tls_version": "TLSv1.3",
+      "ttl_not_observed": true
+    }
+  ],
+  "retrieved_at": "2026-10-11"
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/qiniu-resource-pools.20261011.html",
+  "resolved_url": "https://developer.qiniu.com/qvm/4190/region-zone",
+  "retrieved_at": "2026-10-11",
+  "sha256": "12ee13b3f0087bada545ac9f83b9c0d17b5de9c5ce77199d58d53f3240a8dbb9",
+  "source_published_at": null,
+  "source_updated_at": "2026-05-06",
+  "source_url": "https://developer.qiniu.com/qvm/4190/region-zone"
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/tencent-hy3.20261011.html",
+  "resolved_url": "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/",
+  "retrieved_at": "2026-10-11",
+  "sha256": "04105d4c0b1c05dfab12bde992cc515053d41c5dd998fddc39424df72e1bbfd5",
+  "source_published_at": "2026-08-05",
+  "source_updated_at": null,
+  "source_url": "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/"
+}

@@ -1,0 +1,23 @@
+{
+  "capture_method": "reviewed_fact_archive",
+  "note": "Retained previously reviewed first-party facts; direct HTTP capture failed. This is not a new HTML response.",
+  "reviewed_facts_input": "data/china/review-evidence.20261011.json",
+  "reviewed_facts_input_sha256": "1dfdbad987f9f05c6c7a4a4f7ea63e80d426ef5797478d261bf8f0d0129b79cb",
+  "source": {
+    "capture_method": "web_reader_fact_extract",
+    "facts": {
+      "announcement_number": "2025 No. 43",
+      "attached_final_directory": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "designation": "2025 National Green Computing Facilities",
+      "signed_at": "2025-12-17"
+    },
+    "limitations": [
+      "2025 designation evidence does not establish current lifecycle, ownership, compute capacity or coordinates."
+    ],
+    "retrieved_at": "2026-10-11",
+    "source_id": "miit-green-facilities-announcement",
+    "source_published_at": "2025-12-29",
+    "source_updated_at": null,
+    "source_url": "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2025/art_d8a6906d6e5048369ae66b3a40ea20b8.html"
+  }
+}

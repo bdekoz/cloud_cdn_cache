@@ -1,0 +1,17 @@
+{
+  "bytes": 944,
+  "capture_method": "reviewed_fact_archive",
+  "direct_capture_error": "HTTP Error 403: Forbidden",
+  "direct_capture_result": "failed",
+  "media_type": "application/json",
+  "notes": "Retained previously reviewed first-party facts; direct HTTP capture failed. This is not a new HTML response.",
+  "path": "data/raw/china-enrichment/kling.20261011.reviewed.json",
+  "raw_source_ref": "data/raw/china-enrichment/kling.20261011.reviewed.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-11",
+  "sha256": "c3049c0df7c69965f675ca95cad9615153f589449308515a906e69dcd72eba18",
+  "source_id": "kling",
+  "source_published_at": "2025-06-05",
+  "source_updated_at": null,
+  "source_url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-celebrates-first-anniversary-achieves-annualized"
+}

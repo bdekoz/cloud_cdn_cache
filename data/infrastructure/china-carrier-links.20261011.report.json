@@ -1,0 +1,17 @@
+{
+  "all_geometry_null": true,
+  "category_counts": {
+    "cable_landing_station": 3,
+    "carrier_backbone_portfolio": 2,
+    "network_interconnect_presence": 2,
+    "quantum_secured_wan_service": 1,
+    "submarine_cable_system": 3,
+    "terrestrial_fiber_link": 1
+  },
+  "external_vendor_registry": "data/vendors/registry.20261011.json",
+  "record_count": 12,
+  "same_locality_stations_not_merged": [
+    "China Telecom Chung Hom Kok",
+    "SUNeVision HKIS-1"
+  ]
+}

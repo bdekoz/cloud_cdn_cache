@@ -1,0 +1,9 @@
+{
+  "capture_method": "bounded_native_dns_tls_head",
+  "notes": "Bounded public endpoint/routing/registration evidence. No inference calls, credentials or private-address connections. This does not establish hosting geography or facility ownership.",
+  "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+  "retrieved_at": "2026-10-11",
+  "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+  "source_published_at": null,
+  "source_url": "urn:cloud-cdn-cache:endpoint-observations:20261011"
+}

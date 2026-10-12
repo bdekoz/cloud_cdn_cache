@@ -6,13 +6,13 @@ This report records the implemented result. The original [`assessment.20260804.m
 
 ## Executive outcome
 
-The [October China vendor review](china-vendor-review.20261011.md) records 31 vendor assessments and 25 reviewed primary sources, inventories overlapping legacy/canonical/derived datasets, and compares current Alibaba/Tencent directory IDs. It identifies missing AI service scopes, Huawei global coverage and Azure China. These are assessment findings and enrichment candidates; no canonical cloud locations or location totals change.
+The [October China vendor review](china-vendor-review.20261011.md) preserves the pre-enrichment audit. Its [approved implementation](china-enrichment.20261011.md) adds 105 location-schema records, 213 typed infrastructure assertions, 42 network records and a separate 47-reference vendor/operator/model-brand registry. Legacy and quarantined datasets receive candidate identity reconciliation without inheriting coordinates or speculative capacity.
 
 The later [expanded infrastructure review](infrastructure-expansion.20261011.md) adds 84 separately counted connectivity assertions across 17 open categories. Satellite authorizations, Starlink private interconnect listings, optical/quantum systems, orbital-compute plans, fiber systems and distributed exchanges retain their source-specific units and dates. These records are outside the location and network totals below; their three-record Russia view is derived.
 
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.
 
-The current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,395 location-schema records across 29 layers and 3,125 separately counted network-evidence records across three layers. The October [Google refresh](google-enrichment.20261011.md) adds nine net owned-directory entries and three explicitly listed AI zones to the August inventory, and joins GCPing endpoints and GPU availability. The [Russia reassessment](russia-reassessment.20261011.md) adds five certification-documented Yandex localities with unknown lifecycle. Five mainland views contain 160 repeated IDs; the derived Russia view contains 91 retained declarations, identities and observations. All six views are excluded from the location count. The three China assessments are joined by a Russian-provider assessment and a Yandex image-claim review.
+The current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,500 location-schema records across 31 layers, 3,167 network records across four layers and 297 infrastructure assertions across four layers. The October [Google refresh](google-enrichment.20261011.md) retains its Cloud/AI-zone, GPU and GCPing enrichment; the [Russia reassessment](russia-reassessment.20261011.md) retains five Yandex localities. Seven mainland views repeat 212 IDs and the Russia view repeats 91; all eight views are excluded from canonical totals. The 47-reference vendor registry is separately counted metadata.
 
 The main improvement is semantic, not merely numeric: provider declarations, current lifecycle, access restriction, jurisdiction, product scope, inferred or inherited coordinates, independent observations, partial directories, aggregate marketing coverage, and quarantined claims are now distinct.
 
@@ -45,15 +45,17 @@ Canonical normalized location layers are retained as GeoJSON; network layers are
 | AWS Local Zones | 45 | Current Local Zone ID | 41 points, 4 null |
 | Fastly | 164 | Provider POP ID | 164 points |
 | CacheFly | 87 | Explicit provider location; one planned | 63 points, 24 null |
-| Alibaba Cloud | 137 | 32 regions + 105 availability zones | 83 regional centroids, 54 null |
-| Tencent Cloud | 84 | 22 regions + 62 availability zones | 75 regional centroids, 9 null |
+| Alibaba Cloud | 171 | 38 regions + 133 explicit zones; public/financial/government scopes | 171 null |
+| Tencent Cloud | 97 | 26 regions + 71 zones; one retained unlisted August AZ | 97 null |
 | Baidu AI Cloud | 27 | 8 BCC regions + 19 zones | 27 null |
-| Huawei Cloud | 9 | Product-scoped mainland region ID | 9 null |
-| Volcano Engine | 17 | 4 regions + 13 explicit zone IDs | 17 null |
+| Huawei Cloud | 31 | Product-scoped global region union | 31 null |
+| Volcano Engine | 24 | 6 regions + 18 explicit Auto Scaling zone IDs | 24 null |
 | Kingsoft Cloud | 22 | 8 mainland regions + 14 zones | 22 null |
 | JD Cloud | 14 | 4 mainland regions + 10 zones | 14 null |
 | Tianyi Cloud | 63 | 40 regional + 23 AZ-capable VPC resource pools | 63 null |
-| Chindata | 4 | Partial current data-center directory code | 4 null |
+| Chindata | 4 | Partial directory code; lifecycle and campus aliases unresolved | 4 null |
+| Qiniu QVM | 23 | 2 pools + 21 pool-scoped regions | 23 null |
+| Azure China | 6 | Separate China partition; 21Vianet operator | 6 null |
 | June 2026 ASN observation layer | 13,631 | Valid positive provider/ASN TLS observation; seven raw AS0 rows rejected | 13,631 null |
 | June 2026 partial city observations | 11,659 | Provider/ASN/MaxMind city geolocation from public map | 11,659 points; none is a facility coordinate |
 | CoreWeave core cloud | 63 | 7 super regions + 56 availability zones | 63 null |
@@ -84,7 +86,7 @@ The exact increment is 613 records, replacing the earlier rough estimate. Import
 
 All new geometry is null. AWS Local Zones now link to canonical parent region IDs. The manifest preserves original dates instead of relabeling 2026-08-04 sources as 2026-08-05.
 
-## Mainland-China public-cloud assessment
+## Mainland-China public-cloud assessment (August baseline)
 
 The ten-provider cohort combines established market leaders with coverage-priority providers. It is not an assertion of exact rank from one through ten. The structured result is [`data/china/provider-assessment.20260804.json`](../data/china/provider-assessment.20260804.json).
 
@@ -111,19 +113,21 @@ The ten-provider cohort combines established market leaders with coverage-priori
 - Tianyi's 63 pools are not transformed into availability zones. The provider describes 23 as AZ-capable but does not publish the child IDs on the captured page.
 - No speculative records were emitted for China Mobile or China Unicom.
 
-## Derived mainland views
+## Derived mainland views (current October implementation)
 
 | View | Records | Parent layer |
 |---|---:|---|
-| Alibaba mainland regions and zones | 73 | Alibaba full layer |
-| Tencent mainland general regions and zones | 31 | Tencent full layer |
-| Tencent mainland specialized regions and zones | 17 | Tencent full layer |
+| Alibaba mainland general regions and zones | 77 | Alibaba full layer |
+| Alibaba mainland specialized regions and zones | 30 | Alibaba full layer |
+| Tencent mainland general regions and zones | 32 | Tencent full layer |
+| Tencent mainland specialized regions and zones | 20 | Tencent full layer |
 | Baidu mainland regions and zones | 25 | Baidu full layer |
 | Volcano mainland regions and zones | 14 | Volcano full layer |
+| Huawei mainland regions | 14 | Huawei global product-region layer |
 
-View IDs must be subsets of their parents. Tencent general and specialized mainland views are disjoint. The manifest hashes the retained GeoJSON views, records their derived CSV recipes, and excludes all 160 rows from its canonical count.
+View IDs must be subsets of their parents. Alibaba and Tencent general/specialized scopes are disjoint within each vendor. The manifest excludes all 212 repeated mainland rows and 91 Russia rows from canonical totals.
 
-## Separate China edge/CDN track
+## Separate China edge/CDN track (August baseline)
 
 The edge/CDN cohort is recorded in [`data/china-edge/provider-assessment.20260804.json`](../data/china-edge/provider-assessment.20260804.json). Nine official pages were archived; China Mobile is retained as an explicit source gap.
 
@@ -144,7 +148,7 @@ The assessment deliberately generates zero canonical edge locations. Marketing f
 
 The recommended enrichment path is provider-approved site/IP exports first, followed by stable public site codes, then reproducible low-rate DNS/BGP/TLS/HTTP observations. Licensed IX/facility data and public filings can be linked as independent evidence, but exchange presence must not be presented as provider ownership.
 
-## Separate China colocation track
+## Separate China colocation track (August baseline)
 
 Colocation and hyperscale data-center operators are not merged into the public-cloud cohort. Their market units—facility, building, campus, cabinet, megawatt, and network POP—must remain distinct. The structured assessment is [`data/china-colocation/operator-assessment.20260804.json`](../data/china-colocation/operator-assessment.20260804.json).
 
@@ -241,7 +245,7 @@ At this assessment date:
 - The partial city-observation suite passes for 11,659 records.
 - The network suite passes for 3,125 records across provider-prefix, RIPEstat, and PeeringDB layers.
 - Russia validation covers five Yandex certification localities, nine provider surfaces, all nine image cards, and the derived 91-record RU view.
-- With the refreshed Google layers and Yandex scope, the location-schema inventory comprises 27,395 records across 29 layers; network evidence remains separately counted.
+- With the Google, Yandex and China updates, the location-schema inventory comprises 27,500 records across 31 layers. Network evidence (3,167), infrastructure assertions (297) and vendor references (47) remain separately counted.
 - Recovery validation remains separate and passes unchanged.
 
 Recommended update flow:

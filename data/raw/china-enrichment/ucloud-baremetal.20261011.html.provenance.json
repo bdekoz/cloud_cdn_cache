@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/ucloud-baremetal.20261011.html",
+  "resolved_url": "https://docs.ucloud.cn/uphost/concepts/az",
+  "retrieved_at": "2026-10-11",
+  "sha256": "6908c32c2c60c4110adc799f08741bc3c65dcd344cca7574ce5dfa783b93e309",
+  "source_published_at": null,
+  "source_updated_at": "2026-01-09",
+  "source_url": "https://docs.ucloud.cn/uphost/concepts/az"
+}

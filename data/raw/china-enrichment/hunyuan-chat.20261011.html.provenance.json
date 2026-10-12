@@ -1,0 +1,13 @@
+{
+  "capture_method": "http_response",
+  "http_body_encoding": "gzip",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/hunyuan-chat.20261011.html",
+  "resolved_url": "https://cloud.tencent.com/document/product/1729/105701",
+  "retrieved_at": "2026-10-11",
+  "sha256": "1c1f1eb9cb9a03bc7d9533a9729d4a5be816e6c04dda46dad924e3efe8455832",
+  "source_published_at": null,
+  "source_updated_at": "2026-08-13",
+  "source_url": "https://cloud.tencent.com/document/product/1729/105701"
+}

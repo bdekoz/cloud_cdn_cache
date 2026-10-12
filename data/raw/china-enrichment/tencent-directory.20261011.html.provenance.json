@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+  "resolved_url": "https://www.tencentcloud.com/document/product/213/6091",
+  "retrieved_at": "2026-10-11",
+  "sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+  "source_published_at": null,
+  "source_updated_at": "2026-09-18",
+  "source_url": "https://www.tencentcloud.com/document/product/213/6091"
+}

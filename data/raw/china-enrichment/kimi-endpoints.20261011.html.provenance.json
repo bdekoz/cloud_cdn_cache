@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/kimi-endpoints.20261011.html",
+  "resolved_url": "https://www.kimi.com/en/help/kimi-code/faq",
+  "retrieved_at": "2026-10-11",
+  "sha256": "384344acb19d1f9b4343dcf1ba87ce5f8b4f77de9076381c8e8667ff13c4dca5",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.kimi.com/en/help/kimi-code/faq"
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "application/pdf",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/unicom-csr-2025.20261011.pdf",
+  "resolved_url": "https://www.chinaunicom.com.hk/en/esg/reports/csr2025.pdf",
+  "retrieved_at": "2026-10-11",
+  "sha256": "274e9d5432542dbea745ecc89885f314aa99d9c728adc22b4468bbc805d0fc07",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.chinaunicom.com.hk/en/esg/reports/csr2025.pdf"
+}

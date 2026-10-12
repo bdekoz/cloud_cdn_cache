@@ -52,6 +52,8 @@ Google AI zones use `properties.zone_kind=ai` and restricted project visibility.
 | Kingsoft Cloud | `kingsoft_cloud` | `cloud_region`, `availability_zone` |
 | JD Cloud | `jd_cloud` | `cloud_region`, `availability_zone` |
 | China Telecom Tianyi Cloud | `ctyun_cloud` | `cloud_resource_pool` |
+| Qiniu Cloud | `qiniu_qvm` | `cloud_resource_pool`, `cloud_region` |
+| Microsoft Azure operated by 21Vianet | `azure_china` | `cloud_region` |
 | Chindata | `chindata_colocation` | `data_center` |
 | Amazon Web Services | `aws_cloud` | `cloud_region`, `availability_zone` |
 | Microsoft Azure | `azure_cloud` | `cloud_region` |
@@ -112,3 +114,9 @@ Entity-specific values that do not apply to every layer—such as `asset_count`,
 | `measurement_run` / `reachability_observation` | measurement relationships | A reproducible probe selection and sampled result | Latency and routing do not reveal exact server coordinates |
 
 Network outputs are `NetworkEvidenceCollection` JSON documents. Records carry independent observation time, retrieval time, source version, raw checksum, validity interval, and confidence. Prefix and ASN relationships are many-to-many and time-bound. Location layers may reference network record IDs in future properties, but network evidence must never overwrite provider-declared location records or manufacture geometry.
+
+## China service and vendor evidence
+
+The [October China implementation](../docs/china-enrichment.20261011.md) uses infrastructure-evidence schema 1.0.0 for AI product regions, API endpoints/templates, model listings, GPU product catalogs, recognized compute facilities, portfolios, cable/station declarations and carrier services. Each collection defines its categories and units. Access/storage region, inference scope, developer, API operator and physical host remain distinct. Aggregate or recognition entries do not become speculative location points.
+
+`data/vendors/registry.20261011.json` uses that same record contract for identity metadata. It is separately counted in the manifest and excluded from infrastructure totals. Typed relationships can reference its vendor/brand IDs and explicit canonical region IDs. `validate_collection` resolves external references only against a caller-supplied set of known IDs; its default still rejects unresolved cross-collection joins. Endpoint DNS, ASN registration country, TLS and HTTP results remain non-spatial network evidence. Native observation time is UTC while the October retrieval date uses America/Los_Angeles.

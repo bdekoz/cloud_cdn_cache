@@ -31,10 +31,18 @@
     {
       "path": "data/china/review-evidence.20261011.json",
       "sha256": "1dfdbad987f9f05c6c7a4a4f7ea63e80d426ef5797478d261bf8f0d0129b79cb"
+    },
+    {
+      "path": "data/china/legacy-reconciliation.20261011.json",
+      "sha256": "2f29b0bc3b10648ce4a833317b55462d5d6c3d1f311bafbef9dda3f15a2c0b1a"
+    },
+    {
+      "path": "data/china/enrichment-implementation.20261011.json",
+      "sha256": "a3c1bf5e1bc7a971cc32bb87f398feca2ffd97240db8d22c6e9eab8a54b42ec7"
     }
   ],
   "generated_from_retained_snapshots_at": "2026-10-11",
-  "infrastructure_evidence_layer_count": 1,
+  "infrastructure_evidence_layer_count": 4,
   "infrastructure_evidence_layers": [
     {
       "category_counts": {
@@ -197,9 +205,347 @@
         "site": 3,
         "system": 8
       }
+    },
+    {
+      "category_counts": {
+        "ai_api_endpoint": 48,
+        "ai_service_platform": 4,
+        "ai_service_region": 13,
+        "cloud_product_region": 8,
+        "gpu_product_catalog": 1,
+        "model_service_listing": 61
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/china-ai-services.20261011.csv",
+          "path": "data/infrastructure/china-ai-services.20261011.csv",
+          "source": "data/infrastructure/china-ai-services.20261011.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/china-ai-services.20261011.json",
+          "sha256": "10c04053d8a17f4405ee1faa4d5757ae7fb6a7eef41bc82b27bce0eaac1de7c8"
+        },
+        "report": {
+          "path": "data/infrastructure/china-ai-services.20261011.report.json",
+          "sha256": "23207f8930e345c987975134ca8e54f08fbdb8030d69b32d7d6a278c52d64f88"
+        }
+      },
+      "geometry_null": 135,
+      "layer": "infrastructure/china-ai-services",
+      "record_count": 135,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261011",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/alibaba-gpu-catalog.20261011.html",
+          "sha256": "18e713118c71a291a5309305512588a8edc2fc3a9c7cc8b2b54b73f264ed3da9",
+          "source_published_at": null,
+          "source_updated_at": "2026-08-05",
+          "source_url": "https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/alibaba-model-studio.20261011.html",
+          "sha256": "b6438f9b9be6bf83359adf72dccab7d34718f15edfe91b6abf58424595ca64f9",
+          "source_published_at": null,
+          "source_updated_at": "2026-10-11",
+          "source_url": "https://www.alibabacloud.com/help/en/model-studio/regions"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/baidu-qianfan.20261011.html",
+          "sha256": "95fbd43324fdb4063ef64cf78cd7e357858230d1f5de20dfdc72f03d0f1f103c",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hlonvybn2"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/byteplus-modelark.20261011.html",
+          "sha256": "1904e523c6b13e478ef53807de689db342741275da9a20c6528d3640c7865441",
+          "source_published_at": null,
+          "source_updated_at": "2026-09-28",
+          "source_url": "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/deepseek-api.20261011.html",
+          "sha256": "7ce9db1b1cc7e2efafe7cbfd57b9d46d240c20399f7bd87672c7e3a5250ccdd0",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://api-docs.deepseek.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/fal-identity.20261011.html",
+          "sha256": "766468c68bf14984b100ce36cd8addfd24c59bb1d2b40a50ae3eb877581d922f",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://fal.ai/about"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/fal-queue.20261011.html",
+          "sha256": "a99012141312962483ccf8ce357324eef853b70c7a22d6807c8fd043b39ec449",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://fal.ai/docs/documentation/model-apis/inference/queue"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/hunyuan-chat.20261011.html",
+          "sha256": "1c1f1eb9cb9a03bc7d9533a9729d4a5be816e6c04dda46dad924e3efe8455832",
+          "source_published_at": null,
+          "source_updated_at": "2026-08-13",
+          "source_url": "https://cloud.tencent.com/document/product/1729/105701"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/hunyuan-ingress.20261011.html",
+          "sha256": "b4e1d290ab5d0d2cd6c97faab2fd27427bea7e732092b0970dcf5757783e8ca3",
+          "source_published_at": null,
+          "source_updated_at": "2025-05-21",
+          "source_url": "https://cloud.tencent.com/document/product/1729/101841"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/kimi-endpoints.20261011.html",
+          "sha256": "384344acb19d1f9b4343dcf1ba87ce5f8b4f77de9076381c8e8667ff13c4dca5",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.kimi.com/en/help/kimi-code/faq"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/minimax-quickstart.20261011.html",
+          "sha256": "59533c5d4f85f87ecb457ec46d20243c4d92797683994e1c768ebadc39422645",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://platform.minimax.io/docs/guides/quickstart"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/minimax.20261011.html",
+          "sha256": "3ff2349831596c748fbe3a9186acc0365a08e7ca64fb25bdeecaffc585431190",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://platform.minimax.io/docs/api-reference/api-overview"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/siliconflow-quickstart.20261011.html",
+          "sha256": "7675c741df34a7263748840521460f1b6dd99cdee7ccbdf8c1ef563bf8836a7e",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://docs.siliconflow.com/en/userguide/quickstart"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/siliconflow.20261011.html",
+          "sha256": "06ff9198d94022254b4f313da7a772d4fd39baa80282e97fd44f9826b2e7d406",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://docs.siliconflow.com/en/userguide/introduction"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/tencent-hy3.20261011.html",
+          "sha256": "04105d4c0b1c05dfab12bde992cc515053d41c5dd998fddc39424df72e1bbfd5",
+          "source_published_at": "2026-08-05",
+          "source_updated_at": null,
+          "source_url": "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/ucloud-baremetal-md.20261011.html",
+          "sha256": "c8eff7f6cecda2b405eea1a8c4d6f7d40299dcb5e2c360cc2039984e3d2826ec",
+          "source_published_at": null,
+          "source_updated_at": "2026-01-09",
+          "source_url": "https://docs.ucloud.cn/uphost/concepts/az.md"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/unicom-ai-pools.20261011.html.gz",
+          "sha256": "b6227f49abbe9679a87f0b3b73b8868c37157fcda44cecc78212c96c95003fac",
+          "source_published_at": null,
+          "source_updated_at": "2026-08-24",
+          "source_url": "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/zai.20261011.html",
+          "sha256": "7a54a789a31ddf79c2f4aae27b39631b669968efedad70b2f473bad3a981b976",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://docs.z.ai/guides/overview/quick-start"
+        }
+      ],
+      "unit_counts": {
+        "api_base_url": 12,
+        "api_domain": 30,
+        "endpoint_template": 6,
+        "model_at_named_pool": 51,
+        "model_family_service_listing": 10,
+        "named_product_region": 8,
+        "named_service_pool": 5,
+        "product_catalog": 1,
+        "product_region": 8,
+        "service_platform": 4
+      }
+    },
+    {
+      "category_counts": {
+        "compute_energy_collaboration": 1,
+        "edge_network_portfolio": 2,
+        "provider_infrastructure_portfolio": 3,
+        "recognized_compute_facility": 60
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/china-facilities-and-portfolios.20261011.csv",
+          "path": "data/infrastructure/china-facilities-and-portfolios.20261011.csv",
+          "source": "data/infrastructure/china-facilities-and-portfolios.20261011.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/china-facilities-and-portfolios.20261011.json",
+          "sha256": "fdd0e74b9db9adfd10568dacd0c7c402be00fb278dcdbef3394766a58eda5d98"
+        },
+        "report": {
+          "path": "data/infrastructure/china-facilities-and-portfolios.20261011.report.json",
+          "sha256": "5556752560e2451ffe0ffac31ca0182824821e936aaaae4b0e419e0ee466cb1d"
+        }
+      },
+      "geometry_null": 66,
+      "layer": "infrastructure/china-facilities-and-portfolios",
+      "record_count": 66,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261011",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/baishan-edge.20261011.html",
+          "sha256": "665634bbb34731d12319f50bafc337fba9a079310eddfb133e43ac9567028945",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://intl.baishancloud.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/bilibili-2025-report.20261011.pdf",
+          "sha256": "a769eefc602b5484813cafdeecaa55eba204f7a9f767f0aa62113766a8d02fc0",
+          "source_published_at": "2026-04-16",
+          "source_updated_at": null,
+          "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/gds-directory.20261011.html",
+          "sha256": "98b20981f41841510d7332b8acc48b968367add8db2aadce098269ef89d73743",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.gds-services.com/about_4.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+          "sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+          "source_published_at": "2025-12-29",
+          "source_updated_at": null,
+          "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/vnet-q2.20261011.reviewed.json",
+          "sha256": "e6042350bfd2b6518e5be91914c5cdfc9b28e3010e0381c977dacdd970262b04",
+          "source_published_at": "2026-08-18",
+          "source_updated_at": null,
+          "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/wangsu-cdn.20261011.html",
+          "sha256": "6cca1c6ce48f84eafe34ea4635dfcf0c156d4f68ef485211dd48c365670fef27",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://online.wangsu.com/product/cdn"
+        }
+      ],
+      "unit_counts": {
+        "aggregate_coverage_declaration": 2,
+        "aggregate_portfolio": 2,
+        "collaboration_agreement": 1,
+        "recognition_directory_entry": 60,
+        "supplier_portfolio": 1
+      }
+    },
+    {
+      "category_counts": {
+        "cable_landing_station": 3,
+        "carrier_backbone_portfolio": 2,
+        "network_interconnect_presence": 2,
+        "quantum_secured_wan_service": 1,
+        "submarine_cable_system": 3,
+        "terrestrial_fiber_link": 1
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/china-carrier-links.20261011.csv",
+          "path": "data/infrastructure/china-carrier-links.20261011.csv",
+          "source": "data/infrastructure/china-carrier-links.20261011.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/china-carrier-links.20261011.json",
+          "sha256": "813f149cf48276eba1d1877f6f230d511cf2200c7dd5a14dd2b6809e21e9e5a4"
+        },
+        "report": {
+          "path": "data/infrastructure/china-carrier-links.20261011.report.json",
+          "sha256": "09fb7f53307d1f14dd0c6d16b10b19781f9e9ae0d8d86179886274bd28babcf8"
+        }
+      },
+      "geometry_null": 12,
+      "layer": "infrastructure/china-carrier-links",
+      "record_count": 12,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261011",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/telecom-adc.20261011.html",
+          "sha256": "c3899206fcf98626d4513f0d5e957c497a349cfce16c7098caaca5e510616ccc",
+          "source_published_at": "2025-03-25",
+          "source_updated_at": null,
+          "source_url": "https://www.chinatelecomglobal.com/sc/whats-new/37385"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/telecom-alc.20261011.html",
+          "sha256": "9cf951303fa4f04f634c2a55810617fe32d458830525e152f65711060e6ef3c0",
+          "source_published_at": "2026-05-14",
+          "source_updated_at": null,
+          "source_url": "https://www.chinatelecomglobal.com/whats-new/37553"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/telecom-hkis1.20261011.html",
+          "sha256": "d33e74ac52a61dbf80599a26f10a506c2e350126c28255d60a4b2b5fad8adfd4",
+          "source_published_at": "2023-01-12",
+          "source_updated_at": null,
+          "source_url": "https://www.chinatelecomglobal.com/sc/whats-new/37253"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/telecom-portfolio.20261011.html",
+          "sha256": "414bcc383b68f2c47cc96bf03e6c7e69394056ddb4d0e82f1c9d80e8a0d120b1",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.chinatelecomglobal.com/sc/company/about-us"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/telecom-quantum-sdwan.20261011.html",
+          "sha256": "bc451775394366f62dff3e971def7be61f9b14ef608e9b4719f930fb42f20d36",
+          "source_published_at": "2026-06-18",
+          "source_updated_at": null,
+          "source_url": "https://www.chinatelecomglobal.com/whats-new/37555"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/unicom-csr-2025.20261011.pdf",
+          "sha256": "274e9d5432542dbea745ecc89885f314aa99d9c728adc22b4468bbc805d0fc07",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.chinaunicom.com.hk/en/esg/reports/csr2025.pdf"
+        }
+      ],
+      "unit_counts": {
+        "aggregate_network_portfolio": 2,
+        "declared_backhaul_connection": 1,
+        "named_interconnection_site": 2,
+        "named_station_declaration": 1,
+        "service_product": 1,
+        "station_code_declaration": 2,
+        "system": 3
+      }
     }
   ],
-  "infrastructure_evidence_record_count": 84,
+  "infrastructure_evidence_record_count": 297,
   "infrastructure_evidence_schema": {
     "path": "schema/infrastructure-evidence.schema.json",
     "sha256": "fa850334dc793a71207e5e1589b6f2f4af4ae23be9741f5f57abc3ea9be2487f",
@@ -261,7 +607,7 @@
       "view_of": "infrastructure/connectivity"
     }
   ],
-  "layer_count": 29,
+  "layer_count": 31,
   "layers": [
     {
       "coordinate_methods": {
@@ -740,104 +1086,119 @@
     },
     {
       "coordinate_methods": {
-        "legacy": 83,
-        "unknown": 54
+        "unknown": 171
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/alibaba/regions-and-zones.20260804.csv",
-          "path": "data/alibaba/regions-and-zones.20260804.csv",
-          "source": "data/alibaba/regions-and-zones.20260804.geojson"
+          "generator": "make data/alibaba/regions-and-zones.20261011.csv",
+          "path": "data/alibaba/regions-and-zones.20261011.csv",
+          "source": "data/alibaba/regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
-        "availability_zone": 105,
-        "cloud_region": 32
+        "availability_zone": 133,
+        "cloud_region": 38
       },
       "files": {
         "geojson": {
-          "path": "data/alibaba/regions-and-zones.20260804.geojson",
-          "sha256": "d8255e4f28efec492801d9deece3e8e3954e5e8350d89945f3f0406d7a56382a"
+          "path": "data/alibaba/regions-and-zones.20261011.geojson",
+          "sha256": "e18df2b13adeaaaa4b10bf1d2c5ee0c02f58fa47f7af166a88cb297cf1d05d4e"
         },
         "report": {
-          "path": "data/alibaba/regions-and-zones.20260804.report.json",
-          "sha256": "7d72fea38266323a064a62051532b364a2fb04c4b104afdc004478dd4e811c51"
+          "path": "data/alibaba/regions-and-zones.20261011.report.json",
+          "sha256": "9243059b6f87c3e0e77f6a0721010491ec54e9c698429f3af18d8e5ed1d0dffe"
         }
       },
-      "geometry_null": 54,
+      "geometry_null": 171,
       "layer": "alibaba/regions-and-zones",
       "providers": [
         "Alibaba Cloud"
       ],
-      "record_count": 137,
+      "record_count": 171,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "alibaba_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/alibaba/regions-and-zones.20260804.html",
-          "sha256": "e150b5f4b9a11f117cc851a3cb616a512ce5ee4f4821a2eec269bd9bb1939c7f",
-          "source_published_at": "2026-07-01",
+          "raw_source_ref": "data/raw/china-enrichment/alibaba-directory.20261011.html",
+          "sha256": "8248e4772f5145002fdcea4eed4909509f7c2303af2df62873855acd43154831",
+          "source_published_at": null,
+          "source_updated_at": "2026-10-10",
           "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/alibaba-marketing.20261011.html",
+          "sha256": "669041d0d3f4bbd24a0edbbe3dec480521521a7bce1c0d2adcc3aec77f0c2c5e",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.alibabacloud.com/en/global-locations"
         }
       ]
     },
     {
       "coordinate_methods": {
-        "legacy": 75,
-        "unknown": 9
+        "unknown": 97
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/tencent/regions-and-zones.20260804.csv",
-          "path": "data/tencent/regions-and-zones.20260804.csv",
-          "source": "data/tencent/regions-and-zones.20260804.geojson"
+          "generator": "make data/tencent/regions-and-zones.20261011.csv",
+          "path": "data/tencent/regions-and-zones.20261011.csv",
+          "source": "data/tencent/regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
-        "availability_zone": 62,
-        "cloud_region": 22
+        "availability_zone": 71,
+        "cloud_region": 26
       },
       "files": {
         "geojson": {
-          "path": "data/tencent/regions-and-zones.20260804.geojson",
-          "sha256": "c8d9882e958dfb46b2c5b2dcea2b7e0c8f92a3a2fd5e09fdd975c8a6c68cf363"
+          "path": "data/tencent/regions-and-zones.20261011.geojson",
+          "sha256": "2bc21869ac7ff7b73e54223115e65d999cb86b30784212e4fef4a3814d67503d"
         },
         "report": {
-          "path": "data/tencent/regions-and-zones.20260804.report.json",
-          "sha256": "77e0a5dec7955d4ea5379cbee6b7f005731c04152f37a0344169c66df416e8c7"
+          "path": "data/tencent/regions-and-zones.20261011.report.json",
+          "sha256": "4c5aa7d50e58474c460a47a49082f6f42d91e8f2bd434311183b5dabc98edec2"
         }
       },
-      "geometry_null": 9,
+      "geometry_null": 97,
       "layer": "tencent/regions-and-zones",
       "providers": [
         "Tencent Cloud"
       ],
-      "record_count": 84,
+      "record_count": 97,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-08-04",
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.1.0",
+        "1.2.0"
       ],
       "services": [
         "tencent_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+          "sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+          "source_published_at": null,
+          "source_updated_at": "2026-09-18",
+          "source_url": "https://www.tencentcloud.com/document/product/213/6091"
+        },
         {
           "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
           "sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
@@ -852,9 +1213,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/baidu/regions-and-zones.20260804.csv",
-          "path": "data/baidu/regions-and-zones.20260804.csv",
-          "source": "data/baidu/regions-and-zones.20260804.geojson"
+          "generator": "make data/baidu/regions-and-zones.20261011.csv",
+          "path": "data/baidu/regions-and-zones.20261011.csv",
+          "source": "data/baidu/regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
@@ -863,12 +1224,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/baidu/regions-and-zones.20260804.geojson",
-          "sha256": "2bdb72842f3aa5f8d5993f685b54184cb75e51f434f13e79e144b5c2aecb1597"
+          "path": "data/baidu/regions-and-zones.20261011.geojson",
+          "sha256": "b5c28ae85d80e5e19c25849b876115eae3837286178b52583918e183e20af164"
         },
         "report": {
-          "path": "data/baidu/regions-and-zones.20260804.report.json",
-          "sha256": "7caf63b637f507ef01019b3e73701d9d693656e2e4ecf3f35a7b5f39bbc689a6"
+          "path": "data/baidu/regions-and-zones.20261011.report.json",
+          "sha256": "096c68638ae39ae0a6cebcd6a7adc2957a483394c3bc8f9cdebc683de3c65cfa"
         }
       },
       "geometry_null": 27,
@@ -878,128 +1239,166 @@
       ],
       "record_count": 27,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "baidu_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/baidu/bcc-service-domains.20260804.html",
+          "raw_source_ref": "data/raw/china-enrichment/baidu-bcc.20261011.html",
           "sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
-          "source_published_at": "2025-08-20",
+          "source_published_at": null,
+          "source_updated_at": "2025-08-20",
           "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
         }
       ]
     },
     {
       "coordinate_methods": {
-        "unknown": 9
+        "unknown": 31
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/huawei/mainland-regions.20260804.csv",
-          "path": "data/huawei/mainland-regions.20260804.csv",
-          "source": "data/huawei/mainland-regions.20260804.geojson"
+          "generator": "make data/huawei/regions.20261011.csv",
+          "path": "data/huawei/regions.20261011.csv",
+          "source": "data/huawei/regions.20261011.geojson"
         }
       },
       "entity_types": {
-        "cloud_region": 9
+        "cloud_region": 31
       },
       "files": {
         "geojson": {
-          "path": "data/huawei/mainland-regions.20260804.geojson",
-          "sha256": "b26a65f83bd27b338b478f5545a9bc70af8eb3336c3772719cd737833981cecd"
+          "path": "data/huawei/regions.20261011.geojson",
+          "sha256": "dd413fd84f0684c4b21936e52dec7556ce79a027871cc08cd33fd3b21ff417a8"
         },
         "report": {
-          "path": "data/huawei/mainland-regions.20260804.report.json",
-          "sha256": "b36aaa44b0a4208735c9bfca2bf7968464adf3aed770800529f0bf1a329de8ff"
+          "path": "data/huawei/regions.20261011.report.json",
+          "sha256": "02713282a2bdd1fe5fee83d4f0b9011f830234a704df8fbf1be5589cf464a6b7"
         }
       },
-      "geometry_null": 9,
-      "layer": "huawei/mainland-regions",
+      "geometry_null": 31,
+      "layer": "huawei/regions",
       "providers": [
         "Huawei Cloud"
       ],
-      "record_count": 9,
+      "record_count": 31,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "huawei_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/huawei/cloud-connect-regions.20260804.html",
-          "sha256": "156a49fcb23f276d0891d4b5d4a44d84cd6cd9dfb87c1a8ca210d9bfa0c39e19",
-          "source_published_at": "2026-01-29",
-          "source_url": "https://support.huaweicloud.com/productdesc-cc/cc_01_0003.html"
+          "raw_source_ref": "data/raw/china-enrichment/huawei-cloud-connect.20261011.html",
+          "sha256": "085d87a81c82ed33e41edb7359655e004bf388330f54ebeaa38a34f2d9ad9ebb",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://support.huaweicloud.com/intl/en-us/productdesc-cc/cc_01_0003.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/huawei-global.20261011.html",
+          "sha256": "586e06a1ce9e2a30fdf2341d8a8db5ff7b820c838b486d914ef69975c98cd6ea",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.huaweicloud.com/intl/en-us/about/global-infrastructure.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/huawei-iam-global.20261011.html",
+          "sha256": "a5dd4aa2a3f25d8f0986ebcf90e26213a5b8424c0a804c52aa3205cc047b6c45",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://support.huaweicloud.com/intl/en-us/api-iam/iam_01_0001.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/huawei-identity-policy.20261011.html",
+          "sha256": "31e884a8a6a35414e504be158ffab1fccfc90ce6899857b27453e8a24b12d93f",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://support.huaweicloud.com/intl/en-us/usermanual-iam5/iam_01_1334.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/huawei-rfs.20261011.html",
+          "sha256": "a540b25d3e7e0b1ab1f14dbaf51fc800b9f4223caf73dc7a6c42f76b8311c9c7",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://support.huaweicloud.com/intl/en-us/usermanual-aos/rf_04_0020.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/huawei-trust.20261011.html",
+          "sha256": "9a1558cdee4416df3623a822741d411704f7543391fed15d349c9cd46a181932",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html"
         }
       ]
     },
     {
       "coordinate_methods": {
-        "unknown": 17
+        "unknown": 24
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/volcano/regions-and-zones.20260804.csv",
-          "path": "data/volcano/regions-and-zones.20260804.csv",
-          "source": "data/volcano/regions-and-zones.20260804.geojson"
+          "generator": "make data/volcano/regions-and-zones.20261011.csv",
+          "path": "data/volcano/regions-and-zones.20261011.csv",
+          "source": "data/volcano/regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
-        "availability_zone": 13,
-        "cloud_region": 4
+        "availability_zone": 18,
+        "cloud_region": 6
       },
       "files": {
         "geojson": {
-          "path": "data/volcano/regions-and-zones.20260804.geojson",
-          "sha256": "075e65d2bd782541c95670eb9e46c3f2f2e9290d14a741b86922e4dfc6ce3fe5"
+          "path": "data/volcano/regions-and-zones.20261011.geojson",
+          "sha256": "3392685ecdedd9be2c5aba03a2b2e7178d389906b26c5f25b4423d38ac7bb1ca"
         },
         "report": {
-          "path": "data/volcano/regions-and-zones.20260804.report.json",
-          "sha256": "6d4d35a48adc02ddb20d212cdca18b705a6e53811e4081152803be001e1a18cb"
+          "path": "data/volcano/regions-and-zones.20261011.report.json",
+          "sha256": "5f502ed2635be535f36052d13ea2767027a43bf1dec6710c390c1e2f2e045e5e"
         }
       },
-      "geometry_null": 17,
+      "geometry_null": 24,
       "layer": "volcano/regions-and-zones",
       "providers": [
         "Volcano Engine"
       ],
-      "record_count": 17,
+      "record_count": 24,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "volcano_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/volcano/regions-and-zones.20260804.json",
-          "sha256": "84385367a41e5f6d11a76092822df9327c779a643b3b3c5eac5fd6c118539359",
-          "source_published_at": "2025-09-26",
+          "raw_source_ref": "data/raw/china-enrichment/volcano-directory.20261011.json",
+          "sha256": "b1e0a987509d1afbf33703083cda9f697e207b1909a2b9f310955afcf1c6cad5",
+          "source_published_at": "2022-03-01",
+          "source_updated_at": "2025-09-26",
           "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en"
         }
       ]
@@ -1010,9 +1409,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/kingsoft/mainland-regions-and-zones.20260804.csv",
-          "path": "data/kingsoft/mainland-regions-and-zones.20260804.csv",
-          "source": "data/kingsoft/mainland-regions-and-zones.20260804.geojson"
+          "generator": "make data/kingsoft/mainland-regions-and-zones.20261011.csv",
+          "path": "data/kingsoft/mainland-regions-and-zones.20261011.csv",
+          "source": "data/kingsoft/mainland-regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
@@ -1021,12 +1420,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/kingsoft/mainland-regions-and-zones.20260804.geojson",
-          "sha256": "db876f1d7e8e7714d5cc1e13091e2fd0ec10284e7e8f441994bc87568a7746d4"
+          "path": "data/kingsoft/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "9fbc91f6d961d31032c20ee8d34d62e376d8b0a5121d9f7e7c101c99ca3589a6"
         },
         "report": {
-          "path": "data/kingsoft/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "90a623e9667201c07b36622afafcaaefae256081815d0283231e1162e89ce07f"
+          "path": "data/kingsoft/mainland-regions-and-zones.20261011.report.json",
+          "sha256": "a8b8fda9a499758cb5f772070947bc691c5a7778091e30bb2685d106483f25cd"
         }
       },
       "geometry_null": 22,
@@ -1036,23 +1435,24 @@
       ],
       "record_count": 22,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "kingsoft_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/kingsoft/kec-regions-and-zones.20260804.html",
-          "sha256": "dbde5504164eafaebae1da902e05b5ac7563e4c461124766a5083cbcf015df20",
-          "source_published_at": "2026-01-09",
+          "raw_source_ref": "data/raw/china-enrichment/kingsoft-kec.20261011.html",
+          "sha256": "5eb1eb9c8e56c1d482886732a5614da07b6596dc8ae9f051d83e01e03cc71860",
+          "source_published_at": null,
+          "source_updated_at": "2026-01-09",
           "source_url": "https://docs.ksyun.com/documents/6965"
         }
       ]
@@ -1063,9 +1463,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/jd/mainland-regions-and-zones.20260804.csv",
-          "path": "data/jd/mainland-regions-and-zones.20260804.csv",
-          "source": "data/jd/mainland-regions-and-zones.20260804.geojson"
+          "generator": "make data/jd/mainland-regions-and-zones.20261011.csv",
+          "path": "data/jd/mainland-regions-and-zones.20261011.csv",
+          "source": "data/jd/mainland-regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
@@ -1074,12 +1474,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/jd/mainland-regions-and-zones.20260804.geojson",
-          "sha256": "3c57272c974f01aaf297aafacd065d7631f1fdfb118540a1b5a6ee4b09d820ef"
+          "path": "data/jd/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "17ac545e377912f40b8369623dae5d0d39ae9c6d5bd57894b38eb2fba80769dc"
         },
         "report": {
-          "path": "data/jd/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "9ad184bab4162e554714d7973593d4c19b3d197f0c9de2acde8a22faa1edb072"
+          "path": "data/jd/mainland-regions-and-zones.20261011.report.json",
+          "sha256": "73b6c92495449b2f5b38dd64bdd7716756891f545c010379e32bcebab09dfdc1"
         }
       },
       "geometry_null": 14,
@@ -1089,23 +1489,24 @@
       ],
       "record_count": 14,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "jd_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/jd/cvm-regions-and-zones.20260804.html",
-          "sha256": "99de5647b462a306915f27edebd17d48045d8967b2a566e813a989c584cb2485",
+          "raw_source_ref": "data/raw/china-enrichment/jd-cvm.20261011.html",
+          "sha256": "ae17e748d18edfa50e3927e11479d5d267e8c445df4e13237e031bd03443d8cc",
           "source_published_at": null,
+          "source_updated_at": "2025-06-17",
           "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones"
         }
       ]
@@ -1116,9 +1517,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/tianyi/vpc-resource-pools.20260804.csv",
-          "path": "data/tianyi/vpc-resource-pools.20260804.csv",
-          "source": "data/tianyi/vpc-resource-pools.20260804.geojson"
+          "generator": "make data/tianyi/vpc-resource-pools.20261011.csv",
+          "path": "data/tianyi/vpc-resource-pools.20261011.csv",
+          "source": "data/tianyi/vpc-resource-pools.20261011.geojson"
         }
       },
       "entity_types": {
@@ -1126,12 +1527,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/tianyi/vpc-resource-pools.20260804.geojson",
-          "sha256": "9f2e1538d19e7de792e0b82186074d94fb2c52f3b23a9991630ee7f22839e54f"
+          "path": "data/tianyi/vpc-resource-pools.20261011.geojson",
+          "sha256": "58ebc35590386ccda28f06817f04b2bf85fda04701207e9bc1ab0ef912945b36"
         },
         "report": {
-          "path": "data/tianyi/vpc-resource-pools.20260804.report.json",
-          "sha256": "b0f82d2f2b0a21ff6d682b9c2643918fb3b333f3068ad993b03c031b34fce877"
+          "path": "data/tianyi/vpc-resource-pools.20261011.report.json",
+          "sha256": "c6f165993cc6d9c5324b22ec8a1c74976eed2cd6e6b92f438ab3ee683bec87a8"
         }
       },
       "geometry_null": 63,
@@ -1141,23 +1542,24 @@
       ],
       "record_count": 63,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "ctyun_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/tianyi/vpc-resource-pools.20260804.html",
-          "sha256": "17bd8059960fa9ec3bc11fdd6833cfbd131bca06b573281e5cfba276a5420c35",
-          "source_published_at": "2026-06-24",
+          "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+          "sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+          "source_published_at": null,
+          "source_updated_at": "2026-06-24",
           "source_url": "https://www.ctyun.cn/document/10026755/10196575"
         }
       ]
@@ -1168,9 +1570,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/chindata/data-centers.20260804.csv",
-          "path": "data/chindata/data-centers.20260804.csv",
-          "source": "data/chindata/data-centers.20260804.geojson"
+          "generator": "make data/chindata/data-centers.20261011.csv",
+          "path": "data/chindata/data-centers.20261011.csv",
+          "source": "data/chindata/data-centers.20261011.geojson"
         }
       },
       "entity_types": {
@@ -1178,12 +1580,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/chindata/data-centers.20260804.geojson",
-          "sha256": "28e320d929ca0523faf459f3f3e30d1c6937900568bba0279d7978253383c4fe"
+          "path": "data/chindata/data-centers.20261011.geojson",
+          "sha256": "5f59fe01b8141f4827cb556233da332cfaa86768a531fbfb375ca519f1c99f29"
         },
         "report": {
-          "path": "data/chindata/data-centers.20260804.report.json",
-          "sha256": "5d1c595907f5b182b284ae645f5afb8ea1304570b2c6301361d443dbb91346fa"
+          "path": "data/chindata/data-centers.20261011.report.json",
+          "sha256": "9a8213054df3f64d8e481c3dfb9f1ddaa93b144646fa8ce6ac4a31a9075c763e"
         }
       },
       "geometry_null": 4,
@@ -1193,21 +1595,21 @@
       ],
       "record_count": 4,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "chindata_colocation"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/china-colocation/chindata-locations.20260804.html",
+          "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
           "sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
           "source_published_at": null,
           "source_url": "https://www.chindatagroup.com/global.html"
@@ -1367,9 +1769,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/aws/regions-and-zones.20260805.csv",
-          "path": "data/aws/regions-and-zones.20260805.csv",
-          "source": "data/aws/regions-and-zones.20260805.geojson"
+          "generator": "make data/aws/regions-and-zones.20261011.csv",
+          "path": "data/aws/regions-and-zones.20261011.csv",
+          "source": "data/aws/regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
@@ -1378,12 +1780,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/aws/regions-and-zones.20260805.geojson",
-          "sha256": "778c3c6b3901298ac27530b64753b6c5c2ae2b0d7be9a6dc2af7d528a1a3337f"
+          "path": "data/aws/regions-and-zones.20261011.geojson",
+          "sha256": "4c0eae97f86067840f231b0c36e7c2f8c01e7bc033cc01a75a4e4b7b6494ede9"
         },
         "report": {
-          "path": "data/aws/regions-and-zones.20260805.report.json",
-          "sha256": "6c5834ec243c4e7a4788701391c28875628622688284525e18a9eba68dcc3523"
+          "path": "data/aws/regions-and-zones.20261011.report.json",
+          "sha256": "b3adf518d42a632595a5cc37400e85685fa0c7561f04f654cef2a233f5d38d5a"
         }
       },
       "geometry_null": 147,
@@ -1401,7 +1803,7 @@
       "services": [
         "aws_cloud"
       ],
-      "snapshot_tag": "20260805",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
@@ -1429,6 +1831,13 @@
           "sha256": "00533a92d7924d5a784a975e285c31e03c11071a044d395bca81735f31d0d4dd",
           "source_published_at": null,
           "source_url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/using-govcloud.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+          "sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.amazonaws.cn/en/about-aws/china/"
         }
       ]
     },
@@ -1907,9 +2316,116 @@
           "source_url": "https://cdn.syndication.twimg.com/tweet-result?id=2109158415402479630&lang=en&token=0"
         }
       ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 6
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/microsoft/china-cloud-regions.20261011.csv",
+          "path": "data/microsoft/china-cloud-regions.20261011.csv",
+          "source": "data/microsoft/china-cloud-regions.20261011.geojson"
+        }
+      },
+      "entity_types": {
+        "cloud_region": 6
+      },
+      "files": {
+        "geojson": {
+          "path": "data/microsoft/china-cloud-regions.20261011.geojson",
+          "sha256": "1c818879dcd4dea4e25536263621d755c0331493084435545217fa2afd562dab"
+        },
+        "report": {
+          "path": "data/microsoft/china-cloud-regions.20261011.report.json",
+          "sha256": "1e429b4bbfc641567d9d04546e4ecb39c03c3b63b2140cbd9e1e7e45104397fc"
+        }
+      },
+      "geometry_null": 6,
+      "layer": "microsoft/china-cloud-regions",
+      "providers": [
+        "Microsoft Azure operated by 21Vianet"
+      ],
+      "record_count": 6,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "azure_china"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/azure-china.20261011.html",
+          "sha256": "9cd614dd74bfb9073da45a3438ce4f494bf9eb2bca7a392109d136b30514c223",
+          "source_published_at": null,
+          "source_updated_at": "2026-10-05",
+          "source_url": "https://docs.azure.cn/en-us/reliability/regions-list"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 23
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/qiniu/resource-pools-and-regions.20261011.csv",
+          "path": "data/qiniu/resource-pools-and-regions.20261011.csv",
+          "source": "data/qiniu/resource-pools-and-regions.20261011.geojson"
+        }
+      },
+      "entity_types": {
+        "cloud_region": 21,
+        "cloud_resource_pool": 2
+      },
+      "files": {
+        "geojson": {
+          "path": "data/qiniu/resource-pools-and-regions.20261011.geojson",
+          "sha256": "a156164864f64d10c9417d979e202ec9a437c72f523aef71ba0eaabf3e249c49"
+        },
+        "report": {
+          "path": "data/qiniu/resource-pools-and-regions.20261011.report.json",
+          "sha256": "8c7138f7d7f63372178ac289fc793449e000daf1826675c920e69fea1dfe40b0"
+        }
+      },
+      "geometry_null": 23,
+      "layer": "qiniu/resource-pools-and-regions",
+      "providers": [
+        "Qiniu Cloud"
+      ],
+      "record_count": 23,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "qiniu_qvm"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/qiniu-resource-pools.20261011.html",
+          "sha256": "12ee13b3f0087bada545ac9f83b9c0d17b5de9c5ce77199d58d53f3240a8dbb9",
+          "source_published_at": null,
+          "source_updated_at": "2026-05-06",
+          "source_url": "https://developer.qiniu.com/qvm/4190/region-zone"
+        }
+      ]
     }
   ],
-  "network_evidence_layer_count": 3,
+  "network_evidence_layer_count": 4,
   "network_evidence_layers": [
     {
       "derived_files": {
@@ -2195,9 +2711,313 @@
         "operational": 1026,
         "registered": 498
       }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/china-vendor-evidence.20261011.csv",
+          "path": "data/network/china-vendor-evidence.20261011.csv",
+          "source": "data/network/china-vendor-evidence.20261011.json"
+        }
+      },
+      "evidence_types": {
+        "facility_registration": 2,
+        "ix_membership": 4,
+        "measurement_run": 1,
+        "reachability_observation": 23,
+        "routing_origin": 12
+      },
+      "files": {
+        "json": {
+          "path": "data/network/china-vendor-evidence.20261011.json",
+          "sha256": "7a83fb7863d26c83ca375222c31ea37a996595582e43a4120aedc377cf14d6b3"
+        },
+        "report": {
+          "path": "data/network/china-vendor-evidence.20261011.report.json",
+          "sha256": "5203761815441f4fa164a1265c7b305cad2f27e00b537ddab52e4a220715f73d"
+        }
+      },
+      "layer": "china-vendor-evidence",
+      "providers": [
+        "ACE CDN",
+        "Akamai Technologies",
+        "Alibaba (China)",
+        "Alibaba Cloud",
+        "Amazon.com",
+        "BytePlus",
+        "Byteplus Pte. Ltd.",
+        "China Unicom Cloud",
+        "Cloudflare",
+        "Google Cloud",
+        "Tencent Cloud",
+        "Tencent Global",
+        "deepseek",
+        "fal",
+        "minimax",
+        "moonshot",
+        "siliconflow",
+        "zai"
+      ],
+      "record_count": 42,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "china_vendor_network_evidence"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "observed",
+        "registry"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://aigw-gzgy2.cucloud.cn/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://aigw-hbwh4.cucloud.cn/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://aigw-jnzs5.cucloud.cn/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://aigw-nmhhht.cucloud.cn/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.deepseek.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.kimi.ai/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.kimi.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.minimax.io/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.moonshot.ai/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.moonshot.cn/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.siliconflow.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://api.z.ai/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://ark.ap-southeast.bytepluses.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://ark.eu-west.bytepluses.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://cn-hongkong.dashscope.aliyuncs.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://dashscope-intl.aliyuncs.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://dashscope.aliyuncs.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://hunyuan.ai.tencentcloudapi.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://hunyuan.tencentcloudapi.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://queue.fal.run/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://trial.ap-southeast-1.maas.aliyuncs.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://trial.cn-beijing.maas.aliyuncs.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "https://trial.cn-hongkong.maas.aliyuncs.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-observations.20261011.json",
+          "sha256": "e62b349bb3f76dfc34b2c0dd4b28803f1c4c55d2bb9e0d5346b6e1729f9d5299",
+          "source_published_at": null,
+          "source_url": "urn:cloud-cdn-cache:endpoint-observations:20261011"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-peeringdb.20261011.json",
+          "sha256": "8e4aa40633d8829bc520ad0fa742c59d845c4a6425a74b5c438b933b005178aa",
+          "source_published_at": null,
+          "source_url": "https://www.peeringdb.com/api/netfac?net_id=5005"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-peeringdb.20261011.json",
+          "sha256": "8e4aa40633d8829bc520ad0fa742c59d845c4a6425a74b5c438b933b005178aa",
+          "source_published_at": null,
+          "source_url": "https://www.peeringdb.com/api/netixlan?net_id=15604"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-peeringdb.20261011.json",
+          "sha256": "8e4aa40633d8829bc520ad0fa742c59d845c4a6425a74b5c438b933b005178aa",
+          "source_published_at": null,
+          "source_url": "https://www.peeringdb.com/api/netixlan?net_id=5005"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=101.47.10.109"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=104.18.16.93"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=104.18.20.246"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=104.18.28.136"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=202.52.252.121"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=23.46.216.134"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=3.173.21.63"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=35.253.220.11"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=39.96.198.249"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=39.96.23.86"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=43.153.127.241"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/endpoint-routing.20261011.json",
+          "sha256": "fda21bee7da71a42149eff939db8c99d0c36a5dd4fe5f7f6e3dea59a176a632e",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=43.159.104.94"
+        }
+      ],
+      "statuses": {
+        "announced": 12,
+        "observed": 1,
+        "ok": 6,
+        "tls_verified": 23
+      }
     }
   ],
-  "network_evidence_record_count": 3125,
+  "network_evidence_record_count": 3167,
   "network_evidence_schema": {
     "path": "schema/network-evidence.schema.json",
     "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",
@@ -2207,65 +3027,342 @@
     "audit_path": "data/quarantine/audit.20260804.json",
     "audit_sha256": "04436c3e7bf4b0864e70bd0be95d4c95ef9e314eb32d63a18f514436ae4beadc"
   },
-  "record_count": 27395,
+  "record_count": 27500,
   "schema": {
     "path": "schema/location.schema.json",
     "sha256": "dbd1065a59c6ba5c7bbf6de3042f8158d2112b4637ce40fb6315cc3d1558cd12",
     "version": "1.2.0"
   },
   "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
-  "view_count": 6,
+  "vendor_registry": {
+    "category_counts": {
+      "vendor_identity": 47
+    },
+    "counted_as_infrastructure": false,
+    "derived_files": {
+      "csv": {
+        "generator": "make data/vendors/registry.20261011.csv",
+        "path": "data/vendors/registry.20261011.csv",
+        "source": "data/vendors/registry.20261011.json"
+      }
+    },
+    "files": {
+      "json": {
+        "path": "data/vendors/registry.20261011.json",
+        "sha256": "3ee7ea3eee19b380d390658a6b53c2147e5870d6c744f591dfd8f094efbea439"
+      }
+    },
+    "geometry_null": 47,
+    "layer": "vendors/registry",
+    "record_count": 47,
+    "schema_version": "1.0.0",
+    "snapshot_tag": "20261011",
+    "sources": [
+      {
+        "raw_source_ref": "data/raw/china-enrichment/alibaba-directory.20261011.html",
+        "sha256": "8248e4772f5145002fdcea4eed4909509f7c2303af2df62873855acd43154831",
+        "source_published_at": null,
+        "source_updated_at": "2026-10-10",
+        "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/alibaba-model-studio.20261011.html",
+        "sha256": "b6438f9b9be6bf83359adf72dccab7d34718f15edfe91b6abf58424595ca64f9",
+        "source_published_at": null,
+        "source_updated_at": "2026-10-11",
+        "source_url": "https://www.alibabacloud.com/help/en/model-studio/regions"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+        "sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://www.amazonaws.cn/en/about-aws/china/"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/azure-china-operator.20261011.html",
+        "sha256": "24a71ed7829843d60545be22181833a034a9b15dda35e4c951781f3330877f13",
+        "source_published_at": null,
+        "source_updated_at": "2023-12-13",
+        "source_url": "https://learn.microsoft.com/en-us/azure/china/overview-operations"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/azure-china.20261011.html",
+        "sha256": "9cd614dd74bfb9073da45a3438ce4f494bf9eb2bca7a392109d136b30514c223",
+        "source_published_at": null,
+        "source_updated_at": "2026-10-05",
+        "source_url": "https://docs.azure.cn/en-us/reliability/regions-list"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/baidu-bcc.20261011.html",
+        "sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+        "source_published_at": null,
+        "source_updated_at": "2025-08-20",
+        "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/baishan-edge.20261011.html",
+        "sha256": "665634bbb34731d12319f50bafc337fba9a079310eddfb133e43ac9567028945",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://intl.baishancloud.com/"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/bilibili-2025-report.20261011.pdf",
+        "sha256": "a769eefc602b5484813cafdeecaa55eba204f7a9f767f0aa62113766a8d02fc0",
+        "source_published_at": "2026-04-16",
+        "source_updated_at": null,
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/byteplus-modelark.20261011.html",
+        "sha256": "1904e523c6b13e478ef53807de689db342741275da9a20c6528d3640c7865441",
+        "source_published_at": null,
+        "source_updated_at": "2026-09-28",
+        "source_url": "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+        "sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/global.html"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/deepseek-api.20261011.html",
+        "sha256": "7ce9db1b1cc7e2efafe7cbfd57b9d46d240c20399f7bd87672c7e3a5250ccdd0",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://api-docs.deepseek.com/"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/deepseek-identity.20261011.html",
+        "sha256": "339984e36a795843ee2b5b917797072ec249f3c0e9ff7cbbfe754c01caa4f069",
+        "source_published_at": null,
+        "source_updated_at": "2026-02-10",
+        "source_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/fal-identity.20261011.html",
+        "sha256": "766468c68bf14984b100ce36cd8addfd24c59bb1d2b40a50ae3eb877581d922f",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://fal.ai/about"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/gds-directory.20261011.html",
+        "sha256": "98b20981f41841510d7332b8acc48b968367add8db2aadce098269ef89d73743",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://www.gds-services.com/about_4.html"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/huawei-global.20261011.html",
+        "sha256": "586e06a1ce9e2a30fdf2341d8a8db5ff7b820c838b486d914ef69975c98cd6ea",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://www.huaweicloud.com/intl/en-us/about/global-infrastructure.html"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/jd-cvm.20261011.html",
+        "sha256": "ae17e748d18edfa50e3927e11479d5d267e8c445df4e13237e031bd03443d8cc",
+        "source_published_at": null,
+        "source_updated_at": "2025-06-17",
+        "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/kimi-endpoints.20261011.html",
+        "sha256": "384344acb19d1f9b4343dcf1ba87ce5f8b4f77de9076381c8e8667ff13c4dca5",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://www.kimi.com/en/help/kimi-code/faq"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/kingsoft-kec.20261011.html",
+        "sha256": "5eb1eb9c8e56c1d482886732a5614da07b6596dc8ae9f051d83e01e03cc71860",
+        "source_published_at": null,
+        "source_updated_at": "2026-01-09",
+        "source_url": "https://docs.ksyun.com/documents/6965"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/kling.20261011.reviewed.json",
+        "sha256": "c3049c0df7c69965f675ca95cad9615153f589449308515a906e69dcd72eba18",
+        "source_published_at": "2025-06-05",
+        "source_updated_at": null,
+        "source_url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-celebrates-first-anniversary-achieves-annualized"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+        "sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+        "source_published_at": "2025-12-29",
+        "source_updated_at": null,
+        "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/minimax.20261011.html",
+        "sha256": "3ff2349831596c748fbe3a9186acc0365a08e7ca64fb25bdeecaffc585431190",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://platform.minimax.io/docs/api-reference/api-overview"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/qiniu-resource-pools.20261011.html",
+        "sha256": "12ee13b3f0087bada545ac9f83b9c0d17b5de9c5ce77199d58d53f3240a8dbb9",
+        "source_published_at": null,
+        "source_updated_at": "2026-05-06",
+        "source_url": "https://developer.qiniu.com/qvm/4190/region-zone"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/seedance-official.20261011.html",
+        "sha256": "22e4d8325f24656447915b750e5493bdfaeac5a010735d1aa19aecf158c6c29f",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://seed.bytedance.com/en/seedance2_0"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/seedance2ai-identity.20261011.reviewed.json",
+        "sha256": "9b814e3a510f93aeae743041db57be8eaa8dbc22f55260a551e21347a94f4934",
+        "source_published_at": null,
+        "source_updated_at": "2025-10-29",
+        "source_url": "https://seedance2.ai/zh-hant/terms-of-service"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/siliconflow.20261011.html",
+        "sha256": "06ff9198d94022254b4f313da7a772d4fd39baa80282e97fd44f9826b2e7d406",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://docs.siliconflow.com/en/userguide/introduction"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/telecom-hkis1.20261011.html",
+        "sha256": "d33e74ac52a61dbf80599a26f10a506c2e350126c28255d60a4b2b5fad8adfd4",
+        "source_published_at": "2023-01-12",
+        "source_updated_at": null,
+        "source_url": "https://www.chinatelecomglobal.com/sc/whats-new/37253"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/telecom-portfolio.20261011.html",
+        "sha256": "414bcc383b68f2c47cc96bf03e6c7e69394056ddb4d0e82f1c9d80e8a0d120b1",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://www.chinatelecomglobal.com/sc/company/about-us"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+        "sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+        "source_published_at": null,
+        "source_updated_at": "2026-09-18",
+        "source_url": "https://www.tencentcloud.com/document/product/213/6091"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/tencent-hy3.20261011.html",
+        "sha256": "04105d4c0b1c05dfab12bde992cc515053d41c5dd998fddc39424df72e1bbfd5",
+        "source_published_at": "2026-08-05",
+        "source_updated_at": null,
+        "source_url": "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+        "sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+        "source_published_at": null,
+        "source_updated_at": "2026-06-24",
+        "source_url": "https://www.ctyun.cn/document/10026755/10196575"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/ucloud-baremetal-md.20261011.html",
+        "sha256": "c8eff7f6cecda2b405eea1a8c4d6f7d40299dcb5e2c360cc2039984e3d2826ec",
+        "source_published_at": null,
+        "source_updated_at": "2026-01-09",
+        "source_url": "https://docs.ucloud.cn/uphost/concepts/az.md"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/unicom-ai-pools.20261011.html.gz",
+        "sha256": "b6227f49abbe9679a87f0b3b73b8868c37157fcda44cecc78212c96c95003fac",
+        "source_published_at": null,
+        "source_updated_at": "2026-08-28",
+        "source_url": "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/vnet-q2.20261011.reviewed.json",
+        "sha256": "e6042350bfd2b6518e5be91914c5cdfc9b28e3010e0381c977dacdd970262b04",
+        "source_published_at": "2026-08-18",
+        "source_updated_at": null,
+        "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/wangsu-cdn.20261011.html",
+        "sha256": "6cca1c6ce48f84eafe34ea4635dfcf0c156d4f68ef485211dd48c365670fef27",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://online.wangsu.com/product/cdn"
+      },
+      {
+        "raw_source_ref": "data/raw/china-enrichment/zai.20261011.html",
+        "sha256": "7a54a789a31ddf79c2f4aae27b39631b669968efedad70b2f473bad3a981b976",
+        "source_published_at": null,
+        "source_updated_at": null,
+        "source_url": "https://docs.z.ai/guides/overview/quick-start"
+      }
+    ],
+    "unit_counts": {
+      "model_brand_reference": 9,
+      "named_operator_candidate": 4,
+      "vendor_reference": 34
+    }
+  },
+  "vendor_registry_record_count": 47,
+  "view_count": 8,
   "views": [
     {
       "coordinate_methods": {
-        "legacy": 49,
-        "unknown": 24
+        "unknown": 77
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/alibaba/mainland-regions-and-zones.20260804.csv",
-          "path": "data/alibaba/mainland-regions-and-zones.20260804.csv",
-          "source": "data/alibaba/mainland-regions-and-zones.20260804.geojson"
+          "generator": "make data/alibaba/mainland-regions-and-zones.20261011.csv",
+          "path": "data/alibaba/mainland-regions-and-zones.20261011.csv",
+          "source": "data/alibaba/mainland-regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
-        "availability_zone": 60,
-        "cloud_region": 13
+        "availability_zone": 62,
+        "cloud_region": 15
       },
       "files": {
         "geojson": {
-          "path": "data/alibaba/mainland-regions-and-zones.20260804.geojson",
-          "sha256": "1423fdc945c70049dc2da73e2646f5394d8b6f2bc14e0f50b1726bd6c9a7b2b2"
+          "path": "data/alibaba/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "72a18f249f04e40f4bf682601726d26dcba4e6e82d2cb7bcd17691927efbd305"
         },
         "report": {
-          "path": "data/alibaba/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "1c1d7bcd2bcaa7c6a0c7eeb2df6b10f7bde890201fcdcdcca9a36779a3086c0f"
+          "path": "data/alibaba/mainland-regions-and-zones.20261011.report.json",
+          "sha256": "67ea0d1b0124b84054a2c105129e1adc98873bdbec1e810920148e14f7a68320"
         }
       },
-      "geometry_null": 24,
+      "geometry_null": 77,
       "layer": "alibaba/mainland-regions-and-zones",
       "providers": [
         "Alibaba Cloud"
       ],
-      "record_count": 73,
+      "record_count": 77,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "alibaba_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/alibaba/regions-and-zones.20260804.html",
-          "sha256": "e150b5f4b9a11f117cc851a3cb616a512ce5ee4f4821a2eec269bd9bb1939c7f",
-          "source_published_at": "2026-07-01",
+          "raw_source_ref": "data/raw/china-enrichment/alibaba-directory.20261011.html",
+          "sha256": "8248e4772f5145002fdcea4eed4909509f7c2303af2df62873855acd43154831",
+          "source_published_at": null,
+          "source_updated_at": "2026-10-10",
           "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
         }
       ],
@@ -2273,105 +3370,113 @@
     },
     {
       "coordinate_methods": {
-        "legacy": 29,
-        "unknown": 2
+        "unknown": 32
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/tencent/mainland-regions-and-zones.20260804.csv",
-          "path": "data/tencent/mainland-regions-and-zones.20260804.csv",
-          "source": "data/tencent/mainland-regions-and-zones.20260804.geojson"
+          "generator": "make data/tencent/mainland-regions-and-zones.20261011.csv",
+          "path": "data/tencent/mainland-regions-and-zones.20261011.csv",
+          "source": "data/tencent/mainland-regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
-        "availability_zone": 24,
+        "availability_zone": 25,
         "cloud_region": 7
       },
       "files": {
         "geojson": {
-          "path": "data/tencent/mainland-regions-and-zones.20260804.geojson",
-          "sha256": "019da1eed59ec47f9f70730fc96af681b0ee3b16cbc612853f9fca222d0c9b6a"
+          "path": "data/tencent/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "24222e2bd03d21462805343a2951507538570415a2c2d19c7aac68c193ed8ffb"
         },
         "report": {
-          "path": "data/tencent/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "c4f300ae1495aa5cd10d7c68cc207d12691ca977b86a0d571500f3b1881b7edd"
+          "path": "data/tencent/mainland-regions-and-zones.20261011.report.json",
+          "sha256": "a782ce8f3feec6fb7a306c1f50f5cf4728ee991bccce2af58a34e666bcde3208"
         }
       },
-      "geometry_null": 2,
+      "geometry_null": 32,
       "layer": "tencent/mainland-regions-and-zones",
       "providers": [
         "Tencent Cloud"
       ],
-      "record_count": 31,
+      "record_count": 32,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "tencent_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
-          "sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
-          "source_published_at": "2026-02-12",
-          "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en"
+          "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+          "sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+          "source_published_at": null,
+          "source_updated_at": "2026-09-18",
+          "source_url": "https://www.tencentcloud.com/document/product/213/6091"
         }
       ],
       "view_of": "tencent/regions-and-zones"
     },
     {
       "coordinate_methods": {
-        "legacy": 13,
-        "unknown": 4
+        "unknown": 20
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/tencent/mainland-specialized-regions-and-zones.20260804.csv",
-          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.csv",
-          "source": "data/tencent/mainland-specialized-regions-and-zones.20260804.geojson"
+          "generator": "make data/tencent/mainland-specialized-regions-and-zones.20261011.csv",
+          "path": "data/tencent/mainland-specialized-regions-and-zones.20261011.csv",
+          "source": "data/tencent/mainland-specialized-regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
-        "availability_zone": 13,
-        "cloud_region": 4
+        "availability_zone": 15,
+        "cloud_region": 5
       },
       "files": {
         "geojson": {
-          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.geojson",
-          "sha256": "195daa19bcff484b64a025ff093c806fad5f30c84d3b06d01f11ac8344a7ece9"
+          "path": "data/tencent/mainland-specialized-regions-and-zones.20261011.geojson",
+          "sha256": "1a6c920b193f074f19e673ecb89f798a2ffabb63c8b5ef1946aafeb6c9b5fb69"
         },
         "report": {
-          "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.report.json",
-          "sha256": "96288195dbb2d192b3d4c5d69616ab2971fc0894a095ebc985852b1738d02512"
+          "path": "data/tencent/mainland-specialized-regions-and-zones.20261011.report.json",
+          "sha256": "b065ea2f82a605c37fe2e44656b2b9612b2aaca3d071139e6dbaa2b91b4d3a36"
         }
       },
-      "geometry_null": 4,
+      "geometry_null": 20,
       "layer": "tencent/mainland-specialized-regions-and-zones",
       "providers": [
         "Tencent Cloud"
       ],
-      "record_count": 17,
+      "record_count": 20,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-08-04",
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.1.0",
+        "1.2.0"
       ],
       "services": [
         "tencent_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+          "sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+          "source_published_at": null,
+          "source_updated_at": "2026-09-18",
+          "source_url": "https://www.tencentcloud.com/document/product/213/6091"
+        },
         {
           "raw_source_ref": "data/raw/tencent/regions-and-zones.20260804.html",
           "sha256": "40043941a457cb7fc6e5723eff06fd8fa27aed7044c4385366e2b751ce55fb93",
@@ -2387,9 +3492,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/baidu/mainland-regions-and-zones.20260804.csv",
-          "path": "data/baidu/mainland-regions-and-zones.20260804.csv",
-          "source": "data/baidu/mainland-regions-and-zones.20260804.geojson"
+          "generator": "make data/baidu/mainland-regions-and-zones.20261011.csv",
+          "path": "data/baidu/mainland-regions-and-zones.20261011.csv",
+          "source": "data/baidu/mainland-regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
@@ -2398,12 +3503,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/baidu/mainland-regions-and-zones.20260804.geojson",
-          "sha256": "bb667d648662152a3a8322bb64e6ca44c257719d101265a6544eb337f76d130c"
+          "path": "data/baidu/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "a1020da75b7fd78b4c440da5bbf9099963729ceacb89e87e186b015c6942086c"
         },
         "report": {
-          "path": "data/baidu/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "1f0093135941319c36255966bb377e46bfb763c2bb22bab23fa96027951bc551"
+          "path": "data/baidu/mainland-regions-and-zones.20261011.report.json",
+          "sha256": "f4caa7dfb090956978dace0d01235eb04cededef15449fb294bae3c5a5a95dcc"
         }
       },
       "geometry_null": 25,
@@ -2413,23 +3518,24 @@
       ],
       "record_count": 25,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "baidu_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/baidu/bcc-service-domains.20260804.html",
+          "raw_source_ref": "data/raw/china-enrichment/baidu-bcc.20261011.html",
           "sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
-          "source_published_at": "2025-08-20",
+          "source_published_at": null,
+          "source_updated_at": "2025-08-20",
           "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
         }
       ],
@@ -2441,9 +3547,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/volcano/mainland-regions-and-zones.20260804.csv",
-          "path": "data/volcano/mainland-regions-and-zones.20260804.csv",
-          "source": "data/volcano/mainland-regions-and-zones.20260804.geojson"
+          "generator": "make data/volcano/mainland-regions-and-zones.20261011.csv",
+          "path": "data/volcano/mainland-regions-and-zones.20261011.csv",
+          "source": "data/volcano/mainland-regions-and-zones.20261011.geojson"
         }
       },
       "entity_types": {
@@ -2452,12 +3558,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/volcano/mainland-regions-and-zones.20260804.geojson",
-          "sha256": "983fc8a0bcef11dfc98a283511b0f5e8f5a52cfb9eb1d6fb4dfa0f0d200310c1"
+          "path": "data/volcano/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "c517d1a67768205ed27b0c26d001b12cb39259db10b9db26f627012a1085197a"
         },
         "report": {
-          "path": "data/volcano/mainland-regions-and-zones.20260804.report.json",
-          "sha256": "451e57640aade30271ac8ac15c2d034ffa381153273f2a9e0e79d0d0d9ee732d"
+          "path": "data/volcano/mainland-regions-and-zones.20261011.report.json",
+          "sha256": "47c378a3f3a619382552700d5f0da76caf3dc6d623aa20f0f0a50dc041a6f198"
         }
       },
       "geometry_null": 14,
@@ -2467,27 +3573,144 @@
       ],
       "record_count": 14,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-10-11"
       ],
       "schema_versions": [
-        "1.1.0"
+        "1.2.0"
       ],
       "services": [
         "volcano_cloud"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261011",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/volcano/regions-and-zones.20260804.json",
-          "sha256": "84385367a41e5f6d11a76092822df9327c779a643b3b3c5eac5fd6c118539359",
-          "source_published_at": "2025-09-26",
+          "raw_source_ref": "data/raw/china-enrichment/volcano-directory.20261011.json",
+          "sha256": "b1e0a987509d1afbf33703083cda9f697e207b1909a2b9f310955afcf1c6cad5",
+          "source_published_at": "2022-03-01",
+          "source_updated_at": "2025-09-26",
           "source_url": "https://www.volcengine.com/api/doc/getDocDetail?LibraryID=6617&DocumentID=87001&lang=en"
         }
       ],
       "view_of": "volcano/regions-and-zones"
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 30
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/alibaba/mainland-specialized-regions-and-zones.20261011.csv",
+          "path": "data/alibaba/mainland-specialized-regions-and-zones.20261011.csv",
+          "source": "data/alibaba/mainland-specialized-regions-and-zones.20261011.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 25,
+        "cloud_region": 5
+      },
+      "files": {
+        "geojson": {
+          "path": "data/alibaba/mainland-specialized-regions-and-zones.20261011.geojson",
+          "sha256": "f8fb93c20458c426497e3773e6b39d47b570c31265ee18ee7df79183b96d0ded"
+        },
+        "report": {
+          "path": "data/alibaba/mainland-specialized-regions-and-zones.20261011.report.json",
+          "sha256": "d4a8a278c344b78db081a512f1a2ee20cd87856dc65acb2eab3c3fb2dcdbca4d"
+        }
+      },
+      "geometry_null": 30,
+      "layer": "alibaba/mainland-specialized-regions-and-zones",
+      "providers": [
+        "Alibaba Cloud"
+      ],
+      "record_count": 30,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "alibaba_cloud"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/alibaba-directory.20261011.html",
+          "sha256": "8248e4772f5145002fdcea4eed4909509f7c2303af2df62873855acd43154831",
+          "source_published_at": null,
+          "source_updated_at": "2026-10-10",
+          "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+        }
+      ],
+      "view_of": "alibaba/regions-and-zones"
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 14
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/huawei/mainland-regions.20261011.csv",
+          "path": "data/huawei/mainland-regions.20261011.csv",
+          "source": "data/huawei/mainland-regions.20261011.geojson"
+        }
+      },
+      "entity_types": {
+        "cloud_region": 14
+      },
+      "files": {
+        "geojson": {
+          "path": "data/huawei/mainland-regions.20261011.geojson",
+          "sha256": "b05a13a7bfdc336be0258fea1aa25cee55d63985bd6b6cb77ce78f7c5ca604ab"
+        },
+        "report": {
+          "path": "data/huawei/mainland-regions.20261011.report.json",
+          "sha256": "6fa6daf4e26c3b90aef2b77836761309f5cc0d44c646f921388239c9217422ea"
+        }
+      },
+      "geometry_null": 14,
+      "layer": "huawei/mainland-regions",
+      "providers": [
+        "Huawei Cloud"
+      ],
+      "record_count": 14,
+      "retrieved_at": [
+        "2026-10-11"
+      ],
+      "schema_versions": [
+        "1.2.0"
+      ],
+      "services": [
+        "huawei_cloud"
+      ],
+      "snapshot_tag": "20261011",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/china-enrichment/huawei-iam-global.20261011.html",
+          "sha256": "a5dd4aa2a3f25d8f0986ebcf90e26213a5b8424c0a804c52aa3205cc047b6c45",
+          "source_published_at": null,
+          "source_updated_at": "2025-12-30",
+          "source_url": "https://support.huaweicloud.com/intl/en-us/api-iam/iam_01_0001.html"
+        },
+        {
+          "raw_source_ref": "data/raw/china-enrichment/huawei-identity-policy.20261011.html",
+          "sha256": "31e884a8a6a35414e504be158ffab1fccfc90ce6899857b27453e8a24b12d93f",
+          "source_published_at": null,
+          "source_updated_at": "2026-07-24",
+          "source_url": "https://support.huaweicloud.com/intl/en-us/usermanual-iam5/iam_01_1334.html"
+        }
+      ],
+      "view_of": "huawei/regions"
     },
     {
       "coordinate_methods": {

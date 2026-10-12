@@ -1,0 +1,341 @@
+{
+  "capture_method": "public_network_metadata_and_bounded_relationship_extracts",
+  "records": [
+    {
+      "asn": 13335,
+      "observed_at": "2026-10-12T03:28:30.830054Z",
+      "response": {
+        "data": [
+          {
+            "asn": 13335,
+            "id": 4224,
+            "info_type": "Content",
+            "irr_as_set": "AS13335:AS-CLOUDFLARE",
+            "name": "Cloudflare",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2026-10-02T11:51:26Z",
+            "website": "https://www.cloudflare.com"
+          }
+        ]
+      },
+      "response_sha256": "c6b89e5c90afb5263422f865626b83fafe76cabd6b8452d3c82a12ff2888fd1e",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=13335"
+    },
+    {
+      "asn": 16509,
+      "observed_at": "2026-10-12T03:28:30.830696Z",
+      "response": {
+        "data": [
+          {
+            "asn": 16509,
+            "id": 1418,
+            "info_type": "Enterprise",
+            "irr_as_set": "AS16509:AS-AMAZON",
+            "name": "Amazon.com",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2026-09-17T06:25:50Z",
+            "website": "https://www.amazon.com"
+          }
+        ]
+      },
+      "response_sha256": "94681bb6ebe21b8786334b27c3a801aa8423031c187552e976ab28aa5b484708",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=16509"
+    },
+    {
+      "asn": 20940,
+      "observed_at": "2026-10-12T03:28:30.832044Z",
+      "response": {
+        "data": [
+          {
+            "asn": 20940,
+            "id": 2,
+            "info_type": "Content",
+            "irr_as_set": "RIPE::AS-AKAMAI",
+            "name": "Akamai Technologies",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2026-10-08T13:30:49Z",
+            "website": "https://www.akamai.com/"
+          }
+        ]
+      },
+      "response_sha256": "9b9868c3031a034c8a136830274a6c1d91b3fa58b2be66c478433b1bbf35066f",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=20940"
+    },
+    {
+      "asn": 37963,
+      "observed_at": "2026-10-12T03:28:30.789735Z",
+      "response": {
+        "data": [
+          {
+            "asn": 37963,
+            "id": 15604,
+            "info_type": "Content",
+            "irr_as_set": "",
+            "name": "Alibaba (China)",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2024-06-13T05:57:34Z",
+            "website": "http://alibabagroup.com/"
+          }
+        ]
+      },
+      "response_sha256": "c30199a8b0f59e9c3d0a6da78f8bf1a0da2a698d762f86c2f42542a741004787",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=37963"
+    },
+    {
+      "asn": 132203,
+      "observed_at": "2026-10-12T03:28:31.159525Z",
+      "response": {
+        "data": [
+          {
+            "asn": 132203,
+            "id": 5005,
+            "info_type": "Content",
+            "irr_as_set": "AS132203:AS-TENCENT",
+            "name": "Tencent Global",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2026-08-25T08:24:52Z",
+            "website": "http://www.tencent.com"
+          }
+        ]
+      },
+      "response_sha256": "7d31d09f40809fe6b6f3e181f5b21e2d854eec980f6eb431f9d66d7fc6bc0926",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=132203"
+    },
+    {
+      "asn": 139341,
+      "observed_at": "2026-10-12T03:28:31.230150Z",
+      "response": {
+        "data": [
+          {
+            "asn": 139341,
+            "id": 27572,
+            "info_type": "Content",
+            "irr_as_set": "AS139341:AS-ACE",
+            "name": "ACE CDN",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2026-10-12T01:49:31Z",
+            "website": "https://peering.aceville.net"
+          }
+        ]
+      },
+      "response_sha256": "607c53a8e42df6fc04a39b0d02e9b511c9cd7234fa091b651c28cd04af4a17c1",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=139341"
+    },
+    {
+      "asn": 150436,
+      "observed_at": "2026-10-12T03:28:31.247172Z",
+      "response": {
+        "data": [
+          {
+            "asn": 150436,
+            "id": 33739,
+            "info_type": "Content",
+            "irr_as_set": "APNIC::AS-BYTEPLUS",
+            "name": "Byteplus Pte. Ltd.",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2026-08-31T16:20:30Z",
+            "website": "https://www.byteplus.com"
+          }
+        ]
+      },
+      "response_sha256": "42f6fde014ad47154f5e111178f7426b291061e36ed71784d71abff37e109864",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=150436"
+    },
+    {
+      "asn": 396982,
+      "observed_at": "2026-10-12T03:28:31.244925Z",
+      "response": {
+        "data": [
+          {
+            "asn": 396982,
+            "id": 30878,
+            "info_type": "",
+            "irr_as_set": "",
+            "name": "Google Cloud",
+            "name_long": "",
+            "status": "ok",
+            "updated": "2026-07-31T10:58:16Z",
+            "website": "http://www.google.com"
+          }
+        ]
+      },
+      "response_sha256": "e1397f8b4912585ac27c8136fae4dcb36932045952ed17ff2869b7718c4d81e7",
+      "result": "retrieved",
+      "source_url": "https://www.peeringdb.com/api/net?asn=396982"
+    },
+    {
+      "network_id": 5005,
+      "observed_at": "2026-10-12T03:28:31.532134Z",
+      "relationship_endpoint": "netfac",
+      "response": {
+        "data": [
+          {
+            "city": "Ashburn",
+            "country": "US",
+            "created": "2022-11-15T08:08:21Z",
+            "fac_id": 1,
+            "id": 58688,
+            "local_asn": 132203,
+            "name": "Equinix DC1-DC15,DC21-DC22 - Ashburn",
+            "net_id": 5005,
+            "status": "ok",
+            "updated": "2022-11-15T08:08:21Z"
+          },
+          {
+            "city": "San Jose",
+            "country": "US",
+            "created": "2022-11-15T08:08:10Z",
+            "fac_id": 6,
+            "id": 58687,
+            "local_asn": 132203,
+            "name": "Equinix SV1/SV5/SV10 - Silicon Valley, San Jose",
+            "net_id": 5005,
+            "status": "ok",
+            "updated": "2022-11-15T08:08:10Z"
+          }
+        ]
+      },
+      "response_sha256": "e1b973bb0c7bf7d95cfd670284a368e0bf9b4d9c196e3ceab969dfbe065b5d6c",
+      "result": "retrieved",
+      "sample_limit": 2,
+      "source_url": "https://www.peeringdb.com/api/netfac?net_id=5005"
+    },
+    {
+      "network_id": 5005,
+      "observed_at": "2026-10-12T03:28:31.901732Z",
+      "relationship_endpoint": "netixlan",
+      "response": {
+        "data": [
+          {
+            "asn": 132203,
+            "bfd_support": false,
+            "created": "2014-10-16T00:00:00Z",
+            "id": 20328,
+            "ipaddr4": "80.249.211.38",
+            "ipaddr6": "2001:7f8:1:0:a500:13:2203:2",
+            "is_rs_peer": true,
+            "ix_id": 26,
+            "ix_side_id": 63,
+            "ixlan_id": 26,
+            "meta": {},
+            "name": "AMS-IX",
+            "net_id": 5005,
+            "net_side_id": null,
+            "notes": "Ip address None was claimed by other netixlan",
+            "operational": true,
+            "speed": 10000,
+            "status": "ok",
+            "updated": "2026-04-24T00:05:14Z"
+          },
+          {
+            "asn": 132203,
+            "bfd_support": false,
+            "created": "2017-03-22T17:44:08Z",
+            "id": 33785,
+            "ipaddr4": "27.111.229.52",
+            "ipaddr6": "2001:de8:4::13:2203:2",
+            "is_rs_peer": true,
+            "ix_id": 158,
+            "ix_side_id": null,
+            "ixlan_id": 158,
+            "meta": {},
+            "name": "Equinix Singapore",
+            "net_id": 5005,
+            "net_side_id": null,
+            "notes": "",
+            "operational": true,
+            "speed": 200000,
+            "status": "ok",
+            "updated": "2025-05-28T03:03:48Z"
+          }
+        ]
+      },
+      "response_sha256": "f4e5334ec0f69bbb0e79bae652ebd9d1d2ca13597e0f21ef0aa78f97dca77f84",
+      "result": "retrieved",
+      "sample_limit": 2,
+      "source_url": "https://www.peeringdb.com/api/netixlan?net_id=5005"
+    },
+    {
+      "network_id": 15604,
+      "observed_at": "2026-10-12T03:28:32.165034Z",
+      "relationship_endpoint": "netfac",
+      "response": {
+        "data": []
+      },
+      "response_sha256": "8113ad651e4fbf1abc5975a1eb8d440fb56066d6e0bcfd214751896cf194d674",
+      "result": "retrieved",
+      "sample_limit": 2,
+      "source_url": "https://www.peeringdb.com/api/netfac?net_id=15604"
+    },
+    {
+      "network_id": 15604,
+      "observed_at": "2026-10-12T03:28:32.436470Z",
+      "relationship_endpoint": "netixlan",
+      "response": {
+        "data": [
+          {
+            "asn": 37963,
+            "bfd_support": false,
+            "created": "2016-12-13T03:09:21Z",
+            "id": 32036,
+            "ipaddr4": "103.216.40.20",
+            "ipaddr6": null,
+            "is_rs_peer": true,
+            "ix_id": 1303,
+            "ix_side_id": null,
+            "ixlan_id": 1303,
+            "meta": {},
+            "name": "CNIX",
+            "net_id": 15604,
+            "net_side_id": null,
+            "notes": "",
+            "operational": true,
+            "speed": 100000,
+            "status": "ok",
+            "updated": "2020-02-19T04:07:30Z"
+          },
+          {
+            "asn": 37963,
+            "bfd_support": false,
+            "created": "2018-01-03T05:23:05Z",
+            "id": 38868,
+            "ipaddr4": "103.216.40.40",
+            "ipaddr6": null,
+            "is_rs_peer": true,
+            "ix_id": 1303,
+            "ix_side_id": null,
+            "ixlan_id": 1303,
+            "meta": {},
+            "name": "CNIX",
+            "net_id": 15604,
+            "net_side_id": null,
+            "notes": "",
+            "operational": true,
+            "speed": 100000,
+            "status": "ok",
+            "updated": "2020-02-19T04:07:30Z"
+          }
+        ]
+      },
+      "response_sha256": "58efa314c8ca81cfda1ea25fcd3e51f9893ed8c33f7bc40d9a5c7d855e5a5bcf",
+      "result": "retrieved",
+      "sample_limit": 2,
+      "source_url": "https://www.peeringdb.com/api/netixlan?net_id=15604"
+    }
+  ],
+  "retrieved_at": "2026-10-11"
+}

@@ -1,0 +1,61 @@
+{
+  "asn_query_sample_bound": 10,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/china-vendor-evidence.20261011.csv",
+      "path": "data/network/china-vendor-evidence.20261011.csv",
+      "source": "data/network/china-vendor-evidence.20261011.json"
+    }
+  },
+  "evidence_types": {
+    "facility_registration": 2,
+    "ix_membership": 4,
+    "measurement_run": 1,
+    "reachability_observation": 23,
+    "routing_origin": 12
+  },
+  "failed_registry_queries": [],
+  "generated_files": [
+    "data/network/china-vendor-evidence.20261011.json"
+  ],
+  "layer": "china-vendor-evidence",
+  "parser": "update_china_network.py",
+  "provider_counts": {
+    "ACE CDN": 1,
+    "Akamai Technologies": 1,
+    "Alibaba (China)": 4,
+    "Alibaba Cloud": 6,
+    "Amazon.com": 1,
+    "BytePlus": 2,
+    "Byteplus Pte. Ltd.": 2,
+    "China Unicom Cloud": 4,
+    "Cloudflare": 3,
+    "Google Cloud": 1,
+    "Tencent Cloud": 2,
+    "Tencent Global": 5,
+    "deepseek": 1,
+    "fal": 1,
+    "minimax": 1,
+    "moonshot": 4,
+    "siliconflow": 1,
+    "zai": 1
+  },
+  "reachability_status_counts": {
+    "tls_verified": 23
+  },
+  "record_count": 42,
+  "retrieved_at": "2026-10-11",
+  "routing_ip_sample_bound": 12,
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "statuses": {
+    "announced": 12,
+    "observed": 1,
+    "ok": 6,
+    "tls_verified": 23
+  },
+  "target_bound": 24,
+  "target_count": 23,
+  "tls_verified_count": 23
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+  "resolved_url": "https://www.ctyun.cn/document/10026755/10196575",
+  "retrieved_at": "2026-10-11",
+  "sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+  "source_published_at": null,
+  "source_updated_at": "2026-06-24",
+  "source_url": "https://www.ctyun.cn/document/10026755/10196575"
+}

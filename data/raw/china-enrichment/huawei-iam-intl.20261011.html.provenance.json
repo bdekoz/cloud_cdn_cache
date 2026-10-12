@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/huawei-iam-intl.20261011.html",
+  "resolved_url": "https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "d0afd738e04771f0cf65ba77322e43363a11195c2002a81ba69f8ccd17987c81",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://support.huaweicloud.com/intl/en-us/api-iam5/iam_02_1101.html"
+}

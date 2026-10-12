@@ -1,0 +1,1796 @@
+{
+  "categories": {
+    "vendor_identity": "An evidence-backed vendor/brand reference or unresolved named-operator candidate; not a physical infrastructure location."
+  },
+  "records": [
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DeepSeek",
+      "parties": [
+        {
+          "name": "DeepSeek",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "deepseek",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "DeepSeek",
+      "raw_source_ref": "data/raw/china-enrichment/deepseek-api.20261011.html",
+      "record_id": "vendor:brand:deepseek",
+      "relationships": [
+        {
+          "relationship_type": "offered_by",
+          "target_record_id": "vendor:identity:deepseek"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "7ce9db1b1cc7e2efafe7cbfd57b9d46d240c20399f7bd87672c7e3a5250ccdd0",
+      "source_updated_at": null,
+      "source_url": "https://api-docs.deepseek.com/",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "GLM",
+      "parties": [
+        {
+          "name": "GLM",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "glm",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "GLM",
+      "raw_source_ref": "data/raw/china-enrichment/zai.20261011.html",
+      "record_id": "vendor:brand:glm",
+      "relationships": [
+        {
+          "relationship_type": "offered_by",
+          "target_record_id": "vendor:identity:zai"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "7a54a789a31ddf79c2f4aae27b39631b669968efedad70b2f473bad3a981b976",
+      "source_updated_at": null,
+      "source_url": "https://docs.z.ai/guides/overview/quick-start",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Tencent Hy / Hunyuan",
+      "parties": [
+        {
+          "name": "Tencent Hy / Hunyuan",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "hy",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "Tencent Hy / Hunyuan",
+      "raw_source_ref": "data/raw/china-enrichment/tencent-hy3.20261011.html",
+      "record_id": "vendor:brand:hy",
+      "relationships": [
+        {
+          "relationship_type": "developed_by",
+          "target_record_id": "vendor:identity:tencent"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-05",
+      "source_scope": "provider_declared",
+      "source_sha256": "04105d4c0b1c05dfab12bde992cc515053d41c5dd998fddc39424df72e1bbfd5",
+      "source_updated_at": null,
+      "source_url": "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Kimi",
+      "parties": [
+        {
+          "name": "Kimi",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "kimi",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "Kimi",
+      "raw_source_ref": "data/raw/china-enrichment/kimi-endpoints.20261011.html",
+      "record_id": "vendor:brand:kimi",
+      "relationships": [
+        {
+          "relationship_type": "offered_by",
+          "target_record_id": "vendor:identity:moonshot"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "384344acb19d1f9b4343dcf1ba87ce5f8b4f77de9076381c8e8667ff13c4dca5",
+      "source_updated_at": null,
+      "source_url": "https://www.kimi.com/en/help/kimi-code/faq",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Kling AI",
+      "parties": [
+        {
+          "name": "Kling AI",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "kling",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "Kling AI",
+      "raw_source_ref": "data/raw/china-enrichment/kling.20261011.reviewed.json",
+      "record_id": "vendor:brand:kling",
+      "relationships": [
+        {
+          "relationship_type": "developed_by",
+          "target_record_id": "vendor:identity:kuaishou"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-06-05",
+      "source_scope": "provider_declared",
+      "source_sha256": "c3049c0df7c69965f675ca95cad9615153f589449308515a906e69dcd72eba18",
+      "source_updated_at": null,
+      "source_url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-celebrates-first-anniversary-achieves-annualized",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "MiniMax",
+      "parties": [
+        {
+          "name": "MiniMax",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "minimax",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "MiniMax",
+      "raw_source_ref": "data/raw/china-enrichment/minimax.20261011.html",
+      "record_id": "vendor:brand:minimax",
+      "relationships": [
+        {
+          "relationship_type": "offered_by",
+          "target_record_id": "vendor:identity:minimax"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "3ff2349831596c748fbe3a9186acc0365a08e7ca64fb25bdeecaffc585431190",
+      "source_updated_at": null,
+      "source_url": "https://platform.minimax.io/docs/api-reference/api-overview",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Qwen",
+      "parties": [
+        {
+          "name": "Qwen",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "qwen",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "Qwen",
+      "raw_source_ref": "data/raw/china-enrichment/alibaba-model-studio.20261011.html",
+      "record_id": "vendor:brand:qwen",
+      "relationships": [
+        {
+          "relationship_type": "offered_by",
+          "target_record_id": "vendor:identity:alibaba"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b6438f9b9be6bf83359adf72dccab7d34718f15edfe91b6abf58424595ca64f9",
+      "source_updated_at": "2026-10-11",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/regions",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Seedance",
+      "parties": [
+        {
+          "name": "Seedance",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "seedance",
+        "developer_or_operator_unresolved": false,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "Seedance",
+      "raw_source_ref": "data/raw/china-enrichment/seedance-official.20261011.html",
+      "record_id": "vendor:brand:seedance",
+      "relationships": [
+        {
+          "relationship_type": "developed_by",
+          "target_record_id": "vendor:identity:volcano"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "22e4d8325f24656447915b750e5493bdfaeac5a010735d1aa19aecf158c6c29f",
+      "source_updated_at": null,
+      "source_url": "https://seed.bytedance.com/en/seedance2_0",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "model_brand_not_hosting_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Step",
+      "parties": [
+        {
+          "name": "Step",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_id": "step",
+        "developer_or_operator_unresolved": true,
+        "legal_entity_not_assumed_from_brand": true
+      },
+      "provider": "Step",
+      "raw_source_ref": "data/raw/china-enrichment/siliconflow.20261011.html",
+      "record_id": "vendor:brand:step",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "06ff9198d94022254b4f313da7a772d4fd39baa80282e97fd44f9826b2e7d406",
+      "source_updated_at": null,
+      "source_url": "https://docs.siliconflow.com/en/userguide/introduction",
+      "spatial_representation": "none",
+      "unit": "model_brand_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Alibaba Cloud / Qwen / Model Studio",
+      "parties": [
+        {
+          "name": "Alibaba Cloud / Qwen / Model Studio",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P0",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud_and_model_platform",
+        "vendor_id": "alibaba"
+      },
+      "provider": "Alibaba Cloud / Qwen / Model Studio",
+      "raw_source_ref": "data/raw/china-enrichment/alibaba-directory.20261011.html",
+      "record_id": "vendor:identity:alibaba",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "8248e4772f5145002fdcea4eed4909509f7c2303af2df62873855acd43154831",
+      "source_updated_at": "2026-10-10",
+      "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "operator_or_brand_identity_not_facility_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Amazon Web Services",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "identity_role": "cloud_brand",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "vendor_id": "aws"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+      "record_id": "vendor:identity:aws",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+      "source_updated_at": null,
+      "source_url": "https://www.amazonaws.cn/en/about-aws/china/",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "operator_or_brand_identity_not_facility_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Microsoft Azure",
+      "parties": [
+        {
+          "name": "Microsoft Azure",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "identity_role": "cloud_brand",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "vendor_id": "azure"
+      },
+      "provider": "Microsoft Azure",
+      "raw_source_ref": "data/raw/china-enrichment/azure-china.20261011.html",
+      "record_id": "vendor:identity:azure",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9cd614dd74bfb9073da45a3438ce4f494bf9eb2bca7a392109d136b30514c223",
+      "source_updated_at": "2026-10-05",
+      "source_url": "https://docs.azure.cn/en-us/reliability/regions-list",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "operator_or_brand_identity_not_facility_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Shanghai Blue Cloud Technology Co., Ltd. (21Vianet)",
+      "parties": [
+        {
+          "name": "Shanghai Blue Cloud Technology Co., Ltd. (21Vianet)",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "identity_role": "china_cloud_operator",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": "Shanghai Blue Cloud Technology Co., Ltd. (21Vianet)",
+        "vendor_id": "azure21vianet"
+      },
+      "provider": "Shanghai Blue Cloud Technology Co., Ltd. (21Vianet)",
+      "raw_source_ref": "data/raw/china-enrichment/azure-china-operator.20261011.html",
+      "record_id": "vendor:identity:azure21vianet",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "24a71ed7829843d60545be22181833a034a9b15dda35e4c951781f3330877f13",
+      "source_updated_at": "2023-12-13",
+      "source_url": "https://learn.microsoft.com/en-us/azure/china/overview-operations",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Baidu AI Cloud / Qianfan",
+      "parties": [
+        {
+          "name": "Baidu AI Cloud / Qianfan",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud_and_model_platform",
+        "vendor_id": "baidu"
+      },
+      "provider": "Baidu AI Cloud / Qianfan",
+      "raw_source_ref": "data/raw/china-enrichment/baidu-bcc.20261011.html",
+      "record_id": "vendor:identity:baidu",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+      "source_updated_at": "2025-08-20",
+      "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "BaishanCloud",
+      "parties": [
+        {
+          "name": "BaishanCloud",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P2",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "independent_edge_cloud",
+        "vendor_id": "baishan"
+      },
+      "provider": "BaishanCloud",
+      "raw_source_ref": "data/raw/china-enrichment/baishan-edge.20261011.html",
+      "record_id": "vendor:identity:baishan",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "665634bbb34731d12319f50bafc337fba9a079310eddfb133e43ac9567028945",
+      "source_updated_at": null,
+      "source_url": "https://intl.baishancloud.com/",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Bilibili",
+      "parties": [
+        {
+          "name": "Bilibili",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "consumer_platform_and_content_delivery",
+        "vendor_id": "bilibili"
+      },
+      "provider": "Bilibili",
+      "raw_source_ref": "data/raw/china-enrichment/bilibili-2025-report.20261011.pdf",
+      "record_id": "vendor:identity:bilibili",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-04-16",
+      "source_scope": "provider_declared",
+      "source_sha256": "a769eefc602b5484813cafdeecaa55eba204f7a9f767f0aa62113766a8d02fc0",
+      "source_updated_at": null,
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "BytePlus ModelArk",
+      "parties": [
+        {
+          "name": "BytePlus ModelArk",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "international_ai_service_platform",
+        "vendor_id": "byteplus"
+      },
+      "provider": "BytePlus ModelArk",
+      "raw_source_ref": "data/raw/china-enrichment/byteplus-modelark.20261011.html",
+      "record_id": "vendor:identity:byteplus",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "1904e523c6b13e478ef53807de689db342741275da9a20c6528d3640c7865441",
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "China Mobile Cloud",
+      "parties": [
+        {
+          "name": "China Mobile Cloud",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P0",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "carrier_cloud",
+        "vendor_id": "china-mobile"
+      },
+      "provider": "China Mobile Cloud",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "vendor:identity:china-mobile",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "China Unicom Cloud",
+      "parties": [
+        {
+          "name": "China Unicom Cloud",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P0",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "carrier_cloud",
+        "vendor_id": "china-unicom"
+      },
+      "provider": "China Unicom Cloud",
+      "raw_source_ref": "data/raw/china-enrichment/unicom-ai-pools.20261011.html.gz",
+      "record_id": "vendor:identity:china-unicom",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b6227f49abbe9679a87f0b3b73b8868c37157fcda44cecc78212c96c95003fac",
+      "source_updated_at": "2026-08-28",
+      "source_url": "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Chindata",
+      "parties": [
+        {
+          "name": "Chindata",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "hyperscale_colocation_operator",
+        "vendor_id": "chindata"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
+      "record_id": "vendor:identity:chindata",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/global.html",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "operator_or_brand_identity_not_facility_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "China Telecom Global",
+      "parties": [
+        {
+          "name": "China Telecom Global",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "identity_role": "international_carrier",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "vendor_id": "ctg"
+      },
+      "provider": "China Telecom Global",
+      "raw_source_ref": "data/raw/china-enrichment/telecom-portfolio.20261011.html",
+      "record_id": "vendor:identity:ctg",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "414bcc383b68f2c47cc96bf03e6c7e69394056ddb4d0e82f1c9d80e8a0d120b1",
+      "source_updated_at": null,
+      "source_url": "https://www.chinatelecomglobal.com/sc/company/about-us",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "medium",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Shanghai DataPort / 数据港",
+      "parties": [
+        {
+          "name": "Shanghai DataPort / 数据港",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "named_operator_candidate",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [
+          "legal/operator identity",
+          "facility/campus aliases",
+          "ownership",
+          "current lifecycle"
+        ],
+        "vendor_class": "physical_facility_operator_candidate",
+        "vendor_id": "dataport"
+      },
+      "provider": "Shanghai DataPort / 数据港",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "vendor:identity:dataport",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "named_operator_candidate"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DeepSeek",
+      "parties": [
+        {
+          "name": "DeepSeek",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_role": "linked_service_data_controller",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd.",
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "model_developer_and_api_operator",
+        "vendor_id": "deepseek"
+      },
+      "provider": "DeepSeek",
+      "raw_source_ref": "data/raw/china-enrichment/deepseek-identity.20261011.html",
+      "record_id": "vendor:identity:deepseek",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "339984e36a795843ee2b5b917797072ec249f3c0e9ff7cbbfe754c01caa4f069",
+      "source_updated_at": "2026-02-10",
+      "source_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "declared_headquarters_only_not_infrastructure_location",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "fal",
+      "parties": [
+        {
+          "name": "fal",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "global_inference_platform",
+        "declared_headquarters": "San Francisco",
+        "declared_headquarters_country": "US",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "global_ai_inference_platform",
+        "vendor_id": "fal"
+      },
+      "provider": "fal",
+      "raw_source_ref": "data/raw/china-enrichment/fal-identity.20261011.html",
+      "record_id": "vendor:identity:fal",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "766468c68bf14984b100ce36cd8addfd24c59bb1d2b40a50ae3eb877581d922f",
+      "source_updated_at": null,
+      "source_url": "https://fal.ai/about",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "GDS Holdings",
+      "parties": [
+        {
+          "name": "GDS Holdings",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "colocation_operator",
+        "vendor_id": "gds"
+      },
+      "provider": "GDS Holdings",
+      "raw_source_ref": "data/raw/china-enrichment/gds-directory.20261011.html",
+      "record_id": "vendor:identity:gds",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "98b20981f41841510d7332b8acc48b968367add8db2aadce098269ef89d73743",
+      "source_updated_at": null,
+      "source_url": "https://www.gds-services.com/about_4.html",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "medium",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Heying Data / 合盈数据",
+      "parties": [
+        {
+          "name": "Heying Data / 合盈数据",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "named_operator_candidate",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [
+          "legal/operator identity",
+          "facility/campus aliases",
+          "ownership",
+          "current lifecycle"
+        ],
+        "vendor_class": "physical_facility_operator_candidate",
+        "vendor_id": "heying"
+      },
+      "provider": "Heying Data / 合盈数据",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "vendor:identity:heying",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "named_operator_candidate"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Huawei Cloud / ModelArts / Pangu",
+      "parties": [
+        {
+          "name": "Huawei Cloud / ModelArts / Pangu",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P0",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud_and_model_platform",
+        "vendor_id": "huawei"
+      },
+      "provider": "Huawei Cloud / ModelArts / Pangu",
+      "raw_source_ref": "data/raw/china-enrichment/huawei-global.20261011.html",
+      "record_id": "vendor:identity:huawei",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "586e06a1ce9e2a30fdf2341d8a8db5ff7b820c838b486d914ef69975c98cd6ea",
+      "source_updated_at": null,
+      "source_url": "https://www.huaweicloud.com/intl/en-us/about/global-infrastructure.html",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "JD Cloud",
+      "parties": [
+        {
+          "name": "JD Cloud",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud",
+        "vendor_id": "jd"
+      },
+      "provider": "JD Cloud",
+      "raw_source_ref": "data/raw/china-enrichment/jd-cvm.20261011.html",
+      "record_id": "vendor:identity:jd",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "ae17e748d18edfa50e3927e11479d5d267e8c445df4e13237e031bd03443d8cc",
+      "source_updated_at": "2025-06-17",
+      "source_url": "https://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Kingsoft Cloud",
+      "parties": [
+        {
+          "name": "Kingsoft Cloud",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud",
+        "vendor_id": "kingsoft"
+      },
+      "provider": "Kingsoft Cloud",
+      "raw_source_ref": "data/raw/china-enrichment/kingsoft-kec.20261011.html",
+      "record_id": "vendor:identity:kingsoft",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "5eb1eb9c8e56c1d482886732a5614da07b6596dc8ae9f051d83e01e03cc71860",
+      "source_updated_at": "2026-01-09",
+      "source_url": "https://docs.ksyun.com/documents/6965",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Kuaishou / Kling AI",
+      "parties": [
+        {
+          "name": "Kuaishou / Kling AI",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "reviewed_fact_archive",
+        "unresolved": [],
+        "vendor_class": "consumer_platform_and_model_api",
+        "vendor_id": "kuaishou"
+      },
+      "provider": "Kuaishou / Kling AI",
+      "raw_source_ref": "data/raw/china-enrichment/kling.20261011.reviewed.json",
+      "record_id": "vendor:identity:kuaishou",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-06-05",
+      "source_scope": "provider_declared",
+      "source_sha256": "c3049c0df7c69965f675ca95cad9615153f589449308515a906e69dcd72eba18",
+      "source_updated_at": null,
+      "source_url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-celebrates-first-anniversary-achieves-annualized",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "medium",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Meili Cloud / 美利云",
+      "parties": [
+        {
+          "name": "Meili Cloud / 美利云",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "named_operator_candidate",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [
+          "legal/operator identity",
+          "facility/campus aliases",
+          "ownership",
+          "current lifecycle"
+        ],
+        "vendor_class": "physical_facility_operator_candidate",
+        "vendor_id": "meiliyun"
+      },
+      "provider": "Meili Cloud / 美利云",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "vendor:identity:meiliyun",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "named_operator_candidate"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "MiniMax",
+      "parties": [
+        {
+          "name": "MiniMax",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "model_developer_and_api_operator",
+        "vendor_id": "minimax"
+      },
+      "provider": "MiniMax",
+      "raw_source_ref": "data/raw/china-enrichment/minimax.20261011.html",
+      "record_id": "vendor:identity:minimax",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "3ff2349831596c748fbe3a9186acc0365a08e7ca64fb25bdeecaffc585431190",
+      "source_updated_at": null,
+      "source_url": "https://platform.minimax.io/docs/api-reference/api-overview",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Moonshot AI / Kimi",
+      "parties": [
+        {
+          "name": "Moonshot AI / Kimi",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "model_developer_and_api_operator",
+        "vendor_id": "moonshot"
+      },
+      "provider": "Moonshot AI / Kimi",
+      "raw_source_ref": "data/raw/china-enrichment/kimi-endpoints.20261011.html",
+      "record_id": "vendor:identity:moonshot",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "384344acb19d1f9b4343dcf1ba87ce5f8b4f77de9076381c8e8667ff13c4dca5",
+      "source_updated_at": null,
+      "source_url": "https://www.kimi.com/en/help/kimi-code/faq",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "operator_or_brand_identity_not_facility_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Ningxia Western Cloud Data Technology Co., Ltd. (NWCD)",
+      "parties": [
+        {
+          "name": "Ningxia Western Cloud Data Technology Co., Ltd. (NWCD)",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "identity_role": "china_region_operator",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": "Ningxia Western Cloud Data Technology Co., Ltd. (NWCD)",
+        "vendor_id": "nwcd"
+      },
+      "provider": "Ningxia Western Cloud Data Technology Co., Ltd. (NWCD)",
+      "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+      "record_id": "vendor:identity:nwcd",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+      "source_updated_at": null,
+      "source_url": "https://www.amazonaws.cn/en/about-aws/china/",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Qiniu Cloud / QVM",
+      "parties": [
+        {
+          "name": "Qiniu Cloud / QVM",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud_and_media_cloud",
+        "vendor_id": "qiniu"
+      },
+      "provider": "Qiniu Cloud / QVM",
+      "raw_source_ref": "data/raw/china-enrichment/qiniu-resource-pools.20261011.html",
+      "record_id": "vendor:identity:qiniu",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "12ee13b3f0087bada545ac9f83b9c0d17b5de9c5ce77199d58d53f3240a8dbb9",
+      "source_updated_at": "2026-05-06",
+      "source_url": "https://developer.qiniu.com/qvm/4190/region-zone",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "medium",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Runze / 润泽",
+      "parties": [
+        {
+          "name": "Runze / 润泽",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "named_operator_candidate",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [
+          "legal/operator identity",
+          "facility/campus aliases",
+          "ownership",
+          "current lifecycle"
+        ],
+        "vendor_class": "physical_facility_operator_candidate",
+        "vendor_id": "runze"
+      },
+      "provider": "Runze / 润泽",
+      "raw_source_ref": "data/raw/china-enrichment/miit-green-facilities-directory.20261011.pdf",
+      "record_id": "vendor:identity:runze",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2025-12-29",
+      "source_scope": "institution_declared",
+      "source_sha256": "043a881ddcfe09b99de5d89d029b01e7fea94df094770acfab5eaf0c718e01f9",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "spatial_representation": "none",
+      "unit": "named_operator_candidate"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "medium",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "seedance2.ai",
+      "parties": [
+        {
+          "name": "seedance2.ai",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "bytedance_affiliation": "explicitly_disclaimed_in_indexed_terms",
+        "cohort_classification": "jurisdiction_unresolved",
+        "current_direct_page_capture_available": false,
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P2",
+        "source_capture_method": "reviewed_fact_archive",
+        "unresolved": [
+          "legal entity",
+          "corporate jurisdiction",
+          "upstream model provenance",
+          "hosting geography"
+        ],
+        "upstream_service_and_corporate_jurisdiction": "not_verified",
+        "vendor_class": "independent_ai_application_platform",
+        "vendor_id": "seedance2ai"
+      },
+      "provider": "seedance2.ai",
+      "raw_source_ref": "data/raw/china-enrichment/seedance2ai-identity.20261011.reviewed.json",
+      "record_id": "vendor:identity:seedance2ai",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9b814e3a510f93aeae743041db57be8eaa8dbc22f55260a551e21347a94f4934",
+      "source_updated_at": "2025-10-29",
+      "source_url": "https://seedance2.ai/zh-hant/terms-of-service",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SiliconFlow",
+      "parties": [
+        {
+          "name": "SiliconFlow",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "multi_model_inference_platform",
+        "vendor_id": "siliconflow"
+      },
+      "provider": "SiliconFlow",
+      "raw_source_ref": "data/raw/china-enrichment/siliconflow.20261011.html",
+      "record_id": "vendor:identity:siliconflow",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "06ff9198d94022254b4f313da7a772d4fd39baa80282e97fd44f9826b2e7d406",
+      "source_updated_at": null,
+      "source_url": "https://docs.siliconflow.com/en/userguide/introduction",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "operator_or_brand_identity_not_facility_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Beijing Sinnet Technology Co., Ltd. (Sinnet)",
+      "parties": [
+        {
+          "name": "Beijing Sinnet Technology Co., Ltd. (Sinnet)",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "identity_role": "china_region_operator",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": "Beijing Sinnet Technology Co., Ltd. (Sinnet)",
+        "vendor_id": "sinnet"
+      },
+      "provider": "Beijing Sinnet Technology Co., Ltd. (Sinnet)",
+      "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+      "record_id": "vendor:identity:sinnet",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+      "source_updated_at": null,
+      "source_url": "https://www.amazonaws.cn/en/about-aws/china/",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "operator_or_brand_identity_not_facility_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SUNeVision / 新意网",
+      "parties": [
+        {
+          "name": "SUNeVision / 新意网",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "identity_role": "named_landing_station_and_colocation_operator",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": "SUNeVision / 新意网",
+        "vendor_id": "sunevision"
+      },
+      "provider": "SUNeVision / 新意网",
+      "raw_source_ref": "data/raw/china-enrichment/telecom-hkis1.20261011.html",
+      "record_id": "vendor:identity:sunevision",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2023-01-12",
+      "source_scope": "provider_declared",
+      "source_sha256": "d33e74ac52a61dbf80599a26f10a506c2e350126c28255d60a4b2b5fad8adfd4",
+      "source_updated_at": null,
+      "source_url": "https://www.chinatelecomglobal.com/sc/whats-new/37253",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Tencent Cloud / Hunyuan",
+      "parties": [
+        {
+          "name": "Tencent Cloud / Hunyuan",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "brand_update_evidence": {
+          "capture_method": "http_response",
+          "raw_source_ref": "data/raw/china-enrichment/tencent-hy3.20261011.html",
+          "retrieved_at": "2026-10-11",
+          "source_id": "tencent-hy3",
+          "source_published_at": "2026-08-05",
+          "source_sha256": "04105d4c0b1c05dfab12bde992cc515053d41c5dd998fddc39424df72e1bbfd5",
+          "source_updated_at": null,
+          "source_url": "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/"
+        },
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "model_brand_names": [
+          "Tencent Hy",
+          "Hunyuan"
+        ],
+        "resolved_legal_entity": null,
+        "review_priority": "P0",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud_and_model_platform",
+        "vendor_id": "tencent"
+      },
+      "provider": "Tencent Cloud / Hunyuan",
+      "raw_source_ref": "data/raw/china-enrichment/tencent-directory.20261011.html",
+      "record_id": "vendor:identity:tencent",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "62dec2627f0b7fe1e5f4e44879986705ac2a522215a630537c95cb690dc28998",
+      "source_updated_at": "2026-09-18",
+      "source_url": "https://www.tencentcloud.com/document/product/213/6091",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "China Telecom / Tianyi Cloud",
+      "parties": [
+        {
+          "name": "China Telecom / Tianyi Cloud",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "carrier_cloud",
+        "vendor_id": "tianyi"
+      },
+      "provider": "China Telecom / Tianyi Cloud",
+      "raw_source_ref": "data/raw/china-enrichment/tianyi-vpc.20261011.html",
+      "record_id": "vendor:identity:tianyi",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "343497b4a64d828dde5a39bee6977d95448401c47c3fab07b9db4e8bbf66c742",
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://www.ctyun.cn/document/10026755/10196575",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "UCloud / UPHost",
+      "parties": [
+        {
+          "name": "UCloud / UPHost",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud_and_gpu_bare_metal",
+        "vendor_id": "ucloud"
+      },
+      "provider": "UCloud / UPHost",
+      "raw_source_ref": "data/raw/china-enrichment/ucloud-baremetal-md.20261011.html",
+      "record_id": "vendor:identity:ucloud",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "c8eff7f6cecda2b405eea1a8c4d6f7d40299dcb5e2c360cc2039984e3d2826ec",
+      "source_updated_at": "2026-01-09",
+      "source_url": "https://docs.ucloud.cn/uphost/concepts/az.md",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "VNET Group",
+      "parties": [
+        {
+          "name": "VNET Group",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "azure_operator_legal_entity_must_remain_separate": true,
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "search_index_primary_page_fact_extract",
+        "unresolved": [],
+        "vendor_class": "colocation_and_cloud_operator",
+        "vendor_id": "vnet"
+      },
+      "provider": "VNET Group",
+      "raw_source_ref": "data/raw/china-enrichment/vnet-q2.20261011.reviewed.json",
+      "record_id": "vendor:identity:vnet",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-18",
+      "source_scope": "provider_declared",
+      "source_sha256": "e6042350bfd2b6518e5be91914c5cdfc9b28e3010e0381c977dacdd970262b04",
+      "source_updated_at": null,
+      "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "ByteDance / Volcano Engine / Doubao / Seedance",
+      "parties": [
+        {
+          "name": "ByteDance / Volcano Engine / Doubao / Seedance",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P0",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "public_cloud_and_model_platform",
+        "vendor_id": "volcano"
+      },
+      "provider": "ByteDance / Volcano Engine / Doubao / Seedance",
+      "raw_source_ref": "data/raw/china-enrichment/seedance-official.20261011.html",
+      "record_id": "vendor:identity:volcano",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "22e4d8325f24656447915b750e5493bdfaeac5a010735d1aa19aecf158c6c29f",
+      "source_updated_at": null,
+      "source_url": "https://seed.bytedance.com/en/seedance2_0",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Wangsu / ChinaNetCenter",
+      "parties": [
+        {
+          "name": "Wangsu / ChinaNetCenter",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P2",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "independent_cdn",
+        "vendor_id": "wangsu"
+      },
+      "provider": "Wangsu / ChinaNetCenter",
+      "raw_source_ref": "data/raw/china-enrichment/wangsu-cdn.20261011.html",
+      "record_id": "vendor:identity:wangsu",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "6cca1c6ce48f84eafe34ea4635dfcf0c156d4f68ef485211dd48c365670fef27",
+      "source_updated_at": null,
+      "source_url": "https://online.wangsu.com/product/cdn",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    },
+    {
+      "category": "vendor_identity",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "vendor_identity_only",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Z.ai / GLM",
+      "parties": [
+        {
+          "name": "Z.ai / GLM",
+          "role": "declaring_party"
+        }
+      ],
+      "properties": {
+        "cohort_classification": "china_related_vendor_or_offering",
+        "identity_state": "vendor_or_platform_reference",
+        "infrastructure_geography_not_established_by_identity": true,
+        "resolved_legal_entity": null,
+        "review_priority": "P1",
+        "source_capture_method": "http_response",
+        "unresolved": [],
+        "vendor_class": "model_developer_and_api_operator",
+        "vendor_id": "zai"
+      },
+      "provider": "Z.ai / GLM",
+      "raw_source_ref": "data/raw/china-enrichment/zai.20261011.html",
+      "record_id": "vendor:identity:zai",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "7a54a789a31ddf79c2f4aae27b39631b669968efedad70b2f473bad3a981b976",
+      "source_updated_at": null,
+      "source_url": "https://docs.z.ai/guides/overview/quick-start",
+      "spatial_representation": "none",
+      "unit": "vendor_reference"
+    }
+  ],
+  "retrieved_at": "2026-10-11",
+  "schema_version": "1.0.0",
+  "scope_note": "Vendor, operator and model-brand references are metadata, not infrastructure locations. Country fields denote explicit identity/headquarters context only.",
+  "type": "InfrastructureEvidenceCollection"
+}

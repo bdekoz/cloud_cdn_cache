@@ -21,6 +21,7 @@ GOOGLE_REFRESH_TAG = "20261011"
 RUSSIA_REVIEW_TAG = "20261011"
 INFRASTRUCTURE_TAG = "20261011"
 CHINA_REVIEW_TAG = "20261011"
+CHINA_IMPLEMENTATION_TAG = "20261011"
 
 BASELINE_LAYERS = (
     "google/edge",
@@ -104,6 +105,8 @@ def layer_manifest(layer: str, tag: str) -> dict[str, Any]:
             "source_url": key[2],
             "source_published_at": row["source_published_at"],
         }
+        if row.get("properties", {}).get("source_updated_at"):
+            sources[key]["source_updated_at"] = row["properties"]["source_updated_at"]
     report = json.loads(report_path.read_text(encoding="utf-8"))
     for source in report.get("enrichment_sources", []):
         key = (source["raw_source_ref"], source["source_sha256"], source["source_url"])
@@ -185,8 +188,8 @@ def network_layer_manifest(layer: str, tag: str) -> dict[str, Any]:
     }
 
 
-def infrastructure_manifest(layer: str, tag: str) -> dict[str, Any]:
-    path = REPO_ROOT / "data/infrastructure" / f"{layer}.{tag}.json"
+def infrastructure_manifest(layer: str, tag: str, directory: str = "infrastructure") -> dict[str, Any]:
+    path = REPO_ROOT / "data" / directory / f"{layer}.{tag}.json"
     collection = json.loads(path.read_text(encoding="utf-8"))
     records = collection["records"]
     sources = {}
@@ -198,7 +201,7 @@ def infrastructure_manifest(layer: str, tag: str) -> dict[str, Any]:
     report = path.with_suffix(".report.json")
     if report.exists():
         files["report"] = {"path": repo_ref(report), "sha256": sha256(report)}
-    return {"layer": f"infrastructure/{layer}", "snapshot_tag": tag, "schema_version": collection["schema_version"],
+    return {"layer": f"{directory}/{layer}", "snapshot_tag": tag, "schema_version": collection["schema_version"],
             "record_count": len(records), "category_counts": dict(sorted(Counter(row["category"] for row in records).items())),
             "unit_counts": dict(sorted(Counter(row["unit"] for row in records).items())),
             "geometry_null": sum(row["geometry"] is None for row in records), "files": files,
@@ -224,15 +227,35 @@ def main() -> None:
         ]
     if tag >= RUSSIA_REVIEW_TAG:
         layer_specs.append(("yandex/data-centers", RUSSIA_REVIEW_TAG))
+    if tag >= CHINA_IMPLEMENTATION_TAG:
+        refreshed = {
+            "alibaba/regions-and-zones", "tencent/regions-and-zones", "baidu/regions-and-zones",
+            "volcano/regions-and-zones", "kingsoft/mainland-regions-and-zones",
+            "jd/mainland-regions-and-zones", "tianyi/vpc-resource-pools", "chindata/data-centers",
+            "aws/regions-and-zones",
+        }
+        layer_specs = [("huawei/regions", CHINA_IMPLEMENTATION_TAG) if layer == "huawei/mainland-regions"
+                       else (layer, CHINA_IMPLEMENTATION_TAG if layer in refreshed else snapshot_tag)
+                       for layer, snapshot_tag in layer_specs]
+        layer_specs.extend((layer, CHINA_IMPLEMENTATION_TAG) for layer in (
+            "microsoft/china-cloud-regions", "qiniu/resource-pools-and-regions"))
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     network_layers = []
     if tag >= NETWORK_TAG:
         network_layers = [network_layer_manifest(layer, NETWORK_TAG) for layer in NETWORK_EVIDENCE_LAYERS]
+    if tag >= CHINA_IMPLEMENTATION_TAG:
+        network_layers.append(network_layer_manifest("china-vendor-evidence", CHINA_IMPLEMENTATION_TAG))
     views = []
     for view, parent in VIEW_NAMES.items():
-        entry = layer_manifest(view, BASELINE_TAG)
+        entry = layer_manifest(view, CHINA_IMPLEMENTATION_TAG if tag >= CHINA_IMPLEMENTATION_TAG else BASELINE_TAG)
         entry["view_of"] = parent
         views.append(entry)
+    if tag >= CHINA_IMPLEMENTATION_TAG:
+        for view, parent in [("alibaba/mainland-specialized-regions-and-zones", "alibaba/regions-and-zones"),
+                             ("huawei/mainland-regions", "huawei/regions")]:
+            entry = layer_manifest(view, CHINA_IMPLEMENTATION_TAG)
+            entry["view_of"] = parent
+            views.append(entry)
     if tag >= RUSSIA_REVIEW_TAG:
         entry = layer_manifest("russia/locations-and-observations", RUSSIA_REVIEW_TAG)
         entry["view_of"] = ["google/edge", "cloudflare/edge", "cachefly/locations", "observations/cdn-mapping-cities", "yandex/data-centers"]
@@ -244,11 +267,17 @@ def main() -> None:
         assessments.extend(assessment_manifest(name, CHINA_REVIEW_TAG) for name in (
             "china/vendor-coverage-assessment", "china/enrichment-plan", "china/review-evidence",
         ))
+    if tag >= CHINA_IMPLEMENTATION_TAG:
+        assessments.extend(assessment_manifest(name, CHINA_IMPLEMENTATION_TAG) for name in (
+            "china/legacy-reconciliation", "china/enrichment-implementation"))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
         infrastructure_schema = REPO_ROOT / "schema/infrastructure-evidence.schema.json"
         infrastructure_layers = [infrastructure_manifest("connectivity", INFRASTRUCTURE_TAG)]
+        if tag >= CHINA_IMPLEMENTATION_TAG:
+            infrastructure_layers.extend(infrastructure_manifest(name, CHINA_IMPLEMENTATION_TAG) for name in (
+                "china-ai-services", "china-facilities-and-portfolios", "china-carrier-links"))
         infrastructure_view = infrastructure_manifest("russia-connectivity", INFRASTRUCTURE_TAG)
         infrastructure_view["view_of"] = "infrastructure/connectivity"
         infrastructure_sections = {
@@ -259,6 +288,11 @@ def main() -> None:
             "infrastructure_evidence_views": [infrastructure_view],
             "infrastructure_evidence_view_count": 1,
         }
+        if tag >= CHINA_IMPLEMENTATION_TAG:
+            registry = infrastructure_manifest("registry", CHINA_IMPLEMENTATION_TAG, directory="vendors")
+            registry["counted_as_infrastructure"] = False
+            infrastructure_sections["vendor_registry"] = registry
+            infrastructure_sections["vendor_registry_record_count"] = registry["record_count"]
     write_json(output, {
         **infrastructure_sections,
         "assessments": assessments,

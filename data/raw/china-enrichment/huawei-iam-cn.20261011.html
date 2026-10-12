@@ -1,0 +1,639 @@
+<!DOCTYPE html> <html lang="zh-CN" site="china"> <head> <meta name="referrer" content="no-referrer-when-downgrade" /> <link rel="canonical" data-link-type="uri" href="https://support.huaweicloud.com/api-iam5/iam_02_1101.html" /> <link rel="alternate" type="text/markdown" data-link-type="markdown" href="https://support.huaweicloud.com/api-iam5/iam_02_1101.md" /> <link rel="alternate" type="text/plain" data-link-type="llms-txt" href="/iam5/llms.txt" /> <title>使用前必读_API参考_统一身份认证服务 IAM_统一身份认证服务（新版）-华为云</title> <meta name="keywords" content="使用前必读,API参考" /> <meta name="description" content="欢迎使用统一身份认证（Identity and Access Management，简称IAM）。IAM是提供用户身份认证、权限分配、访问控制等功能的身份管理服务，可以帮助您安全地控制对华为云资源的访问。您可以使用IAM创建以及管理用户，并使用权限来允许或拒绝他们对华为云资源的访问。" /> <meta charset="UTF-8" /> <meta name="applicable-device" content="pc,mobile" /> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /> <meta name="baidu-site-verification" content="nsMgQr28vc" /> <meta http-equiv="x-dns-prefetch-control" content="on" /> <meta name="cache" content="pep-disable-cache" /> <script
+        src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/special_iframe.js"></script> <meta name="templateName" content="doc-common-detail-pep2.0-module" /> <meta name="referrer" content="no-referrer-when-downgrade" /> <meta name="pep-template-version" content="1.9.27" /> <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;" /> <link rel="icon" href="https://www.huaweicloud.com/favicon.ico"> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/css/global.min.css?sttl=3.0.86&ttr=1.2.20" crossorigin="anonymous"/> <!--/* header css */--> <link rel="stylesheet" href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.61/index.css?sttl=3.0.86&ttr=1.2.20" crossorigin="anonymous"> <style> @media(max-width:768px) { #header { display: none; } } #footer .footer-nav { display: none; } #footer .footer-copyright-container { display: none; } .footer-service .footer-wrapper { display: none; } </style> <link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.18/theme-token.css"> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/libs.min.js"></script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/globalInfo.min.js" crossorigin="anonymous"></script> <!-- --> <meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw" /> <meta name="sogou_site_verification" content="u4x6sJNooE" /> <link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" /> <link rel="dns-prefetch" href="https://portal.hc-cdn.com" /> <link rel="dns-prefetch" href="https://support.huaweicloud.com" /> <link rel="dns-prefetch" href="https://activity.huaweicloud.com" /> <link rel="dns-prefetch" href="https://portal.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba.huaweicloud.com" /> <link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" /> <!-- --> <script>
+    window.dataLayer = window.dataLayer || [];
+    window.$closeBiReport2018 = true
+
+    window.$siteInfo = window.$siteInfo || {};
+    window.$siteInfo.site = "china";
+    window.$siteInfo.lang = "zh-cn".replace("_", "-");
+</script> <script>window.$cssList = [];window.$aioList = [];window.$aioCdnPrefix = 'https://res.hc-cdn.com/';</script> <script src="https://res.hc-cdn.com/cnpm-portal-utils/1.4.33/PortalUtils.umd.js"></script> <script type="importmap">
+        {
+         "imports": {
+           "svelte": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/index.js",
+           "svelte/store": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/store.js",
+           "svelte/motion": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/motion.js",
+           "svelte/transition": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/transition.js",
+           "svelte/animate": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/animate.js",
+           "svelte/easing": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/easing.js",
+           "svelte/events": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/events.js",
+           "svelte/internal/client": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-client.js",
+           "svelte/legacy": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/legacy.js",
+           "svelte/reactivity": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity.js",
+           "svelte/reactivity/window": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/reactivity-window.js",
+           "svelte/attachments": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/attachments.js",
+           "svelte/internal/disclose-version": "https://res.hc-cdn.com/pep-components-svelte/5.38.10/svelte-cdn/internal-disclose-version.js"
+          }
+        }
+      </script> <script>
+        window.gConfig =  window.gConfig || {};
+        window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+        var hClassName ;
+        if(window.gConfig.isMobile) {
+          hClassName = ' phone';
+        } else {
+          hClassName = ' pc';
+        }
+        if(window.$cssList) {
+          for(var i=0; i<window.$cssList.length; i++) {
+            document.write('<link rel="stylesheet" href="'+window.$cssList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+          }
+        }
+        var root = document.documentElement;
+        root.className += hClassName ;
+    </script> <script>
+    window.gConfig =  window.gConfig || {};
+    window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+    var hClassName;
+    if(window.gConfig.isMobile){
+        hClassName = ' phone';
+    }else{
+        hClassName = ' pc';  
+    }
+    if(window.$aioList) {
+        for(var i=0; i<window.$aioList.length; i++) {
+            if(window.$aioCdnPrefix){
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="'+window.$aioCdnPrefix+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            } else {
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/'+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            }
+            
+        }
+    }
+    var root = document.documentElement;
+    root.className += hClassName ; 
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.gConfig.seed.push({
+        name: '@cloud/link-to',
+        data: {
+            "packages": {
+                "@cloud/link-to": {
+                    "path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+                    "version": "3.1.12"
+                }
+            }
+        }
+    });
+</script> <link href="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/css/index_revision.css?20240716&sttl=3.0.86" rel="stylesheet" /> <link href="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/css/default.min.css" rel="stylesheet" /> <script>
+        // 规避资料不规范出现这些未定义的方法
+        function image_size() { }
+        function highlightSearch() { }
+        function initImageViewer(Selector) { }
+    </script> </head> <body class="scrolled"> <div id="header" bi_parent_name="navigation" meta-data-adjust-app="hide"> <div class="header-container"> <div class="header-prompt"> <div class="header-prompt-wrapper"> <div class="header-prompt-content"> <i class="por-icon por-icon-error"></i> <p>检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 <a href="https://www.huaweicloud.com/intl/zh-cn">https://www.huaweicloud.com/intl/zh-cn</a></p> </div> <div class="header-prompt-radio"> <i class="header-prompt-checkbox active"></i> <p>不再显示此消息</p> <i class="header-prompt-closed por-icon por-icon-close"></i> </div> </div></div> <div class="header-topnav"> <div class="header-topnav-wrapper"> <li class="header-lang "> <div class="header-lang-current"><i class="header-icon-earth"></i><span class="header-lang-label">中国站</span><i class="header-icon-arrow-down"></i></div> <div class="header-lang-list"> <div class="header-site" bi_parent_name="中国站"> <div class="header-site-left">中国站</div> <ul class="header-site-right "> <li class="header-lang-item active"><a href="//www.huaweicloud.com/">简体中文</a></li> </ul> </div> <div class="header-site" bi_parent_name="International"> <div class="header-site-left">International</div> <ul class="header-site-right"> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/en-us/">English</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/id-id/">Bahasa Indonesia</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/es-us/">Español</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/pt-br/">Português</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/tr-tr/">Türkçe</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/ar-mena/">عربي</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/th-th/">ไทย</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/zh-cn/">简体中文</a></li> <li class="header-lang-item"><a href="https://www.huaweicloud.com/intl/ja-jp/">日本語</a></li> </ul> </div> <div class="header-site" bi_parent_name="Europe"> <div class="header-site-left">Europe</div> <ul class="header-site-right "> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/">English</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/de-de/">Deutsch</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/es-es/">Español</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/fr-fr/">Français</a></li> <li class="header-lang-item"><a href="//www.huaweicloud.com/eu/nl-nl/">Nederlands</a></li> </ul> </div> </div> </li> <li class="header-hwapp"> <i class="header-icon-hwapp"></i><a class="header-hwapp-link" href="https://www.huaweicloud.com/mobile_app/hwapp.html?channel=navigation_right" target="_black">华为云App</a> </li> </div></div> <div class="header-wrapper"> <div class="header-bottom"> <div class="header-bottom-wrapper "> <a class="header-logo" bi_name="logo" href="https://www.huaweicloud.com"> <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/logo.svg"> </a> <div class="header-nav"> <div class="header-nav-scroll"> <ul class="header-nav-list"> <li data-key="agentorchard"> <a data-href="https://agentorchard.huaweicloud.com/index.html"> <span>智果园</span> </a> </li> <li data-key="activity"> <a> <span>活动</span> </a> </li> <li data-key="product"> <a data-href="https://www.huaweicloud.com/product/"> <span>产品</span> </a> </li> <li data-key="solution"> <a data-href="https://www.huaweicloud.com/solution/"> <span>解决方案</span> </a> </li> <li data-key="price"> <a data-href="https://www.huaweicloud.com/pricing/index.html"> <span>定价</span> </a> </li> <li data-key="market"> <a data-href="https://marketplace.huaweicloud.com/"> <span>云商店</span> </a> </li> <li data-key="partner"> <a data-href="https://www.huaweicloud.com/partners/"> <span>伙伴</span> </a> </li> <li data-key="developer"> <a data-href="https://developer.huaweicloud.com/"> <span>开发者</span> </a> </li> <li data-key="support"> <a data-href="https://www.huaweicloud.com/service/"> <span>服务</span> </a> </li> <li data-key="about"> <a data-href="https://www.huaweicloud.com/about/index.html"> <span>了解华为云</span> </a> </li> </ul> </div> <div class="header-bottom-mask"></div> <div class="header-nav-hover-line"></div> </div> <div class="header-tools"> <div class="header-search J-header-search" bi_parent_name="search"> <form class="header-search-inner J-serach-form" tabindex="-1" data-api-search-url="https://www.huaweicloud.com/s/" data-api-report="https://portal.huaweicloud.com/stats/pip.gif" data-api-hot="https://portal.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC" data-use-quick-link="true" data-quick-link-icon="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/advertisement/Fixed/banner/ic_public_link.svg" data-api-autoword="https://portal.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot="网站和Web应用程序,镜像制作,弹性势能,容器化改造,大数据分析人"> <div class="header-search-content J-search-content"> <div class="header-search-input"> <textarea class="J-search-input" id="header-navigation-search-input" rows="1" maxlength="256" data-active-placeholder="输入您想要搜索的关键词" autocomplete="off"></textarea> <div class="header-search-footer"> <button type="button" class="header-search-send" bi_name="#header-navigation-search-input"></button> </div> </div> <div class="header-search-droplist J-search-drop J-search-autoword" data-clickable-asyn="true"> <div class="J-search-hot"> <div class="J-search-history" bi_parent_name="history"> <div class="J-search-title"><span>清空</span>最近搜索</div> <div class="J-search-history-content"> </div> </div> <div class="J-search-popular" bi_parent_name="recommend"> <div class="J-search-title">快速链接</div> <ul class="J-search-popular-content"> <li><a>云耀云服务器L实例</a></li> <li><a>免费试用</a></li> <li><a>云服务器</a></li> <li><a>域名</a></li> <li><a>云速建站</a></li> </ul> </div> </div> <div class="J-search-related"> <ul></ul> </div> <div class="J-search-assist"> <div class="J-search-assist-keyword" bi_name="openpangu" data-assist-text="问一问云宝助手“$$”"><i class="J-search-assist-icon" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/commons/icon-yunbao.png');"></i><a><p>使用云宝助手，探索更多专业内容</p><i class="header-icon-arrow-right"></i></a></div> </div> </div> </div> </form> <div class="header-search-button"> <input class="search-default" type="text" data-active-placeholder="搜索" autocomplete="off" placeholder="搜索"> <i></i> <div class="header-search-carousel"> <ul></ul> </div> </div> </div> <div class="header-menu-search-mb"> <span class="header-icon-search"></span> </div> <ul class="header-tools-right header-main"> <li class="header-tools-icon"> <a href="https://www.huaweicloud.com/service/contact.html" title="联系我们" bi_name="tools_icon_联系我们"> <i class="header-tools-icon-default" style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/header-2025/%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC.svg')"></i> <i class="header-tools-icon-hover" style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/header-2025/%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC.svg')"></i> </a> <div class="header-tools-list"> <ul> <li> <div class="header-tools-list-category-title">售前咨询</div> <div class="tool-item"> <i class="header-tools-list-icon" style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/header-2025/电话.svg')"></i> <div> <div class="header-tools-list-title"><p>950808 转 1</p></div> </div> </div> </li> <li> <div class="tool-item"> <i class="header-tools-list-icon" style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/header-2025/预约咨询.svg')"></i> <div> <div class="header-tools-list-title"><p><a href="https://www.huaweicloud.com/consultation/" rel="noopener noreferrer" target="_blank" class="por-link">预约咨询</a></p></div> </div> </div> </li> <li> <div class="header-tools-list-category-title">售后服务</div> <div class="tool-item"> <i class="header-tools-list-icon" style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/header-2025/工单.svg')"></i> <div> <div class="header-tools-list-title"><p><a href="https://console.huaweicloud.com/ticket/?locale=zh-cn#/ticketindex/createIndex" rel="noopener noreferrer" target="_blank" class="por-link">工单提交</a></p></div> </div> </div> </li> <li> <div class="header-tools-list-category-title">建议反馈</div> <div class="tool-item"> <i class="header-tools-list-icon" style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/header-2025/建议反馈.svg')"></i> <div> <div class="header-tools-list-title"><p><a href="https://bbs.huaweicloud.com/suggestion" rel="noopener noreferrer" target="_blank" class="por-link">我有建议</a></p></div> </div> </div> </li> </ul> </div></li> <li><a href="https://support.huaweicloud.com">文档</a></li> <li><a href="https://beian.huaweicloud.com">备案</a></li> <li><a href="https://console.huaweicloud.com?locale=zh-cn">控制台</a></li> <li class="header-login-mobile"> <span class="header-icon-user js-login"></span> <div class="header-user-info user-info-layer user-unlogin header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"> <a href="//account.huaweicloud.com/usercenter/?locale=zh-cn&amp;region=cn-north-4#/accountindex/accountInfo" bi_name="账号中心" target="_blank">账号中心</a> </li> <li class="header-user-info-item-account account-item"> <a href="//account.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/allview" bi_name="费用与成本" target="_blank">费用与成本</a> </li> <li class="header-user-info-split"></li> <li class="order1"><a href="//account.huaweicloud.com/usercenter/?locale=zh-cn#/ordercenter/userindex/unpaidOrder" bi_name="待支付订单" target="_blank">待支付订单</a></li> <li class="management1"><a href="//account.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/renewalManagement" bi_name="待续费产品" target="_blank">待续费产品</a></li> <li class="message "><a href="//console.huaweicloud.com/mc/?locale=zh-cn" bi_name="未读消息" target="_blank">未读消息</a></li> <li class="header-user-info-split"></li> <li><a href="//console.huaweicloud.com/ticket/?region=cn-north-1&amp;locale=zh-cn#/ticketindex/createIndex" bi_name="工单管理" target="_blank">工单管理</a></li> <li><a class="mb-special" href="//www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=mobile_console" rel="nofollow" bi_name="管理控制台" target="_blank">管理控制台</a></li> <li class="header-user-info-split"></li> <li class="header-user-info-item-account account-item button-container"> <a class="header-user-info-button-red" href="https://reg.huaweicloud.com/registerui/public/custom/register.html?locale=zh-cn&amp;service=https%3A%2F%2Faccount.huaweicloud.com%2Fusercenter%2F%3Flocale%3Dzh-cn%26cloud_route_state%3D%2Fuserindex%2FaccountInfo#/register" target="_blank">注册</a> <a class="header-user-info-button-common" href="//auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=" target="_blank">登录</a> </li> </ul> </div></li><li class="header-login"><a data-login-href="//auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=" href="//auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=" class="btn js-login">登录</a></li> <li class="header-register"><a href="https://reg.huaweicloud.com/registerui/public/custom/register.html?locale=zh-cn#/register" class="btn js-register"> 注册 </a></li> <li style="display:none" class="header-shopping-cart" data-api-canuse="https://portal.huaweicloud.com/rest/cbc/cbcshoppingcartservice/v1/shopping-cart/can-use-shopping-cart" data-api-summary="https://portal.huaweicloud.com/rest/cbc/cbcshoppingcartservice/v1/shopping-cart/summary"> <a class="shopping-cart-icon" target="_blank" data-login="//auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=https://account.huaweicloud.com/usercenter/%23%2Fordercenter/cart" data-shopping-cart="https://account.huaweicloud.com/usercenter/#/ordercenter/cart" href="//auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=https://account.huaweicloud.com/usercenter/%23%2Fordercenter/cart"> <span></span> <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/header-and-footer/shopping-cart.png"> </a> <a class="shopping-cart-text btn js-shopping-cart" target="_blank" data-login="//auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=https://account.huaweicloud.com/usercenter/%23%2Fordercenter/cart" data-shopping-cart="https://account.huaweicloud.com/usercenter/#/ordercenter/cart" href="//auth.huaweicloud.com/authui/login?locale=zh-cn&amp;service=https://account.huaweicloud.com/usercenter/%23%2Fordercenter/cart"> 购物车 </a></li><li class="header-user user-info"> <div class="header-user-avator"> <img class="header-tool-user-avator-img account-pic lazyload" data-src="//res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/v2_resources/images/global/headPic.png?sttl=20180413"> </div> <div class="header-user-name"><span class="my-acct">admin</span><i class="header-nav-item-icon"></i></div> <div class="header-user-info user-info-layer header-backdrop"> <ul class="header-user-info-list account-nav"> <li class="header-user-info-item-account account-item"> <a href="//account.huaweicloud.com/usercenter/#/accountindex/accountInfo" bi_name="账号中心" target="_blank">账号中心</a> <a class="account-verification header-verification" href="//account.huaweicloud.com/usercenter/?locale=zh-cn#/accountindex/realNameAuth" target="_blank"> <i class="header-icon header-icon-verification"></i> <i class="header-icon header-icon-verification-on"></i> <p class="state-unactive">未实名认证</p> <p class="state-active">已实名认证</p> </a> </li> <li><a href="//account.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/allview" bi_name="费用与成本" target="_blank">费用与成本</a></li> <li class="header-user-info-split"></li> <li class="order"><a href="//account.huaweicloud.com/usercenter/?locale=zh-cn#/ordercenter/userindex/unpaidOrder" bi_name="待支付订单" target="_blank">待支付订单<span>0</span></a></li> <li class="management"><a href="//account.huaweicloud.com/usercenter/?locale=zh-cn#/userindex/renewalManagement" bi_name="待续费产品" target="_blank">待续费产品<span>0</span></a></li> <li class="message"><a href="//console.huaweicloud.com/mc/?locale=zh-cn" bi_name="未读消息" target="_blank">未读消息<span>0</span></a></li> <li class="header-user-info-split"></li> <li class="isVendor" style="display:none;"><a href="https://partner.huaweicloud.com/partnercenter" bi_name="伙伴中心" target="_blank">伙伴中心</a></li> <li><a href="//console.huaweicloud.com/marketplace/tenant/#/market/order/purchasedProductsCN" bi_name="云商店买家中心" target="_blank">云商店买家中心</a></li> <li class="isIsv" style="display:none;"><a href="//console.huaweicloud.com/marketplace/isv/#/console/overview" bi_name="云商店卖家中心" target="_blank">云商店卖家中心</a></li> <li class="header-user-info-split"></li> <li><a href="https://console.huaweicloud.com/ticket/?locale=zh-cn#/ticketindex/customerService" bi_name="实时客服" target="_blank">实时客服</a></li> <li class="header-user-info-split"></li> <li><a href="https://console.huaweicloud.com/ticket/#/ticketindex/createIndex" bi_name="工单管理" target="_blank">工单管理</a></li> <li class="header-user-info-split pc-only"></li> <li><a href="https://devstation.developer.huaweicloud.com/aidevspace" bi_name="开发者空间" target="_blank" class="pc-special">开发者空间</a></li> <li class="header-user-info-split"></li> <li><a href="https://www.huaweicloud.com/declaration/labels_config.html" bi_name="个性化推荐管理" target="_blank">个性化推荐管理</a></li> <li><a href="//www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=mobile_console" bi_name="管理控制台" target="_blank" class="mb-special">管理控制台</a></li> <li class="header-user-info-split"></li> <li class="logout"> <a href="#" class="bottom-username"><span class="my-acct">admin</span></a> <a class="logout-btn" mate_data_ts="www_v2_top_navigation.click.logout" href="//portal.huaweicloud.com/index/logout">退出登录</a> </li> </ul> </div></li> </ul> <div class="header-menu-mb" bi_name="HamburgNavigation" data-clickable="true"> <span></span> <span></span> <span></span> </div></div> </div></div> <script type="text/html" id="holder-drop"></script> <script type="text/html" id="holder-mbnav"></script> <div class="header-mbshearch header-backdrop" bi_parent_name="search_mb"> <div class="header-mbshearch-innner"> <form class="header-mbshearch-form" action method="get" data-api-search-url="https://www.huaweicloud.com/s/" data-api-report="https://portal.huaweicloud.com/stats/pip.gif" data-api-hot="https://portal.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC" data-api-autoword="https://portal.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search" data-default-hot="网站和Web应用程序,镜像制作,弹性势能,容器化改造,大数据分析人"> <div class="header-mbshearch-form-row"> <div> <div class="header-mbshearch-input-box"> <i class=""></i> <input type="text" maxlength="128" class="header-mbshearch-input" autocomplete="off"> <div class="header-search-carousel"> <ul></ul> </div> </div> </div> <div><a class="header-mbshearch-cancel">取消</a></div> </div> </form> <div class="header-mbshearch-droplist" data-clickable-asyn="true"> <div class="J-mbshearch-hot"> <div class="J-mbshearch-history"> <div class="J-mbshearch-title"><span>清空</span>最近搜索</div> <div class="J-mbshearch-history-content"> </div> </div> <div class="J-mbshearch-popular"> <div class="J-mbshearch-title">快速链接</div> <ul class="J-mbshearch-popular-content"> <li><a>云耀云服务器L实例</a></li> <li><a>免费试用</a></li> <li><a>云服务器</a></li> <li><a>域名</a></li> <li><a>云速建站</a></li> </ul> </div> </div> <ul class="J-mbshearch-related"> </ul> </div> </div></div> </div> </div></div> <div id="content" class="help-page home-page" bi_parent_name="support"> <div bi_parent_name="china-content"> <div> <a id="support-hidden-menu" hidden href="/iam5/v3_support_leftmenu_fragment.html"></a> <a id="support-hidden-index" hidden href="/support_all_doc_fragment.html"></a> </div> <div class="support-section support-content" id="support-content"> <div class="support-body" data-prod="iam5" bi_parent_name="iam5_main"> <div class="wrapper"> <div class="support-section support-nav" id="support-nav"></div> <script>
+    !(function (win, $) {
+        !(function initAllDoc() {
+            const origin = window.location.origin;
+            const url = `${origin}/support_all_doc_fragment.html`;
+            $.ajax({
+                type: 'get',
+                url: url,
+                timeout: 10000,
+                success: function (data) {
+                    initBase(data);
+                },
+            });
+        })();
+
+        function initBase(allDoc) {
+            let url = '';
+            let code = 'iam5' || '';
+            const origin = window.location.origin;
+
+            if (code === 'pcre' && queryString('product')) {
+                code = queryString('product');
+            }
+            if (code) {
+                url = `${origin}/${code}/v3_support_leftmenu_fragment.html`;
+            }
+            $.ajax({
+                type: 'get',
+                url: url,
+                timeout: 10000,
+                success: function (data) {
+                    initCommon(data, allDoc, code);
+                },
+            });
+        }
+
+        function queryString(key) {
+            var url = window.location.href;
+            var val = url.match(new RegExp('[?&]' + key + '=([^&#]*)(&?)', 'i'));
+            return val ? val[1] : val;
+        }
+
+        function initCommon(data, allDoc, code) {
+            var peplang = $('html').attr('lang').toLowerCase();
+            var scripts = [
+                "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/common_revision.min.js?20240716&sttl=3.0.86",
+                "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/maintainable_revision.min.js?20240716&sttl=3.0.86"
+            ];
+            $(data).find('ul.help-tsr li.nav-item').eq(1).find('a').attr('target', '_blank').removeClass('ajax-nav');
+            $('#support-nav').html($(data));
+            $('#support-nav').find('.side-nav-menu .side-menu-box').html($(allDoc));
+            if (peplang === 'es-us' || peplang === 'pt-br' || peplang === 'ja-jp') {
+                $('#support-nav .side-nav').find('.nav-item.level1').each((_index, item) => {
+                    if ($(item).attr('data-append') === 'false' && $(item).next().attr('data-append') === 'true') {
+                        $(item).after(`<li class="nav-item level1 append-tip"><a style="padding: 0;font-size: 12px;overflow: visible;max-height: initial;-webkit-line-clamp: initial;">以下内容暂无该语言版本，请查阅英文版本。</a></li>`);
+                    }
+                    if ($(item).attr('data-append') === 'true') {
+                        $(item).find('a').attr('target', '_blank');
+                    }
+                })
+            };
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            };
+        }
+        !(function () {
+            var sWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            if (sWidth >= 768) {
+                $('.side-menu-box .item.item-search-mb').remove();
+            } else {
+                $('.side-menu-box .item.item-search-pc').remove();
+            }
+        })();
+    })(window, jQuery);
+</script> <div class="support-main" data-handbook-type="api"> <span class="move-line"></span> <div class="crumbs"> <a class="link help-link" href="/index.html" mate_data_ts_v2="zh-cn_support_detail_iam5_breadcrumb.click_文档首页">文档首页</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/productdesc-iam5/iam_01_1107.html" mate_data_ts_v2="zh-cn_support_detail_iam5_breadcrumb.click_统一身份认证服务 IAM_统一身份认证服务（新版）">统一身份认证服务 IAM_统一身份认证服务（新版）</a><span>&#47;</span> <a class="link help-link" href="https://support.huaweicloud.com/api-iam5/iam_02_1101.html" mate_data_ts_v2="zh-cn_support_detail_iam5_breadcrumb.click_API参考">API参考</a><span>&#47;</span> <span class="text">使用前必读</span> </div> <div class="help-content help-center-document cf" data-current-handbookcode="api-iam5" data-handbook-type="api" > <div id="adOutsideDiv"><div id="helpAdDiv"></div></div> <div class="updateTime"> 更新时间：<span class="updateInfo">2026-04-24 GMT+08:00</span> <div class="doc-tips"> </div> </div> <div class="help-view-pdf" mate_data_ts_v2="zh-cn_support_detail_iam5.click_查看PDF"> <a target="_blank" href="https://support.huaweicloud.com/api-iam5/IAM 5.0 API参考-pdf.pdf"><i></i><span>查看PDF</span></a> </div> <div class="help-view-share"> <a href="javascript:void(0);"><i></i><span>分享</span></a> <div class="share-content"> <ul class="share-list"> <li class="share-item share-weibo" mate_data_ts_v2="zh-cn_support_detail_iam5.click_微博"> <a href="javascript:void(0);"><i></i><span>微博</span></a> <div class="share-result"> <p>分享文档到微博</p> </div> </li> <li class="share-item share-wechat" mate_data_ts_v2="zh-cn_support_detail_iam5.click_微信"> <a href="javascript:void(0);"><i></i><span>微信</span></a> <div class="share-result"> <div id="qrcode"></div> </div> </li> <li class="share-item share-copy" mate_data_ts_v2="zh-cn_support_detail_iam5.click_复制链接"> <a href="javascript:void(0);"><i></i><span data-copy-text="复制链接" data-copied-text="复制成功">复制链接</span></a> <div class="share-result"> <p>复制链接到剪贴板</p> </div> </li> </ul> </div> </div> <div class="share-item share-copy-fixed"> <i class="copy-success"></i> <p>链接复制成功！</p> <span class="copy-close"></span> </div> <a name="iam_02_1101"></a><a name="iam_02_1101"></a> <h1 class="topictitle1">使用前必读</h1> <div id="body1512366443584"> <p id="iam_02_1101__p15658415195716">欢迎使用统一身份认证（Identity and Access Management，简称IAM）。IAM是提供用户身份认证、权限分配、访问控制等功能的身份管理服务，可以帮助您安全地控制对华为云资源的访问。您可以使用IAM创建以及管理用户，并使用权限来允许或拒绝他们对华为云资源的访问。</p> <p id="iam_02_1101__p365810154573">IAM除了支持界面控制台操作外，还提供API供您调用，您可以使用本文档提供的API对IAM进行相关操作，如创建用户、创建用户组等。在调用IAM的API之前，请确保已经充分了解IAM的相关概念，详细信息请参见：《统一身份认证用户指南》的“产品介绍”章节。</p> <div class="section" id="iam_02_1101__section109306514503"> <h4 class="sectiontitle">终端节点</h4> <p id="iam_02_1101__p138878483507"><strong id="iam_02_1101__b12543134475112">IAM</strong></p> <p id="iam_02_1101__p135454211268">终端节点即调用API的请求地址，不同服务在不同区域的终端节点不同，您可以从<a href="https://console.huaweicloud.com/apiexplorer/#/endpoint/IAM" target="_blank" rel="noopener noreferrer">地区和终端节点</a>中查询IAM的终端节点。</p> <p id="iam_02_1101__p1654572119612">IAM的终端节点如<a href="#iam_02_1101__table2048720169413">表1</a>所示。IAM是全局级服务，数据全局一份，IAM所有的API都可以使用全局服务的Endpoint调用；除了全局区域外，为了配合其他区域级云服务的API/CLI访问，IAM在其他区域（除全局服务外的所有区域）提供部分API，您可以根据需要选择就近区域的终端节点调用API。</p> <div class="tablenoborder"> <a name="iam_02_1101__table2048720169413"></a><a name="table2048720169413"></a> <table cellpadding="4" cellspacing="0" summary="" id="iam_02_1101__table2048720169413" frame="border" border="1" rules="all"> <caption> <b>表1 </b><span style="color:#252B3A;">IAM的终端节点</span> </caption> <thead align="left"> <tr id="iam_02_1101__row1948791611417"> <th align="left" class="cellrowborder" valign="top" width="16.09160916091609%" id="mcps1.3.3.5.2.4.1.1"> <p id="iam_02_1101__p948717161641">区域名称</p> </th> <th align="left" class="cellrowborder" valign="top" width="18.08180818081808%" id="mcps1.3.3.5.2.4.1.2"> <p id="iam_02_1101__p248711161346">区域</p> </th> <th align="left" class="cellrowborder" valign="top" width="65.82658265826583%" id="mcps1.3.3.5.2.4.1.3"> <p id="iam_02_1101__p7487171617412">终端节点（Endpoint）</p> </th> </tr> </thead> <tbody> <tr id="iam_02_1101__row54872162412"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p187153361555">全局</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p471511363518">global</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p2715336355">iam.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row1948714168414"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p771518361856">华北-北京一</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p971503619513">cn-north-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p371513367515">iam.cn-north-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row201743333518"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p1716636157">华北-北京四</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p1571633620518">cn-north-4</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p871614367516">iam.cn-north-4.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row165225155418"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p671618361455">华东-上海一</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p071683612511">cn-east-3</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p27166364519">iam.cn-east-3.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row1671119419413"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p27166367519">华东-上海二</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p18716236759">cn-east-2</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p3716183619512">iam.cn-east-2.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row11634743448"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p3716133617512">华南-广州</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p1471618368514">cn-south-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p187161536856">iam.cn-south-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row213518136514"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p0716183614513">西南-贵阳一</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p471620369514">cn-southwest-2</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p147164368516">iam.cn-southwest-2.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row17731245518"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p1671633618514">中国-香港</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p147160361359">ap-southeast-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p071633610514">iam.ap-southeast-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row8403324755"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p77165363516">亚太-曼谷</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p137161936252">ap-southeast-2</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p1171663615519">iam.ap-southeast-2.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row135381624359"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p77161636056">亚太-新加坡</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p187163361518">ap-southeast-3</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p77161636756">iam.ap-southeast-3.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row1369162418516"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p1371614360514">亚太-雅加达</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p2071613618518">ap-southeast-4</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p17166369519">iam.ap-southeast-4.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row14844182419519"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p127163361659">非洲-约翰内斯堡</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p107162361513">af-south-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p127164368514">iam.af-south-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row1299072413511"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p127169362516">拉美-圣地亚哥</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p15717113615514">la-south-2</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p17174364510">iam.la-south-2.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row942012515511"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.5.2.4.1.1 "> <p id="iam_02_1101__p10717236753">土耳其-伊斯坦布尔</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.5.2.4.1.2 "> <p id="iam_02_1101__p16717113610520">tr-west-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.5.2.4.1.3 "> <p id="iam_02_1101__p1571716361859">iam.tr-west-1.myhuaweicloud.com</p> </td> </tr> </tbody> </table> </div> <p id="iam_02_1101__p21727133511"><strong id="iam_02_1101__b032255720512">STS</strong></p> <p id="iam_02_1101__p196957216457">STS的终端节点如<a href="#iam_02_1101__table1078115211388">表2</a>所示。STS是区域级服务，数据在每个区域存储，您可以根据需要选择就近区域的终端节点调用API。</p> <div class="tablenoborder"> <a name="iam_02_1101__table1078115211388"></a><a name="table1078115211388"></a> <table cellpadding="4" cellspacing="0" summary="" id="iam_02_1101__table1078115211388" frame="border" border="1" rules="all"> <caption> <b>表2 </b><span style="color:#252B3A;">STS的终端节点</span> </caption> <thead align="left"> <tr id="iam_02_1101__row117815212380"> <th align="left" class="cellrowborder" valign="top" width="16.09160916091609%" id="mcps1.3.3.8.2.4.1.1"> <p id="iam_02_1101__p378182163819">区域名称</p> </th> <th align="left" class="cellrowborder" valign="top" width="18.08180818081808%" id="mcps1.3.3.8.2.4.1.2"> <p id="iam_02_1101__p127814218386">区域</p> </th> <th align="left" class="cellrowborder" valign="top" width="65.82658265826583%" id="mcps1.3.3.8.2.4.1.3"> <p id="iam_02_1101__p1878119214386">终端节点（Endpoint）</p> </th> </tr> </thead> <tbody> <tr id="iam_02_1101__row57811721123815"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p0781152117382">华北-北京四</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p1578192113816">cn-north-4</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p18781182193812">sts.cn-north-4.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row2781202118385"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p178122123816">华东-上海一</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p127818217386">cn-east-3</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p20781202133811">sts.cn-east-3.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row1781221123812"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p1781122114384">华南-广州</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p137811221163811">cn-south-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p19878191718458">sts.cn-south-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row167812213387"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p878132110384">西南-贵阳一</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p20781721113815">cn-southwest-2</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p18781921173817">sts.cn-southwest-2.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row3781202123819"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p11781621143819">中国-香港</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p3781112133811">ap-southeast-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p6781221163811">sts.ap-southeast-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row478118217383"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p278102115381">亚太-曼谷</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p16781121173819">ap-southeast-2</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p107811721153819">sts.ap-southeast-2.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row1978152118385"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p9781021183814">亚太-新加坡</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p147814218381">ap-southeast-3</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p97811121183812">sts.ap-southeast-3.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row178132111386"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p478115216385">亚太-雅加达</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p07811921113815">ap-southeast-4</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p878182103818">sts.ap-southeast-4.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row07811421193818"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p207813211385">非洲-约翰内斯堡</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p078152173810">af-south-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p1678102183812">sts.af-south-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row13781421183812"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p6781202183810">拉美-圣地亚哥</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p1782321143811">la-south-2</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p15782821153818">sts.la-south-2.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row14388183417488"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p538819348484">拉美-圣保罗一</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p93883342489">sa-brazil-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p12388173413482">sts.sa-brazil-1.myhuaweicloud.com</p> </td> </tr> <tr id="iam_02_1101__row4782152103810"> <td class="cellrowborder" valign="top" width="16.09160916091609%" headers="mcps1.3.3.8.2.4.1.1 "> <p id="iam_02_1101__p6782202163819">土耳其-伊斯坦布尔</p> </td> <td class="cellrowborder" valign="top" width="18.08180818081808%" headers="mcps1.3.3.8.2.4.1.2 "> <p id="iam_02_1101__p2782152116387">tr-west-1</p> </td> <td class="cellrowborder" valign="top" width="65.82658265826583%" headers="mcps1.3.3.8.2.4.1.3 "> <p id="iam_02_1101__p9782192119381">sts.tr-west-1.myhuaweicloud.com</p> </td> </tr> </tbody> </table> </div> <div class="note" id="iam_02_1101__note1738111553563"> <img src="https://support.huaweicloud.com/api-iam5/public_sys-resources/note_3.0-zh-cn.png"><span class="notetitle"> </span> <div class="notebody"> <ul id="iam_02_1101__ul206491525579"> <li id="iam_02_1101__li43341533184020">STS是区域级服务，STS内部不会对终端节点进行主动容灾。例如，因不可抗拒因素导致华北-北京四区域机房故障时，sts.cn-north-4.myhuaweicloud.com终端节点也会故障，STS不会将sts.cn-north-4.myhuaweicloud.com终端节点解析到其他区域的终端节点进行容灾。因此，为了提高可用性，您在调用STS终端节点时应当结合多个区域的终端节点进行主动容灾，即当一个终端节点故障时，您应该切换到其他终端节点进行再次尝试。</li> <li id="iam_02_1101__li15882112518580">STS支持g:RequestedRegion条件键，当您在IAM身份策略或信任策略中配置了g:RequestedRegion条件键时，便只能在g:RequestedRegion条件键中允许的区域间进行终端节点的主动容灾，否则会导致鉴权失败从而导致您的业务中断。</li> </ul> </div> </div> </div> <div class="section" id="iam_02_1101__section5182131375015"> <h4 class="sectiontitle">基本概念</h4> <ul id="iam_02_1101__ul7362432243"> <li id="iam_02_1101__li63622312415">账号 <p id="iam_02_1101__p71407511248"><a name="iam_02_1101__li63622312415"></a><a name="li63622312415"></a>用户注册华为云时的账号，账号对其所拥有的资源及云服务具有完全的访问权限，可以重置用户密码、分配用户权限等。由于账号是付费主体，为了确保账号安全，建议您不要直接使用账号进行日常管理工作，而是创建用户并使用他们进行日常管理工作。</p></li> <li id="iam_02_1101__li685812328118">用户 <p id="iam_02_1101__p1486410325110"><a name="iam_02_1101__li685812328118"></a><a name="li685812328118"></a>由账号在IAM中创建的用户，是云服务的使用人员，具有身份凭证（密码和访问密钥）。</p> <p id="iam_02_1101__p17864143231113">在<a href="https://console.huaweicloud.com/iam5/?#/credentials" target="_blank" rel="noopener noreferrer">我的凭证</a>下，您可以查看账号ID和用户ID。</p></li> <li id="iam_02_1101__li8848551781">区域（Region） <p id="iam_02_1101__p225765617812"><a name="iam_02_1101__li8848551781"></a><a name="li8848551781"></a>从地理位置和网络时延维度划分，同一个Region内共享弹性计算、块存储、对象存储、VPC网络、弹性公网IP、镜像等公共服务。Region分为通用Region和专属Region，通用Region指面向公共租户提供通用云服务的Region；专属Region指只承载同一类业务或只面向特定租户提供业务服务的专用Region。</p> <p id="iam_02_1101__p10672151101019">详情请参见<a href="https://support.huaweicloud.com/usermanual-iaas/zh-cn_topic_0184026189.html" target="_blank" rel="noopener noreferrer">区域和可用区</a>。</p></li> <li id="iam_02_1101__li2612458684">可用区（AZ，Availability Zone） <p id="iam_02_1101__p169525916812"><a name="iam_02_1101__li2612458684"></a><a name="li2612458684"></a>一个AZ是一个或多个物理数据中心的集合，有独立的风火水电，AZ内逻辑上再将计算、网络、存储等资源划分成多个集群。一个Region中的多个AZ间通过高速光纤相连，以满足用户跨AZ构建高可用性系统的需求。</p></li> </ul> </div> </div> </div> <script>
+    (function ($) {
+      $.fn.bigrender = function (opts) {
+
+        var winHeight = document.documentElement.clientHeight;
+        var sum = 0;
+        var count = 0;
+        var flash = new Array();
+
+        // 'class' 是textarea父节点的类；'textarea' 是textarea标签的类；'threshold'是距离进入屏幕还有150像素就开始渲染；'remove'是否删除textarea标签       
+        options = $.extend({
+          'class': '.br-warp',
+          'textarea': '.br-rendered',
+          'threshold': 150,
+          'remove': true,
+        }, opts);
+
+        $brenders = $(options.class);
+        // 渲染首屏的内容
+        initBigrender();
+        // 绑定滚动条事件
+        scrollDisplay();
+
+
+        // 函数定义
+        function initBigrender() {
+          $brenders.each(function (n, object) {
+            sum++;
+            if (isRender($(this))) {
+              display($(this));
+              count++;
+              flash[n] = true;
+            } else {
+              flash[n] = false;
+            }
+          });
+        }
+
+        // 判断时候需要渲染
+        function isRender(object) {
+          offsetTop = object.offset().top;
+          ojh = object.outerHeight(true);
+          st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+
+          if (offsetTop + ojh + options.threshold >= st && offsetTop - options.threshold < (st + winHeight)) {
+            return true;
+          } else return false;
+
+        }
+
+        // 渲染textarea内的html代码
+        function display(object) {
+          $display = object.find(options.textarea).eq(0);
+          object.append($display.val());
+          if (options.remove) {
+            $display.remove();
+          }
+        }
+
+        // 屏幕绑定滚动条事件，当待渲染的内容进入可视屏幕就触发isRender函数
+        function scrollDisplay() {
+          $(window).scroll(function () {
+            if (count < sum) {
+              $brenders.each(function (n, object) {
+                if (!flash[n]) {
+                  if (isRender($(this))) {
+                    display($(this));
+                    count++;
+                    flash[n] = true;
+                  }
+                }
+              });
+            }
+          });
+        }
+      };
+    })(jQuery);
+    window.addEventListener('DOMContentLoaded', function (event) {
+      $.fn.bigrender({ 'threshold': 100 });
+    });
+    $(document).data('ajaxNav') && $(document).data('ajaxNav').addEvent('load', function () {
+      $.fn.bigrender({ 'threshold': 100 });
+    });
+  </script> <div class="help-detail-feedback "> <div class="action"> <p class="next"> <span class="label js-title"></span> <a class="link help-link js-title" href="https://support.huaweicloud.com/api-iam5/iam_02_1107.html" mate_data_ts_v2="zh-cn_support_detail_iam5.click_下一篇：API概览">下一篇：API概览</a> </p> </div> </div> <div class="relevant-content"> <div class="relevant-body"> <h4 class="relevant-title">相关文档</h4> <ul class="relevant-left"></ul> </div> <div class="doc-bottom-feedback"> <h3 class="feedback-title"> <span>您对此文档页面的整体评价？</span> </h3> <div class="help-form" bi_parent_name="feedback"> <div class="help-btn-wrap"> <div class="help-form-content"> <div class="star-score-btns"> <div id="score0" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_0星"><span>0</span><i class="help-form-n"></i></div> <div id="score1" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_1星"><span>1</span><i class="help-form-n"></i></div> <div id="score2" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_2星"><span>2</span><i class="help-form-n"></i></div> <div id="score3" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_3星"><span>3</span><i class="help-form-n"></i></div> <div id="score4" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_4星"><span>4</span><i class="help-form-n"></i></div> <div id="score5" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_5星"><span>5</span><i class="help-form-n"></i></div> <div id="score6" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_6星"><span>6</span><i class="help-form-n"></i></div> <div id="score7" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_7星"><span>7</span><i class="help-form-m"></i></div> <div id="score8" class="help-form-btn help-btn-unuse" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_8星"><span>8</span><i class="help-form-m"></i></div> <div id="score9" class="help-form-btn help-btn-use" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_9星"><span>9</span><i class="help-form-y"></i></div> <div id="score10" class="help-form-btn help-btn-use" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_10星"><span>10</span><i class="help-form-y"></i></div> </div> <div class="star-score-tip"> <span>非常不满意</span><span>非常满意</span> </div> </div> <a class="help-form-btn provide-feedback" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_提供反馈">提供反馈</a> </div> <div class="por-tip success help-form-success"> <div class="por-tip-content"> <i class="por-icon por-icon-success"></i> <div class="por-tip-wenzi"> <span>提交成功！非常感谢您的反馈，我们会继续努力做到更好！<span class="logged-text-str">您可在<a href="https://bbs.huaweicloud.com/mysuggestion" target="_blank" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_我的云声建议.submitted">我的云声建议</a>查看反馈及问题处理状态。</span></span> <span class="por-tip-remove"></span> </div> </div> </div> <div class="por-tip error help-form-false"> <div class="por-tip-content"> <i class="por-icon por-icon-error"></i> <div class="por-tip-wenzi"> <span>系统繁忙，请稍后重试</span> <span class="por-tip-remove"></span> </div> </div> </div> <form action="" data-evaluate-level=""> <div class="question-negative"> <div class="support-mast">您遇到了哪些问题？（最多选三项）</div> <div class="por-checkbox-group"> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="内容不易理解" name="question" id="support_suggest_0"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_0" class="">内容不易理解</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="内容不正确" name="question" id="support_suggest_1"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_1">内容不正确</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="内容不完整" name="question" id="support_suggest_2"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_2">内容不完整</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="阅读体验不佳" name="question" id="support_suggest_3"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_3">阅读体验不佳</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="产品问题" name="question" id="support_suggest_4"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_4">产品问题</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="其他" name="question" id="support_suggest_5"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_5">其他</label> </div> </div> </div> <div class="question-positive"> <div class="support-mast">您感到满意的原因是？（最多选三项）</div> <div class="por-checkbox-group"> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="内容易理解" name="question_positive" id="support_suggest_0_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_0_positive">内容易理解</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="内容正确" name="question_positive" id="support_suggest_1_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_1_positive">内容正确</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="内容丰富" name="question_positive" id="support_suggest_2_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_2_positive">内容丰富</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="阅读体验友好" name="question_positive" id="support_suggest_3_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_3_positive">阅读体验友好</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="产品功能完备" name="question_positive" id="support_suggest_4_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_4_positive">产品功能完备</label> </div> <div class="por-checkbox-inline"> <div class="por-checkbox"> <input class="por-native" type="checkbox" value="其他" name="question_positive" id="support_suggest_5_positive"> <span><i class="u-icon u-icon-confirm"></i></span> </div> <label for="support_suggest_5_positive">其他</label> </div> </div> </div> <p class="support-mast optional">意见反馈</p> <div class="textarea-wrapper"> <textarea maxlength="500" rows="10" cols="30" placeholder="欢迎反馈更多建议"></textarea> <div class="textarea-numbers"><span>0</span>/500</div> </div> <p class="important choose"> <span class="por-icon por-icon-error"></span>请至少选择一项反馈信息并填写问题反馈 </p> <p class="important length"><span class="por-icon por-icon-error"></span>字符长度不能超过500</p> <a href="javascript:void(0)" class="por-btn por-btn-primary submit" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_直接提交">直接提交</a> <a href="javascript:void(0)" class="por-btn por-btn-secondary false" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_取消">取消</a> </form> <div class="contact-decs"> <p>如您有其它疑问，您也可以通过华为云社区问答频道来与我们联系探讨</p> <a href="https://www.huaweicloud.com/ai-assistant/index.html" class="help-form-more" target="_blank" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_云宝助手提问">云宝助手提问 </a><a href="https://bbs.huaweicloud.com/forum/" target="_blank" class="help-form-more" mate_data_ts_v2="zh-cn_support_detail_iam5_bottomfeedback.click_云社区提问">云社区提问</a> </div> </div> </div> </div> </div> <div class="guide-buoy" mate_data_ts_v2="zh-cn_support_detail_iam5_introduction.open"></div> <div class="guide-model"> <div class="img-container" mate_data_ts_v2="zh-cn_support_detail_iam5_introduction.close"></div> </div> </div> </div> <span class="show-menu-btn"></span> </div> </div> </div> <div class="footer-service" meta-data-adjust-app="hide"></div> <script src="https://res.hc-cdn.com/cnpm-portal-utils/1.4.16/PortalUtils.umd.js"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/clipboard.js"></script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/support/resource/framework/js/highlight.min.js"></script> <div id="register"></div> <div id="service"></div> <script>
+  var furionAppCode = '';
+  var $currentUrl = location.href;
+  const $path = location.pathname;
+  if($currentUrl.indexOf("/pricing/calculator.html") !== -1 || $currentUrl.indexOf("/pricing/index.html") !== -1){
+    furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+  }else if($currentUrl.indexOf("https://activity.huaweicloud.com") === 0) {
+    furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+  } else if ($currentUrl.indexOf("https://support.huaweicloud.com") === 0) {
+    furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+  }else{
+    furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+  }
+  if(!window.__fr && furionAppCode){
+    !function(x, n) {
+      window[n] = window[n] || {};
+      window[n].config = {
+          appId: furionAppCode,setting: "api,jsTrack,uba,longtask,rtti",hashMode: true,closeReportFMP: true,
+      };
+      var o = document.createElement('script');
+      o.src = x, o.async = !0;
+      var d = document.body.firstChild;
+      document.body.insertBefore(o, d);
+    }('https://portal.hc-cdn.com/FurionSdkStatic/3.6.55/furion-cdn.min.js', '__fr');
+  }
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=3.0.86"></script> <script>
+    if (window.NodeList && !NodeList.prototype.forEach) {
+        NodeList.prototype.forEach = function (callback, thisArg) {
+            thisArg = thisArg || window;
+            for (var i = 0; i < this.length; i++) {
+                callback.call(thisArg, this[i], i, this);
+            }
+        };
+    }
+</script> <script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/global.min.js" crossorigin="anonymous"></script> <script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.18/theme-token.js?sttl=3.0.86&ttr=1.2.20" crossorigin="anonymous"></script> <script type="text/javascript" src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/feloader.js" crossorigin="anonymous"></script> <div class="hide-sttl" style="height: 0;width:0" data-sttl="3.0.86"></div> <script>
+    window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+</script> <script>
+            if( !/pcloudApp/i.test(navigator.userAgent) ){
+                $("#header").css("display","block");
+            }
+        </script> <!-- TODO：兼容AEM的埋点 Begin--> <script>
+    // edit--china--en-us--declaration
+    var $ts_site = "china";
+    var $ts_lang = "zh-cn".replace("_", "-");
+    var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+    var channel = "support";
+    var $uri = channel?"/detail.html":"detail.html";
+    var $pepchannel = (channel+$uri).split("/").join("_").replace(".html","");
+    window.matedataDomain = $ts_domain;
+
+    // if open in app, should change ts_domain in to "app"
+    if( /pcloudApp/i.test(navigator.userAgent) ) {
+        window.matedataDomain = "app";
+    }else{
+        var str = window.location.search;
+        var suband = "type=android";
+        var subios = "type=ios";
+        if( str.indexOf(subios)!=-1 || str.indexOf(suband)!=-1 ){
+            window.matedataDomain = "app";
+        }
+    }
+
+    // 新系统中生成的方式需要改下
+    window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+    window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+    window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+    window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+    window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+    window.pep_uaid = ($ts_site=="china") ? "UA-55836286-1" : "UA-55836286-39";
+    window.mate_data_ts_pageType = $pepchannel;
+</script> <!-- TODO：兼容AEM的埋点 End--> <script>
+    function showFooter(){
+       if(window.matedataDomain != "app") {
+           $("#footer .footer-nav").css('display','block');
+           $("#footer .footer-copyright-container").css('display','block');
+           $(".footer-service .footer-wrapper").css('display','block');
+           $("#footer #videoDiv").css('display','none');
+       }
+    }
+    if (window.feloader) {
+        feloader.onLoad(function(){
+            feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+            feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+            showFooter()
+        })
+    }
+    else{
+        document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+        document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+        showFooter();
+    }
+
+    // 处理一下a标签href是tel的场景
+    var telsEle = $("a[href^='tel:'][target]");
+    telsEle .removeAttr("target");
+</script> <script>
+    if (window.$aioList && window.$aioList.length > 0) {
+        for (var i = 0; i < window.$aioList.length; i++) {
+            var tmpComponent = window.$aioList[i];
+            if (tmpComponent) {
+                var tmpComponentInfo = tmpComponent.split("/");
+                if (tmpComponentInfo.length == 2) {
+                    var name = tmpComponentInfo[0];
+                    var version = tmpComponentInfo[1];
+                    var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+                    var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+                    if (eleVersionAttr && eleVersionAttr != version) {
+                        var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+                        linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+                    }
+                }
+            }
+        }
+    }
+</script> <script>
+    // document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+    window.refLan = "";
+    window.$PEP = true;
+
+    function getSiteFromURL() {
+        url = window.location.host;
+        urlArr = url.split(".");
+        if (urlArr[0] == "www") {
+            reg = "CN";
+        } else {
+            reg = "HK"
+        }
+        return reg;
+    }
+    var siteStr = $('html').attr("site")
+    if (siteStr) {
+        window.reg = siteStr == "china" ? "CN" : siteStr.toUpperCase();
+    } else {
+        window.reg = getSiteFromURL();
+    }
+
+    window.promptLan = $('html').attr("lang");
+
+    if (document.referrer != "") {
+        if (document.referrer.indexOf("/authui/login") == -1) {
+            if (document.referrer.indexOf(".com/intl") != -1) {
+                window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US" : "zh-CN";
+            }
+        } else {
+            //window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+            if (document.referrer.indexOf("locale=") != -1) {
+                window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = window.promptLan;
+            }
+        }
+    } else {
+        window.refLan = window.promptLan;
+    }
+</script> <!--/* 55 trace for some special page */--> <script>
+    !function ($) {
+        if (window.dataLayer && window.dataLayer.push) {
+
+            if (window.location.pathname == "/consultation/") {
+                $("#submitBtn").click(function (e) {
+                    window.dataLayer.push({
+                        "event": "consultSubmit",
+                        "productName": $("#applicationscene").val()
+                    });
+                })
+            }
+
+            $("#header .header-login").click(function (e) {
+                window.dataLayer.push({
+                    "event": "loginIntention"
+                })
+            });
+
+            $("#header .header-register").click(function (e) {
+                window.dataLayer.push({
+                    "event": "creationIntention",
+                    "pageType": window.mate_data_ts_pageType,
+                    "pagePosition": "Header"
+                })
+            });
+
+
+        }
+    }(jQuery);
+</script> <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=3.0.86"></script> <script>
+    $("a[href*='/pep-dialog/']").each(function () {
+        var ele = $(this);
+        var href = ele.attr("href");
+        var path = href.replace(/.html/g, "");
+        var ajaxPath = path.indexOf("activity/") == -1 ? path : path.split("activity/")[1];
+        var arr = path.split("/");
+        var dialogName = arr[arr.length - 1];
+        var location_lang = $('html').attr('lang').toLowerCase();
+        var site = $('html').attr('site').toLowerCase() == 'china' ? 'china' : 'hk';  //  站点判断，国内：china；国际站：hk
+        var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled" : "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+        ele.css('pointer-events', 'auto');
+        ele.on("click", function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+                $("body [data-pep-path*='" + dialogName + "']").remove();
+            }
+            // dialog for activity
+            $.ajax({
+                url: dialogUrl,
+                success: function (data) {
+                    if (data) {
+                        data = data.replace('block', 'none');
+                        $("body").append(data);
+                        $("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+                        window.activityModal.show('#modal-rule', true);
+                    }
+                }
+            })
+        });
+    });
+</script> <time style="display:none!important;" datetime="2025-09-24T14:08:06.000+08:00">2025-09-24</time> <div class="footer-service" bi_parent_name="service" meta-data-adjust-app="hide"> <div class="footer-service-wrapper por-container"> <ul> <li> <a href="https://www.huaweicloud.com/service/protection.html#section-0" bi_name="7*24" target="_blank"> <i class="footer-icon-support lazyload" data-src="https://portal.hc-cdn.com/cnpm-header-and-footer/1.1.0/base/footer-china/components/service/images/support.svg"></i> <p class="footer-title">7*24</p> <p>多渠道服务支持</p> </a> </li> <li> <a href="https://beian.huaweicloud.com" bi_name="备案" target="_blank"> <i class="footer-icon-support lazyload" data-src="https://portal.hc-cdn.com/cnpm-header-and-footer/1.1.0/base/footer-china/components/service/images/record.svg"></i> <p class="footer-title">备案</p> <p>提供免费备案服务</p> </a> </li> <li> <a href="https://www.huaweicloud.com/service/professionalservices.html" bi_name="专业服务" target="_blank"> <i class="footer-icon-support lazyload" data-src="https://portal.hc-cdn.com/cnpm-header-and-footer/1.1.0/base/footer-china/components/service/images/vip.svg"></i> <p class="footer-title">专业服务</p> <p>云业务全流程支持</p> </a> </li> <li> <a href="https://www.huaweicloud.com/service/protection.html#section-2" bi_name="退订" target="_blank"> <i class="footer-icon-support lazyload" data-src="https://portal.hc-cdn.com/cnpm-header-and-footer/1.1.0/base/footer-china/components/service/images/unsub.svg"></i> <p class="footer-title">退订</p> <p>享无忧退订服务</p> </a> </li> <li> <a href="https://bbs.huaweicloud.com/suggestion" bi_name="建议反馈" target="_blank"> <i class="footer-icon-support lazyload" data-src="https://portal.hc-cdn.com/cnpm-header-and-footer/1.1.0/base/footer-china/components/service/images/feedback.svg"></i> <p class="footer-title">建议反馈</p> <p>优化改进建议</p> </a> </li> </ul> </div></div> <div id="footer" bi_parent_name="footer" meta-data-adjust-app="hide"> <div class="footer-hots-mb"> <div class="footer-hots-mb-wrapper"> <div class="footer-hots-mb-title">热门产品</div> <ul> <li> <a href="https://www.huaweicloud.com/product/ecs.html" target="_blank">弹性云服务器</a> </li> <li> <a href="https://www.huaweicloud.com/product/obs.html" target="_blank">对象存储服务</a> </li> <li> <a href="https://www.huaweicloud.com/product/gaussdb.html" target="_blank">云数据库 GaussDB</a> </li> </ul> </div></div><div class="footer-nav" meta-data-adjust-app="hide"> <div class="footer-nav-wrapper"> <div class="footer-nav-content"> <a href="https://www.huaweicloud.com/mobile_app/hwapp.html?channel=navigation_right" class="footer-logo"> <span>华为云App</span> </a> <div class="footer-nav-submenus"> <div class="footer-nav-submenus-inner"> <div class="footer-nav-contact"> <div class="footer-nav-contact-phone"> <p class="footer-nav-contact-phone-title">售前咨询热线</p> <a href="https://www.huaweicloud.com/service/contact.html"><span>950808转1</span></a> </div> <ul class="footer-nav-contact-emails"> <li> <div class="footer-nav-contact-emails-item"> <a href="https://console.huaweicloud.com/ticket/?locale=zh-cn#/ticketindex/createIndex">技术服务咨询</a> </div> </li> <li> <div class="footer-nav-contact-emails-item"> <a href="mailto:beian@huaweicloud.com">备案服务</a> <div class="foot-email"> <p> <a href="mailto:beian@huaweicloud.com">beian@huaweicloud.com</a> </p> </div> </div> </li> <li> <div class="footer-nav-contact-emails-item"> <a href="mailto:partner@huaweicloud.com">云商店咨询</a> <div class="foot-email"> <p> <a href="mailto:partner@huaweicloud.com">partner@huaweicloud.com</a> </p> </div> </div> </li> </ul> </div> <div class="footer-nav-download"><a href="https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official"><i></i>下载华为云App</a></div> <p class="footer-nav-contact-title">关注我们</p> <dl class="footer-nav-about"> <dt>关注华为云</dt> <dd class="footer-nav-about-dd-mb"> <a class="footer-nav-submenus-link footer-nav-submenus-link-phone" href="tel:4000955988"> <i class="footer-icon-phone"></i> <p>4000 955 988</p> <p>950808</p> </a> </dd> <dd> <a class="footer-nav-submenus-link weixin-sh"> <i class="svgicon lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E7%BB%84%E4%BB%B6%E9%AA%8C%E8%AF%81/pep-common-footer/1619165229378039259.svg"></i> <p>华为云微信</p> <div class="footer-nav-submenus-qr qr-wechat"> <span class="lazyload" data-src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/v2_resources/images/global/footer/weixin-mobile.png" data-qr="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/v2_resources/images/global/footer/weixin-mobile.png" data-text="长按/截图保存，微信识别二维码&lt;br&gt;或者关注公众号“华为云”"></span> <p>扫描二维码</p> </div> </a> </dd> <dd> <a class="footer-nav-submenus-link microapp-sh"> <i class="svgicon lazyload" data-src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/commons/footer/icon-microapp.svg"></i> <p>华为云微信小程序</p> <div class="footer-nav-submenus-qr qr-microapp"> <span class="lazyload" data-src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/commons/footer/qr-microapp.png" data-qr="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/commons/footer/qr-microapp.png" data-text="长按/截图保存，微信识别二维码&lt;br&gt;或者微信搜索“华为云”小程序"></span> <p>华为云微信小程序</p> </div> </a> </dd> <dd> <a class="footer-nav-submenus-link " href="https://weibo.com/p/1006061930559805"> <i class="svgicon lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/组件验证/pep-common-footer/1619165229391072287.svg"> </i> <p>华为云微博</p> <div class="footer-nav-submenus-qr qr-weibo" href="https://weibo.com/p/1006061930559805"> <span></span> <p>扫描二维码</p> </div> </a> </dd> <dd class="footer-nav-about-dd-app"> <a class="footer-nav-submenus-link hover" id="footer-nav-app" href="https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official" target="_blank"> <i class="svgicon lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-header/app.svg"></i> <p>华为云App</p> <div class="footer-nav-submenus-qr qr-app"> <span></span> <p>扫描下载华为云App</p> </div> </a> </dd> </dl> <a href="tel:950808,1" class="footer-nav-contact-icon"><i class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E7%BB%84%E4%BB%B6%E9%AA%8C%E8%AF%81/pep-common-footer/1618990892808034938.svg"></i>售前咨询：<em>950808转1</em></a> <ul class="footer-law-mb"> <li><a href="https://www.huaweicloud.com/declaration/statement.html" target="_blank">法律条文</a> </li> <li><a href="https://www.huaweicloud.com/declaration/sa_prp.html" target="_blank">隐私政策</a></li> </ul> <div class="wx-pop-wrapper"> <div class="wx-pop"> <img class="dbl-lazy loaded"> <p class="wx-info"></p> </div> </div> </div> </div> <div class="footer-nav-menus"> <dl bi_parent_name="关于华为云"> <dt>关于华为云</dt> <dd><a class="footer-link" href="https://www.huaweicloud.com/about/index.html" target="_blank" rel="nofollow">了解华为云</a></dd> <dd><a class="footer-link" href="https://support.huaweicloud.com/what-is.html" target="_blank" rel="nofollow">云计算概念</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/cases.html" target="_blank" rel="nofollow">客户案例</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/securecenter/overallsafety.html" target="_blank" rel="nofollow">信任中心</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/news.html" target="_blank" rel="nofollow">新闻报道</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/about/live.html" target="_blank" rel="nofollow">视频中心</a></dd> </dl> <dl bi_parent_name="热门产品"> <dt>热门产品</dt> <dd><a class="footer-link" href="https://codearts.huaweicloud.com" target="_blank" rel="nofollow">华为云码道代码智能体</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/product/modelarts.html" target="_blank" rel="nofollow"> 华为云魔坊（ModelArts）</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/product/modelarts/studio.html" target="_blank" rel="nofollow">MaaS模型即服务</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/product/agentarts.html" target="_blank" rel="nofollow">智果AgentArts智能体平台</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/product/ecs.html" target="_blank" rel="nofollow">弹性云服务器 ECS</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/product/mysql.html" target="_blank" rel="nofollow">云数据库 RDS for MySQL</a></dd> </dl> <dl bi_parent_name="支持与服务"> <dt>支持与服务</dt> <dd><a class="footer-link" href="https://support.huaweicloud.com/help-tools.html" target="_blank" rel="nofollow">自助服务</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/notice.html" target="_blank" rel="nofollow">服务公告</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/service/supportplans.html" target="_blank" rel="nofollow">支持计划</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/service/contact.html" target="_blank" rel="nofollow">联系我们</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/report/index.html" target="_blank" rel="nofollow">举报中心</a></dd> </dl> <dl bi_parent_name="实用工具"> <dt>实用工具</dt> <dd><a class="footer-link" href="https://developer.huaweicloud.com/tool.html" target="_blank" rel="nofollow">开发工具</a></dd> <dd><a class="footer-link" href="https://www.huaweicloud.com/service/aiassistant.html" target="_blank" rel="nofollow">云宝助手</a></dd> <dd><a class="footer-link" href="https://status.service.huaweicloud.com/#/home" target="_blank" rel="nofollow">云服务健康看板</a></dd> </dl> <dl bi_parent_name="友情链接"> <dt>友情链接</dt> <dd><a class="footer-link" href="https://cloudpartner.shixizhi.huawei.com/" target="_blank" rel="nofollow">华为云伙伴作战营</a></dd> <dd><a class="footer-link" href="https://www.huawei.com/cn/?ic_medium=direct&amp;ic_source=surlent" target="_blank" rel="nofollow">华为官网</a></dd> <dd><a class="footer-link" href="https://consumer.huawei.com/cn/?utm_source=huaweicloud&amp;utm_medium=footer" target="_blank" rel="nofollow">华为消费者业务</a></dd> <dd><a class="footer-link" href="https://developer.huawei.com/consumer/cn/" target="_blank" rel="nofollow">华为开发者联盟</a></dd> <dd><a class="footer-link" href="https://e.huawei.com/cn/" target="_blank" rel="nofollow">华为企业业务</a></dd> <dd><a class="footer-link" href="https://www.vmall.com/index_new.html#cid=92120" target="_blank" rel="nofollow">华为商城</a></dd> </dl> </div> </div> </div></div><div class="footer-copyright-container"> <div class="footer-copyright-wrapper"> <ul class="footer-law"> <li><a class="footer-link" href="https://www.huaweicloud.com/declaration/statement.html" target="_blank" rel="nofollow">法律条文</a></li> <li><a class="footer-link" href="https://www.huaweicloud.com/declaration/sa_prp.html" target="_blank" rel="nofollow">隐私政策</a></li> </ul> <div class="footer-copyright"> <span>©2026 Huaweicloud.com 版权所有</span> <a class="footer-link" href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">黔ICP备20004760号-14</a> <span>苏B2-20130048号</span> <span>A2.B1.B2-20070312</span> <span></span> <p class="footer-copyright-extra">增值电信业务经营许可证：B1.B2-20200593 | 代理域名注册服务机构：新网、西数</p> </div> <div class="footer-record"> <i class="footer-icon-record1" target="_blank"><a href="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/yingyezhizhao02.jpg" target="_blank"></a></i> <span><a class="footer-link" href="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/yingyezhizhao02.jpg" target="_blank">电子营业执照</a></span> <i class="footer-icon-record2"><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52990002000093" target="_blank"></a></i> <span><a class="footer-link" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52990002000093" target="_blank">贵公网安备 52990002000093号</a></span> </div> </div></div><script>  if (window.screen.width < 1024) {      $('#footer-nav-app').attr('href', $('#footer-nav-app').attr("src-href"));  }</script></div> <script>
+    var originsWhiteList = ['https://www.huaweicloud.com','https://activity.huaweicloud.com','https://support.huaweicloud.com','https://beian.huaweicloud.com'];
+    var currentOrigin = originsWhiteList.includes(window.location.origin)?window.location.origin:'https://www.huaweicloud.com';
+    var customHeader = "";
+    var url = (currentOrigin+"/common/header-footer-china-zh-2023.html");
+    if(customHeader){ url = "https://"+customHeader+".html"; }
+    var $tmpForPEP = document.createElement("div");
+    $.ajax({
+        url: url,
+        async: true,
+        timeout: 10000,
+        success: function(response) {
+            $tmpForPEP.innerHTML = response;
+            // 下拉部分
+            $("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);           
+            var scripts = [
+                "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.61/header-and-footer-china.umd.js?sttl=3.0.86&ttr=1.2.20",
+                "https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/portalLogin.min.js?sttl=3.0.86&ttr=1.2.20"
+            ];
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            }
+        },
+        error: function(response) {
+          var scripts = [
+                "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.61/header-and-footer-china.umd.js?sttl=3.0.86&ttr=1.2.20",
+                "https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/js/portalLogin.min.js?sttl=3.0.86&ttr=1.2.20"
+            ]
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            }
+        }
+    });
+
+
+    if (!window.gConfig) {
+        window.gConfig = {}
+    }
+    window.gConfig.isApp = /galaxy/i.test(navigator.userAgent) && window.galaxy;
+    // 初始化全局变量
+    var jsonParamInit = {}
+    var jsonParamView = {}
+    var jsonParamEvent = {}
+    jsonParamInit['UserAccount'] = 'host'
+    jsonParamEvent['rec_account'] = getUaCookie('ua')
+    jsonParamView['rec_account'] = getUaCookie('ua')
+    var portalDomain = 'https://portal.huaweicloud.com',
+    ssoDomain = 'https://auth.huaweicloud.com'
+    var isVerified = false
+    var isLogin = false
+    var totalMsg = 0;
+    function getUaCookie(c_name) {
+        if (document.cookie.length > 0) {
+            var c_start = document.cookie.indexOf(c_name + '=')
+            if (c_start != -1) {
+            c_start = c_start + c_name.length + 1
+            var c_end = document.cookie.indexOf(';', c_start)
+            if (c_end == -1) c_end = document.cookie.length
+            return decodeURI(document.cookie.substring(c_start, c_end))
+            }
+        }
+        return ''
+    }
+</script> <div class="video-div"> <div class="video-modal-wrapper"> <div class="video-close-btn"></div> </div> </div> <div id="videoDiv" style="z-index: 9999; display: none; position: relative"> <div id="videobg" style=" position: absolute; background: #000; opacity: 0.3; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30); "></div> <div id="videoplayerDiv" style="position: absolute"> <div id="videoContainer" style="width: 700px; height: 500px; background-color: black"> <span id="closeBtn"><img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/close_grey_1.svg?sttl=3.0.86" alt="" height="22" width="22" onclick="closeVideo()" /></span> <div id="videoplayer" style="height: 500px; width: 700px"></div> </div> </div> </div> <script type="text/javascript">
+        var videoDomain = '//bbs-video.huaweicloud.com';
+
+        var _videoProtocol = 'https:' == document.location.protocol ? 'https:' : 'http:';
+        var tag2urlMap = [];
+        var loading = false;
+        var isLogin = false;
+        function play(video_url, video_desc, domain) {
+            if (/(\.mp4|\.mu38)/.test(video_url)) {
+                _play(video_url, video_desc, domain);
+            } else {
+                if (tag2urlMap[video_url]) _play(tag2urlMap[video_url], video_desc, domain);
+                else {
+                    if (loading) return;
+                    loading = true;
+                    $.ajax({
+                        type: 'GET',
+                        url: 'https://bbs.huaweicloud.com/api/video/out-play?tag=' + video_url,
+                        dataType: 'text',
+                        success: function (result) {
+                            loading = false;
+                            tag2urlMap[video_url] = result;
+                            _play(tag2urlMap[video_url], video_desc, domain);
+                        },
+                        error: function () {
+                            loading = false;
+                        },
+                    });
+                }
+            }
+        }
+        function _play(video_url, video_desc, domain) {
+            var reg = RegExp(/bbs/);
+            var tmp = video_url;
+            var contentAsset = '/content/dam/';
+            var bbsAsset = '/FileServer/getFile/';
+            if (!video_url.match(reg)) {
+                if (video_url.match(contentAsset) || video_url.match(bbsAsset)) {
+                    tmp = video_url;
+                } else if (domain) {
+                    var tmp = _videoProtocol + domain + video_url;
+                } else {
+                    var tmp = _videoProtocol + videoDomain + video_url;
+                }
+            }
+            tmp = tmp.replace(/m3u8/, 'mp4');
+            tmp = tmp.replace(/bbs\.huaweicloud\.com/, 'bbs-video.huaweicloud.com');
+
+            var ua = navigator && navigator.userAgent;
+
+            var win_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var obj = '#videoplayer';
+            if (win_width < 700) {
+                $('#videoContainer')
+                    .width(win_width)
+                    .height((win_width * 3) / 4);
+                $(obj)
+                    .width(win_width)
+                    .height((win_width * 3) / 4);
+            }
+            var h = $(obj).height();
+            var w = $(obj).width();
+
+            $(obj).append(
+                '<video src="' +
+                tmp +
+                '" height="' +
+                h +
+                '" width="' +
+                w +
+                '" autoplay="autoplay" controls="controls" controlslist="nodownload"></video>',
+            );
+            if($.fn.videoPointEvent) { //videoPointEvent和empujarPointEvent为新增埋点事件
+                var el = $('#videoplayer').find('video')[0];
+                $.fn.videoPointEvent(el);
+            }
+
+            var userAgent = navigator.userAgent;
+            var isOpera = userAgent.indexOf('Opera') > -1;
+            var height = document.body.offsetHeight;
+            $('#videobg').css('width', $(window).width());
+            $('#videobg').css('height', height);
+            $('#videobg').css('top', -height);
+            $('#videobg').css('left', '0px');
+            $('#videoplayerDiv').css('left', ($(window).width() - $('#videoplayer').width()) / 2);
+            $('#videoplayerDiv').css(
+                'top',
+                ($(window).height() - $('#videoplayer').height()) / 2 + $(window).scrollTop() - height,
+            );
+            $('#videoDiv').show();
+        }
+
+        function closeVideo() {
+            if($.fn.empujarPointEvent) {
+                $.fn.empujarPointEvent();
+            }
+            if (!!window.ActiveXObject || 'ActiveXObject' in window) {
+                $('#videoplayer').remove();
+                $('#closeBtn').append('<div id="videoplayer" style="height:500px;width:700px;">');
+            } else {
+                $('#videoplayer').html('');
+            }
+            $('#videoDiv').hide();
+        }
+    </script> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-note.svg" id="support-hidden-image-note" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-warning.svg" id="support-hidden-image-warning" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-danger.svg" id="support-hidden-image-danger" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-notice.svg" id="support-hidden-image-notice" alt="" hidden="" /> <img src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/support/resource/framework/v3/images/support-doc-revision-caution.svg" id="support-hidden-image-caution" alt="" hidden="" /> </body> </html> 

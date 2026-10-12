@@ -1,0 +1,21 @@
+{
+  "capture_method": "reviewed_fact_archive",
+  "note": "Retained previously reviewed first-party facts; direct HTTP capture failed. This is not a new HTML response.",
+  "reviewed_facts_input": "data/china/review-evidence.20261011.json",
+  "reviewed_facts_input_sha256": "1dfdbad987f9f05c6c7a4a4f7ea63e80d426ef5797478d261bf8f0d0129b79cb",
+  "source": {
+    "capture_method": "search_index_primary_page_extract",
+    "facts": {
+      "api_services_declared": true,
+      "model_brand": "Kling AI",
+      "operator": "Kuaishou",
+      "scope": "Historical identity and API-service evidence; not current model catalog or facility inventory"
+    },
+    "limitations": [],
+    "retrieved_at": "2026-10-11",
+    "source_id": "kling",
+    "source_published_at": "2025-06-05",
+    "source_updated_at": null,
+    "source_url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-celebrates-first-anniversary-achieves-annualized"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/seedance-official.20261011.html",
+  "resolved_url": "https://seed.bytedance.com/en/seedance2_0",
+  "retrieved_at": "2026-10-11",
+  "sha256": "22e4d8325f24656447915b750e5493bdfaeac5a010735d1aa19aecf158c6c29f",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://seed.bytedance.com/en/seedance2_0"
+}

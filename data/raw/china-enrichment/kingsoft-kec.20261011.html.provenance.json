@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/kingsoft-kec.20261011.html",
+  "resolved_url": "https://docs.ksyun.com/documents/6965",
+  "retrieved_at": "2026-10-11",
+  "sha256": "5eb1eb9c8e56c1d482886732a5614da07b6596dc8ae9f051d83e01e03cc71860",
+  "source_published_at": null,
+  "source_updated_at": "2026-01-09",
+  "source_url": "https://docs.ksyun.com/documents/6965"
+}

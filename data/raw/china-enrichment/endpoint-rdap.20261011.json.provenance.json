@@ -1,0 +1,14 @@
+{
+  "bytes": 3156,
+  "capture_method": "public_rdap_registration_fact_extract",
+  "notes": "Registered name/country is registry context, not server location. Contact/person fields omitted.",
+  "path": "data/raw/china-enrichment/endpoint-rdap.20261011.json",
+  "raw_source_ref": "data/raw/china-enrichment/endpoint-rdap.20261011.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-11",
+  "sha256": "10a9d859dfeaa10c5d6bf6ababb0a662350dbe659ff20120ae23439071f93c47",
+  "source_id": "endpoint-rdap",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://rdap.apnic.net/"
+}

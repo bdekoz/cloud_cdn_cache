@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/wangsu-cdn.20261011.html",
+  "resolved_url": "https://online.wangsu.com/product/cdn",
+  "retrieved_at": "2026-10-11",
+  "sha256": "6cca1c6ce48f84eafe34ea4635dfcf0c156d4f68ef485211dd48c365670fef27",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://online.wangsu.com/product/cdn"
+}

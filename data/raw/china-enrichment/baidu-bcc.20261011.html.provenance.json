@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/baidu-bcc.20261011.html",
+  "resolved_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl",
+  "retrieved_at": "2026-10-11",
+  "sha256": "81f402d0c6f47a6700ec09fb40e729113e56471920919f12965998bc19e5764e",
+  "source_published_at": null,
+  "source_updated_at": "2025-08-20",
+  "source_url": "https://intl.cloud.baidu.com/zh/doc/BCC/s/0jwvyo603-intl"
+}

@@ -1,0 +1,22 @@
+{
+  "capture_method": "reviewed_fact_archive",
+  "note": "Retained previously reviewed first-party facts; direct HTTP capture failed. This is not a new HTML response.",
+  "reviewed_facts_input": "data/china/review-evidence.20261011.json",
+  "reviewed_facts_input_sha256": "1dfdbad987f9f05c6c7a4a4f7ea63e80d426ef5797478d261bf8f0d0129b79cb",
+  "source": {
+    "capture_method": "search_index_primary_page_extract",
+    "facts": {
+      "affiliation_disclaimer": "Independent platform; no affiliation, partnership, sponsorship, or endorsement by ByteDance.",
+      "corporate_jurisdiction_not_verified": true,
+      "upstream_model_and_hosting_not_verified": true
+    },
+    "limitations": [
+      "Direct page retrieval timed out/failed; identity conclusion uses the indexed first-party terms, not a fresh HTTP capture."
+    ],
+    "retrieved_at": "2026-10-11",
+    "source_id": "seedance2ai-identity",
+    "source_published_at": null,
+    "source_updated_at": "2025-10-29",
+    "source_url": "https://seedance2.ai/zh-hant/terms-of-service"
+  }
+}

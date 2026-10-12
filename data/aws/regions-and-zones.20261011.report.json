@@ -1,0 +1,46 @@
+{
+  "coordinate_methods": {
+    "unknown": 147
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/aws/regions-and-zones.20261011.csv",
+      "path": "data/aws/regions-and-zones.20261011.csv",
+      "source": "data/aws/regions-and-zones.20261011.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "capture_method": "http_response",
+      "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+      "retrieved_at": "2026-10-11",
+      "source_id": "aws-china",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+      "source_updated_at": null,
+      "source_url": "https://www.amazonaws.cn/en/about-aws/china/"
+    }
+  ],
+  "entity_types": {
+    "availability_zone": 108,
+    "cloud_region": 39
+  },
+  "generated_files": [
+    "data/aws/regions-and-zones.20261011.geojson"
+  ],
+  "geometry_null": 147,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 147
+  },
+  "parser": "update_china_enrichment.py:aws",
+  "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
+  "record_count": 147,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "scope_note": "August hierarchy retained; October operator evidence joins only the two China-region rows. Other rows are not freshly retrieved.",
+  "source_sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+  "source_url": "https://www.amazonaws.cn/en/about-aws/china/"
+}

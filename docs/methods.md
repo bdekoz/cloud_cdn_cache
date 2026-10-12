@@ -158,7 +158,17 @@ python3 -B tests/validate_hyperscalers.py
 
 Add `--fetch` only when intentionally taking a new dated snapshot. The test asserts exact source structure, stable IDs, cross-layer parents, access/lifecycle semantics, raw hashes, jq CSV parity, mixed manifest dates, and byte-for-byte regeneration. Suggested cadence remains weekly for machine-readable APIs, monthly for documentation/product matrices, quarterly for facility lifecycle, and event-driven for launches and closures.
 
-## Mainland-China public-cloud track
+## October China implementation
+
+The [approved China review](china-vendor-review.20261011.md) is now implemented in [China enrichment](china-enrichment.20261011.md). Its original assessment remains pinned to the August manifest. The October source catalog retains 64 source/capture entries with hashes and explicit HTTP/indexed/archived-fact provenance. Native endpoint observations preserve actual UTC timestamps rather than relabeling them as local retrieval dates.
+
+`update_china_enrichment.py` refreshes public, financial and government cloud scopes; expands Huawei product-region membership and Volcano overseas coverage; adds Qiniu pool-scoped IDs and Azure China; and joins AWS China operator metadata without redating AWS's August inventory. `update_china_ai.py` generates a separate vendor/brand registry and scoped service/endpoint/model evidence. `update_china_facilities.py` parses the final government recognition PDF and preserves portfolio units; `update_china_carriers.py` retains dated cable, station, backhaul and service declarations. `update_china_network.py` normalizes retained public observations; it performs no live checks. `report_china_enrichment.py` hashes the resulting artifacts. The implementation document gives the ordered commands.
+
+Location, network, infrastructure and vendor-reference totals remain separate. No API domain, routing origin, ASN registration country, model developer, supplier count, recognition label or marketing fleet total establishes physical hosting. Cross-layer relationships must resolve against an explicit known-ID set. Merged cells and literal embedded JSON are parsed as data; upstream scripts are never executed. Historical competing datasets receive candidate identity matches without inheriting coordinates/capacity or promoting quarantined rows. All refreshed China location geometry is null.
+
+The following China cloud, edge and colocation sections describe the retained August implementation. October coverage and remaining gaps are documented separately above; historical counts and sources retain their original meaning.
+
+## Mainland-China public-cloud track (August baseline)
 
 The provider cohort combines market leaders with coverage-priority providers. Positions six through ten are not presented as an exact revenue ranking. The machine-readable assessment is [`data/china/provider-assessment.20260804.json`](../data/china/provider-assessment.20260804.json).
 

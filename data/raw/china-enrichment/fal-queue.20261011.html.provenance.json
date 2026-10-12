@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/fal-queue.20261011.html",
+  "resolved_url": "https://fal.ai/docs/documentation/model-apis/inference/queue",
+  "retrieved_at": "2026-10-11",
+  "sha256": "a99012141312962483ccf8ce357324eef853b70c7a22d6807c8fd043b39ec449",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://fal.ai/docs/documentation/model-apis/inference/queue"
+}

@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/azure-china.20261011.html",
+  "resolved_url": "https://docs.azure.cn/en-us/reliability/regions-list",
+  "retrieved_at": "2026-10-11",
+  "sha256": "9cd614dd74bfb9073da45a3438ce4f494bf9eb2bca7a392109d136b30514c223",
+  "source_published_at": null,
+  "source_updated_at": "2026-10-05",
+  "source_url": "https://docs.azure.cn/en-us/reliability/regions-list"
+}

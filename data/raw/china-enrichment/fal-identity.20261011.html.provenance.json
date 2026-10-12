@@ -1,0 +1,12 @@
+{
+  "capture_method": "http_response",
+  "media_type": "text/html",
+  "notes": "Public primary HTTP snapshot for the approved China enrichment. Product scope, lifecycle, operator identity and geography require explicit evidence.",
+  "raw_source_ref": "data/raw/china-enrichment/fal-identity.20261011.html",
+  "resolved_url": "https://fal.ai/about",
+  "retrieved_at": "2026-10-11",
+  "sha256": "766468c68bf14984b100ce36cd8addfd24c59bb1d2b40a50ae3eb877581d922f",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://fal.ai/about"
+}
