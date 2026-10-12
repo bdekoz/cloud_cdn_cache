@@ -6,6 +6,8 @@ This report records the implemented result. The original [`assessment.20260804.m
 
 ## Executive outcome
 
+The later [expanded infrastructure review](infrastructure-expansion.20261011.md) adds 84 separately counted connectivity assertions across 17 open categories. Satellite authorizations, Starlink private interconnect listings, optical/quantum systems, orbital-compute plans, fiber systems and distributed exchanges retain their source-specific units and dates. These records are outside the location and network totals below; their three-record Russia view is derived.
+
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.
 
 The current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,395 location-schema records across 29 layers and 3,125 separately counted network-evidence records across three layers. The October [Google refresh](google-enrichment.20261011.md) adds nine net owned-directory entries and three explicitly listed AI zones to the August inventory, and joins GCPing endpoints and GPU availability. The [Russia reassessment](russia-reassessment.20261011.md) adds five certification-documented Yandex localities with unknown lifecycle. Five mainland views contain 160 repeated IDs; the derived Russia view contains 91 retained declarations, identities and observations. All six views are excluded from the location count. The three China assessments are joined by a Russian-provider assessment and a Yandex image-claim review.

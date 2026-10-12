@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/rostelecom-backbone.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "3aaf521e497520db2c67c2fd413492a46162b725d4a394698148ce8b0204bd92",
+  "source_published_at": null,
+  "source_url": "https://www.company.rt.ru/en/about/net/magistr/"
+}

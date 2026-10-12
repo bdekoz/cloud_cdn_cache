@@ -1,0 +1,9 @@
+{
+  "media_type": "application/javascript",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/starlink-updates.20261011.js",
+  "retrieved_at": "2026-10-11",
+  "sha256": "2f50a1258af0a812706db7de351dab2953376f4e11bfe964144438dfd4fe94c7",
+  "source_published_at": "2026-10-06",
+  "source_url": "https://starlink.com/assets-new/page-BNqKtGsY2.js"
+}

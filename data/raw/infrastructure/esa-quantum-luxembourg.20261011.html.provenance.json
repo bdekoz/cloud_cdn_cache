@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/esa-quantum-luxembourg.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "97cfbfbba518a5d86868fe08c52afbdd3cbef5da66d7bf808d5b14ffb9b7b425",
+  "source_published_at": "2026-07-26",
+  "source_url": "https://resilience.esa.int/archives/news/first-of-its-kind-optical-ground-station-commissioned-in-luxembourg-to-demonstrate-international-quantum-secure-communications"
+}

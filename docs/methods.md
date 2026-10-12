@@ -8,6 +8,8 @@ The central rule is to preserve what a source actually establishes—including i
 
 ## Scope and units
 
+The [expanded connectivity review](infrastructure-expansion.20261011.md) adds a third, separately counted evidence family with extensible categories. A licence, grouped interconnect entry, constellation, cable system, branch, exchange service, programme and testbed are different units. Future or simulated infrastructure does not become deployed inventory. The 84 assertions and their three-record Russia view are serialized separately from existing location and network totals.
+
 The repository contains unlike infrastructure classes. A provider-declared metro, physical POP, owned data center, cloud region, availability zone, operator resource pool, embedded cache, and independently observed ASN are not interchangeable.
 
 Counts use the smallest defensible source unit:

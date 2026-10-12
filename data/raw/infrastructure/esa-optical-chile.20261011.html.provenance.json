@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/esa-optical-chile.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "a5b6f30a8b59294a760ab8add194a70c7ffb1093aaa41ba06acf3994914587bb",
+  "source_published_at": "2026-03-10",
+  "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Ground_station_in_Chile_ready_to_connect_to_space_via_laser"
+}

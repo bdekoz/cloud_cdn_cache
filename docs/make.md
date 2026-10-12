@@ -4,6 +4,8 @@ Date: 2026-08-04; updated 2026-10-11
 
 The Makefile manages disposable CSV projections, validation, and the bounded network refresh workflow. Schema-normalized GeoJSON is retained for locations, `NetworkEvidenceCollection` JSON is retained for network assertions, and CSV is created only when a consumer needs it. Other provider refreshes remain explicit updater commands.
 
+The current manifest also includes separately counted `InfrastructureEvidenceCollection` JSON and its derived Russia view. `scripts/infrastructure-json-to-csv.jq` projects their schema fields without changing category, unit, nested properties or null geometry. Generate one with `make data/infrastructure/connectivity.20261011.csv`, or include them in `make RETRIEVED_AT=2026-10-11 csv`.
+
 ## Requirements
 
 - GNU Make

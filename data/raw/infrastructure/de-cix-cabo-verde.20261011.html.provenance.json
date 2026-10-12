@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/de-cix-cabo-verde.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "9fbd9db456cbc13f0ee82b0321df3bc6af2b7ba2fbaf32129a3eb815394bc06b",
+  "source_published_at": "2026-09-29",
+  "source_url": "https://www.de-cix.net/en/about-de-cix/media/press-releases/de-cix-and-cabo-verde-telecom-plan-new-south-atlantic-interconnection-corridor"
+}

@@ -30,6 +30,7 @@ The repository's original dataset is published under the [Open Data Commons Attr
 - Schema-normalized location layers are committed as canonical GeoJSON and network assertions as canonical JSON; their CSV projections are generated on demand with `jq` and `make`.
 - `data/google/` contains schema-normalized Google Edge, owned data-center, and Cloud region/zone layers, including AI zones, GPU availability, and GCPing endpoints.
 - `data/yandex/` contains five certification-documented Russian localities and the supplied image's claim review. `data/russia/` contains the provider reassessment and an explicitly derived country view.
+- `data/infrastructure/` contains 84 separately counted connectivity assertions across 17 extensible categories, including Starlink interconnect listings, satellite authorizations, fiber systems, optical/quantum stations, orbital-compute plans and exchange services. Its Russia connectivity view repeats three assertions and is excluded from canonical totals.
 - Provider subdirectories under `data/` contain schema-normalized authoritative snapshots; each manifest entry records its actual retrieval tag, including the 2026-10-11 Google refresh.
 - `data/china/` records the ten-provider mainland public-cloud assessment; provider directories contain generated cloud layers and explicit mainland views.
 - `data/china-edge/` records the separate ten-provider CDN/edge assessment without manufacturing POPs from fleet totals or province coverage.
@@ -48,6 +49,7 @@ The repository's original dataset is published under the [Open Data Commons Attr
 - [`docs/hyperscalers.implementation.20260805.md`](docs/hyperscalers.implementation.20260805.md) records the implemented CoreWeave, AWS, Google Cloud, Azure, OCI, IBM, IBM classic, and Meta layers.
 - [`docs/google-enrichment.20261011.md`](docs/google-enrichment.20261011.md) records the current Google refresh, AI-zone identities, GPU availability, GCPing joins, and reproduction commands.
 - [`docs/russia-reassessment.20261011.md`](docs/russia-reassessment.20261011.md) records Russian Federation coverage, Yandex source dates, image-claim exclusions, provider gaps, and offline reproduction.
+- [`docs/infrastructure-expansion.20261011.md`](docs/infrastructure-expansion.20261011.md) records the expanded current-source search, emergent categories, source boundaries, and serialized infrastructure evidence.
 - [`docs/network-evidence.20260805.md`](docs/network-evidence.20260805.md) records the ASN correction, partial city map, provider prefixes, RIPEstat/RPKI pilot, bounded PeeringDB pilot, and RIPE Atlas measurement gate.
 - [`docs/make.md`](docs/make.md) documents CSV generation, cleanup, validation, refresh usage, and troubleshooting.
 

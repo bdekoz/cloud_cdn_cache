@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Infrastructure evidence with extensible categories and explicit units",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "schema_version", "retrieved_at", "scope_note", "categories", "records"],
+  "properties": {
+    "type": {"const": "InfrastructureEvidenceCollection"},
+    "schema_version": {"const": "1.0.0"},
+    "retrieved_at": {"type": "string", "format": "date"},
+    "scope_note": {"type": "string", "minLength": 1},
+    "categories": {
+      "type": "object", "minProperties": 1,
+      "propertyNames": {"pattern": "^[a-z][a-z0-9_]*$"},
+      "additionalProperties": {"type": "string", "minLength": 1}
+    },
+    "records": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["record_id", "category", "unit", "name", "provider", "parties", "country_codes", "country_scope", "lifecycle_status", "source_scope", "source_url", "raw_source_ref", "source_sha256", "source_published_at", "source_updated_at", "retrieved_at", "confidence", "geometry", "spatial_representation", "relationships", "properties"],
+        "properties": {
+          "record_id": {"type": "string", "pattern": "^[a-z0-9]+(?::[a-z0-9][a-z0-9._-]*){2,}$"},
+          "category": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "unit": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "name": {"type": "string", "minLength": 1},
+          "provider": {"type": "string", "minLength": 1},
+          "parties": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["name", "role"], "properties": {"name": {"type": "string", "minLength": 1}, "role": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}}}},
+          "country_codes": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[A-Z]{2}$"}},
+          "country_scope": {"type": "string", "minLength": 1},
+          "lifecycle_status": {"enum": ["operational", "partially_operational", "commissioning", "in_development", "planned", "inactive", "retired", "unknown"]},
+          "source_scope": {"enum": ["provider_declared", "regulator_declared", "institution_declared", "observed"]},
+          "source_url": {"type": "string", "format": "uri"},
+          "raw_source_ref": {"type": "string", "pattern": "^data/raw/"},
+          "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "source_published_at": {"type": ["string", "null"], "format": "date"},
+          "source_updated_at": {"type": ["string", "null"], "format": "date"},
+          "retrieved_at": {"type": "string", "format": "date"},
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "geometry": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/point"}, {"$ref": "#/$defs/line"}, {"$ref": "#/$defs/multiline"}], "description": "Source-backed WGS 84 GeoJSON geometry only; this initial collection contains null geometry."},
+          "spatial_representation": {"enum": ["none", "provider_point", "source_schematic_route", "source_surveyed_route"]},
+          "relationships": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["relationship_type", "target_record_id"], "properties": {"relationship_type": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}, "target_record_id": {"type": "string", "pattern": "^[a-z0-9]+(?::[a-z0-9][a-z0-9._-]*){2,}$"}}}},
+          "properties": {"type": "object"}
+        },
+        "allOf": [
+          {"if": {"properties": {"spatial_representation": {"const": "none"}}}, "then": {"properties": {"geometry": {"type": "null"}}}, "else": {"properties": {"geometry": {"type": "object", "required": ["type", "coordinates"]}}}},
+          {"if": {"properties": {"spatial_representation": {"const": "provider_point"}}}, "then": {"properties": {"geometry": {"$ref": "#/$defs/point"}}}},
+          {"if": {"properties": {"spatial_representation": {"enum": ["source_schematic_route", "source_surveyed_route"]}}}, "then": {"properties": {"geometry": {"anyOf": [{"$ref": "#/$defs/line"}, {"$ref": "#/$defs/multiline"}]}}}}
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "position": {"type": "array", "minItems": 2, "maxItems": 2, "prefixItems": [{"type": "number", "minimum": -180, "maximum": 180}, {"type": "number", "minimum": -90, "maximum": 90}]},
+    "point": {"type": "object", "additionalProperties": false, "required": ["type", "coordinates"], "properties": {"type": {"const": "Point"}, "coordinates": {"$ref": "#/$defs/position"}}},
+    "line": {"type": "object", "additionalProperties": false, "required": ["type", "coordinates"], "properties": {"type": {"const": "LineString"}, "coordinates": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/position"}}}},
+    "multiline": {"type": "object", "additionalProperties": false, "required": ["type", "coordinates"], "properties": {"type": {"const": "MultiLineString"}, "coordinates": {"type": "array", "minItems": 1, "items": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/position"}}}}}
+  }
+}

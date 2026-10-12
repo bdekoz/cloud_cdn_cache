@@ -3,7 +3,8 @@ RETRIEVED_TAG ?= $(subst -,,$(RETRIEVED_AT))
 MANIFEST := data/manifest.$(RETRIEVED_TAG).json
 CSV_GEOJSON := $(shell jq -r '(.layers + .views)[] | .files.geojson.path' $(MANIFEST) 2>/dev/null)
 CSV_NETWORK_JSON := $(shell jq -r '.network_evidence_layers[]?.files.json.path' $(MANIFEST) 2>/dev/null)
-CSV_TARGETS := $(CSV_GEOJSON:.geojson=.csv) $(CSV_NETWORK_JSON:.json=.csv)
+CSV_INFRASTRUCTURE_JSON := $(shell jq -r '(.infrastructure_evidence_layers[]?, .infrastructure_evidence_views[]?) | .files.json.path' $(MANIFEST) 2>/dev/null)
+CSV_TARGETS := $(CSV_GEOJSON:.geojson=.csv) $(CSV_NETWORK_JSON:.json=.csv) $(CSV_INFRASTRUCTURE_JSON:.json=.csv)
 
 .PHONY: all check check-csv-tools clean-csv csv help refresh-network refresh-network-offline
 
@@ -23,6 +24,11 @@ data/%.csv: data/%.geojson schema/location.schema.json scripts/geojson-to-csv.jq
 data/network/%.csv: data/network/%.json schema/network-evidence.schema.json scripts/network-json-to-csv.jq
 	@jq -r --slurpfile schema schema/network-evidence.schema.json \
 		-f scripts/network-json-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"
+
+data/infrastructure/%.csv: data/infrastructure/%.json schema/infrastructure-evidence.schema.json scripts/infrastructure-json-to-csv.jq
+	@jq -r --slurpfile schema schema/infrastructure-evidence.schema.json \
+		-f scripts/infrastructure-json-to-csv.jq "$<" > "$@.tmp"
 	@mv "$@.tmp" "$@"
 
 refresh-network:
@@ -46,6 +52,7 @@ check:
 	python3 -B tests/validate_observation_cities.py
 	python3 -B tests/validate_network.py
 	python3 -B tests/validate_russia.py
+	python3 -B tests/validate_infrastructure.py
 	git diff --check
 
 help:

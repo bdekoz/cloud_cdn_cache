@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/starlink-stargaze.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "b880bfe2d2a27cf3b944b0eff87f1ccb098367c8644c9b5c9be506d0e2195cd9",
+  "source_published_at": null,
+  "source_url": "https://docs.space-safety.starlink.com/docs/tutorial-basics/stargaze/"
+}

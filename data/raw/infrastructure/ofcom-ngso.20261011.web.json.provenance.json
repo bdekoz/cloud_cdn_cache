@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+  "retrieved_at": "2026-10-11",
+  "sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+  "source_published_at": "2024-03-01",
+  "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss"
+}

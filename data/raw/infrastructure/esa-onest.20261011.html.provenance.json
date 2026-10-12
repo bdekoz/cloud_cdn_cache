@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/esa-onest.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "62a8ba7faa148bedb31d2fffba8bd03228b76cce3f99ce59c5a3a41bca574ec9",
+  "source_published_at": null,
+  "source_url": "https://resilience.esa.int/archives/projects/onest"
+}

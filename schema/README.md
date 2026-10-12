@@ -1,5 +1,7 @@
 # Canonical location schema
 
+Connectivity systems, regulatory authorizations, fiber links, optical/quantum projects, and other emergent units use the separate [`infrastructure-evidence.schema.json`](infrastructure-evidence.schema.json). Its category vocabulary is open, every category has a definition, and every record states its unit. It does not modify the retained location/network contracts or combine their totals. See [`infrastructure-expansion.20261011.md`](../docs/infrastructure-expansion.20261011.md).
+
 `location.schema.json` defines the normalized record serialized as a provider layer's canonical GeoJSON. The current contract is version `1.2.0`; it accepts retained `1.1.0` records and newly generated `1.2.0` records so an older snapshot never has to be silently relabeled. Service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes. CSV is a deterministic projection generated from that GeoJSON on demand.
 
 Version 1.1 adds fields needed to represent Chinese provider catalogs without collapsing unlike products or jurisdictions:

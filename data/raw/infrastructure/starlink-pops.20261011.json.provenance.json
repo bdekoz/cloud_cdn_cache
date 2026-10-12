@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+  "retrieved_at": "2026-10-11",
+  "sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+  "source_published_at": "2026-03-27",
+  "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/rostelecom-anadyr-restored.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "d3308b8b919505a41430144195339f06d590a4f0b65fcfe93f6964133c6568d4",
+  "source_published_at": "2026-07-16",
+  "source_url": "https://www.company.rt.ru/press/news_fill/far_east/d479069/"
+}

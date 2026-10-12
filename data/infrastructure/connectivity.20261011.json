@@ -1,0 +1,3411 @@
+{
+  "categories": {
+    "direct_to_device_satellite_constellation": "A named direct-to-device satellite system or deployment plan.",
+    "distributed_internet_exchange": "A named distributed traffic-exchange service, distinct from each host building or member network.",
+    "interconnection_corridor": "A connectivity collaboration/corridor, distinct from one new physical cable.",
+    "leo_satellite_constellation": "A named low-Earth-orbit communications system, not a row per spacecraft.",
+    "network_interconnect_presence": "A provider-listed private interconnect directory entry, which can group multiple host facilities.",
+    "optical_ground_station": "A specifically described optical satellite ground station or trial facility.",
+    "optical_quantum_network_testbed": "A named optical/quantum network testbed that can include simulated infrastructure.",
+    "orbital_compute_constellation": "A named planned orbital computing system; plans do not establish launched compute sites.",
+    "quantum_optical_ground_station": "An optical ground station commissioned for quantum-network experimentation.",
+    "satellite_gateway_authorization": "A regulator-listed gateway licence; distinct from observed operation, ownership or unique campuses.",
+    "satellite_network_authorization": "A regulator-listed network licence; not a constellation inventory or ground-site count.",
+    "space_situational_awareness_system": "A named space-traffic sensing/coordination system; orbital sensors are not ground stations.",
+    "submarine_cable_branch": "A specifically announced branch of a named cable system.",
+    "submarine_cable_system": "A named submarine fiber system, not a surveyed path, landing building or lit-capacity measurement.",
+    "subsea_connectivity_program": "A named programme grouping cable systems; not an additional cable asset.",
+    "terrestrial_fiber_backbone_network": "An operator's backbone network declaration with bounded aggregate claims.",
+    "terrestrial_fiber_link": "A named terrestrial fiber system; cities and design capacity are not a surveyed alignment."
+  },
+  "records": [
+    {
+      "category": "distributed_internet_exchange",
+      "confidence": "high",
+      "country_codes": [
+        "CD"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "operational",
+      "name": "Africa Congo Internet Exchange (ACIX)",
+      "parties": [
+        {
+          "name": "Internet pour tous",
+          "role": "programme_partner"
+        },
+        {
+          "name": "UNITED S.A.",
+          "role": "programme_partner"
+        },
+        {
+          "name": "DE-CIX",
+          "role": "technology_partner"
+        }
+      ],
+      "properties": {
+        "additional_host_facility_label": "OADC Texaf Kinshasa FIH1",
+        "exchange_not_a_provider_owned_data_center": true,
+        "metro_label": "Kinshasa",
+        "source_phase": "expanded_to_additional_host_facility"
+      },
+      "provider": "ACIX",
+      "raw_source_ref": "data/raw/infrastructure/de-cix-acix.20261011.html",
+      "record_id": "acix:distributed_internet_exchange:acix",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-05-19",
+      "source_scope": "provider_declared",
+      "source_sha256": "57b2e3243205b7ae70fd9e043c54492b7ba0ea381dc89bbd7524321a29794c98",
+      "source_updated_at": null,
+      "source_url": "https://www.de-cix.net/en/about-de-cix/media/press-releases/africa-congo-internet-exchange-acix-becomes-first-distributed-ix-in-drc-with-support-from-de-cix",
+      "spatial_representation": "none",
+      "unit": "service"
+    },
+    {
+      "category": "direct_to_device_satellite_constellation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "global_plan_not_licensed_service_territory",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "Amazon Leo direct-to-device plan",
+      "parties": [
+        {
+          "name": "Amazon Leo",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "completed_acquisition_not_asserted": true,
+        "globalstar_transaction_expected_close_year": 2027,
+        "planned_deployment_start_year": 2028,
+        "transaction_status": "announced_definitive_agreement_subject_to_conditions"
+      },
+      "provider": "Amazon Leo",
+      "raw_source_ref": "data/raw/infrastructure/amazon-globalstar.20261011.html",
+      "record_id": "amazon:direct_to_device_satellite_constellation:amazon-leo-d2d",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-04-14",
+      "source_scope": "provider_declared",
+      "source_sha256": "8740a6851848ed9748bd397c4ef9fca23aa1a36138e062f3f5b41f5bc5f6bd1f",
+      "source_updated_at": null,
+      "source_url": "https://press.aboutamazon.com/2026/4/amazon-to-acquire-globalstar-and-expand-amazon-leo-satellite-network",
+      "spatial_representation": "none",
+      "unit": "planned_system"
+    },
+    {
+      "category": "interconnection_corridor",
+      "confidence": "high",
+      "country_codes": [
+        "BR",
+        "CV",
+        "PT"
+      ],
+      "country_scope": "announced_corridor_countries_not_surveyed_route",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "South Atlantic interconnection corridor",
+      "parties": [
+        {
+          "name": "DE-CIX / CVTelecom",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "named_metro_endpoints": [
+          "Lisbon",
+          "São Paulo"
+        ],
+        "new_physical_cable_or_specific_gateway_not_asserted": true,
+        "source_phase": "letter_of_intent"
+      },
+      "provider": "DE-CIX / CVTelecom",
+      "raw_source_ref": "data/raw/infrastructure/de-cix-cabo-verde.20261011.html",
+      "record_id": "decix:interconnection_corridor:south-atlantic",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-09-29",
+      "source_scope": "provider_declared",
+      "source_sha256": "9fbd9db456cbc13f0ee82b0321df3bc6af2b7ba2fbaf32129a3eb815394bc06b",
+      "source_updated_at": null,
+      "source_url": "https://www.de-cix.net/en/about-de-cix/media/press-releases/de-cix-and-cabo-verde-telecom-plan-new-south-atlantic-interconnection-corridor",
+      "spatial_representation": "none",
+      "unit": "project"
+    },
+    {
+      "category": "optical_quantum_network_testbed",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "project_participants_not_station_geography",
+      "geometry": null,
+      "lifecycle_status": "in_development",
+      "name": "ONEST",
+      "parties": [
+        {
+          "name": "ESA ARTES / ONEST consortium",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "activity_code": "6B.128",
+        "includes_real_and_simulated_stations": true,
+        "simulated_stations_not_normalized_as_physical_sites": true,
+        "source_status": "ongoing_critical_design_review"
+      },
+      "provider": "ESA ARTES / ONEST consortium",
+      "raw_source_ref": "data/raw/infrastructure/esa-onest.20261011.html",
+      "record_id": "esa:optical_quantum_network_testbed:6b-128",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "62a8ba7faa148bedb31d2fffba8bd03228b76cce3f99ce59c5a3a41bca574ec9",
+      "source_updated_at": "2026-02-26",
+      "source_url": "https://resilience.esa.int/archives/projects/onest",
+      "spatial_representation": "none",
+      "unit": "project"
+    },
+    {
+      "category": "submarine_cable_branch",
+      "confidence": "high",
+      "country_codes": [
+        "DO"
+      ],
+      "country_scope": "newly_named_branch_endpoint_only",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "Firmina Dominican Republic branch",
+      "parties": [
+        {
+          "name": "Google",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "branch_endpoint_named": "Dominican Republic",
+        "parent_system_name": "Firmina",
+        "parent_system_not_duplicated_as_new_asset": true
+      },
+      "provider": "Google",
+      "raw_source_ref": "data/raw/infrastructure/google-americas-connect.20261011.html",
+      "record_id": "google:submarine_cable_branch:firmina-dominican-republic",
+      "relationships": [
+        {
+          "relationship_type": "part_of_program",
+          "target_record_id": "google:subsea_connectivity_program:americas-connect"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-11",
+      "source_scope": "provider_declared",
+      "source_sha256": "2cc71a6710fe3d28de7e8ba2312a22e521180772f6e8d6b1a7e31221c140527f",
+      "source_updated_at": null,
+      "source_url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+      "spatial_representation": "none",
+      "unit": "segment"
+    },
+    {
+      "category": "submarine_cable_system",
+      "confidence": "high",
+      "country_codes": [
+        "CL",
+        "DO",
+        "PA"
+      ],
+      "country_scope": "named_system_endpoint_countries",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "Alisios",
+      "parties": [
+        {
+          "name": "Google",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "landing_buildings_or_route_geometry_not_established": true,
+        "published_endpoint_labels": [
+          "Dominican Republic",
+          "Panama",
+          "Chile"
+        ],
+        "source_phase": "announced_new_system"
+      },
+      "provider": "Google",
+      "raw_source_ref": "data/raw/infrastructure/google-americas-connect.20261011.html",
+      "record_id": "google:submarine_cable_system:alisios",
+      "relationships": [
+        {
+          "relationship_type": "part_of_program",
+          "target_record_id": "google:subsea_connectivity_program:americas-connect"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-11",
+      "source_scope": "provider_declared",
+      "source_sha256": "2cc71a6710fe3d28de7e8ba2312a22e521180772f6e8d6b1a7e31221c140527f",
+      "source_updated_at": null,
+      "source_url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "submarine_cable_system",
+      "confidence": "high",
+      "country_codes": [
+        "BM",
+        "DO"
+      ],
+      "country_scope": "named_system_endpoint_countries",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "Canoa",
+      "parties": [
+        {
+          "name": "Google",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "landing_buildings_or_route_geometry_not_established": true,
+        "published_endpoint_labels": [
+          "Dominican Republic",
+          "Bermuda"
+        ],
+        "source_phase": "announced_new_system"
+      },
+      "provider": "Google",
+      "raw_source_ref": "data/raw/infrastructure/google-americas-connect.20261011.html",
+      "record_id": "google:submarine_cable_system:canoa",
+      "relationships": [
+        {
+          "relationship_type": "part_of_program",
+          "target_record_id": "google:subsea_connectivity_program:americas-connect"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-11",
+      "source_scope": "provider_declared",
+      "source_sha256": "2cc71a6710fe3d28de7e8ba2312a22e521180772f6e8d6b1a7e31221c140527f",
+      "source_updated_at": null,
+      "source_url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "submarine_cable_system",
+      "confidence": "high",
+      "country_codes": [
+        "DO",
+        "US"
+      ],
+      "country_scope": "named_system_endpoint_countries",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "OlaLuz",
+      "parties": [
+        {
+          "name": "Google",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "landing_buildings_or_route_geometry_not_established": true,
+        "published_endpoint_labels": [
+          "Dominican Republic",
+          "Florida"
+        ],
+        "source_phase": "announced_new_system"
+      },
+      "provider": "Google",
+      "raw_source_ref": "data/raw/infrastructure/google-americas-connect.20261011.html",
+      "record_id": "google:submarine_cable_system:olaluz",
+      "relationships": [
+        {
+          "relationship_type": "part_of_program",
+          "target_record_id": "google:subsea_connectivity_program:americas-connect"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-11",
+      "source_scope": "provider_declared",
+      "source_sha256": "2cc71a6710fe3d28de7e8ba2312a22e521180772f6e8d6b1a7e31221c140527f",
+      "source_updated_at": null,
+      "source_url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "subsea_connectivity_program",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "programme_includes_multiple_existing_and_planned_systems",
+      "geometry": null,
+      "lifecycle_status": "in_development",
+      "name": "Americas Connect",
+      "parties": [
+        {
+          "name": "Google",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "existing_systems_named": [
+          "Curie",
+          "Nuvem",
+          "Sol",
+          "Firmina"
+        ],
+        "programme_not_additional_cable_asset": true
+      },
+      "provider": "Google",
+      "raw_source_ref": "data/raw/infrastructure/google-americas-connect.20261011.html",
+      "record_id": "google:subsea_connectivity_program:americas-connect",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-08-11",
+      "source_scope": "provider_declared",
+      "source_sha256": "2cc71a6710fe3d28de7e8ba2312a22e521180772f6e8d6b1a7e31221c140527f",
+      "source_updated_at": null,
+      "source_url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+      "spatial_representation": "none",
+      "unit": "program"
+    },
+    {
+      "category": "quantum_optical_ground_station",
+      "confidence": "high",
+      "country_codes": [
+        "LU"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "commissioning",
+      "name": "INT-UQKD optical ground station, Windhof",
+      "parties": [
+        {
+          "name": "HITEC",
+          "role": "builder"
+        },
+        {
+          "name": "Starion Luxembourg",
+          "role": "consortium_lead"
+        },
+        {
+          "name": "ESA",
+          "role": "programme_partner"
+        }
+      ],
+      "properties": {
+        "city_label": "Windhof",
+        "commercial_quantum_network_not_asserted": true,
+        "source_phase": "commissioned_for_quantum_network_tests",
+        "technologies": [
+          "QKD",
+          "PQC"
+        ]
+      },
+      "provider": "INT-UQKD consortium",
+      "raw_source_ref": "data/raw/infrastructure/esa-quantum-luxembourg.20261011.html",
+      "record_id": "intuqkd:quantum_optical_ground_station:windhof",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-07-26",
+      "source_scope": "institution_declared",
+      "source_sha256": "97cfbfbba518a5d86868fe08c52afbdd3cbef5da66d7bf808d5b14ffb9b7b425",
+      "source_updated_at": null,
+      "source_url": "https://resilience.esa.int/archives/news/first-of-its-kind-optical-ground-station-commissioned-in-luxembourg-to-demonstrate-international-quantum-secure-communications",
+      "spatial_representation": "none",
+      "unit": "site"
+    },
+    {
+      "category": "submarine_cable_system",
+      "confidence": "high",
+      "country_codes": [
+        "FR",
+        "US"
+      ],
+      "country_scope": "named_system_endpoint_countries",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "Petal",
+      "parties": [
+        {
+          "name": "Meta",
+          "role": "project_lead"
+        },
+        {
+          "name": "NEC",
+          "role": "supplier"
+        },
+        {
+          "name": "Sumitomo Electric Industries",
+          "role": "supplier"
+        },
+        {
+          "name": "Orange",
+          "role": "planned_french_landing_partner"
+        }
+      ],
+      "properties": {
+        "approximate_length_km_claim": 7000,
+        "capacity_semantics": "design_not_lit_or_measured",
+        "design_capacity_petabits_per_second_claim": 1,
+        "planned_ready_for_service_year": 2029,
+        "surveyed_route_not_published_in_captured_source": true,
+        "technology": "multi_core_fiber"
+      },
+      "provider": "Meta",
+      "raw_source_ref": "data/raw/infrastructure/meta-petal.20261011.html",
+      "record_id": "meta:submarine_cable_system:petal",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-09-21",
+      "source_scope": "provider_declared",
+      "source_sha256": "648b721a3fb54cabb433fd56840533c7b82c60e6ee99172fa4bb90811454d188",
+      "source_updated_at": null,
+      "source_url": "https://about.fb.com/news/2026/09/announcing-petal-meta-petabit-transoceanic-cable/",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "satellite_gateway_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Goonhilly Earth Station Limited (Goonhilly)",
+      "parties": [
+        {
+          "name": "Goonhilly Earth Station Limited",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "associated_network_license_number": "1239247",
+        "associated_network_licensee": "Starlink Internet Services Limited",
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2020-04-01",
+        "date_first_issued_label": "1 April 2020",
+        "license_number": "1224918",
+        "operation_not_inferred_from_license": true,
+        "station_locality_label": "Goonhilly"
+      },
+      "provider": "Goonhilly Earth Station Limited",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_gateway_authorization:1224918",
+      "relationships": [
+        {
+          "relationship_type": "associated_network_authorization",
+          "target_record_id": "ofcom:satellite_network_authorization:1239247"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_gateway_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Arqiva Ltd (Chalfont)",
+      "parties": [
+        {
+          "name": "Arqiva Ltd",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "associated_network_license_number": "1239247",
+        "associated_network_licensee": "Starlink Internet Services Limited",
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2021-02-01",
+        "date_first_issued_label": "1 February 2021",
+        "license_number": "1242714",
+        "operation_not_inferred_from_license": true,
+        "station_locality_label": "Chalfont"
+      },
+      "provider": "Arqiva Ltd",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_gateway_authorization:1242714",
+      "relationships": [
+        {
+          "relationship_type": "associated_network_authorization",
+          "target_record_id": "ofcom:satellite_network_authorization:1239247"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_gateway_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Starlink Internet Services Limited (Woodwalton)",
+      "parties": [
+        {
+          "name": "Starlink Internet Services Limited",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "associated_network_license_number": "1239247",
+        "associated_network_licensee": "Starlink Internet Services Limited",
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2022-11-14",
+        "date_first_issued_label": "14 November 2022",
+        "license_number": "1293303",
+        "operation_not_inferred_from_license": true,
+        "station_locality_label": "Woodwalton"
+      },
+      "provider": "Starlink Internet Services Limited",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_gateway_authorization:1293303",
+      "relationships": [
+        {
+          "relationship_type": "associated_network_authorization",
+          "target_record_id": "ofcom:satellite_network_authorization:1239247"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_gateway_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Starlink Internet Services Limited (Wherstead)",
+      "parties": [
+        {
+          "name": "Starlink Internet Services Limited",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "associated_network_license_number": "1239247",
+        "associated_network_licensee": "Starlink Internet Services Limited",
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2022-11-14",
+        "date_first_issued_label": "14 November 2022",
+        "license_number": "1293534",
+        "operation_not_inferred_from_license": true,
+        "station_locality_label": "Wherstead"
+      },
+      "provider": "Starlink Internet Services Limited",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_gateway_authorization:1293534",
+      "relationships": [
+        {
+          "relationship_type": "associated_network_authorization",
+          "target_record_id": "ofcom:satellite_network_authorization:1239247"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_gateway_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Starlink Internet Services Limited (Morn Hill)",
+      "parties": [
+        {
+          "name": "Starlink Internet Services Limited",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "associated_network_license_number": "1239247",
+        "associated_network_licensee": "Starlink Internet Services Limited",
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2022-11-14",
+        "date_first_issued_label": "14 November 2022",
+        "license_number": "1293713",
+        "operation_not_inferred_from_license": true,
+        "station_locality_label": "Morn Hill"
+      },
+      "provider": "Starlink Internet Services Limited",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_gateway_authorization:1293713",
+      "relationships": [
+        {
+          "relationship_type": "associated_network_authorization",
+          "target_record_id": "ofcom:satellite_network_authorization:1239247"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_gateway_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Amazon Kuiper UK Limited (Bude)",
+      "parties": [
+        {
+          "name": "Amazon Kuiper UK Limited",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "associated_network_license_number": "1377636",
+        "associated_network_licensee": "Amazon Kuiper UK Limited",
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2025-12-16",
+        "date_first_issued_label": "16 December 2025",
+        "license_number": "1401320",
+        "operation_not_inferred_from_license": true,
+        "station_locality_label": "Bude"
+      },
+      "provider": "Amazon Kuiper UK Limited",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_gateway_authorization:1401320",
+      "relationships": [
+        {
+          "relationship_type": "associated_network_authorization",
+          "target_record_id": "ofcom:satellite_network_authorization:1377636"
+        }
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_gateway_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Satco Infrastructure Uk Ltd & AST Spacemobile UK (Goonhilly)",
+      "parties": [
+        {
+          "name": "Satco Infrastructure Uk Ltd & AST Spacemobile UK",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "associated_network_license_number": null,
+        "associated_network_licensee": "N/A",
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2026-07-01",
+        "date_first_issued_label": "1 July 2026",
+        "license_number": "1416018",
+        "operation_not_inferred_from_license": true,
+        "station_locality_label": "Goonhilly"
+      },
+      "provider": "Satco Infrastructure Uk Ltd & AST Spacemobile UK",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_gateway_authorization:1416018",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Network Access Associates Ltd",
+      "parties": [
+        {
+          "name": "Network Access Associates Ltd",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2016-11-09",
+        "date_first_issued_label": "9 November 2016",
+        "license_number": "1102679",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Network Access Associates Ltd",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1102679",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Starlink Internet Services Limited",
+      "parties": [
+        {
+          "name": "Starlink Internet Services Limited",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2020-11-16",
+        "date_first_issued_label": "16 November 2020",
+        "license_number": "1239247",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Starlink Internet Services Limited",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1239247",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Telesat LEO ULC",
+      "parties": [
+        {
+          "name": "Telesat LEO ULC",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2022-11-14",
+        "date_first_issued_label": "14 November 2022",
+        "license_number": "1297041",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Telesat LEO ULC",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1297041",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Mangata Edge Ltd",
+      "parties": [
+        {
+          "name": "Mangata Edge Ltd",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2023-03-22",
+        "date_first_issued_label": "22 March 2023",
+        "license_number": "1309175",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Mangata Edge Ltd",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1309175",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Rivada Space Networks GmbH",
+      "parties": [
+        {
+          "name": "Rivada Space Networks GmbH",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2024-04-29",
+        "date_first_issued_label": "29 April 2024",
+        "license_number": "1347891",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Rivada Space Networks GmbH",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1347891",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "NSLComm LTD",
+      "parties": [
+        {
+          "name": "NSLComm LTD",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2024-09-16",
+        "date_first_issued_label": "16 September 2024",
+        "license_number": "1364328",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "NSLComm LTD",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1364328",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Amazon Kuiper Services Europe SARL",
+      "parties": [
+        {
+          "name": "Amazon Kuiper Services Europe SARL",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2025-02-18",
+        "date_first_issued_label": "18 February 2025",
+        "license_number": "1377636",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Amazon Kuiper Services Europe SARL",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1377636",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Kepler Communications Inc",
+      "parties": [
+        {
+          "name": "Kepler Communications Inc",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2025-05-02",
+        "date_first_issued_label": "2 May 2025",
+        "license_number": "1384465",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Kepler Communications Inc",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1384465",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "satellite_network_authorization",
+      "confidence": "high",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "authorization_jurisdiction_not_service_coverage",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Inmarsat Global Ltd and Space Norway Heosat AS",
+      "parties": [
+        {
+          "name": "Inmarsat Global Ltd and Space Norway Heosat AS",
+          "role": "licensee"
+        }
+      ],
+      "properties": {
+        "authorization_status": "listed_existing_license",
+        "date_first_issued": "2025-11-17",
+        "date_first_issued_label": "17 November 2025",
+        "license_number": "1400179",
+        "operation_not_inferred_from_license": true
+      },
+      "provider": "Inmarsat Global Ltd and Space Norway Heosat AS",
+      "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+      "record_id": "ofcom:satellite_network_authorization:1400179",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2024-03-01",
+      "source_scope": "regulator_declared",
+      "source_sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss",
+      "spatial_representation": "none",
+      "unit": "authorization"
+    },
+    {
+      "category": "submarine_cable_system",
+      "confidence": "high",
+      "country_codes": [
+        "RU"
+      ],
+      "country_scope": "named_system_endpoint_country",
+      "geometry": null,
+      "lifecycle_status": "operational",
+      "name": "Petropavlovsk-Kamchatsky–Anadyr",
+      "parties": [
+        {
+          "name": "Rostelecom",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "endpoint_localities": [
+          "Petropavlovsk-Kamchatsky",
+          "Anadyr"
+        ],
+        "operational_status_is_dated_operator_assertion": true,
+        "service_restored_at": "2026-07-16",
+        "source_phase": "full_service_restoration_reported"
+      },
+      "provider": "Rostelecom",
+      "raw_source_ref": "data/raw/infrastructure/rostelecom-anadyr-restored.20261011.html",
+      "record_id": "rostelecom:submarine_cable_system:petropavlovsk-kamchatsky-anadyr",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-07-16",
+      "source_scope": "provider_declared",
+      "source_sha256": "d3308b8b919505a41430144195339f06d590a4f0b65fcfe93f6964133c6568d4",
+      "source_updated_at": null,
+      "source_url": "https://www.company.rt.ru/press/news_fill/far_east/d479069/",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "terrestrial_fiber_backbone_network",
+      "confidence": "medium",
+      "country_codes": [
+        "RU"
+      ],
+      "country_scope": "russia_confirmed_international_country_membership_unspecified",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Rostelecom backbone network",
+      "parties": [
+        {
+          "name": "Rostelecom",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "access_points_claim": {
+          "comparison": "more_than",
+          "value": 350
+        },
+        "aggregate_counts_not_expanded_into_site_or_cable_records": true,
+        "international_cable_participation_count_claim": 17,
+        "source_publication_date_unknown": true
+      },
+      "provider": "Rostelecom",
+      "raw_source_ref": "data/raw/infrastructure/rostelecom-backbone.20261011.html",
+      "record_id": "rostelecom:terrestrial_fiber_backbone_network:rostelecom-backbone",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "3aaf521e497520db2c67c2fd413492a46162b725d4a394698148ce8b0204bd92",
+      "source_updated_at": null,
+      "source_url": "https://www.company.rt.ru/en/about/net/magistr/",
+      "spatial_representation": "none",
+      "unit": "network"
+    },
+    {
+      "category": "terrestrial_fiber_link",
+      "confidence": "high",
+      "country_codes": [
+        "RU"
+      ],
+      "country_scope": "published_physical_route_country_border_exits_are_separate",
+      "geometry": null,
+      "lifecycle_status": "operational",
+      "name": "TEA NEXT",
+      "parties": [
+        {
+          "name": "Rostelecom / Atlas",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "additional_capacity_scenario": "more_than_1_pbps_depending_on_dwdm",
+        "border_connection_countries_named": [
+          "CN",
+          "MN"
+        ],
+        "capacity_scenarios_tbps_claim": [
+          384,
+          768
+        ],
+        "capacity_semantics": "technology_dependent_design_not_lit_capacity",
+        "dark_fiber_count_claim": 96,
+        "latency_is_provider_claim_not_measurement": true,
+        "moscow_kyakhta_round_trip_delay_ms_upper_bound_claim": 65,
+        "source_phase": "construction_completed_and_launched",
+        "surveyed_alignment_not_established": true
+      },
+      "provider": "Rostelecom / Atlas",
+      "raw_source_ref": "data/raw/infrastructure/rostelecom-tea-next.20261011.html",
+      "record_id": "rostelecom:terrestrial_fiber_link:tea-next",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-10-06",
+      "source_scope": "provider_declared",
+      "source_sha256": "77844402a21bbfb440ffb4e4fc2423c8a2a9bb50cf44616ce505335560b2231b",
+      "source_updated_at": null,
+      "source_url": "https://www.company.rt.ru/press/news/d480081/",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "leo_satellite_constellation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "global_system_not_country_site_inventory",
+      "geometry": null,
+      "lifecycle_status": "operational",
+      "name": "Starlink",
+      "parties": [
+        {
+          "name": "SpaceX / Starlink",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "deployment_period": "2026-09",
+        "first_v3_satellites_deployed_claim": 26,
+        "metrics_are_provider_claims_not_independent_orbital_inventory": true,
+        "planned_satellites_upper_bound": 100000,
+        "satellites_in_orbit_claim": {
+          "comparison": "more_than",
+          "value": 11000
+        },
+        "source_page_url": "https://starlink.com/updates"
+      },
+      "provider": "SpaceX / Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-updates.20261011.js",
+      "record_id": "spacex:leo_satellite_constellation:starlink",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-10-06",
+      "source_scope": "provider_declared",
+      "source_sha256": "2f50a1258af0a812706db7de351dab2953376f4e11bfe964144438dfd4fe94c7",
+      "source_updated_at": null,
+      "source_url": "https://starlink.com/assets-new/page-BNqKtGsY2.js",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "orbital_compute_constellation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "global_plan_not_ground_site_inventory",
+      "geometry": null,
+      "lifecycle_status": "planned",
+      "name": "Starmind AI satellite plan",
+      "parties": [
+        {
+          "name": "SpaceX",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "launched_compute_sites_not_established": true,
+        "planned_satellites_upper_bound": 1000000,
+        "planning_metric_not_operational_capacity": true,
+        "source_page_url": "https://starlink.com/updates"
+      },
+      "provider": "SpaceX",
+      "raw_source_ref": "data/raw/infrastructure/starlink-updates.20261011.js",
+      "record_id": "spacex:orbital_compute_constellation:starmind",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-10-06",
+      "source_scope": "provider_declared",
+      "source_sha256": "2f50a1258af0a812706db7de351dab2953376f4e11bfe964144438dfd4fe94c7",
+      "source_updated_at": null,
+      "source_url": "https://starlink.com/assets-new/page-BNqKtGsY2.js",
+      "spatial_representation": "none",
+      "unit": "planned_system"
+    },
+    {
+      "category": "optical_ground_station",
+      "confidence": "medium",
+      "country_codes": [
+        "CL"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "commissioning",
+      "name": "SSC Space optical ground station (Chile)",
+      "parties": [
+        {
+          "name": "SSC Space",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "commercial_service_not_inferred": true,
+        "precision": "country_or_region_only",
+        "published_locality_scope": "chile",
+        "source_phase": "passed_acceptance_ready_for_operations"
+      },
+      "provider": "SSC Space",
+      "raw_source_ref": "data/raw/infrastructure/esa-optical-chile.20261011.html",
+      "record_id": "ssc:optical_ground_station:chile",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-10",
+      "source_scope": "institution_declared",
+      "source_sha256": "a5b6f30a8b59294a760ab8add194a70c7ffb1093aaa41ba06acf3994914587bb",
+      "source_updated_at": null,
+      "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Ground_station_in_Chile_ready_to_connect_to_space_via_laser",
+      "spatial_representation": "none",
+      "unit": "site"
+    },
+    {
+      "category": "optical_ground_station",
+      "confidence": "medium",
+      "country_codes": [
+        "AU"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SSC Space optical ground facility (Western Australia)",
+      "parties": [
+        {
+          "name": "SSC Space",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "commercial_service_not_inferred": true,
+        "precision": "country_or_region_only",
+        "published_locality_scope": "western-australia",
+        "source_phase": "began_testing_2025"
+      },
+      "provider": "SSC Space",
+      "raw_source_ref": "data/raw/infrastructure/esa-optical-chile.20261011.html",
+      "record_id": "ssc:optical_ground_station:western-australia",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-10",
+      "source_scope": "institution_declared",
+      "source_sha256": "a5b6f30a8b59294a760ab8add194a70c7ffb1093aaa41ba06acf3994914587bb",
+      "source_updated_at": null,
+      "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Ground_station_in_Chile_ready_to_connect_to_space_via_laser",
+      "spatial_representation": "none",
+      "unit": "site"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "AR"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Cirion Buenos Aires - BUE1",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Av. Del Campo 1301, Buenos Aires, CF, C1427APA",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Buenos Aires",
+        "country_label": "Argentina",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Cirion Buenos Aires - BUE1",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:cirion-buenos-aires-bue1-ar",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "PE"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Cirion Lima - LIM1",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Av. Manuel Olguin N° 395",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Santiago de Surco",
+        "country_label": "Peru",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Cirion Lima - LIM1",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:cirion-lima-lim1-pe",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "CL"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Cirion Santiago de Chile - SAN1",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Santa Marta de Huechuraba 6951",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Santiago",
+        "country_label": "Chile",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Cirion Santiago de Chile - SAN1",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:cirion-santiago-de-chile-san1-cl",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Cologix MIN2",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "511 11th Ave S,Minneapolis, MN, 55415",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Minneapolis",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Cologix MIN2",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:cologix-min2-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "CA"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Cologix MTL3",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "1250 Rene Levesque West",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Montreal",
+        "country_label": "Canada",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Cologix MTL3",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:cologix-mtl3-ca",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "CoreSite - Chicago (CH1)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "427 S. LaSalle,Chicago, IL, 60605",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Chicago",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "CoreSite - Chicago (CH1)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:coresite-chicago-ch1-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "CoreSite - Denver (DE1)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "910 15th Street,Denver, CO, 80202",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Denver",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "CoreSite - Denver (DE1)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:coresite-denver-de1-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "CoreSite - Los Angeles (LA1) One Wilshire",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "624 S. Grand Ave,Los Angeles, CA, 90017",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Los Angeles",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "CoreSite - Los Angeles (LA1) One Wilshire",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:coresite-los-angeles-la1-one-wilshire-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DataBank Salt Lake City (SLC2)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "14944 Pony Express Road,Bluffdale, UT, 84065",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Bluffdale",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "DataBank Salt Lake City (SLC2)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:databank-salt-lake-city-slc2-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "NZ"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DataCentre220",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "220 Queen Street",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Auckland",
+        "country_label": "New Zealand",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "DataCentre220",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:datacentre220-nz",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "DE"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Digital Realty Frankfurt FRA1-16",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Hanauer Landstrasse 298",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Frankfurt",
+        "country_label": "Germany",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Digital Realty Frankfurt FRA1-16",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:digital-realty-frankfurt-fra1-16-de",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "ES"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Digital Realty Madrid MAD3",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Calle de Emilio Muñoz 49-51",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Madrid",
+        "country_label": "Spain",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Digital Realty Madrid MAD3",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:digital-realty-madrid-mad3-es",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Digital Realty NYC (32 AofA)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "32 6th Ave (Avenue of the Americas),New York, NY, 10013",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "New York",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Digital Realty NYC (32 AofA)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:digital-realty-nyc-32-aofa-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Digital Realty Seattle SEA10",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "2001 Sixth Avenue,Seattle, WA, 98121",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Seattle",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Digital Realty Seattle SEA10",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:digital-realty-seattle-sea10-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "EdgeConneX Phoenix (EDCPHX01)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "3011 S. 52nd St,Tempe, AZ, 85282",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Tempe",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "EdgeConneX Phoenix (EDCPHX01)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:edgeconnex-phoenix-edcphx01-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "EdgeConneX Salt Lake City (EDCSLC01)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "2302 Presidents Drive,Salt Lake City, UT, 84120",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Salt Lake City",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "EdgeConneX Salt Lake City (EDCSLC01)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:edgeconnex-salt-lake-city-edcslc01-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "BR"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Elea BSB2 - Brasilia",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "SIG QD 2 lote 470",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Brasilia",
+        "country_label": "Brazil",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Elea BSB2 - Brasilia",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:elea-bsb2-brasilia-br",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix AT1 - Atlanta",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "180 Peachtree,Atlanta, GA, 30303",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Atlanta",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix AT1 - Atlanta",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-at1-atlanta-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "CO"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix BG1 - Bogota",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Carrera 106 No. 15A-25",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Bogota",
+        "country_label": "Colombia",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix BG1 - Bogota",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-bg1-bogota-co",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "CA"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix CL3 - Calgary (formerly Q9 Calgary Three)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "5300 86 Ave SE",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Calgary",
+        "country_label": "Canada",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix CL3 - Calgary (formerly Q9 Calgary Three)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-cl3-calgary-formerly-q9-calgary-three-ca",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix DA6 - Dallas",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "1950 N Stemmons Fwy,Dallas, TX, 75207-3134",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Dallas",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix DA6 - Dallas",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-da6-dallas-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix DC1-DC15,DC21-DC22 - Ashburn",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "21715 Filigree Ct,Ashburn, VA, 20147-6205",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Ashburn",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix DC1-DC15,DC21-DC22 - Ashburn",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-dc1-dc15-dc21-dc22-ashburn-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "NG"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix LG1/LG2 ‚ Lagos, Lekki",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Chief Chuks Ikokwu Street",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Lekki",
+        "country_label": "Nigeria",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix LG1/LG2 ‚ Lagos, Lekki",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-lg1-lg2-lagos-lekki-ng",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix MB2 - Mumbai (GPX Mumbai 2)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Plot 37, Chandivali Farm Road, Andheri East",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Mumbai",
+        "country_label": "India",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix MB2 - Mumbai (GPX Mumbai 2)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-mb2-mumbai-gpx-mumbai-2-in",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "OM"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix MC1 - Muscat",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Al Oqda Barka",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Muscat",
+        "country_label": "Oman",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix MC1 - Muscat",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-mc1-muscat-om",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "AU"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix ME1/ME2 - Melbourne",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "600 Lorimer Street",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Melbourne",
+        "country_label": "Australia",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix ME1/ME2 - Melbourne",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-me1-me2-melbourne-au",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix MI1 - Miami, NOTA",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "50 NE 9th St,Miami, FL, 33132-1709",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Miami",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix MI1 - Miami, NOTA",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-mi1-miami-nota-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "SG"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix SG1 - Singapore",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "20 Ayer Rajah Crescent",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Singapore",
+        "country_label": "Singapore",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix SG1 - Singapore",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-sg1-singapore-sg",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "BR"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix SP4 - Sao Paulo",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Av. Ceci, 1900 - Res. Tambore",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Barueri",
+        "country_label": "Brazil",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix SP4 - Sao Paulo",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-sp4-sao-paulo-br",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix SV1/SV5/SV10 - Silicon Valley, San Jose",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "11 Great Oaks Blvd,San Jose, CA, 95119-1242",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "San Jose",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix SV1/SV5/SV10 - Silicon Valley, San Jose",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-sv1-sv5-sv10-silicon-valley-san-jose-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "PL"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix WA1 - Warsaw, Centrum LIM",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "65/79 al. Jerozolimskie",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Warsaw",
+        "country_label": "Poland",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Equinix WA1 - Warsaw, Centrum LIM",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:equinix-wa1-warsaw-centrum-lim-pl",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "BD"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Felicity IDC - Kaliakoir",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Solaris (South Wing), Block-3, Kaliakair Hi-Tech Park (KHTP)",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Gazipur",
+        "country_label": "Bangladesh",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Felicity IDC - Kaliakoir",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:felicity-idc-kaliakoir-bd",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "KE"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "icolo.io Nairobi One (NBO1)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "icolo.io NBO1",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Karen",
+        "country_label": "Kenya",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "icolo.io Nairobi One (NBO1)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:icolo-io-nairobi-one-nbo1-ke",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "GT"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "KIO Guatemala 1 (GTM1)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Bulevard El Naranjo",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Guatemala City",
+        "country_label": "Guatemala",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "KIO Guatemala 1 (GTM1)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:kio-guatemala-1-gtm1-gt",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "MX"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "KIO Queretaro 1 (QRO1)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Privada de la Princesa 4",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "El Marques",
+        "country_label": "Mexico",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "KIO Queretaro 1 (QRO1)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:kio-queretaro-1-qro1-mx",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "QA"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Meeza Data Center - MV2",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Qatar Science & Technology Park",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Doha",
+        "country_label": "Qatar",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Meeza Data Center - MV2",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:meeza-data-center-mv2-qa",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Netrality Kansas City - 1102 Grand",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "1102 Grand Boulevard,Kansas City, MO, 64106",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Kansas City",
+        "country_label": "United States",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Netrality Kansas City - 1102 Grand",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:netrality-kansas-city-1102-grand-us",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "AU"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "NEXTDC B2",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "454 St. Pauls Terrace",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Fortitude Valley",
+        "country_label": "Australia",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "NEXTDC B2",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:nextdc-b2-au",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "AU"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "NEXTDC P1",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "4 Millrose Drive",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Malaga",
+        "country_label": "Australia",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "NEXTDC P1",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:nextdc-p1-au",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "AU"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "NEXTDC S1",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "4 Eden Park Drive",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Sydney",
+        "country_label": "Australia",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "NEXTDC S1",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:nextdc-s1-au",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "ID"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "OMADATA - E1 - SUB",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Gedung Intiland, Jl. Panglima Sudirman No.101-103",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Surabaya",
+        "country_label": "Indonesia",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "OMADATA - E1 - SUB",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:omadata-e1-sub-id",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "IT"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Retelit Avalon 1",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Via Caldera 21",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Milan",
+        "country_label": "Italy",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Retelit Avalon 1",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:retelit-avalon-1-it",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "NZ"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Spark Christchurch Exchange",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "09 Hereford Street",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Christchurch",
+        "country_label": "New Zealand",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Spark Christchurch Exchange",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:spark-christchurch-exchange-nz",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "BR"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Tecto TFOR1/2 (ex Globenet CLS & Big Lobster)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Rua Raimundo Esteves 333",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Fortaleza",
+        "country_label": "Brazil",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Tecto TFOR1/2 (ex Globenet CLS & Big Lobster)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:tecto-tfor1-2-ex-globenet-cls-big-lobster-br",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "GB"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Telehouse - London (Docklands West)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "14 Coriander Avenue",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "London",
+        "country_label": "United Kingdom",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Telehouse - London (Docklands West)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:telehouse-london-docklands-west-gb",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "JP"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Telehouse ‚TOKYO Otemachi (KDDI Otemachi)",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "Otemachi Building",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Tokyo",
+        "country_label": "Japan",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Telehouse ‚TOKYO Otemachi (KDDI Otemachi)",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:telehouse-tokyo-otemachi-kddi-otemachi-jp",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "BG"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "TELEPOINT Sofia Centre",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "122 Ovcho Pole str.",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Sofia",
+        "country_label": "Bulgaria",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "TELEPOINT Sofia Centre",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:telepoint-sofia-centre-bg",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "ZA"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Teraco Johannesburg Campus, South Africa",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "5 Brewery Street",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Johannesburg",
+        "country_label": "South Africa",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "Teraco Johannesburg Campus, South Africa",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:teraco-johannesburg-campus-south-africa-za",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "network_interconnect_presence",
+      "confidence": "medium",
+      "country_codes": [
+        "PH"
+      ],
+      "country_scope": "listed_host_facility_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "VITRO Makati 2",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "interconnect_service_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": "222 Nicanor Garcia St., Barangay Bel-Air",
+        "article_reference_id": "45d1d256-171e-0f67-4895-5d248fa63b66",
+        "city_label": "Makati",
+        "country_label": "Philippines",
+        "eligibility_context": "host_facility_in_customer_home_pop_geography",
+        "facility_label": "VITRO Makati 2",
+        "facility_ownership_not_asserted": true,
+        "ground_station_presence_not_asserted": true,
+        "grouped_facility_labels_not_expanded": true,
+        "service_scope": "private_network_interconnect"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+      "record_id": "starlink:network_interconnect_presence:vitro-makati-2-ph",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-03-27",
+      "source_scope": "provider_declared",
+      "source_sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+      "source_updated_at": "2026-04-02",
+      "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66",
+      "spatial_representation": "none",
+      "unit": "directory_entry"
+    },
+    {
+      "category": "space_situational_awareness_system",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "orbital_system",
+      "geometry": null,
+      "lifecycle_status": "operational",
+      "name": "Stargaze",
+      "parties": [
+        {
+          "name": "Starlink",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "not_a_ground_sensor_site_inventory": true,
+        "provider_processing_claim_transits_per_day": {
+          "comparison": "more_than",
+          "value": 30000000
+        },
+        "sensor_location_scope": "onboard_starlink_satellites"
+      },
+      "provider": "Starlink",
+      "raw_source_ref": "data/raw/infrastructure/starlink-stargaze.20261011.html",
+      "record_id": "starlink:space_situational_awareness_system:stargaze",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b880bfe2d2a27cf3b944b0eff87f1ccb098367c8644c9b5c9be506d0e2195cd9",
+      "source_updated_at": null,
+      "source_url": "https://docs.space-safety.starlink.com/docs/tutorial-basics/stargaze/",
+      "spatial_representation": "none",
+      "unit": "system"
+    }
+  ],
+  "retrieved_at": "2026-10-11",
+  "schema_version": "1.0.0",
+  "scope_note": "Global bounded public-source evidence with open categories and unlike units. Not a site, spacecraft, cable-length or operating-capacity total; counts remain separate from location and network evidence inventories.",
+  "type": "InfrastructureEvidenceCollection"
+}

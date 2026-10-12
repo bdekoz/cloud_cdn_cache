@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/de-cix-acix.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "57b2e3243205b7ae70fd9e043c54492b7ba0ea381dc89bbd7524321a29794c98",
+  "source_published_at": "2026-05-19",
+  "source_url": "https://www.de-cix.net/en/about-de-cix/media/press-releases/africa-congo-internet-exchange-acix-becomes-first-distributed-ix-in-drc-with-support-from-de-cix"
+}

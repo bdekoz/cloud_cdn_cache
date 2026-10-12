@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/google-americas-connect.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "2cc71a6710fe3d28de7e8ba2312a22e521180772f6e8d6b1a7e31221c140527f",
+  "source_published_at": "2026-08-11",
+  "source_url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/"
+}

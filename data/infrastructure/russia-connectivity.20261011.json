@@ -1,0 +1,149 @@
+{
+  "categories": {
+    "direct_to_device_satellite_constellation": "A named direct-to-device satellite system or deployment plan.",
+    "distributed_internet_exchange": "A named distributed traffic-exchange service, distinct from each host building or member network.",
+    "interconnection_corridor": "A connectivity collaboration/corridor, distinct from one new physical cable.",
+    "leo_satellite_constellation": "A named low-Earth-orbit communications system, not a row per spacecraft.",
+    "network_interconnect_presence": "A provider-listed private interconnect directory entry, which can group multiple host facilities.",
+    "optical_ground_station": "A specifically described optical satellite ground station or trial facility.",
+    "optical_quantum_network_testbed": "A named optical/quantum network testbed that can include simulated infrastructure.",
+    "orbital_compute_constellation": "A named planned orbital computing system; plans do not establish launched compute sites.",
+    "quantum_optical_ground_station": "An optical ground station commissioned for quantum-network experimentation.",
+    "satellite_gateway_authorization": "A regulator-listed gateway licence; distinct from observed operation, ownership or unique campuses.",
+    "satellite_network_authorization": "A regulator-listed network licence; not a constellation inventory or ground-site count.",
+    "space_situational_awareness_system": "A named space-traffic sensing/coordination system; orbital sensors are not ground stations.",
+    "submarine_cable_branch": "A specifically announced branch of a named cable system.",
+    "submarine_cable_system": "A named submarine fiber system, not a surveyed path, landing building or lit-capacity measurement.",
+    "subsea_connectivity_program": "A named programme grouping cable systems; not an additional cable asset.",
+    "terrestrial_fiber_backbone_network": "An operator's backbone network declaration with bounded aggregate claims.",
+    "terrestrial_fiber_link": "A named terrestrial fiber system; cities and design capacity are not a surveyed alignment."
+  },
+  "records": [
+    {
+      "category": "submarine_cable_system",
+      "confidence": "high",
+      "country_codes": [
+        "RU"
+      ],
+      "country_scope": "named_system_endpoint_country",
+      "geometry": null,
+      "lifecycle_status": "operational",
+      "name": "Petropavlovsk-Kamchatsky–Anadyr",
+      "parties": [
+        {
+          "name": "Rostelecom",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "endpoint_localities": [
+          "Petropavlovsk-Kamchatsky",
+          "Anadyr"
+        ],
+        "operational_status_is_dated_operator_assertion": true,
+        "service_restored_at": "2026-07-16",
+        "source_phase": "full_service_restoration_reported"
+      },
+      "provider": "Rostelecom",
+      "raw_source_ref": "data/raw/infrastructure/rostelecom-anadyr-restored.20261011.html",
+      "record_id": "rostelecom:submarine_cable_system:petropavlovsk-kamchatsky-anadyr",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-07-16",
+      "source_scope": "provider_declared",
+      "source_sha256": "d3308b8b919505a41430144195339f06d590a4f0b65fcfe93f6964133c6568d4",
+      "source_updated_at": null,
+      "source_url": "https://www.company.rt.ru/press/news_fill/far_east/d479069/",
+      "spatial_representation": "none",
+      "unit": "system"
+    },
+    {
+      "category": "terrestrial_fiber_backbone_network",
+      "confidence": "medium",
+      "country_codes": [
+        "RU"
+      ],
+      "country_scope": "russia_confirmed_international_country_membership_unspecified",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Rostelecom backbone network",
+      "parties": [
+        {
+          "name": "Rostelecom",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "access_points_claim": {
+          "comparison": "more_than",
+          "value": 350
+        },
+        "aggregate_counts_not_expanded_into_site_or_cable_records": true,
+        "international_cable_participation_count_claim": 17,
+        "source_publication_date_unknown": true
+      },
+      "provider": "Rostelecom",
+      "raw_source_ref": "data/raw/infrastructure/rostelecom-backbone.20261011.html",
+      "record_id": "rostelecom:terrestrial_fiber_backbone_network:rostelecom-backbone",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "3aaf521e497520db2c67c2fd413492a46162b725d4a394698148ce8b0204bd92",
+      "source_updated_at": null,
+      "source_url": "https://www.company.rt.ru/en/about/net/magistr/",
+      "spatial_representation": "none",
+      "unit": "network"
+    },
+    {
+      "category": "terrestrial_fiber_link",
+      "confidence": "high",
+      "country_codes": [
+        "RU"
+      ],
+      "country_scope": "published_physical_route_country_border_exits_are_separate",
+      "geometry": null,
+      "lifecycle_status": "operational",
+      "name": "TEA NEXT",
+      "parties": [
+        {
+          "name": "Rostelecom / Atlas",
+          "role": "announcing_party"
+        }
+      ],
+      "properties": {
+        "additional_capacity_scenario": "more_than_1_pbps_depending_on_dwdm",
+        "border_connection_countries_named": [
+          "CN",
+          "MN"
+        ],
+        "capacity_scenarios_tbps_claim": [
+          384,
+          768
+        ],
+        "capacity_semantics": "technology_dependent_design_not_lit_capacity",
+        "dark_fiber_count_claim": 96,
+        "latency_is_provider_claim_not_measurement": true,
+        "moscow_kyakhta_round_trip_delay_ms_upper_bound_claim": 65,
+        "source_phase": "construction_completed_and_launched",
+        "surveyed_alignment_not_established": true
+      },
+      "provider": "Rostelecom / Atlas",
+      "raw_source_ref": "data/raw/infrastructure/rostelecom-tea-next.20261011.html",
+      "record_id": "rostelecom:terrestrial_fiber_link:tea-next",
+      "relationships": [],
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-10-06",
+      "source_scope": "provider_declared",
+      "source_sha256": "77844402a21bbfb440ffb4e4fc2423c8a2a9bb50cf44616ce505335560b2231b",
+      "source_updated_at": null,
+      "source_url": "https://www.company.rt.ru/press/news/d480081/",
+      "spatial_representation": "none",
+      "unit": "system"
+    }
+  ],
+  "retrieved_at": "2026-10-11",
+  "schema_version": "1.0.0",
+  "scope_note": "Derived view of explicit RU country assertions; multinational coverage and unspecified countries are not inferred. Excluded from infrastructure evidence totals.",
+  "type": "InfrastructureEvidenceCollection"
+}

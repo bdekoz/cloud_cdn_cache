@@ -22,6 +22,233 @@
     }
   ],
   "generated_from_retained_snapshots_at": "2026-10-11",
+  "infrastructure_evidence_layer_count": 1,
+  "infrastructure_evidence_layers": [
+    {
+      "category_counts": {
+        "direct_to_device_satellite_constellation": 1,
+        "distributed_internet_exchange": 1,
+        "interconnection_corridor": 1,
+        "leo_satellite_constellation": 1,
+        "network_interconnect_presence": 49,
+        "optical_ground_station": 2,
+        "optical_quantum_network_testbed": 1,
+        "orbital_compute_constellation": 1,
+        "quantum_optical_ground_station": 1,
+        "satellite_gateway_authorization": 7,
+        "satellite_network_authorization": 9,
+        "space_situational_awareness_system": 1,
+        "submarine_cable_branch": 1,
+        "submarine_cable_system": 5,
+        "subsea_connectivity_program": 1,
+        "terrestrial_fiber_backbone_network": 1,
+        "terrestrial_fiber_link": 1
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/connectivity.20261011.csv",
+          "path": "data/infrastructure/connectivity.20261011.csv",
+          "source": "data/infrastructure/connectivity.20261011.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/connectivity.20261011.json",
+          "sha256": "75ede51da10f6ecabde9dfebf477602e9d1d512a56a8495db68f260c7b9712c6"
+        },
+        "report": {
+          "path": "data/infrastructure/connectivity.20261011.report.json",
+          "sha256": "2af6feb6215c835550d7bd233d42786d14d6fc2ee3bc762bede3a53cba07bac2"
+        }
+      },
+      "geometry_null": 84,
+      "layer": "infrastructure/connectivity",
+      "record_count": 84,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261011",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/infrastructure/amazon-globalstar.20261011.html",
+          "sha256": "8740a6851848ed9748bd397c4ef9fca23aa1a36138e062f3f5b41f5bc5f6bd1f",
+          "source_published_at": "2026-04-14",
+          "source_updated_at": null,
+          "source_url": "https://press.aboutamazon.com/2026/4/amazon-to-acquire-globalstar-and-expand-amazon-leo-satellite-network"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/de-cix-acix.20261011.html",
+          "sha256": "57b2e3243205b7ae70fd9e043c54492b7ba0ea381dc89bbd7524321a29794c98",
+          "source_published_at": "2026-05-19",
+          "source_updated_at": null,
+          "source_url": "https://www.de-cix.net/en/about-de-cix/media/press-releases/africa-congo-internet-exchange-acix-becomes-first-distributed-ix-in-drc-with-support-from-de-cix"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/de-cix-cabo-verde.20261011.html",
+          "sha256": "9fbd9db456cbc13f0ee82b0321df3bc6af2b7ba2fbaf32129a3eb815394bc06b",
+          "source_published_at": "2026-09-29",
+          "source_updated_at": null,
+          "source_url": "https://www.de-cix.net/en/about-de-cix/media/press-releases/de-cix-and-cabo-verde-telecom-plan-new-south-atlantic-interconnection-corridor"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/esa-onest.20261011.html",
+          "sha256": "62a8ba7faa148bedb31d2fffba8bd03228b76cce3f99ce59c5a3a41bca574ec9",
+          "source_published_at": null,
+          "source_updated_at": "2026-02-26",
+          "source_url": "https://resilience.esa.int/archives/projects/onest"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/esa-optical-chile.20261011.html",
+          "sha256": "a5b6f30a8b59294a760ab8add194a70c7ffb1093aaa41ba06acf3994914587bb",
+          "source_published_at": "2026-03-10",
+          "source_updated_at": null,
+          "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Ground_station_in_Chile_ready_to_connect_to_space_via_laser"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/esa-quantum-luxembourg.20261011.html",
+          "sha256": "97cfbfbba518a5d86868fe08c52afbdd3cbef5da66d7bf808d5b14ffb9b7b425",
+          "source_published_at": "2026-07-26",
+          "source_updated_at": null,
+          "source_url": "https://resilience.esa.int/archives/news/first-of-its-kind-optical-ground-station-commissioned-in-luxembourg-to-demonstrate-international-quantum-secure-communications"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/google-americas-connect.20261011.html",
+          "sha256": "2cc71a6710fe3d28de7e8ba2312a22e521180772f6e8d6b1a7e31221c140527f",
+          "source_published_at": "2026-08-11",
+          "source_updated_at": null,
+          "source_url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/meta-petal.20261011.html",
+          "sha256": "648b721a3fb54cabb433fd56840533c7b82c60e6ee99172fa4bb90811454d188",
+          "source_published_at": "2026-09-21",
+          "source_updated_at": null,
+          "source_url": "https://about.fb.com/news/2026/09/announcing-petal-meta-petabit-transoceanic-cable/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/ofcom-ngso.20261011.web.json",
+          "sha256": "446365a3d2493e5ec2192ca24e0e98d283b970942f6ecddaf57e96e3aaeb14ef",
+          "source_published_at": "2024-03-01",
+          "source_updated_at": "2026-07-31",
+          "source_url": "https://www.ofcom.org.uk/spectrum/space-and-satellites/non-geo-fss"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/rostelecom-anadyr-restored.20261011.html",
+          "sha256": "d3308b8b919505a41430144195339f06d590a4f0b65fcfe93f6964133c6568d4",
+          "source_published_at": "2026-07-16",
+          "source_updated_at": null,
+          "source_url": "https://www.company.rt.ru/press/news_fill/far_east/d479069/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/rostelecom-backbone.20261011.html",
+          "sha256": "3aaf521e497520db2c67c2fd413492a46162b725d4a394698148ce8b0204bd92",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.company.rt.ru/en/about/net/magistr/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/rostelecom-tea-next.20261011.html",
+          "sha256": "77844402a21bbfb440ffb4e4fc2423c8a2a9bb50cf44616ce505335560b2231b",
+          "source_published_at": "2026-10-06",
+          "source_updated_at": null,
+          "source_url": "https://www.company.rt.ru/press/news/d480081/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/starlink-pops.20261011.json",
+          "sha256": "3020d6b102d82e9361d315568fc83157a3a3d4a43eda9417bc2fa275dcf822f3",
+          "source_published_at": "2026-03-27",
+          "source_updated_at": "2026-04-02",
+          "source_url": "https://starlink.com/api/support/v2/topics/45d1d256-171e-0f67-4895-5d248fa63b66"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/starlink-stargaze.20261011.html",
+          "sha256": "b880bfe2d2a27cf3b944b0eff87f1ccb098367c8644c9b5c9be506d0e2195cd9",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://docs.space-safety.starlink.com/docs/tutorial-basics/stargaze/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/starlink-updates.20261011.js",
+          "sha256": "2f50a1258af0a812706db7de351dab2953376f4e11bfe964144438dfd4fe94c7",
+          "source_published_at": "2026-10-06",
+          "source_updated_at": null,
+          "source_url": "https://starlink.com/assets-new/page-BNqKtGsY2.js"
+        }
+      ],
+      "unit_counts": {
+        "authorization": 16,
+        "directory_entry": 49,
+        "network": 1,
+        "planned_system": 2,
+        "program": 1,
+        "project": 2,
+        "segment": 1,
+        "service": 1,
+        "site": 3,
+        "system": 8
+      }
+    }
+  ],
+  "infrastructure_evidence_record_count": 84,
+  "infrastructure_evidence_schema": {
+    "path": "schema/infrastructure-evidence.schema.json",
+    "sha256": "fa850334dc793a71207e5e1589b6f2f4af4ae23be9741f5f57abc3ea9be2487f",
+    "version": "1.0.0"
+  },
+  "infrastructure_evidence_view_count": 1,
+  "infrastructure_evidence_views": [
+    {
+      "category_counts": {
+        "submarine_cable_system": 1,
+        "terrestrial_fiber_backbone_network": 1,
+        "terrestrial_fiber_link": 1
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/russia-connectivity.20261011.csv",
+          "path": "data/infrastructure/russia-connectivity.20261011.csv",
+          "source": "data/infrastructure/russia-connectivity.20261011.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/russia-connectivity.20261011.json",
+          "sha256": "3e8b890f0d82fba896241b0b4fd33766f5eb506d87106f048e0e33b279e33d76"
+        }
+      },
+      "geometry_null": 3,
+      "layer": "infrastructure/russia-connectivity",
+      "record_count": 3,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261011",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/infrastructure/rostelecom-anadyr-restored.20261011.html",
+          "sha256": "d3308b8b919505a41430144195339f06d590a4f0b65fcfe93f6964133c6568d4",
+          "source_published_at": "2026-07-16",
+          "source_updated_at": null,
+          "source_url": "https://www.company.rt.ru/press/news_fill/far_east/d479069/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/rostelecom-backbone.20261011.html",
+          "sha256": "3aaf521e497520db2c67c2fd413492a46162b725d4a394698148ce8b0204bd92",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.company.rt.ru/en/about/net/magistr/"
+        },
+        {
+          "raw_source_ref": "data/raw/infrastructure/rostelecom-tea-next.20261011.html",
+          "sha256": "77844402a21bbfb440ffb4e4fc2423c8a2a9bb50cf44616ce505335560b2231b",
+          "source_published_at": "2026-10-06",
+          "source_updated_at": null,
+          "source_url": "https://www.company.rt.ru/press/news/d480081/"
+        }
+      ],
+      "unit_counts": {
+        "network": 1,
+        "system": 2
+      },
+      "view_of": "infrastructure/connectivity"
+    }
+  ],
   "layer_count": 29,
   "layers": [
     {

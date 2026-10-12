@@ -1,0 +1,9 @@
+{
+  "media_type": "text/html",
+  "notes": "Public evidence snapshot; web.json explicitly contains a web-reader extraction rather than original HTTP HTML. Geometry, ownership, operation and exhaustive coverage require separate support. Source-specific terms apply.",
+  "raw_source_ref": "data/raw/infrastructure/rostelecom-tea-next.20261011.html",
+  "retrieved_at": "2026-10-11",
+  "sha256": "77844402a21bbfb440ffb4e4fc2423c8a2a9bb50cf44616ce505335560b2231b",
+  "source_published_at": "2026-10-06",
+  "source_url": "https://www.company.rt.ru/press/news/d480081/"
+}
