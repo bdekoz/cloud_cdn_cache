@@ -1,0 +1,24 @@
+{
+  "derived_files": {
+    "csv": {
+      "generator": "make data/russia/locations-and-observations.20261011.csv",
+      "path": "data/russia/locations-and-observations.20261011.csv",
+      "source": "data/russia/locations-and-observations.20261011.geojson"
+    }
+  },
+  "generated_files": [
+    "data/russia/locations-and-observations.20261011.geojson"
+  ],
+  "geojson_sha256": "a1c903307a159f08793bb7557a6509a3e12550f0434df940bccce3d48eda4ead",
+  "layer": "russia/locations-and-observations",
+  "record_count": 91,
+  "retrieved_at": "2026-10-11",
+  "view_excluded_from_canonical_totals": true,
+  "view_of": [
+    "google/edge",
+    "cloudflare/edge",
+    "cachefly/locations",
+    "observations/cdn-mapping-cities",
+    "yandex/data-centers"
+  ]
+}

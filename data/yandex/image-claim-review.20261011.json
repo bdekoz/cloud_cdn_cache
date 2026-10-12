@@ -1,0 +1,113 @@
+{
+  "capacity_claims_verified": 0,
+  "cards": [
+    {
+      "capacity_verification": "unverified",
+      "card_number": 1,
+      "identity_review": "corroborated_in_provider_hosted_certification",
+      "image_capacity_claim_mw": 63,
+      "image_capacity_is_approximate": true,
+      "image_label": "Kaluga",
+      "matched_record_id": "yandex:data_center:kaluga"
+    },
+    {
+      "capacity_verification": "unverified",
+      "card_number": 2,
+      "identity_review": "corroborated_in_provider_hosted_certification",
+      "image_capacity_claim_mw": 63,
+      "image_capacity_is_approximate": true,
+      "image_label": "Vladimir (Energetik)",
+      "matched_record_id": "yandex:data_center:vladimir"
+    },
+    {
+      "capacity_verification": "not_stated",
+      "card_number": 3,
+      "identity_review": "corroborated_in_provider_hosted_certification",
+      "image_capacity_claim_mw": null,
+      "image_capacity_is_approximate": false,
+      "image_label": "Sasovo (Ryazan region)",
+      "matched_record_id": "yandex:data_center:sasovo"
+    },
+    {
+      "capacity_verification": "unverified",
+      "card_number": 4,
+      "identity_review": "corroborated_in_provider_hosted_certification",
+      "image_capacity_claim_mw": 52,
+      "image_capacity_is_approximate": true,
+      "image_label": "Mytishchi",
+      "matched_record_id": "yandex:data_center:mytishchi"
+    },
+    {
+      "capacity_verification": "unverified",
+      "card_number": 5,
+      "identity_review": "corroborated_in_provider_hosted_certification",
+      "image_capacity_claim_mw": 45,
+      "image_capacity_is_approximate": true,
+      "image_label": "Ivanteevka",
+      "matched_record_id": "yandex:data_center:ivanteevka"
+    },
+    {
+      "capacity_verification": "unverified",
+      "card_number": 6,
+      "identity_review": "insufficient_identity_not_normalized",
+      "image_capacity_claim_mw": 80,
+      "image_capacity_is_approximate": true,
+      "image_label": "Moscow region facility",
+      "matched_record_id": null
+    },
+    {
+      "capacity_verification": "unverified",
+      "card_number": 7,
+      "identity_review": "insufficient_identity_not_normalized",
+      "image_capacity_claim_mw": 35,
+      "image_capacity_is_approximate": true,
+      "image_label": "additional site",
+      "matched_record_id": null
+    },
+    {
+      "capacity_verification": "unverified",
+      "card_number": 8,
+      "identity_review": "insufficient_identity_not_normalized",
+      "image_capacity_claim_mw": 60,
+      "image_capacity_is_approximate": true,
+      "image_label": "cloud zone facility",
+      "matched_record_id": null
+    },
+    {
+      "capacity_verification": "unverified",
+      "card_number": 9,
+      "identity_review": "insufficient_identity_not_normalized",
+      "image_capacity_claim_mw": 40,
+      "image_capacity_is_approximate": true,
+      "image_label": "backup / regional center",
+      "matched_record_id": null
+    }
+  ],
+  "extraction_method": "human_visual_review_of_original_image; reviewed_claims_not_provider_inventory",
+  "facility_photos_authenticated": false,
+  "image_card_count": 9,
+  "issues": [
+    "Vladimir subtitle repeats Kaluga's Grabtsevo label and 63 MW figure; not accepted as Vladimir metadata.",
+    "Similar or repeated building illustrations do not establish separate photographed facilities or imagery provenance.",
+    "Four unnamed cards cannot establish distinct facility identity, ownership, locality, or lifecycle.",
+    "Image annotations do not establish full destruction, retirement, or complete operating status."
+  ],
+  "named_identities_corroborated": 5,
+  "post_url": "https://x.com/CrimeanVoyager/status/2109158415402479630",
+  "retrieved_at": "2026-10-11",
+  "source_image": {
+    "raw_source_ref": "data/raw/yandex/x-post-image.20261011.jpg",
+    "retrieved_at": "2026-10-11",
+    "source_published_at": "2026-10-11",
+    "source_sha256": "2700b9f534bd7e84357d7934bbb15c32d8affde80c19a838bad8cee5ed57b302",
+    "source_url": "https://pbs.twimg.com/media/HUU8ZWdXsAAL2ny.jpg?name=orig"
+  },
+  "source_post": {
+    "raw_source_ref": "data/raw/yandex/x-post.20261011.json",
+    "retrieved_at": "2026-10-11",
+    "source_published_at": "2026-10-11",
+    "source_sha256": "3ab7a3e16b8451c64bb80b2af499a4ced505ace22be8157f24b256160255967b",
+    "source_url": "https://cdn.syndication.twimg.com/tweet-result?id=2109158415402479630&lang=en&token=0"
+  },
+  "unnamed_cards_not_normalized": 4
+}

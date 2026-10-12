@@ -1,0 +1,264 @@
+{
+  "baseline_layer_counts": {
+    "cachefly/locations": 2,
+    "cloudflare/edge": 3,
+    "google/edge": 2,
+    "observations/cdn-mapping-cities": 79
+  },
+  "baseline_sources": [
+    {
+      "layer": "google/edge",
+      "path": "data/google/edge.20261011.geojson",
+      "sha256": "68a70eb60f6860423676e7681e8fa70139f42f5d398629a1c72739c994bb3752"
+    },
+    {
+      "layer": "cloudflare/edge",
+      "path": "data/cloudflare/edge.20260804.geojson",
+      "sha256": "d7eb0f6b02b1e706f8da1f32522cc1df50e26bcee7219404da3a0e82764e66b9"
+    },
+    {
+      "layer": "cachefly/locations",
+      "path": "data/cachefly/locations.20260804.geojson",
+      "sha256": "42f15e987b3d452c608a01d1e62793d02bab76d9f4fb04a0b7bc547037a0b203"
+    },
+    {
+      "layer": "observations/cdn-mapping-cities",
+      "path": "data/observations/cdn-mapping-cities.20260805.geojson",
+      "sha256": "d6592b8ec86bf37ea1b3a89d409861f8e0fbb9ab533f542e9fe73a3b73b9fee0"
+    }
+  ],
+  "derived_view_entity_types": {
+    "data_center": 5,
+    "edge_pop": 7,
+    "observed_presence": 79
+  },
+  "derived_view_record_count": 91,
+  "edge_rechecks": {
+    "CacheFly": {
+      "listed_metros": [
+        "Moscow",
+        "St. Petersburg"
+      ],
+      "source": {
+        "raw_source_ref": "data/raw/russia/cachefly-network.20261011.html",
+        "retrieved_at": "2026-10-11",
+        "source_published_at": null,
+        "source_sha256": "32ce2e2702da62415674c9f30fefaef561ed5643a4c3849032cd6328360ce1e6",
+        "source_url": "https://www.cachefly.com/network-map/"
+      }
+    },
+    "Cloudflare": {
+      "missing_listing_is_not_proof_of_closure": true,
+      "page_updated_at": "2026-08-27T00:00:00.000Z",
+      "retained_code_missing_from_returned_feed": "KJA",
+      "russian_components": [
+        {
+          "component_updated_at": "2026-09-17T02:36:53.000Z",
+          "name": "Moscow, Russia - (DME)",
+          "status": "operational"
+        },
+        {
+          "component_updated_at": "2026-09-10T23:13:47.000Z",
+          "name": "Saint Petersburg, Russia - (LED)",
+          "status": "operational"
+        }
+      ],
+      "source": {
+        "raw_source_ref": "data/raw/russia/cloudflare-components.20261011.json",
+        "retrieved_at": "2026-10-11",
+        "source_published_at": null,
+        "source_sha256": "93e849779ca296f7d7a7045de0d316549ccd07f9ad1a2056af720fab5a6b65cd",
+        "source_url": "https://www.cloudflarestatus.com/api/v2/components.json"
+      }
+    },
+    "Google": {
+      "listed_metros": [
+        "Moscow",
+        "Saint Petersburg"
+      ],
+      "precision": "metro",
+      "source_ref": "data/raw/google/peering-infrastructure.20261011.html"
+    }
+  },
+  "limits": [
+    "79 inherited Google city geolocations are observations, not owned facilities.",
+    "Seven retained edge declarations are metro/component assertions, not building counts.",
+    "No precise facility geometry or image capacity claim is manufactured.",
+    "No cloud-zone-to-building relationship is inferred from names or photographs.",
+    "Historical 2023 Russian labels in legacy CSVs remain separate from the reviewed inventory.",
+    "Provider access failures and source age remain explicit; registry relationships do not establish ownership."
+  ],
+  "new_yandex_named_localities": 5,
+  "provider_review": [
+    {
+      "class": "owned_data_centers",
+      "limit": "Four names appear in 2025 ISO scope; Ivanteevka has 2023 evidence only. Not an exhaustive current operating inventory.",
+      "provider": "Yandex",
+      "result": "five_named_certification_localities_normalized",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/yandex/iso-27001.20261011.pdf",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": "2025-10-23",
+          "source_sha256": "78dfed868a060e3e825873d80cd0c8802f1ad1d9f1b9adc42db35d3895f66c57",
+          "source_url": "https://storage.yandexcloud.net/yc-compliance/certificates-2025/ISO/INT/ISO-27001-01-2025-EN.pdf"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/pci-dss-2023.20261011.pdf",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": "2023-09-28",
+          "source_sha256": "8fdb2abcc4937b05543b457fffb182d1fce88c02495cd72178ac0533ac4a74bf",
+          "source_url": "https://storage.yandexcloud.net/yc-compliance/certificates/20230921_Yandex_DC_AOC.pdf"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/provider-status.20261011.html",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": "2026-10-09",
+          "source_sha256": "5aee3a6563ded22005e7ded183b9e068443a032e19476c36573371a4e054fca8",
+          "source_url": "https://yandex.ru/company/news/09-10-2026-01"
+        }
+      ]
+    },
+    {
+      "class": "cloud_and_data_center_groups",
+      "global_claim": {
+        "availability_zones": 11,
+        "countries": 4,
+        "pools": 26,
+        "regions": 6
+      },
+      "limit": "Three Russian regions have 2/4/1 zones. Groups, partner sites, pools and segments are not individual owned facilities; global totals are not Russia totals.",
+      "provider": "Selectel",
+      "result": "itemized_hierarchy_ready_for_connector",
+      "russian_availability_zone_count": 7,
+      "russian_regions": [
+        "Saint Petersburg",
+        "Moscow",
+        "Novosibirsk"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/selectel-locations.20261011.html",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": "2026-10-05",
+          "source_sha256": "eceee333cba89da3f54bd863e826b59d817ea13a94db0a1ddf25090fae88c118",
+          "source_url": "https://docs.selectel.ru/infrastructure/locations/"
+        }
+      ]
+    },
+    {
+      "class": "product_scoped_cloud",
+      "limit": "Advanced is separate from Evolution; endpoint names do not identify owned buildings.",
+      "provider": "Cloud.ru Advanced",
+      "region_id": "ru-moscow-1",
+      "result": "stable_region_zone_ids_ready_for_connector",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/cloudru-advanced-zones.20261011.html",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": null,
+          "source_sha256": "378fd69a8590c20a2ae821105c6829e6822f163fd86fc5e24db06c473941b6ad",
+          "source_url": "https://cloud.ru/docs/advanced/overview/az-and-endpoints"
+        }
+      ],
+      "zone_ids": [
+        "ru-moscow-1a",
+        "ru-moscow-1b",
+        "ru-moscow-1c",
+        "ru-moscow-1e"
+      ]
+    },
+    {
+      "class": "product_scoped_cloud",
+      "limit": "Preserve published UUIDs and product scope; do not assume correspondence with Advanced zones.",
+      "provider": "Cloud.ru Evolution",
+      "result": "stable_zone_uuids_ready_for_connector",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261011.html",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": null,
+          "source_sha256": "709116002465f11b78814ef6f73bb6383580bf4c5e9d907e6a71e42b39b4e59d",
+          "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+        }
+      ],
+      "zone_names": [
+        "ru.AZ-1",
+        "ru.AZ-2",
+        "ru.AZ-3"
+      ]
+    },
+    {
+      "class": "colocation",
+      "development_or_planning_codes": [
+        "MOS6",
+        "MOS7",
+        "MOS8",
+        "MOS11",
+        "MOS12"
+      ],
+      "limit": "MOS6 design, MOS7 preparing to launch and MOS8 future plans remain distinct; MOS11 preparing launch and MOS12 campus plan do not prove operational status. Campus capacity is not a building count.",
+      "operating_site_codes": [
+        "MOS1",
+        "MOS2",
+        "MOS3",
+        "MOS4",
+        "MOS5"
+      ],
+      "provider": "IXcellerate",
+      "result": "itemized_lifecycle_ready_for_connector",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/ixcellerate-scalability.20261011.html",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": null,
+          "source_sha256": "6e1b0189dedf1d042cee615af301c5b0908b1b26e6838d3dbd6ae713713a5763",
+          "source_url": "https://ixcellerate.ru/why-ixcellerate/scalability/"
+        }
+      ]
+    },
+    {
+      "class": "cloud_and_colocation",
+      "limit": "A product page cannot establish an exhaustive stable site/zone directory or an owned-versus-partner split.",
+      "provider": "MTS Web Services / MWS",
+      "result": "provider_confirmed_complete_site_directory_missing",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/mws-cloud-platform.20261011.html",
+          "retrieved_at": "2026-10-11",
+          "source_published_at": null,
+          "source_sha256": "cd2216abdc6fa0771f2a1ad5032c7d9c36754ceb61341785eb985d502e480412",
+          "source_url": "https://mws.ru/cloud-platform-for-business/"
+        }
+      ]
+    },
+    {
+      "class": "cloud",
+      "limit": "Resolve exact Russian zone identifiers from the provider's documentation; keep Kazakhstan separate and do not infer facility ownership.",
+      "provider": "VK Cloud",
+      "result": "documentation_source_discovered_not_normalized",
+      "source_url": "https://github.com/vk-cs/docs-public"
+    },
+    {
+      "access_result": "HTTP 403 in web reader",
+      "class": "colocation_and_cloud",
+      "limit": "No guessed facility rows; resolve current parent/subsidiary and campus/building identities before counting.",
+      "provider": "Rostelecom-DC / DataLine",
+      "result": "source_access_gap",
+      "retrieved_at": "2026-10-11",
+      "source_url": "https://rt-dc.ru/"
+    },
+    {
+      "access_result": "web reader succeeded; raw snapshot fetch returned HTTP 403",
+      "class": "colocation_and_cloud",
+      "limit": "Named directory cards and ownership/partner relationships remain to be normalized. No rows inferred from marketing aggregates.",
+      "provider": "3data",
+      "result": "provider_service_verified_directory_capture_gap",
+      "retrieved_at": "2026-10-11",
+      "source_url": "https://3data.ru/services/colocation"
+    }
+  ],
+  "retrieved_at": "2026-10-11",
+  "scope": "Russian Federation country_code RU; bounded provider cohort, not a market census",
+  "view_excluded_from_canonical_totals": true
+}

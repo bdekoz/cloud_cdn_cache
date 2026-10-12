@@ -54,6 +54,7 @@ Google AI zones use `properties.zone_kind=ai` and restricted project visibility.
 | Amazon Web Services | `aws_cloud` | `cloud_region`, `availability_zone` |
 | Microsoft Azure | `azure_cloud` | `cloud_region` |
 | Google Cloud | `google_cloud` | `cloud_region`, `availability_zone` |
+| Yandex | `yandex_data_centers` | `data_center` |
 | Oracle Cloud Infrastructure | `oracle_cloud` | `cloud_region` |
 | IBM Cloud | `ibm_cloud` | `cloud_region`, `availability_zone` |
 | IBM Cloud | `ibm_classic` | `data_center` |

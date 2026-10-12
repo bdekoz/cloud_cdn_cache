@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Retained public evidence. Certification scope and social-image claims are not exhaustive current operating inventories. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/russia/cloudflare-components.20261011.json",
+  "retrieved_at": "2026-10-11",
+  "sha256": "93e849779ca296f7d7a7045de0d316549ccd07f9ad1a2056af720fab5a6b65cd",
+  "source_published_at": null,
+  "source_url": "https://www.cloudflarestatus.com/api/v2/components.json"
+}

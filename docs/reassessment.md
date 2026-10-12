@@ -8,7 +8,7 @@ This report records the implemented result. The original [`assessment.20260804.m
 
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.
 
-The current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,390 location-schema records across 28 layers and 3,125 separately counted network-evidence records across three layers. The October [Google refresh](google-enrichment.20261011.md) adds nine net owned-directory entries and three explicitly listed AI zones to the August inventory, and joins GCPing endpoints and GPU availability. Five mainland views contain 160 repeated source-layer IDs and are deliberately excluded from the location count. Three assessment JSON files record providers whose public evidence is aggregate, product-scoped, or insufficient for canonical locations.
+The current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,395 location-schema records across 29 layers and 3,125 separately counted network-evidence records across three layers. The October [Google refresh](google-enrichment.20261011.md) adds nine net owned-directory entries and three explicitly listed AI zones to the August inventory, and joins GCPing endpoints and GPU availability. The [Russia reassessment](russia-reassessment.20261011.md) adds five certification-documented Yandex localities with unknown lifecycle. Five mainland views contain 160 repeated IDs; the derived Russia view contains 91 retained declarations, identities and observations. All six views are excluded from the location count. The three China assessments are joined by a Russian-provider assessment and a Yandex image-claim review.
 
 The main improvement is semantic, not merely numeric: provider declarations, current lifecycle, access restriction, jurisdiction, product scope, inferred or inherited coordinates, independent observations, partial directories, aggregate marketing coverage, and quarantined claims are now distinct.
 
@@ -55,6 +55,7 @@ Canonical normalized location layers are retained as GeoJSON; network layers are
 | CoreWeave core cloud | 63 | 7 super regions + 56 availability zones | 63 null |
 | AWS core cloud | 147 | 39 regions + 108 itemized stable AZ IDs | 147 null |
 | Google Cloud core | 176 | 43 regions + 130 standard zones + 3 AI zones | 176 null |
+| Yandex data-center localities | 5 | Certification scope; four 2025 identities and one historical 2023 identity | 5 null |
 | Azure public cloud | 57 | Programmatic public-cloud region | 57 null |
 | OCI commercial cloud | 45 | Region with realm, key, and AD count | 45 null |
 | IBM Cloud core | 53 | 13 regions + 40 universal zones | 53 null |
@@ -235,7 +236,8 @@ At this assessment date:
 - The hyperscaler suite passes for 613 records across eight new layers and checks mixed-date manifest generation.
 - The partial city-observation suite passes for 11,659 records.
 - The network suite passes for 3,125 records across provider-prefix, RIPEstat, and PeeringDB layers.
-- With the refreshed Google layers, the location-schema inventory comprises 27,390 records across 28 layers; network evidence remains separately counted.
+- Russia validation covers five Yandex certification localities, nine provider surfaces, all nine image cards, and the derived 91-record RU view.
+- With the refreshed Google layers and Yandex scope, the location-schema inventory comprises 27,395 records across 29 layers; network evidence remains separately counted.
 - Recovery validation remains separate and passes unchanged.
 
 Recommended update flow:

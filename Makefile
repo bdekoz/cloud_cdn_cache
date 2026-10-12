@@ -45,6 +45,7 @@ check:
 	python3 -B tests/validate_hyperscalers.py
 	python3 -B tests/validate_observation_cities.py
 	python3 -B tests/validate_network.py
+	python3 -B tests/validate_russia.py
 	git diff --check
 
 help:

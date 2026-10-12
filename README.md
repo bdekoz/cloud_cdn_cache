@@ -26,9 +26,10 @@ The repository's original dataset is published under the [Open Data Commons Attr
 ## Repository layout
 
 - `data/` contains the current provider snapshots.
-- `data/manifest.20261011.json` is the current consolidated hash/count/source manifest for 28 location-schema layers, five derived views, three network-evidence layers, and the China assessment artifacts. It selects the October Google refresh and preserves the actual August tags of other layers.
+- `data/manifest.20261011.json` is the current consolidated hash/count/source manifest for 29 location-schema layers, six derived views, three network-evidence layers, and the assessment artifacts. It selects the October Google refresh and Yandex certification-derived layer while preserving the actual August tags of other layers.
 - Schema-normalized location layers are committed as canonical GeoJSON and network assertions as canonical JSON; their CSV projections are generated on demand with `jq` and `make`.
 - `data/google/` contains schema-normalized Google Edge, owned data-center, and Cloud region/zone layers, including AI zones, GPU availability, and GCPing endpoints.
+- `data/yandex/` contains five certification-documented Russian localities and the supplied image's claim review. `data/russia/` contains the provider reassessment and an explicitly derived country view.
 - Provider subdirectories under `data/` contain schema-normalized authoritative snapshots; each manifest entry records its actual retrieval tag, including the 2026-10-11 Google refresh.
 - `data/china/` records the ten-provider mainland public-cloud assessment; provider directories contain generated cloud layers and explicit mainland views.
 - `data/china-edge/` records the separate ten-provider CDN/edge assessment without manufacturing POPs from fleet totals or province coverage.
@@ -46,6 +47,7 @@ The repository's original dataset is published under the [Open Data Commons Attr
 - [`docs/hyperscalers.20260804.md`](docs/hyperscalers.20260804.md) assesses core-cloud coverage for a ten-provider hyperscaler cohort and proposes a staged enrichment plan.
 - [`docs/hyperscalers.implementation.20260805.md`](docs/hyperscalers.implementation.20260805.md) records the implemented CoreWeave, AWS, Google Cloud, Azure, OCI, IBM, IBM classic, and Meta layers.
 - [`docs/google-enrichment.20261011.md`](docs/google-enrichment.20261011.md) records the current Google refresh, AI-zone identities, GPU availability, GCPing joins, and reproduction commands.
+- [`docs/russia-reassessment.20261011.md`](docs/russia-reassessment.20261011.md) records Russian Federation coverage, Yandex source dates, image-claim exclusions, provider gaps, and offline reproduction.
 - [`docs/network-evidence.20260805.md`](docs/network-evidence.20260805.md) records the ASN correction, partial city map, provider prefixes, RIPEstat/RPKI pilot, bounded PeeringDB pilot, and RIPE Atlas measurement gate.
 - [`docs/make.md`](docs/make.md) documents CSV generation, cleanup, validation, refresh usage, and troubleshooting.
 

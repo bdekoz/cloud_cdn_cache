@@ -346,7 +346,7 @@ def validate_current_google(validator: Draft202012Validator) -> None:
         assert provenance.get("raw_sha256", provenance.get("sha256")) == sha256(raw)
         assert provenance["retrieved_at"] == "2026-10-11"
     manifest = read_json(REPO_ROOT / f"data/manifest.{tag}.json")
-    assert manifest["record_count"] == 27390 and manifest["layer_count"] == 28
+    assert manifest["record_count"] == 27395 and manifest["layer_count"] == 29
     for layer in manifest["layers"]:
         if layer["layer"].startswith("google/"):
             assert layer["snapshot_tag"] == tag

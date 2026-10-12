@@ -9,6 +9,7 @@ The Makefile manages disposable CSV projections, validation, and the bounded net
 - GNU Make
 - `jq`
 - Python 3 plus the packages in `requirements.txt` for `make check`
+- Poppler's `pdftotext` for the retained Russian/Yandex certification review
 
 Run `make help` for the short command list.
 

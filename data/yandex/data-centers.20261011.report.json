@@ -1,0 +1,68 @@
+{
+  "completeness": "partial_certification_scope",
+  "coordinate_methods": {
+    "unknown": 5
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/yandex/data-centers.20261011.csv",
+      "path": "data/yandex/data-centers.20261011.csv",
+      "source": "data/yandex/data-centers.20261011.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/yandex/pci-dss-2023.20261011.pdf",
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2023-09-28",
+      "source_scope": "provider_declared",
+      "source_sha256": "8fdb2abcc4937b05543b457fffb182d1fce88c02495cd72178ac0533ac4a74bf",
+      "source_url": "https://storage.yandexcloud.net/yc-compliance/certificates/20230921_Yandex_DC_AOC.pdf"
+    },
+    {
+      "raw_source_ref": "data/raw/yandex/provider-status.20261011.html",
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-10-09",
+      "source_scope": "provider_declared",
+      "source_sha256": "5aee3a6563ded22005e7ded183b9e068443a032e19476c36573371a4e054fca8",
+      "source_url": "https://yandex.ru/company/news/09-10-2026-01"
+    },
+    {
+      "raw_source_ref": "data/raw/yandex/x-post.20261011.json",
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-10-11",
+      "source_scope": "observed",
+      "source_sha256": "3ab7a3e16b8451c64bb80b2af499a4ced505ace22be8157f24b256160255967b",
+      "source_url": "https://cdn.syndication.twimg.com/tweet-result?id=2109158415402479630&lang=en&token=0"
+    },
+    {
+      "raw_source_ref": "data/raw/yandex/x-post-image.20261011.jpg",
+      "retrieved_at": "2026-10-11",
+      "source_published_at": "2026-10-11",
+      "source_scope": "observed",
+      "source_sha256": "2700b9f534bd7e84357d7934bbb15c32d8affde80c19a838bad8cee5ed57b302",
+      "source_url": "https://pbs.twimg.com/media/HUU8ZWdXsAAL2ny.jpg?name=orig"
+    }
+  ],
+  "entity_types": {
+    "data_center": 5
+  },
+  "generated_files": [
+    "data/yandex/data-centers.20261011.geojson"
+  ],
+  "geojson_sha256": "1c85278f23865180eb674e8ec07acc29daa0402d3ef861e014b3eb21439c7edb",
+  "geometry_null": 5,
+  "layer": "data-centers",
+  "lifecycle_statuses": {
+    "unknown": 5
+  },
+  "operational_status_not_inferred": true,
+  "parser": "update_russia.py:yandex",
+  "raw_source_ref": "data/raw/yandex/iso-27001.20261011.pdf",
+  "record_count": 5,
+  "retrieved_at": "2026-10-11",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "78dfed868a060e3e825873d80cd0c8802f1ad1d9f1b9adc42db35d3895f66c57",
+  "source_url": "https://storage.yandexcloud.net/yc-compliance/certificates-2025/ISO/INT/ISO-27001-01-2025-EN.pdf"
+}

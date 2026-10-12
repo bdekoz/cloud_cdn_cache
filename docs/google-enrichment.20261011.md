@@ -12,7 +12,7 @@ This refresh checks current public sources, including [GCPing](https://gcping.co
 | Google-owned data-center directory | 59 | 68 | [`data-centers.20261011.geojson`](../data/google/data-centers.20261011.geojson) |
 | Google Cloud regions and zones | 173 | 176 | [`cloud-regions-and-zones.20261011.geojson`](../data/google/cloud-regions-and-zones.20261011.geojson) |
 
-Neighboring `.report.json` files record counts, source references and digests, canonical checksums, and CSV generation recipes. The new [`manifest.20261011.json`](../data/manifest.20261011.json) selects these three Google snapshots and retains actual older dates for other providers. It contains 27,390 location-schema records across 28 layers and 3,125 separately counted network-evidence records. The increment of 12 is nine net directory entries and three AI-zone identities, not a physical-facility expansion count.
+Neighboring `.report.json` files record counts, source references and digests, canonical checksums, and CSV generation recipes. The Google refresh initially brought the inventory to 27,390 location-schema records across 28 layers. The subsequent [Russia reassessment](russia-reassessment.20261011.md) adds five Yandex localities, so the current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,395 records across 29 layers and 3,125 separately counted network records. It selects these three Google snapshots and preserves older provider dates. The Google increment of 12 is nine net directory entries and three AI-zone identities, not a physical-facility expansion count.
 
 ## Edge and owned data centers
 

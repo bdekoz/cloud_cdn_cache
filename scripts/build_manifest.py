@@ -18,6 +18,7 @@ BASELINE_TAG = "20260804"
 HYPERSCALER_TAG = "20260805"
 NETWORK_TAG = "20260805"
 GOOGLE_REFRESH_TAG = "20261011"
+RUSSIA_REVIEW_TAG = "20261011"
 
 BASELINE_LAYERS = (
     "google/edge",
@@ -106,7 +107,7 @@ def layer_manifest(layer: str, tag: str) -> dict[str, Any]:
         key = (source["raw_source_ref"], source["source_sha256"], source["source_url"])
         sources[key] = {
             "raw_source_ref": key[0], "sha256": key[1], "source_url": key[2],
-            "source_published_at": None, "source_scope": source["source_scope"],
+            "source_published_at": source.get("source_published_at"), "source_scope": source["source_scope"],
         }
     return {
         "coordinate_methods": dict(sorted(Counter(row["coordinate_method"] for row in rows).items())),
@@ -197,6 +198,8 @@ def main() -> None:
             (layer, GOOGLE_REFRESH_TAG if layer.startswith("google/") else snapshot_tag)
             for layer, snapshot_tag in layer_specs
         ]
+    if tag >= RUSSIA_REVIEW_TAG:
+        layer_specs.append(("yandex/data-centers", RUSSIA_REVIEW_TAG))
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     network_layers = []
     if tag >= NETWORK_TAG:
@@ -206,9 +209,16 @@ def main() -> None:
         entry = layer_manifest(view, BASELINE_TAG)
         entry["view_of"] = parent
         views.append(entry)
+    if tag >= RUSSIA_REVIEW_TAG:
+        entry = layer_manifest("russia/locations-and-observations", RUSSIA_REVIEW_TAG)
+        entry["view_of"] = ["google/edge", "cloudflare/edge", "cachefly/locations", "observations/cdn-mapping-cities", "yandex/data-centers"]
+        views.append(entry)
+    assessments = [assessment_manifest(name, BASELINE_TAG) for name in ASSESSMENT_NAMES]
+    if tag >= RUSSIA_REVIEW_TAG:
+        assessments.extend(assessment_manifest(name, RUSSIA_REVIEW_TAG) for name in ("russia/provider-assessment", "yandex/image-claim-review"))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     write_json(output, {
-        "assessments": [assessment_manifest(name, BASELINE_TAG) for name in ASSESSMENT_NAMES],
+        "assessments": assessments,
         "generated_from_retained_snapshots_at": args.retrieved_at,
         "layer_count": len(layers),
         "layers": layers,
