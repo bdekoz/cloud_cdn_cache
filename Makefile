@@ -53,6 +53,7 @@ check:
 	python3 -B tests/validate_network.py
 	python3 -B tests/validate_russia.py
 	python3 -B tests/validate_infrastructure.py
+	python3 -B tests/validate_china_review.py
 	git diff --check
 
 help:

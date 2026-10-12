@@ -1,0 +1,806 @@
+{
+  "assessment_date": "2026-10-11",
+  "type": "ReviewedPublicSourceFacts",
+  "capture_note": "Curated factual extracts from public web-reader or search-index responses, not original HTTP bodies or independent measurements. Direct shell retrieval was unavailable (DNS); source dates remain distinct from retrieval dates.",
+  "sources": [
+    {
+      "source_id": "alibaba-directory",
+      "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-10",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_table_extract",
+      "facts": {
+        "table_lines": [
+          "### Alibaba Public Cloud",
+          "* Regions and zones in China",
+          "Region name  | Region ID  | Number of zones  | Zone name  | Zone ID",
+          "China (Qingdao)  | cn-qingdao  | 2  | Qingdao Zone B  | cn-qingdao-b",
+          "Qingdao Zone C  | cn-qingdao-c",
+          "China (Beijing)  | cn-beijing  | 12  | Beijing Zone A  | cn-beijing-a",
+          "Beijing Zone B  | cn-beijing-b",
+          "Beijing Zone C  | cn-beijing-c",
+          "Beijing Zone D  | cn-beijing-d",
+          "Beijing Zone E  | cn-beijing-e",
+          "Beijing Zone F  | cn-beijing-f",
+          "Beijing Zone G  | cn-beijing-g",
+          "Beijing Zone H  | cn-beijing-h",
+          "Beijing Zone I  | cn-beijing-i",
+          "Beijing Zone J  | cn-beijing-j",
+          "Beijing Zone K  | cn-beijing-k",
+          "Beijing Zone L  | cn-beijing-l",
+          "China (Zhangjiakou)  | cn-zhangjiakou  | 3  | Zhangjiakou Zone A  | cn-zhangjiakou-a",
+          "Zhangjiakou Zone B  | cn-zhangjiakou-b",
+          "Zhangjiakou Zone C  | cn-zhangjiakou-c",
+          "China (Hohhot)  | cn-huhehaote  | 2  | Hohhot Zone A  | cn-huhehaote-a",
+          "Hohhot Zone B  | cn-huhehaote-b",
+          "China (Ulanqab)  | cn-wulanchabu  | 4  | Ulanqab Zone A  | cn-wulanchabu-a",
+          "Ulanqab Zone B  | cn-wulanchabu-b",
+          "Ulanqab Zone C  | cn-wulanchabu-c",
+          "Ulanqab Zone D  | cn-wulanchabu-d",
+          "China (Hangzhou)  | cn-hangzhou  | 8  | Hangzhou Zone B  | cn-hangzhou-b",
+          "Hangzhou Zone E  | cn-hangzhou-e",
+          "Hangzhou Zone F  | cn-hangzhou-f",
+          "Hangzhou Zone G  | cn-hangzhou-g",
+          "Hangzhou Zone H  | cn-hangzhou-h",
+          "Hangzhou Zone I  | cn-hangzhou-i",
+          "Hangzhou Zone J  | cn-hangzhou-j",
+          "Hangzhou Zone K  | cn-hangzhou-k",
+          "China (Shanghai)  | cn-shanghai  | 12  | Shanghai Zone A  | cn-shanghai-a",
+          "Shanghai Zone B  | cn-shanghai-b",
+          "Shanghai Zone C  | cn-shanghai-c",
+          "Shanghai Zone D  | cn-shanghai-d",
+          "Shanghai Zone E  | cn-shanghai-e",
+          "Shanghai Zone F  | cn-shanghai-f",
+          "Shanghai Zone G  | cn-shanghai-g",
+          "Shanghai Zone K  | cn-shanghai-k",
+          "Shanghai Zone L  | cn-shanghai-l",
+          "Shanghai Zone M  | cn-shanghai-m",
+          "Shanghai Zone N  | cn-shanghai-n",
+          "Shanghai Zone O  | cn-shanghai-o",
+          "China (Nanjing - Local Region) Closing Down  | cn-nanjing  | 1  | Nanjing - Local Region Zone A  | cn-nanjing-a",
+          "China (Fuzhou - Local Region) Closing Down  | cn-fuzhou  | 1  | Fuzhou - Local Region Zone A  | cn-fuzhou-a",
+          "China (Wuhan - Local Region)  | cn-wuhan-lr  | 1  | Wuhan - Local Region Zone A  | cn-wuhan-lr-a",
+          "China (Shenzhen)  | cn-shenzhen  | 6  | Shenzhen Zone A  | cn-shenzhen-a",
+          "Shenzhen Zone B  | cn-shenzhen-b",
+          "Shenzhen Zone C  | cn-shenzhen-c",
+          "Shenzhen Zone D  | cn-shenzhen-d",
+          "Shenzhen Zone E  | cn-shenzhen-e",
+          "Shenzhen Zone F  | cn-shenzhen-f",
+          "China (Heyuan)  | cn-heyuan  | 3  | Heyuan Zone A  | cn-heyuan-a",
+          "Heyuan Zone B  | cn-heyuan-b",
+          "Heyuan Zone C  | cn-heyuan-c",
+          "China (Guangzhou)  | cn-guangzhou  | 2  | Guangzhou Zone A  | cn-guangzhou-a",
+          "Guangzhou Zone B  | cn-guangzhou-b",
+          "China (Chengdu)  | cn-chengdu  | 3  | Chengdu Zone A  | cn-chengdu-a",
+          "Chengdu Zone B  | cn-chengdu-b",
+          "Chengdu Zone C  | cn-chengdu-c",
+          "China (Zhongwei)  | cn-zhongwei  | 2  | Zhongwei Zone A  | cn-zhongwei-a",
+          "Zhongwei Zone B  | cn-zhongwei-b",
+          "China (Hong Kong)  | cn-hongkong  | 3  | Hong Kong Zone B  | cn-hongkong-b",
+          "Hong Kong Zone C  | cn-hongkong-c",
+          "Hong Kong Zone D  | cn-hongkong-d",
+          "* Regions and zones outside China",
+          "Region name  | Region ID  | Number of zones  | Zone name  | Zone ID",
+          "Singapore  | ap-southeast-1  | 4  | Singapore Zone A  | ap-southeast-1a",
+          "Singapore Zone B  | ap-southeast-1b",
+          "Singapore Zone C  | ap-southeast-1c",
+          "Singapore Zone D  | ap-southeast-1d",
+          "Malaysia (Kuala Lumpur)  | ap-southeast-3  | 3  | Kuala Lumpur Zone A  | ap-southeast-3a",
+          "Kuala Lumpur Zone B  | ap-southeast-3b",
+          "Kuala Lumpur Zone C  | ap-southeast-3c",
+          "Indonesia (Jakarta)  | ap-southeast-5  | 3  | Jakarta Zone A  | ap-southeast-5a",
+          "Jakarta Zone B  | ap-southeast-5b",
+          "Jakarta Zone C  | ap-southeast-5c",
+          "Philippines (Manila)  | ap-southeast-6  | 2  | Manila Zone A  | ap-southeast-6a",
+          "Manila Zone B  | ap-southeast-6b",
+          "Thailand (Bangkok)  | ap-southeast-7  | 2  | Bangkok Zone A  | ap-southeast-7a",
+          "Bangkok Zone B  | ap-southeast-7b",
+          "Malaysia (Johor)  | ap-southeast-8  | 2  | Johor Zone A  | ap-southeast-8a",
+          "Johor Zone B  | ap-southeast-8b",
+          "Japan (Tokyo)  | ap-northeast-1  | 5  | Tokyo Zone A  | ap-northeast-1a",
+          "Tokyo Zone B  | ap-northeast-1b",
+          "Tokyo Zone C  | ap-northeast-1c",
+          "Tokyo Zone D  | ap-northeast-1d",
+          "Tokyo Zone E  | ap-northeast-1e",
+          "South Korea (Seoul)  | ap-northeast-2  | 3  | Seoul Zone A  | ap-northeast-2a",
+          "Seoul Zone B  | ap-northeast-2b",
+          "Seoul Zone C  | ap-northeast-2c",
+          "US (Silicon Valley)  | us-west-1  | 2  | Silicon Valley Zone A  | us-west-1a",
+          "Silicon Valley Zone B  | us-west-1b",
+          "US (Virginia)  | us-east-1  | 2  | Virginia Zone A  | us-east-1a",
+          "Virginia Zone B  | us-east-1b",
+          "Germany (Frankfurt)  | eu-central-1  | 3  | Frankfurt Zone A  | eu-central-1a",
+          "Frankfurt Zone B  | eu-central-1b",
+          "Frankfurt Zone C  | eu-central-1c",
+          "UK (London)  | eu-west-1  | 2  | London Zone A  | eu-west-1a",
+          "London Zone B  | eu-west-1b",
+          "France (Paris)  | eu-west-2  | 2  | Paris Zone A  | eu-west-2a",
+          "Paris Zone B  | eu-west-2b",
+          "UAE (Dubai)  | me-east-1  | 2  | Dubai Zone A  | me-east-1a",
+          "Dubai Zone B  | me-east-1b",
+          "SAU (Riyadh - Partner Region)  | me-central-1  | 2  | Riyadh Zone A  | me-central-1a",
+          "Riyadh Zone B  | me-central-1b",
+          "Mexico  | na-south-1  | 2  | Mexico Zone A  | na-south-1a",
+          "Mexico Zone B  | na-south-1b",
+          "Brazil (São Paulo)  | sa-east-1  | 2  | São Paulo Zone A  | sa-east-1a",
+          "São Paulo Zone B  | sa-east-1b",
+          "### Alibaba Finance Cloud",
+          "* Regions and zones in China",
+          "Region name  | Region ID  | Region  | Number of zones  | Zone name  | Zone ID",
+          "China East 1 Finance  | cn-hangzhou-finance  | China (Hangzhou)  | 7  | China East 1 Finance Zone B  | cn-hangzhou-finance-b",
+          "China East 1 Finance Zone C  | cn-hangzhou-finance-c",
+          "China East 1 Finance Zone D  | cn-hangzhou-finance-d",
+          "China East 1 Finance Zone H  | cn-hangzhou-finance-h",
+          "China East 1 Finance Zone I  | cn-hangzhou-finance-i",
+          "China East 1 Finance Zone J  | cn-hangzhou-finance-j",
+          "China East 1 Finance Zone K  | cn-hangzhou-finance-k",
+          "China East 2 Finance  | cn-shanghai-finance-1  | China (Shanghai)  | 6  | China East 2 Finance Zone A  | cn-shanghai-finance-1a",
+          "China East 2 Finance Zone B  | cn-shanghai-finance-1b",
+          "China East 2 Finance Zone F  | cn-shanghai-finance-1f",
+          "China East 2 Finance Zone G  | cn-shanghai-finance-1g",
+          "China East 2 Finance Zone K  | cn-shanghai-finance-1k",
+          "China East 2 Finance Zone Z  | cn-shanghai-finance-1z",
+          "China South 1 Finance  | cn-shenzhen-finance-1  | Shenzhen  | 4  | China South 1 Finance Zone A  | cn-shenzhen-finance-1a",
+          "China South 1 Finance Zone B  | cn-shenzhen-finance-1b",
+          "China South 1 Finance Zone D  | cn-shenzhen-finance-1d",
+          "China South 1 Finance Zone E  | cn-shenzhen-finance-1e",
+          "China North 2 Finance (Preview)  | cn-beijing-finance-1  | China (Beijing)  | 3  | China North 2 Finance (Preview) Zone F  | cn-beijing-finance-1f",
+          "China North 2 Finance (Preview) Zone K  | cn-beijing-finance-1k",
+          "China North 2 Finance (Preview) Zone L  | cn-beijing-finance-1l",
+          "* Regions and zones outside China",
+          "### Alibaba Gov Cloud",
+          "* Regions and zones in China",
+          "Region name  | Region ID  | Region  | Number of zones  | Zone name  | Zone ID",
+          "China North 2 Ali Gov 1  | cn-north-2-gov-1  | China (Beijing)  | 5  | China North 2 Ali Gov Zone A  | cn-north-2-gov-1a",
+          "China North 2 Ali Gov Zone B  | cn-north-2-gov-1b",
+          "China North 2 Ali Gov Zone C  | cn-north-2-gov-1c",
+          "China North 2 Ali Gov Zone D  | cn-north-2-gov-1d",
+          "China North 2 Ali Gov Zone E  | cn-north-2-gov-1e"
+        ]
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "alibaba-marketing",
+      "source_url": "https://www.alibabacloud.com/en/global-locations",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "johor_declared_zone_count": 3,
+        "scope": "public marketing page; fewer public regions than directory; excludes closing-down local regions",
+        "release_labels": {
+          "johor": 2026,
+          "paris": 2026,
+          "sao_paulo": 2026,
+          "zhongwei": 2026
+        }
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "tencent-directory",
+      "source_url": "https://www.tencentcloud.com/document/product/213/6091",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-18",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_table_extract",
+      "facts": {
+        "table_lines": [
+          "### China",
+          "Region  | Region ID  | Number of AZs  | AZ  | AZ ID",
+          "North China (Beijing)  | ap-beijing  | 6  | Beijing Zone 3  | ap-beijing-3",
+          "Beijing Zone 4^{*}  | ap-beijing-4",
+          "Beijing Zone 5^{*}  | ap-beijing-5",
+          "Beijing Zone 6  | ap-beijing-6",
+          "Beijing Zone 7  | ap-beijing-7",
+          "Beijing Zone 8  | ap-beijing-8",
+          "East China (Shanghai)  | ap-shanghai  | 7  | Shanghai Zone 2  | ap-shanghai-2",
+          "Shanghai Zone 3^{*}  | ap-shanghai-3",
+          "Shanghai Zone 4^{*}  | ap-shanghai-4",
+          "Shanghai Zone 5  | ap-shanghai-5",
+          "Shanghai Zone 8  | ap-shanghai-8",
+          "Shanghai Zone 9^{*}  | ap-shanghai-9",
+          "Shanghai Zone 10^{*}  | ap-shanghai-10",
+          "East China (Nanjing)  | ap-nanjing  | 3  | Nanjing Zone 1  | ap-nanjing-1",
+          "Nanjing Zone 2^{*}  | ap-nanjing-2",
+          "Nanjing Zone 3  | ap-nanjing-3",
+          "South China (Guangzhou)  | ap-guangzhou  | 5  | Guangzhou Zone 3^{*}  | ap-guangzhou-3",
+          "Guangzhou Zone 4^{*}  | ap-guangzhou-4",
+          "Guangzhou Zone 5  | ap-guangzhou-5",
+          "Guangzhou Zone 6  | ap-guangzhou-6",
+          "Guangzhou Zone 7  | ap-guangzhou-7",
+          "Southwest China (Chengdu)  | ap-chengdu  | 2  | Chengdu Zone 1  | ap-chengdu-1",
+          "Chengdu Zone 2^{*}  | ap-chengdu-2",
+          "Southwest China (Chongqing)  | ap-chongqing  | 1  | Chongqing Zone 1  | ap-chongqing-1",
+          "Northwest China (Zhongwei)  | ap-zhongwei  | 1  | Zhongwei Zone 1^{*}  | ap-zhongwei-1",
+          "Hong Kong (China), Macao (China), and Taiwan (China)  | ap-hongkong  | 3  | Hong Kong Zone 1^{*}  | ap-hongkong-1",
+          "Hong Kong (China) Zone 2  | ap-hongkong-2",
+          "Hong Kong (China) Zone 3  | ap-hongkong-3",
+          "Beijing Finance Available only to finance institutions and enterprises upon application  | ap-beijing-fsi  | 2  | Beijing Finance Zone 1^{*}  | ap-beijing-fsi-1",
+          "Beijing Finance Zone 2^{*}  | ap-beijing-fsi-2",
+          "Shanghai Finance Available only to finance institutions and enterprises upon application  | ap-shanghai-fsi  | 3  | Shanghai Finance Zone 2^{*}  | ap-shanghai-fsi-2",
+          "Shanghai Finance Zone 3^{*}  | ap-shanghai-fsi-3",
+          "Shanghai Finance Zone 4^{*}  | ap-shanghai-fsi-4",
+          "Shenzhen Finance Available only to finance institutions and enterprises upon application  | ap-shenzhen-fsi  | 3  | Shenzhen Finance Zone 1^{*}  | ap-shenzhen-fsi-1",
+          "Shenzhen Finance Zone 2^{*}  | ap-shenzhen-fsi-2",
+          "Shenzhen Finance Zone 3^{*}  | ap-shenzhen-fsi-3",
+          "Shanghai Self-driving Cloud  | ap-shanghai-adc  | 5  | Shanghai Self-driving Cloud Zone 1^{*}  | ap-shanghai-adc-1",
+          "Shanghai Self-driving Cloud Zone 2^{*}  | ap-shanghai-adc-2",
+          "Shanghai Self-driving Cloud Zone 3^{*}  | ap-shanghai-adc-3",
+          "Shanghai Self-driving Cloud Zone 4^{*}  | ap-shanghai-adc-4",
+          "Shanghai Self-driving Cloud Zone 5^{*}  | ap-shanghai-adc-5",
+          "Zhongwei Self-driving Cloud  | ap-zhongwei-adc  | 1  | Zhongwei Self-driving Cloud Zone 1^{*}  | ap-zhongwei-adc-1",
+          "### Regions Outside China",
+          "Region  | Region ID  | Number of AZs  | AZ  | AZ ID",
+          "Asia Pacific and the Middle East (Singapore)Coverage: Southeast Asia  | ap-singapore  | 4  | Singapore Zone 1  | ap-singapore-1",
+          "Singapore Zone 2  | ap-singapore-2",
+          "Singapore Zone 3^{*}  | ap-singapore-3",
+          "Singapore Zone 4^{*}  | ap-singapore-4",
+          "Asia Pacific and the Middle East (Johor Bahru)Coverage: Southeast Asia  | ap-johorbahru  | 2  | Johorbahru Zone 1  | ap-johorbahru-1",
+          "Johorbahru Zone 2  | ap-johorbahru-2",
+          "Asia Pacific and the Middle East (Jakarta)Coverage: Southeast Asia  | ap-jakarta  | 3  | Jakarta Zone 1  | ap-jakarta-1",
+          "Jakarta Zone 2  | ap-jakarta-2",
+          "Jakarta Zone 3^{*}  | ap-jakarta-3",
+          "Asia Pacific and the Middle East (Seoul)Coverage: Northeast Asia  | ap-seoul  | 2  | Seoul Zone 1  | ap-seoul-1",
+          "Seoul Zone 2  | ap-seoul-2",
+          "Asia Pacific and the Middle East (Tokyo)Coverage: Northeast Asia  | ap-tokyo  | 2  | Tokyo Zone 1  | ap-tokyo-1",
+          "Tokyo Zone 2  | ap-tokyo-2",
+          "Asia Pacific and the Middle East (Osaka)Coverage: Northeast Asia  | ap-osaka  | 1  | Osaka Zone 1  | ap-osaka-1",
+          "Asia Pacific and the Middle East (Bangkok)Coverage: Southeast Asia  | ap-bangkok  | 3  | Bangkok Zone 1  | ap-bangkok-1",
+          "Bangkok Zone 2  | ap-bangkok-2",
+          "Bangkok Zone 3^{*}  | ap-bangkok-3",
+          "Asia Pacific and the Middle East (Saudi Arabia)Coverage: Middle East  | me-saudi-arabia  | 2  | Riyadh Zone 1  | me-saudi-arabia-1",
+          "Riyadh Zone 2  | me-saudi-arabia-2",
+          "Europe and the Americas (São Paulo)Coverage: South America  | sa-saopaulo  | 1  | São Paulo Zone 1  | sa-saopaulo-1",
+          "Europe and the Americas (Queretaro)Coverage: North America  | na-queretaro  | 1  | Queretaro Zone 1^{*}  | na-queretaro-1",
+          "Europe and the Americas (Silicon Valley)Coverage: Western United States  | na-siliconvalley  | 2  | Silicon Valley Zone 1  | na-siliconvalley-1",
+          "Silicon Valley Zone 2  | na-siliconvalley-2",
+          "Europe and the Americas (Virginia)Coverage: Eastern United States  | na-ashburn  | 2  | Virginia Zone 1  | na-ashburn-1",
+          "Virginia Zone 2  | na-ashburn-2",
+          "Europe and the Americas (Frankfurt)Coverage: Europe  | eu-frankfurt  | 3  | Frankfurt Zone 1  | eu-frankfurt-1",
+          "Frankfurt Zone 2  | eu-frankfurt-2",
+          "Frankfurt Zone 3  | eu-frankfurt-3"
+        ],
+        "asterisk_meaning": "Sales availability differs; contact sales. An asterisk does not establish retirement."
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "alibaba-model-studio",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/regions",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-11",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "regions": [
+          {
+            "id": "cn-beijing",
+            "name": "Beijing",
+            "scopes": [
+              "Chinese mainland"
+            ]
+          },
+          {
+            "id": "ap-southeast-1",
+            "name": "Singapore",
+            "scopes": [
+              "International"
+            ]
+          },
+          {
+            "id": "eu-central-1",
+            "name": "Frankfurt",
+            "scopes": [
+              "Global",
+              "EU"
+            ]
+          },
+          {
+            "id": "ap-northeast-1",
+            "name": "Tokyo",
+            "scopes": [
+              "Global",
+              "Japan"
+            ]
+          },
+          {
+            "id": "cn-hongkong",
+            "name": "Hong Kong",
+            "scopes": [
+              "Global",
+              "Hong Kong"
+            ]
+          },
+          {
+            "id": "us-east-1",
+            "name": "Virginia",
+            "scopes": [
+              "Global",
+              "US"
+            ]
+          }
+        ],
+        "workspace_domain_template": "{WorkspaceId}.{region}.maas.aliyuncs.com",
+        "access_and_storage_region_distinct_from_inference_scope": true,
+        "model_catalog_and_keys_region_scoped": true,
+        "full_model_catalog_not_captured": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "huawei-global",
+      "source_url": "https://www.huaweicloud.com/intl/en-us/about/global-infrastructure.html",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "declared_regions": 34,
+        "declared_availability_zones": 103,
+        "partner_nodes_caveat": true,
+        "aggregate_not_itemized": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "huawei-trust",
+      "source_url": "https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_list_extract",
+      "facts": {
+        "region_labels": [
+          "CN North-Beijing4",
+          "CN East-Shanghai1",
+          "CN East2",
+          "CN East-Qingdao",
+          "CN South-Guangzhou",
+          "CN Southwest-Guiyang1",
+          "CN-Hong Kong",
+          "AP-Bangkok",
+          "AP-Singapore",
+          "AP-Jakarta",
+          "AP-Manila",
+          "AF-Johannesburg",
+          "AF-Cairo",
+          "LA-Mexico City2",
+          "LA-Sao Paulo1",
+          "LA-Santiago",
+          "TR-Istanbul",
+          "ME-Riyadh"
+        ],
+        "scope": "International trust-center selector; not an exhaustive region/AZ directory"
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "azure-china",
+      "source_url": "https://docs.azure.cn/en-us/reliability/regions-list",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-05",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "regions": [
+          {
+            "id": "chinaeast",
+            "paired": "chinanorth"
+          },
+          {
+            "id": "chinaeast2",
+            "paired": "chinanorth2"
+          },
+          {
+            "id": "chinaeast3",
+            "paired": "chinanorth3",
+            "access_status": "restricted"
+          },
+          {
+            "id": "chinanorth",
+            "paired": "chinaeast"
+          },
+          {
+            "id": "chinanorth2",
+            "paired": "chinaeast2"
+          },
+          {
+            "id": "chinanorth3",
+            "paired": "chinaeast3",
+            "zone_support_explicit": true
+          }
+        ],
+        "operator": "21Vianet",
+        "physical_location": "N/A",
+        "child_zone_ids_not_listed": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "azure-china-operator",
+      "source_url": "https://learn.microsoft.com/en-us/azure/china/overview-operations",
+      "source_published_at": null,
+      "source_updated_at": "2023-12-13",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "operator": "Shanghai Blue Cloud Technology Co., Ltd. (21Vianet)",
+        "physically_separated_cloud": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "deepseek-api",
+      "source_url": "https://api-docs.deepseek.com/",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "base_url": "https://api.deepseek.com",
+        "facility_directory_found": false
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "deepseek-identity",
+      "source_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "source_published_at": null,
+      "source_updated_at": "2026-02-10",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "service_operator": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd.",
+        "registered_country": "China",
+        "scope": "Linked DeepSeek apps/websites/services; downstream applications have their own controllers",
+        "facility_geography_not_established_by_registered_address": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "kimi-endpoints",
+      "source_url": "https://www.kimi.com/en/help/kimi-code/faq",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "open_platform": {
+          "china": "https://api.moonshot.cn/v1",
+          "overseas": "https://api.moonshot.ai/v1"
+        },
+        "coding": {
+          "china": "https://api.kimi.com/coding/",
+          "overseas": "https://api.kimi.ai/coding/"
+        },
+        "api_key_scopes_distinct": true,
+        "endpoint_audience_not_facility_location": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "fal-identity",
+      "source_url": "https://fal.ai/about",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "headquarters": "San Francisco",
+        "business": "Generative-media AI inference platform",
+        "site_directory_found": false
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "seedance-official",
+      "source_url": "https://seed.bytedance.com/en/seedance2_0",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "model_name": "Seedance 2.0",
+        "developer": "ByteDance Seed",
+        "linked_playground": "https://ai.byteplus.com",
+        "current_navigation_also_lists": "Seedance 2.5",
+        "facility_directory_found": false
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "seedance2ai-identity",
+      "source_url": "https://seedance2.ai/zh-hant/terms-of-service",
+      "source_published_at": null,
+      "source_updated_at": "2025-10-29",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "affiliation_disclaimer": "Independent platform; no affiliation, partnership, sponsorship, or endorsement by ByteDance.",
+        "corporate_jurisdiction_not_verified": true,
+        "upstream_model_and_hosting_not_verified": true
+      },
+      "limitations": [
+        "Direct page retrieval timed out/failed; identity conclusion uses the indexed first-party terms, not a fresh HTTP capture."
+      ]
+    },
+    {
+      "source_id": "bilibili-2025-report",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf",
+      "source_published_at": "2026-04-16",
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_pdf_fact_extract",
+      "facts": {
+        "as_of": "2025-12-31",
+        "report_title": "Bilibili Inc. 2025 Annual Report",
+        "printed_page": 126,
+        "telecommunications_service_provider_count": 116,
+        "providers_with_at_least_ten_percent_server_and_bandwidth_expenditure": 4,
+        "combined_expenditure_share_percent": 57,
+        "facility_directory_not_established": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "byteplus-modelark",
+      "source_url": "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "regions": [
+          {
+            "id": "ap-southeast-1",
+            "name": "Johor",
+            "base_url": "https://ark.ap-southeast.bytepluses.com/api/v3"
+          },
+          {
+            "id": "eu-west-1",
+            "name": "Dublin",
+            "base_url": "https://ark.eu-west.bytepluses.com/api/v3"
+          }
+        ],
+        "cross_region_inference_routing_possible": true,
+        "keys_and_endpoints_region_scoped": true
+      },
+      "limitations": [
+        "Non-redirect page reader returned a shell with update date; regional content is retained from indexed first-party documentation."
+      ]
+    },
+    {
+      "source_id": "unicom-ai-pools",
+      "source_url": "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357",
+      "source_published_at": null,
+      "source_updated_at": "2026-08-28",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "product": "AISP",
+        "source_section": "Spring Festival promotion",
+        "promotion_date_label": "2.14-2.28",
+        "pools": [
+          {
+            "name": "呼和浩特基地二区",
+            "base_url": "https://aigw-nmhhht.cucloud.cn/v1",
+            "models": [
+              "Qwen3-235B-A22B"
+            ]
+          },
+          {
+            "name": "武汉四区",
+            "base_url": "https://aigw-hbwh4.cucloud.cn:8443/v1",
+            "models": [
+              "DeepSeek-V3.1"
+            ]
+          },
+          {
+            "name": "济南五区",
+            "base_url": "https://aigw-jnzs5.cucloud.cn:8443/v1",
+            "models": [
+              "DeepSeek-V3.1"
+            ]
+          },
+          {
+            "name": "贵阳基地二区",
+            "base_url": "https://aigw-gzgy2.cucloud.cn:8443/v1",
+            "models": [
+              "Qwen3-235B-A22B",
+              "DeepSeek-V3.1"
+            ]
+          }
+        ],
+        "current_sale_status": "unknown",
+        "general_ecs_inventory_not_established": true
+      },
+      "limitations": [
+        "Direct reader rejected content larger than its limit; table retrieved through search-index extraction. Promotion dates and August update differ; neither proves current availability."
+      ]
+    },
+    {
+      "source_id": "ucloud-baremetal",
+      "source_url": "https://docs.ucloud.cn/uphost/concepts/az",
+      "source_published_at": null,
+      "source_updated_at": "2026-01-09",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "product": "UPHost bare metal",
+        "region_count": 8,
+        "region_labels": [
+          "Beijing2",
+          "Ulanqab",
+          "Shanghai2",
+          "Guangzhou",
+          "Quanzhou",
+          "Hong Kong",
+          "Taipei",
+          "London"
+        ],
+        "quanzhou_gpu_az_label": "GPU AZ A",
+        "scope": "Product-specific labels; not universal UCloud coverage"
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "qiniu-resource-pools",
+      "source_url": "https://developer.qiniu.com/qvm/4190/region-zone",
+      "source_published_at": null,
+      "source_updated_at": "2026-05-06",
+      "retrieved_at": "2026-10-11",
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "product": "QVM",
+        "resource_pools": [
+          "1",
+          "3"
+        ],
+        "pool3_region_ids": [
+          "grand-cn-north-4",
+          "grand-cn-east-3",
+          "grand-cn-south-1"
+        ],
+        "pool_isolation_explicit": true,
+        "pool1_uses_some_alibaba_style_region_ids": true,
+        "ownership_or_upstream_operator_not_established_by_similar_ids": true
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "siliconflow",
+      "source_url": "https://docs.siliconflow.com/en/userguide/introduction",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "product": "Multi-model inference APIs",
+        "model_families_listed": [
+          "DeepSeek",
+          "Qwen",
+          "GLM",
+          "Kimi",
+          "Step",
+          "MiniMax"
+        ],
+        "byoc_supported": true,
+        "facility_directory_found": false
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "minimax",
+      "source_url": "https://platform.minimax.io/docs/api-reference/api-overview",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "product": "Language, speech, video, image, music and file APIs",
+        "subscription_and_payg_keys_distinct": true,
+        "facility_directory_found": false
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "zai",
+      "source_url": "https://docs.z.ai/guides/overview/quick-start",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "model_family": "GLM",
+        "base_url": "https://api.z.ai/api/paas/v4/",
+        "coding_plan_endpoint_separate": true,
+        "facility_directory_found": false
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "kling",
+      "source_url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-celebrates-first-anniversary-achieves-annualized",
+      "source_published_at": "2025-06-05",
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "model_brand": "Kling AI",
+        "operator": "Kuaishou",
+        "api_services_declared": true,
+        "scope": "Historical identity and API-service evidence; not current model catalog or facility inventory"
+      },
+      "limitations": []
+    },
+    {
+      "source_id": "miit-green-facilities-announcement",
+      "source_url": "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2025/art_d8a6906d6e5048369ae66b3a40ea20b8.html",
+      "source_published_at": "2025-12-29",
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "designation": "2025 National Green Computing Facilities",
+        "announcement_number": "2025 No. 43",
+        "signed_at": "2025-12-17",
+        "attached_final_directory": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf"
+      },
+      "limitations": [
+        "2025 designation evidence does not establish current lifecycle, ownership, compute capacity or coordinates."
+      ]
+    },
+    {
+      "source_id": "miit-green-facilities-directory",
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+      "source_published_at": "2025-12-29",
+      "source_updated_at": null,
+      "retrieved_at": "2026-10-11",
+      "capture_method": "web_reader_pdf_fact_extract",
+      "facts": {
+        "designation": "2025 National Green Computing Facilities",
+        "list_status": "final",
+        "entry_count": 60,
+        "earlier_draft_url": "https://www.ncsti.gov.cn/kjdt/tzgg/202510/P020251029500117740098.pdf",
+        "selected_entries": [
+          {
+            "source_row": 32,
+            "name": "抖音—中联绿色大数据产业基地 6 号楼"
+          },
+          {
+            "source_row": 34,
+            "name": "数据港—阿里巴巴广东云计算数据中心河源集群源城机房C栋"
+          },
+          {
+            "source_row": 40,
+            "name": "阿里飞天云智能华东算力中心项目枫泾基地 B 楼"
+          },
+          {
+            "source_row": 42,
+            "name": "快手智能云乌兰察布大数据二园区数据中心项目 B1 机房楼"
+          },
+          {
+            "source_row": 44,
+            "name": "美利云中卫数据中心 C1 数据机房楼项目"
+          },
+          {
+            "source_row": 45,
+            "name": "合盈数据（怀来）科技产业园 ND11 数据中心"
+          },
+          {
+            "source_row": 46,
+            "name": "润泽数据中心 A—8"
+          }
+        ],
+        "operator_identity_and_facility_aliases_require_confirmation": true
+      },
+      "limitations": [
+        "2025 designation evidence does not establish current lifecycle, ownership, compute capacity or coordinates."
+      ]
+    }
+  ]
+}

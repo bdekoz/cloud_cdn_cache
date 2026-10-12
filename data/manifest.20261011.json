@@ -19,6 +19,18 @@
     {
       "path": "data/yandex/image-claim-review.20261011.json",
       "sha256": "8b3963c83e5e437636372d91f9bd2d2369de66956dfc99c80940b8848901160b"
+    },
+    {
+      "path": "data/china/vendor-coverage-assessment.20261011.json",
+      "sha256": "6124be884cbe2a49ad4735415c3f6beda70e244354752208d4c5da6a8b5db2f2"
+    },
+    {
+      "path": "data/china/enrichment-plan.20261011.json",
+      "sha256": "5940ac9f612270016a9cba7844544aa44182528167e1093e380f58246e8f7285"
+    },
+    {
+      "path": "data/china/review-evidence.20261011.json",
+      "sha256": "1dfdbad987f9f05c6c7a4a4f7ea63e80d426ef5797478d261bf8f0d0129b79cb"
     }
   ],
   "generated_from_retained_snapshots_at": "2026-10-11",

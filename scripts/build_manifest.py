@@ -20,6 +20,7 @@ NETWORK_TAG = "20260805"
 GOOGLE_REFRESH_TAG = "20261011"
 RUSSIA_REVIEW_TAG = "20261011"
 INFRASTRUCTURE_TAG = "20261011"
+CHINA_REVIEW_TAG = "20261011"
 
 BASELINE_LAYERS = (
     "google/edge",
@@ -239,6 +240,10 @@ def main() -> None:
     assessments = [assessment_manifest(name, BASELINE_TAG) for name in ASSESSMENT_NAMES]
     if tag >= RUSSIA_REVIEW_TAG:
         assessments.extend(assessment_manifest(name, RUSSIA_REVIEW_TAG) for name in ("russia/provider-assessment", "yandex/image-claim-review"))
+    if tag >= CHINA_REVIEW_TAG:
+        assessments.extend(assessment_manifest(name, CHINA_REVIEW_TAG) for name in (
+            "china/vendor-coverage-assessment", "china/enrichment-plan", "china/review-evidence",
+        ))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:

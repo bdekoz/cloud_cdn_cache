@@ -1,0 +1,585 @@
+{
+  "assessment_date": "2026-10-11",
+  "type": "ChinaInfrastructureEnrichmentPlan",
+  "vendors": [
+    {
+      "vendor_id": "alibaba",
+      "name": "Alibaba Cloud / Qwen / Model Studio",
+      "vendor_class": "public_cloud_and_model_platform",
+      "existing_coverage": "137 canonical region/AZ rows; 73-row mainland view; 19-row legacy file; 14 quarantined claims. CDN aggregate assessment is separate.",
+      "reviewed_source_ids": [
+        "alibaba-directory",
+        "alibaba-marketing",
+        "alibaba-model-studio",
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P0",
+      "next_enrichment": "Refresh the 33-public-region/108-zone directory, retain 4 finance regions/20 zones and 1 government region/5 zones separately. Add Model Studio's 6 product-region declarations and scope-specific endpoints. Resolve Johor's marketing 3 versus 2 itemized zones; inspect closing-down local regions and unknown-jurisdiction legacy labels. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "tencent",
+      "name": "Tencent Cloud / Hunyuan",
+      "vendor_class": "public_cloud_and_model_platform",
+      "existing_coverage": "84 canonical region/AZ rows; mainland general 31 and specialized 17 repeated IDs; separate 41-row legacy zone file.",
+      "reviewed_source_ids": [
+        "tencent-directory"
+      ],
+      "priority": "P0",
+      "next_enrichment": "Refresh 26 itemized regions/70 zones by product, compare international and mainland editions; review 13 added IDs and 1 absent old ID. Keep public and financial/automotive access distinct. Find an official Hunyuan product-region/endpoint matrix.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "huawei",
+      "name": "Huawei Cloud / ModelArts / Pangu",
+      "vendor_class": "public_cloud_and_model_platform",
+      "existing_coverage": "9 mainland Cloud Connect-scoped region IDs; no global or AZ layer.",
+      "reviewed_source_ids": [
+        "huawei-global",
+        "huawei-trust"
+      ],
+      "priority": "P0",
+      "next_enrichment": "Reconcile global declared 34 regions/103 AZs, trust-center selector's 18 labels, IAM region IDs and service matrices. Keep partner-operated and dedicated clouds separate; publish only itemized stable identities.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "baidu",
+      "name": "Baidu AI Cloud / Qianfan",
+      "vendor_class": "public_cloud_and_model_platform",
+      "existing_coverage": "8 BCC regions/19 zones; mainland view 25 repeated IDs; 35 quarantined legacy claims.",
+      "reviewed_source_ids": [],
+      "priority": "P1",
+      "next_enrichment": "Refresh BCC; add Qianfan endpoint/deployment coverage independently; retain public/financial scope and avoid reviving quarantined sites.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "volcano",
+      "name": "ByteDance / Volcano Engine / Doubao / Seedance",
+      "vendor_class": "public_cloud_and_model_platform",
+      "existing_coverage": "4 regions/13 zones from ECS documentation; mainland view 14 repeated IDs; no model-service layer.",
+      "reviewed_source_ids": [
+        "seedance-official",
+        "byteplus-modelark",
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P0",
+      "next_enrichment": "Refresh ECS and reconcile explicit versus aggregate Shanghai AZ counts. Add Ark and BytePlus ModelArk product coverage, model-developer relationships, region-scoped endpoints and cross-region inference routing. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "identity": {
+        "seedance_developer": "ByteDance Seed",
+        "seedance2ai_same_vendor": false,
+        "byteplus_international_offering": "Separate service/product scope; do not copy Volcano region IDs blindly."
+      }
+    },
+    {
+      "vendor_id": "tianyi",
+      "name": "China Telecom / Tianyi Cloud",
+      "vendor_class": "carrier_cloud",
+      "existing_coverage": "63 VPC resource pools; no itemized child zone IDs.",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Refresh pool directory and stable identifiers; add teleports/backbone, AI pools and GPU product availability only from itemized evidence. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "china-mobile",
+      "name": "China Mobile Cloud",
+      "vendor_class": "carrier_cloud",
+      "existing_coverage": "August assessment records a missing authoritative directory; no canonical region/pool rows.",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P0",
+      "next_enrichment": "Locate product-scoped official region/pool inventory and public API contract. Marketplace province filters found during this search do not establish resource-pool identities. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "china-unicom",
+      "name": "China Unicom Cloud",
+      "vendor_class": "carrier_cloud",
+      "existing_coverage": "No general cloud layer; newly located AISP promotion section names 4 AI pools and endpoint domains.",
+      "reviewed_source_ids": [
+        "unicom-ai-pools",
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P0",
+      "next_enrichment": "Resolve current AISP availability and authoritative pool IDs, then ingest product-specific endpoint evidence. Obtain general ECS/region/pool directory separately; promotional model support is historical scoped evidence. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "kingsoft",
+      "name": "Kingsoft Cloud",
+      "vendor_class": "public_cloud",
+      "existing_coverage": "8 mainland regions/14 zones; finance scope retained separately.",
+      "reviewed_source_ids": [],
+      "priority": "P1",
+      "next_enrichment": "Refresh KEC and GPU availability; compare public and dedicated finance sources before changes.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "jd",
+      "name": "JD Cloud",
+      "vendor_class": "public_cloud",
+      "existing_coverage": "4 mainland regions/10 zones.",
+      "reviewed_source_ids": [],
+      "priority": "P1",
+      "next_enrichment": "Refresh stable CVM IDs; review GPU and edge product-specific matrices.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "bilibili",
+      "name": "Bilibili",
+      "vendor_class": "consumer_platform_and_content_delivery",
+      "existing_coverage": "No canonical vendor or CDN layer; current annual filing provides supplier concentration evidence.",
+      "reviewed_source_ids": [
+        "bilibili-2025-report"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add operator identity and content-delivery evidence. Annual filing reports 116 telecom suppliers, 4 above the expenditure threshold, 57% combined share, as of 2025-12-31. Seek named sites, domains, ASNs and bounded observations; do not convert suppliers or owned servers into data centers.",
+      "identity": {
+        "input_aliases": [
+          "billibilli"
+        ],
+        "not_established_as_public_iaas": true
+      }
+    },
+    {
+      "vendor_id": "deepseek",
+      "name": "DeepSeek",
+      "vendor_class": "model_developer_and_api_operator",
+      "existing_coverage": "No vendor/model/endpoint records.",
+      "reviewed_source_ids": [
+        "deepseek-api",
+        "deepseek-identity"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add developer, direct API and model-host relationships. Distinguish direct DeepSeek service from Alibaba, SiliconFlow or customer-hosted model deployments; exact training/inference facilities remain unverified.",
+      "identity": {
+        "legal_operator": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd.",
+        "registered_country": "CN"
+      }
+    },
+    {
+      "vendor_id": "moonshot",
+      "name": "Moonshot AI / Kimi",
+      "vendor_class": "model_developer_and_api_operator",
+      "existing_coverage": "No vendor/model/endpoint records.",
+      "reviewed_source_ids": [
+        "kimi-endpoints"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add Kimi identity/aliases and 4 documented base URLs by open-platform/coding and China/overseas audience. Obtain deployment, storage and hosting geography independently.",
+      "identity": {
+        "input_aliases": [
+          "kimi.ai",
+          "kimi.com",
+          "Moonshot"
+        ],
+        "endpoint_audience_is_not_server_country": true
+      }
+    },
+    {
+      "vendor_id": "fal",
+      "name": "fal",
+      "vendor_class": "global_ai_inference_platform",
+      "existing_coverage": "No vendor/platform records.",
+      "reviewed_source_ids": [
+        "fal-identity"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add to global inference-platform registry; record model-developer and third-party distribution relationships. Seek declared deployment regions and hosting contracts separately.",
+      "identity": {
+        "headquarters": "San Francisco, United States",
+        "china_vendor_classification": "excluded_from_china_based_vendor_cohort",
+        "relevant_to_china_models": true
+      }
+    },
+    {
+      "vendor_id": "seedance2ai",
+      "name": "seedance2.ai",
+      "vendor_class": "independent_ai_application_platform",
+      "existing_coverage": "No vendor records; indexed terms establish independence from ByteDance.",
+      "reviewed_source_ids": [
+        "seedance2ai-identity"
+      ],
+      "priority": "P2",
+      "next_enrichment": "Record distinct domain/operator identity with corporate jurisdiction and hosting unresolved. Verify legal entity and upstream service provenance before any China or facility attribution.",
+      "identity": {
+        "bytedance_affiliation": "explicitly_disclaimed_in_indexed_terms",
+        "country": "unknown",
+        "source_freshness": "Indexed terms updated 2025-10-29; direct capture failed."
+      }
+    },
+    {
+      "vendor_id": "byteplus",
+      "name": "BytePlus ModelArk",
+      "vendor_class": "international_ai_service_platform",
+      "existing_coverage": "Absent from canonical service coverage; 2 declared product regions found in indexed docs.",
+      "reviewed_source_ids": [
+        "byteplus-modelark"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add Johor/ap-southeast-1 and Dublin/eu-west-1 as product-region assertions with 2 base URLs and possible cross-region routing. Verify fresh full document body and legal/operator relationships.",
+      "identity": {
+        "do_not_assume_ap_southeast_1_is_singapore": true
+      }
+    },
+    {
+      "vendor_id": "ucloud",
+      "name": "UCloud / UPHost",
+      "vendor_class": "public_cloud_and_gpu_bare_metal",
+      "existing_coverage": "No canonical layer; official UPHost document lists 8 product regions.",
+      "reviewed_source_ids": [
+        "ucloud-baremetal"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Join stable UHost/UPHost region/AZ identifiers to product-scoped labels; capture Quanzhou GPU AZ explicitly; separate mainland, Hong Kong, Taiwan and overseas coverage.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "qiniu",
+      "name": "Qiniu Cloud / QVM",
+      "vendor_class": "public_cloud_and_media_cloud",
+      "existing_coverage": "No canonical layer; QVM docs describe separate resource pools 1 and 3.",
+      "reviewed_source_ids": [
+        "qiniu-resource-pools"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add pool-scoped region/AZ directory and products. Keep provider identity in all keys; Alibaba-like region names do not prove shared ownership or the underlying host.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "siliconflow",
+      "name": "SiliconFlow",
+      "vendor_class": "multi_model_inference_platform",
+      "existing_coverage": "No canonical layer; official docs identify multi-model service and BYOC.",
+      "reviewed_source_ids": [
+        "siliconflow"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add model-serving platform, direct APIs, BYOC/managed distinction and developer-host relationships; request declared deployment/storage geography rather than inferring from model brand.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "minimax",
+      "name": "MiniMax",
+      "vendor_class": "model_developer_and_api_operator",
+      "existing_coverage": "No canonical layer; current official API catalog verified.",
+      "reviewed_source_ids": [
+        "minimax"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add language/video/audio services and API scope; keep subscription and pay-as-you-go service endpoints separate and look for deployment evidence.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "zai",
+      "name": "Z.ai / GLM",
+      "vendor_class": "model_developer_and_api_operator",
+      "existing_coverage": "No canonical layer; official direct API and separate coding-plan scope found.",
+      "reviewed_source_ids": [
+        "zai"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add operator/brand aliases after legal-source checks, direct API and coding scope, deployment declarations and hosted GLM relationships.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "kuaishou",
+      "name": "Kuaishou / Kling AI",
+      "vendor_class": "consumer_platform_and_model_api",
+      "existing_coverage": "No canonical layer; official historical release establishes Kling's operator and API service.",
+      "reviewed_source_ids": [
+        "kling",
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add corporate/model/API relationships; refresh current API docs and distinguish owned content delivery, model endpoints and any third-party serving. 2025 identity evidence is not a 2026 capacity inventory. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "gds",
+      "name": "GDS Holdings",
+      "vendor_class": "colocation_operator",
+      "existing_coverage": "August assessment only; portfolio/market aggregates do not create facility rows.",
+      "reviewed_source_ids": [],
+      "priority": "P1",
+      "next_enrichment": "Refresh current filings and stable facility identifiers, buildings, campus aliases, MW units and operator relationships; compare mainland and international portfolio boundaries explicitly.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "vnet",
+      "name": "VNET Group",
+      "vendor_class": "colocation_and_cloud_operator",
+      "existing_coverage": "August assessment has cabinet/MW/POP aggregates; no canonical facility layer.",
+      "reviewed_source_ids": [
+        "azure-china-operator"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Add Microsoft/21Vianet operating relationship without attributing all VNET facilities to Azure. Refresh facility directories, self-built/partnered roles and portfolio metrics.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "chindata",
+      "name": "Chindata",
+      "vendor_class": "hyperscale_colocation_operator",
+      "existing_coverage": "4 directory codes; named Sangyuan campus not resolved to codes.",
+      "reviewed_source_ids": [],
+      "priority": "P1",
+      "next_enrichment": "Refresh code directory and resolve explicit campus/building aliases before adding phases or campuses as new facilities.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "wangsu",
+      "name": "Wangsu / ChinaNetCenter",
+      "vendor_class": "independent_cdn",
+      "existing_coverage": "Aggregate-only China-edge assessment; no generated locations.",
+      "reviewed_source_ids": [],
+      "priority": "P2",
+      "next_enrichment": "Seek stable site codes and official network evidence; compare marketing node units to reproducible observations without interpreting city coverage as sites.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "baishan",
+      "name": "BaishanCloud",
+      "vendor_class": "independent_edge_cloud",
+      "existing_coverage": "Aggregate-only China-edge assessment; no generated locations.",
+      "reviewed_source_ids": [],
+      "priority": "P2",
+      "next_enrichment": "Seek product-scoped itemized edge locations and hosting roles; preserve fleet totals as dated aggregate assertions.",
+      "identity": {}
+    },
+    {
+      "vendor_id": "dataport",
+      "name": "Shanghai DataPort / 数据港",
+      "vendor_class": "physical_facility_operator_candidate",
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Heyuan Alibaba-associated building C, source row 34. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      }
+    },
+    {
+      "vendor_id": "runze",
+      "name": "Runze / 润泽",
+      "vendor_class": "physical_facility_operator_candidate",
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Data center A-8, source row 46. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      }
+    },
+    {
+      "vendor_id": "heying",
+      "name": "Heying Data / 合盈数据",
+      "vendor_class": "physical_facility_operator_candidate",
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Huailai ND11, source row 45. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      }
+    },
+    {
+      "vendor_id": "meiliyun",
+      "name": "Meili Cloud / 美利云",
+      "vendor_class": "physical_facility_operator_candidate",
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "priority": "P1",
+      "next_enrichment": "Zhongwei C1, source row 44. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      }
+    }
+  ],
+  "cross_source_rules": [
+    "Reconcile by vendor/operator, offering, source_record_id, jurisdiction, access scope and source date. Identical region tokens across different vendors are not identity keys.",
+    "Canonical layers, derived views, product matrices, marketing totals, legacy files, and quarantine are different dataset roles. Derived views must remain subsets and excluded from additive counts.",
+    "Keep competing source assertions with source dates and an explicit unresolved-conflict field. Missing listing is not proof of retirement.",
+    "Cloud region, AZ, resource pool, model endpoint, model deployment, GPU availability, training cluster, physical facility, fiber system and IX membership are different units.",
+    "Model developer, API operator, host/colocation operator, network operator, legal entity and brand/domain require explicit relationship evidence.",
+    "Record source publication/update and retrieval dates separately. Mark indexed snippets and failed direct retrieval explicitly; retrieval does not refresh an old publication.",
+    "Mainland China, Hong Kong, Macao and Taiwan remain distinct jurisdiction values. Overseas offerings need their own geography and access scope.",
+    "Coordinates remain null until supported; cloud city centroids and network-derived locations are not facility coordinates. Verify source CRS before WGS84 serialization.",
+    "Do not infer model execution geography from API edge location, provider headquarters, a region-token convention, or the location of its model developer."
+  ],
+  "coverage_gaps": [
+    {
+      "severity": "high",
+      "gap": "Freshness and product-scope gaps in Alibaba/Tencent canonical layers",
+      "evidence_source_ids": [
+        "alibaba-directory",
+        "tencent-directory"
+      ],
+      "impact": "Missing itemized IDs and specialized offerings; stale access/lifecycle semantics."
+    },
+    {
+      "severity": "high",
+      "gap": "Huawei global regions/AZs absent; baseline covers only 9 mainland Cloud Connect regions",
+      "evidence_source_ids": [
+        "huawei-global",
+        "huawei-trust"
+      ],
+      "impact": "Broad vendor-name presence conceals international and product coverage gaps; aggregate totals cannot become sites."
+    },
+    {
+      "severity": "high",
+      "gap": "Azure China absent from Azure public-region layer; AWS China has 2 region rows but no stable child AZ IDs",
+      "evidence_source_ids": [
+        "azure-china",
+        "azure-china-operator"
+      ],
+      "impact": "China sovereign/operated cloud partitions are incomplete; operator and service parity differ."
+    },
+    {
+      "severity": "high",
+      "gap": "No canonical model-provider/hosting/endpoint deployment evidence",
+      "evidence_source_ids": [
+        "alibaba-model-studio",
+        "byteplus-modelark",
+        "kimi-endpoints",
+        "deepseek-api"
+      ],
+      "impact": "Model brand and API hostname cannot describe compute or data-storage geography."
+    },
+    {
+      "severity": "medium",
+      "gap": "Competing official source counts: Alibaba Johor marketing 3 AZs versus 2 explicit zone IDs",
+      "evidence_source_ids": [
+        "alibaba-directory",
+        "alibaba-marketing"
+      ],
+      "impact": "A synthesized third zone would fabricate identity; keep conflict unresolved."
+    },
+    {
+      "severity": "high",
+      "gap": "Carrier cloud pool directories incomplete; Unicom AISP evidence is promotion-scoped",
+      "evidence_source_ids": [
+        "unicom-ai-pools"
+      ],
+      "impact": "4 named endpoints cannot substitute for general ECS inventory or current availability."
+    },
+    {
+      "severity": "medium",
+      "gap": "Bilibili content delivery and infrastructure absent",
+      "evidence_source_ids": [
+        "bilibili-2025-report"
+      ],
+      "impact": "Consumer-platform infrastructure falls outside the current public-cloud and CDN cohorts."
+    },
+    {
+      "severity": "medium",
+      "gap": "CDN/colocation physical identities remain limited",
+      "evidence_source_ids": [],
+      "impact": "Fleet counts, supplier counts, capacity and macro-market lists do not establish owned facilities."
+    },
+    {
+      "severity": "medium",
+      "gap": "Government-recognized physical facilities not joined to vendors or cloud layers",
+      "evidence_source_ids": [
+        "miit-green-facilities-announcement",
+        "miit-green-facilities-directory"
+      ],
+      "impact": "The final 60-entry list is independent of cloud region inventories; buildings, campus phases and operators need identity reconciliation. Earlier consultation draft must not substitute for final recognition."
+    }
+  ],
+  "phases": [
+    {
+      "phase": 1,
+      "priority": "P0",
+      "name": "Reconcile vendor identities and overlapping datasets",
+      "deliverables": [
+        "Vendor/operator/brand/offering registry with evidence-backed relationships",
+        "Source-role inventory of canonical, derived, legacy, quarantined and product-specific datasets",
+        "Explicit assertion conflicts and alias candidates"
+      ],
+      "acceptance": [
+        "Derived IDs are never added to canonical totals",
+        "fal is a global platform; seedance2.ai remains independent with unknown jurisdiction",
+        "Old unverified geometry/capacity never gains authority through an alias join"
+      ]
+    },
+    {
+      "phase": 2,
+      "priority": "P0",
+      "name": "Refresh itemized cloud coverage and China partitions",
+      "deliverables": [
+        "Alibaba/Tencent October directories with historical ID diffs",
+        "Huawei global product-scoped region/zone inventory where explicit IDs are available",
+        "Separate Azure China operated-region layer and AWS China operator/partition annotations",
+        "Current carrier-pool source assessment"
+      ],
+      "acceptance": [
+        "Every new region/zone has explicit provider ID, source, scope and lifecycle/access evidence",
+        "Absent old IDs trigger review rather than automatic deletion",
+        "Azure China child AZ IDs are not manufactured from zone-support flags",
+        "Johor conflict is retained until a source explicitly identifies the additional zone"
+      ]
+    },
+    {
+      "phase": 3,
+      "priority": "P1",
+      "name": "Add AI service coverage and new vendors",
+      "deliverables": [
+        "Model Studio 6 regional declarations and service deployment scopes",
+        "BytePlus 2 product-region declarations with routing caveat",
+        "Kimi 4 audience/product-scoped base URLs; direct DeepSeek service",
+        "SiliconFlow, MiniMax, Z.ai/GLM and Kuaishou/Kling operator/service records",
+        "Unicom 4 promotion-scoped AISP pools pending current availability",
+        "UCloud bare-metal and Qiniu resource-pool inventories"
+      ],
+      "acceptance": [
+        "Access region, static storage region and inference execution scope are distinct fields",
+        "Model-developer/host relationships are explicit and many-to-many",
+        "No API endpoint becomes a physical facility record",
+        "GPU product support remains distinct from available stock or installed capacity"
+      ]
+    },
+    {
+      "phase": 4,
+      "priority": "P1",
+      "name": "Expand physical and network infrastructure",
+      "deliverables": [
+        "Bilibili/ByteDance/Kuaishou owned or leased delivery infrastructure evidence",
+        "GDS/VNET/Chindata named facilities and campus/building aliases",
+        "Carrier backbone, exchanges, cross-border links and AI compute hubs where itemized official evidence exists",
+        "Final MIIT 2025 recognition list: named-building evidence and DataPort, Runze, Heying, Meili Cloud operator candidates; compare consultation/final editions before joins"
+      ],
+      "acceptance": [
+        "Physical identities, ownership/operation roles and lifecycle are sourced",
+        "Campus, building, rack count, MW and training-compute capacity remain separate units",
+        "New infrastructure categories use existing extensible evidence framework where appropriate"
+      ]
+    },
+    {
+      "phase": 5,
+      "priority": "P2",
+      "name": "Corroborate and monitor coverage",
+      "deliverables": [
+        "Public ASN/APNIC/BGP and PeeringDB/IX relationships with observation dates",
+        "Bounded reproducible DNS/TLS/HTTP observations for documented public endpoints",
+        "Freshness and explicit ID-difference checks"
+      ],
+      "acceptance": [
+        "Registry or measured network presence does not prove ownership or server location",
+        "Provider declarations and observations remain separate assertions",
+        "No measurement or paid/credentialed API execution is implied by this plan"
+      ]
+    }
+  ]
+}

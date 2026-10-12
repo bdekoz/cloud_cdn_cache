@@ -6,6 +6,8 @@ This report records the implemented result. The original [`assessment.20260804.m
 
 ## Executive outcome
 
+The [October China vendor review](china-vendor-review.20261011.md) records 31 vendor assessments and 25 reviewed primary sources, inventories overlapping legacy/canonical/derived datasets, and compares current Alibaba/Tencent directory IDs. It identifies missing AI service scopes, Huawei global coverage and Azure China. These are assessment findings and enrichment candidates; no canonical cloud locations or location totals change.
+
 The later [expanded infrastructure review](infrastructure-expansion.20261011.md) adds 84 separately counted connectivity assertions across 17 open categories. Satellite authorizations, Starlink private interconnect listings, optical/quantum systems, orbital-compute plans, fiber systems and distributed exchanges retain their source-specific units and dates. These records are outside the location and network totals below; their three-record Russia view is derived.
 
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.

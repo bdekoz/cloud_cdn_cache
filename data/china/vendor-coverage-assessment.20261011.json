@@ -1,0 +1,3805 @@
+{
+  "assessment_date": "2026-10-11",
+  "assessment_rows_are_not_physical_sites": true,
+  "canonical_location_records_generated": 0,
+  "coverage_gaps": [
+    {
+      "evidence_source_ids": [
+        "alibaba-directory",
+        "tencent-directory"
+      ],
+      "gap": "Freshness and product-scope gaps in Alibaba/Tencent canonical layers",
+      "impact": "Missing itemized IDs and specialized offerings; stale access/lifecycle semantics.",
+      "severity": "high"
+    },
+    {
+      "evidence_source_ids": [
+        "huawei-global",
+        "huawei-trust"
+      ],
+      "gap": "Huawei global regions/AZs absent; baseline covers only 9 mainland Cloud Connect regions",
+      "impact": "Broad vendor-name presence conceals international and product coverage gaps; aggregate totals cannot become sites.",
+      "severity": "high"
+    },
+    {
+      "evidence_source_ids": [
+        "azure-china",
+        "azure-china-operator"
+      ],
+      "gap": "Azure China absent from Azure public-region layer; AWS China has 2 region rows but no stable child AZ IDs",
+      "impact": "China sovereign/operated cloud partitions are incomplete; operator and service parity differ.",
+      "severity": "high"
+    },
+    {
+      "evidence_source_ids": [
+        "alibaba-model-studio",
+        "byteplus-modelark",
+        "kimi-endpoints",
+        "deepseek-api"
+      ],
+      "gap": "No canonical model-provider/hosting/endpoint deployment evidence",
+      "impact": "Model brand and API hostname cannot describe compute or data-storage geography.",
+      "severity": "high"
+    },
+    {
+      "evidence_source_ids": [
+        "alibaba-directory",
+        "alibaba-marketing"
+      ],
+      "gap": "Competing official source counts: Alibaba Johor marketing 3 AZs versus 2 explicit zone IDs",
+      "impact": "A synthesized third zone would fabricate identity; keep conflict unresolved.",
+      "severity": "medium"
+    },
+    {
+      "evidence_source_ids": [
+        "unicom-ai-pools"
+      ],
+      "gap": "Carrier cloud pool directories incomplete; Unicom AISP evidence is promotion-scoped",
+      "impact": "4 named endpoints cannot substitute for general ECS inventory or current availability.",
+      "severity": "high"
+    },
+    {
+      "evidence_source_ids": [
+        "bilibili-2025-report"
+      ],
+      "gap": "Bilibili content delivery and infrastructure absent",
+      "impact": "Consumer-platform infrastructure falls outside the current public-cloud and CDN cohorts.",
+      "severity": "medium"
+    },
+    {
+      "evidence_source_ids": [],
+      "gap": "CDN/colocation physical identities remain limited",
+      "impact": "Fleet counts, supplier counts, capacity and macro-market lists do not establish owned facilities.",
+      "severity": "medium"
+    },
+    {
+      "evidence_source_ids": [
+        "miit-green-facilities-announcement",
+        "miit-green-facilities-directory"
+      ],
+      "gap": "Government-recognized physical facilities not joined to vendors or cloud layers",
+      "impact": "The final 60-entry list is independent of cloud region inventories; buildings, campus phases and operators need identity reconciliation. Earlier consultation draft must not substitute for final recognition.",
+      "severity": "medium"
+    }
+  ],
+  "cross_source_rules": [
+    "Reconcile by vendor/operator, offering, source_record_id, jurisdiction, access scope and source date. Identical region tokens across different vendors are not identity keys.",
+    "Canonical layers, derived views, product matrices, marketing totals, legacy files, and quarantine are different dataset roles. Derived views must remain subsets and excluded from additive counts.",
+    "Keep competing source assertions with source dates and an explicit unresolved-conflict field. Missing listing is not proof of retirement.",
+    "Cloud region, AZ, resource pool, model endpoint, model deployment, GPU availability, training cluster, physical facility, fiber system and IX membership are different units.",
+    "Model developer, API operator, host/colocation operator, network operator, legal entity and brand/domain require explicit relationship evidence.",
+    "Record source publication/update and retrieval dates separately. Mark indexed snippets and failed direct retrieval explicitly; retrieval does not refresh an old publication.",
+    "Mainland China, Hong Kong, Macao and Taiwan remain distinct jurisdiction values. Overseas offerings need their own geography and access scope.",
+    "Coordinates remain null until supported; cloud city centroids and network-derived locations are not facility coordinates. Verify source CRS before WGS84 serialization.",
+    "Do not infer model execution geography from API edge location, provider headquarters, a region-token convention, or the location of its model developer."
+  ],
+  "datasets": [
+    {
+      "entity_types": {
+        "availability_zone": 105,
+        "cloud_region": 32
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 54,
+      "path": "data/alibaba/regions-and-zones.20260804.geojson",
+      "record_count": 137,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "d8255e4f28efec492801d9deece3e8e3954e5e8350d89945f3f0406d7a56382a"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 62,
+        "cloud_region": 22
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 9,
+      "path": "data/tencent/regions-and-zones.20260804.geojson",
+      "record_count": 84,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "c8d9882e958dfb46b2c5b2dcea2b7e0c8f92a3a2fd5e09fdd975c8a6c68cf363"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 19,
+        "cloud_region": 8
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 27,
+      "path": "data/baidu/regions-and-zones.20260804.geojson",
+      "record_count": 27,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "2bdb72842f3aa5f8d5993f685b54184cb75e51f434f13e79e144b5c2aecb1597"
+    },
+    {
+      "entity_types": {
+        "cloud_region": 9
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 9,
+      "path": "data/huawei/mainland-regions.20260804.geojson",
+      "record_count": 9,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "b26a65f83bd27b338b478f5545a9bc70af8eb3336c3772719cd737833981cecd"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 13,
+        "cloud_region": 4
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 17,
+      "path": "data/volcano/regions-and-zones.20260804.geojson",
+      "record_count": 17,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "075e65d2bd782541c95670eb9e46c3f2f2e9290d14a741b86922e4dfc6ce3fe5"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 14,
+        "cloud_region": 8
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 22,
+      "path": "data/kingsoft/mainland-regions-and-zones.20260804.geojson",
+      "record_count": 22,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "db876f1d7e8e7714d5cc1e13091e2fd0ec10284e7e8f441994bc87568a7746d4"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 10,
+        "cloud_region": 4
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 14,
+      "path": "data/jd/mainland-regions-and-zones.20260804.geojson",
+      "record_count": 14,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "3c57272c974f01aaf297aafacd065d7631f1fdfb118540a1b5a6ee4b09d820ef"
+    },
+    {
+      "entity_types": {
+        "cloud_resource_pool": 63
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 63,
+      "path": "data/tianyi/vpc-resource-pools.20260804.geojson",
+      "record_count": 63,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "9f2e1538d19e7de792e0b82186074d94fb2c52f3b23a9991630ee7f22839e54f"
+    },
+    {
+      "entity_types": {
+        "data_center": 4
+      },
+      "excluded_from_location_totals": false,
+      "geometry_null": 4,
+      "path": "data/chindata/data-centers.20260804.geojson",
+      "record_count": 4,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "canonical_layer",
+      "sha256": "28e320d929ca0523faf459f3f3e30d1c6937900568bba0279d7978253383c4fe"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 60,
+        "cloud_region": 13
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 24,
+      "path": "data/alibaba/mainland-regions-and-zones.20260804.geojson",
+      "record_count": 73,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "derived_view",
+      "sha256": "1423fdc945c70049dc2da73e2646f5394d8b6f2bc14e0f50b1726bd6c9a7b2b2"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 24,
+        "cloud_region": 7
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 2,
+      "path": "data/tencent/mainland-regions-and-zones.20260804.geojson",
+      "record_count": 31,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "derived_view",
+      "sha256": "019da1eed59ec47f9f70730fc96af681b0ee3b16cbc612853f9fca222d0c9b6a"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 13,
+        "cloud_region": 4
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 4,
+      "path": "data/tencent/mainland-specialized-regions-and-zones.20260804.geojson",
+      "record_count": 17,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "derived_view",
+      "sha256": "195daa19bcff484b64a025ff093c806fad5f30c84d3b06d01f11ac8344a7ece9"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 18,
+        "cloud_region": 7
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 25,
+      "path": "data/baidu/mainland-regions-and-zones.20260804.geojson",
+      "record_count": 25,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "derived_view",
+      "sha256": "bb667d648662152a3a8322bb64e6ca44c257719d101265a6544eb337f76d130c"
+    },
+    {
+      "entity_types": {
+        "availability_zone": 11,
+        "cloud_region": 3
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 14,
+      "path": "data/volcano/mainland-regions-and-zones.20260804.geojson",
+      "record_count": 14,
+      "retrieval_dates": [
+        "2026-08-04"
+      ],
+      "role": "derived_view",
+      "sha256": "983fc8a0bcef11dfc98a283511b0f5e8f5a52cfb9eb1d6fb4dfa0f0d200310c1"
+    },
+    {
+      "entity_types": {
+        "legacy_untyped": 19
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 0,
+      "path": "data/alibaba_cloud_data_centers_2.geojson",
+      "record_count": 19,
+      "retrieval_dates": [],
+      "role": "legacy_unreconciled",
+      "sha256": "40cdfc3598a1d64ca55404b27d81aa53651c80e93e0ee8eb2b9de314e7d17f6a"
+    },
+    {
+      "entity_types": {
+        "legacy_untyped": 41
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 0,
+      "path": "data/tencent_cloud_data_centers.geojson",
+      "record_count": 41,
+      "retrieval_dates": [],
+      "role": "legacy_unreconciled",
+      "sha256": "33f328f6f6828a21c5d2d9898a58af66885b519962c1adeff11922b2424615c9"
+    },
+    {
+      "entity_types": {
+        "legacy_untyped": 14
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 0,
+      "path": "data/quarantine/alibaba_cloud_data_centers_3.geojson",
+      "record_count": 14,
+      "retrieval_dates": [],
+      "role": "quarantined",
+      "sha256": "dfb83fd80fcbf32d143a42fa497f18b26d7dd8f2dfbd2b8ea7ed155f77bc7dcf"
+    },
+    {
+      "entity_types": {
+        "legacy_untyped": 35
+      },
+      "excluded_from_location_totals": true,
+      "geometry_null": 0,
+      "path": "data/quarantine/baidu_cloud_data_centers_2.geojson",
+      "record_count": 35,
+      "retrieval_dates": [],
+      "role": "quarantined",
+      "sha256": "077c2fd87ff5750854d64bfc01d658cafb6d0f18f80b732f96a3916233af9553"
+    }
+  ],
+  "directory_comparisons": {
+    "alibaba": {
+      "added_ids": [
+        "ap-northeast-2c",
+        "cn-beijing-finance-1",
+        "cn-beijing-finance-1f",
+        "cn-beijing-finance-1k",
+        "cn-beijing-finance-1l",
+        "cn-hangzhou-finance",
+        "cn-hangzhou-finance-b",
+        "cn-hangzhou-finance-c",
+        "cn-hangzhou-finance-d",
+        "cn-hangzhou-finance-h",
+        "cn-hangzhou-finance-i",
+        "cn-hangzhou-finance-j",
+        "cn-hangzhou-finance-k",
+        "cn-north-2-gov-1",
+        "cn-north-2-gov-1a",
+        "cn-north-2-gov-1b",
+        "cn-north-2-gov-1c",
+        "cn-north-2-gov-1d",
+        "cn-north-2-gov-1e",
+        "cn-shanghai-finance-1",
+        "cn-shanghai-finance-1a",
+        "cn-shanghai-finance-1b",
+        "cn-shanghai-finance-1f",
+        "cn-shanghai-finance-1g",
+        "cn-shanghai-finance-1k",
+        "cn-shanghai-finance-1z",
+        "cn-shenzhen-finance-1",
+        "cn-shenzhen-finance-1a",
+        "cn-shenzhen-finance-1b",
+        "cn-shenzhen-finance-1d",
+        "cn-shenzhen-finance-1e",
+        "sa-east-1",
+        "sa-east-1a",
+        "sa-east-1b"
+      ],
+      "baseline_path": "data/alibaba/regions-and-zones.20260804.geojson",
+      "baseline_record_count": 137,
+      "canonical_layer_updated": false,
+      "entity_types": {
+        "availability_zone": 133,
+        "cloud_region": 38
+      },
+      "ids_not_listed_in_reviewed_source": [],
+      "missing_listing_is_not_retirement_proof": true,
+      "reviewed_directory_record_count": 171,
+      "reviewed_directory_rows": [
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Qingdao)",
+          "source_record_id": "cn-qingdao"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-qingdao",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Qingdao Zone B",
+          "source_record_id": "cn-qingdao-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-qingdao",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Qingdao Zone C",
+          "source_record_id": "cn-qingdao-c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Beijing)",
+          "source_record_id": "cn-beijing"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone A",
+          "source_record_id": "cn-beijing-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone B",
+          "source_record_id": "cn-beijing-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone C",
+          "source_record_id": "cn-beijing-c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone D",
+          "source_record_id": "cn-beijing-d"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone E",
+          "source_record_id": "cn-beijing-e"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone F",
+          "source_record_id": "cn-beijing-f"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone G",
+          "source_record_id": "cn-beijing-g"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone H",
+          "source_record_id": "cn-beijing-h"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone I",
+          "source_record_id": "cn-beijing-i"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone J",
+          "source_record_id": "cn-beijing-j"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone K",
+          "source_record_id": "cn-beijing-k"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone L",
+          "source_record_id": "cn-beijing-l"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Zhangjiakou)",
+          "source_record_id": "cn-zhangjiakou"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-zhangjiakou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Zhangjiakou Zone A",
+          "source_record_id": "cn-zhangjiakou-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-zhangjiakou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Zhangjiakou Zone B",
+          "source_record_id": "cn-zhangjiakou-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-zhangjiakou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Zhangjiakou Zone C",
+          "source_record_id": "cn-zhangjiakou-c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Hohhot)",
+          "source_record_id": "cn-huhehaote"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-huhehaote",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hohhot Zone A",
+          "source_record_id": "cn-huhehaote-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-huhehaote",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hohhot Zone B",
+          "source_record_id": "cn-huhehaote-b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Ulanqab)",
+          "source_record_id": "cn-wulanchabu"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-wulanchabu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Ulanqab Zone A",
+          "source_record_id": "cn-wulanchabu-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-wulanchabu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Ulanqab Zone B",
+          "source_record_id": "cn-wulanchabu-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-wulanchabu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Ulanqab Zone C",
+          "source_record_id": "cn-wulanchabu-c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-wulanchabu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Ulanqab Zone D",
+          "source_record_id": "cn-wulanchabu-d"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Hangzhou)",
+          "source_record_id": "cn-hangzhou"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone B",
+          "source_record_id": "cn-hangzhou-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone E",
+          "source_record_id": "cn-hangzhou-e"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone F",
+          "source_record_id": "cn-hangzhou-f"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone G",
+          "source_record_id": "cn-hangzhou-g"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone H",
+          "source_record_id": "cn-hangzhou-h"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone I",
+          "source_record_id": "cn-hangzhou-i"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone J",
+          "source_record_id": "cn-hangzhou-j"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hangzhou Zone K",
+          "source_record_id": "cn-hangzhou-k"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Shanghai)",
+          "source_record_id": "cn-shanghai"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone A",
+          "source_record_id": "cn-shanghai-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone B",
+          "source_record_id": "cn-shanghai-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone C",
+          "source_record_id": "cn-shanghai-c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone D",
+          "source_record_id": "cn-shanghai-d"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone E",
+          "source_record_id": "cn-shanghai-e"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone F",
+          "source_record_id": "cn-shanghai-f"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone G",
+          "source_record_id": "cn-shanghai-g"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone K",
+          "source_record_id": "cn-shanghai-k"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone L",
+          "source_record_id": "cn-shanghai-l"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone M",
+          "source_record_id": "cn-shanghai-m"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone N",
+          "source_record_id": "cn-shanghai-n"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone O",
+          "source_record_id": "cn-shanghai-o"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Nanjing - Local Region) Closing Down",
+          "source_record_id": "cn-nanjing"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-nanjing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Nanjing - Local Region Zone A",
+          "source_record_id": "cn-nanjing-a"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Fuzhou - Local Region) Closing Down",
+          "source_record_id": "cn-fuzhou"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-fuzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Fuzhou - Local Region Zone A",
+          "source_record_id": "cn-fuzhou-a"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Wuhan - Local Region)",
+          "source_record_id": "cn-wuhan-lr"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-wuhan-lr",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Wuhan - Local Region Zone A",
+          "source_record_id": "cn-wuhan-lr-a"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Shenzhen)",
+          "source_record_id": "cn-shenzhen"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shenzhen Zone A",
+          "source_record_id": "cn-shenzhen-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shenzhen Zone B",
+          "source_record_id": "cn-shenzhen-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shenzhen Zone C",
+          "source_record_id": "cn-shenzhen-c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shenzhen Zone D",
+          "source_record_id": "cn-shenzhen-d"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shenzhen Zone E",
+          "source_record_id": "cn-shenzhen-e"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shenzhen Zone F",
+          "source_record_id": "cn-shenzhen-f"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Heyuan)",
+          "source_record_id": "cn-heyuan"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-heyuan",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Heyuan Zone A",
+          "source_record_id": "cn-heyuan-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-heyuan",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Heyuan Zone B",
+          "source_record_id": "cn-heyuan-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-heyuan",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Heyuan Zone C",
+          "source_record_id": "cn-heyuan-c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Guangzhou)",
+          "source_record_id": "cn-guangzhou"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-guangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Guangzhou Zone A",
+          "source_record_id": "cn-guangzhou-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-guangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Guangzhou Zone B",
+          "source_record_id": "cn-guangzhou-b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Chengdu)",
+          "source_record_id": "cn-chengdu"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-chengdu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Chengdu Zone A",
+          "source_record_id": "cn-chengdu-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-chengdu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Chengdu Zone B",
+          "source_record_id": "cn-chengdu-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-chengdu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Chengdu Zone C",
+          "source_record_id": "cn-chengdu-c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Zhongwei)",
+          "source_record_id": "cn-zhongwei"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-zhongwei",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Zhongwei Zone A",
+          "source_record_id": "cn-zhongwei-a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-zhongwei",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Zhongwei Zone B",
+          "source_record_id": "cn-zhongwei-b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "China (Hong Kong)",
+          "source_record_id": "cn-hongkong"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hongkong",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hong Kong Zone B",
+          "source_record_id": "cn-hongkong-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hongkong",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hong Kong Zone C",
+          "source_record_id": "cn-hongkong-c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hongkong",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hong Kong Zone D",
+          "source_record_id": "cn-hongkong-d"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Singapore",
+          "source_record_id": "ap-southeast-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone A",
+          "source_record_id": "ap-southeast-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone B",
+          "source_record_id": "ap-southeast-1b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone C",
+          "source_record_id": "ap-southeast-1c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone D",
+          "source_record_id": "ap-southeast-1d"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Malaysia (Kuala Lumpur)",
+          "source_record_id": "ap-southeast-3"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-3",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Kuala Lumpur Zone A",
+          "source_record_id": "ap-southeast-3a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-3",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Kuala Lumpur Zone B",
+          "source_record_id": "ap-southeast-3b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-3",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Kuala Lumpur Zone C",
+          "source_record_id": "ap-southeast-3c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Indonesia (Jakarta)",
+          "source_record_id": "ap-southeast-5"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-5",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Jakarta Zone A",
+          "source_record_id": "ap-southeast-5a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-5",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Jakarta Zone B",
+          "source_record_id": "ap-southeast-5b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-5",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Jakarta Zone C",
+          "source_record_id": "ap-southeast-5c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Philippines (Manila)",
+          "source_record_id": "ap-southeast-6"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-6",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Manila Zone A",
+          "source_record_id": "ap-southeast-6a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-6",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Manila Zone B",
+          "source_record_id": "ap-southeast-6b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Thailand (Bangkok)",
+          "source_record_id": "ap-southeast-7"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-7",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Bangkok Zone A",
+          "source_record_id": "ap-southeast-7a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-7",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Bangkok Zone B",
+          "source_record_id": "ap-southeast-7b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Malaysia (Johor)",
+          "source_record_id": "ap-southeast-8"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-8",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Johor Zone A",
+          "source_record_id": "ap-southeast-8a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-southeast-8",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Johor Zone B",
+          "source_record_id": "ap-southeast-8b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Japan (Tokyo)",
+          "source_record_id": "ap-northeast-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Tokyo Zone A",
+          "source_record_id": "ap-northeast-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Tokyo Zone B",
+          "source_record_id": "ap-northeast-1b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Tokyo Zone C",
+          "source_record_id": "ap-northeast-1c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Tokyo Zone D",
+          "source_record_id": "ap-northeast-1d"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Tokyo Zone E",
+          "source_record_id": "ap-northeast-1e"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "South Korea (Seoul)",
+          "source_record_id": "ap-northeast-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-2",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Seoul Zone A",
+          "source_record_id": "ap-northeast-2a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-2",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Seoul Zone B",
+          "source_record_id": "ap-northeast-2b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-northeast-2",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Seoul Zone C",
+          "source_record_id": "ap-northeast-2c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "US (Silicon Valley)",
+          "source_record_id": "us-west-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "us-west-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Silicon Valley Zone A",
+          "source_record_id": "us-west-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "us-west-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Silicon Valley Zone B",
+          "source_record_id": "us-west-1b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "US (Virginia)",
+          "source_record_id": "us-east-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "us-east-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Virginia Zone A",
+          "source_record_id": "us-east-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "us-east-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Virginia Zone B",
+          "source_record_id": "us-east-1b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Germany (Frankfurt)",
+          "source_record_id": "eu-central-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-central-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Frankfurt Zone A",
+          "source_record_id": "eu-central-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-central-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Frankfurt Zone B",
+          "source_record_id": "eu-central-1b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-central-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Frankfurt Zone C",
+          "source_record_id": "eu-central-1c"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "UK (London)",
+          "source_record_id": "eu-west-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-west-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "London Zone A",
+          "source_record_id": "eu-west-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-west-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "London Zone B",
+          "source_record_id": "eu-west-1b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "France (Paris)",
+          "source_record_id": "eu-west-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-west-2",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Paris Zone A",
+          "source_record_id": "eu-west-2a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-west-2",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Paris Zone B",
+          "source_record_id": "eu-west-2b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "UAE (Dubai)",
+          "source_record_id": "me-east-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "me-east-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Dubai Zone A",
+          "source_record_id": "me-east-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "me-east-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Dubai Zone B",
+          "source_record_id": "me-east-1b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "SAU (Riyadh - Partner Region)",
+          "source_record_id": "me-central-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "me-central-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Riyadh Zone A",
+          "source_record_id": "me-central-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "me-central-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Riyadh Zone B",
+          "source_record_id": "me-central-1b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Mexico",
+          "source_record_id": "na-south-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "na-south-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Mexico Zone A",
+          "source_record_id": "na-south-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "na-south-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Mexico Zone B",
+          "source_record_id": "na-south-1b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Brazil (São Paulo)",
+          "source_record_id": "sa-east-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "sa-east-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "São Paulo Zone A",
+          "source_record_id": "sa-east-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "sa-east-1",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "São Paulo Zone B",
+          "source_record_id": "sa-east-1b"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance",
+          "source_record_id": "cn-hangzhou-finance"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou-finance",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance Zone B",
+          "source_record_id": "cn-hangzhou-finance-b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou-finance",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance Zone C",
+          "source_record_id": "cn-hangzhou-finance-c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou-finance",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance Zone D",
+          "source_record_id": "cn-hangzhou-finance-d"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou-finance",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance Zone H",
+          "source_record_id": "cn-hangzhou-finance-h"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou-finance",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance Zone I",
+          "source_record_id": "cn-hangzhou-finance-i"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou-finance",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance Zone J",
+          "source_record_id": "cn-hangzhou-finance-j"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-hangzhou-finance",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 1 Finance Zone K",
+          "source_record_id": "cn-hangzhou-finance-k"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "finance_cloud",
+          "source_label": "China East 2 Finance",
+          "source_record_id": "cn-shanghai-finance-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 2 Finance Zone A",
+          "source_record_id": "cn-shanghai-finance-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 2 Finance Zone B",
+          "source_record_id": "cn-shanghai-finance-1b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 2 Finance Zone F",
+          "source_record_id": "cn-shanghai-finance-1f"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 2 Finance Zone G",
+          "source_record_id": "cn-shanghai-finance-1g"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 2 Finance Zone K",
+          "source_record_id": "cn-shanghai-finance-1k"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shanghai-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China East 2 Finance Zone Z",
+          "source_record_id": "cn-shanghai-finance-1z"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "finance_cloud",
+          "source_label": "China South 1 Finance",
+          "source_record_id": "cn-shenzhen-finance-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China South 1 Finance Zone A",
+          "source_record_id": "cn-shenzhen-finance-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China South 1 Finance Zone B",
+          "source_record_id": "cn-shenzhen-finance-1b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China South 1 Finance Zone D",
+          "source_record_id": "cn-shenzhen-finance-1d"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-shenzhen-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China South 1 Finance Zone E",
+          "source_record_id": "cn-shenzhen-finance-1e"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "finance_cloud",
+          "source_label": "China North 2 Finance (Preview)",
+          "source_record_id": "cn-beijing-finance-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China North 2 Finance (Preview) Zone F",
+          "source_record_id": "cn-beijing-finance-1f"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China North 2 Finance (Preview) Zone K",
+          "source_record_id": "cn-beijing-finance-1k"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-beijing-finance-1",
+          "sales_restricted_marked": false,
+          "service_scope": "finance_cloud",
+          "source_label": "China North 2 Finance (Preview) Zone L",
+          "source_record_id": "cn-beijing-finance-1l"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "government_cloud",
+          "source_label": "China North 2 Ali Gov 1",
+          "source_record_id": "cn-north-2-gov-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-north-2-gov-1",
+          "sales_restricted_marked": false,
+          "service_scope": "government_cloud",
+          "source_label": "China North 2 Ali Gov Zone A",
+          "source_record_id": "cn-north-2-gov-1a"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-north-2-gov-1",
+          "sales_restricted_marked": false,
+          "service_scope": "government_cloud",
+          "source_label": "China North 2 Ali Gov Zone B",
+          "source_record_id": "cn-north-2-gov-1b"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-north-2-gov-1",
+          "sales_restricted_marked": false,
+          "service_scope": "government_cloud",
+          "source_label": "China North 2 Ali Gov Zone C",
+          "source_record_id": "cn-north-2-gov-1c"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-north-2-gov-1",
+          "sales_restricted_marked": false,
+          "service_scope": "government_cloud",
+          "source_label": "China North 2 Ali Gov Zone D",
+          "source_record_id": "cn-north-2-gov-1d"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "cn-north-2-gov-1",
+          "sales_restricted_marked": false,
+          "service_scope": "government_cloud",
+          "source_label": "China North 2 Ali Gov Zone E",
+          "source_record_id": "cn-north-2-gov-1e"
+        }
+      ],
+      "scopes": {
+        "finance_cloud": {
+          "availability_zone": 20,
+          "cloud_region": 4
+        },
+        "government_cloud": {
+          "availability_zone": 5,
+          "cloud_region": 1
+        },
+        "public_cloud": {
+          "availability_zone": 108,
+          "cloud_region": 33
+        }
+      },
+      "source_id": "alibaba-directory"
+    },
+    "tencent": {
+      "added_ids": [
+        "ap-bangkok-3",
+        "ap-johorbahru",
+        "ap-johorbahru-1",
+        "ap-johorbahru-2",
+        "ap-osaka",
+        "ap-osaka-1",
+        "ap-shanghai-10",
+        "ap-shanghai-adc-5",
+        "ap-zhongwei-adc",
+        "ap-zhongwei-adc-1",
+        "eu-frankfurt-3",
+        "na-queretaro",
+        "na-queretaro-1"
+      ],
+      "baseline_path": "data/tencent/regions-and-zones.20260804.geojson",
+      "baseline_record_count": 84,
+      "canonical_layer_updated": false,
+      "entity_types": {
+        "availability_zone": 70,
+        "cloud_region": 26
+      },
+      "ids_not_listed_in_reviewed_source": [
+        "ap-shanghai-fsi-1"
+      ],
+      "missing_listing_is_not_retirement_proof": true,
+      "reviewed_directory_record_count": 96,
+      "reviewed_directory_rows": [
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "North China (Beijing)",
+          "source_record_id": "ap-beijing"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone 3",
+          "source_record_id": "ap-beijing-3"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone 4",
+          "source_record_id": "ap-beijing-4"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone 5",
+          "source_record_id": "ap-beijing-5"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone 6",
+          "source_record_id": "ap-beijing-6"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone 7",
+          "source_record_id": "ap-beijing-7"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Beijing Zone 8",
+          "source_record_id": "ap-beijing-8"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "East China (Shanghai)",
+          "source_record_id": "ap-shanghai"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone 2",
+          "source_record_id": "ap-shanghai-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone 3",
+          "source_record_id": "ap-shanghai-3"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone 4",
+          "source_record_id": "ap-shanghai-4"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone 5",
+          "source_record_id": "ap-shanghai-5"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone 8",
+          "source_record_id": "ap-shanghai-8"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone 9",
+          "source_record_id": "ap-shanghai-9"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Shanghai Zone 10",
+          "source_record_id": "ap-shanghai-10"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "East China (Nanjing)",
+          "source_record_id": "ap-nanjing"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-nanjing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Nanjing Zone 1",
+          "source_record_id": "ap-nanjing-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-nanjing",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Nanjing Zone 2",
+          "source_record_id": "ap-nanjing-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-nanjing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Nanjing Zone 3",
+          "source_record_id": "ap-nanjing-3"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "South China (Guangzhou)",
+          "source_record_id": "ap-guangzhou"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-guangzhou",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Guangzhou Zone 3",
+          "source_record_id": "ap-guangzhou-3"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-guangzhou",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Guangzhou Zone 4",
+          "source_record_id": "ap-guangzhou-4"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-guangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Guangzhou Zone 5",
+          "source_record_id": "ap-guangzhou-5"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-guangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Guangzhou Zone 6",
+          "source_record_id": "ap-guangzhou-6"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-guangzhou",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Guangzhou Zone 7",
+          "source_record_id": "ap-guangzhou-7"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Southwest China (Chengdu)",
+          "source_record_id": "ap-chengdu"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-chengdu",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Chengdu Zone 1",
+          "source_record_id": "ap-chengdu-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-chengdu",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Chengdu Zone 2",
+          "source_record_id": "ap-chengdu-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Southwest China (Chongqing)",
+          "source_record_id": "ap-chongqing"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-chongqing",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Chongqing Zone 1",
+          "source_record_id": "ap-chongqing-1"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Northwest China (Zhongwei)",
+          "source_record_id": "ap-zhongwei"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-zhongwei",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Zhongwei Zone 1",
+          "source_record_id": "ap-zhongwei-1"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Hong Kong (China), Macao (China), and Taiwan (China)",
+          "source_record_id": "ap-hongkong"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-hongkong",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Hong Kong Zone 1",
+          "source_record_id": "ap-hongkong-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-hongkong",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hong Kong (China) Zone 2",
+          "source_record_id": "ap-hongkong-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-hongkong",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Hong Kong (China) Zone 3",
+          "source_record_id": "ap-hongkong-3"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "specialized_cloud",
+          "source_label": "Beijing Finance Available only to finance institutions and enterprises upon application",
+          "source_record_id": "ap-beijing-fsi"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Beijing Finance Zone 1",
+          "source_record_id": "ap-beijing-fsi-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-beijing-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Beijing Finance Zone 2",
+          "source_record_id": "ap-beijing-fsi-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Finance Available only to finance institutions and enterprises upon application",
+          "source_record_id": "ap-shanghai-fsi"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Finance Zone 2",
+          "source_record_id": "ap-shanghai-fsi-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Finance Zone 3",
+          "source_record_id": "ap-shanghai-fsi-3"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Finance Zone 4",
+          "source_record_id": "ap-shanghai-fsi-4"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "specialized_cloud",
+          "source_label": "Shenzhen Finance Available only to finance institutions and enterprises upon application",
+          "source_record_id": "ap-shenzhen-fsi"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shenzhen-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shenzhen Finance Zone 1",
+          "source_record_id": "ap-shenzhen-fsi-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shenzhen-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shenzhen Finance Zone 2",
+          "source_record_id": "ap-shenzhen-fsi-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shenzhen-fsi",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shenzhen Finance Zone 3",
+          "source_record_id": "ap-shenzhen-fsi-3"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Self-driving Cloud",
+          "source_record_id": "ap-shanghai-adc"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-adc",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Self-driving Cloud Zone 1",
+          "source_record_id": "ap-shanghai-adc-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-adc",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Self-driving Cloud Zone 2",
+          "source_record_id": "ap-shanghai-adc-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-adc",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Self-driving Cloud Zone 3",
+          "source_record_id": "ap-shanghai-adc-3"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-adc",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Self-driving Cloud Zone 4",
+          "source_record_id": "ap-shanghai-adc-4"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-shanghai-adc",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Shanghai Self-driving Cloud Zone 5",
+          "source_record_id": "ap-shanghai-adc-5"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "specialized_cloud",
+          "source_label": "Zhongwei Self-driving Cloud",
+          "source_record_id": "ap-zhongwei-adc"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-zhongwei-adc",
+          "sales_restricted_marked": true,
+          "service_scope": "specialized_cloud",
+          "source_label": "Zhongwei Self-driving Cloud Zone 1",
+          "source_record_id": "ap-zhongwei-adc-1"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Singapore)Coverage: Southeast Asia",
+          "source_record_id": "ap-singapore"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-singapore",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone 1",
+          "source_record_id": "ap-singapore-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-singapore",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone 2",
+          "source_record_id": "ap-singapore-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-singapore",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone 3",
+          "source_record_id": "ap-singapore-3"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-singapore",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Singapore Zone 4",
+          "source_record_id": "ap-singapore-4"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Johor Bahru)Coverage: Southeast Asia",
+          "source_record_id": "ap-johorbahru"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-johorbahru",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Johorbahru Zone 1",
+          "source_record_id": "ap-johorbahru-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-johorbahru",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Johorbahru Zone 2",
+          "source_record_id": "ap-johorbahru-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Jakarta)Coverage: Southeast Asia",
+          "source_record_id": "ap-jakarta"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-jakarta",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Jakarta Zone 1",
+          "source_record_id": "ap-jakarta-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-jakarta",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Jakarta Zone 2",
+          "source_record_id": "ap-jakarta-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-jakarta",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Jakarta Zone 3",
+          "source_record_id": "ap-jakarta-3"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Seoul)Coverage: Northeast Asia",
+          "source_record_id": "ap-seoul"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-seoul",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Seoul Zone 1",
+          "source_record_id": "ap-seoul-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-seoul",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Seoul Zone 2",
+          "source_record_id": "ap-seoul-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Tokyo)Coverage: Northeast Asia",
+          "source_record_id": "ap-tokyo"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-tokyo",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Tokyo Zone 1",
+          "source_record_id": "ap-tokyo-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-tokyo",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Tokyo Zone 2",
+          "source_record_id": "ap-tokyo-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Osaka)Coverage: Northeast Asia",
+          "source_record_id": "ap-osaka"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-osaka",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Osaka Zone 1",
+          "source_record_id": "ap-osaka-1"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Bangkok)Coverage: Southeast Asia",
+          "source_record_id": "ap-bangkok"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-bangkok",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Bangkok Zone 1",
+          "source_record_id": "ap-bangkok-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-bangkok",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Bangkok Zone 2",
+          "source_record_id": "ap-bangkok-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "ap-bangkok",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Bangkok Zone 3",
+          "source_record_id": "ap-bangkok-3"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Asia Pacific and the Middle East (Saudi Arabia)Coverage: Middle East",
+          "source_record_id": "me-saudi-arabia"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "me-saudi-arabia",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Riyadh Zone 1",
+          "source_record_id": "me-saudi-arabia-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "me-saudi-arabia",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Riyadh Zone 2",
+          "source_record_id": "me-saudi-arabia-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Europe and the Americas (São Paulo)Coverage: South America",
+          "source_record_id": "sa-saopaulo"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "sa-saopaulo",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "São Paulo Zone 1",
+          "source_record_id": "sa-saopaulo-1"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Europe and the Americas (Queretaro)Coverage: North America",
+          "source_record_id": "na-queretaro"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "na-queretaro",
+          "sales_restricted_marked": true,
+          "service_scope": "public_cloud",
+          "source_label": "Queretaro Zone 1",
+          "source_record_id": "na-queretaro-1"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Europe and the Americas (Silicon Valley)Coverage: Western United States",
+          "source_record_id": "na-siliconvalley"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "na-siliconvalley",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Silicon Valley Zone 1",
+          "source_record_id": "na-siliconvalley-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "na-siliconvalley",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Silicon Valley Zone 2",
+          "source_record_id": "na-siliconvalley-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Europe and the Americas (Virginia)Coverage: Eastern United States",
+          "source_record_id": "na-ashburn"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "na-ashburn",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Virginia Zone 1",
+          "source_record_id": "na-ashburn-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "na-ashburn",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Virginia Zone 2",
+          "source_record_id": "na-ashburn-2"
+        },
+        {
+          "entity_type": "cloud_region",
+          "service_scope": "public_cloud",
+          "source_label": "Europe and the Americas (Frankfurt)Coverage: Europe",
+          "source_record_id": "eu-frankfurt"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-frankfurt",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Frankfurt Zone 1",
+          "source_record_id": "eu-frankfurt-1"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-frankfurt",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Frankfurt Zone 2",
+          "source_record_id": "eu-frankfurt-2"
+        },
+        {
+          "entity_type": "availability_zone",
+          "parent_source_record_id": "eu-frankfurt",
+          "sales_restricted_marked": false,
+          "service_scope": "public_cloud",
+          "source_label": "Frankfurt Zone 3",
+          "source_record_id": "eu-frankfurt-3"
+        }
+      ],
+      "scopes": {
+        "public_cloud": {
+          "availability_zone": 56,
+          "cloud_region": 21
+        },
+        "specialized_cloud": {
+          "availability_zone": 14,
+          "cloud_region": 5
+        }
+      },
+      "source_id": "tencent-directory"
+    }
+  },
+  "enrichment_plan": [
+    {
+      "acceptance": [
+        "Derived IDs are never added to canonical totals",
+        "fal is a global platform; seedance2.ai remains independent with unknown jurisdiction",
+        "Old unverified geometry/capacity never gains authority through an alias join"
+      ],
+      "deliverables": [
+        "Vendor/operator/brand/offering registry with evidence-backed relationships",
+        "Source-role inventory of canonical, derived, legacy, quarantined and product-specific datasets",
+        "Explicit assertion conflicts and alias candidates"
+      ],
+      "name": "Reconcile vendor identities and overlapping datasets",
+      "phase": 1,
+      "priority": "P0"
+    },
+    {
+      "acceptance": [
+        "Every new region/zone has explicit provider ID, source, scope and lifecycle/access evidence",
+        "Absent old IDs trigger review rather than automatic deletion",
+        "Azure China child AZ IDs are not manufactured from zone-support flags",
+        "Johor conflict is retained until a source explicitly identifies the additional zone"
+      ],
+      "deliverables": [
+        "Alibaba/Tencent October directories with historical ID diffs",
+        "Huawei global product-scoped region/zone inventory where explicit IDs are available",
+        "Separate Azure China operated-region layer and AWS China operator/partition annotations",
+        "Current carrier-pool source assessment"
+      ],
+      "name": "Refresh itemized cloud coverage and China partitions",
+      "phase": 2,
+      "priority": "P0"
+    },
+    {
+      "acceptance": [
+        "Access region, static storage region and inference execution scope are distinct fields",
+        "Model-developer/host relationships are explicit and many-to-many",
+        "No API endpoint becomes a physical facility record",
+        "GPU product support remains distinct from available stock or installed capacity"
+      ],
+      "deliverables": [
+        "Model Studio 6 regional declarations and service deployment scopes",
+        "BytePlus 2 product-region declarations with routing caveat",
+        "Kimi 4 audience/product-scoped base URLs; direct DeepSeek service",
+        "SiliconFlow, MiniMax, Z.ai/GLM and Kuaishou/Kling operator/service records",
+        "Unicom 4 promotion-scoped AISP pools pending current availability",
+        "UCloud bare-metal and Qiniu resource-pool inventories"
+      ],
+      "name": "Add AI service coverage and new vendors",
+      "phase": 3,
+      "priority": "P1"
+    },
+    {
+      "acceptance": [
+        "Physical identities, ownership/operation roles and lifecycle are sourced",
+        "Campus, building, rack count, MW and training-compute capacity remain separate units",
+        "New infrastructure categories use existing extensible evidence framework where appropriate"
+      ],
+      "deliverables": [
+        "Bilibili/ByteDance/Kuaishou owned or leased delivery infrastructure evidence",
+        "GDS/VNET/Chindata named facilities and campus/building aliases",
+        "Carrier backbone, exchanges, cross-border links and AI compute hubs where itemized official evidence exists",
+        "Final MIIT 2025 recognition list: named-building evidence and DataPort, Runze, Heying, Meili Cloud operator candidates; compare consultation/final editions before joins"
+      ],
+      "name": "Expand physical and network infrastructure",
+      "phase": 4,
+      "priority": "P1"
+    },
+    {
+      "acceptance": [
+        "Registry or measured network presence does not prove ownership or server location",
+        "Provider declarations and observations remain separate assertions",
+        "No measurement or paid/credentialed API execution is implied by this plan"
+      ],
+      "deliverables": [
+        "Public ASN/APNIC/BGP and PeeringDB/IX relationships with observation dates",
+        "Bounded reproducible DNS/TLS/HTTP observations for documented public endpoints",
+        "Freshness and explicit ID-difference checks"
+      ],
+      "name": "Corroborate and monitor coverage",
+      "phase": 5,
+      "priority": "P2"
+    }
+  ],
+  "foreign_hyperscaler_china_partitions": {
+    "aws": {
+      "china_record_count": 2,
+      "entity_types": {
+        "cloud_region": 2
+      },
+      "path": "data/aws/regions-and-zones.20260805.geojson",
+      "sha256": "778c3c6b3901298ac27530b64753b6c5c2ae2b0d7be9a6dc2af7d528a1a3337f",
+      "source_record_ids": [
+        "cn-north-1",
+        "cn-northwest-1"
+      ]
+    },
+    "microsoft": {
+      "china_record_count": 0,
+      "entity_types": {},
+      "path": "data/microsoft/cloud-regions.20260805.geojson",
+      "sha256": "253f7f12c28a290c0dc433ee455bbcbb66a58f9ec97bc14fdc40bc73172a03cd",
+      "source_record_ids": []
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/china/review-evidence.20261011.json",
+      "sha256": "1dfdbad987f9f05c6c7a4a4f7ea63e80d426ef5797478d261bf8f0d0129b79cb"
+    },
+    {
+      "path": "data/china/enrichment-plan.20261011.json",
+      "sha256": "5940ac9f612270016a9cba7844544aa44182528167e1093e380f58246e8f7285"
+    },
+    {
+      "path": "data/manifest.20260805.json",
+      "sha256": "35d6d0edd250e4aa7528dfa5b0bff68714dc45c4c2637ea568cadb960b912679"
+    }
+  ],
+  "limitations": [
+    "Review facts are provider/filing declarations or indexed first-party extracts; no active network measurements or independent capacity inventory.",
+    "Search-index extracts can be stale; capture_method and source dates are retained. Source-specific retrieval failures remain explicit.",
+    "The review does not establish GPU stock, training-cluster ownership, facility coordinates, or a complete vendor universe.",
+    "Canonical August layers are not refreshed by this assessment. Missing rows remain enrichment candidates."
+  ],
+  "scope": "China-based cloud/platform/model vendors, overseas services, non-China requested platforms, and unresolved identities; coverage cohort, not a market-share ranking.",
+  "source_count": 25,
+  "sources": [
+    {
+      "capture_method": "web_reader_table_extract",
+      "facts": {
+        "table_lines": [
+          "### Alibaba Public Cloud",
+          "* Regions and zones in China",
+          "Region name  | Region ID  | Number of zones  | Zone name  | Zone ID",
+          "China (Qingdao)  | cn-qingdao  | 2  | Qingdao Zone B  | cn-qingdao-b",
+          "Qingdao Zone C  | cn-qingdao-c",
+          "China (Beijing)  | cn-beijing  | 12  | Beijing Zone A  | cn-beijing-a",
+          "Beijing Zone B  | cn-beijing-b",
+          "Beijing Zone C  | cn-beijing-c",
+          "Beijing Zone D  | cn-beijing-d",
+          "Beijing Zone E  | cn-beijing-e",
+          "Beijing Zone F  | cn-beijing-f",
+          "Beijing Zone G  | cn-beijing-g",
+          "Beijing Zone H  | cn-beijing-h",
+          "Beijing Zone I  | cn-beijing-i",
+          "Beijing Zone J  | cn-beijing-j",
+          "Beijing Zone K  | cn-beijing-k",
+          "Beijing Zone L  | cn-beijing-l",
+          "China (Zhangjiakou)  | cn-zhangjiakou  | 3  | Zhangjiakou Zone A  | cn-zhangjiakou-a",
+          "Zhangjiakou Zone B  | cn-zhangjiakou-b",
+          "Zhangjiakou Zone C  | cn-zhangjiakou-c",
+          "China (Hohhot)  | cn-huhehaote  | 2  | Hohhot Zone A  | cn-huhehaote-a",
+          "Hohhot Zone B  | cn-huhehaote-b",
+          "China (Ulanqab)  | cn-wulanchabu  | 4  | Ulanqab Zone A  | cn-wulanchabu-a",
+          "Ulanqab Zone B  | cn-wulanchabu-b",
+          "Ulanqab Zone C  | cn-wulanchabu-c",
+          "Ulanqab Zone D  | cn-wulanchabu-d",
+          "China (Hangzhou)  | cn-hangzhou  | 8  | Hangzhou Zone B  | cn-hangzhou-b",
+          "Hangzhou Zone E  | cn-hangzhou-e",
+          "Hangzhou Zone F  | cn-hangzhou-f",
+          "Hangzhou Zone G  | cn-hangzhou-g",
+          "Hangzhou Zone H  | cn-hangzhou-h",
+          "Hangzhou Zone I  | cn-hangzhou-i",
+          "Hangzhou Zone J  | cn-hangzhou-j",
+          "Hangzhou Zone K  | cn-hangzhou-k",
+          "China (Shanghai)  | cn-shanghai  | 12  | Shanghai Zone A  | cn-shanghai-a",
+          "Shanghai Zone B  | cn-shanghai-b",
+          "Shanghai Zone C  | cn-shanghai-c",
+          "Shanghai Zone D  | cn-shanghai-d",
+          "Shanghai Zone E  | cn-shanghai-e",
+          "Shanghai Zone F  | cn-shanghai-f",
+          "Shanghai Zone G  | cn-shanghai-g",
+          "Shanghai Zone K  | cn-shanghai-k",
+          "Shanghai Zone L  | cn-shanghai-l",
+          "Shanghai Zone M  | cn-shanghai-m",
+          "Shanghai Zone N  | cn-shanghai-n",
+          "Shanghai Zone O  | cn-shanghai-o",
+          "China (Nanjing - Local Region) Closing Down  | cn-nanjing  | 1  | Nanjing - Local Region Zone A  | cn-nanjing-a",
+          "China (Fuzhou - Local Region) Closing Down  | cn-fuzhou  | 1  | Fuzhou - Local Region Zone A  | cn-fuzhou-a",
+          "China (Wuhan - Local Region)  | cn-wuhan-lr  | 1  | Wuhan - Local Region Zone A  | cn-wuhan-lr-a",
+          "China (Shenzhen)  | cn-shenzhen  | 6  | Shenzhen Zone A  | cn-shenzhen-a",
+          "Shenzhen Zone B  | cn-shenzhen-b",
+          "Shenzhen Zone C  | cn-shenzhen-c",
+          "Shenzhen Zone D  | cn-shenzhen-d",
+          "Shenzhen Zone E  | cn-shenzhen-e",
+          "Shenzhen Zone F  | cn-shenzhen-f",
+          "China (Heyuan)  | cn-heyuan  | 3  | Heyuan Zone A  | cn-heyuan-a",
+          "Heyuan Zone B  | cn-heyuan-b",
+          "Heyuan Zone C  | cn-heyuan-c",
+          "China (Guangzhou)  | cn-guangzhou  | 2  | Guangzhou Zone A  | cn-guangzhou-a",
+          "Guangzhou Zone B  | cn-guangzhou-b",
+          "China (Chengdu)  | cn-chengdu  | 3  | Chengdu Zone A  | cn-chengdu-a",
+          "Chengdu Zone B  | cn-chengdu-b",
+          "Chengdu Zone C  | cn-chengdu-c",
+          "China (Zhongwei)  | cn-zhongwei  | 2  | Zhongwei Zone A  | cn-zhongwei-a",
+          "Zhongwei Zone B  | cn-zhongwei-b",
+          "China (Hong Kong)  | cn-hongkong  | 3  | Hong Kong Zone B  | cn-hongkong-b",
+          "Hong Kong Zone C  | cn-hongkong-c",
+          "Hong Kong Zone D  | cn-hongkong-d",
+          "* Regions and zones outside China",
+          "Region name  | Region ID  | Number of zones  | Zone name  | Zone ID",
+          "Singapore  | ap-southeast-1  | 4  | Singapore Zone A  | ap-southeast-1a",
+          "Singapore Zone B  | ap-southeast-1b",
+          "Singapore Zone C  | ap-southeast-1c",
+          "Singapore Zone D  | ap-southeast-1d",
+          "Malaysia (Kuala Lumpur)  | ap-southeast-3  | 3  | Kuala Lumpur Zone A  | ap-southeast-3a",
+          "Kuala Lumpur Zone B  | ap-southeast-3b",
+          "Kuala Lumpur Zone C  | ap-southeast-3c",
+          "Indonesia (Jakarta)  | ap-southeast-5  | 3  | Jakarta Zone A  | ap-southeast-5a",
+          "Jakarta Zone B  | ap-southeast-5b",
+          "Jakarta Zone C  | ap-southeast-5c",
+          "Philippines (Manila)  | ap-southeast-6  | 2  | Manila Zone A  | ap-southeast-6a",
+          "Manila Zone B  | ap-southeast-6b",
+          "Thailand (Bangkok)  | ap-southeast-7  | 2  | Bangkok Zone A  | ap-southeast-7a",
+          "Bangkok Zone B  | ap-southeast-7b",
+          "Malaysia (Johor)  | ap-southeast-8  | 2  | Johor Zone A  | ap-southeast-8a",
+          "Johor Zone B  | ap-southeast-8b",
+          "Japan (Tokyo)  | ap-northeast-1  | 5  | Tokyo Zone A  | ap-northeast-1a",
+          "Tokyo Zone B  | ap-northeast-1b",
+          "Tokyo Zone C  | ap-northeast-1c",
+          "Tokyo Zone D  | ap-northeast-1d",
+          "Tokyo Zone E  | ap-northeast-1e",
+          "South Korea (Seoul)  | ap-northeast-2  | 3  | Seoul Zone A  | ap-northeast-2a",
+          "Seoul Zone B  | ap-northeast-2b",
+          "Seoul Zone C  | ap-northeast-2c",
+          "US (Silicon Valley)  | us-west-1  | 2  | Silicon Valley Zone A  | us-west-1a",
+          "Silicon Valley Zone B  | us-west-1b",
+          "US (Virginia)  | us-east-1  | 2  | Virginia Zone A  | us-east-1a",
+          "Virginia Zone B  | us-east-1b",
+          "Germany (Frankfurt)  | eu-central-1  | 3  | Frankfurt Zone A  | eu-central-1a",
+          "Frankfurt Zone B  | eu-central-1b",
+          "Frankfurt Zone C  | eu-central-1c",
+          "UK (London)  | eu-west-1  | 2  | London Zone A  | eu-west-1a",
+          "London Zone B  | eu-west-1b",
+          "France (Paris)  | eu-west-2  | 2  | Paris Zone A  | eu-west-2a",
+          "Paris Zone B  | eu-west-2b",
+          "UAE (Dubai)  | me-east-1  | 2  | Dubai Zone A  | me-east-1a",
+          "Dubai Zone B  | me-east-1b",
+          "SAU (Riyadh - Partner Region)  | me-central-1  | 2  | Riyadh Zone A  | me-central-1a",
+          "Riyadh Zone B  | me-central-1b",
+          "Mexico  | na-south-1  | 2  | Mexico Zone A  | na-south-1a",
+          "Mexico Zone B  | na-south-1b",
+          "Brazil (São Paulo)  | sa-east-1  | 2  | São Paulo Zone A  | sa-east-1a",
+          "São Paulo Zone B  | sa-east-1b",
+          "### Alibaba Finance Cloud",
+          "* Regions and zones in China",
+          "Region name  | Region ID  | Region  | Number of zones  | Zone name  | Zone ID",
+          "China East 1 Finance  | cn-hangzhou-finance  | China (Hangzhou)  | 7  | China East 1 Finance Zone B  | cn-hangzhou-finance-b",
+          "China East 1 Finance Zone C  | cn-hangzhou-finance-c",
+          "China East 1 Finance Zone D  | cn-hangzhou-finance-d",
+          "China East 1 Finance Zone H  | cn-hangzhou-finance-h",
+          "China East 1 Finance Zone I  | cn-hangzhou-finance-i",
+          "China East 1 Finance Zone J  | cn-hangzhou-finance-j",
+          "China East 1 Finance Zone K  | cn-hangzhou-finance-k",
+          "China East 2 Finance  | cn-shanghai-finance-1  | China (Shanghai)  | 6  | China East 2 Finance Zone A  | cn-shanghai-finance-1a",
+          "China East 2 Finance Zone B  | cn-shanghai-finance-1b",
+          "China East 2 Finance Zone F  | cn-shanghai-finance-1f",
+          "China East 2 Finance Zone G  | cn-shanghai-finance-1g",
+          "China East 2 Finance Zone K  | cn-shanghai-finance-1k",
+          "China East 2 Finance Zone Z  | cn-shanghai-finance-1z",
+          "China South 1 Finance  | cn-shenzhen-finance-1  | Shenzhen  | 4  | China South 1 Finance Zone A  | cn-shenzhen-finance-1a",
+          "China South 1 Finance Zone B  | cn-shenzhen-finance-1b",
+          "China South 1 Finance Zone D  | cn-shenzhen-finance-1d",
+          "China South 1 Finance Zone E  | cn-shenzhen-finance-1e",
+          "China North 2 Finance (Preview)  | cn-beijing-finance-1  | China (Beijing)  | 3  | China North 2 Finance (Preview) Zone F  | cn-beijing-finance-1f",
+          "China North 2 Finance (Preview) Zone K  | cn-beijing-finance-1k",
+          "China North 2 Finance (Preview) Zone L  | cn-beijing-finance-1l",
+          "* Regions and zones outside China",
+          "### Alibaba Gov Cloud",
+          "* Regions and zones in China",
+          "Region name  | Region ID  | Region  | Number of zones  | Zone name  | Zone ID",
+          "China North 2 Ali Gov 1  | cn-north-2-gov-1  | China (Beijing)  | 5  | China North 2 Ali Gov Zone A  | cn-north-2-gov-1a",
+          "China North 2 Ali Gov Zone B  | cn-north-2-gov-1b",
+          "China North 2 Ali Gov Zone C  | cn-north-2-gov-1c",
+          "China North 2 Ali Gov Zone D  | cn-north-2-gov-1d",
+          "China North 2 Ali Gov Zone E  | cn-north-2-gov-1e"
+        ]
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "alibaba-directory",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-10",
+      "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "johor_declared_zone_count": 3,
+        "release_labels": {
+          "johor": 2026,
+          "paris": 2026,
+          "sao_paulo": 2026,
+          "zhongwei": 2026
+        },
+        "scope": "public marketing page; fewer public regions than directory; excludes closing-down local regions"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "alibaba-marketing",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.alibabacloud.com/en/global-locations"
+    },
+    {
+      "capture_method": "web_reader_table_extract",
+      "facts": {
+        "asterisk_meaning": "Sales availability differs; contact sales. An asterisk does not establish retirement.",
+        "table_lines": [
+          "### China",
+          "Region  | Region ID  | Number of AZs  | AZ  | AZ ID",
+          "North China (Beijing)  | ap-beijing  | 6  | Beijing Zone 3  | ap-beijing-3",
+          "Beijing Zone 4^{*}  | ap-beijing-4",
+          "Beijing Zone 5^{*}  | ap-beijing-5",
+          "Beijing Zone 6  | ap-beijing-6",
+          "Beijing Zone 7  | ap-beijing-7",
+          "Beijing Zone 8  | ap-beijing-8",
+          "East China (Shanghai)  | ap-shanghai  | 7  | Shanghai Zone 2  | ap-shanghai-2",
+          "Shanghai Zone 3^{*}  | ap-shanghai-3",
+          "Shanghai Zone 4^{*}  | ap-shanghai-4",
+          "Shanghai Zone 5  | ap-shanghai-5",
+          "Shanghai Zone 8  | ap-shanghai-8",
+          "Shanghai Zone 9^{*}  | ap-shanghai-9",
+          "Shanghai Zone 10^{*}  | ap-shanghai-10",
+          "East China (Nanjing)  | ap-nanjing  | 3  | Nanjing Zone 1  | ap-nanjing-1",
+          "Nanjing Zone 2^{*}  | ap-nanjing-2",
+          "Nanjing Zone 3  | ap-nanjing-3",
+          "South China (Guangzhou)  | ap-guangzhou  | 5  | Guangzhou Zone 3^{*}  | ap-guangzhou-3",
+          "Guangzhou Zone 4^{*}  | ap-guangzhou-4",
+          "Guangzhou Zone 5  | ap-guangzhou-5",
+          "Guangzhou Zone 6  | ap-guangzhou-6",
+          "Guangzhou Zone 7  | ap-guangzhou-7",
+          "Southwest China (Chengdu)  | ap-chengdu  | 2  | Chengdu Zone 1  | ap-chengdu-1",
+          "Chengdu Zone 2^{*}  | ap-chengdu-2",
+          "Southwest China (Chongqing)  | ap-chongqing  | 1  | Chongqing Zone 1  | ap-chongqing-1",
+          "Northwest China (Zhongwei)  | ap-zhongwei  | 1  | Zhongwei Zone 1^{*}  | ap-zhongwei-1",
+          "Hong Kong (China), Macao (China), and Taiwan (China)  | ap-hongkong  | 3  | Hong Kong Zone 1^{*}  | ap-hongkong-1",
+          "Hong Kong (China) Zone 2  | ap-hongkong-2",
+          "Hong Kong (China) Zone 3  | ap-hongkong-3",
+          "Beijing Finance Available only to finance institutions and enterprises upon application  | ap-beijing-fsi  | 2  | Beijing Finance Zone 1^{*}  | ap-beijing-fsi-1",
+          "Beijing Finance Zone 2^{*}  | ap-beijing-fsi-2",
+          "Shanghai Finance Available only to finance institutions and enterprises upon application  | ap-shanghai-fsi  | 3  | Shanghai Finance Zone 2^{*}  | ap-shanghai-fsi-2",
+          "Shanghai Finance Zone 3^{*}  | ap-shanghai-fsi-3",
+          "Shanghai Finance Zone 4^{*}  | ap-shanghai-fsi-4",
+          "Shenzhen Finance Available only to finance institutions and enterprises upon application  | ap-shenzhen-fsi  | 3  | Shenzhen Finance Zone 1^{*}  | ap-shenzhen-fsi-1",
+          "Shenzhen Finance Zone 2^{*}  | ap-shenzhen-fsi-2",
+          "Shenzhen Finance Zone 3^{*}  | ap-shenzhen-fsi-3",
+          "Shanghai Self-driving Cloud  | ap-shanghai-adc  | 5  | Shanghai Self-driving Cloud Zone 1^{*}  | ap-shanghai-adc-1",
+          "Shanghai Self-driving Cloud Zone 2^{*}  | ap-shanghai-adc-2",
+          "Shanghai Self-driving Cloud Zone 3^{*}  | ap-shanghai-adc-3",
+          "Shanghai Self-driving Cloud Zone 4^{*}  | ap-shanghai-adc-4",
+          "Shanghai Self-driving Cloud Zone 5^{*}  | ap-shanghai-adc-5",
+          "Zhongwei Self-driving Cloud  | ap-zhongwei-adc  | 1  | Zhongwei Self-driving Cloud Zone 1^{*}  | ap-zhongwei-adc-1",
+          "### Regions Outside China",
+          "Region  | Region ID  | Number of AZs  | AZ  | AZ ID",
+          "Asia Pacific and the Middle East (Singapore)Coverage: Southeast Asia  | ap-singapore  | 4  | Singapore Zone 1  | ap-singapore-1",
+          "Singapore Zone 2  | ap-singapore-2",
+          "Singapore Zone 3^{*}  | ap-singapore-3",
+          "Singapore Zone 4^{*}  | ap-singapore-4",
+          "Asia Pacific and the Middle East (Johor Bahru)Coverage: Southeast Asia  | ap-johorbahru  | 2  | Johorbahru Zone 1  | ap-johorbahru-1",
+          "Johorbahru Zone 2  | ap-johorbahru-2",
+          "Asia Pacific and the Middle East (Jakarta)Coverage: Southeast Asia  | ap-jakarta  | 3  | Jakarta Zone 1  | ap-jakarta-1",
+          "Jakarta Zone 2  | ap-jakarta-2",
+          "Jakarta Zone 3^{*}  | ap-jakarta-3",
+          "Asia Pacific and the Middle East (Seoul)Coverage: Northeast Asia  | ap-seoul  | 2  | Seoul Zone 1  | ap-seoul-1",
+          "Seoul Zone 2  | ap-seoul-2",
+          "Asia Pacific and the Middle East (Tokyo)Coverage: Northeast Asia  | ap-tokyo  | 2  | Tokyo Zone 1  | ap-tokyo-1",
+          "Tokyo Zone 2  | ap-tokyo-2",
+          "Asia Pacific and the Middle East (Osaka)Coverage: Northeast Asia  | ap-osaka  | 1  | Osaka Zone 1  | ap-osaka-1",
+          "Asia Pacific and the Middle East (Bangkok)Coverage: Southeast Asia  | ap-bangkok  | 3  | Bangkok Zone 1  | ap-bangkok-1",
+          "Bangkok Zone 2  | ap-bangkok-2",
+          "Bangkok Zone 3^{*}  | ap-bangkok-3",
+          "Asia Pacific and the Middle East (Saudi Arabia)Coverage: Middle East  | me-saudi-arabia  | 2  | Riyadh Zone 1  | me-saudi-arabia-1",
+          "Riyadh Zone 2  | me-saudi-arabia-2",
+          "Europe and the Americas (São Paulo)Coverage: South America  | sa-saopaulo  | 1  | São Paulo Zone 1  | sa-saopaulo-1",
+          "Europe and the Americas (Queretaro)Coverage: North America  | na-queretaro  | 1  | Queretaro Zone 1^{*}  | na-queretaro-1",
+          "Europe and the Americas (Silicon Valley)Coverage: Western United States  | na-siliconvalley  | 2  | Silicon Valley Zone 1  | na-siliconvalley-1",
+          "Silicon Valley Zone 2  | na-siliconvalley-2",
+          "Europe and the Americas (Virginia)Coverage: Eastern United States  | na-ashburn  | 2  | Virginia Zone 1  | na-ashburn-1",
+          "Virginia Zone 2  | na-ashburn-2",
+          "Europe and the Americas (Frankfurt)Coverage: Europe  | eu-frankfurt  | 3  | Frankfurt Zone 1  | eu-frankfurt-1",
+          "Frankfurt Zone 2  | eu-frankfurt-2",
+          "Frankfurt Zone 3  | eu-frankfurt-3"
+        ]
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "tencent-directory",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-18",
+      "source_url": "https://www.tencentcloud.com/document/product/213/6091"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "access_and_storage_region_distinct_from_inference_scope": true,
+        "full_model_catalog_not_captured": true,
+        "model_catalog_and_keys_region_scoped": true,
+        "regions": [
+          {
+            "id": "cn-beijing",
+            "name": "Beijing",
+            "scopes": [
+              "Chinese mainland"
+            ]
+          },
+          {
+            "id": "ap-southeast-1",
+            "name": "Singapore",
+            "scopes": [
+              "International"
+            ]
+          },
+          {
+            "id": "eu-central-1",
+            "name": "Frankfurt",
+            "scopes": [
+              "Global",
+              "EU"
+            ]
+          },
+          {
+            "id": "ap-northeast-1",
+            "name": "Tokyo",
+            "scopes": [
+              "Global",
+              "Japan"
+            ]
+          },
+          {
+            "id": "cn-hongkong",
+            "name": "Hong Kong",
+            "scopes": [
+              "Global",
+              "Hong Kong"
+            ]
+          },
+          {
+            "id": "us-east-1",
+            "name": "Virginia",
+            "scopes": [
+              "Global",
+              "US"
+            ]
+          }
+        ],
+        "workspace_domain_template": "{WorkspaceId}.{region}.maas.aliyuncs.com"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "alibaba-model-studio",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-11",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/regions"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "aggregate_not_itemized": true,
+        "declared_availability_zones": 103,
+        "declared_regions": 34,
+        "partner_nodes_caveat": true
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "huawei-global",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.huaweicloud.com/intl/en-us/about/global-infrastructure.html"
+    },
+    {
+      "capture_method": "web_reader_list_extract",
+      "facts": {
+        "region_labels": [
+          "CN North-Beijing4",
+          "CN East-Shanghai1",
+          "CN East2",
+          "CN East-Qingdao",
+          "CN South-Guangzhou",
+          "CN Southwest-Guiyang1",
+          "CN-Hong Kong",
+          "AP-Bangkok",
+          "AP-Singapore",
+          "AP-Jakarta",
+          "AP-Manila",
+          "AF-Johannesburg",
+          "AF-Cairo",
+          "LA-Mexico City2",
+          "LA-Sao Paulo1",
+          "LA-Santiago",
+          "TR-Istanbul",
+          "ME-Riyadh"
+        ],
+        "scope": "International trust-center selector; not an exhaustive region/AZ directory"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "huawei-trust",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "child_zone_ids_not_listed": true,
+        "operator": "21Vianet",
+        "physical_location": "N/A",
+        "regions": [
+          {
+            "id": "chinaeast",
+            "paired": "chinanorth"
+          },
+          {
+            "id": "chinaeast2",
+            "paired": "chinanorth2"
+          },
+          {
+            "access_status": "restricted",
+            "id": "chinaeast3",
+            "paired": "chinanorth3"
+          },
+          {
+            "id": "chinanorth",
+            "paired": "chinaeast"
+          },
+          {
+            "id": "chinanorth2",
+            "paired": "chinaeast2"
+          },
+          {
+            "id": "chinanorth3",
+            "paired": "chinaeast3",
+            "zone_support_explicit": true
+          }
+        ]
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "azure-china",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-05",
+      "source_url": "https://docs.azure.cn/en-us/reliability/regions-list"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "operator": "Shanghai Blue Cloud Technology Co., Ltd. (21Vianet)",
+        "physically_separated_cloud": true
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "azure-china-operator",
+      "source_published_at": null,
+      "source_updated_at": "2023-12-13",
+      "source_url": "https://learn.microsoft.com/en-us/azure/china/overview-operations"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "base_url": "https://api.deepseek.com",
+        "facility_directory_found": false
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "deepseek-api",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://api-docs.deepseek.com/"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "facility_geography_not_established_by_registered_address": true,
+        "registered_country": "China",
+        "scope": "Linked DeepSeek apps/websites/services; downstream applications have their own controllers",
+        "service_operator": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd."
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "deepseek-identity",
+      "source_published_at": null,
+      "source_updated_at": "2026-02-10",
+      "source_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "api_key_scopes_distinct": true,
+        "coding": {
+          "china": "https://api.kimi.com/coding/",
+          "overseas": "https://api.kimi.ai/coding/"
+        },
+        "endpoint_audience_not_facility_location": true,
+        "open_platform": {
+          "china": "https://api.moonshot.cn/v1",
+          "overseas": "https://api.moonshot.ai/v1"
+        }
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "kimi-endpoints",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.kimi.com/en/help/kimi-code/faq"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "business": "Generative-media AI inference platform",
+        "headquarters": "San Francisco",
+        "site_directory_found": false
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "fal-identity",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://fal.ai/about"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "current_navigation_also_lists": "Seedance 2.5",
+        "developer": "ByteDance Seed",
+        "facility_directory_found": false,
+        "linked_playground": "https://ai.byteplus.com",
+        "model_name": "Seedance 2.0"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "seedance-official",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://seed.bytedance.com/en/seedance2_0"
+    },
+    {
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "affiliation_disclaimer": "Independent platform; no affiliation, partnership, sponsorship, or endorsement by ByteDance.",
+        "corporate_jurisdiction_not_verified": true,
+        "upstream_model_and_hosting_not_verified": true
+      },
+      "limitations": [
+        "Direct page retrieval timed out/failed; identity conclusion uses the indexed first-party terms, not a fresh HTTP capture."
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_id": "seedance2ai-identity",
+      "source_published_at": null,
+      "source_updated_at": "2025-10-29",
+      "source_url": "https://seedance2.ai/zh-hant/terms-of-service"
+    },
+    {
+      "capture_method": "web_reader_pdf_fact_extract",
+      "facts": {
+        "as_of": "2025-12-31",
+        "combined_expenditure_share_percent": 57,
+        "facility_directory_not_established": true,
+        "printed_page": 126,
+        "providers_with_at_least_ten_percent_server_and_bandwidth_expenditure": 4,
+        "report_title": "Bilibili Inc. 2025 Annual Report",
+        "telecommunications_service_provider_count": 116
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "bilibili-2025-report",
+      "source_published_at": "2026-04-16",
+      "source_updated_at": null,
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601346.pdf"
+    },
+    {
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "cross_region_inference_routing_possible": true,
+        "keys_and_endpoints_region_scoped": true,
+        "regions": [
+          {
+            "base_url": "https://ark.ap-southeast.bytepluses.com/api/v3",
+            "id": "ap-southeast-1",
+            "name": "Johor"
+          },
+          {
+            "base_url": "https://ark.eu-west.bytepluses.com/api/v3",
+            "id": "eu-west-1",
+            "name": "Dublin"
+          }
+        ]
+      },
+      "limitations": [
+        "Non-redirect page reader returned a shell with update date; regional content is retained from indexed first-party documentation."
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_id": "byteplus-modelark",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://docs.byteplus.com/en/docs/modelark/region-availability?redirect=1"
+    },
+    {
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "current_sale_status": "unknown",
+        "general_ecs_inventory_not_established": true,
+        "pools": [
+          {
+            "base_url": "https://aigw-nmhhht.cucloud.cn/v1",
+            "models": [
+              "Qwen3-235B-A22B"
+            ],
+            "name": "呼和浩特基地二区"
+          },
+          {
+            "base_url": "https://aigw-hbwh4.cucloud.cn:8443/v1",
+            "models": [
+              "DeepSeek-V3.1"
+            ],
+            "name": "武汉四区"
+          },
+          {
+            "base_url": "https://aigw-jnzs5.cucloud.cn:8443/v1",
+            "models": [
+              "DeepSeek-V3.1"
+            ],
+            "name": "济南五区"
+          },
+          {
+            "base_url": "https://aigw-gzgy2.cucloud.cn:8443/v1",
+            "models": [
+              "Qwen3-235B-A22B",
+              "DeepSeek-V3.1"
+            ],
+            "name": "贵阳基地二区"
+          }
+        ],
+        "product": "AISP",
+        "promotion_date_label": "2.14-2.28",
+        "source_section": "Spring Festival promotion"
+      },
+      "limitations": [
+        "Direct reader rejected content larger than its limit; table retrieved through search-index extraction. Promotion dates and August update differ; neither proves current availability."
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_id": "unicom-ai-pools",
+      "source_published_at": null,
+      "source_updated_at": "2026-08-28",
+      "source_url": "https://support.cucloud.cn/document/127/591/2357.html?arcid=7011&id=2357"
+    },
+    {
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "product": "UPHost bare metal",
+        "quanzhou_gpu_az_label": "GPU AZ A",
+        "region_count": 8,
+        "region_labels": [
+          "Beijing2",
+          "Ulanqab",
+          "Shanghai2",
+          "Guangzhou",
+          "Quanzhou",
+          "Hong Kong",
+          "Taipei",
+          "London"
+        ],
+        "scope": "Product-specific labels; not universal UCloud coverage"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "ucloud-baremetal",
+      "source_published_at": null,
+      "source_updated_at": "2026-01-09",
+      "source_url": "https://docs.ucloud.cn/uphost/concepts/az"
+    },
+    {
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "ownership_or_upstream_operator_not_established_by_similar_ids": true,
+        "pool1_uses_some_alibaba_style_region_ids": true,
+        "pool3_region_ids": [
+          "grand-cn-north-4",
+          "grand-cn-east-3",
+          "grand-cn-south-1"
+        ],
+        "pool_isolation_explicit": true,
+        "product": "QVM",
+        "resource_pools": [
+          "1",
+          "3"
+        ]
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "qiniu-resource-pools",
+      "source_published_at": null,
+      "source_updated_at": "2026-05-06",
+      "source_url": "https://developer.qiniu.com/qvm/4190/region-zone"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "byoc_supported": true,
+        "facility_directory_found": false,
+        "model_families_listed": [
+          "DeepSeek",
+          "Qwen",
+          "GLM",
+          "Kimi",
+          "Step",
+          "MiniMax"
+        ],
+        "product": "Multi-model inference APIs"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "siliconflow",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://docs.siliconflow.com/en/userguide/introduction"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "facility_directory_found": false,
+        "product": "Language, speech, video, image, music and file APIs",
+        "subscription_and_payg_keys_distinct": true
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "minimax",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://platform.minimax.io/docs/api-reference/api-overview"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "base_url": "https://api.z.ai/api/paas/v4/",
+        "coding_plan_endpoint_separate": true,
+        "facility_directory_found": false,
+        "model_family": "GLM"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "zai",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://docs.z.ai/guides/overview/quick-start"
+    },
+    {
+      "capture_method": "search_index_primary_page_extract",
+      "facts": {
+        "api_services_declared": true,
+        "model_brand": "Kling AI",
+        "operator": "Kuaishou",
+        "scope": "Historical identity and API-service evidence; not current model catalog or facility inventory"
+      },
+      "limitations": [],
+      "retrieved_at": "2026-10-11",
+      "source_id": "kling",
+      "source_published_at": "2025-06-05",
+      "source_updated_at": null,
+      "source_url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-celebrates-first-anniversary-achieves-annualized"
+    },
+    {
+      "capture_method": "web_reader_fact_extract",
+      "facts": {
+        "announcement_number": "2025 No. 43",
+        "attached_final_directory": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf",
+        "designation": "2025 National Green Computing Facilities",
+        "signed_at": "2025-12-17"
+      },
+      "limitations": [
+        "2025 designation evidence does not establish current lifecycle, ownership, compute capacity or coordinates."
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_id": "miit-green-facilities-announcement",
+      "source_published_at": "2025-12-29",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2025/art_d8a6906d6e5048369ae66b3a40ea20b8.html"
+    },
+    {
+      "capture_method": "web_reader_pdf_fact_extract",
+      "facts": {
+        "designation": "2025 National Green Computing Facilities",
+        "earlier_draft_url": "https://www.ncsti.gov.cn/kjdt/tzgg/202510/P020251029500117740098.pdf",
+        "entry_count": 60,
+        "list_status": "final",
+        "operator_identity_and_facility_aliases_require_confirmation": true,
+        "selected_entries": [
+          {
+            "name": "抖音—中联绿色大数据产业基地 6 号楼",
+            "source_row": 32
+          },
+          {
+            "name": "数据港—阿里巴巴广东云计算数据中心河源集群源城机房C栋",
+            "source_row": 34
+          },
+          {
+            "name": "阿里飞天云智能华东算力中心项目枫泾基地 B 楼",
+            "source_row": 40
+          },
+          {
+            "name": "快手智能云乌兰察布大数据二园区数据中心项目 B1 机房楼",
+            "source_row": 42
+          },
+          {
+            "name": "美利云中卫数据中心 C1 数据机房楼项目",
+            "source_row": 44
+          },
+          {
+            "name": "合盈数据（怀来）科技产业园 ND11 数据中心",
+            "source_row": 45
+          },
+          {
+            "name": "润泽数据中心 A—8",
+            "source_row": 46
+          }
+        ]
+      },
+      "limitations": [
+        "2025 designation evidence does not establish current lifecycle, ownership, compute capacity or coordinates."
+      ],
+      "retrieved_at": "2026-10-11",
+      "source_id": "miit-green-facilities-directory",
+      "source_published_at": "2025-12-29",
+      "source_updated_at": null,
+      "source_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/7ac215f191d84b5c833c9a3d76a6346b.pdf"
+    }
+  ],
+  "type": "ChinaVendorCoverageAssessment",
+  "vendors": [
+    {
+      "existing_coverage": "137 canonical region/AZ rows; 73-row mainland view; 19-row legacy file; 14 quarantined claims. CDN aggregate assessment is separate.",
+      "identity": {},
+      "name": "Alibaba Cloud / Qwen / Model Studio",
+      "next_enrichment": "Refresh the 33-public-region/108-zone directory, retain 4 finance regions/20 zones and 1 government region/5 zones separately. Add Model Studio's 6 product-region declarations and scope-specific endpoints. Resolve Johor's marketing 3 versus 2 itemized zones; inspect closing-down local regions and unknown-jurisdiction legacy labels. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "priority": "P0",
+      "reviewed_source_ids": [
+        "alibaba-directory",
+        "alibaba-marketing",
+        "alibaba-model-studio",
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "alibaba"
+    },
+    {
+      "existing_coverage": "84 canonical region/AZ rows; mainland general 31 and specialized 17 repeated IDs; separate 41-row legacy zone file.",
+      "identity": {},
+      "name": "Tencent Cloud / Hunyuan",
+      "next_enrichment": "Refresh 26 itemized regions/70 zones by product, compare international and mainland editions; review 13 added IDs and 1 absent old ID. Keep public and financial/automotive access distinct. Find an official Hunyuan product-region/endpoint matrix.",
+      "priority": "P0",
+      "reviewed_source_ids": [
+        "tencent-directory"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "tencent"
+    },
+    {
+      "existing_coverage": "9 mainland Cloud Connect-scoped region IDs; no global or AZ layer.",
+      "identity": {},
+      "name": "Huawei Cloud / ModelArts / Pangu",
+      "next_enrichment": "Reconcile global declared 34 regions/103 AZs, trust-center selector's 18 labels, IAM region IDs and service matrices. Keep partner-operated and dedicated clouds separate; publish only itemized stable identities.",
+      "priority": "P0",
+      "reviewed_source_ids": [
+        "huawei-global",
+        "huawei-trust"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "huawei"
+    },
+    {
+      "existing_coverage": "8 BCC regions/19 zones; mainland view 25 repeated IDs; 35 quarantined legacy claims.",
+      "identity": {},
+      "name": "Baidu AI Cloud / Qianfan",
+      "next_enrichment": "Refresh BCC; add Qianfan endpoint/deployment coverage independently; retain public/financial scope and avoid reviving quarantined sites.",
+      "priority": "P1",
+      "reviewed_source_ids": [],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "baidu"
+    },
+    {
+      "existing_coverage": "4 regions/13 zones from ECS documentation; mainland view 14 repeated IDs; no model-service layer.",
+      "identity": {
+        "byteplus_international_offering": "Separate service/product scope; do not copy Volcano region IDs blindly.",
+        "seedance2ai_same_vendor": false,
+        "seedance_developer": "ByteDance Seed"
+      },
+      "name": "ByteDance / Volcano Engine / Doubao / Seedance",
+      "next_enrichment": "Refresh ECS and reconcile explicit versus aggregate Shanghai AZ counts. Add Ark and BytePlus ModelArk product coverage, model-developer relationships, region-scoped endpoints and cross-region inference routing. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "priority": "P0",
+      "reviewed_source_ids": [
+        "seedance-official",
+        "byteplus-modelark",
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "volcano"
+    },
+    {
+      "existing_coverage": "63 VPC resource pools; no itemized child zone IDs.",
+      "identity": {},
+      "name": "China Telecom / Tianyi Cloud",
+      "next_enrichment": "Refresh pool directory and stable identifiers; add teleports/backbone, AI pools and GPU product availability only from itemized evidence. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "carrier_cloud",
+      "vendor_id": "tianyi"
+    },
+    {
+      "existing_coverage": "August assessment records a missing authoritative directory; no canonical region/pool rows.",
+      "identity": {},
+      "name": "China Mobile Cloud",
+      "next_enrichment": "Locate product-scoped official region/pool inventory and public API contract. Marketplace province filters found during this search do not establish resource-pool identities. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "priority": "P0",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "carrier_cloud",
+      "vendor_id": "china-mobile"
+    },
+    {
+      "existing_coverage": "No general cloud layer; newly located AISP promotion section names 4 AI pools and endpoint domains.",
+      "identity": {},
+      "name": "China Unicom Cloud",
+      "next_enrichment": "Resolve current AISP availability and authoritative pool IDs, then ingest product-specific endpoint evidence. Obtain general ECS/region/pool directory separately; promotional model support is historical scoped evidence. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "priority": "P0",
+      "reviewed_source_ids": [
+        "unicom-ai-pools",
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "carrier_cloud",
+      "vendor_id": "china-unicom"
+    },
+    {
+      "existing_coverage": "8 mainland regions/14 zones; finance scope retained separately.",
+      "identity": {},
+      "name": "Kingsoft Cloud",
+      "next_enrichment": "Refresh KEC and GPU availability; compare public and dedicated finance sources before changes.",
+      "priority": "P1",
+      "reviewed_source_ids": [],
+      "vendor_class": "public_cloud",
+      "vendor_id": "kingsoft"
+    },
+    {
+      "existing_coverage": "4 mainland regions/10 zones.",
+      "identity": {},
+      "name": "JD Cloud",
+      "next_enrichment": "Refresh stable CVM IDs; review GPU and edge product-specific matrices.",
+      "priority": "P1",
+      "reviewed_source_ids": [],
+      "vendor_class": "public_cloud",
+      "vendor_id": "jd"
+    },
+    {
+      "existing_coverage": "No canonical vendor or CDN layer; current annual filing provides supplier concentration evidence.",
+      "identity": {
+        "input_aliases": [
+          "billibilli"
+        ],
+        "not_established_as_public_iaas": true
+      },
+      "name": "Bilibili",
+      "next_enrichment": "Add operator identity and content-delivery evidence. Annual filing reports 116 telecom suppliers, 4 above the expenditure threshold, 57% combined share, as of 2025-12-31. Seek named sites, domains, ASNs and bounded observations; do not convert suppliers or owned servers into data centers.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "bilibili-2025-report"
+      ],
+      "vendor_class": "consumer_platform_and_content_delivery",
+      "vendor_id": "bilibili"
+    },
+    {
+      "existing_coverage": "No vendor/model/endpoint records.",
+      "identity": {
+        "legal_operator": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd.",
+        "registered_country": "CN"
+      },
+      "name": "DeepSeek",
+      "next_enrichment": "Add developer, direct API and model-host relationships. Distinguish direct DeepSeek service from Alibaba, SiliconFlow or customer-hosted model deployments; exact training/inference facilities remain unverified.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "deepseek-api",
+        "deepseek-identity"
+      ],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "deepseek"
+    },
+    {
+      "existing_coverage": "No vendor/model/endpoint records.",
+      "identity": {
+        "endpoint_audience_is_not_server_country": true,
+        "input_aliases": [
+          "kimi.ai",
+          "kimi.com",
+          "Moonshot"
+        ]
+      },
+      "name": "Moonshot AI / Kimi",
+      "next_enrichment": "Add Kimi identity/aliases and 4 documented base URLs by open-platform/coding and China/overseas audience. Obtain deployment, storage and hosting geography independently.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "kimi-endpoints"
+      ],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "moonshot"
+    },
+    {
+      "existing_coverage": "No vendor/platform records.",
+      "identity": {
+        "china_vendor_classification": "excluded_from_china_based_vendor_cohort",
+        "headquarters": "San Francisco, United States",
+        "relevant_to_china_models": true
+      },
+      "name": "fal",
+      "next_enrichment": "Add to global inference-platform registry; record model-developer and third-party distribution relationships. Seek declared deployment regions and hosting contracts separately.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "fal-identity"
+      ],
+      "vendor_class": "global_ai_inference_platform",
+      "vendor_id": "fal"
+    },
+    {
+      "existing_coverage": "No vendor records; indexed terms establish independence from ByteDance.",
+      "identity": {
+        "bytedance_affiliation": "explicitly_disclaimed_in_indexed_terms",
+        "country": "unknown",
+        "source_freshness": "Indexed terms updated 2025-10-29; direct capture failed."
+      },
+      "name": "seedance2.ai",
+      "next_enrichment": "Record distinct domain/operator identity with corporate jurisdiction and hosting unresolved. Verify legal entity and upstream service provenance before any China or facility attribution.",
+      "priority": "P2",
+      "reviewed_source_ids": [
+        "seedance2ai-identity"
+      ],
+      "vendor_class": "independent_ai_application_platform",
+      "vendor_id": "seedance2ai"
+    },
+    {
+      "existing_coverage": "Absent from canonical service coverage; 2 declared product regions found in indexed docs.",
+      "identity": {
+        "do_not_assume_ap_southeast_1_is_singapore": true
+      },
+      "name": "BytePlus ModelArk",
+      "next_enrichment": "Add Johor/ap-southeast-1 and Dublin/eu-west-1 as product-region assertions with 2 base URLs and possible cross-region routing. Verify fresh full document body and legal/operator relationships.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "byteplus-modelark"
+      ],
+      "vendor_class": "international_ai_service_platform",
+      "vendor_id": "byteplus"
+    },
+    {
+      "existing_coverage": "No canonical layer; official UPHost document lists 8 product regions.",
+      "identity": {},
+      "name": "UCloud / UPHost",
+      "next_enrichment": "Join stable UHost/UPHost region/AZ identifiers to product-scoped labels; capture Quanzhou GPU AZ explicitly; separate mainland, Hong Kong, Taiwan and overseas coverage.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "ucloud-baremetal"
+      ],
+      "vendor_class": "public_cloud_and_gpu_bare_metal",
+      "vendor_id": "ucloud"
+    },
+    {
+      "existing_coverage": "No canonical layer; QVM docs describe separate resource pools 1 and 3.",
+      "identity": {},
+      "name": "Qiniu Cloud / QVM",
+      "next_enrichment": "Add pool-scoped region/AZ directory and products. Keep provider identity in all keys; Alibaba-like region names do not prove shared ownership or the underlying host.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "qiniu-resource-pools"
+      ],
+      "vendor_class": "public_cloud_and_media_cloud",
+      "vendor_id": "qiniu"
+    },
+    {
+      "existing_coverage": "No canonical layer; official docs identify multi-model service and BYOC.",
+      "identity": {},
+      "name": "SiliconFlow",
+      "next_enrichment": "Add model-serving platform, direct APIs, BYOC/managed distinction and developer-host relationships; request declared deployment/storage geography rather than inferring from model brand.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "siliconflow"
+      ],
+      "vendor_class": "multi_model_inference_platform",
+      "vendor_id": "siliconflow"
+    },
+    {
+      "existing_coverage": "No canonical layer; current official API catalog verified.",
+      "identity": {},
+      "name": "MiniMax",
+      "next_enrichment": "Add language/video/audio services and API scope; keep subscription and pay-as-you-go service endpoints separate and look for deployment evidence.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "minimax"
+      ],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "minimax"
+    },
+    {
+      "existing_coverage": "No canonical layer; official direct API and separate coding-plan scope found.",
+      "identity": {},
+      "name": "Z.ai / GLM",
+      "next_enrichment": "Add operator/brand aliases after legal-source checks, direct API and coding scope, deployment declarations and hosted GLM relationships.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "zai"
+      ],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "zai"
+    },
+    {
+      "existing_coverage": "No canonical layer; official historical release establishes Kling's operator and API service.",
+      "identity": {},
+      "name": "Kuaishou / Kling AI",
+      "next_enrichment": "Add corporate/model/API relationships; refresh current API docs and distinguish owned content delivery, model endpoints and any third-party serving. 2025 identity evidence is not a 2026 capacity inventory. Compare final MIIT recognition entries to cloud/campus identities; designation does not establish ownership or current lifecycle.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "kling",
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "consumer_platform_and_model_api",
+      "vendor_id": "kuaishou"
+    },
+    {
+      "existing_coverage": "August assessment only; portfolio/market aggregates do not create facility rows.",
+      "identity": {},
+      "name": "GDS Holdings",
+      "next_enrichment": "Refresh current filings and stable facility identifiers, buildings, campus aliases, MW units and operator relationships; compare mainland and international portfolio boundaries explicitly.",
+      "priority": "P1",
+      "reviewed_source_ids": [],
+      "vendor_class": "colocation_operator",
+      "vendor_id": "gds"
+    },
+    {
+      "existing_coverage": "August assessment has cabinet/MW/POP aggregates; no canonical facility layer.",
+      "identity": {},
+      "name": "VNET Group",
+      "next_enrichment": "Add Microsoft/21Vianet operating relationship without attributing all VNET facilities to Azure. Refresh facility directories, self-built/partnered roles and portfolio metrics.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "azure-china-operator"
+      ],
+      "vendor_class": "colocation_and_cloud_operator",
+      "vendor_id": "vnet"
+    },
+    {
+      "existing_coverage": "4 directory codes; named Sangyuan campus not resolved to codes.",
+      "identity": {},
+      "name": "Chindata",
+      "next_enrichment": "Refresh code directory and resolve explicit campus/building aliases before adding phases or campuses as new facilities.",
+      "priority": "P1",
+      "reviewed_source_ids": [],
+      "vendor_class": "hyperscale_colocation_operator",
+      "vendor_id": "chindata"
+    },
+    {
+      "existing_coverage": "Aggregate-only China-edge assessment; no generated locations.",
+      "identity": {},
+      "name": "Wangsu / ChinaNetCenter",
+      "next_enrichment": "Seek stable site codes and official network evidence; compare marketing node units to reproducible observations without interpreting city coverage as sites.",
+      "priority": "P2",
+      "reviewed_source_ids": [],
+      "vendor_class": "independent_cdn",
+      "vendor_id": "wangsu"
+    },
+    {
+      "existing_coverage": "Aggregate-only China-edge assessment; no generated locations.",
+      "identity": {},
+      "name": "BaishanCloud",
+      "next_enrichment": "Seek product-scoped itemized edge locations and hosting roles; preserve fleet totals as dated aggregate assertions.",
+      "priority": "P2",
+      "reviewed_source_ids": [],
+      "vendor_class": "independent_edge_cloud",
+      "vendor_id": "baishan"
+    },
+    {
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      },
+      "name": "Shanghai DataPort / 数据港",
+      "next_enrichment": "Heyuan Alibaba-associated building C, source row 34. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "dataport"
+    },
+    {
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      },
+      "name": "Runze / 润泽",
+      "next_enrichment": "Data center A-8, source row 46. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "runze"
+    },
+    {
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      },
+      "name": "Heying Data / 合盈数据",
+      "next_enrichment": "Huailai ND11, source row 45. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "heying"
+    },
+    {
+      "existing_coverage": "No canonical layer; name appears in a final government recognition directory.",
+      "identity": {
+        "operator_role_not_established_by_name_alone": true
+      },
+      "name": "Meili Cloud / 美利云",
+      "next_enrichment": "Zhongwei C1, source row 44. Verify legal/operator identity, building-to-campus aliases, current lifecycle and relationship to cloud tenants before ingestion.",
+      "priority": "P1",
+      "reviewed_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "meiliyun"
+    }
+  ]
+}
