@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "tv-preview-0",
+    "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=6796492959&isExternal=true&brandId=tvs.sbd.4000&id=1523339543&l=en-US&aec=UHD",
+    "title": "Ted Lasso public preview master playlist 0",
+    "publisher": "Apple",
+    "role": "Public Preview item explicitly listed in the trailers shelf. Manifest retrieval only; no media segments, DRM keys or subscriber sessions.",
+    "extension": "m3u8",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "discovered_in": "tv-ted-lasso",
+    "discovery_pointer": "/data/1/data/shelves/2/playlistItems/0/playable/assets/hlsUrl",
+    "preview_title": "Together: Season 4"
+  },
+  {
+    "source_id": "tv-preview-3",
+    "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1849515631&isExternal=true&brandId=tvs.sbd.4000&id=1471452310&l=en-US&aec=UHD",
+    "title": "Ted Lasso public preview master playlist 3",
+    "publisher": "Apple",
+    "role": "Public Preview item explicitly listed in the trailers shelf. Manifest retrieval only; no media segments, DRM keys or subscriber sessions.",
+    "extension": "m3u8",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "discovered_in": "tv-ted-lasso",
+    "discovery_pointer": "/data/1/data/shelves/2/playlistItems/3/playable/assets/hlsUrl",
+    "preview_title": "Return: Season 3"
+  },
+  {
+    "source_id": "tv-javascript",
+    "source_url": "https://tv.apple.com/assets/main~pqIjNYEx6_.js",
+    "title": "Apple TV web application JavaScript",
+    "publisher": "Apple",
+    "role": "Public frontend implementation and endpoint configuration; code references do not prove successful playback.",
+    "extension": "js",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "discovered_in": "tv-ted-lasso",
+    "discovery_selector": "script[type=module][src]"
+  },
+  {
+    "source_id": "tv-artwork-headers",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1200x675.jpg",
+    "title": "Apple TV show artwork response headers",
+    "publisher": "Apple",
+    "role": "HEAD only for the public show artwork. CDN evidence for artwork is not evidence of video delivery.",
+    "extension": "json",
+    "method": "HEAD",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "discovered_in": "tv-ted-lasso",
+    "discovery_selector": "meta[property=og:image]"
+  },
+  {
+    "source_id": "apple-cdn-jobs-list",
+    "source_url": "https://jobs.apple.com/en-us/search?page=8&team=cloud-et-infrastructures-SFTWR-CLD",
+    "title": "Apple Media Products CDN job listing",
+    "publisher": "Apple",
+    "role": "Provider architecture statement across Apple Media Products; no claim that every platform serves Apple TV.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  }
+]

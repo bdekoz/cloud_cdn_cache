@@ -1,0 +1,118 @@
+{
+  "built_at": "2026-10-19",
+  "excluded_from_canonical_totals": true,
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -121.95524,
+          37.35411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/apple-tv/sfmix-cache-network.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_sha256": "b6567a0876017040fa96b0251b31a22b371f5e82b397e075ece281b9404b1ec8",
+            "source_url": "https://ip.sfmix.org/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "footprint:apple:cache-hosting:5393015",
+        "gazetteer": {
+          "admin1": "CA",
+          "evidence": {
+            "raw_source_ref": "data/raw/apple-tv/aec-geonames.20261019.tsv",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "0067b8daf1471d7e2366d92265668c51d80fea9cb0f8e61182fe62ae1e20dfd9",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5393015",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Santa Clara"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Santa Clara",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Apple",
+        "record_unit": "provider_service_locality",
+        "service": "Apple Edge Cache",
+        "source_claim_ids": [
+          "apple:tv:sfmix-aec-scl02"
+        ],
+        "source_locality_labels": [
+          "Santa Clara"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "apple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.84789,
+          45.74906
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "FR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/apple-tv/aec-franceix-lyon.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_sha256": "0a9e294cff8ce885c97e8d0500f4b3e8b7608b6b63649a7e18af074cbce153d1",
+            "source_url": "https://www.franceix.net/fr/infrastructure/techhub/rapport-technique-t2-2025/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "footprint:apple:cache-hosting:2996944",
+        "gazetteer": {
+          "admin1": "84",
+          "evidence": {
+            "raw_source_ref": "data/raw/apple-tv/aec-geonames.20261019.tsv",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "0067b8daf1471d7e2366d92265668c51d80fea9cb0f8e61182fe62ae1e20dfd9",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2996944",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Lyon"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Lyon",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Apple",
+        "record_unit": "provider_service_locality",
+        "service": "Apple hosted caches; AEC program name unconfirmed",
+        "source_claim_ids": [
+          "apple:aec:franceix-lyon"
+        ],
+        "source_locality_labels": [
+          "Lyon"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "apple"
+      },
+      "type": "Feature"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "type": "FeatureCollection"
+}

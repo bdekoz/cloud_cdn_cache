@@ -222,20 +222,28 @@
     {
       "path": "data/enrichment/completion-review.20261019.json",
       "sha256": "0be18ef0d7b467885d9d7784b91d6da83e9676004559b62562d11de11b2b701a"
+    },
+    {
+      "path": "data/apple/tv-delivery-review.20261019.json",
+      "sha256": "c5b6befd851bf824585d5f5a84fbbe0b0923be66b266227dd1d03f743650c2ba"
+    },
+    {
+      "path": "data/apple/aec-review.20261019.json",
+      "sha256": "1956b757a3002547806d6507c2150a40d0efe8acb5fc4b37d15f98a6269189d6"
     }
   ],
   "bibliography": {
     "files": {
       "json": {
         "path": "data/references/bibliography.20261019.json",
-        "sha256": "da0f7385b51e521ae5135b7b263212fb06d79ccc4e82b21d46699362f5dad349"
+        "sha256": "4bbd807e6349e067bbfe0ba6818fe6f92382fe1f3b19eceb6a3a6e888a2a02be"
       },
       "markdown": {
         "path": "docs/bibliography.20261019.md",
-        "sha256": "bc5899311980a3362115b7ae3eae925d0213d28703a09b6d5388677d6b0fb145"
+        "sha256": "32d202768b618adc7cd5c0d01ce3982de1614ceeadd044a6ceb03b815a4aaa72"
       }
     },
-    "reference_count": 209
+    "reference_count": 268
   },
   "generated_from_retained_snapshots_at": "2026-10-19",
   "geographic_footprint_schema": {
@@ -243,7 +251,7 @@
     "sha256": "e742e68f459dfa496b4bc0bc54bc5bb8c401b363892e190aabf8e5ace66b2e69",
     "version": "1.0.0"
   },
-  "geographic_footprint_view_count": 3,
+  "geographic_footprint_view_count": 5,
   "geographic_footprint_views": [
     {
       "derived_files": {
@@ -387,9 +395,80 @@
       "record_unit": "provider_service_locality",
       "schema_version": "1.0.0",
       "snapshot_tag": "20261019"
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/apple/tv-delivery-localities.20261019.csv",
+          "path": "data/apple/tv-delivery-localities.20261019.csv",
+          "source": "data/apple/tv-delivery-localities.20261019.geojson"
+        }
+      },
+      "excluded_from_canonical_totals": true,
+      "files": {
+        "geojson": {
+          "path": "data/apple/tv-delivery-localities.20261019.geojson",
+          "sha256": "682d9970ace0fcb3bb112339a1c3be9292f997ee13d8cbbe76269d40a34c6625"
+        },
+        "report": {
+          "path": "data/apple/tv-delivery-localities.20261019.report.json",
+          "sha256": "9f8e8b96825e87774271e49388861df795d292d2a5acfbc634ab3531451f6544"
+        }
+      },
+      "input_layers": [
+        {
+          "layer": "infrastructure/apple-tv-delivery",
+          "path": "data/infrastructure/apple-tv-delivery.20261019.json",
+          "sha256": "67bc9715e9fabece22b2b0d3002fe0becaa81843dc76372fb3532f4c29f98532"
+        }
+      ],
+      "layer": "apple/tv-delivery-localities",
+      "physical_sites": false,
+      "record_count": 2,
+      "record_unit": "provider_service_locality",
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019"
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/apple/aec-localities.20261019.csv",
+          "path": "data/apple/aec-localities.20261019.csv",
+          "source": "data/apple/aec-localities.20261019.geojson"
+        }
+      },
+      "excluded_from_canonical_totals": true,
+      "files": {
+        "geojson": {
+          "path": "data/apple/aec-localities.20261019.geojson",
+          "sha256": "ac7417501807610e57184000dda1c7782d786dc029808eb2dbe16a1fb7c58770"
+        },
+        "report": {
+          "path": "data/apple/aec-localities.20261019.report.json",
+          "sha256": "06fd814cd4053d8aa9dc3912ffdbcee7f0217abcb2a4241b8ce89c65154ba45b"
+        }
+      },
+      "input_layers": [
+        {
+          "layer": "infrastructure/apple-aec-hosts",
+          "path": "data/infrastructure/apple-aec-hosts.20261019.json",
+          "sha256": "9616398dc0a8d4a53b41caa0f01df4522a1be4d524cc2999ac3d6417732b9837"
+        },
+        {
+          "layer": "infrastructure/apple-tv-delivery",
+          "path": "data/infrastructure/apple-tv-delivery.20261019.json",
+          "sha256": "67bc9715e9fabece22b2b0d3002fe0becaa81843dc76372fb3532f4c29f98532"
+        }
+      ],
+      "layer": "apple/aec-localities",
+      "physical_sites": false,
+      "record_count": 2,
+      "record_unit": "provider_service_locality",
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019"
     }
   ],
-  "infrastructure_evidence_layer_count": 6,
+  "infrastructure_evidence_layer_count": 8,
   "infrastructure_evidence_layers": [
     {
       "category_counts": {
@@ -1040,9 +1119,220 @@
         "provider_city_declaration": 10,
         "provider_city_latency_aggregate": 31
       }
+    },
+    {
+      "category_counts": {
+        "cache_host_declaration": 1,
+        "cdn_pop_observation": 1,
+        "media_delivery_path": 6,
+        "peering_status_reference": 1,
+        "service_delivery_observation": 6,
+        "service_endpoint_reference": 3
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/apple-tv-delivery.20261019.csv",
+          "path": "data/infrastructure/apple-tv-delivery.20261019.csv",
+          "source": "data/infrastructure/apple-tv-delivery.20261019.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/apple-tv-delivery.20261019.json",
+          "sha256": "67bc9715e9fabece22b2b0d3002fe0becaa81843dc76372fb3532f4c29f98532"
+        },
+        "report": {
+          "path": "data/infrastructure/apple-tv-delivery.20261019.report.json",
+          "sha256": "ece1b996158dd3a20b36d1bb96167fa0dbc80513e65176441f83a4733379f841"
+        }
+      },
+      "geometry_null": 18,
+      "layer": "infrastructure/apple-tv-delivery",
+      "record_count": 18,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/apple-tv/sfmix-cache-network.20261019.html",
+          "sha256": "b6567a0876017040fa96b0251b31a22b371f5e82b397e075ece281b9404b1ec8",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://ip.sfmix.org/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/sfmix-participants.20261019.html",
+          "sha256": "913a939a90e3d9e665e8a38dbdadb84a895b86006093ffcecffbe5bd20f64108",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://portal.sfmix.org/participants/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-artwork-headers.20261019.json.provenance.json",
+          "sha256": "a13815e5066df324244372c737df84f7433caf360ecf6871b53567017cf84a3c",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1200x675.jpg"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-home.20261019.html.provenance.json",
+          "sha256": "2fde0986d3e8ba2676a5e90ad8f918f20ed39a4ca00ddcba6e0de3799f750f3a",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-javascript.20261019.js",
+          "sha256": "531f2583bf026bdf5b41ae70ba3fa28181b6775a6ef18c645b5da0ee1f49d166",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/assets/main~pqIjNYEx6_.js"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-javascript.20261019.js.provenance.json",
+          "sha256": "c493976a1ea4e265b78fd85d5d162fe910e551f606fe6bf25f85c1897cdd95d6",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/assets/main~pqIjNYEx6_.js"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-preview-0.20261019.m3u8",
+          "sha256": "6f4e2c9813af501506540e684307eb287171f3e98c29ebf57862df8d7aebcdf8",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=6796492959&isExternal=true&brandId=tvs.sbd.4000&id=1523339543&l=en-US&aec=UHD"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-preview-3.20261019.m3u8",
+          "sha256": "e168a121c6642078d15dbb624465dad2fdb6f198541a2f3328e1b73ec52a1f0c",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1849515631&isExternal=true&brandId=tvs.sbd.4000&id=1471452310&l=en-US&aec=UHD"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+          "sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-ak-aoc.20261019.m3u8.provenance.json",
+          "sha256": "947619687dc354ac8dbaac4399d3cbb2c1eef507203508e8ddeacd37770354f4",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://vod-ak-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-ap-aoc.20261019.m3u8.provenance.json",
+          "sha256": "62d5c0f68feedd25adf3b36ae524e0083018a1b9a80747d64c4b86b87de16acd",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://vod-ap-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-fa-aoc.20261019.m3u8.provenance.json",
+          "sha256": "ac4bb2b4a01a15e0d81bf21a47165cee4f89848675657d0e174b2ec726f5a5c1",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://vod-fa-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8"
+        }
+      ],
+      "unit_counts": {
+        "assertion": 18
+      }
+    },
+    {
+      "category_counts": {
+        "cache_exchange_reference": 4,
+        "cache_host_declaration": 3,
+        "cache_pilot_reference": 1
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/apple-aec-hosts.20261019.csv",
+          "path": "data/infrastructure/apple-aec-hosts.20261019.csv",
+          "source": "data/infrastructure/apple-aec-hosts.20261019.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/apple-aec-hosts.20261019.json",
+          "sha256": "9616398dc0a8d4a53b41caa0f01df4522a1be4d524cc2999ac3d6417732b9837"
+        },
+        "report": {
+          "path": "data/infrastructure/apple-aec-hosts.20261019.report.json",
+          "sha256": "a8169b442af075426f3763c7ed927140d22f9474b4770367a2e9939acfff8621"
+        }
+      },
+      "geometry_null": 8,
+      "layer": "infrastructure/apple-aec-hosts",
+      "record_count": 8,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-1ix-members.20261019.html",
+          "sha256": "521ead3b23033e9d1a7f3ea4ae07088e76cce4caab5f925083ecbbf80a835cba",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://1-ix.net/en/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-bix-web.20261019.json",
+          "sha256": "e6350368871efb877426fe153f790f609c81c62ba12eef6b7c0f909e86898fbd",
+          "source_published_at": "2025-01-06",
+          "source_updated_at": null,
+          "source_url": "https://www.bix.hu/en/news/202501_apple_edge_cache_pilot_project"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-cenet-deployment.20261019.html",
+          "sha256": "ae12aae919ca943e82c86d1d898e17a9c2f28256582e7564b5014106e6b8a4af",
+          "source_published_at": "2023-12-04",
+          "source_updated_at": "2023-12-05",
+          "source_url": "https://cenet.catholic.edu.au/blog/avqvtwfgg0c882enccdnxsvv29rkiq-k39mr-escre-jz69a-cz9ph"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-franceix-lyon.20261019.html",
+          "sha256": "0a9e294cff8ce885c97e8d0500f4b3e8b7608b6b63649a7e18af074cbce153d1",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.franceix.net/fr/infrastructure/techhub/rapport-technique-t2-2025/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-ixaustralia-guide.20261019.html",
+          "sha256": "84416a33799d0a02132949ac2dd8680ede98dbf79068adcef92684cf4489b969",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://ix.asn.au/technical-guide/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-lucix-members.20261019.html",
+          "sha256": "bc0e56e55290a99a0b54f0dbc3898fadc685e0b81ce184c683bf2ef621c4c684",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.lu-cix.lu/connected-networks/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-pitix-members.20261019.html",
+          "sha256": "36b00427d4aa1c41b70bfe72fa75d7b20e8c1e4c7bd11b608c22a9e9cb889252",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://portal.pit-ix.net/customer/details"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/aec-tenet-web.20261019.json",
+          "sha256": "c9b498e965bbb62128697d56935e470a98394812f14b0f3d614ee9906e96d7d6",
+          "source_published_at": "2026-09-16",
+          "source_updated_at": null,
+          "source_url": "https://www.tenet.ua/novini/apple-edge-cache"
+        }
+      ],
+      "unit_counts": {
+        "assertion": 8
+      }
     }
   ],
-  "infrastructure_evidence_record_count": 400,
+  "infrastructure_evidence_record_count": 426,
   "infrastructure_evidence_schema": {
     "path": "schema/infrastructure-evidence.schema.json",
     "sha256": "fa850334dc793a71207e5e1589b6f2f4af4ae23be9741f5f57abc3ea9be2487f",
@@ -3491,7 +3781,7 @@
       ]
     }
   ],
-  "network_evidence_layer_count": 8,
+  "network_evidence_layer_count": 9,
   "network_evidence_layers": [
     {
       "derived_files": {
@@ -4472,9 +4762,81 @@
         "not_announced": 1,
         "valid": 12
       }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/apple-tv-routing.20261019.csv",
+          "path": "data/network/apple-tv-routing.20261019.csv",
+          "source": "data/network/apple-tv-routing.20261019.json"
+        }
+      },
+      "evidence_types": {
+        "routing_origin": 4
+      },
+      "files": {
+        "json": {
+          "path": "data/network/apple-tv-routing.20261019.json",
+          "sha256": "2de7514e6ba8f007e83da11ffc7ead97ec5e87d9994dccdda657cfda79f35211"
+        },
+        "report": {
+          "path": "data/network/apple-tv-routing.20261019.report.json",
+          "sha256": "e5f1960da16c4cd914e421baa3f7e39024d2572620d645d3e1b82a3b1a68803c"
+        }
+      },
+      "layer": "apple-tv-routing",
+      "providers": [
+        "Akamai",
+        "Apple",
+        "Fastly",
+        "SFMIX"
+      ],
+      "record_count": 4,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "apple_tv_delivery"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/apple-tv/routing-149-112-115-176.20261019.json",
+          "sha256": "79a0c8ec9fb4a799dc1b37b04caa33e3d02e555c1ce47e0984a7171cc039f249",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=149.112.115.176"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/routing-151-101-3-6.20261019.json",
+          "sha256": "e70b6887834b04a33843b89a597cf773af278e0817b9c5183546d462c46b00d8",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=151.101.3.6"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/routing-17-253-27-156.20261019.json",
+          "sha256": "f5db0d2ee243cf97d9ac4bc1134898bac067455c6a11899e8a40bc95520e6613",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=17.253.27.156"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-tv/routing-23-192-228-8.20261019.json",
+          "sha256": "f620a927f0930a977c019f090d15511a7e14864531c95e07b35b6890a2d57fa1",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=23.192.228.8"
+        }
+      ],
+      "statuses": {
+        "announced": 4
+      }
     }
   ],
-  "network_evidence_record_count": 3975,
+  "network_evidence_record_count": 3979,
   "network_evidence_schema": {
     "path": "schema/network-evidence.schema.json",
     "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",

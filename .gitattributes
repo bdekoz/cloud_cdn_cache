@@ -9,3 +9,5 @@ data/raw/geography-enrichment/* -text -whitespace
 data/raw/gulf-enrichment/* -text -whitespace
 data/raw/completion-review/* -text -whitespace
 data/raw/completion-review/*.pdf binary
+data/raw/apple-tv/* -text -whitespace
+data/raw/apple-tv/*.pdf binary

@@ -1,0 +1,21 @@
+{
+  "built_at": "2026-10-19",
+  "category_counts": {
+    "cache_host_declaration": 1,
+    "cdn_pop_observation": 1,
+    "media_delivery_path": 6,
+    "peering_status_reference": 1,
+    "service_delivery_observation": 6,
+    "service_endpoint_reference": 3
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/infrastructure/apple-tv-delivery.20261019.csv",
+      "path": "data/infrastructure/apple-tv-delivery.20261019.csv",
+      "source": "data/infrastructure/apple-tv-delivery.20261019.json"
+    }
+  },
+  "parser": "scripts/update_apple_tv.py",
+  "physical_site_total": null,
+  "record_count": 18
+}

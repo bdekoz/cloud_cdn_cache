@@ -1,10 +1,130 @@
 # Enrichment bibliography
 
-Built 2026-10-19. 209 retained-source or unavailable-reference entries.
+Built 2026-10-19. 268 retained-source or unavailable-reference entries.
 
 The [machine-readable index](../data/references/bibliography.20261019.json) records the full SHA-256, raw path, source dates, publisher, role and admission limits for every entry. Retrieval dates do not establish a current deployment. Failed URLs and held evidence are included explicitly.
 
 GeoNames coordinates are locality reference points under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), not infrastructure coordinates. Bibliographic inclusion does not change any source's redistribution terms.
+
+## Apple TV delivery: web, artwork, public previews and cache hosts
+
+- **1-IX** — [1-IX Apple Edge Cache participant declaration](https://1-ix.net/en/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-1ix-members.20261019.html). `ref-3d09aad7f91bef2e`. Membership list derived from PeeringDB; not independent confirmation or a city-level installation list.
+
+- **Apple** — [Apple CDN Solutions Engineer role](https://jobs.apple.com/en-us/details/200672206-0836/cdn-solutions-engineer). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/apple-cdn-engineer.20261019.html). `ref-2c385695f263258a`. Provider description of media delivery architecture. Platform count is not TV CDN market share or a PoP count.
+
+- **Apple** — [Apple Edge Cache program](https://cache.edge.apple.com/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/apple-aec-program.20261019.html). `ref-acff05d1d644447f`. Apple-managed ISP cache program; no TV-specific deployment inventory.
+
+- **Apple** — [Apple Media Products CDN job listing](https://jobs.apple.com/en-us/search?page=8&team=cloud-et-infrastructures-SFTWR-CLD). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/apple-cdn-jobs-list.20261019.html). `ref-afe2769cf5b72434`. Provider architecture statement across Apple Media Products; no claim that every platform serves Apple TV.
+
+- **Apple** — [Apple TV Ted Lasso public show page](https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-ted-lasso.20261019.html). `ref-12f4db3840619891`. Public show page and preview metadata; no subscriber playback or DRM key requests.
+
+- **Apple** — [Apple TV Web player configuration](https://mediaservices.cdn-apple.com/store_bags/hlsjs/atvw/v1/rtc_storebag.json). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-player-configuration.20261019.json). `ref-52a02e658bcbd43b`. Public configuration directly referenced by retained frontend script. Candidate settings are not observed session events.
+
+- **Apple** — [Apple TV preview variant playlist on vod-ak-aoc.tv.apple.com](https://vod-ak-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-variant-vod-ak-aoc.20261019.m3u8). `ref-92bf67ebf44ad9bc`. One public video rendition per advertised delivery hostname. No media segments or keys fetched.
+
+- **Apple** — [Apple TV preview variant playlist on vod-ap-aoc.tv.apple.com](https://vod-ap-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-variant-vod-ap-aoc.20261019.m3u8). `ref-1431ac3dd806c589`. One public video rendition per advertised delivery hostname. No media segments or keys fetched.
+
+- **Apple** — [Apple TV preview variant playlist on vod-fa-aoc.tv.apple.com](https://vod-fa-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-variant-vod-fa-aoc.20261019.m3u8). `ref-e94d425844a0c919`. One public video rendition per advertised delivery hostname. No media segments or keys fetched.
+
+- **Apple** — [Apple TV public web application](https://tv.apple.com/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-home.20261019.html). `ref-985dabebab2598ec`. Discover exact web, artwork and public preview resources. Storefront and marketing geography are not infrastructure locations.
+
+- **Apple** — [Apple TV show artwork response headers](https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1200x675.jpg). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-artwork-headers.20261019.json). `ref-5c2eeeefeecf6d2f`. HEAD only for the public show artwork. CDN evidence for artwork is not evidence of video delivery.
+
+- **Apple** — [Apple TV web application JavaScript](https://tv.apple.com/assets/main~pqIjNYEx6_.js). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-javascript.20261019.js). `ref-729f8d71e355135a`. Public frontend implementation and endpoint configuration; code references do not prove successful playback.
+
+- **Apple** — [Apple published IP geolocation feed](https://ip-geolocation.apple.com/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/apple-geofeed.20261019.csv). `ref-99eddeae6f747127`. Provider prefix geography; requires exact observed-address longest-prefix match. Not a facility address or global TV footprint.
+
+- **Apple** — [Ted Lasso public preview master playlist 0](https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=6796492959&isExternal=true&brandId=tvs.sbd.4000&id=1523339543&l=en-US&aec=UHD). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-preview-0.20261019.m3u8). `ref-cc54b71710179311`. Public Preview item explicitly listed in the trailers shelf. Manifest retrieval only; no media segments, DRM keys or subscriber sessions.
+
+- **Apple** — [Ted Lasso public preview master playlist 3](https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1849515631&isExternal=true&brandId=tvs.sbd.4000&id=1471452310&l=en-US&aec=UHD). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/tv-preview-3.20261019.m3u8). `ref-be4a077351acb552`. Public Preview item explicitly listed in the trailers shelf. Manifest retrieval only; no media segments, DRM keys or subscriber sessions.
+
+- **Apple** — [Use Apple products on enterprise networks](https://support.apple.com/en-us/101555). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/apple-enterprise-network.20261019.html). `ref-68f8b31717b5aca7`. General service domain guidance, not a TV deployment inventory.
+
+- **BIX** — [BIX Apple Edge Cache pilot announcement](https://www.bix.hu/en/news/202501_apple_edge_cache_pilot_project). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-bix-pilot.20261019.html). `ref-822147e1959b862b`. January 2025 pilot; not a currently operating, located cache installation.
+
+- **BIX** — [BIX Apple Edge Cache pilot announcement, accessible page text](https://www.bix.hu/en/news/202501_apple_edge_cache_pilot_project). retrieved 2026-10-19; published 2025-01-06; [retained source](../data/raw/apple-tv/aec-bix-web.20261019.json). `ref-4fe53b999e1f850f`. Public web-reader text; direct HTTP capture lacked the article. Pilot access is not proof of a deployed cache location.
+
+- **CEnet** — [CEnet Apple Edge Cache deployment](https://cenet.catholic.edu.au/blog/avqvtwfgg0c882enccdnxsvv29rkiq-k39mr-escre-jz69a-cz9ph). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-cenet-deployment.20261019.html). `ref-aee0c14b0a8d221c`. Explicit host installation with November 2023 traffic example; office address and served schools are not deployment locations.
+
+- **Fastly** — [Fastly X-Served-By response header](https://www.fastly.com/documentation/reference/http/http-headers/X-Served-By/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/fastly-served-by.20261019.html). `ref-a7016c8b012a29c3`. Provider interpretation of cache identity; caches in a response may include shield and edge, not distinct TV facilities.
+
+- **Fastly** — [Fastly shielding and response header interpretation](https://www.fastly.com/documentation/guides/concepts/shielding/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/fastly-shielding.20261019.html). `ref-5ad869d8274168b1`. Cached upstream headers and shield nodes cannot be counted as current end-user edge connections.
+
+- **Fastly** — [Using Fastly global POP network](https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/fastly-pop-directory.20261019.html). `ref-91f74461ec06634b`. Public POP code directory. Only observed TV response identifiers may be joined; unobserved POPs are not Apple TV deployments.
+
+- **France-IX** — [France-IX Lyon tour presentation, June 19, 2025](https://www.franceix.net/documents/57/2025.05.19_-_Presentation_France_IX_Tour_Lyon_-_VF.pdf). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-franceix-lyon-slides.20261019.pdf). `ref-558be02e83cac83a`. Operator presentation locating hosted Apple caching in Lyon; historical declaration, not October health.
+
+- **France-IX** — [France-IX Q2 2025 technical report: two Apple caches in Lyon/AURA](https://www.franceix.net/fr/infrastructure/techhub/rapport-technique-t2-2025/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-franceix-lyon.20261019.html). `ref-2ecaf7cd5172ce0b`. Operator installation declaration at city/region scope; two caches are not two separately located buildings. Apple TV traffic is not specifically established.
+
+- **GeoNames** — [GeoNames Lyon and Santa Clara reference rows](https://download.geonames.org/export/dump/cities500.zip). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-geonames.20261019.tsv). `ref-dd92e5d42c722f6b`. Exact city reference rows; no facility geocoding. Previously retrieved October 19 archive.
+
+- **GeoNames** — [GeoNames Palo Alto and Santa Clara city reference rows](https://download.geonames.org/export/dump/cities500.zip). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/geonames-localities.20261019.tsv). `ref-d3f4ff95f51d20a9`. City reference coordinates only; no facility coordinates. Exact rows from the previously retained October 19 archive.
+
+- **Google Public DNS** — [Public DNS delivery trace: is1-ssl.mzstatic.com A](https://dns.google/resolve?name=is1-ssl.mzstatic.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-is1-ssl-mzstatic-com-a.20261019.json). `ref-cff88accd10c7c98`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: is1-ssl.mzstatic.com AAAA](https://dns.google/resolve?name=is1-ssl.mzstatic.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-is1-ssl-mzstatic-com-aaaa.20261019.json). `ref-3c106238033e5b55`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: mediaservices.cdn-apple.com A](https://dns.google/resolve?name=mediaservices.cdn-apple.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-mediaservices-cdn-apple-com-a.20261019.json). `ref-4690b80aa524ac0c`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: mediaservices.cdn-apple.com AAAA](https://dns.google/resolve?name=mediaservices.cdn-apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-mediaservices-cdn-apple-com-aaaa.20261019.json). `ref-c42fc20c5f09b8bb`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: play-edge.itunes.apple.com A](https://dns.google/resolve?name=play-edge.itunes.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-play-edge-itunes-apple-com-a.20261019.json). `ref-8a4c7852ae3876e4`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: play-edge.itunes.apple.com AAAA](https://dns.google/resolve?name=play-edge.itunes.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-play-edge-itunes-apple-com-aaaa.20261019.json). `ref-3d58e9a825e8ac4f`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: tv.apple.com A](https://dns.google/resolve?name=tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-tv-apple-com-a.20261019.json). `ref-dca6cc897e171b99`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: tv.apple.com AAAA](https://dns.google/resolve?name=tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-tv-apple-com-aaaa.20261019.json). `ref-1d7b35370e194c61`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: uts-api.itunes.apple.com A](https://dns.google/resolve?name=uts-api.itunes.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-uts-api-itunes-apple-com-a.20261019.json). `ref-439f7b49dfa0c348`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: uts-api.itunes.apple.com AAAA](https://dns.google/resolve?name=uts-api.itunes.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-uts-api-itunes-apple-com-aaaa.20261019.json). `ref-0f6fb40c26200d8c`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: vod-ak-aoc.tv.apple.com A](https://dns.google/resolve?name=vod-ak-aoc.tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-vod-ak-aoc-tv-apple-com-a.20261019.json). `ref-dcc761127e9358e3`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: vod-ak-aoc.tv.apple.com AAAA](https://dns.google/resolve?name=vod-ak-aoc.tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-vod-ak-aoc-tv-apple-com-aaaa.20261019.json). `ref-0be7d27db764022e`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: vod-ap-aoc.tv.apple.com A](https://dns.google/resolve?name=vod-ap-aoc.tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-vod-ap-aoc-tv-apple-com-a.20261019.json). `ref-d368b69033f0ff35`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: vod-ap-aoc.tv.apple.com AAAA](https://dns.google/resolve?name=vod-ap-aoc.tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-vod-ap-aoc-tv-apple-com-aaaa.20261019.json). `ref-b0a11091718489d0`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: vod-fa-aoc.tv.apple.com A](https://dns.google/resolve?name=vod-fa-aoc.tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-vod-fa-aoc-tv-apple-com-a.20261019.json). `ref-b17f61372bb318ae`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **Google Public DNS** — [Public DNS delivery trace: vod-fa-aoc.tv.apple.com AAAA](https://dns.google/resolve?name=vod-fa-aoc.tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/dns-vod-fa-aoc-tv-apple-com-aaaa.20261019.json). `ref-297ac954a0eedc85`. Delivery-path lookup, not an Apple DNS service inventory. Resolver vantage unknown; ECS zero disables client subnet forwarding. Not a physical location or a browser-selected media path.
+
+- **IX Australia** — [IX Australia technical guide and Apple AEC cache policy](https://ix.asn.au/technical-guide/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-ixaustralia-guide.20261019.html). `ref-1257e065a029926d`. Host or exchange declaration; explicit cache locality required. Customer location and service reach do not locate cache hardware.
+
+- **LU-CIX** — [LU-CIX Apple Edge Cache participant declaration](https://www.lu-cix.lu/connected-networks/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-lucix-members.20261019.html). `ref-54ab2df6bdf920fb`. Exchange-level membership; no assumption that every exchange site hosts a cache.
+
+- **PIT-IX** — [PIT-IX Apple AEC participant declaration](https://portal.pit-ix.net/customer/details). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-pitix-members.20261019.html). `ref-27dbcc14e9b12382`. Host or exchange declaration; explicit cache locality required. Customer location and service reach do not locate cache hardware.
+
+- **PeeringDB / Apple** — [Apple Edge Cache AS31128 exchange registrations](https://www.peeringdb.com/api/netixlan?asn=31128). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-peeringdb-ix.20261019.json). `ref-5489a7e1f2a61218`. Self-reported IX attachments may be remote. Do not fan out a distributed IX into cache deployments.
+
+- **PeeringDB / Apple** — [Apple Edge Cache AS31128 facility registrations](https://www.peeringdb.com/api/netfac?local_asn=31128). retrieved 2026-10-19; unavailable. `ref-9bfbbc1106bd60eb`. Self-reported facility relationships for AEC-specific ASN; no endpoint-to-cabinet join.
+
+- **PeeringDB / Apple** — [Apple Edge Cache AS31128 network registration](https://www.peeringdb.com/api/net?asn=31128). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-peeringdb-network.20261019.json). `ref-00b87e590f245955`. Self-reported AEC-specific network registration; not AS714 and not installed-cache inventory.
+
+- **RIPE NCC** — [RIPEstat route for Apple TV observed address 149.112.115.176](https://stat.ripe.net/data/network-info/data.json?resource=149.112.115.176). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/routing-149-112-115-176.20261019.json). `ref-370a8d2ad1e592ec`. Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.
+
+- **RIPE NCC** — [RIPEstat route for Apple TV observed address 151.101.3.6](https://stat.ripe.net/data/network-info/data.json?resource=151.101.3.6). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/routing-151-101-3-6.20261019.json). `ref-7b3f170f13fd9dae`. Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.
+
+- **RIPE NCC** — [RIPEstat route for Apple TV observed address 17.253.27.156](https://stat.ripe.net/data/network-info/data.json?resource=17.253.27.156). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/routing-17-253-27-156.20261019.json). `ref-98bf9bd8ee59bcc2`. Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.
+
+- **RIPE NCC** — [RIPEstat route for Apple TV observed address 23.192.228.8](https://stat.ripe.net/data/network-info/data.json?resource=23.192.228.8). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/routing-23-192-228-8.20261019.json). `ref-f6163b3b06e1dc4a`. Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.
+
+- **SFMIX** — [SFMIX AS40271 connection guide](https://ip.sfmix.org/connection-guide/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/sfmix-connection-guide.20261019.html). `ref-b4c3a8a1546a9b35`. Operator declaration; cache service, route origin, IX membership and physical endpoint mapping remain distinct. Preserve conflicting statuses.
+
+- **SFMIX** — [SFMIX AS40271 current content caches](https://ip.sfmix.org/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/sfmix-cache-network.20261019.html). `ref-4ae0e4973106c619`. Operator declaration; cache service, route origin, IX membership and physical endpoint mapping remain distinct. Preserve conflicting statuses.
+
+- **SFMIX** — [SFMIX facility site-code directory](https://sfmix.org/locations/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/sfmix-locations.20261019.html). `ref-a44edd12cbc11a7b`. Explicit SCL02 site-code crosswalk. Does not locate the sampled IP address or establish current cache operation.
+
+- **SFMIX** — [SFMIX participant status directory](https://portal.sfmix.org/participants/). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/sfmix-participants.20261019.html). `ref-f54abefcb9aca707`. Operator declaration; cache service, route origin, IX membership and physical endpoint mapping remain distinct. Preserve conflicting statuses.
+
+- **TENET** — [TENET Apple Edge Cache activation, September 16 2026](https://www.tenet.ua/novini/apple-edge-cache). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-tenet-deployment.20261019.html). `ref-5d5250e2f7c49f1a`. Host or exchange declaration; explicit cache locality required. Customer location and service reach do not locate cache hardware.
+
+- **TENET** — [TENET Apple Edge Cache launch announcement discovery](https://www.tenet.ua/news?page=2). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-tenet-news.20261019.html). `ref-5a3c36751e42fbd4`. Host deployment evidence; serving-area and office locations must not be used as cache coordinates.
+
+- **TENET** — [TENET Apple Edge Cache launch, accessible page text](https://www.tenet.ua/novini/apple-edge-cache). retrieved 2026-10-19; published 2026-09-16; [retained source](../data/raw/apple-tv/aec-tenet-web.20261019.json). `ref-de731ac40e467ed9`. Public web-reader text; direct HTTP capture lacked the article. Network installation only; no cache city or current health established.
 
 ## CDN, India, Apple and Russia references
 

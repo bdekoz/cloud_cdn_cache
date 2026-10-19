@@ -1,0 +1,29 @@
+{
+  "apple_cache_localities_program_unconfirmed": 1,
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/apple/aec-localities.20261019.csv",
+      "path": "data/apple/aec-localities.20261019.csv",
+      "source": "data/apple/aec-localities.20261019.geojson"
+    }
+  },
+  "excluded_from_canonical_totals": true,
+  "explicitly_named_aec_localities": 1,
+  "input_layers": [
+    {
+      "layer": "infrastructure/apple-aec-hosts",
+      "path": "data/infrastructure/apple-aec-hosts.20261019.json",
+      "sha256": "9616398dc0a8d4a53b41caa0f01df4522a1be4d524cc2999ac3d6417732b9837"
+    },
+    {
+      "layer": "infrastructure/apple-tv-delivery",
+      "path": "data/infrastructure/apple-tv-delivery.20261019.json",
+      "sha256": "67bc9715e9fabece22b2b0d3002fe0becaa81843dc76372fb3532f4c29f98532"
+    }
+  ],
+  "interpretation": "City reference points. Santa Clara has explicit AEC/TV host evidence with unresolved lifecycle; Lyon has a Q2 2025 Apple-cache installation declaration without an explicit AEC program name.",
+  "overlap_note": "Santa Clara also appears in the Apple TV delivery view; these are overlapping service views, not additive deployments.",
+  "physical_sites": false,
+  "record_count": 2
+}

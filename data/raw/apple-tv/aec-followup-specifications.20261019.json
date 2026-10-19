@@ -1,0 +1,36 @@
+[
+  {
+    "source_id": "aec-franceix-lyon",
+    "source_url": "https://www.franceix.net/fr/infrastructure/techhub/rapport-technique-t2-2025/",
+    "title": "France-IX Q2 2025 technical report: two Apple caches in Lyon/AURA",
+    "publisher": "France-IX",
+    "role": "Operator installation declaration at city/region scope; two caches are not two separately located buildings. Apple TV traffic is not specifically established.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-tenet-news",
+    "source_url": "https://www.tenet.ua/news?page=2",
+    "title": "TENET Apple Edge Cache launch announcement discovery",
+    "publisher": "TENET",
+    "role": "Host deployment evidence; serving-area and office locations must not be used as cache coordinates.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-franceix-lyon-slides",
+    "source_url": "https://www.franceix.net/documents/57/2025.05.19_-_Presentation_France_IX_Tour_Lyon_-_VF.pdf",
+    "title": "France-IX Lyon tour presentation, June 19, 2025",
+    "publisher": "France-IX",
+    "role": "Operator presentation locating hosted Apple caching in Lyon; historical declaration, not October health.",
+    "extension": "pdf",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "notes": "Presentation date taken from the PDF cover; the filename contains a different May date. Publication date is unestablished."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/286265d/data/manifest.20261019.json",
+  "raw_source_ref": "data/raw/repository/manifest-before-apple-tv.20261019.json",
+  "sha256": "c06527415def65023f40211790d322efa23a3f776630f9688684d078a21caf35",
+  "retrieved_at": "2026-10-19",
+  "source_published_at": null,
+  "source_commit": "286265d",
+  "notes": "Immutable completion-review boundary before Apple TV delivery enrichment."
+}

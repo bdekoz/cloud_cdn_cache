@@ -1,0 +1,16 @@
+{
+  "bytes": 2713,
+  "capture_method": "web_tool_response",
+  "path": "data/raw/apple-tv/aec-bix-web.20261019.json",
+  "publisher": "BIX",
+  "raw_source_ref": "data/raw/apple-tv/aec-bix-web.20261019.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Public web-reader text; direct HTTP capture lacked the article. Pilot access is not proof of a deployed cache location.",
+  "sha256": "e6350368871efb877426fe153f790f609c81c62ba12eef6b7c0f909e86898fbd",
+  "source_id": "aec-bix-web",
+  "source_published_at": "2025-01-06",
+  "source_updated_at": null,
+  "source_url": "https://www.bix.hu/en/news/202501_apple_edge_cache_pilot_project",
+  "title": "BIX Apple Edge Cache pilot announcement, accessible page text"
+}

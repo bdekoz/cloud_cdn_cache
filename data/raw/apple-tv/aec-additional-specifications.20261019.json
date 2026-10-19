@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "aec-tenet-deployment",
+    "source_url": "https://www.tenet.ua/novini/apple-edge-cache",
+    "title": "TENET Apple Edge Cache activation, September 16 2026",
+    "publisher": "TENET",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "role": "Host or exchange declaration; explicit cache locality required. Customer location and service reach do not locate cache hardware."
+  },
+  {
+    "source_id": "aec-ixaustralia-guide",
+    "source_url": "https://ix.asn.au/technical-guide/",
+    "title": "IX Australia technical guide and Apple AEC cache policy",
+    "publisher": "IX Australia",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "role": "Host or exchange declaration; explicit cache locality required. Customer location and service reach do not locate cache hardware."
+  },
+  {
+    "source_id": "aec-pitix-members",
+    "source_url": "https://portal.pit-ix.net/customer/details",
+    "title": "PIT-IX Apple AEC participant declaration",
+    "publisher": "PIT-IX",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "role": "Host or exchange declaration; explicit cache locality required. Customer location and service reach do not locate cache hardware."
+  }
+]

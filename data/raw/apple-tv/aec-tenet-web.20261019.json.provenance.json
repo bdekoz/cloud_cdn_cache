@@ -1,0 +1,16 @@
+{
+  "bytes": 7132,
+  "capture_method": "web_tool_response",
+  "path": "data/raw/apple-tv/aec-tenet-web.20261019.json",
+  "publisher": "TENET",
+  "raw_source_ref": "data/raw/apple-tv/aec-tenet-web.20261019.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Public web-reader text; direct HTTP capture lacked the article. Network installation only; no cache city or current health established.",
+  "sha256": "c9b498e965bbb62128697d56935e470a98394812f14b0f3d614ee9906e96d7d6",
+  "source_id": "aec-tenet-web",
+  "source_published_at": "2026-09-16",
+  "source_updated_at": null,
+  "source_url": "https://www.tenet.ua/novini/apple-edge-cache",
+  "title": "TENET Apple Edge Cache launch, accessible page text"
+}

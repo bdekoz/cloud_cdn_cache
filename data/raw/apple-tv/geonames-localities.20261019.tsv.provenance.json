@@ -1,0 +1,22 @@
+{
+  "source_id": "geonames-localities",
+  "source_url": "https://download.geonames.org/export/dump/cities500.zip",
+  "title": "GeoNames Palo Alto and Santa Clara city reference rows",
+  "publisher": "GeoNames",
+  "role": "City reference coordinates only; no facility coordinates. Exact rows from the previously retained October 19 archive.",
+  "path": "data/raw/apple-tv/geonames-localities.20261019.tsv",
+  "raw_source_ref": "data/raw/apple-tv/geonames-localities.20261019.tsv",
+  "sha256": "b3f4a7bbcfaf0fa4dfd3d2af5aeeaf96116c5eb6f26292cb606f4be8c18d6051",
+  "download_sha256": "3f0949d068003cbb7e614275c5a28107a8f4c6b766f704b2bd317004d4cd0527",
+  "archive_member": "cities500.txt",
+  "selected_geonames_ids": [
+    "5380748",
+    "5393015"
+  ],
+  "retrieved_at": "2026-10-19",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "result": "retrieved",
+  "capture_method": "selected_archive_rows",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/"
+}

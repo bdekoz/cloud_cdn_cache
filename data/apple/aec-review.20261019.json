@@ -1,0 +1,72 @@
+{
+  "apple_cache_localities_program_unconfirmed": 1,
+  "built_at": "2026-10-19",
+  "canonical_records_added": 0,
+  "explicitly_named_aec_localities": 1,
+  "gaps": [
+    "No complete public AEC inventory; Apple AS714/6185 presence and provider geofeeds are not AEC installation lists.",
+    "India, Gulf, Russia and China have no locality admitted by this bounded host review.",
+    "CEnet and TENET need an explicit cache-city/site declaration. LU-CIX, 1-IX, PIT-IX and IX Australia need cache placement, not only IX membership or cache-access policy.",
+    "Lyon needs an explicit AEC program identity and newer operating-status confirmation; Santa Clara needs the cache-versus-peering status and sampled-IP-to-site join resolved."
+  ],
+  "locality_dispositions": [
+    {
+      "disposition": "mapped_declared_cache_site_city_current_lifecycle_unresolved",
+      "host": "SFMIX",
+      "record_id": "apple:tv:sfmix-aec-scl02"
+    },
+    {
+      "disposition": "held_membership_not_cache_location",
+      "host": "1-IX",
+      "record_id": "apple:aec:1ix"
+    },
+    {
+      "disposition": "held_pilot_not_located_deployment",
+      "host": "BIX / Giganet",
+      "record_id": "apple:aec:bix-pilot"
+    },
+    {
+      "disposition": "held_no_cache_city",
+      "host": "CEnet",
+      "record_id": "apple:aec:cenet"
+    },
+    {
+      "disposition": "mapped_operator_declared_city_program_unconfirmed",
+      "host": "France-IX",
+      "record_id": "apple:aec:franceix-lyon"
+    },
+    {
+      "disposition": "held_exchange_scope_not_cache_site",
+      "host": "IX Australia",
+      "record_id": "apple:aec:ixaustralia-qld"
+    },
+    {
+      "disposition": "held_membership_not_cache_location",
+      "host": "LU-CIX",
+      "record_id": "apple:aec:lucix"
+    },
+    {
+      "disposition": "held_membership_not_cache_location",
+      "host": "PIT-IX",
+      "record_id": "apple:aec:pitix"
+    },
+    {
+      "disposition": "held_no_cache_city",
+      "host": "TENET",
+      "record_id": "apple:aec:tenet"
+    }
+  ],
+  "mapped_localities": 2,
+  "next_step": "Retain ordinary public-preview response headers from known access networks, then join discovered cache host labels to explicit operator site declarations. Do not force unknown hosts onto office or IX coordinates.",
+  "retained_source_limits": {
+    "aec-bix-pilot": "Direct HTTP capture did not expose article text; separately retained web-reader text supports the pilot reference.",
+    "aec-peeringdb-fac": "Response exceeded capture limit; filter may not be supported. No facility rows admitted.",
+    "aec-peeringdb-ix": "Empty result; not proof that AEC has no exchange relationships.",
+    "aec-peeringdb-network": "Entity-not-found response; no AS31128 network object admitted.",
+    "aec-tenet-deployment": "Direct HTTP capture did not expose article text; separately retained web-reader text supports the declaration."
+  },
+  "source_catalog": {
+    "path": "data/raw/apple-tv/catalog.20261019.json",
+    "sha256": "50f3e60450749db292bd1fc0995f0123f07487e8b6bb5e96d20b0662cc177384"
+  }
+}

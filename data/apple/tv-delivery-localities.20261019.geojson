@@ -1,0 +1,118 @@
+{
+  "built_at": "2026-10-19",
+  "excluded_from_canonical_totals": true,
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -121.95524,
+          37.35411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/apple-tv/sfmix-cache-network.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_sha256": "b6567a0876017040fa96b0251b31a22b371f5e82b397e075ece281b9404b1ec8",
+            "source_url": "https://ip.sfmix.org/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "footprint:apple:apple-tv:5393015",
+        "gazetteer": {
+          "admin1": "CA",
+          "evidence": {
+            "raw_source_ref": "data/raw/apple-tv/geonames-localities.20261019.tsv",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "b3f4a7bbcfaf0fa4dfd3d2af5aeeaf96116c5eb6f26292cb606f4be8c18d6051",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5393015",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Santa Clara"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Santa Clara",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Apple",
+        "record_unit": "provider_service_locality",
+        "service": "Apple TV content delivery",
+        "source_claim_ids": [
+          "apple:tv:sfmix-aec-scl02"
+        ],
+        "source_locality_labels": [
+          "SCL02 / Santa Clara"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "apple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.14302,
+          37.44188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-fa-aoc.20261019.m3u8.provenance.json",
+            "retrieved_at": "2026-10-19",
+            "source_sha256": "ac4bb2b4a01a15e0d81bf21a47165cee4f89848675657d0e174b2ec726f5a5c1",
+            "source_url": "https://vod-fa-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "footprint:fastly:apple-tv:5380748",
+        "gazetteer": {
+          "admin1": "CA",
+          "evidence": {
+            "raw_source_ref": "data/raw/apple-tv/geonames-localities.20261019.tsv",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "b3f4a7bbcfaf0fa4dfd3d2af5aeeaf96116c5eb6f26292cb606f4be8c18d6051",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5380748",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Palo Alto"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Palo Alto",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Fastly",
+        "record_unit": "provider_service_locality",
+        "service": "Apple TV content delivery",
+        "source_claim_ids": [
+          "apple:tv:fastly-pao"
+        ],
+        "source_locality_labels": [
+          "PAO / Palo Alto"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "fastly"
+      },
+      "type": "Feature"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "type": "FeatureCollection"
+}

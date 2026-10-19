@@ -1,0 +1,97 @@
+[
+  {
+    "Version": 1,
+    "Scheme": 1,
+    "BagVersion": "87f7b7a",
+    "ConfigurationList": {
+      "DefaultPostURL": {
+        "PostURLs": [
+          "https://coremedia-analytics-flume-itms5-pv50.itunes.apple.com/rtcjs/v1"
+        ]
+      },
+      "NewProdPostURL": {
+        "PostURLs": [
+          "https://cma2.itunes.apple.com/rtcjs/v1"
+        ]
+      },
+      "DefaultFilters": {
+        "Filters": {
+          "Remove": [
+            "URI",
+            "AssetID",
+            "MediaControlTimestamps"
+          ]
+        }
+      },
+      "TVFilters": {
+        "Filters": {
+          "Remove": [
+            "URI",
+            "AssetID",
+            "MediaControlTimestamps"
+          ]
+        }
+      },
+      "Config100Percent": {
+        "EventThreshold": 50,
+        "SamplingThreshold": 1,
+        "BatchSizeThreshold": 61439
+      },
+      "Config50Percent": {
+        "EventThreshold": 50,
+        "SamplingThreshold": 0.5,
+        "BatchSizeThreshold": 61439
+      },
+      "Config0Percent": {
+        "EventThreshold": 50,
+        "SamplingThreshold": 0,
+        "BatchSizeThreshold": 61439
+      },
+      "FlushEventInterval60": {
+        "FlushEventsInterval": 60
+      }
+    },
+    "BagList": {
+      "ATVW_QA": {
+        "ClientName": "ATVW_QA",
+        "ServiceName": "com.apple.tv.external",
+        "ServiceNameList": [
+          "com.apple.tv.external",
+          "com.apple.tv.external.indefinite",
+          "com.apple.tv.external.indefinite.fast",
+          "com.apple.tv.external.fast"
+        ],
+        "ApplicationNameList": [
+          "AppleTVWeb"
+        ],
+        "Configurations": [
+          "Config100Percent",
+          "DefaultPostURL",
+          "DefaultFilters",
+          "FlushEventInterval60"
+        ]
+      },
+      "ATVW_TV": {
+        "ClientName": "ATVW",
+        "ServiceName": "com.apple.tv.external",
+        "ServiceNameList": [
+          "com.apple.tv.external",
+          "com.apple.tv.external.indefinite",
+          "com.apple.tv.external.indefinite.fast",
+          "com.apple.tv.external.offline",
+          "com.apple.tv.external.offline.AppleTVWeb",
+          "com.apple.tv.external.fast"
+        ],
+        "ApplicationNameList": [
+          "AppleTVWeb"
+        ],
+        "Configurations": [
+          "Config100Percent",
+          "NewProdPostURL",
+          "TVFilters",
+          "FlushEventInterval60"
+        ]
+      }
+    }
+  }
+]

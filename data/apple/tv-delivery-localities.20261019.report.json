@@ -1,0 +1,21 @@
+{
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/apple/tv-delivery-localities.20261019.csv",
+      "path": "data/apple/tv-delivery-localities.20261019.csv",
+      "source": "data/apple/tv-delivery-localities.20261019.geojson"
+    }
+  },
+  "excluded_from_canonical_totals": true,
+  "input_layers": [
+    {
+      "layer": "infrastructure/apple-tv-delivery",
+      "path": "data/infrastructure/apple-tv-delivery.20261019.json",
+      "sha256": "67bc9715e9fabece22b2b0d3002fe0becaa81843dc76372fb3532f4c29f98532"
+    }
+  ],
+  "interpretation": "Palo Alto is a sampled Fastly delivery locality; Santa Clara is a host-declared AEC locality with unresolved peering/cache status. City reference points only.",
+  "physical_sites": false,
+  "record_count": 2
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "aec-peeringdb-network",
+    "source_url": "https://www.peeringdb.com/api/net?asn=31128",
+    "title": "Apple Edge Cache AS31128 network registration",
+    "publisher": "PeeringDB / Apple",
+    "role": "Self-reported AEC-specific network registration; not AS714 and not installed-cache inventory.",
+    "extension": "json",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-peeringdb-ix",
+    "source_url": "https://www.peeringdb.com/api/netixlan?asn=31128",
+    "title": "Apple Edge Cache AS31128 exchange registrations",
+    "publisher": "PeeringDB / Apple",
+    "role": "Self-reported IX attachments may be remote. Do not fan out a distributed IX into cache deployments.",
+    "extension": "json",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-peeringdb-fac",
+    "source_url": "https://www.peeringdb.com/api/netfac?local_asn=31128",
+    "title": "Apple Edge Cache AS31128 facility registrations",
+    "publisher": "PeeringDB / Apple",
+    "role": "Self-reported facility relationships for AEC-specific ASN; no endpoint-to-cabinet join.",
+    "extension": "json",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-bix-pilot",
+    "source_url": "https://www.bix.hu/en/news/202501_apple_edge_cache_pilot_project",
+    "title": "BIX Apple Edge Cache pilot announcement",
+    "publisher": "BIX",
+    "role": "January 2025 pilot; not a currently operating, located cache installation.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-lucix-members",
+    "source_url": "https://www.lu-cix.lu/connected-networks/",
+    "title": "LU-CIX Apple Edge Cache participant declaration",
+    "publisher": "LU-CIX",
+    "role": "Exchange-level membership; no assumption that every exchange site hosts a cache.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-cenet-deployment",
+    "source_url": "https://cenet.catholic.edu.au/blog/avqvtwfgg0c882enccdnxsvv29rkiq-k39mr-escre-jz69a-cz9ph",
+    "title": "CEnet Apple Edge Cache deployment",
+    "publisher": "CEnet",
+    "role": "Explicit host installation with November 2023 traffic example; office address and served schools are not deployment locations.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "aec-1ix-members",
+    "source_url": "https://1-ix.net/en/",
+    "title": "1-IX Apple Edge Cache participant declaration",
+    "publisher": "1-IX",
+    "role": "Membership list derived from PeeringDB; not independent confirmation or a city-level installation list.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  }
+]

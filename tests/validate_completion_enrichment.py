@@ -41,7 +41,10 @@ def projection(path, script, schema=None):
 
 def main():
     assert sha256(BASELINE) == "041bc3b47fe004256c8c7066472d5da31b81cd7872a0b8d81366c3ba1008c127"
-    before, current = read(BASELINE), read(ROOT / f"data/manifest.{TAG}.json")
+    # Preserve this implementation boundary when later same-day enrichments append layers.
+    completed = ROOT / f"data/raw/repository/manifest-before-apple-tv.{TAG}.json"
+    assert sha256(completed) == "c06527415def65023f40211790d322efa23a3f776630f9688684d078a21caf35"
+    before, current = read(BASELINE), read(completed)
     for key in ["layers", "views", "vendor_registry", "application_endpoint_layers", "observation_comparison_views"]:
         assert current[key] == before[key], key
     assert (current["record_count"], current["layer_count"]) == (28024, 39)
@@ -133,8 +136,9 @@ def main():
     for value in [infra, view, net, review]:
         hashes(value)
     bibliography = read(ROOT / f"data/references/bibliography.{TAG}.json")
-    assert bibliography["reference_count"] == len(bibliography["references"]) == 209
-    assert len({r["reference_id"] for r in bibliography["references"]}) == 209
+    assert current["bibliography"]["reference_count"] == 209
+    assert bibliography["reference_count"] == len(bibliography["references"]) >= 209
+    assert len({r["reference_id"] for r in bibliography["references"]}) == bibliography["reference_count"]
     assert {s["source_id"] for s in catalog["sources"]} <= {r["source_id"] for r in bibliography["references"]}
 
     # Reproduction must neither change captured inputs/metadata nor depend on network access.

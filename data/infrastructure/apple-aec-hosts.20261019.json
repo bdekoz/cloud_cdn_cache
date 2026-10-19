@@ -1,0 +1,405 @@
+{
+  "categories": {
+    "cache_exchange_reference": "Apple cache access or membership at an exchange; not an installed-cache location.",
+    "cache_host_declaration": "Host confirms installed Apple caching, sometimes without a location or explicit AEC product name.",
+    "cache_pilot_reference": "A dated pilot/access opportunity; not a located operational deployment."
+  },
+  "records": [
+    {
+      "category": "cache_exchange_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: 1-IX",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "1-IX",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": true,
+        "all_exchange_sites_are_cache_sites": false,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": null,
+        "cache_site_count": null,
+        "declared_asn": 31128,
+        "host_operator": "1-IX",
+        "locality": null,
+        "mapping_disposition": "held_membership_not_cache_location",
+        "not_independent_of_peeringdb": true,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "remote_peering_not_excluded": true,
+        "service": "Apple Edge Cache / host-declared Apple caching"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-1ix-members.20261019.html",
+      "record_id": "apple:aec:1ix",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "521ead3b23033e9d1a7f3ea4ae07088e76cce4caab5f925083ecbbf80a835cba",
+      "source_updated_at": null,
+      "source_url": "https://1-ix.net/en/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_pilot_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: BIX / Giganet",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "BIX / Giganet",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": true,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": null,
+        "cache_site_count": null,
+        "claim_type": "pilot_connection_opportunity",
+        "current_operation_not_verified": true,
+        "host_operator": "BIX / Giganet",
+        "locality": null,
+        "mapping_disposition": "held_pilot_not_located_deployment",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple Edge Cache / host-declared Apple caching"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-bix-web.20261019.json",
+      "record_id": "apple:aec:bix-pilot",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": "2025-01-06",
+      "source_scope": "provider_declared",
+      "source_sha256": "e6350368871efb877426fe153f790f609c81c62ba12eef6b7c0f909e86898fbd",
+      "source_updated_at": null,
+      "source_url": "https://www.bix.hu/en/news/202501_apple_edge_cache_pilot_project",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_host_declaration",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: CEnet",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "CEnet",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "address_not_inferred_from_office_or_member_schools": true,
+        "aec_program_identity_explicit": true,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": null,
+        "cache_site_count": null,
+        "current_operation_not_verified": true,
+        "host_operator": "CEnet",
+        "locality": null,
+        "mapping_disposition": "held_no_cache_city",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "reported_installation": true,
+        "service": "Apple Edge Cache / host-declared Apple caching",
+        "traffic_example_date": "2023-11-17"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-cenet-deployment.20261019.html",
+      "record_id": "apple:aec:cenet",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": "2023-12-04",
+      "source_scope": "provider_declared",
+      "source_sha256": "ae12aae919ca943e82c86d1d898e17a9c2f28256582e7564b5014106e6b8a4af",
+      "source_updated_at": "2023-12-05",
+      "source_url": "https://cenet.catholic.edu.au/blog/avqvtwfgg0c882enccdnxsvv29rkiq-k39mr-escre-jz69a-cz9ph",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_host_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "FR"
+      ],
+      "country_scope": "explicit_locality_reference",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: France-IX",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "France-IX",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": false,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": 2,
+        "cache_site_count": null,
+        "claim_period": "2025-Q2",
+        "country_code": "FR",
+        "current_operation_not_verified": true,
+        "host_operator": "France-IX",
+        "locality": "Lyon",
+        "locality_corroboration_evidence": {
+          "date_on_page": 1,
+          "page": 5,
+          "raw_source_ref": "data/raw/apple-tv/aec-franceix-lyon-slides.20261019.pdf",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "c185ac4c84a8ee3775b01646042315870f7c83dcf9be93d4afb3f2562e1b47bb",
+          "source_updated_at": null,
+          "source_url": "https://www.franceix.net/documents/57/2025.05.19_-_Presentation_France_IX_Tour_Lyon_-_VF.pdf"
+        },
+        "location_basis": "Operator technical report names Lyon/AURA; no individual cache addresses.",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "presentation_claim_date": "2025-06-19",
+        "presentation_date_basis": "PDF cover; the May date in its filename is not used as the claim date.",
+        "product_identity_note": "Operator calls them Apple caches; the AEC program name is not explicit.",
+        "reported_installation": true,
+        "service": "Apple Edge Cache / host-declared Apple caching"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-franceix-lyon.20261019.html",
+      "record_id": "apple:aec:franceix-lyon",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "0a9e294cff8ce885c97e8d0500f4b3e8b7608b6b63649a7e18af074cbce153d1",
+      "source_updated_at": null,
+      "source_url": "https://www.franceix.net/fr/infrastructure/techhub/rapport-technique-t2-2025/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_exchange_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: IX Australia",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "IX Australia",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": true,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": null,
+        "cache_site_count": null,
+        "delivery_network_asn": 10084,
+        "exchange": "QLD-IX",
+        "host_operator": "IX Australia",
+        "locality": null,
+        "locality_not_inferred_from_exchange_name": true,
+        "mapping_disposition": "held_exchange_scope_not_cache_site",
+        "opt_in_community": "10084:4712",
+        "opt_out_community": "10084:4711",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple Edge Cache / host-declared Apple caching"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-ixaustralia-guide.20261019.html",
+      "record_id": "apple:aec:ixaustralia-qld",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "84416a33799d0a02132949ac2dd8680ede98dbf79068adcef92684cf4489b969",
+      "source_updated_at": null,
+      "source_url": "https://ix.asn.au/technical-guide/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_exchange_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: LU-CIX",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "LU-CIX",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": true,
+        "all_exchange_sites_are_cache_sites": false,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": null,
+        "cache_site_count": null,
+        "capacity_is_not_cache_count": true,
+        "connection_capacity_as_published": "2*100GE",
+        "declared_asn": 31128,
+        "host_operator": "LU-CIX",
+        "locality": null,
+        "mapping_disposition": "held_membership_not_cache_location",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "remote_peering_not_excluded": true,
+        "service": "Apple Edge Cache / host-declared Apple caching"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-lucix-members.20261019.html",
+      "record_id": "apple:aec:lucix",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "bc0e56e55290a99a0b54f0dbc3898fadc685e0b81ce184c683bf2ef621c4c684",
+      "source_updated_at": null,
+      "source_url": "https://www.lu-cix.lu/connected-networks/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_exchange_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: PIT-IX",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "PIT-IX",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": true,
+        "all_exchange_sites_are_cache_sites": false,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": null,
+        "cache_site_count": null,
+        "declared_asn": 31128,
+        "host_operator": "PIT-IX",
+        "join_date_is_not_installation_date": true,
+        "locality": null,
+        "mapping_disposition": "held_membership_not_cache_location",
+        "member_joined_at": "2026-07-27",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "remote_peering_not_excluded": true,
+        "service": "Apple Edge Cache / host-declared Apple caching"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-pitix-members.20261019.html",
+      "record_id": "apple:aec:pitix",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "36b00427d4aa1c41b70bfe72fa75d7b20e8c1e4c7bd11b608c22a9e9cb889252",
+      "source_updated_at": null,
+      "source_url": "https://portal.pit-ix.net/customer/details",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_host_declaration",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache evidence: TENET",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "TENET",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "address_not_inferred_from_office_or_service_area": true,
+        "aec_program_identity_explicit": true,
+        "apple_tv_delivery_established": false,
+        "cache_hardware_count": null,
+        "cache_site_count": null,
+        "current_operation_not_verified": true,
+        "host_operator": "TENET",
+        "incident_to_cache_mapping_not_established": true,
+        "locality": null,
+        "mapping_disposition": "held_no_cache_city",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "reported_installation": true,
+        "service": "Apple Edge Cache / host-declared Apple caching"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/aec-tenet-web.20261019.json",
+      "record_id": "apple:aec:tenet",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": "2026-09-16",
+      "source_scope": "provider_declared",
+      "source_sha256": "c9b498e965bbb62128697d56935e470a98394812f14b0f3d614ee9906e96d7d6",
+      "source_updated_at": null,
+      "source_url": "https://www.tenet.ua/novini/apple-edge-cache",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    }
+  ],
+  "retrieved_at": "2026-10-19",
+  "schema_version": "1.0.0",
+  "scope_note": "Cache hosts, deployment declarations and IX participation are different units. Only explicit cache localities are mapped; current operation is unverified.",
+  "type": "InfrastructureEvidenceCollection"
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "source_id": "sfmix-locations",
+    "source_url": "https://sfmix.org/locations/",
+    "title": "SFMIX facility site-code directory",
+    "publisher": "SFMIX",
+    "extension": "html",
+    "method": "GET",
+    "role": "Explicit SCL02 site-code crosswalk. Does not locate the sampled IP address or establish current cache operation.",
+    "source_published_at": null,
+    "source_updated_at": null
+  }
+]

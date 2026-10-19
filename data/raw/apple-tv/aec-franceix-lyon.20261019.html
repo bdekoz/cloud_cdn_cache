@@ -1,0 +1,2002 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr" class="h-100">
+  <head>
+    <!-- Version: 1.1.8 -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="description"
+          content="France-IX, le réseau numéro un de France : peering, cloud, ip transit... Tous vos besoins réseau chez un seul fournisseur." />
+    <meta name="keywords"
+          content="peering, bandwidth, gafam, cloud, service, security" />
+
+    
+    
+
+    <link rel="icon"
+          type="image"
+          href="/static/django_franceix/images/favicon.ico">
+
+    
+
+<link rel="stylesheet"
+      href="/static/django_franceix/bootstrap-icons/bootstrap-icons.css">
+<link rel="stylesheet"
+      href="/static/django_franceix/mdi-icons/mdi-icons.css">
+<link rel="stylesheet"
+      href="/static/django_franceix/css/select2.min.css">
+<link rel="stylesheet"
+      href="/static/django_franceix/css/select2-bootstrap-5-theme.min.css">
+<link rel="stylesheet"
+      href="/static/django_franceix/css/daterangepicker.css" />
+<link rel="stylesheet" href="/static/django_franceix/css/theme.css">
+
+    <link rel="stylesheet" href="/static/css/styles.css">
+    
+    
+
+    
+
+
+
+<title>Rapport technique T2 2025</title>
+
+
+<link rel="canonical" href="http://www.franceix.net/fr/infrastructure/techhub/rapport-technique-t2-2025/">
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rapport technique T2 2025">
+
+
+
+
+
+<meta property="og:url" content="http://www.franceix.net/fr/infrastructure/techhub/rapport-technique-t2-2025/">
+<meta property="og:site_name" content="France-IX">
+<meta property="og:locale" content="en_US">
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="Rapport technique T2 2025">
+
+
+
+
+
+
+
+
+
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//audience.franceix.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+  </head>
+  <body class=" d-flex flex-column h-100">
+    
+
+
+
+
+
+
+    
+
+    
+
+<header class="d-lg-none navbar-container" id="nav-mobile">
+  <nav class="navbar navbar-light py-0">
+    <div class="navbar-top py-3">
+      <div class="container-sm h-100 d-flex justify-content-between align-items-center">
+        <a href="/fr/">
+          <img src="/static/django_franceix/images/navbar-logo.svg"
+               alt="franceix logo"
+               class="logo">
+        </a>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#nav-collapse"
+                aria-controls="navbar-collapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                id="navbarToggleButton">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="nav-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item py-3 d-none" id="nav-back">
+          <div class="container-sm cursor-pointer fw-bold d-flex align-items-center">
+            <i class="bi bi-arrow-left-circle-fill pe-3"></i>
+            RETOUR
+          </div>
+        </li>
+        <div class="container-sm">
+          
+            <li class="nav-item py-3 cursor-pointer d-flex justify-content-between align-items-center has-children"
+                data-nav-path="1">
+              
+                Services
+                <i class="bi bi-chevron-right">
+                </i>
+              
+            </li>
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer has-children"
+                    data-nav-parent-path="1"
+                    data-nav-path="1-1">
+                  
+                    Peering
+                    <i class="bi bi-chevron-right"></i>
+                  
+                </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-1"
+                      data-nav-path="1-1-1">
+                    
+
+<a href="/fr/services/peering/pourquoi-peerer/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Pourquoi peerer ?
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-1"
+                      data-nav-path="1-1-2">
+                    
+
+<a href="/fr/services/peering/peering-plus/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Peering Plus
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-1"
+                      data-nav-path="1-1-3">
+                    
+
+<a href="/fr/services/peering/peering-essentiel/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Peering Essentiel
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-1"
+                      data-nav-path="1-1-4">
+                    
+
+<a href="/fr/services/peering/remote-peering/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Remote peering
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-1"
+                      data-nav-path="1-1-5">
+                    
+
+<a href="/fr/services/peering/multipass/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Multipass
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-1"
+                      data-nav-path="1-1-6">
+                    
+
+<a href="/fr/services/peering/maps/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Microsoft Azure Peering Service
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-1"
+                      data-nav-path="1-1-7">
+                    
+
+<a href="/fr/services/peering/tarifs-de-peering/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Tarifs de peering 2026
+  
+</a>
+
+                  </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer has-children"
+                    data-nav-parent-path="1"
+                    data-nav-path="1-2">
+                  
+                    Interconnexion privée
+                    <i class="bi bi-chevron-right"></i>
+                  
+                </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-2"
+                      data-nav-path="1-2-1">
+                    
+
+<a href="/fr/services/interconnexion-privee/pni-vlan/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">PNI VLAN
+  
+</a>
+
+                  </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer has-children"
+                    data-nav-parent-path="1"
+                    data-nav-path="1-3">
+                  
+                    Cloud
+                    <i class="bi bi-chevron-right"></i>
+                  
+                </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-3"
+                      data-nav-path="1-3-1">
+                    
+
+<a href="/fr/services/cloud/cloud-access/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Cloud Access
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-3"
+                      data-nav-path="1-3-2">
+                    
+
+<a href="/fr/services/cloud/scaleway-interlink/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Scaleway InterLink
+  
+</a>
+
+                  </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer has-children"
+                    data-nav-parent-path="1"
+                    data-nav-path="1-4">
+                  
+                    Transit IP
+                    <i class="bi bi-chevron-right"></i>
+                  
+                </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-4"
+                      data-nav-path="1-4-1">
+                    
+
+<a href="/fr/services/connectivit%C3%A9/ip-transit/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Transit IP
+  
+</a>
+
+                  </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer has-children"
+                    data-nav-parent-path="1"
+                    data-nav-path="1-5">
+                  
+                    Network Visibility, propulsée par Kentik
+                    <i class="bi bi-chevron-right"></i>
+                  
+                </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-5"
+                      data-nav-path="1-5-1">
+                    
+
+<a href="/fr/services/kentik-by-france-ix/la-puissance-de-kentik-operee-par-france-ix-pour-vos-clients/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">La puissance de Kentik, opérée par France-IX pour vos clients
+  
+</a>
+
+                  </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer has-children"
+                    data-nav-parent-path="1"
+                    data-nav-path="1-6">
+                  
+                    Infrastructure
+                    <i class="bi bi-chevron-right"></i>
+                  
+                </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-6"
+                      data-nav-path="1-6-1">
+                    
+
+<a href="/fr/services/infrastructure/hosting/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Housing
+  
+</a>
+
+                  </li>
+                
+                  <li class="nav-item d-none py-3"
+                      data-nav-parent-path="1-6"
+                      data-nav-path="1-6-2">
+                    
+
+<a href="/fr/services/infrastructure/ixp-as-a-service/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">IXP-as-a-Service : votre point d’échange, notre excellence opérationnelle
+  
+</a>
+
+                  </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="1"
+                    data-nav-path="1-7">
+                  
+                    
+
+<a href="/fr/services/marketplace/"
+   target="_blank"
+   class="d-block w-100 d-flex justify-content-between align-items-center">Marketplace
+  <i class="bi bi-box-arrow-up-right pe-none"></i>
+</a>
+
+                  
+                </li>
+                
+              
+            
+          
+            <li class="nav-item py-3 cursor-pointer d-flex justify-content-between align-items-center has-children"
+                data-nav-path="2">
+              
+                Infrastructure
+                <i class="bi bi-chevron-right">
+                </i>
+              
+            </li>
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="2"
+                    data-nav-path="2-1">
+                  
+                    
+
+<a href="/fr/infrastructure/regions/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Nos points de présence en France
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="2"
+                    data-nav-path="2-2">
+                  
+                    
+
+<a href="/fr/infrastructure/serveurs-de-routes/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Serveurs de routes
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="2"
+                    data-nav-path="2-3">
+                  
+                    
+
+<a href="/fr/infrastructure/qos/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">QoS
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="2"
+                    data-nav-path="2-4">
+                  
+                    
+
+<a href="/fr/infrastructure/statistiques/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Statistiques
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="2"
+                    data-nav-path="2-5">
+                  
+                    
+
+<a href="/fr/infrastructure/weathermap/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Weathermap
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="2"
+                    data-nav-path="2-6">
+                  
+                    
+
+<a href="/fr/infrastructure/techhub/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">TechHub
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+          
+            <li class="nav-item py-3 cursor-pointer d-flex justify-content-between align-items-center has-children"
+                data-nav-path="3">
+              
+                Communauté
+                <i class="bi bi-chevron-right">
+                </i>
+              
+            </li>
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="3"
+                    data-nav-path="3-1">
+                  
+                    
+
+<a href="/fr/communaute/liste-des-clients/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Liste des clients France-IX
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="3"
+                    data-nav-path="3-2">
+                  
+                    
+
+<a href="/fr/communaute/revendeurs/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Revendeurs
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="3"
+                    data-nav-path="3-3">
+                  
+                    
+
+<a href="/fr/communaute/association/"
+   target="_blank"
+   class="d-block w-100 d-flex justify-content-between align-items-center">Association
+  <i class="bi bi-box-arrow-up-right pe-none"></i>
+</a>
+
+                  
+                </li>
+                
+              
+            
+          
+            <li class="nav-item py-3 cursor-pointer d-flex justify-content-between align-items-center has-children"
+                data-nav-path="4">
+              
+                Actualités
+                <i class="bi bi-chevron-right">
+                </i>
+              
+            </li>
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="4"
+                    data-nav-path="4-1">
+                  
+                    
+
+<a href="/fr/actualites/evenements/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Évènements
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="4"
+                    data-nav-path="4-2">
+                  
+                    
+
+<a href="/fr/actualites/actualites/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Dernières actualités
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+          
+            <li class="nav-item py-3 cursor-pointer d-flex justify-content-between align-items-center "
+                data-nav-path="5">
+              
+                
+
+<a href="/fr/tools/"
+   target="_blank"
+   class="d-block w-100 d-flex justify-content-between align-items-center">Portail client
+  <i class="bi bi-box-arrow-up-right pe-none"></i>
+</a>
+
+              
+            </li>
+            
+          
+            <li class="nav-item py-3 cursor-pointer d-flex justify-content-between align-items-center has-children"
+                data-nav-path="6">
+              
+                À propos
+                <i class="bi bi-chevron-right">
+                </i>
+              
+            </li>
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="6"
+                    data-nav-path="6-1">
+                  
+                    
+
+<a href="/fr/a-propos/carriere/"
+   target="_blank"
+   class="d-block w-100 d-flex justify-content-between align-items-center">Carrières
+  <i class="bi bi-box-arrow-up-right pe-none"></i>
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="6"
+                    data-nav-path="6-2">
+                  
+                    
+
+<a href="/fr/a-propos/faq/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">FAQ
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="6"
+                    data-nav-path="6-3">
+                  
+                    
+
+<a href="/fr/a-propos/nos-engagements/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Nos engagements
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="6"
+                    data-nav-path="6-4">
+                  
+                    
+
+<a href="/fr/a-propos/nous-contacter/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">Nous contacter
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+              
+                <li class="nav-item d-none d-flex py-3 justify-content-between align-items-center cursor-pointer "
+                    data-nav-parent-path="6"
+                    data-nav-path="6-5">
+                  
+                    
+
+<a href="/fr/a-propos/a-propos-de-france-ix/"
+   
+   class="d-block w-100 d-flex justify-content-between align-items-center">À propos de France-IX
+  
+</a>
+
+                  
+                </li>
+                
+              
+            
+          
+
+          
+          
+        </div>
+        
+          <hr />
+          <div class="container-sm">
+            <li class="mb-3 d-flex align-items-center">
+              
+                <a href="/fr/infrastructure/techhub/rapport-technique-t2-2025/"
+                   class="me-2 pe-none fw-bold"
+                   aria-disabled="true">FR</a>
+              
+                <a href="/en/infrastructure/techhub/q2-2025-technical-update/"
+                   class="me-2 "
+                   aria-disabled="">EN</a>
+              
+              <i class="bi bi-globe"></i>
+            </li>
+          </div>
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+
+<header class="d-none d-lg-block navbar-container" id="nav-desktop">
+  <nav class="navbar navbar-light py-3">
+    <div class="container">
+      <a href="/fr/">
+        <img src="/static/django_franceix/images/navbar-logo.svg"
+             alt="franceix logo"
+             class="logo" />
+      </a>
+      <ul class="navbar-nav d-flex flex-row align-items-center">
+        
+          
+            <li class="nav-item rounded py-2 px-3 ms-1 cursor-pointer d-flex align-items-center has-children"
+                data-nav-path="1">
+              Services
+              <i class="bi bi-chevron-down ps-2 pe-none"></i>
+            </li>
+          
+        
+          
+            <li class="nav-item rounded py-2 px-3 ms-1 cursor-pointer d-flex align-items-center has-children"
+                data-nav-path="2">
+              Infrastructure
+              <i class="bi bi-chevron-down ps-2 pe-none"></i>
+            </li>
+          
+        
+          
+            <li class="nav-item rounded py-2 px-3 ms-1 cursor-pointer d-flex align-items-center has-children"
+                data-nav-path="3">
+              Communauté
+              <i class="bi bi-chevron-down ps-2 pe-none"></i>
+            </li>
+          
+        
+          
+            <li class="nav-item rounded py-2 px-3 ms-1 cursor-pointer d-flex align-items-center has-children"
+                data-nav-path="4">
+              Actualités
+              <i class="bi bi-chevron-down ps-2 pe-none"></i>
+            </li>
+          
+        
+          
+            <a href="/fr/tools/"
+               target="_blank"
+               class="nav-item rounded py-2 px-3 ms-1 d-flex justify-content-center align-items-center ">
+              <span class="me-1">Portail client</span>
+              <i class="bi bi-box-arrow-up-right ps-2 pe-none"></i>
+            </a>
+          
+        
+          
+            <li class="nav-item rounded py-2 px-3 ms-1 cursor-pointer d-flex align-items-center has-children"
+                data-nav-path="6">
+              À propos
+              <i class="bi bi-chevron-down ps-2 pe-none"></i>
+            </li>
+          
+        
+
+        
+        
+        
+          <li class="ms-3 d-flex align-items-center">
+            
+              <a href="/fr/infrastructure/techhub/rapport-technique-t2-2025/"
+                 class="me-2 text-decoration-underline">FR</a>
+            
+              <a href="/en/infrastructure/techhub/q2-2025-technical-update/"
+                 class="me-2 ">EN</a>
+            
+            <i class="bi bi-globe"></i>
+          </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <div class="d-none py-3" id="nav-submenu">
+    <div class="container">
+      <div class="row justify-content-center" id="nav-submenu-container">
+
+        
+  <div class="col-4 nav-submenu-first-child theme-2 p-3 text-center d-flex justify-content-center align-items-center rounded-start">
+    <div>
+      <h2>Besoin d’aide ?</h2>
+      <p>Contactez l’un de nos experts</p>
+      <a class="btn btn-outline-info" href="/fr/formulaire-de-connexion/">Remplir le formulaire</a>
+    </div>
+  </div>
+
+        <div class="col-4 second-level-nav-items bg-white p-3">
+          <div class="second-level-nav-items-header text-secondary text-uppercase mb-3"></div>
+          
+            
+              
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item has-children "
+                         data-nav-parent-path="1"
+                         data-submenu-nav-path="1.1">
+                      
+                        Peering
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item has-children "
+                         data-nav-parent-path="1"
+                         data-submenu-nav-path="1.2">
+                      
+                        Interconnexion privée
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item has-children "
+                         data-nav-parent-path="1"
+                         data-submenu-nav-path="1.3">
+                      
+                        Cloud
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item has-children "
+                         data-nav-parent-path="1"
+                         data-submenu-nav-path="1.4">
+                      
+                        Transit IP
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item has-children "
+                         data-nav-parent-path="1"
+                         data-submenu-nav-path="1.5">
+                      
+                        Network Visibility, propulsée par Kentik
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item has-children "
+                         data-nav-parent-path="1"
+                         data-submenu-nav-path="1.6">
+                      
+                        Infrastructure
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  is-external-link"
+                         data-nav-parent-path="1"
+                         data-submenu-nav-path="1.7">
+                      
+                        <a href="/fr/services/marketplace/"
+   target="_blank"
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Marketplace
+  <i class="bi bi-box-arrow-up-right pe-none"></i>
+</a>
+
+                      
+                    </div>
+                  
+                
+              
+            
+          
+            
+              
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="2"
+                         data-submenu-nav-path="2.1">
+                      
+                        <a href="/fr/infrastructure/regions/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Nos points de présence en France
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="2"
+                         data-submenu-nav-path="2.2">
+                      
+                        <a href="/fr/infrastructure/serveurs-de-routes/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Serveurs de routes
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="2"
+                         data-submenu-nav-path="2.3">
+                      
+                        <a href="/fr/infrastructure/qos/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">QoS
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="2"
+                         data-submenu-nav-path="2.4">
+                      
+                        <a href="/fr/infrastructure/statistiques/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Statistiques
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="2"
+                         data-submenu-nav-path="2.5">
+                      
+                        <a href="/fr/infrastructure/weathermap/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Weathermap
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="2"
+                         data-submenu-nav-path="2.6">
+                      
+                        <a href="/fr/infrastructure/techhub/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">TechHub
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+              
+            
+          
+            
+              
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="3"
+                         data-submenu-nav-path="3.1">
+                      
+                        <a href="/fr/communaute/liste-des-clients/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Liste des clients France-IX
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="3"
+                         data-submenu-nav-path="3.2">
+                      
+                        <a href="/fr/communaute/revendeurs/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Revendeurs
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  is-external-link"
+                         data-nav-parent-path="3"
+                         data-submenu-nav-path="3.3">
+                      
+                        <a href="/fr/communaute/association/"
+   target="_blank"
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Association
+  <i class="bi bi-box-arrow-up-right pe-none"></i>
+</a>
+
+                      
+                    </div>
+                  
+                
+              
+            
+          
+            
+              
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="4"
+                         data-submenu-nav-path="4.1">
+                      
+                        <a href="/fr/actualites/evenements/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Évènements
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="4"
+                         data-submenu-nav-path="4.2">
+                      
+                        <a href="/fr/actualites/actualites/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Dernières actualités
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+              
+            
+          
+            
+          
+            
+              
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  is-external-link"
+                         data-nav-parent-path="6"
+                         data-submenu-nav-path="6.1">
+                      
+                        <a href="/fr/a-propos/carriere/"
+   target="_blank"
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Carrières
+  <i class="bi bi-box-arrow-up-right pe-none"></i>
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="6"
+                         data-submenu-nav-path="6.2">
+                      
+                        <a href="/fr/a-propos/faq/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">FAQ
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="6"
+                         data-submenu-nav-path="6.3">
+                      
+                        <a href="/fr/a-propos/nos-engagements/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Nos engagements
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="6"
+                         data-submenu-nav-path="6.4">
+                      
+                        <a href="/fr/a-propos/nous-contacter/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Nous contacter
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+                  
+                    <div class="nav-item rounded py-2 px-3 mb-1 nav-second-level-item  "
+                         data-nav-parent-path="6"
+                         data-submenu-nav-path="6.5">
+                      
+                        <a href="/fr/a-propos/a-propos-de-france-ix/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">À propos de France-IX
+  
+</a>
+
+                      
+                    </div>
+                  
+                
+              
+            
+          
+        </div>
+        <div class="col-4 third-level-nav-items p-3 rounded-end">
+          <div class="third-level-nav-items-header text-uppercase mb-3"></div>
+          
+            
+              
+                
+                  
+                    
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.1">
+                          
+                            <a href="/fr/services/peering/pourquoi-peerer/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Pourquoi peerer ?
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.1">
+                          
+                            <a href="/fr/services/peering/peering-plus/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Peering Plus
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.1">
+                          
+                            <a href="/fr/services/peering/peering-essentiel/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Peering Essentiel
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.1">
+                          
+                            <a href="/fr/services/peering/remote-peering/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Remote peering
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.1">
+                          
+                            <a href="/fr/services/peering/multipass/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Multipass
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.1">
+                          
+                            <a href="/fr/services/peering/maps/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Microsoft Azure Peering Service
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.1">
+                          
+                            <a href="/fr/services/peering/tarifs-de-peering/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Tarifs de peering 2026
+  
+</a>
+
+                          
+                        </div>
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.2">
+                          
+                            <a href="/fr/services/interconnexion-privee/pni-vlan/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">PNI VLAN
+  
+</a>
+
+                          
+                        </div>
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.3">
+                          
+                            <a href="/fr/services/cloud/cloud-access/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Cloud Access
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.3">
+                          
+                            <a href="/fr/services/cloud/scaleway-interlink/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Scaleway InterLink
+  
+</a>
+
+                          
+                        </div>
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.4">
+                          
+                            <a href="/fr/services/connectivit%C3%A9/ip-transit/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Transit IP
+  
+</a>
+
+                          
+                        </div>
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.5">
+                          
+                            <a href="/fr/services/kentik-by-france-ix/la-puissance-de-kentik-operee-par-france-ix-pour-vos-clients/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">La puissance de Kentik, opérée par France-IX pour vos clients
+  
+</a>
+
+                          
+                        </div>
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.6">
+                          
+                            <a href="/fr/services/infrastructure/hosting/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">Housing
+  
+</a>
+
+                          
+                        </div>
+                      
+                        <div class="nav-item rounded py-2 px-3 mb-1 "
+                             data-submenu-nav-parent-path="1.6">
+                          
+                            <a href="/fr/services/infrastructure/ixp-as-a-service/"
+   
+   class="d-flex justify-content-between align-items-center px-3 ms-n3 rounded ">IXP-as-a-Service : votre point d’échange, notre excellence opérationnelle
+  
+</a>
+
+                          
+                        </div>
+                      
+                    
+                  
+                
+                  
+                
+              
+            
+          
+            
+              
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              
+            
+          
+            
+              
+                
+                  
+                
+                  
+                
+                  
+                
+              
+            
+          
+            
+              
+                
+                  
+                
+                  
+                
+              
+            
+          
+            
+          
+            
+              
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+    
+  <section class="hero theme-1">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-7 mb-3 mb-lg-0">
+          
+          <h1 class="display">Rapport technique T2 2025</h1>
+        </div>
+        
+          <div class="col-12 col-lg-5"><img alt="QTR-0625" class="rounded w-100" height="187" src="/media/images/QTR-0625.width-800.png" width="800"></div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="stream-field"><div class="block-paragraph"><p data-block-key="croe5">Chers peers,</p><p data-block-key="djo2q">Nous sommes heureux de partager avec vous les nouveautés du deuxième trimestre 2025.</p><p data-block-key="6b2gr"></p><h3 data-block-key="csteu"><b>Actualités générales</b></h3><h4 data-block-key="5nrv3"><b>Introduction de Segment Routing et EVPN</b></h4><p data-block-key="5ftjn">Dans le cadre de la stratégie d’optimisation du backbone de France-IX, nous travaillons activement au déploiement des technologies Segment Routing et EVPN. Segment Routing a été largement validé dans notre environnement de test dédié ces dernières semaines, avant d’être déployé avec succès sur l'ensemble des routeurs de l'infrastructure, sans aucun impact pour les clients. Plusieurs migrations sont prévues dans un avenir proche.</p><p data-block-key="9rjno">Les tests EVPN se poursuivent actuellement en lab et donnent des premiers résultats prometteurs. Les premières maintenances liées à son déploiement seront réalisées dans les prochaines semaines. Plus d'infos prochainement !</p><h4 data-block-key="5o67p"><b>Multipass : Une façon simple d’accéder aux régions distantes France-IX</b></h4><p data-block-key="2cfgu">France-IX a lancé le service Multipass au trimestre dernier, permettant aux clients d'atteindre des peers distants dans toutes les villes où France-IX opère un point d’échange, sans coût supplémentaire. Une douzaine de clients ont déjà activé ce service.</p><p data-block-key="css48">Comme annoncé, les utilisateurs du service Inter-IXP historique dans la région de Lyon/AURA seront migrés vers Multipass d’ici la fin du troisième trimestre 2025, afin d’harmoniser l’ensemble des services et suivre les best practices, notamment via l'utilisation des serveurs de routes intégrant les BGP Roles et les politiques de routage « Only To Customer » (OTC) définies par la RFC 9234.</p><p data-block-key="4chs3">Découvrez les détails et demandez l’activation de cette option :<a href="https://www.franceix.net/en/services/peering/multipass/">Multipass — France-IX</a></p><h4 data-block-key="1fpp0"><b>Connectivité vers AMS-IX bientôt disponible depuis tous les PoPs France-IX</b></h4><p data-block-key="bhm1s">France-IX et AMS-IX vont interconnecter leurs plateformes afin d’élargir les opportunités de remote peering. D’ici la fin de l’été, il sera possible d’accéder au LAN de peering d’AMS-IX depuis toutes les villes où France-IX opère un point d’échange : Bordeaux, Lille, Lyon, Marseille, Paris et Toulouse.</p><p data-block-key="fqssg">Cette interconnexion est totalement bidirectionnelle : les réseaux connectés à AMS-IX pourront également rejoindre n’importe quel LAN de peering de France-IX, sans avoir besoin d’une présence physique ou d’infrastructure en France.</p><p data-block-key="c0clf">Basé sur une infrastructure de waves protégées entre Paris et Amsterdam, le service est livré via une simple sous-interface VLAN 802.1Q sur votre port existant. Aucun matériel supplémentaire ni cross-connect n’est requis. Cette solution permet d’étendre sa connectivité peering de manière rapide, simple et économique.</p><p data-block-key="fhhej">Pour garantir une transparence totale, des communautés BGP seront disponibles sur les serveurs de routes afin d’indiquer clairement le point d’échange d’origine de chaque peer distant.</p><h4 data-block-key="c4e8p"><b>Déploiement de caches Apple dans la région Lyon/AURA</b></h4><p data-block-key="98v22">Dans le suite de notre stratégie d’apporter du contenu en région, initiée le trimestre dernier avec les caches Microsoft MCC, France-IX étend désormais la disponibilité de contenu dans la région AURA grâce à l’installation de<b> caches Apple</b>. Avec l’installation de ces deux caches, le trafic a significativement augmenté à Lyon.</p><h4 data-block-key="6no4q"><b>Lancement du service Google VPP</b></h4><p data-block-key="3d342">Depuis quelques mois, Google propose un nouveau service pour accéder à ses ressources Cloud publiques : Verified Peering Partner (VPP). Grâce à notre infrastructure de niveau 3 redondante, France-IX a pu répondre aux critères d’éligibilité et devenir partenaire VPP Silver, avec l’installation de deux ports 100G dédiés à Marseille. Cette initiative s'inscrit dans notre volonté d’enrichir notre portefeuille de services de peering et de nous adapter aux nouveaux modèles d’interconnexion proposés par les acteurs clés du cloud.</p><h4 data-block-key="2nh2q"><b>Nouveau portail client disponible</b></h4><p data-block-key="d6hr4">Nous avons annoncé dernièrement le lancement de notre nouveau portail client : <a href="https://portal.franceix.net">https://portal.franceix.net</a>.</p><p data-block-key="7j05b">Cette nouvelle interface propose plusieurs améliorations, notamment :</p><ul><li data-block-key="9go7">Une vue consolidée de l’ensemble de vos services, incluant désormais l’hébergement (baies, alimentation, cross-connects),</li><li data-block-key="ch6pn">Une gestion autonome des utilisateurs directement depuis le portail.</li></ul><p data-block-key="4atij">D’autres fonctionnalités seront progressivement ajoutées dans les mois à venir.</p><h4 data-block-key="6q7oo"><b>Couverture nationale des interventions sur site avec TIBCO</b></h4><p data-block-key="912dq">Pour renforcer nos capacités opérationnelles, France-IX a retenu TIBCO comme nouveau partenaire technique pour assurer les interventions sur site dans ses PoPs. Cela permettra un meilleur support lors des maintenances planifiées comme en cas d’incident.</p><p data-block-key="eha4a">Trois régions ont déjà été activées, avec une couverture nationale complète dans un deuxième temps.</p><p data-block-key="1mdij">TIBCO interviendra sous la supervision de l’équipe ingénierie de France-IX, disponible 24/7, afin de garantir le respect des standards de qualité et des processus de France-IX.</p><h4 data-block-key="4n7o5"><b>Accès à Scaleway InterLink via France-IX</b></h4><p data-block-key="65iea">Nous sommes heureux d’annoncer notre partenariat avec Scaleway pour offrir un accès direct au service InterLink via l’infrastructure France-IX. Un port dédié 100G a été déployé, permettant aux clients France-IX de se connecter aux VPC Scaleway via une sous-interface 802.1Q sur leur port existant, de façon simple et rapide.</p><p data-block-key="dfqss">Cette initiative s’inscrit dans une stratégie plus large visant à favoriser la souveraineté numérique et à renforcer l’interconnectivité locale. D’autres partenariats avec des fournisseurs Cloud français et européens sont en cours de développement afin d’étendre cet écosystème à l’ensemble des sites France-IX.</p><h4 data-block-key="86d4a"><b>Rationalisation des PoPs en région AURA et suppression des équipements Huawei</b></h4><p data-block-key="5hhp9"><b>Freepro Rock (Lyon) et Cogent Grenoble</b> : Ces PoPs ont été fermés à la fin du deuxième trimestre 2025. Des solutions de migration ont été proposés aux derniers clients , soit via des revendeurs, soit en rejoignant un PoP alternatif de France-IX dans la région AURA.</p><p data-block-key="dna6r"><b>Suppression des équipements Huawei presque finalisée</b> : France-IX a presque terminé le démontage de tous les équipements Huawei historiques de son infrastructure en région AURA. Cette opération permet de disposer d’un réseau plus homogène et plus facile à exploiter au quotidien.</p><h4 data-block-key="1i03t"><b>Mise à jour des Route Servers (RS)</b></h4><p data-block-key="ecb7k">Afin de suivre les meilleures pratiques partagées au sein du groupe de travail “Route Server” d’Euro-IX, France-IX aligne ses opérations sur les recommandations actuelles de la communauté BGP :</p><ul><li data-block-key="4iqbv"><b>Fin de la prise en charge des “Extended BGP Communities”</b> (RFC 4360, format “route-target”) considérées comme obsolètes et limitées.<ul><li data-block-key="12nti">Règles déjà retirées à Paris, Lyon, Lille et Toulouse.</li><li data-block-key="694u4">Nous attendons que le dernier peer mette à jour sa configuration à Marseille.</li><li data-block-key="265q">Comme annoncé, la prise en charge cessera totalement d’ici fin septembre 2025.</li></ul></li><li data-block-key="fl94t"><b>Fin de la prise en charge des anciens mappings ASN 32-bit → 16-bit</b> (RSASN:64700…64899) utilisés avec les communautés standard.<ul><li data-block-key="qlj3">Déjà supprimés à Marseille (jamais implémentés à Lyon, Toulouse, Lille et Bordeaux).</li><li data-block-key="3d1pb">Nous attendons que les 4 derniers peers à Paris mettent à jour leur configuration.</li><li data-block-key="bh285">Fin de support prévue également pour fin septembre 2025.</li></ul></li><li data-block-key="b55os"><b>Les “Large BGP Communities” (RFC 8092)</b> sont désormais la méthode préconisée pour l’usage des communautés entre peers et route-servers.<ul><li data-block-key="clk0d">La majorité des fonctionnalités ont déjà été migrées.</li><li data-block-key="63uhi">Des précisions supplémentaires seront communiquées prochainement sur les fonctionnalités restantes.</li><li data-block-key="63mpd">À terme, elles seront le seul mécanisme d’annonces de communautés BGP supporté.</li></ul></li></ul><p data-block-key="fk9m9">De manière plus générale, l’usage des communautés BGP standard sera progressivement supprimé dans les mois et années à venir.</p><p data-block-key="1kve9">Nous recommandons vivement de revoir vos configurations et politiques BGP pour assurer la compatibilité avec ces évolutions.</p><p data-block-key="7uskd"></p><h3 data-block-key="fmvqk"><b>Chiffres clés</b></h3><p data-block-key="61c8f">Quelques chiffre portant sur T2-2025 :</p><h4 data-block-key="fo80k"><b>Nouveaux ports raccordés (y compris upgrades) sur T2-2025 : Plus de 1.1Tbps de capacité connectée !</b></h4><ul><li data-block-key="9gp88">10G : 9 ports</li><li data-block-key="2ggr0">100G : 11 ports</li><li data-block-key="661nd">400G : 0 port</li></ul><h4 data-block-key="e46s7"><b>Disponibilité sur T2-2025 :</b></h4><ul><li data-block-key="f98do">Lille : 100 % </li><li data-block-key="7b868">Lyon : 100 % </li><li data-block-key="1j01b">Marseille : 100 % </li><li data-block-key="cedmf">Paris : &gt; 99,999 % </li><li data-block-key="8jshg">Toulouse : 100 %</li></ul><h4 data-block-key="5joh0"><b>Service NOC T2-2025 :</b></h4><ul><li data-block-key="c9690">Tickets NOC traités : 99</li></ul><h4 data-block-key="c651k"><b>Incidents :</b></h4><ul><li data-block-key="csalb"><b>Paris - 29 avril 2025</b> : er3.kdi, un équipement réseau Edge connectant 5 clients, a redémarré de manière inattendue, provoquant une interruption de service d’environ 10 minutes pour ces 5 clients. Nous investiguons actuellement ce comportement anormal en collaboration avec le constructeur afin d’en déterminer la cause racine.</li></ul><p data-block-key="8ig9p"></p><h3 data-block-key="88a98"><b>Projets à venir</b></h3><ul><li data-block-key="bsluj">Déploiement de Route Reflectors et activation progressive d’EVPN sur les LANs de peering.</li><li data-block-key="c8l2k">De nouveaux partenariats avec des fournisseurs de cloud français seront disponibles afin de promouvoir la souveraineté numérique et renforcer l’interconnexion locale.</li><li data-block-key="1n72k">Améliorations du portail client.</li></ul><p data-block-key="4dg2c"></p><p data-block-key="22aq">Si vous souhaitez obtenir plus d'informations techniques, vous pouvez suivre notre large panel de comptes Twitter (@as51706 pour Paris, @as42064 pour Marseille, @as43100 pour Lyon, @as47184 pour Toulouse et @as62228 pour Lille).</p><p data-block-key="5raek"></p><p data-block-key="5bf5m">Bon peering à tous,</p><p data-block-key="ddfm9">L'équipe technique de France-IX</p></div></div>
+    </div>
+  </section>
+
+
+    
+
+
+  <section class="theme-2">
+    <div class="container">
+      <div class="text-center">
+        <h1>Réalisons votre projet ensemble !</h1>
+        <a class="btn btn-danger" href="/fr/formulaire-de-connexion/">Démarrer maintenant</a>
+      </div>
+    </div>
+  </section>
+
+
+
+    
+
+<footer class="bg-footer-black mt-auto py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-3 mb-5 mb-md-0">
+        <div class="mb-5">
+          <img src="/static/django_franceix/images/footer-logo.svg"
+               alt="franceix logo"
+               class="logo">
+        </div>
+        <div class="social-network-icons mb-5">
+          <ul class="list-unstyled d-flex mb-0">
+            <li class="px-2">
+              <a href="https://www.linkedin.com/company/france-ix"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li class="px-2">
+              <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fixpfranceix"><i class="bi bi-twitter-x"></i></a>
+            </li>
+            <li class="px-2">
+              <a href="https://www.youtube.com/channel/UC9tGBZ3nrbQXqSvm795jKMg"><i class="bi bi-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        
+          <div class="mb-3 fw-bold">S'inscrire à notre newsletter</div>
+          <a class="btn btn-danger"
+             href="https://share-eu1.hsforms.com/1rzdLt17lQhqItzJ3iwC42gf3u0x"
+             target="_blank">S'inscrire</a>
+        
+      </div>
+      <div class="col-12 col-md-9 pt-md-3 row">
+        
+          <div class="col-12 col-md-4 col-lg-3">
+            <ul class="list-unstyled">
+              
+                <li class="mb-3 fw-bold">Services</li>
+              
+              
+                
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/peering/pourquoi-peerer/">Pourquoi peerer ?</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/peering/peering-plus/">Peering Plus</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/peering/peering-essentiel/">Peering Essentiel</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/peering/remote-peering/">Remote peering</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/peering/multipass/">Multipass</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/peering/maps/">Microsoft Azure Peering Service</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/peering/tarifs-de-peering/">Tarifs de peering 2026</a>
+                    </li>
+                  
+                
+              
+                
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/interconnexion-privee/pni-vlan/">PNI VLAN</a>
+                    </li>
+                  
+                
+              
+                
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/cloud/cloud-access/">Cloud Access</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/cloud/scaleway-interlink/">Scaleway InterLink</a>
+                    </li>
+                  
+                
+              
+                
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/connectivit%C3%A9/ip-transit/">Transit IP</a>
+                    </li>
+                  
+                
+              
+                
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/kentik-by-france-ix/la-puissance-de-kentik-operee-par-france-ix-pour-vos-clients/">La puissance de Kentik, opérée par France-IX pour vos clients</a>
+                    </li>
+                  
+                
+              
+                
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/infrastructure/hosting/">Housing</a>
+                    </li>
+                  
+                    <li class="mb-3">
+                      <a href="/fr/services/infrastructure/ixp-as-a-service/">IXP-as-a-Service : votre point d’échange, notre excellence opérationnelle</a>
+                    </li>
+                  
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/services/marketplace/">Marketplace</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        
+          <div class="col-12 col-md-4 col-lg-3">
+            <ul class="list-unstyled">
+              
+                <li class="mb-3 fw-bold">Infrastructure</li>
+              
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/infrastructure/regions/">Nos points de présence en France</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/infrastructure/serveurs-de-routes/">Serveurs de routes</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/infrastructure/qos/">QoS</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/infrastructure/statistiques/">Statistiques</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/infrastructure/weathermap/">Weathermap</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/infrastructure/techhub/">TechHub</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        
+          <div class="col-12 col-md-4 col-lg-3">
+            <ul class="list-unstyled">
+              
+                <li class="mb-3 fw-bold">Communauté</li>
+              
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/communaute/liste-des-clients/">Liste des clients France-IX</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/communaute/revendeurs/">Revendeurs</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/communaute/association/">Association</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        
+          <div class="col-12 col-md-4 col-lg-3">
+            <ul class="list-unstyled">
+              
+                <li class="mb-3 fw-bold">Actualités</li>
+              
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/actualites/evenements/">Évènements</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/actualites/actualites/">Dernières actualités</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        
+          <div class="col-12 col-md-4 col-lg-3">
+            <ul class="list-unstyled">
+              
+                <li class="mb-3 fw-bold">
+                  <a href="/fr/tools/" target="_blank">
+                    <span class="me-1">Portail client</span>
+                    <i class="bi bi-box-arrow-up-right ps-2 pe-none"></i>
+                  </a>
+                </li>
+              
+              
+            </ul>
+          </div>
+        
+          <div class="col-12 col-md-4 col-lg-3">
+            <ul class="list-unstyled">
+              
+                <li class="mb-3 fw-bold">À propos</li>
+              
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/a-propos/carriere/">Carrières</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/a-propos/faq/">FAQ</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/a-propos/nos-engagements/">Nos engagements</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/a-propos/nous-contacter/">Nous contacter</a>
+                  </li>
+                
+              
+                
+                  <li class="mb-2">
+                    <a href="/fr/a-propos/a-propos-de-france-ix/">À propos de France-IX</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        
+      </div>
+    </div>
+    <hr />
+    <ul class="list-inline">
+      <li class="list-inline-item">2026 France IX Services. Tous droits réservés.</li>
+      
+        <li class="list-inline-item">
+          <a href="/fr/footer/mentions-legales/"
+             >Mentions légales</a>
+        </li>
+      
+        <li class="list-inline-item">
+          <a href="/fr/footer/politique-de-cookies/"
+             target="_blank">Politique de cookies</a>
+        </li>
+      
+        <li class="list-inline-item">
+          <a href="/fr/footer/politique-de-confidentialite/"
+             >Politique de confidentialité</a>
+        </li>
+      
+      
+        <li class="list-inline-item cursor-pointer" id="reset-cookie-consent">Gestionnaire de cookies</li>
+      
+    </ul>
+  </div>
+</footer>
+
+
+    
+
+<script src="/static/django_franceix/js/htmx.min.js"></script>
+<script src="/static/django_franceix/js/jquery.min.js"></script>
+<script src="/static/django_franceix/js/bootstrap.bundle.min.js"></script>
+<script src="/static/django_franceix/js/select2.min.js"></script>
+<script src="/static/django_franceix/js/moment.min.js"></script>
+<script src="/static/django_franceix/js/daterangepicker.min.js"></script>
+<script src="/static/django_franceix/js/echarts.min.js"></script>
+<script src="/static/django_franceix/js/base.js"></script>
+<script src="/static/django_franceix/js/navigation.js"></script>
+
+
+    
+
+<script id="cookie-consent__cookie-groups" type="application/json">[{"varname": "analytics", "name": "Analyse statistique", "description": "Ces cookies nous permettent de mesurer et am\u00e9liorer la performance du site ainsi que la qualit\u00e9 de nos services.", "is_required": false}]</script>
+
+
+
+
+
+<template id="cookie-consent__cookie-bar">
+  <div class="modal modal-lg fade cookie-bar"
+       data-bs-backdrop="static"
+       data-bs-keyboard="false"
+       tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body bento theme-1">
+          <div class="bg-icon icon-cookie mb-3"></div>
+          <h2>Vos cookies, votre choix</h2>
+          <p>
+            Ce site utilise des cookies nécessaires à son fonctionnement interne. Des cookies sont également utilisés pour des analyses, mais activés uniquement avec votre consentement.
+          </p>
+          <p>
+            <a href="https://www.franceix.net/fr/footer/politique-de-cookies/"
+               target="_blank">Pour en savoir plus, veuillez consulter notre politique de cookies.</a>
+          </p>
+          <div>
+            <button type="button"
+                    class="btn btn-info mb-3 d-block d-md-inline-block cookie-consent__accept">
+              Accepter tous les cookies
+            </button>
+            <button type="button"
+                    class="btn btn-info mb-3 d-block d-md-inline-block ms-md-3 cookie-consent__decline">
+              Refuser tous les cookies
+            </button>
+          </div>
+
+          <a class="text-decoration-underline"
+             data-bs-toggle="collapse"
+             href="#cookie-bar-customize-collapse"
+             role="button"
+             aria-expanded="false"
+             aria-controls="cookie-bar-customize-collapse">Personnaliser mes choix</a>
+          <div class="collapse mt-3 mt-lg-5" id="cookie-bar-customize-collapse">
+            
+              <div class="mb-3">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h3>Cookies strictement nécessaires</h3>
+                  
+                </div>
+                
+                <p class="mb-0">Ces cookies sont obligatoires au bon fonctionnement et à la sécurité du site.</p>
+                
+              </div>
+            
+              <div class="mb-3">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h3>Analyse statistique</h3>
+                  
+                    <div class="form-check form-switch form-switch-lg">
+                      <input name="analytics"
+                             class="form-check-input toggle-cookie-group"
+                             type="checkbox"
+                             role="switch"
+                             >
+                    </div>
+                  
+                </div>
+                
+                <p class="mb-0">Ces cookies nous permettent de mesurer et améliorer la performance du site ainsi que la qualité de nos services.</p>
+                
+              </div>
+            
+            <button type="button"
+                    class="btn btn-info d-block d-md-inline-block cookie-consent__save_custom_choices">
+              Enregistrer mes choix
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+
+
+<script type="module">
+    import {
+        showCookieBar
+    } from '/static/cookie_consent/cookiebar.module.js';
+
+    showCookieBar({
+        statusUrl: '/cookies/status/',
+        templateSelector: '#cookie-consent__cookie-bar',
+        cookieGroupsSelector: '#cookie-consent__cookie-groups',
+        onShow: () => $('.cookie-bar').modal('show'),
+        onAccept: () => $('.cookie-bar').modal('hide'),
+        onDecline: () => $('.cookie-bar').modal('hide'),
+    });
+
+    $(document).on('click', '.cookie-consent__save_custom_choices', () => {
+        $('.cookie-bar').modal('hide');
+        $('.toggle-cookie-group').toArray().reduce(function(prom, node) {
+            const cookieGroup = node.name;
+            const action = node.checked ? 'accept' : 'decline';
+            return prom.then(() => $.post(`/fr/cookies/${action}/${cookieGroup}/`))
+        }, $.when())
+    });
+
+    $('#reset-cookie-consent').on('click', () => {
+        // Make sure COOKIE_CONSENT_HTTPONLY is set to False on the backend.
+        document.cookie = 'cookie_consent=;path=/;expires=' + new Date(0).toUTCString();
+        window.location.reload();
+    })
+</script>
+
+
+    
+    
+
+    <script src="/static/js/marquee.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const marqueeElements = document.getElementsByClassName("marquee");
+        Array.from(marqueeElements).forEach(marqueeElement => {
+          new marquee(marqueeElement, {
+            duplicated: true,
+            gap: 0,
+            speed: 100
+          });
+        });
+      });
+    </script>
+    
+  </body>
+</html>

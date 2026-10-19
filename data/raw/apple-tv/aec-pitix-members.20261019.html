@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+    <head>
+        <!--  IXP MANAGER - template directory: resources/[views|skins] -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta charset="utf-8">
+
+        <title>
+            PIT-IX Portal        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="csrf-token" content="fHRUfT0PJ9xZBu46DrSVzEQD18mOROEAg7vawK1i">
+
+        <link rel="preload" as="style" href="https://portal.pit-ix.net/build/assets/ixp-pack-CqpHwMT9.css" /><link rel="modulepreload" as="script" href="https://portal.pit-ix.net/build/assets/ixp-pack-faj5LKTg.js" /><link rel="modulepreload" as="script" href="https://portal.pit-ix.net/build/assets/rolldown-runtime-W7wSyTde.js" /><link rel="modulepreload" as="script" href="https://portal.pit-ix.net/build/assets/jquery-DybwbSNM.js" /><link rel="stylesheet" href="https://portal.pit-ix.net/build/assets/ixp-pack-CqpHwMT9.css" /><script type="module" src="https://portal.pit-ix.net/build/assets/ixp-pack-faj5LKTg.js"></script>
+        <link rel="shortcut icon" type="image/ico" href="https://portal.pit-ix.net/favicon.ico.dist" />
+
+                    </head>
+
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-size:18px" href="https://portal.pit-ix.net">
+    <img class="tw:inline" style="max-height: 26px !important; margin-right: 1rem !important;" src="https://portal.pit-ix.net/images/ixp-manager-white.png">
+    PIT-IX Portal</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-ellipsis-v"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Member Information
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item active" href="https://portal.pit-ix.net/customer/details">
+                            Member Details
+                        </a>
+                        <a class="dropdown-item 1" href="https://portal.pit-ix.net/customer/associates">
+                            Associate Members                        </a>
+
+                                            </div>
+                </li>
+            
+                            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle 1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Peering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item 1" href="https://portal.pit-ix.net/lg">
+                                Looking Glass
+                            </a>
+                                                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/peering-matrix">
+                                Peering Matrix
+                            </a>
+                                            </div>
+                </li>
+            
+            <li class="nav-item dropdown 1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Statistics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/ixp">
+                            Overall Peering Graphs
+                        </a>
+                    
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/infrastructure">
+                            Infrastructure Graphs
+                        </a>
+                    
+                    
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/location">
+                            Facility Graphs
+                        </a>
+                    
+                                                                
+                                            <a class="dropdown-item 1" href="https://portal.pit-ix.net/statistics/switch">
+                            Switch Aggregate Graphs
+                        </a>
+                    
+                    
+                                    </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link 1" href="https://portal.pit-ix.net/public-content/support">
+                    Support
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mt-lg-0">
+            <li class="nav-item">
+                                    <a class="nav-link 1" href="https://portal.pit-ix.net/login">
+                        Login
+                    </a>
+                            </li>
+        </ul>
+    </div>
+</nav>        </header>
+
+        <div class="container-fluid">
+            <div class="row" >
+
+                
+                <div id="slide-reveal-overlay" class="collapse"></div>
+                                    <main role="main" id="main-div" class="col-md-10 mx-sm-auto mt-2 pb-4">
+                                      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                          <h3>
+                                                                         Members                              </h3>
+                          <div class="btn-toolbar mb-2 mb-md-0 ml-auto">
+                                                                                      </div>
+                      </div>
+
+                      <div class="container-fluid">
+                          <div class="col-sm-12">
+                                                                <div class="row">
+        <div class="col-12">
+            
+            <table id='customer-list' class="table table-hover ixpm-table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>
+                            Member                        </th>
+                        <th class="tw:hidden tw:md:table-cell">
+                            Joined
+                        </th>
+
+                                                    <th class="tw:text-right">
+                                ASN
+                            </th>
+                                                                        </tr>
+                </thead>
+                <tbody>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/10">
+                                    365 Data Centers                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                            selective                                        </span>
+                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2019-06-11                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/19151" target="_peeringdb">
+                                                19151                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/6">
+                                    3ROX (Three Rivers Optical Exchange)                                </a>
+
+                                                                    
+                                                                            <a href="https://www.manrs.org/" target="_blank" class="hover:no-underline">
+                                            <span class="tw:hidden tw:md:inline tw:border-1 tw:border-green-500 tw:p-1 tw:rounded-full tw:text-green-500 tw:uppercase tw:text-xs tw:mx-3">
+                                                MANRS
+                                            </span>
+                                        </a>
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2018-11-15                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/5050" target="_peeringdb">
+                                                5050                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/23">
+                                    Akamai Technologies                                </a>
+
+                                                                    
+                                                                            <a href="https://www.manrs.org/" target="_blank" class="hover:no-underline">
+                                            <span class="tw:hidden tw:md:inline tw:border-1 tw:border-green-500 tw:p-1 tw:rounded-full tw:text-green-500 tw:uppercase tw:text-xs tw:mx-3">
+                                                MANRS
+                                            </span>
+                                        </a>
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2021-04-23                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/20940" target="_peeringdb">
+                                                20940                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/29">
+                                    Amazon.com                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                            selective                                        </span>
+                                    
+                                                                            <a href="https://www.manrs.org/" target="_blank" class="hover:no-underline">
+                                            <span class="tw:hidden tw:md:inline tw:border-1 tw:border-green-500 tw:p-1 tw:rounded-full tw:text-green-500 tw:uppercase tw:text-xs tw:mx-3">
+                                                MANRS
+                                            </span>
+                                        </a>
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2022-05-17                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/16509" target="_peeringdb">
+                                                16509                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/55">
+                                    Apple AEC                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                                                                    </span>
+                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2026-07-27                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                            31128                                                                    </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/8">
+                                    Armstrong Cable Services                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                            selective                                        </span>
+                                    
+                                                                            <a href="https://www.manrs.org/" target="_blank" class="hover:no-underline">
+                                            <span class="tw:hidden tw:md:inline tw:border-1 tw:border-green-500 tw:p-1 tw:rounded-full tw:text-green-500 tw:uppercase tw:text-xs tw:mx-3">
+                                                MANRS
+                                            </span>
+                                        </a>
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2019-02-06                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/27364" target="_peeringdb">
+                                                27364                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/24">
+                                    aspStation                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2021-04-29                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/19261" target="_peeringdb">
+                                                19261                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/40">
+                                    BGP.Tools Route Collector                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-08-09                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/212232" target="_peeringdb">
+                                                212232                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/16">
+                                    Breezeline                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-07-07                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/11776" target="_peeringdb">
+                                                11776                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/11">
+                                    Citynet                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2019-11-15                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/6536" target="_peeringdb">
+                                                6536                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/3">
+                                    CloudFlare                                </a>
+
+                                                                    
+                                                                            <a href="https://www.manrs.org/" target="_blank" class="hover:no-underline">
+                                            <span class="tw:hidden tw:md:inline tw:border-1 tw:border-green-500 tw:p-1 tw:rounded-full tw:text-green-500 tw:uppercase tw:text-xs tw:mx-3">
+                                                MANRS
+                                            </span>
+                                        </a>
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2018-01-13                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/13335" target="_peeringdb">
+                                                13335                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/12">
+                                    Consolidated Communications - PA                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-01-10                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/13333" target="_peeringdb">
+                                                13333                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/48">
+                                    Crowsnest Broadband                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-05-17                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/397606" target="_peeringdb">
+                                                397606                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/20">
+                                    DataBank                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-10-16                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/13767" target="_peeringdb">
+                                                13767                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/15">
+                                    DQE Communications                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-05-05                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/33154" target="_peeringdb">
+                                                33154                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/18">
+                                    Edgio (Edgecast)                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-10-15                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/15133" target="_peeringdb">
+                                                15133                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/4">
+                                    Expedient Inc.                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2018-01-15                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/17054" target="_peeringdb">
+                                                17054                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/28">
+                                    Fifth Judicial District of Pennsylvania                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2021-11-23                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/17172" target="_peeringdb">
+                                                17172                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/19">
+                                    Google LLC AS36040                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-10-15                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/36040" target="_peeringdb">
+                                                36040                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/14">
+                                    Hurricane Electric                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-05-20                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/6939" target="_peeringdb">
+                                                6939                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/30">
+                                    Involta                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2022-07-29                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/14230" target="_peeringdb">
+                                                14230                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/41">
+                                    JSC InterDnestrCom (IDC)                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-11-15                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/1547" target="_peeringdb">
+                                                1547                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/52">
+                                    Lancaster-Lebanon IU13 WAN                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2025-02-26                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/14773" target="_peeringdb">
+                                                14773                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/44">
+                                    Loop Internet                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-04-10                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/394868" target="_peeringdb">
+                                                394868                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/35">
+                                    Magna5                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-04-28                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/14740" target="_peeringdb">
+                                                14740                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/56">
+                                    MCIU RWAN                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2026-09-22                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/32554" target="_peeringdb">
+                                                32554                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/36">
+                                    Microsoft Cache                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                                                                    </span>
+                                    
+                                                                            <a href="https://www.manrs.org/" target="_blank" class="hover:no-underline">
+                                            <span class="tw:hidden tw:md:inline tw:border-1 tw:border-green-500 tw:p-1 tw:rounded-full tw:text-green-500 tw:uppercase tw:text-xs tw:mx-3">
+                                                MANRS
+                                            </span>
+                                        </a>
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-06-27                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/8075" target="_peeringdb">
+                                                8075                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/49">
+                                    Netskrt Cache                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                                                                    </span>
+                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-07-01                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/53471" target="_peeringdb">
+                                                53471                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/45">
+                                    Omni Fiber AS15081                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                            selective                                        </span>
+                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-05-06                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/15081" target="_peeringdb">
+                                                15081                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/47">
+                                    One-Stop Communications                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-05-13                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/36014" target="_peeringdb">
+                                                36014                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/51">
+                                    Packet Clearing House AS3856                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-07-10                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/3856" target="_peeringdb">
+                                                3856                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/50">
+                                    Packet Clearing House AS42                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-07-10                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/42" target="_peeringdb">
+                                                42                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/32">
+                                    PCH AS42                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-02-02                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/42" target="_peeringdb">
+                                                42                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/1">
+                                    Pittsburgh Internet Exchange                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                            mandatory                                        </span>
+                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2018-01-12                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/30365" target="_peeringdb">
+                                                30365                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/33">
+                                    Pittsburgh Internet Exchange Services                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-02-01                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/400798" target="_peeringdb">
+                                                400798                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/22">
+                                    Pomona Consulting                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2021-02-11                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/398223" target="_peeringdb">
+                                                398223                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/26">
+                                    QCOL                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2021-10-18                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/26873" target="_peeringdb">
+                                                26873                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/54">
+                                    Quad9                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                            closed                                        </span>
+                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2025-08-07                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/19281" target="_peeringdb">
+                                                19281                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/42">
+                                    RuralNET                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-01-22                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/396842" target="_peeringdb">
+                                                396842                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/25">
+                                    Salsgiver                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2021-10-08                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/12087" target="_peeringdb">
+                                                12087                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/46">
+                                    Soundstack                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-05-08                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/40501" target="_peeringdb">
+                                                40501                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/2">
+                                    TeraSwitch, Inc.                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2017-11-11                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/20326" target="_peeringdb">
+                                                20326                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/13">
+                                    UPMC                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-04-02                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/122" target="_peeringdb">
+                                                122                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/34">
+                                    Valve Corporation                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2023-02-24                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/32590" target="_peeringdb">
+                                                32590                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/17">
+                                    Velocity Network, Inc.                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2020-07-07                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/7341" target="_peeringdb">
+                                                7341                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/27">
+                                    Vitalink, LLC.                                </a>
+
+                                                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2021-10-18                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/396317" target="_peeringdb">
+                                                396317                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                            <tr>
+                            <td>
+                                <a href="https://portal.pit-ix.net/customer/detail/43">
+                                    Zito Media                                </a>
+
+                                                                                                            <span class="tw:hidden tw:lg:inline tw:border-1 tw:p-1 tw:rounded-full tw:float-right tw:text-grey-dark tw:uppercase tw:text-xs">
+                                            selective                                        </span>
+                                    
+                                                                                                </td>
+
+                            <td class="tw:font-mono tw:hidden tw:md:table-cell">
+                                2024-02-21                            </td>
+
+                                                            <td class="tw:font-mono tw:text-right">
+                                                                                                                        <a href="https://www.peeringdb.com/asn/26801" target="_peeringdb">
+                                                26801                                            </a>
+                                                                                                            </td>
+
+                                                                                    </tr>
+                                    <tbody>
+            </table>
+        </div>
+    </div>
+                          </div>
+                      </div>
+                  </main>
+            </div> <!-- </div class="row"> -->
+        </div> <!-- </div class="container"> -->
+
+        <footer class="footer p-3 mt-auto bg-dark">
+    <div class="navbar-nav w-100 text-light text-center">
+        <div>
+            <small>
+
+            IXP Manager V7.4.1
+            |
+
+            
+                Copyright &copy; 2017 - 2026 Pittsburgh Internet Exchange
+
+            
+            |
+
+            Discover PIT-IX at:
+            <a href="https://pit-ix.net/">
+                <i class="fa fa-globe fa-inverse mx-1"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/groups/8913222/">
+                <i class="fa fa-linkedin fa-inverse mx-1"></i>
+            </a>
+
+            <!--<a href="https://www.facebook.com/comepeerwithme/">
+                <i class="fa fa-facebook fa-inverse mx-1" ></i>
+            </a>-->
+
+            <a  href="https://twitter.com/pit_ix">
+                <i class="fa fa-twitter fa-inverse mx-1"></i>
+            </a>
+
+            </small>
+
+        </div>
+    </div>
+</footer>
+        <script>
+            const WHOIS_ASN_URL             = "https://portal.pit-ix.net/api/v4/aut-num";
+            const WHOIS_PREFIX_URL          = "https://portal.pit-ix.net/api/v4/prefix-whois";
+            const MARKDOWN_URL              = "https://portal.pit-ix.net/api/v4/utils/markdown";
+            const DATATABLE_STATE_DURATION  = 0;
+        </script>
+        
+        <script type="module">
+
+            $( document ).ready( function() {
+                // Focus on search input when opening dropdown
+                $( document ).on('select2:open', () => {
+                    document.querySelector( '.select2-search__field' ).focus();
+                });
+
+                $( ".chzn-select" ).select2( { width: '100%', placeholder: function() {
+                    $( this ).data( 'placeholder' );
+                }});
+
+                $( ".chzn-select-tag" ).select2( { width: '100%', tags: true, placeholder: function() {
+                    $( this ).data( 'placeholder' );
+                }});
+
+                $( ".chzn-select-deselect" ).select2( { width: '100%', allowClear: true, placeholder: function() {
+                    $( this ).data('placeholder' );
+                }});
+
+                $( ".chzn-select-deselect-tag" ).select2( { width: '100%', allowClear: true, tags: true, placeholder: function() {
+                    $( this ).data( 'placeholder' );
+                }});
+
+                
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+
+                    <script type="module">
+        $(document).ready( function() {
+            $( '#customer-list' ).dataTable( {
+                stateSave: true,
+                stateDuration : DATATABLE_STATE_DURATION,
+                responsive: false,
+                "iDisplayLength": 100
+            }).show();
+        });
+    </script>
+
+            </body>
+</html>

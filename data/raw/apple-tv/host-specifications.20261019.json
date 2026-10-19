@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "sfmix-cache-network",
+    "source_url": "https://ip.sfmix.org/",
+    "title": "SFMIX AS40271 current content caches",
+    "publisher": "SFMIX",
+    "extension": "html",
+    "method": "GET",
+    "role": "Operator declaration; cache service, route origin, IX membership and physical endpoint mapping remain distinct. Preserve conflicting statuses.",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "sfmix-connection-guide",
+    "source_url": "https://ip.sfmix.org/connection-guide/",
+    "title": "SFMIX AS40271 connection guide",
+    "publisher": "SFMIX",
+    "extension": "html",
+    "method": "GET",
+    "role": "Operator declaration; cache service, route origin, IX membership and physical endpoint mapping remain distinct. Preserve conflicting statuses.",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "sfmix-participants",
+    "source_url": "https://portal.sfmix.org/participants/",
+    "title": "SFMIX participant status directory",
+    "publisher": "SFMIX",
+    "extension": "html",
+    "method": "GET",
+    "role": "Operator declaration; cache service, route origin, IX membership and physical endpoint mapping remain distinct. Preserve conflicting statuses.",
+    "source_published_at": null,
+    "source_updated_at": null
+  }
+]

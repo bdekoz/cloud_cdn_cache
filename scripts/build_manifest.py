@@ -28,6 +28,7 @@ RUSSIA_ENRICHMENT_REVIEW_TAG = "20261019"
 RUSSIA_IMPLEMENTATION_TAG = "20261019"
 GEOGRAPHY_ENRICHMENT_TAG = "20261019"
 GULF_ENRICHMENT_TAG = "20261019"
+APPLE_TV_TAG = "20261019"
 RUSSIA_LOCATION_LAYERS = (
     "yandex/regions-and-zones", "yandex/cdn-cities", "selectel/russian-hierarchy",
     "cloudru/advanced-regions-and-zones", "cloudru/evolution-zones", "ixcellerate/data-centers",
@@ -330,6 +331,8 @@ def main() -> None:
     if tag >= GULF_ENRICHMENT_TAG:
         network_layers.append(network_layer_manifest("gulf-provider-prefixes", GULF_ENRICHMENT_TAG))
         network_layers.append(network_layer_manifest("gulf-routing-review", GULF_ENRICHMENT_TAG))
+    if tag >= APPLE_TV_TAG:
+        network_layers.append(network_layer_manifest("apple-tv-routing", APPLE_TV_TAG))
     views = []
     for view, parent in VIEW_NAMES.items():
         entry = layer_manifest(view, CHINA_IMPLEMENTATION_TAG if tag >= CHINA_IMPLEMENTATION_TAG else BASELINE_TAG)
@@ -391,6 +394,9 @@ def main() -> None:
     if tag >= GULF_ENRICHMENT_TAG:
         assessments.append(assessment_manifest("gulf/enrichment-implementation", GULF_ENRICHMENT_TAG))
         assessments.append(assessment_manifest("enrichment/completion-review", GULF_ENRICHMENT_TAG))
+    if tag >= APPLE_TV_TAG:
+        assessments.append(assessment_manifest("apple/tv-delivery-review", APPLE_TV_TAG))
+        assessments.append(assessment_manifest("apple/aec-review", APPLE_TV_TAG))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
@@ -402,6 +408,9 @@ def main() -> None:
         if tag >= GULF_ENRICHMENT_TAG:
             infrastructure_layers.append(infrastructure_manifest("gulf-cloud-connectivity", GULF_ENRICHMENT_TAG))
             infrastructure_layers.append(infrastructure_manifest("completion-evidence", GULF_ENRICHMENT_TAG))
+        if tag >= APPLE_TV_TAG:
+            infrastructure_layers.append(infrastructure_manifest("apple-tv-delivery", APPLE_TV_TAG))
+            infrastructure_layers.append(infrastructure_manifest("apple-aec-hosts", APPLE_TV_TAG))
         infrastructure_view = infrastructure_manifest("russia-connectivity", INFRASTRUCTURE_TAG)
         infrastructure_view["view_of"] = "infrastructure/connectivity"
         infrastructure_sections = {
@@ -449,6 +458,12 @@ def main() -> None:
             geographic_footprint_manifest(GULF_ENRICHMENT_TAG, "gulf/provider-localities"))
         geographic_sections["geographic_footprint_views"].append(
             geographic_footprint_manifest(GULF_ENRICHMENT_TAG, "enrichment/provider-localities"))
+        geographic_sections["geographic_footprint_view_count"] = len(geographic_sections["geographic_footprint_views"])
+    if tag >= APPLE_TV_TAG:
+        geographic_sections["geographic_footprint_views"].append(
+            geographic_footprint_manifest(APPLE_TV_TAG, "apple/tv-delivery-localities"))
+        geographic_sections["geographic_footprint_views"].append(
+            geographic_footprint_manifest(APPLE_TV_TAG, "apple/aec-localities"))
         geographic_sections["geographic_footprint_view_count"] = len(geographic_sections["geographic_footprint_views"])
     write_json(output, {
         **infrastructure_sections,

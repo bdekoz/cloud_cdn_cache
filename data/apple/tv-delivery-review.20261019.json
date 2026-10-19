@@ -1,0 +1,816 @@
+{
+  "advertised_video_cdns": [
+    "Akamai",
+    "Apple",
+    "Fastly"
+  ],
+  "apple_http_peer_geofeed_match": null,
+  "baseline_manifest": {
+    "path": "data/raw/repository/manifest-before-apple-tv.20261019.json",
+    "sha256": "c06527415def65023f40211790d322efa23a3f776630f9688684d078a21caf35"
+  },
+  "built_at": "2026-10-19",
+  "canonical_records_added": 0,
+  "delivery_resolution_observations": [
+    {
+      "addresses": [
+        {
+          "address": "17.253.27.149",
+          "provider_geofeed_match": {
+            "city": "Chicago",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "17.253.26.0/23",
+            "source_line": 3431,
+            "subdivision": "US-IL"
+          }
+        },
+        {
+          "address": "17.253.27.139",
+          "provider_geofeed_match": {
+            "city": "Chicago",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "17.253.26.0/23",
+            "source_line": 3431,
+            "subdivision": "US-IL"
+          }
+        },
+        {
+          "address": "17.253.27.138",
+          "provider_geofeed_match": {
+            "city": "Chicago",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "17.253.26.0/23",
+            "source_line": 3431,
+            "subdivision": "US-IL"
+          }
+        },
+        {
+          "address": "17.253.27.132",
+          "provider_geofeed_match": {
+            "city": "Chicago",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "17.253.26.0/23",
+            "source_line": 3431,
+            "subdivision": "US-IL"
+          }
+        }
+      ],
+      "cnames": [
+        "is-ssl.mzstatic.com.itunes-apple.com.akadns.net.",
+        "is-ssl-cdn.itunes-apple.com.akadns.net.",
+        "is-mzstatic-h3.g.aaplimg.com."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-is1-ssl-mzstatic-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "ca6eef7a5c98038f30d44f6311831af540488018f626a56d0893865224512c7b",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=is1-ssl.mzstatic.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "is1-ssl.mzstatic.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2620:149:a21:f000::141",
+          "provider_geofeed_match": {
+            "city": "Los Angeles",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "2620:149:a21::/48",
+            "source_line": 2785,
+            "subdivision": "US-CA"
+          }
+        },
+        {
+          "address": "2620:149:a21:f000::196",
+          "provider_geofeed_match": {
+            "city": "Los Angeles",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "2620:149:a21::/48",
+            "source_line": 2785,
+            "subdivision": "US-CA"
+          }
+        },
+        {
+          "address": "2620:149:a21:f000::200",
+          "provider_geofeed_match": {
+            "city": "Los Angeles",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "2620:149:a21::/48",
+            "source_line": 2785,
+            "subdivision": "US-CA"
+          }
+        },
+        {
+          "address": "2620:149:a21:f000::133",
+          "provider_geofeed_match": {
+            "city": "Los Angeles",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "2620:149:a21::/48",
+            "source_line": 2785,
+            "subdivision": "US-CA"
+          }
+        }
+      ],
+      "cnames": [
+        "is-ssl.mzstatic.com.itunes-apple.com.akadns.net.",
+        "is-ssl-cdn.itunes-apple.com.akadns.net.",
+        "is-mzstatic-h3.g.aaplimg.com."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-is1-ssl-mzstatic-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "8491cb346c6b531d07c92130591af5b23c147ec1bfaff9f35e9d905cc2f97758",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=is1-ssl.mzstatic.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "is1-ssl.mzstatic.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    },
+    {
+      "addresses": [
+        {
+          "address": "23.216.55.57",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "23.216.55.19",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "mediaservices-cdn-apple-com.v.aaplimg.com.",
+        "mediaservices.cdn-apple.com.edgesuite.net.",
+        "a1915.dscw154.akamai.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-mediaservices-cdn-apple-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "9958d3827bc15151ffad7490b50fbe85bf3f013fbcf10171280cc78965646a35",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=mediaservices.cdn-apple.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "mediaservices.cdn-apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2600:1406:5e00:5::17ce:bccf",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1406:5e00:5::17ce:bccb",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "mediaservices-cdn-apple-com.v.aaplimg.com.",
+        "mediaservices.cdn-apple.com.edgesuite.net.",
+        "a1915.dscw154.akamai.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-mediaservices-cdn-apple-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "fdbb9db2cf016d6d695c9053b4467130b0ab8a261356de7a7e92f8ef68d298d7",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=mediaservices.cdn-apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "mediaservices.cdn-apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    },
+    {
+      "addresses": [
+        {
+          "address": "23.216.55.50",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "23.216.55.10",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "play-edge-cdn.itunes-apple.com.akadns.net.",
+        "play-edge.itunes.apple.com.edgesuite.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-play-edge-itunes-apple-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "56a579ae25c112ac7069c337e4e7a63c2bad20fc996636cbe4568d67ad90178b",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=play-edge.itunes.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "play-edge.itunes.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2600:1406:5e00:5::17ce:bccf",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1406:5e00:5::17ce:bcca",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "play-edge-cdn.itunes-apple.com.akadns.net.",
+        "play-edge.itunes.apple.com.edgesuite.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-play-edge-itunes-apple-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "9ab90b80f91c25b7956a2b98985fef73f46833e4f0acadd04b8da6e5e712e4f9",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=play-edge.itunes.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "play-edge.itunes.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    },
+    {
+      "addresses": [
+        {
+          "address": "23.199.0.27",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "tv-cdn.itunes-apple.com.akadns.net.",
+        "tv-cdn-row.itunes-apple.com.akadns.net.",
+        "itunes.apple.com.edgekey.net.",
+        "e673.dsce9.akamaiedge.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-tv-apple-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "40b21ef94ed0a976516d6773f60763fa8604247406e1c28591b9a3f0459ff335",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2600:1406:5e00:483::2a1",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1406:5e00:489::2a1",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1406:5e00:486::2a1",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1406:5e00:48e::2a1",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1406:5e00:48a::2a1",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "tv-cdn.itunes-apple.com.akadns.net.",
+        "tv-cdn-row.itunes-apple.com.akadns.net.",
+        "itunes.apple.com.edgekey.net.",
+        "e673.dsce9.akamaiedge.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-tv-apple-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "fb956370545f12c642ddf9271f6ab8d5a9390f97c6b891be28f707f174e0323f",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    },
+    {
+      "addresses": [
+        {
+          "address": "23.216.55.52",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "23.216.55.27",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "uts-api-cdn.itunes-apple.com.akadns.net.",
+        "uts-api.itunes.apple.com.edgesuite.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-uts-api-itunes-apple-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "4676b7157a0399e8dd674d04213352f9dddf141b92646ed0a600c699db8a2e40",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=uts-api.itunes.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "uts-api.itunes.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2600:1407:3c00:1b15::17d2:f40e",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1407:3c00:1b15::17d2:f420",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "uts-api-cdn.itunes-apple.com.akadns.net.",
+        "uts-api.itunes.apple.com.edgesuite.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-uts-api-itunes-apple-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "00c8763ced0e751be599a6a44c1fd372d27b1553984ee2a1263ae6db0957cce4",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=uts-api.itunes.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "uts-api.itunes.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    },
+    {
+      "addresses": [
+        {
+          "address": "23.217.118.216",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "23.217.118.211",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "vod-ak-aoc.tv.apple.com.akadns.net.",
+        "hls-svod-aoc.itunes.apple.com.edgesuite.net.",
+        "a1936.dscw11.akamai.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-vod-ak-aoc-tv-apple-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "a49c6385144f361ac32f2b62b0ea95f96cbc03bfb71f1f79ecdea01bd9a099de",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=vod-ak-aoc.tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "vod-ak-aoc.tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2600:1407:3c00:29::1721:1d0f",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2600:1407:3c00:29::1721:1d13",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "vod-ak-aoc.tv.apple.com.akadns.net.",
+        "hls-svod-aoc.itunes.apple.com.edgesuite.net.",
+        "a1936.dscw11.akamai.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-vod-ak-aoc-tv-apple-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "364af014fe5a2b248cfca24257ffc51797008d62d33432dad00884ec39bd40e9",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=vod-ak-aoc.tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "vod-ak-aoc.tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    },
+    {
+      "addresses": [
+        {
+          "address": "17.253.27.156",
+          "provider_geofeed_match": {
+            "city": "Chicago",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "17.253.26.0/23",
+            "source_line": 3431,
+            "subdivision": "US-IL"
+          }
+        },
+        {
+          "address": "17.253.27.158",
+          "provider_geofeed_match": {
+            "city": "Chicago",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "17.253.26.0/23",
+            "source_line": 3431,
+            "subdivision": "US-IL"
+          }
+        }
+      ],
+      "cnames": [
+        "hls-svod-aoc-ve.itunes.g.aaplimg.com."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-vod-ap-aoc-tv-apple-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "982aed8e160264a9c928830275400e223a1cceba80b4ee72bab66192e3a05e61",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=vod-ap-aoc.tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "vod-ap-aoc.tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2620:149:a21:f000::201",
+          "provider_geofeed_match": {
+            "city": "Los Angeles",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "2620:149:a21::/48",
+            "source_line": 2785,
+            "subdivision": "US-CA"
+          }
+        },
+        {
+          "address": "2620:149:a21:f000::198",
+          "provider_geofeed_match": {
+            "city": "Los Angeles",
+            "country_code": "US",
+            "evidence": {
+              "raw_source_ref": "data/raw/apple-tv/apple-geofeed.20261019.csv",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+              "source_updated_at": null,
+              "source_url": "https://ip-geolocation.apple.com/"
+            },
+            "physical_pop_not_confirmed": true,
+            "prefix": "2620:149:a21::/48",
+            "source_line": 2785,
+            "subdivision": "US-CA"
+          }
+        }
+      ],
+      "cnames": [
+        "hls-svod-aoc-ve.itunes.g.aaplimg.com."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-vod-ap-aoc-tv-apple-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0dafb2ac8242f979fe71116479029f662be88b5830abf22801c4a519efc1bb86",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=vod-ap-aoc.tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "vod-ap-aoc.tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    },
+    {
+      "addresses": [
+        {
+          "address": "151.101.195.6",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "151.101.3.6",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "151.101.131.6",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "151.101.67.6",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "vod-fa-aoc.v.aaplimg.com.",
+        "apple.map.fastly.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-vod-fa-aoc-tv-apple-com-a.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "808f69edefa5047ef49f5f713ce6b160736ef9dd3092d01fe55e46fcb9164d16",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=vod-fa-aoc.tv.apple.com&type=A&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "vod-fa-aoc.tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "A"
+    },
+    {
+      "addresses": [
+        {
+          "address": "2a04:4e42:200::774",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2a04:4e42:400::774",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2a04:4e42::774",
+          "provider_geofeed_match": null
+        },
+        {
+          "address": "2a04:4e42:600::774",
+          "provider_geofeed_match": null
+        }
+      ],
+      "cnames": [
+        "vod-fa-aoc.v.aaplimg.com.",
+        "apple.map.fastly.net."
+      ],
+      "ecs": "0.0.0.0/0",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/dns-vod-fa-aoc-tv-apple-com-aaaa.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "c1c2339bd1cadfa0d25d1f4e06b8e0b54a26f751771d421549e5c98eb0542f54",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve?name=vod-fa-aoc.tv.apple.com&type=AAAA&edns_client_subnet=0.0.0.0%2F0"
+      },
+      "hostname": "vod-fa-aoc.tv.apple.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T18:10:06+00:00",
+      "resolver": "Google Public DNS",
+      "rrtype": "AAAA"
+    }
+  ],
+  "infrastructure_assertions_added": 18,
+  "limitations": [
+    "One execution environment with unverified physical vantage; public recursive DNS has a separate unknown vantage.",
+    "Two US-storefront previews of one show; no paid episode, live sport, or global reachability census.",
+    "No video segments, playback sessions, DRM licenses or authenticated endpoints were requested.",
+    "Akamai ZZZ is unmapped; Apple cache names are retained as labels, not decoded into facility coordinates.",
+    "Apple HTTP peer is outside the Apple geofeed. Resolver-only Chicago matches do not locate that HTTP connection.",
+    "SFMIX site declaration does not establish that the sampled peer resides at SCL02. Inactive AS31128 IX membership is not proof of inactive AS40271 cache service.",
+    "S3-style x-amz headers do not establish AWS hosting; Apple object-store headers also occur in the same responses.",
+    "All ASN714/6185 facilities, global Fastly/Akamai POP lists, and country storefronts are excluded from TV deployment counts."
+  ],
+  "locality_points_added": 2,
+  "network_records_added": 4,
+  "next_evidence": [
+    "Repeat the public-manifest and response-header method from known Indian, Gulf, Russian and other access networks, retaining observer ASN, time and region.",
+    "For authorized subscriber or live-sport sessions, retain sanitized CDN hostnames, response headers and public metadata; exclude cookies, tokens, licenses and media bodies.",
+    "Resolve SFMIX cache/peering status and obtain an explicit IP-to-site mapping before promoting a physical location.",
+    "Use provider-maintained POP-code maps or host declarations before decoding Apple cache labels or admitting CDN facilities."
+  ],
+  "sampled_master_playlists": [
+    {
+      "advertised_cdn_hosts": {
+        "vod-ak-aoc.tv.apple.com": 363,
+        "vod-ap-aoc.tv.apple.com": 363,
+        "vod-fa-aoc.tv.apple.com": 363
+      },
+      "content_steering_tag_present": true,
+      "content_type": "Preview",
+      "discovery_evidence": {
+        "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+        "source_updated_at": null,
+        "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+      },
+      "discovery_pointer": "/data/1/data/shelves/2/playlistItems/0/playable/assets/hlsUrl",
+      "entitlement_reason": "Free",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/tv-preview-0.20261019.m3u8",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "6f4e2c9813af501506540e684307eb287171f3e98c29ebf57862df8d7aebcdf8",
+        "source_updated_at": null,
+        "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=6796492959&isExternal=true&brandId=tvs.sbd.4000&id=1523339543&l=en-US&aec=UHD"
+      },
+      "source_id": "tv-preview-0",
+      "title": "Together: Season 4"
+    },
+    {
+      "advertised_cdn_hosts": {
+        "vod-ak-aoc.tv.apple.com": 363,
+        "vod-ap-aoc.tv.apple.com": 363,
+        "vod-fa-aoc.tv.apple.com": 363
+      },
+      "content_steering_tag_present": true,
+      "content_type": "Preview",
+      "discovery_evidence": {
+        "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+        "source_updated_at": null,
+        "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+      },
+      "discovery_pointer": "/data/1/data/shelves/2/playlistItems/3/playable/assets/hlsUrl",
+      "entitlement_reason": "Free",
+      "evidence": {
+        "raw_source_ref": "data/raw/apple-tv/tv-preview-3.20261019.m3u8",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "e168a121c6642078d15dbb624465dad2fdb6f198541a2f3328e1b73ec52a1f0c",
+        "source_updated_at": null,
+        "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1849515631&isExternal=true&brandId=tvs.sbd.4000&id=1471452310&l=en-US&aec=UHD"
+      },
+      "source_id": "tv-preview-3",
+      "title": "Return: Season 3"
+    }
+  ],
+  "scope": "public_web_and_preview",
+  "service": "Apple TV content delivery",
+  "source_catalog": {
+    "path": "data/raw/apple-tv/catalog.20261019.json",
+    "sha256": "50f3e60450749db292bd1fc0995f0123f07487e8b6bb5e96d20b0662cc177384"
+  },
+  "source_review_only": {
+    "apple-aec-program": "Program definition only; specific host and TV evidence comes from SFMIX and observed manifests.",
+    "apple-cdn-engineer": "Retrieved application shell does not retain the indexed job description; no six-platform claim admitted.",
+    "apple-cdn-jobs-list": "Retrieved results do not retain the target role; no indexed snippet promoted to dataset evidence.",
+    "apple-enterprise-network": "General Apple network requirements, not TV-specific geography."
+  },
+  "video_renditions_identical": true
+}

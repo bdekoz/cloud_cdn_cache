@@ -1,0 +1,33 @@
+{
+  "bytes": 540959,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T18:16:13+00:00",
+  "content_encoding": null,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://1-ix.net/en/",
+  "http_peer_address": "185.104.45.31",
+  "http_status": 200,
+  "measurement_vantage_country_code": null,
+  "method": "GET",
+  "path": "data/raw/apple-tv/aec-1ix-members.20261019.html",
+  "publisher": "1-IX",
+  "raw_source_ref": "data/raw/apple-tv/aec-1ix-members.20261019.html",
+  "response_headers": {
+    "connection": "close",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Mon, 19 Oct 2026 18:16:14 GMT",
+    "link": "<https://1-ix.net/wp-json/>; rel=\"https://api.w.org/\", <https://1-ix.net/wp-json/wp/v2/pages/1048>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://1-ix.net/>; rel=shortlink",
+    "server": "nginx",
+    "transfer-encoding": "chunked",
+    "x-ray": "wnp43941:0.410/wn43941:0.400/wa43941:D=405890"
+  },
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Membership list derived from PeeringDB; not independent confirmation or a city-level installation list.",
+  "sha256": "521ead3b23033e9d1a7f3ea4ae07088e76cce4caab5f925083ecbbf80a835cba",
+  "source_id": "aec-1ix-members",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://1-ix.net/en/",
+  "title": "1-IX Apple Edge Cache participant declaration"
+}

@@ -1,0 +1,22 @@
+{
+  "archive_member": "cities500.txt",
+  "capture_method": "selected_archive_rows",
+  "download_sha256": "3f0949d068003cbb7e614275c5a28107a8f4c6b766f704b2bd317004d4cd0527",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "path": "data/raw/apple-tv/aec-geonames.20261019.tsv",
+  "publisher": "GeoNames",
+  "raw_source_ref": "data/raw/apple-tv/aec-geonames.20261019.tsv",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Exact city reference rows; no facility geocoding. Previously retrieved October 19 archive.",
+  "selected_geonames_ids": [
+    "2996944",
+    "5393015"
+  ],
+  "sha256": "0067b8daf1471d7e2366d92265668c51d80fea9cb0f8e61182fe62ae1e20dfd9",
+  "source_id": "aec-geonames",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://download.geonames.org/export/dump/cities500.zip",
+  "title": "GeoNames Lyon and Santa Clara reference rows"
+}

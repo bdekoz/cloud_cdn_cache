@@ -1,0 +1,973 @@
+{
+  "categories": {
+    "cache_host_declaration": "An explicit host declaration of Apple TV cache service at a named site, with status caveats.",
+    "cdn_pop_observation": "A sampled response cache code joined to the delivery provider's city directory.",
+    "media_delivery_path": "One advertised CDN hostname per public preview manifest; repeated renditions are not separate sites.",
+    "peering_status_reference": "IX membership status kept separate from cache-hosting and delivery observations.",
+    "service_delivery_observation": "One bounded HTTP response for a specified Apple TV content role.",
+    "service_endpoint_reference": "A role-specific endpoint published by the web application, without an origin-location claim."
+  },
+  "records": [
+    {
+      "category": "service_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV player_telemetry_configuration: mediaservices.cdn-apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "endpoint_role": "player_telemetry_configuration",
+        "hostname": "mediaservices.cdn-apple.com",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "role_basis": "public_application_metadata",
+        "service": "Apple TV content delivery",
+        "video_origin_not_asserted": true
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/tv-javascript.20261019.js",
+      "record_id": "apple:tv:endpoint-mediaservices",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "531f2583bf026bdf5b41ae70ba3fa28181b6775a6ef18c645b5da0ee1f49d166",
+      "source_updated_at": null,
+      "source_url": "https://tv.apple.com/assets/main~pqIjNYEx6_.js",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV playback_manifest_service: play-edge.itunes.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "endpoint_role": "playback_manifest_service",
+        "hostname": "play-edge.itunes.apple.com",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "role_basis": "public_application_metadata",
+        "service": "Apple TV content delivery",
+        "video_origin_not_asserted": true
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+      "record_id": "apple:tv:endpoint-play-edge",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+      "source_updated_at": null,
+      "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV catalog_api: uts-api.itunes.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "endpoint_role": "catalog_api",
+        "hostname": "uts-api.itunes.apple.com",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "role_basis": "public_application_metadata",
+        "service": "Apple TV content delivery",
+        "video_origin_not_asserted": true
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+      "record_id": "apple:tv:endpoint-uts-api",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+      "source_updated_at": null,
+      "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cdn_pop_observation",
+      "confidence": "high",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "explicit_locality_reference",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV public preview delivery through Fastly PAO",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Fastly",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "facility_address": null,
+        "header_semantics_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/fastly-served-by.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "f1f28c5d38ecfa92c8209f79374e7619a916122b7316011b6bb449de7ab6c8af",
+          "source_updated_at": null,
+          "source_url": "https://www.fastly.com/documentation/reference/http/http-headers/X-Served-By/"
+        },
+        "locality": "Palo Alto",
+        "observed_at": "2026-10-19T18:10:06+00:00",
+        "observed_node_label": "cache-pao-kpao1770067-PAO",
+        "one_response_not_global_coverage": true,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "pop_code": "PAO",
+        "pop_directory_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/fastly-pop-directory.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "d3f57d151875e36a248a77adf0c3a6380a8858869b1f5882fc37fa37f886bcff",
+          "source_updated_at": null,
+          "source_url": "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/"
+        },
+        "service": "Apple TV content delivery",
+        "shielding_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/fastly-shielding.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "19290f76df4bb3b95c44fcf493279f16414ff9df3c0f8663c9533fadb429572b",
+          "source_updated_at": null,
+          "source_url": "https://www.fastly.com/documentation/guides/concepts/shielding/"
+        }
+      },
+      "provider": "Fastly",
+      "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-fa-aoc.20261019.m3u8.provenance.json",
+      "record_id": "apple:tv:fastly-pao",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "ac4bb2b4a01a15e0d81bf21a47165cee4f89848675657d0e174b2ec726f5a5c1",
+      "source_updated_at": null,
+      "source_url": "https://vod-fa-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "media_delivery_path",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Together: Season 4: vod-ak-aoc.tv.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Akamai",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "browser_path_selection_not_observed": true,
+        "discovery_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+        },
+        "discovery_pointer": "/data/1/data/shelves/2/playlistItems/0/playable/assets/hlsUrl",
+        "hostname": "vod-ak-aoc.tv.apple.com",
+        "manifest_url_reference_count": 363,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple TV content delivery",
+        "subscription_playback_not_tested": true,
+        "title": "Together: Season 4"
+      },
+      "provider": "Akamai",
+      "raw_source_ref": "data/raw/apple-tv/tv-preview-0.20261019.m3u8",
+      "record_id": "apple:tv:preview-0-vod-ak-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "6f4e2c9813af501506540e684307eb287171f3e98c29ebf57862df8d7aebcdf8",
+      "source_updated_at": null,
+      "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=6796492959&isExternal=true&brandId=tvs.sbd.4000&id=1523339543&l=en-US&aec=UHD",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "media_delivery_path",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Together: Season 4: vod-ap-aoc.tv.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "browser_path_selection_not_observed": true,
+        "discovery_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+        },
+        "discovery_pointer": "/data/1/data/shelves/2/playlistItems/0/playable/assets/hlsUrl",
+        "hostname": "vod-ap-aoc.tv.apple.com",
+        "manifest_url_reference_count": 363,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple TV content delivery",
+        "subscription_playback_not_tested": true,
+        "title": "Together: Season 4"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/tv-preview-0.20261019.m3u8",
+      "record_id": "apple:tv:preview-0-vod-ap-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "6f4e2c9813af501506540e684307eb287171f3e98c29ebf57862df8d7aebcdf8",
+      "source_updated_at": null,
+      "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=6796492959&isExternal=true&brandId=tvs.sbd.4000&id=1523339543&l=en-US&aec=UHD",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "media_delivery_path",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Together: Season 4: vod-fa-aoc.tv.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Fastly",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "browser_path_selection_not_observed": true,
+        "discovery_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+        },
+        "discovery_pointer": "/data/1/data/shelves/2/playlistItems/0/playable/assets/hlsUrl",
+        "hostname": "vod-fa-aoc.tv.apple.com",
+        "manifest_url_reference_count": 363,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple TV content delivery",
+        "subscription_playback_not_tested": true,
+        "title": "Together: Season 4"
+      },
+      "provider": "Fastly",
+      "raw_source_ref": "data/raw/apple-tv/tv-preview-0.20261019.m3u8",
+      "record_id": "apple:tv:preview-0-vod-fa-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "6f4e2c9813af501506540e684307eb287171f3e98c29ebf57862df8d7aebcdf8",
+      "source_updated_at": null,
+      "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=6796492959&isExternal=true&brandId=tvs.sbd.4000&id=1523339543&l=en-US&aec=UHD",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "media_delivery_path",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Return: Season 3: vod-ak-aoc.tv.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Akamai",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "browser_path_selection_not_observed": true,
+        "discovery_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+        },
+        "discovery_pointer": "/data/1/data/shelves/2/playlistItems/3/playable/assets/hlsUrl",
+        "hostname": "vod-ak-aoc.tv.apple.com",
+        "manifest_url_reference_count": 363,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple TV content delivery",
+        "subscription_playback_not_tested": true,
+        "title": "Return: Season 3"
+      },
+      "provider": "Akamai",
+      "raw_source_ref": "data/raw/apple-tv/tv-preview-3.20261019.m3u8",
+      "record_id": "apple:tv:preview-3-vod-ak-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "e168a121c6642078d15dbb624465dad2fdb6f198541a2f3328e1b73ec52a1f0c",
+      "source_updated_at": null,
+      "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1849515631&isExternal=true&brandId=tvs.sbd.4000&id=1471452310&l=en-US&aec=UHD",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "media_delivery_path",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Return: Season 3: vod-ap-aoc.tv.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "browser_path_selection_not_observed": true,
+        "discovery_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+        },
+        "discovery_pointer": "/data/1/data/shelves/2/playlistItems/3/playable/assets/hlsUrl",
+        "hostname": "vod-ap-aoc.tv.apple.com",
+        "manifest_url_reference_count": 363,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple TV content delivery",
+        "subscription_playback_not_tested": true,
+        "title": "Return: Season 3"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/tv-preview-3.20261019.m3u8",
+      "record_id": "apple:tv:preview-3-vod-ap-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "e168a121c6642078d15dbb624465dad2fdb6f198541a2f3328e1b73ec52a1f0c",
+      "source_updated_at": null,
+      "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1849515631&isExternal=true&brandId=tvs.sbd.4000&id=1471452310&l=en-US&aec=UHD",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "media_delivery_path",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Return: Season 3: vod-fa-aoc.tv.apple.com",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Fastly",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "browser_path_selection_not_observed": true,
+        "discovery_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-ted-lasso.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "63b8ed0aaa357993098d397ce7a76b20ca474294e2ffa0e30442f2e6068d6bfd",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"
+        },
+        "discovery_pointer": "/data/1/data/shelves/2/playlistItems/3/playable/assets/hlsUrl",
+        "hostname": "vod-fa-aoc.tv.apple.com",
+        "manifest_url_reference_count": 363,
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "service": "Apple TV content delivery",
+        "subscription_playback_not_tested": true,
+        "title": "Return: Season 3"
+      },
+      "provider": "Fastly",
+      "raw_source_ref": "data/raw/apple-tv/tv-preview-3.20261019.m3u8",
+      "record_id": "apple:tv:preview-3-vod-fa-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "e168a121c6642078d15dbb624465dad2fdb6f198541a2f3328e1b73ec52a1f0c",
+      "source_updated_at": null,
+      "source_url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1849515631&isExternal=true&brandId=tvs.sbd.4000&id=1471452310&l=en-US&aec=UHD",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_host_declaration",
+      "confidence": "medium",
+      "country_codes": [
+        "US"
+      ],
+      "country_scope": "explicit_locality_reference",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SFMIX declares Apple TV+ on Apple Edge Cache at SCL02",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "address_as_published": "2972 Stender Way, Santa Clara",
+        "all_sfmix_sites_are_apple_caches": false,
+        "declared_cache_asn": 31128,
+        "delivery_network_asn": 40271,
+        "facility_operator": "CoreSite",
+        "host_operator": "SFMIX",
+        "locality": "Santa Clara",
+        "origin_facility_not_asserted": true,
+        "participant_status": "Inactive",
+        "participant_status_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/sfmix-participants.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "913a939a90e3d9e665e8a38dbdadb84a895b86006093ffcecffbe5bd20f64108",
+          "source_updated_at": null,
+          "source_url": "https://portal.sfmix.org/participants/"
+        },
+        "physical_site_count_not_asserted": true,
+        "sampled_peer_to_site_mapping_asserted": false,
+        "service": "Apple TV content delivery",
+        "site_code": "SCL02",
+        "site_directory_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/sfmix-locations.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "5acb993eae344ad746bd12ce72399f7deeb22b4ce32fb90b9e373d7e69ffdbeb",
+          "source_updated_at": null,
+          "source_url": "https://sfmix.org/locations/"
+        },
+        "status_resolution": "Cache hosting declaration and IX membership have different scopes; current site lifecycle unresolved."
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/sfmix-cache-network.20261019.html",
+      "record_id": "apple:tv:sfmix-aec-scl02",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b6567a0876017040fa96b0251b31a22b371f5e82b397e075ece281b9404b1ec8",
+      "source_updated_at": null,
+      "source_url": "https://ip.sfmix.org/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "peering_status_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SFMIX Apple Cache AS31128 participant entry",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "SFMIX",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "asn": 31128,
+        "cache_delivery_inactivity_not_inferred": true,
+        "conflicting_scope_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/sfmix-cache-network.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "b6567a0876017040fa96b0251b31a22b371f5e82b397e075ece281b9404b1ec8",
+          "source_updated_at": null,
+          "source_url": "https://ip.sfmix.org/"
+        },
+        "origin_facility_not_asserted": true,
+        "participant_name": "Apple Cache",
+        "participant_status": "Inactive",
+        "physical_site_count_not_asserted": true,
+        "service": "Apple TV content delivery",
+        "site_code": null
+      },
+      "provider": "SFMIX",
+      "raw_source_ref": "data/raw/apple-tv/sfmix-participants.20261019.html",
+      "record_id": "apple:tv:sfmix-apple-membership",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "913a939a90e3d9e665e8a38dbdadb84a895b86006093ffcecffbe5bd20f64108",
+      "source_updated_at": null,
+      "source_url": "https://portal.sfmix.org/participants/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_delivery_observation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV artwork: Apple",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "cached_header_dates_are_not_observation_times": true,
+        "content_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-artwork-headers.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "02835cd4a481ce362bd5d296813abf730043003243b67842d75c57555913b216",
+          "source_updated_at": null,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1200x675.jpg"
+        },
+        "endpoint_role": "artwork",
+        "hostname": "is1-ssl.mzstatic.com",
+        "http_peer_address": null,
+        "http_status": 200,
+        "measurement_vantage_country_code": null,
+        "method": "HEAD",
+        "observed_at": "2026-10-19T18:09:12+00:00",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "response_headers": {
+          "age": "7062988",
+          "date": "Thu, 30 Jul 2026 00:12:44 GMT",
+          "via": "https/1.1 usspk2-dccdn-lx-0103.ts.apple.com (acdn/327.16648), https/1.1 usspk2-dccdn-bx-0205.ts.apple.com (acdn/327.16648), http/1.1 usprz4-vp-vst-018.ts.apple.com (acdn/20.17688), http/1.1 usprz4-vp-vfe-003.ts.apple.com (acdn/23.17695), http/1.1 usscz2-edge-lx-001.ts.apple.com (acdn/23.17695), http/1.1 usscz2-edge-bx-013.ts.apple.com (acdn/23.17695)",
+          "x-cache": "miss, miss, hit-fresh applecdn, hit-fresh applecdn, hit-fresh applecdn, hit-fresh applecdn"
+        },
+        "server_header_alone_not_used_for_cdn_attribution": true,
+        "service": "Apple TV content delivery"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/tv-artwork-headers.20261019.json.provenance.json",
+      "record_id": "apple:tv:tv-artwork-headers",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "a13815e5066df324244372c737df84f7433caf360ecf6871b53567017cf84a3c",
+      "source_updated_at": null,
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1200x675.jpg",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_delivery_observation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV web_frontend: Akamai",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Akamai",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "cached_header_dates_are_not_observation_times": true,
+        "content_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-home.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "c20374eedb72629b11a3336e7b67a5e442fbf23cca571bdd8f627b258cd6f533",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/"
+        },
+        "endpoint_role": "web_frontend",
+        "hostname": "tv.apple.com",
+        "http_peer_address": null,
+        "http_status": 200,
+        "measurement_vantage_country_code": null,
+        "method": "GET",
+        "observed_at": "2026-10-19T18:08:18+00:00",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "response_headers": {
+          "date": "Mon, 19 Oct 2026 18:08:18 GMT",
+          "x-cache": "TCP_MEM_HIT from a23-53-223-203.deploy.akamaitechnologies.com (AkamaiGHost/22.6.5-e48a1e600c03e7d517694b5b11b937be) (-)"
+        },
+        "server_header_alone_not_used_for_cdn_attribution": true,
+        "service": "Apple TV content delivery"
+      },
+      "provider": "Akamai",
+      "raw_source_ref": "data/raw/apple-tv/tv-home.20261019.html.provenance.json",
+      "record_id": "apple:tv:tv-home",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "2fde0986d3e8ba2676a5e90ad8f918f20ed39a4ca00ddcba6e0de3799f750f3a",
+      "source_updated_at": null,
+      "source_url": "https://tv.apple.com/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_delivery_observation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV web_javascript: Akamai",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Akamai",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "cached_header_dates_are_not_observation_times": true,
+        "content_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-javascript.20261019.js",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "531f2583bf026bdf5b41ae70ba3fa28181b6775a6ef18c645b5da0ee1f49d166",
+          "source_updated_at": null,
+          "source_url": "https://tv.apple.com/assets/main~pqIjNYEx6_.js"
+        },
+        "endpoint_role": "web_javascript",
+        "hostname": "tv.apple.com",
+        "http_peer_address": null,
+        "http_status": 200,
+        "measurement_vantage_country_code": null,
+        "method": "GET",
+        "observed_at": "2026-10-19T18:09:12+00:00",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "response_headers": {
+          "date": "Mon, 19 Oct 2026 18:09:12 GMT",
+          "x-cache": "TCP_HIT from a23-53-223-203.deploy.akamaitechnologies.com (AkamaiGHost/22.6.5-e48a1e600c03e7d517694b5b11b937be) (-)"
+        },
+        "server_header_alone_not_used_for_cdn_attribution": true,
+        "service": "Apple TV content delivery"
+      },
+      "provider": "Akamai",
+      "raw_source_ref": "data/raw/apple-tv/tv-javascript.20261019.js.provenance.json",
+      "record_id": "apple:tv:tv-javascript",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "c493976a1ea4e265b78fd85d5d162fe910e551f606fe6bf25f85c1897cdd95d6",
+      "source_updated_at": null,
+      "source_url": "https://tv.apple.com/assets/main~pqIjNYEx6_.js",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_delivery_observation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV public_preview_video_playlist: Akamai",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Akamai",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "cached_header_dates_are_not_observation_times": true,
+        "content_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-ak-aoc.20261019.m3u8",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "14586723ec3ad88ff05f96c82f75fa33350d58ab8b55fce265455f0afb9a3cdb",
+          "source_updated_at": null,
+          "source_url": "https://vod-ak-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8"
+        },
+        "endpoint_role": "public_preview_video_playlist",
+        "hostname": "vod-ak-aoc.tv.apple.com",
+        "http_peer_address": "23.192.228.8",
+        "http_status": 200,
+        "measurement_vantage_country_code": null,
+        "method": "GET",
+        "observed_at": "2026-10-19T18:10:06+00:00",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "response_headers": {
+          "cdn-server": "akam",
+          "date": "Mon, 19 Oct 2026 18:10:06 GMT",
+          "via": "HTTP/1.1 USZZZ1 (Akamai [u cHs f p e :t cCHi p s ])",
+          "x-cache": "TCP_MEM_HIT from a23-48-163-26.deploy.akamaitechnologies.com (AkamaiGHost/22.6.5-c7f42c2259a85671864b176aefb368af) (-)",
+          "x-city": "ZZZ"
+        },
+        "server_header_alone_not_used_for_cdn_attribution": true,
+        "service": "Apple TV content delivery"
+      },
+      "provider": "Akamai",
+      "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-ak-aoc.20261019.m3u8.provenance.json",
+      "record_id": "apple:tv:tv-variant-vod-ak-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "947619687dc354ac8dbaac4399d3cbb2c1eef507203508e8ddeacd37770354f4",
+      "source_updated_at": null,
+      "source_url": "https://vod-ak-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_delivery_observation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV public_preview_video_playlist: Apple",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Apple",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "cached_header_dates_are_not_observation_times": true,
+        "content_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-ap-aoc.20261019.m3u8",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "14586723ec3ad88ff05f96c82f75fa33350d58ab8b55fce265455f0afb9a3cdb",
+          "source_updated_at": null,
+          "source_url": "https://vod-ap-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8"
+        },
+        "endpoint_role": "public_preview_video_playlist",
+        "hostname": "vod-ap-aoc.tv.apple.com",
+        "http_peer_address": "149.112.115.176",
+        "http_status": 200,
+        "measurement_vantage_country_code": null,
+        "method": "GET",
+        "observed_at": "2026-10-19T18:10:06+00:00",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "response_headers": {
+          "age": "508229",
+          "cdn-server": "aapl",
+          "date": "Tue, 13 Oct 2026 20:59:37 GMT",
+          "via": "https/1.1 usprz4-vp-vst-019.ts.apple.com (acdn/20.17688), https/1.1 usprz4-vp-vfe-002.ts.apple.com (acdn/20.17688), http/1.1 ussjc2-xdc-mx-006.ts.apple.com (acdn/20.17688 [uScHs f p eN:t cCHp s ]), http/1.1 ussjc2-edge-fx-058.ts.apple.com (acdn/20.17688 [uScRs f p eN:t cCHp s ]), http/1.1 sfmix-usscz1a-fe-001.ec.edge.apple (acdn/302.16436 [uScHs f p eN:t cCHp s ])",
+          "x-cache": "miss, miss, hit-fresh, hit-fresh, hit-fresh"
+        },
+        "server_header_alone_not_used_for_cdn_attribution": true,
+        "service": "Apple TV content delivery"
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-ap-aoc.20261019.m3u8.provenance.json",
+      "record_id": "apple:tv:tv-variant-vod-ap-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "62d5c0f68feedd25adf3b36ae524e0083018a1b9a80747d64c4b86b87de16acd",
+      "source_updated_at": null,
+      "source_url": "https://vod-ap-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "service_delivery_observation",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "not_geolocated",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple TV public_preview_video_playlist: Fastly",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "service_provider"
+        },
+        {
+          "name": "Fastly",
+          "role": "delivery_or_hosting_party"
+        }
+      ],
+      "properties": {
+        "cached_header_dates_are_not_observation_times": true,
+        "content_evidence": {
+          "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-fa-aoc.20261019.m3u8",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "14586723ec3ad88ff05f96c82f75fa33350d58ab8b55fce265455f0afb9a3cdb",
+          "source_updated_at": null,
+          "source_url": "https://vod-fa-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8"
+        },
+        "endpoint_role": "public_preview_video_playlist",
+        "hostname": "vod-fa-aoc.tv.apple.com",
+        "http_peer_address": "151.101.3.6",
+        "http_status": 200,
+        "measurement_vantage_country_code": null,
+        "method": "GET",
+        "observed_at": "2026-10-19T18:10:06+00:00",
+        "origin_facility_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "response_headers": {
+          "age": "26548",
+          "cdn-server": "fsly",
+          "date": "Mon, 19 Oct 2026 18:10:06 GMT",
+          "via": "http/1.1 usprz4-vp-vst-019.ts.apple.com (acdn/20.17688), https/1.1 usprz4-vp-vfe-007.ts.apple.com (acdn/20.17688), 1.1 varnish",
+          "x-cache": "hit-fresh, miss, HIT",
+          "x-cdn": "fsly",
+          "x-served-by": "cache-pao-kpao1770067-PAO"
+        },
+        "server_header_alone_not_used_for_cdn_attribution": true,
+        "service": "Apple TV content delivery"
+      },
+      "provider": "Fastly",
+      "raw_source_ref": "data/raw/apple-tv/tv-variant-vod-fa-aoc.20261019.m3u8.provenance.json",
+      "record_id": "apple:tv:tv-variant-vod-fa-aoc",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "ac4bb2b4a01a15e0d81bf21a47165cee4f89848675657d0e174b2ec726f5a5c1",
+      "source_updated_at": null,
+      "source_url": "https://vod-fa-aoc.tv.apple.com/itunes-assets/VideoPreview211/v4/f1/03/15/f10315c0-dc1a-fb2a-d8f7-63ce660842ad/P1523339543_A6796492959_video_gr203_sdr_508x254_-.m3u8",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    }
+  ],
+  "retrieved_at": "2026-10-19",
+  "schema_version": "1.0.0",
+  "scope_note": "Apple TV web, artwork and public-preview delivery evidence; no subscriber/live-stream coverage or physical-site total.",
+  "type": "InfrastructureEvidenceCollection"
+}

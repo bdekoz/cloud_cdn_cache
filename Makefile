@@ -57,6 +57,14 @@ data/applications/%.csv: data/applications/%.json schema/application-endpoint.sc
 		-f scripts/application-endpoint-to-csv.jq "$<" > "$@.tmp"
 	@mv "$@.tmp" "$@"
 
+data/apple/tv-delivery-localities.%.csv: data/apple/tv-delivery-localities.%.geojson schema/geographic-footprint.schema.json scripts/geographic-footprint-to-csv.jq
+	@jq -r -f scripts/geographic-footprint-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"
+
+data/apple/aec-localities.%.csv: data/apple/aec-localities.%.geojson schema/geographic-footprint.schema.json scripts/geographic-footprint-to-csv.jq
+	@jq -r -f scripts/geographic-footprint-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"
+
 data/china/provider-localities.%.csv: data/china/provider-localities.%.geojson schema/geographic-footprint.schema.json scripts/geographic-footprint-to-csv.jq
 	@jq -r -f scripts/geographic-footprint-to-csv.jq "$<" > "$@.tmp"
 	@mv "$@.tmp" "$@"
@@ -99,6 +107,7 @@ check:
 	python3 -B tests/validate_geography_enrichment.py
 	python3 -B tests/validate_gulf_enrichment.py
 	python3 -B tests/validate_completion_enrichment.py
+	python3 -B tests/validate_apple_tv.py
 	git diff --check
 
 help:

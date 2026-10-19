@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "routing-149-112-115-176",
+    "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=149.112.115.176",
+    "title": "RIPEstat route for Apple TV observed address 149.112.115.176",
+    "publisher": "RIPE NCC",
+    "role": "Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.",
+    "extension": "json",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "address": "149.112.115.176"
+  },
+  {
+    "source_id": "routing-23-192-228-8",
+    "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=23.192.228.8",
+    "title": "RIPEstat route for Apple TV observed address 23.192.228.8",
+    "publisher": "RIPE NCC",
+    "role": "Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.",
+    "extension": "json",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "address": "23.192.228.8"
+  },
+  {
+    "source_id": "routing-151-101-3-6",
+    "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=151.101.3.6",
+    "title": "RIPEstat route for Apple TV observed address 151.101.3.6",
+    "publisher": "RIPE NCC",
+    "role": "Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.",
+    "extension": "json",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "address": "151.101.3.6"
+  },
+  {
+    "source_id": "routing-17-253-27-156",
+    "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=17.253.27.156",
+    "title": "RIPEstat route for Apple TV observed address 17.253.27.156",
+    "publisher": "RIPE NCC",
+    "role": "Routing origin, not hardware ownership or physical location. Exact peer-address linkage except 17.253.27.156, which is a resolver answer only.",
+    "extension": "json",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "address": "17.253.27.156"
+  },
+  {
+    "source_id": "fastly-pop-directory",
+    "source_url": "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/",
+    "title": "Using Fastly global POP network",
+    "publisher": "Fastly",
+    "role": "Public POP code directory. Only observed TV response identifiers may be joined; unobserved POPs are not Apple TV deployments.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  },
+  {
+    "source_id": "fastly-shielding",
+    "source_url": "https://www.fastly.com/documentation/guides/concepts/shielding/",
+    "title": "Fastly shielding and response header interpretation",
+    "publisher": "Fastly",
+    "role": "Cached upstream headers and shield nodes cannot be counted as current end-user edge connections.",
+    "extension": "html",
+    "method": "GET",
+    "source_published_at": null,
+    "source_updated_at": null
+  }
+]
