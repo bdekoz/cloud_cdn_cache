@@ -1,0 +1,20 @@
+{
+  "bytes": 2367653,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:12+00:00",
+  "content_type": "application/pdf",
+  "final_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+  "http_last_modified": "Mon, 15 Sep 2025 07:47:00 GMT",
+  "path": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+  "publisher": "Tata Communications",
+  "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Historical city declarations, active versus planned as depicted; no current site count or building coordinates.",
+  "sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+  "source_id": "tata-cdn-map",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+  "title": "Tata Communications CDN PoP map"
+}

@@ -1,0 +1,20 @@
+{
+  "bytes": 207872,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:49:20+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://cloud.ru/blog/cloud-ru-otkryl-tretyu-zonu-dostupnosti-i-attestoval-platformu-cloud-ru-evolution",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/cloudru-third-zone.20261019.html",
+  "publisher": "Cloud.ru",
+  "raw_source_ref": "data/raw/completion-review/cloudru-third-zone.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Review for explicit Evolution parent-region identity; an AZ definition is not a named region.",
+  "sha256": "7c35785bd9fcf74327c02a65cc560958f6931aea35976ac2f5261560665ce5bf",
+  "source_id": "cloudru-third-zone",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://cloud.ru/blog/cloud-ru-otkryl-tretyu-zonu-dostupnosti-i-attestoval-platformu-cloud-ru-evolution",
+  "title": "Cloud.ru Evolution third availability zone announcement"
+}

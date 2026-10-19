@@ -1,0 +1,20 @@
+{
+  "bytes": 54155,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:11+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "final_url": "https://www.eand.ae/smarthub.html",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/eand-smarthub.20261019.html",
+  "publisher": "e& UAE",
+  "raw_source_ref": "data/raw/completion-review/eand-smarthub.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Operator declarations; explicit site identity is required before joining a cloud endpoint.",
+  "sha256": "2cffe346f1316e134410115101882ade877e5212fa0262dc2a95b4c9fe2b9e37",
+  "source_id": "eand-smarthub",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.eand.ae/smarthub.html",
+  "title": "SmartHub data centres"
+}

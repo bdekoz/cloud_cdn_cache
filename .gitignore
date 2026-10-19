@@ -39,3 +39,4 @@ data/ixcellerate/*.20[0-9][0-9][0-9][0-9][0-9][0-9].csv
 data/selectel/*.20[0-9][0-9][0-9][0-9][0-9][0-9].csv
 data/china/provider-localities.*.csv
 data/gulf/provider-localities.*.csv
+data/enrichment/provider-localities.*.csv

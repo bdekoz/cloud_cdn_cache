@@ -1,0 +1,20 @@
+{
+  "bytes": 160645,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:52:18+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+  "publisher": "Communications, Space and Technology Commission",
+  "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Public passive measurement report; country-wide weighted access latency is not a facility locator or an October service-health observation.",
+  "sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+  "source_id": "cst-latency-dashboard",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard",
+  "title": "CST cloud access latency dashboard, first half 2026"
+}

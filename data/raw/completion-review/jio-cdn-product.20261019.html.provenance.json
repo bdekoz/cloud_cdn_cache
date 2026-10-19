@@ -1,0 +1,21 @@
+{
+  "bytes": 110332,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:12+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.jio.com/enterprisecloud/services/ai-cloud/network/content-delivery-network/",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/jio-cdn-product.20261019.html",
+  "publisher": "Jio",
+  "raw_source_ref": "data/raw/completion-review/jio-cdn-product.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Product and deployment-list discovery; aggregate coverage is not a site inventory.",
+  "sha256": "f9ffdd7e4dcc77bd9b4d838ab85b7c21de44c74215041589a84062234a8a32a3",
+  "source_id": "jio-cdn-product",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.jio.com/enterprisecloud/services/ai-cloud/network/content-delivery-network/",
+  "stored_body_encoding": "gzip; original response bytes retained",
+  "title": "Jio Cloud Content Delivery Network"
+}

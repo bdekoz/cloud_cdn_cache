@@ -1,6 +1,6 @@
 # Enrichment bibliography
 
-Built 2026-10-19. 181 retained-source or unavailable-reference entries.
+Built 2026-10-19. 209 retained-source or unavailable-reference entries.
 
 The [machine-readable index](../data/references/bibliography.20261019.json) records the full SHA-256, raw path, source dates, publisher, role and admission limits for every entry. Retrieval dates do not establish a current deployment. Failed URLs and held evidence are included explicitly.
 
@@ -210,9 +210,67 @@ GeoNames coordinates are locality reference points under [CC BY 4.0](https://cre
 
 - **Oracle** — [OCI Regions and Availability Domains](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm). retrieved 2026-10-19; [retained source](../data/raw/geography-enrichment/oracle-regions.20261019.html). `ref-72e6cef4a456e49a`. public regions, realms and AD counts
 
-- **Oracle** — [Oracle FastConnect locations](https://www.oracle.com/cloud/networking/fastconnect/locations/). retrieved 2026-10-19; unavailable. `ref-27d6872215e8ea95`. network interconnect sites; not region buildings
+- **Oracle** — [Oracle FastConnect locations](https://www.oracle.com/cloud/networking/fastconnect/locations/). retrieved 2026-10-19; unavailable. `ref-621a943204530de0`. network interconnect sites; not region buildings
 
 - **Oracle** — [Oracle FastConnect partners and locations](https://www.oracle.com/cloud/networking/fastconnect/partners/). retrieved 2026-10-19; [retained source](../data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html). `ref-11ff939bef8b5ef3`. network interconnect location and region associations
+
+## Completion review: China, India, Apple, Gulf and Russia
+
+- **Apple** — [Apple Edge Cache program](https://cache.edge.apple.com/). retrieved 2026-10-19; [retained source](../data/raw/completion-review/apple-aec-program.20261019.html). `ref-45c05b2fb25ffc10`. Program eligibility does not identify deployed caches or attribute ASN-labelled measurements.
+
+- **China Unicom Cloud** — [Unicom Cloud Redis region documentation](https://support.cucloud.cn/document/127/580/501.html?arcid=759&id=501). retrieved 2026-10-19; [retained source](../data/raw/completion-review/unicom-redis-regions.20261019.html). `ref-8fc028e1633c8a14`. Product-specific regional availability; not necessarily a public-cloud region directory.
+
+- **Chongqing Kunyuan Asset Appraisal / Guangdong HEC Technology** — [Chindata acquisition valuation inquiry reply, September 2026](https://static.cninfo.com.cn/finalpage/2026-09-23/1225577150.PDF). retrieved 2026-10-19; [retained source](../data/raw/completion-review/chindata-acquisition-supplement.20261019.pdf). `ref-a0848b292a9cd87c`. Appraiser's exchange-inquiry reply, including project-compliance disclosures; pending approvals must not be represented as operational status.
+
+- **Cloud.ru** — [Cloud.ru Evolution third availability zone announcement](https://cloud.ru/blog/cloud-ru-otkryl-tretyu-zonu-dostupnosti-i-attestoval-platformu-cloud-ru-evolution). retrieved 2026-10-19; [retained source](../data/raw/completion-review/cloudru-third-zone.20261019.html). `ref-b852f58b124a474f`. Review for explicit Evolution parent-region identity; an AZ definition is not a named region.
+
+- **Communications, Space and Technology Commission** — [CST cloud access latency dashboard, first half 2026](https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard). retrieved 2026-10-19; [retained source](../data/raw/completion-review/cst-latency-dashboard.20261019.html). `ref-11dc42cc8ad302bc`. Public passive measurement report; country-wide weighted access latency is not a facility locator or an October service-health observation.
+
+- **Communications, Space and Technology Commission** — [CST cloud latency dashboard data and methodology, first half 2026](https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a). retrieved 2026-10-19; [retained source](../data/raw/completion-review/cst-latency-data.20261019.js). `ref-f85a37b2b39907a6`. Public script linked by the retained regulator dashboard; parse data without executing JavaScript. Latency is a country-wide weighted access measurement, not an exact facility location.
+
+- **Communications, Space and Technology Commission** — [Cloud services latency performance report 2026 landing page](https://www.cst.gov.sa/en/knowledge-center/reports/cloud-services-latency-performance-report-2026). retrieved 2026-10-19; [retained source](../data/raw/completion-review/cst-latency-report.20261019.html). `ref-3fd3a5390a5fec03`. Report-discovery lead; a landing page alone supplies no latency measurements.
+
+- **Equinix** — [Equinix AD1 specification](https://www.equinix.com.br/content/dam/eqxcorp/en_us/documents/resources/ibx-tech-specs/ibx_ad1_en.pdf). retrieved 2026-10-19; unavailable. `ref-6424fdaf1800636e`. Abu Dhabi operator facility candidate; not an established Oracle endpoint join.
+
+- **Equinix** — [Equinix IBX Sustainability Quick Reference Guide, FY2025](https://delivery-p112322-e1154416.adobeaemcloud.com/adobe/assets/deliver/urn:aaid:aem:e277427d-df16-4720-b4cd-4a30adbefa26/QRG_IBX-Sustainability-Quick-Reference.pdf). retrieved 2026-10-19; [retained source](../data/raw/completion-review/equinix-sustainability-2025.20261019.pdf). `ref-60c71fe464d64416`. Current official document-center link replacing the unavailable FY2024 URL; site codes and addresses, not cloud-region buildings.
+
+- **Equinix** — [Equinix IBX sustainability quick reference, FY2024](https://sustainability.equinix.com/wp-content/uploads/2025/04/QRG_IBX-Sustainability-Quick-Reference.pdf). retrieved 2026-10-19; unavailable. `ref-662a2a3f668bccc3`. Operator facility codes and addresses; no cloud-region building inference.
+
+- **GDS** — [GDS data-center portfolio presentation](https://investors.gds-services.com/static-files/46fa60b6-5dc1-4616-89e7-dc8c38658eed). retrieved 2026-10-19; unavailable. `ref-795a81931cc7cdf1`. Investor disclosure candidate for itemized campus codes; reporting period and grouped labels must be retained.
+
+- **GDS** — [GDS presentation, failed reader retrieval](https://investors.gds-services.com/static-files/46fa60b6-5dc1-4616-89e7-dc8c38658eed). retrieved 2026-10-19; unavailable. `ref-c5e79b257b812894`. Failed public reader request, no evidence admitted.
+
+- **Huawei Cloud** — [Huawei Cloud global infrastructure, Chinese edition](https://www.huaweicloud.com/intl/zh-cn/global/). retrieved 2026-10-19; [retained source](../data/raw/completion-review/huawei-chinese-global.20261019.html). `ref-351c009edc4acc51`. Explicit city-to-region tooltip evidence; no building location inference.
+
+- **Jiayuan Law / Guangdong HEC Technology** — [Chindata acquisition legal opinion, June 2026, disclosed July 21](https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF). retrieved 2026-10-19; [retained source](../data/raw/completion-review/chindata-acquisition-legal.20261019.pdf). `ref-f2db6969b3d20f0f`. Project, legal-entity and property-title evidence; not a public H/W-code crosswalk or proof of current operation.
+
+- **Jio** — [Jio Cloud CDN brochure](https://myjiostatic.cdn.jio.com/cms/assets/enterprise-cloud/resources/JioCloud_NetworkandConnectivity_ContentDeliveryNetwork(CDN)_Brochure.pdf). retrieved 2026-10-19; [retained source](../data/raw/completion-review/jio-cdn-brochure.20261019.pdf). `ref-d740f4d8189fbf66`. Public brochure linked by the retained Jio CDN page; itemized service-specific deployment evidence is required for locations.
+
+- **Jio** — [Jio Cloud CDN datasheet](https://myjiostatic.cdn.jio.com/cms/assets/enterprise-cloud/resources/JioCloud_NetworkandConnectivity_ContentDeliveryNetwork(CDN)_Datasheet.pdf). retrieved 2026-10-19; [retained source](../data/raw/completion-review/jio-cdn-datasheet.20261019.pdf). `ref-2b43537796459fcf`. Public datasheet linked by the retained Jio CDN page; service features alone do not establish deployment cities.
+
+- **Jio** — [Jio Cloud Content Delivery Network](https://www.jio.com/enterprisecloud/services/ai-cloud/network/content-delivery-network/). retrieved 2026-10-19; [retained source](../data/raw/completion-review/jio-cdn-product.20261019.html). `ref-c32ccabf78d3af01`. Product and deployment-list discovery; aggregate coverage is not a site inventory.
+
+- **PeeringDB / facility registrant** — [PeeringDB Equinix DX1 facility registration](https://www.peeringdb.com/api/fac/1355). retrieved 2026-10-19; [retained source](../data/raw/completion-review/peeringdb-dx1.20261019.json). `ref-7a5259f3a6019e3a`. Self-reported facility address tied to explicit DX1 code; independent of cloud-provider directories but not a surveyed building location.
+
+- **PeeringDB / facility registrant** — [PeeringDB facility response to MC1 lookup (unfiltered)](https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1). retrieved 2026-10-19; [retained source](../data/raw/completion-review/peeringdb-mc1.20261019.json). `ref-c9ffe5bac4216389`. The server ignored the name filter and returned 5,885 facilities. Reviewed facility IDs, exact names and countries are selected locally; no assumption that every response row matches the query. Registry data is self-reported.
+
+- **RIPE NCC** — [Gulf prefix sample: RIPEstat routing origins and RPKI responses](https://stat.ripe.net/docs/data-api/api-endpoints/network-info). retrieved 2026-10-19; [retained source](../data/raw/completion-review/gulf-routing-sample.20261019.json). `ref-02c197e4276ac59c`. One IPv4 and IPv6 prefix per AWS/OCI Gulf region and available Muscat border-group family; one address per prefix. Routing evidence does not establish geography, latency or service health.
+
+- **Tata Communications** — [Tata Communications CDN PoP map](https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf). retrieved 2026-10-19; [retained source](../data/raw/completion-review/tata-cdn-map.20261019.pdf). `ref-4f41fb3c09c02727`. Historical city declarations, active versus planned as depicted; no current site count or building coordinates.
+
+- **Tata Communications** — [Tata Communications CDN PoP map landing page](https://www.tatacommunications.com/resourcehub/cdn/cdn-pop-map). retrieved 2026-10-19; [retained source](../data/raw/completion-review/tata-cdn-map-landing.20261019.html). `ref-17ed3f156321fb9b`. Landing-page date is not the linked map's publication or deployment date.
+
+- **Tencent Cloud** — [Tencent Cloud CLS available regions](https://www.tencentcloud.com/document/product/614/18940). retrieved 2026-10-19; [retained source](../data/raw/completion-review/tencent-cls-regions.20261019.html). `ref-f69c4e4d7bc43700`. Product-scoped region labels and identifiers; no facility coordinates.
+
+- **Unverified candidate domain** — [Grinex candidate domain identity review](https://grinex.io/). retrieved 2026-10-19; unavailable. `ref-92a33b16b4b02b9b`. Candidate endpoint only; retrieval or DNS availability does not establish exchange identity or origin hosting.
+
+- **VNET** — [VNET second quarter 2026 financial results](https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results). retrieved 2026-10-19; unavailable. `ref-5484a2913ac76363`. Explicit campus-code activity at June 30, 2026; aggregate MW and code abbreviations do not identify addresses.
+
+- **VNET** — [VNET second quarter 2026 results, public reader extraction](https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results). retrieved 2026-10-19; published 2026-08-18; [retained source](../data/raw/completion-review/vnet-q2-2026-extract.20261019.web.json). `ref-f662acf38d75f7c0`. Reader extraction, not raw upstream HTML; use only statements present in retained response.
+
+- **Yandex** — [Yandex data-centre incident update, rechecked](https://yandex.ru/company/news/09-10-2026-01). retrieved 2026-10-19; published 2026-10-09; updated 2026-10-11; [retained source](../data/raw/completion-review/yandex-incident-review.20261019.html). `ref-33a46056e0f20859`. The page's last update date controls the incident claim; a later retrieval does not prove recovery.
+
+- **e& UAE** — [SmartHub data centres](https://www.eand.ae/smarthub.html). retrieved 2026-10-19; [retained source](../data/raw/completion-review/eand-smarthub.20261019.html). `ref-823fb0037a02584e`. Operator declarations; explicit site identity is required before joining a cloud endpoint.
 
 ## Earlier China enrichment
 

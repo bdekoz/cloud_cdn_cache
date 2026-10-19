@@ -1,0 +1,7 @@
+{
+  "capture_method": "gh_public_api",
+  "raw_source_ref": "data/raw/repository/gulf-hosted-jobs.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "aca8cc029da55bc048acd66e70259b8c9aaa56ded4e84b79bf01e98ace950a7f",
+  "source_url": "https://api.github.com/repos/bdekoz/cloud_cdn_cache/actions/runs/39288284158/jobs"
+}

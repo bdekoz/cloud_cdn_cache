@@ -1,0 +1,892 @@
+{
+  "queries": [
+    {
+      "declared_prefix": "1.178.20.0/24",
+      "feed_scope": "aws:me-central-1:AMAZON:me-central-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=1.178.20.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "16509"
+            ],
+            "prefix": "1.178.20.0/24"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 13,
+          "query_id": "20261019165022-03ad9b41-1ca2-4234-afa2-f64a8f84ee82",
+          "see_also": [],
+          "server_id": "app197",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:22.535438",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:ab64a575d29bad36434b",
+      "provider": "Amazon Web Services",
+      "rpki_validation": [
+        {
+          "asn": 16509,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=1.178.20.0%2F24&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "1.178.20.0/24",
+              "resource": "16509",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 24,
+                  "origin": "16509",
+                  "prefix": "1.178.16.0/20",
+                  "validity": "valid"
+                },
+                {
+                  "max_length": 24,
+                  "origin": "14618",
+                  "prefix": "1.178.16.0/20",
+                  "validity": "invalid_asn"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 48,
+            "query_id": "20261019165022-03348757-9120-4219-81dd-459caf8763c2",
+            "see_also": [],
+            "server_id": "app160",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:23.024911",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "1.178.20.1",
+      "service": "aws_amazon"
+    },
+    {
+      "declared_prefix": "2400:6500:0:7a00::/56",
+      "feed_scope": "aws:me-central-1:AMAZON:me-central-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2400%3A6500%3A0%3A7a00%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "16509"
+            ],
+            "prefix": "2400:6500::/32"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 8,
+          "query_id": "20261019165023-780890b3-d3ac-4da0-b34e-bdf23a91f3c4",
+          "see_also": [],
+          "server_id": "app190",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:23.587336",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:c6426b97b79b0472dbb5",
+      "provider": "Amazon Web Services",
+      "rpki_validation": [
+        {
+          "asn": 16509,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=2400%3A6500%3A%3A%2F32&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "2400:6500::/32",
+              "resource": "16509",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 32,
+                  "origin": "16509",
+                  "prefix": "2400:6500::/32",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 48,
+            "query_id": "20261019165024-724505ac-b9f8-425c-84e4-79e7a6002a82",
+            "see_also": [],
+            "server_id": "app166",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:24.076731",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2400:6500:0:7a00::1",
+      "service": "aws_amazon"
+    },
+    {
+      "declared_prefix": "1.178.16.0/24",
+      "feed_scope": "aws:me-south-1:AMAZON:me-south-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=1.178.16.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [],
+            "prefix": ""
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 7,
+          "query_id": "20261019165024-a345b8e9-dd3c-4d96-9fa2-da218b81d5d7",
+          "see_also": [],
+          "server_id": "app165",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:24.542009",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:68b145ce084254896a9d",
+      "provider": "Amazon Web Services",
+      "rpki_validation": [],
+      "sampled_address": "1.178.16.1",
+      "service": "aws_amazon"
+    },
+    {
+      "declared_prefix": "2600:1f01:48e0::/47",
+      "feed_scope": "aws:me-south-1:AMAZON:me-south-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2600%3A1f01%3A48e0%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "16509"
+            ],
+            "prefix": "2600:1f01:48e0::/47"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 8,
+          "query_id": "20261019165024-7ed78735-d268-4b68-8980-a88aa3818c17",
+          "see_also": [],
+          "server_id": "app166",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:25.008185",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:a21613ccfcf3272fc205",
+      "provider": "Amazon Web Services",
+      "rpki_validation": [
+        {
+          "asn": 16509,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=2600%3A1f01%3A48e0%3A%3A%2F47&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "2600:1f01:48e0::/47",
+              "resource": "16509",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 48,
+                  "origin": "16509",
+                  "prefix": "2600:1f01:4800::/40",
+                  "validity": "valid"
+                },
+                {
+                  "max_length": 32,
+                  "origin": "16509",
+                  "prefix": "2600:1f01::/32",
+                  "validity": "invalid_length"
+                },
+                {
+                  "max_length": 24,
+                  "origin": "16509",
+                  "prefix": "2600:1f00::/24",
+                  "validity": "invalid_length"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 57,
+            "query_id": "20261019165025-3272f30d-ebb8-4b5f-a24f-06b1fc933362",
+            "see_also": [],
+            "server_id": "app185",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:25.497418",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2600:1f01:48e0::1",
+      "service": "aws_amazon"
+    },
+    {
+      "declared_prefix": "15.220.146.0/23",
+      "feed_scope": "aws:me-south-1:AMAZON:me-south-1-mct-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=15.220.146.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "16509"
+            ],
+            "prefix": "15.220.146.0/23"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 13,
+          "query_id": "20261019165025-683fddad-5b31-4042-b961-890b4994ef90",
+          "see_also": [],
+          "server_id": "app197",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:25.943441",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:8a72110e7a3b15161b28",
+      "provider": "Amazon Web Services",
+      "rpki_validation": [
+        {
+          "asn": 16509,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=15.220.146.0%2F23&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "15.220.146.0/23",
+              "resource": "16509",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 24,
+                  "origin": "16509",
+                  "prefix": "15.220.146.0/23",
+                  "validity": "valid"
+                },
+                {
+                  "max_length": 16,
+                  "origin": "16509",
+                  "prefix": "15.220.0.0/16",
+                  "validity": "invalid_length"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 52,
+            "query_id": "20261019165026-359c02b1-1b09-4832-ac84-d58b8e94c69c",
+            "see_also": [],
+            "server_id": "app178",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:26.438182",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "15.220.146.1",
+      "service": "aws_amazon"
+    },
+    {
+      "declared_prefix": "51.170.80.0/20",
+      "feed_scope": "oracle:oc1:me-abudhabi-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=51.170.80.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "51.170.80.0/20"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 11,
+          "query_id": "20261019165026-b7b4fe23-2b82-49da-8e4b-88ed7c9a1088",
+          "see_also": [],
+          "server_id": "app193",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:26.891261",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:6af5d749ac1f9fc0644a",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=51.170.80.0%2F20&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "51.170.80.0/20",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 24,
+                  "origin": "31898",
+                  "prefix": "51.170.80.0/20",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 50,
+            "query_id": "20261019165027-a632a073-acb2-4d32-8946-4bd2eca59727",
+            "see_also": [],
+            "server_id": "app166",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:27.692030",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "51.170.80.1",
+      "service": "oracle_cloud"
+    },
+    {
+      "declared_prefix": "2603:c002:1600::/40",
+      "feed_scope": "oracle:oc1:me-abudhabi-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3A1600%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "2603:c002:1600::/44"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 13,
+          "query_id": "20261019165028-1b7e600f-bede-4559-9445-fee9c78aa46e",
+          "see_also": [],
+          "server_id": "app161",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:28.135261",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:b62785e1083693a4e936",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3A1600%3A%3A%2F44&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "2603:c002:1600::/44",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 64,
+                  "origin": "31898",
+                  "prefix": "2603:c002:1600::/40",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 94,
+            "query_id": "20261019165028-9c20b577-7228-43bd-b8f6-083f0ae6a284",
+            "see_also": [],
+            "server_id": "app181",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:28.657122",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2603:c002:1600::1",
+      "service": "oracle_cloud"
+    },
+    {
+      "declared_prefix": "64.110.120.0/21",
+      "feed_scope": "oracle:oc1:me-dubai-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=64.110.120.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "64.110.120.0/21"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 13,
+          "query_id": "20261019165031-c50d84cf-3347-4de2-aa33-6d37b227e5e0",
+          "see_also": [],
+          "server_id": "app173",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:31.710295",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:2facf655c85314e8e591",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=64.110.120.0%2F21&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "64.110.120.0/21",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 24,
+                  "origin": "31898",
+                  "prefix": "64.110.120.0/21",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 47,
+            "query_id": "20261019165032-d066c09d-e0f8-4406-a1bb-f220cb9c7c16",
+            "see_also": [],
+            "server_id": "app162",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:32.262616",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "64.110.120.1",
+      "service": "oracle_cloud"
+    },
+    {
+      "declared_prefix": "2603:c002:1a00::/40",
+      "feed_scope": "oracle:oc1:me-dubai-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3A1a00%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "2603:c002:1a00::/44"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 9,
+          "query_id": "20261019165032-ce934bc2-43ee-45d3-aa4a-a951b2248416",
+          "see_also": [],
+          "server_id": "app196",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:32.768900",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:3d5d002638320e5fef3f",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3A1a00%3A%3A%2F44&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "2603:c002:1a00::/44",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 64,
+                  "origin": "31898",
+                  "prefix": "2603:c002:1a00::/40",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 45,
+            "query_id": "20261019165033-66c5ccb5-b515-411a-be35-ac7ae7153e6a",
+            "see_also": [],
+            "server_id": "app177",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:33.255730",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2603:c002:1a00::1",
+      "service": "oracle_cloud"
+    },
+    {
+      "declared_prefix": "79.72.0.0/20",
+      "feed_scope": "oracle:oc1:me-jeddah-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=79.72.0.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "79.72.0.0/20"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 8,
+          "query_id": "20261019165033-72796df2-8bbb-4fc4-a4d9-e3518071ef6e",
+          "see_also": [],
+          "server_id": "app194",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:33.699520",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:598f583aae57b8337fe8",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=79.72.0.0%2F20&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "79.72.0.0/20",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 20,
+                  "origin": "31898",
+                  "prefix": "79.72.0.0/20",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 69,
+            "query_id": "20261019165034-730d0d69-46e8-440a-a064-1bdc6e56f4ab",
+            "see_also": [],
+            "server_id": "app194",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:34.210058",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "79.72.0.1",
+      "service": "oracle_cloud"
+    },
+    {
+      "declared_prefix": "2603:c002:e00::/40",
+      "feed_scope": "oracle:oc1:me-jeddah-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3Ae00%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "2603:c002:e00::/44"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 10,
+          "query_id": "20261019165034-5f8bd78f-7642-4c8c-bc09-ec922ae9d946",
+          "see_also": [],
+          "server_id": "app190",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:34.666431",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:24075bb0a4d8d6ee5021",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3Ae00%3A%3A%2F44&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "2603:c002:e00::/44",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 64,
+                  "origin": "31898",
+                  "prefix": "2603:c002:e00::/40",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 53,
+            "query_id": "20261019165035-7ea77598-3c27-42a6-a6bf-57c1a4078076",
+            "see_also": [],
+            "server_id": "app165",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:35.160349",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2603:c002:e00::1",
+      "service": "oracle_cloud"
+    },
+    {
+      "declared_prefix": "79.76.16.0/23",
+      "feed_scope": "oracle:oc1:me-riyadh-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=79.76.16.1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "79.76.16.0/23"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 9,
+          "query_id": "20261019165035-d0bdae43-e5fe-400c-9687-8e35fdb46cfc",
+          "see_also": [],
+          "server_id": "app172",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:35.616683",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:6cec6df23ffbe9fb76df",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=79.76.16.0%2F23&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "79.76.16.0/23",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 23,
+                  "origin": "31898",
+                  "prefix": "79.76.16.0/23",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 47,
+            "query_id": "20261019165036-545a5d56-368b-432e-8c62-60c12660df12",
+            "see_also": [],
+            "server_id": "app162",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:36.112533",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "79.76.16.1",
+      "service": "oracle_cloud"
+    },
+    {
+      "declared_prefix": "2603:c002:2800::/40",
+      "feed_scope": "oracle:oc1:me-riyadh-1",
+      "network_info": {
+        "request_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3A2800%3A%3A1&sourceapp=cloud-cdn-cache",
+        "response": {
+          "build_version": "v0.11.23-2026.10.12",
+          "cached": false,
+          "data": {
+            "asns": [
+              "31898"
+            ],
+            "prefix": "2603:c002:2800::/44"
+          },
+          "data_call_name": "network-info",
+          "data_call_status": "supported",
+          "messages": [],
+          "pipeline": "1460464",
+          "process_time": 12,
+          "query_id": "20261019165036-0a213716-b217-48a6-acb0-06ec9ec0be9f",
+          "see_also": [],
+          "server_id": "app192",
+          "status": "ok",
+          "status_code": 200,
+          "time": "2026-10-19T16:50:36.588145",
+          "version": "1.1"
+        }
+      },
+      "prefix_record_id": "network:provider_prefix:52d0bdcf1e9d7e0a2b03",
+      "provider": "Oracle Cloud Infrastructure",
+      "rpki_validation": [
+        {
+          "asn": 31898,
+          "request_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3A2800%3A%3A%2F44&sourceapp=cloud-cdn-cache",
+          "response": {
+            "build_version": "v0.11.23-2026.10.12",
+            "cached": false,
+            "data": {
+              "prefix": "2603:c002:2800::/44",
+              "resource": "31898",
+              "status": "valid",
+              "validating_roas": [
+                {
+                  "max_length": 64,
+                  "origin": "31898",
+                  "prefix": "2603:c002:2800::/40",
+                  "validity": "valid"
+                }
+              ],
+              "validator": "routinator"
+            },
+            "data_call_name": "rpki-validation",
+            "data_call_status": "supported",
+            "messages": [],
+            "pipeline": "1460464",
+            "process_time": 48,
+            "query_id": "20261019165037-fd76c54f-43ba-4b0d-98ee-1f8427be2f46",
+            "see_also": [],
+            "server_id": "app176",
+            "status": "ok",
+            "status_code": 200,
+            "time": "2026-10-19T16:50:37.091781",
+            "version": "0.3"
+          }
+        }
+      ],
+      "sampled_address": "2603:c002:2800::1",
+      "service": "oracle_cloud"
+    }
+  ],
+  "retrieved_at": "2026-10-19",
+  "sample_per_family": 1,
+  "sample_policy": "For each retained feed scope and IP family, sort canonical prefixes by network address/prefix length and query the first N. Query one address inside each selected prefix.",
+  "sourceapp": "cloud-cdn-cache"
+}

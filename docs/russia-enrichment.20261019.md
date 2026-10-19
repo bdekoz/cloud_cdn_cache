@@ -1,5 +1,7 @@
 # Russia enrichment implementation
 
+Follow-up: the [completion review](enrichment-completion.20261019.md) records subsequent additions, completed monitoring, and the remaining source-evidence dependencies. Counts and gaps below describe this document’s original implementation boundary.
+
 Implemented October 19, 2026, from the [approved Yandex/crypto assessment](russia-yandex-crypto.20261019.md) and the [earlier domestic-provider review](russia-reassessment.20261011.md). The [implementation receipt](../data/russia/enrichment-implementation.20261019.json) records counts, source receipts and limits.
 
 The enrichment adds **89 location-schema records in six layers, 220 network records, and 15 application DNS observations**. All 89 new location geometries remain null. The [current manifest](../data/manifest.20261019.json) contains 28,019 location records in 39 layers, 3,387 network records in six layers, and a separately counted application collection with five entities. Existing infrastructure evidence and the vendor registry are unchanged. These totals combine different units; they are not counts of operating facilities.

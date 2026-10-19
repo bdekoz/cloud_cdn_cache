@@ -1,5 +1,7 @@
 # AWS and Oracle Gulf enrichment
 
+Follow-up: the [completion review](enrichment-completion.20261019.md) records subsequent additions, completed monitoring, and the remaining source-evidence dependencies. Counts and gaps below describe this document’s original implementation boundary.
+
 Implemented October 19, 2026, for UAE, Saudi Arabia, Bahrain, Oman, Qatar and Kuwait. The [original assessment](gulf-coverage-plan.20261019.md), [frozen pre-implementation manifest](../data/raw/repository/manifest-before-gulf.20261019.json) and [implementation audit](../data/gulf/enrichment-implementation.20261019.json) preserve the review boundary. All sources are indexed in the [bibliography](bibliography.20261019.md), now containing 181 references.
 
 The update preserves all 19 existing Gulf location IDs and the repository's 28,024 canonical location records. It refreshes evidence for 18 Gulf rows and marks the historical Muscat Local Zone's lifecycle unknown. Rows outside the Gulf keep their previous properties, coordinates and retrieval dates. Earlier snapshots remain byte-for-byte intact.

@@ -1,0 +1,21 @@
+{
+  "bytes": 3168797,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:57:59+00:00",
+  "content_encoding": null,
+  "content_type": "application/pdf",
+  "final_url": "https://myjiostatic.cdn.jio.com/cms/assets/enterprise-cloud/resources/JioCloud_NetworkandConnectivity_ContentDeliveryNetwork(CDN)_Datasheet.pdf",
+  "http_last_modified": "Tue, 13 Jan 2026 11:50:24 GMT",
+  "path": "data/raw/completion-review/jio-cdn-datasheet.20261019.pdf",
+  "publisher": "Jio",
+  "raw_source_ref": "data/raw/completion-review/jio-cdn-datasheet.20261019.pdf",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Public datasheet linked by the retained Jio CDN page; service features alone do not establish deployment cities.",
+  "sha256": "c0f73ad7d557ffbea1bbbc5ab2e765f5d9945a459c6a98cd31a02846a180017f",
+  "source_id": "jio-cdn-datasheet",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://myjiostatic.cdn.jio.com/cms/assets/enterprise-cloud/resources/JioCloud_NetworkandConnectivity_ContentDeliveryNetwork(CDN)_Datasheet.pdf",
+  "title": "Jio Cloud CDN datasheet"
+}

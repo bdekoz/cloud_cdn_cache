@@ -1,0 +1,21 @@
+{
+  "bytes": 5735126,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:57:59+00:00",
+  "content_encoding": null,
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/peeringdb-mc1.20261019.json",
+  "publisher": "PeeringDB / facility registrant",
+  "raw_source_ref": "data/raw/completion-review/peeringdb-mc1.20261019.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "The server ignored the name filter and returned 5,885 facilities. Reviewed facility IDs, exact names and countries are selected locally; no assumption that every response row matches the query. Registry data is self-reported.",
+  "sha256": "e2e567a7fc2c6b145ea3a27d2e0e5aa5a94930a9b3af54f3ed502f2440ef7e93",
+  "source_id": "peeringdb-mc1",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1",
+  "title": "PeeringDB facility response to MC1 lookup (unfiltered)"
+}

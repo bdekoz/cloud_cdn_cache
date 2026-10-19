@@ -1,0 +1,31 @@
+{
+  "assertion_input": {
+    "path": "data/infrastructure/completion-evidence.20261019.json",
+    "sha256": "3cb1799eab00b40ee4f5cef73569ac3d9f4cb9416eaebeffb98fdd7bb07ba555"
+  },
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/enrichment/provider-localities.20261019.csv",
+      "path": "data/enrichment/provider-localities.20261019.csv",
+      "source": "data/enrichment/provider-localities.20261019.geojson"
+    }
+  },
+  "excluded_from_canonical_totals": true,
+  "historical_tata_point_count": 10,
+  "input_layers": [
+    {
+      "layer": "tencent/regions-and-zones",
+      "path": "data/tencent/regions-and-zones.20261011.geojson",
+      "sha256": "2bc21869ac7ff7b73e54223115e65d999cb86b30784212e4fef4a3814d67503d"
+    },
+    {
+      "layer": "huawei/regions",
+      "path": "data/huawei/regions.20261011.geojson",
+      "sha256": "dd413fd84f0684c4b21936e52dec7556ce79a027871cc08cd33fd3b21ff417a8"
+    }
+  ],
+  "interpretation": "Supplement to prior views; Tata points are historical map declarations, all geometry is locality reference geometry.",
+  "record_count": 13,
+  "resolved_previously_held_record_count": 2
+}

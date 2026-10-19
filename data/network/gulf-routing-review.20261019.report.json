@@ -1,0 +1,41 @@
+{
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/gulf-routing-review.20261019.csv",
+      "path": "data/network/gulf-routing-review.20261019.csv",
+      "source": "data/network/gulf-routing-review.20261019.json"
+    }
+  },
+  "evidence_types": {
+    "routing_origin": 13,
+    "rpki_validation": 12
+  },
+  "generated_files": [
+    "data/network/gulf-routing-review.20261019.json"
+  ],
+  "latency_not_measured": true,
+  "layer": "gulf-routing-review",
+  "missing_muscat_ipv6_reason": "No retained AMAZON IPv6 declaration for the Muscat border group",
+  "parser": "scripts/update_completion_enrichment.py",
+  "provider_counts": {
+    "Amazon Web Services": 9,
+    "Oracle Cloud Infrastructure": 16
+  },
+  "provider_prefix_record_count": 563,
+  "queried_prefix_count": 13,
+  "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+  "record_count": 25,
+  "retrieved_at": "2026-10-19",
+  "sample_per_family": 1,
+  "sample_policy": "One lowest-address declared prefix per Gulf region, border group and available IP family; AWS AMAZON scope only. One address per prefix; no active probes.",
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "source_url": "https://stat.ripe.net/data/",
+  "sourceapp": "cloud-cdn-cache",
+  "statuses": {
+    "announced": 12,
+    "not_announced": 1,
+    "valid": 12
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "bytes": 14976,
+  "capture_method": "web_tool_response",
+  "captured_at": "2026-10-19T16:52:20+00:00",
+  "path": "data/raw/completion-review/vnet-q2-2026-extract.20261019.web.json",
+  "publisher": "VNET",
+  "raw_source_ref": "data/raw/completion-review/vnet-q2-2026-extract.20261019.web.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Reader extraction, not raw upstream HTML; use only statements present in retained response.",
+  "sha256": "4fad67fc930c10b52a1e8475dd10c732039b43b4fdc7c7c96d36035acb2a99c9",
+  "source_id": "vnet-q2-2026-extract",
+  "source_published_at": "2026-08-18",
+  "source_updated_at": null,
+  "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results",
+  "title": "VNET second quarter 2026 results, public reader extraction"
+}

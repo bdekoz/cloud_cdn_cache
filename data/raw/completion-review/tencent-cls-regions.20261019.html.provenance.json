@@ -1,0 +1,20 @@
+{
+  "bytes": 664951,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:13+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.tencentcloud.com/document/product/614/18940",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/tencent-cls-regions.20261019.html",
+  "publisher": "Tencent Cloud",
+  "raw_source_ref": "data/raw/completion-review/tencent-cls-regions.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Product-scoped region labels and identifiers; no facility coordinates.",
+  "sha256": "40b3dedb2d9e50b9edfc38b45a3275ec3cb52abed1a7f0b235407a2110f444f5",
+  "source_id": "tencent-cls-regions",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.tencentcloud.com/document/product/614/18940",
+  "title": "Tencent Cloud CLS available regions"
+}

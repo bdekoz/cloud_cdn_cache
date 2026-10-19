@@ -1,0 +1,20 @@
+{
+  "bytes": 290371,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:11+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-services-latency-performance-report-2026",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/cst-latency-report.20261019.html",
+  "publisher": "Communications, Space and Technology Commission",
+  "raw_source_ref": "data/raw/completion-review/cst-latency-report.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Report-discovery lead; a landing page alone supplies no latency measurements.",
+  "sha256": "5ca98253d7e3e9b99394e968ce8526fb2d1a90097f242d2368c16e6f6cb673f1",
+  "source_id": "cst-latency-report",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-services-latency-performance-report-2026",
+  "title": "Cloud services latency performance report 2026 landing page"
+}

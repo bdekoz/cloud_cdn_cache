@@ -395,7 +395,8 @@ def response_time(payload: dict[str, Any], retrieved_at: str) -> str:
 
 
 def build_ripestat_records(
-    *, paths: dict[str, Path], retrieved_at: str, prefix_records: list[dict[str, Any]]
+    *, paths: dict[str, Path], retrieved_at: str, prefix_records: list[dict[str, Any]],
+    write_source_provenance: bool = True,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     raw_path = paths["ripestat"]
     if not raw_path.exists():
@@ -535,14 +536,15 @@ def build_ripestat_records(
                 },
             ))
 
-    write_provenance(
-        raw_path,
-        source_url=f"{RIPESTAT_BASE}/",
-        retrieved_at=retrieved_at,
-        media_type="application/json",
-        source_published_at=None,
-        notes="Bundled network-info and RPKI-validation API responses for a deterministic provider-prefix sample; no geolocation endpoint is used.",
-    )
+    if write_source_provenance:
+        write_provenance(
+            raw_path,
+            source_url=f"{RIPESTAT_BASE}/",
+            retrieved_at=retrieved_at,
+            media_type="application/json",
+            source_published_at=None,
+            notes="Bundled network-info and RPKI-validation API responses for a deterministic provider-prefix sample; no geolocation endpoint is used.",
+        )
     return records, {
         "provider_prefix_record_count": len(prefix_records),
         "queried_prefix_count": len(queried_prefixes),

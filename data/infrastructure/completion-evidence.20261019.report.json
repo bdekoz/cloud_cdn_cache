@@ -1,0 +1,22 @@
+{
+  "built_at": "2026-10-19",
+  "category_counts": {
+    "campus_activity_disclosure": 2,
+    "cloud_access_latency_measurement": 31,
+    "facility_address_registration": 5,
+    "historical_cdn_city_declaration": 10,
+    "phase_status_disclosure": 3,
+    "project_approval_reference": 21,
+    "property_title_reference": 4
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/infrastructure/completion-evidence.20261019.csv",
+      "path": "data/infrastructure/completion-evidence.20261019.csv",
+      "source": "data/infrastructure/completion-evidence.20261019.json"
+    }
+  },
+  "parser": "scripts/update_completion_enrichment.py",
+  "physical_site_total": null,
+  "record_count": 76
+}

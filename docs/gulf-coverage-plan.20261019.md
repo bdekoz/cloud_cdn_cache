@@ -1,5 +1,7 @@
 # AWS and Oracle Gulf coverage and accuracy plan
 
+Implementation status: the [Gulf enrichment](gulf-enrichment.20261019.md) and [completion review](enrichment-completion.20261019.md) implement the available provider, registration, routing, passive-latency and monitoring evidence. The completion ledger records the remaining provider-evidence dependencies; the assessment below preserves the original planning boundary.
+
 Reviewed October 19, 2026, covering UAE, Saudi Arabia, Bahrain, Oman, Qatar and Kuwait. This document preserves the pre-implementation assessment; the subsequent [implemented enrichment](gulf-enrichment.20261019.md) records the refreshed layers, locality views, scoped infrastructure/network evidence and source monitoring. The [machine-readable review](../data/gulf/aws-oracle-coverage.20261019.json) retains the original baseline, evidence and acceptance criteria. Sources are indexed in the [bibliography](bibliography.20261019.md).
 
 **The baseline has 19 Gulf records; 18 have null geometry.** A mostly empty map therefore understates the inventory already present. Missing geometry, missing deployment records, stale evidence and unresolved source conflicts require different repairs.

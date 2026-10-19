@@ -1,0 +1,20 @@
+{
+  "bytes": 66586,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:13+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.huaweicloud.com/intl/zh-cn/global/",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/huawei-chinese-global.20261019.html",
+  "publisher": "Huawei Cloud",
+  "raw_source_ref": "data/raw/completion-review/huawei-chinese-global.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Explicit city-to-region tooltip evidence; no building location inference.",
+  "sha256": "642d90f563e92827ec4f63f229d9aaf2af8940aa5b88518bfe0569ac75c88da3",
+  "source_id": "huawei-chinese-global",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.huaweicloud.com/intl/zh-cn/global/",
+  "title": "Huawei Cloud global infrastructure, Chinese edition"
+}

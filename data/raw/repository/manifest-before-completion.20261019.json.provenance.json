@@ -1,0 +1,9 @@
+{
+  "capture_method": "repository_snapshot",
+  "notes": "Frozen after Gulf enrichment, before the completion review; historical data files remain unchanged.",
+  "raw_source_ref": "data/raw/repository/manifest-before-completion.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "041bc3b47fe004256c8c7066472d5da31b81cd7872a0b8d81366c3ba1008c127",
+  "source_commit": "d809918",
+  "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/d809918/data/manifest.20261019.json"
+}

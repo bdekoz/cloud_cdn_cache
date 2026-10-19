@@ -1,5 +1,7 @@
 # Global CDN mapping: India and Apple evaluation
 
+Follow-up: the [completion review](enrichment-completion.20261019.md) records subsequent additions, completed monitoring, and the remaining source-evidence dependencies. Counts and gaps below describe this document’s original implementation boundary.
+
 Reviewed: 2026-10-19. Study published: 2026-06-06. Repository downloads retained: 2026-08-04 (ASN lists) and 2026-08-05 (map).
 
 Anurag Bhatia's [Mapping major CDNs across the globe](https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/) is useful for enriching observed network presence and identifying follow-up candidates. Its observations and the derived India/Apple comparisons below are incorporated in this repository. Indian vendors' own deployment directories require separate evidence. The study exports do not establish cache ownership or individual installations.

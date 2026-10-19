@@ -1,0 +1,7 @@
+{
+  "capture_method": "gh_public_api",
+  "raw_source_ref": "data/raw/repository/gulf-hosted-run.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "5d10ba77c378ef0819e6ca83f4242ac7c63595b880f834de04d851db3196ac7f",
+  "source_url": "https://api.github.com/repos/bdekoz/cloud_cdn_cache/actions/runs/39288284158"
+}

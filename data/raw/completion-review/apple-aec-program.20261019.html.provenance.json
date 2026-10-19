@@ -1,0 +1,20 @@
+{
+  "bytes": 5123,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:13+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://cache.edge.apple.com/",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/apple-aec-program.20261019.html",
+  "publisher": "Apple",
+  "raw_source_ref": "data/raw/completion-review/apple-aec-program.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Program eligibility does not identify deployed caches or attribute ASN-labelled measurements.",
+  "sha256": "649e50bb348e96a9a83ec6b625b6dbbcafa3927c63791a3892584871159ca206",
+  "source_id": "apple-aec-program",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://cache.edge.apple.com/",
+  "title": "Apple Edge Cache program"
+}

@@ -1,0 +1,20 @@
+{
+  "bytes": 5173,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:49:20+00:00",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://www.peeringdb.com/api/fac/1355",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/peeringdb-dx1.20261019.json",
+  "publisher": "PeeringDB / facility registrant",
+  "raw_source_ref": "data/raw/completion-review/peeringdb-dx1.20261019.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Self-reported facility address tied to explicit DX1 code; independent of cloud-provider directories but not a surveyed building location.",
+  "sha256": "020eec01428ffff2adc126fb6490a87d92273db301a02ce21e3e051ebabba6f2",
+  "source_id": "peeringdb-dx1",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.peeringdb.com/api/fac/1355",
+  "title": "PeeringDB Equinix DX1 facility registration"
+}

@@ -1,0 +1,813 @@
+{
+  "baseline_manifest": {
+    "path": "data/raw/repository/manifest-before-completion.20261019.json",
+    "sha256": "041bc3b47fe004256c8c7066472d5da31b81cd7872a0b8d81366c3ba1008c127"
+  },
+  "built_at": "2026-10-19",
+  "canonical_records_added": 0,
+  "canonical_records_changed": 0,
+  "china_held_record_dispositions": [
+    {
+      "claim_id": null,
+      "country_code": "MY",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "alibaba:cloud_region:ap-southeast-8",
+      "source_locality": "Johor",
+      "vendor_id": "alibaba"
+    },
+    {
+      "claim_id": null,
+      "country_code": "MX",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "alibaba:cloud_region:na-south-1",
+      "source_locality": null,
+      "vendor_id": "alibaba"
+    },
+    {
+      "claim_id": null,
+      "country_code": "US",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "alibaba:cloud_region:us-east-1",
+      "source_locality": "Virginia",
+      "vendor_id": "alibaba"
+    },
+    {
+      "claim_id": null,
+      "country_code": "US",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "alibaba:cloud_region:us-west-1",
+      "source_locality": "Silicon Valley",
+      "vendor_id": "alibaba"
+    },
+    {
+      "claim_id": null,
+      "country_code": "SA",
+      "disposition": "resolved_in_supplement",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "tencent:cloud_region:me-saudi-arabia",
+      "source_locality": "Saudi Arabia",
+      "vendor_id": "tencent"
+    },
+    {
+      "claim_id": null,
+      "country_code": "US",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "tencent:cloud_region:na-ashburn",
+      "source_locality": "Virginia",
+      "vendor_id": "tencent"
+    },
+    {
+      "claim_id": null,
+      "country_code": "US",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "tencent:cloud_region:na-siliconvalley",
+      "source_locality": "Silicon Valley",
+      "vendor_id": "tencent"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "resolved_in_supplement",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "huawei:cloud_region:cn-east-4",
+      "source_locality": null,
+      "vendor_id": "huawei"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "huawei:cloud_region:cn-north-12",
+      "source_locality": null,
+      "vendor_id": "huawei"
+    },
+    {
+      "claim_id": null,
+      "country_code": "MY",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "volcano:cloud_region:ap-southeast-1",
+      "source_locality": "Johor",
+      "vendor_id": "volcano"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "kingsoft:cloud_region:cn-northwest-3",
+      "source_locality": null,
+      "vendor_id": "kingsoft"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "kingsoft:cloud_region:cn-northwest-4",
+      "source_locality": "Haidong",
+      "vendor_id": "kingsoft"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "ctyun:cloud_resource_pool:vpc-34eef794abea38aa",
+      "source_locality": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "ctyun:cloud_resource_pool:vpc-65e86545f9d0e267",
+      "source_locality": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "ctyun:cloud_resource_pool:vpc-8a515e6ceed6a8cc",
+      "source_locality": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "ctyun:cloud_resource_pool:vpc-b1629b7b9f4da4e9",
+      "source_locality": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "ctyun:cloud_resource_pool:vpc-d0f554a061e3d7b3",
+      "source_locality": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "ctyun:cloud_resource_pool:vpc-de8018e2dc340f7a",
+      "source_locality": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "claim_id": null,
+      "country_code": "CN",
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "ctyun:cloud_resource_pool:vpc-ff755027789a97cf",
+      "source_locality": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "claim_id": null,
+      "country_code": null,
+      "disposition": "explicit_city_identity_not_established",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "qiniu:cloud_region:pool-1-ap-northeast-1",
+      "source_locality": null,
+      "vendor_id": "qiniu"
+    },
+    {
+      "claim_id": null,
+      "country_code": "US",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "qiniu:cloud_region:pool-1-us-east-1",
+      "source_locality": "Virginia",
+      "vendor_id": "qiniu"
+    },
+    {
+      "claim_id": null,
+      "country_code": "US",
+      "disposition": "broader_than_city_precision",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "qiniu:cloud_region:pool-1-us-west-1",
+      "source_locality": "Silicon Valley",
+      "vendor_id": "qiniu"
+    },
+    {
+      "claim_id": null,
+      "country_code": null,
+      "disposition": "excluded_multi_region_container",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "qiniu:cloud_resource_pool:pool-1",
+      "source_locality": null,
+      "vendor_id": "qiniu"
+    },
+    {
+      "claim_id": null,
+      "country_code": null,
+      "disposition": "excluded_multi_region_container",
+      "original_reason": "No reviewed city/county identity; broad or missing labels stay unlocated",
+      "record_id": "qiniu:cloud_resource_pool:pool-3",
+      "source_locality": null,
+      "vendor_id": "qiniu"
+    }
+  ],
+  "china_vendor_cohort": [
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Alibaba Cloud / Qwen / Model Studio",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "alibaba-directory",
+        "alibaba-marketing",
+        "alibaba-model-studio",
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "alibaba"
+    },
+    {
+      "disposition": "supplement_added",
+      "name": "Tencent Cloud / Hunyuan",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "tencent-directory"
+      ],
+      "supplement": "Riyadh locality",
+      "vendor_id": "tencent"
+    },
+    {
+      "disposition": "supplement_added",
+      "name": "Huawei Cloud / ModelArts / Pangu",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "huawei-global",
+        "huawei-trust"
+      ],
+      "supplement": "Wuhu locality and Saudi latency report",
+      "vendor_id": "huawei"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Baidu AI Cloud / Qianfan",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [],
+      "supplement": null,
+      "vendor_id": "baidu"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "ByteDance / Volcano Engine / Doubao / Seedance",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "seedance-official",
+        "byteplus-modelark",
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "volcano"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "China Telecom / Tianyi Cloud",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "tianyi"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "China Mobile Cloud",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "china-mobile"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "China Unicom Cloud",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "unicom-ai-pools",
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "china-unicom"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Kingsoft Cloud",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [],
+      "supplement": null,
+      "vendor_id": "kingsoft"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "JD Cloud",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [],
+      "supplement": null,
+      "vendor_id": "jd"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Bilibili",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "bilibili-2025-report"
+      ],
+      "supplement": null,
+      "vendor_id": "bilibili"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "DeepSeek",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "deepseek-api",
+        "deepseek-identity"
+      ],
+      "supplement": null,
+      "vendor_id": "deepseek"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Moonshot AI / Kimi",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "kimi-endpoints"
+      ],
+      "supplement": null,
+      "vendor_id": "moonshot"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "fal",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "fal-identity"
+      ],
+      "supplement": null,
+      "vendor_id": "fal"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "seedance2.ai",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "seedance2ai-identity"
+      ],
+      "supplement": null,
+      "vendor_id": "seedance2ai"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "BytePlus ModelArk",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "byteplus-modelark"
+      ],
+      "supplement": null,
+      "vendor_id": "byteplus"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "UCloud / UPHost",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "ucloud-baremetal"
+      ],
+      "supplement": null,
+      "vendor_id": "ucloud"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Qiniu Cloud / QVM",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "qiniu-resource-pools"
+      ],
+      "supplement": null,
+      "vendor_id": "qiniu"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "SiliconFlow",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "siliconflow"
+      ],
+      "supplement": null,
+      "vendor_id": "siliconflow"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "MiniMax",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "minimax"
+      ],
+      "supplement": null,
+      "vendor_id": "minimax"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Z.ai / GLM",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "zai"
+      ],
+      "supplement": null,
+      "vendor_id": "zai"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Kuaishou / Kling AI",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "kling",
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "kuaishou"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "GDS Holdings",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [],
+      "supplement": null,
+      "vendor_id": "gds"
+    },
+    {
+      "disposition": "supplement_added",
+      "name": "VNET Group",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "azure-china-operator"
+      ],
+      "supplement": "two campus-code activity disclosures",
+      "vendor_id": "vnet"
+    },
+    {
+      "disposition": "supplement_added",
+      "name": "Chindata",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [],
+      "supplement": "project/phase, property and Nantong evidence",
+      "vendor_id": "chindata"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Wangsu / ChinaNetCenter",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [],
+      "supplement": null,
+      "vendor_id": "wangsu"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "BaishanCloud",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [],
+      "supplement": null,
+      "vendor_id": "baishan"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Shanghai DataPort / 数据港",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "dataport"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Runze / 润泽",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "runze"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Heying Data / 合盈数据",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "heying"
+    },
+    {
+      "disposition": "prior_scoped_evidence_preserved",
+      "name": "Meili Cloud / 美利云",
+      "prior_assessment": "data/china/geography-enrichment.20261019.json",
+      "prior_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "supplement": null,
+      "vendor_id": "meiliyun"
+    }
+  ],
+  "gulf_endpoint_dispositions": [
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": "gulf:facility_registration_reference:8243",
+      "disposition": "registry_identity_correlated",
+      "geometry_admitted": false,
+      "name": "AWS Bahrain DC52, Manama, Bahrain",
+      "record_id": "gulf:interconnect_endpoint:aws-dc52-manama"
+    },
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": "gulf:facility_registration_reference:8242",
+      "disposition": "registry_identity_correlated",
+      "geometry_admitted": false,
+      "name": "AWS Bahrain DC53, Manama, Bahrain",
+      "record_id": "gulf:interconnect_endpoint:aws-dc53-manama"
+    },
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": null,
+      "disposition": "explicit_facility_join_not_established",
+      "geometry_admitted": false,
+      "name": "Jeddah, Saudi Arabia",
+      "record_id": "gulf:interconnect_endpoint:center3-jeddah-saudi-arabia"
+    },
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": null,
+      "disposition": "explicit_facility_join_not_established",
+      "geometry_admitted": false,
+      "name": "Riyadh, Saudi Arabia",
+      "record_id": "gulf:interconnect_endpoint:center3-riyadh-saudi-arabia"
+    },
+    {
+      "address_disposition": "building_reference",
+      "corroboration_record_id": "equinix:facility_address_reference:dx1",
+      "disposition": "registry_identity_correlated",
+      "geometry_admitted": false,
+      "name": "Equinix DX1, Dubai, UAE",
+      "record_id": "gulf:interconnect_endpoint:equinix-dx1"
+    },
+    {
+      "address_disposition": "district_reference",
+      "corroboration_record_id": "gulf:facility_registration_reference:9339",
+      "disposition": "registry_identity_correlated",
+      "geometry_admitted": false,
+      "name": "Equinix MC1 Barka, Muscat",
+      "record_id": "gulf:interconnect_endpoint:equinix-mc1"
+    },
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": null,
+      "disposition": "explicit_facility_join_not_established",
+      "geometry_admitted": false,
+      "name": "Middle East, Abu Dhabi, UAE",
+      "record_id": "gulf:interconnect_endpoint:equinix-middle-east-abu-dhabi-uae"
+    },
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": "gulf:facility_registration_reference:1493",
+      "disposition": "registry_identity_correlated",
+      "geometry_admitted": false,
+      "name": "Etisalat Smart Hub Data Center, Fujairah, UAE",
+      "record_id": "gulf:interconnect_endpoint:etisalat-smarthub-fujairah"
+    },
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": null,
+      "disposition": "explicit_facility_join_not_established",
+      "geometry_admitted": false,
+      "name": "Dubai, UAE",
+      "record_id": "gulf:interconnect_endpoint:gulf-data-hub-dubai-uae"
+    },
+    {
+      "address_disposition": "no_verified_address",
+      "corroboration_record_id": null,
+      "disposition": "explicit_facility_join_not_established",
+      "geometry_admitted": false,
+      "name": "Jeddah, Saudi Arabia",
+      "record_id": "gulf:interconnect_endpoint:mobily-jeddah-saudi-arabia"
+    }
+  ],
+  "infrastructure_assertions_added": 76,
+  "locality_points_added": 13,
+  "network_records_added": 25,
+  "scope": "Completion review of the authorized enrichment plans; evidence limitations remain explicit and are not marked resolved.",
+  "source_catalog": {
+    "path": "data/raw/completion-review/catalog.20261019.json",
+    "sha256": "ceedf8042e7cea1af482ee3d459afa4cd8a69c7cc0ea0665048ce1d15d5ba050"
+  },
+  "task_disposition_counts": {
+    "awaiting_provider_update": 2,
+    "evidence_limited": 5,
+    "implemented": 5,
+    "implemented_with_evidence_limits": 3,
+    "source_unavailable": 1
+  },
+  "tasks": [
+    {
+      "additional_evidence_required": null,
+      "disposition": "implemented",
+      "outcome": "21 phase-group/legal-entity references, four property titles, three later phase-status disclosures and Nantong locality added.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "chindata-acquisition-legal",
+        "chindata-acquisition-supplement"
+      ],
+      "task_id": "chindata-project-crosswalk"
+    },
+    {
+      "additional_evidence_required": "An operator or filing explicitly connecting each public code to a named campus/phase; an address/coordinate source for any precise geometry.",
+      "disposition": "evidence_limited",
+      "outcome": "All nine H/W identities retained; filings do not explicitly equate them with named campus phases.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [],
+      "task_id": "chindata-public-site-codes"
+    },
+    {
+      "additional_evidence_required": "City-specific provider statements for unresolved region/pool IDs; administrative or metro labels alone remain at their published precision.",
+      "disposition": "implemented_with_evidence_limits",
+      "outcome": "All 24 holds dispositioned: Wuhu and Riyadh resolved; two multi-region containers excluded; 20 remain broader than city precision or lack an explicit identity.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "huawei-chinese-global",
+        "tencent-cls-regions"
+      ],
+      "task_id": "china-held-localities"
+    },
+    {
+      "additional_evidence_required": "Accessible dated operator site tables and public ECS region identifiers; customer-only console access is not assumed.",
+      "disposition": "implemented_with_evidence_limits",
+      "outcome": "VNET campus-code disclosures added. The 31-vendor cohort is reconciled with prior scoped evidence. GDS download remains unavailable; Mobile/Unicom consolidated public ECS identities remain unestablished.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "vnet-q2-2026-extract",
+        "gds-portfolio-presentation",
+        "gds-portfolio-extract",
+        "unicom-redis-regions"
+      ],
+      "task_id": "china-operator-and-carrier-directories"
+    },
+    {
+      "additional_evidence_required": "A newer dated deployment directory is needed to refresh historical claims.",
+      "disposition": "implemented",
+      "outcome": "Ten Indian city declarations from the visually reviewed map and ten locality points added; current operation is unknown.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "tata-cdn-map",
+        "tata-cdn-map-landing"
+      ],
+      "task_id": "tata-indian-cdn-cities"
+    },
+    {
+      "additional_evidence_required": "A named, dated Jio CDN deployment directory or equivalent host/operator statement.",
+      "disposition": "evidence_limited",
+      "outcome": "Product page, linked datasheet and brochure reviewed; they describe CDN service but contain no itemized deployment-city list.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "jio-cdn-product",
+        "jio-cdn-datasheet",
+        "jio-cdn-brochure"
+      ],
+      "task_id": "jio-deployment-list"
+    },
+    {
+      "additional_evidence_required": "Endpoint-specific AEC classification or explicit Apple/host deployment evidence; the published ASN lists contain neither endpoint IPs nor certificate roles.",
+      "disposition": "evidence_limited",
+      "outcome": "AEC program reference reconfirmed. ASN/TLS classifications and Apple DNS points cannot identify AEC installations.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "apple-aec-program"
+      ],
+      "task_id": "apple-aec-attribution"
+    },
+    {
+      "additional_evidence_required": "Explicit facility-code joins for ambiguous operator/city labels and street/building evidence before precise point admission.",
+      "disposition": "implemented_with_evidence_limits",
+      "outcome": "Five named endpoint registrations linked; DX1 has a building reference and MC1 a district-level address. Every other endpoint has a recorded identity/address disposition.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "peeringdb-dx1",
+        "peeringdb-mc1",
+        "eand-smarthub",
+        "equinix-sustainability-2025"
+      ],
+      "task_id": "gulf-endpoint-addresses"
+    },
+    {
+      "additional_evidence_required": null,
+      "disposition": "implemented",
+      "outcome": "13 prefix samples yield 12 observed routes, one no-route response and 12 valid RPKI results. Muscat has an IPv4 sample; no eligible IPv6 declaration exists in the retained feed.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "gulf-routing-sample"
+      ],
+      "task_id": "gulf-routing-rpki"
+    },
+    {
+      "additional_evidence_required": "Public target IPs and individual samples would be needed for endpoint joins or independent measurement replay; these aggregates do not assess October health.",
+      "disposition": "implemented",
+      "outcome": "31 Saudi provider/city aggregates retained from the regulator's first-half-2026 FTTH measurement report, including Oracle Riyadh and Jeddah.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "cst-latency-dashboard",
+        "cst-latency-data"
+      ],
+      "task_id": "gulf-passive-latency"
+    },
+    {
+      "additional_evidence_required": "Explicit AWS service-status or current product-directory statements; do not infer retirement from absence or activity from unrelated infrastructure.",
+      "disposition": "awaiting_provider_update",
+      "outcome": "Muscat routing does not resolve the missing Local Zone listing. SmartHub Fujairah presence does not reconfirm a CloudFront deployment.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [],
+      "task_id": "aws-muscat-fujairah-status"
+    },
+    {
+      "additional_evidence_required": "An explicit AWS launch announcement plus published region and stable AZ identifiers.",
+      "disposition": "awaiting_provider_update",
+      "outcome": "The December 2026 launch plan remains a plan. Hosted monitoring and the existing launch-review gate are active.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [],
+      "task_id": "aws-saudi-core-region"
+    },
+    {
+      "additional_evidence_required": "A newer explicit operator update for Sasovo, Vladimir and Kaluga; cloud service health alone does not prove facility recovery.",
+      "disposition": "evidence_limited",
+      "outcome": "The re-fetched incident page still says updated October 11. No recovery claim or lifecycle refresh is admitted.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "yandex-incident-review"
+      ],
+      "task_id": "russia-yandex-status"
+    },
+    {
+      "additional_evidence_required": "A Cloud.ru region directory or explicit region-to-zone association, rather than inference from an AZ definition or datacenter name.",
+      "disposition": "evidence_limited",
+      "outcome": "The additional third-zone announcement does not publish a parent-region identifier. Existing three zones keep unresolved parent identity.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "cloudru-third-zone"
+      ],
+      "task_id": "russia-evolution-parent"
+    },
+    {
+      "additional_evidence_required": "Accessible first-party domain identity followed by endpoint evidence; a domain label, CDN address or another exchange's infrastructure does not establish Grinex hosting.",
+      "disposition": "source_unavailable",
+      "outcome": "The candidate Grinex domain again returns HTTP 403. Previously sourced exchange identity and application DNS evidence remain separate; no origin-hosting claim is added.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [
+        "grinex-identity-review"
+      ],
+      "task_id": "crypto-grinex-origin"
+    },
+    {
+      "additional_evidence_required": null,
+      "disposition": "implemented",
+      "outcome": "First hosted run succeeded after the authorized monitoring push; weekly schedule remains active.",
+      "reviewed_at": "2026-10-19",
+      "source_ids": [],
+      "task_id": "hosted-source-review"
+    }
+  ],
+  "unperformed_active_measurements": "No new RIPE Atlas jobs, scans, paid measurements, customer-console queries or exchange transactions; only public evidence and read-only APIs.",
+  "workflow_receipt": {
+    "conclusion": "success",
+    "head_sha": "9e10100d1b30b06060c40f316696ae89dda761f8",
+    "jobs": {
+      "path": "data/raw/repository/gulf-hosted-jobs.20261019.json",
+      "sha256": "aca8cc029da55bc048acd66e70259b8c9aaa56ded4e84b79bf01e98ace950a7f"
+    },
+    "run": {
+      "path": "data/raw/repository/gulf-hosted-run.20261019.json",
+      "sha256": "5d10ba77c378ef0819e6ca83f4242ac7c63595b880f834de04d851db3196ac7f"
+    },
+    "run_id": 39288284158,
+    "url": "https://github.com/bdekoz/cloud_cdn_cache/actions/runs/39288284158"
+  },
+  "yandex_status_source_updated_at": "2026-10-11"
+}

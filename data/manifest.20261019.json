@@ -218,20 +218,24 @@
     {
       "path": "data/gulf/enrichment-implementation.20261019.json",
       "sha256": "75a7fb11c1cbc6a245c31789ad3a94166d996d14e0bf87286740c3d553cb211a"
+    },
+    {
+      "path": "data/enrichment/completion-review.20261019.json",
+      "sha256": "0be18ef0d7b467885d9d7784b91d6da83e9676004559b62562d11de11b2b701a"
     }
   ],
   "bibliography": {
     "files": {
       "json": {
         "path": "data/references/bibliography.20261019.json",
-        "sha256": "8992149864895c831338c30d0fd1849ccd132baa919d30120ad709a3c2e8c518"
+        "sha256": "da0f7385b51e521ae5135b7b263212fb06d79ccc4e82b21d46699362f5dad349"
       },
       "markdown": {
         "path": "docs/bibliography.20261019.md",
-        "sha256": "6d3306ad8b9242159640d2ef1cb596463c09857824a3b0d4c692e3eb18b986e8"
+        "sha256": "bc5899311980a3362115b7ae3eae925d0213d28703a09b6d5388677d6b0fb145"
       }
     },
-    "reference_count": 181
+    "reference_count": 209
   },
   "generated_from_retained_snapshots_at": "2026-10-19",
   "geographic_footprint_schema": {
@@ -239,7 +243,7 @@
     "sha256": "e742e68f459dfa496b4bc0bc54bc5bb8c401b363892e190aabf8e5ace66b2e69",
     "version": "1.0.0"
   },
-  "geographic_footprint_view_count": 2,
+  "geographic_footprint_view_count": 3,
   "geographic_footprint_views": [
     {
       "derived_files": {
@@ -345,9 +349,47 @@
       "record_unit": "provider_service_locality",
       "schema_version": "1.0.0",
       "snapshot_tag": "20261019"
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/enrichment/provider-localities.20261019.csv",
+          "path": "data/enrichment/provider-localities.20261019.csv",
+          "source": "data/enrichment/provider-localities.20261019.geojson"
+        }
+      },
+      "excluded_from_canonical_totals": true,
+      "files": {
+        "geojson": {
+          "path": "data/enrichment/provider-localities.20261019.geojson",
+          "sha256": "304ec12823efa4ba39c77689344b59e084a6d375b0c0b1d8bffc4358a31b3468"
+        },
+        "report": {
+          "path": "data/enrichment/provider-localities.20261019.report.json",
+          "sha256": "23800c39e67277bc9dbc02a5b891e0e0cac46d52e19bd74d0223e924adc6ccd8"
+        }
+      },
+      "input_layers": [
+        {
+          "layer": "tencent/regions-and-zones",
+          "path": "data/tencent/regions-and-zones.20261011.geojson",
+          "sha256": "2bc21869ac7ff7b73e54223115e65d999cb86b30784212e4fef4a3814d67503d"
+        },
+        {
+          "layer": "huawei/regions",
+          "path": "data/huawei/regions.20261011.geojson",
+          "sha256": "dd413fd84f0684c4b21936e52dec7556ce79a027871cc08cd33fd3b21ff417a8"
+        }
+      ],
+      "layer": "enrichment/provider-localities",
+      "physical_sites": false,
+      "record_count": 13,
+      "record_unit": "provider_service_locality",
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019"
     }
   ],
-  "infrastructure_evidence_layer_count": 5,
+  "infrastructure_evidence_layer_count": 6,
   "infrastructure_evidence_layers": [
     {
       "category_counts": {
@@ -905,9 +947,102 @@
         "service_endpoint_membership": 11,
         "source_labeled_endpoint": 10
       }
+    },
+    {
+      "category_counts": {
+        "campus_activity_disclosure": 2,
+        "cloud_access_latency_measurement": 31,
+        "facility_address_registration": 5,
+        "historical_cdn_city_declaration": 10,
+        "phase_status_disclosure": 3,
+        "project_approval_reference": 21,
+        "property_title_reference": 4
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/completion-evidence.20261019.csv",
+          "path": "data/infrastructure/completion-evidence.20261019.csv",
+          "source": "data/infrastructure/completion-evidence.20261019.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/completion-evidence.20261019.json",
+          "sha256": "3cb1799eab00b40ee4f5cef73569ac3d9f4cb9416eaebeffb98fdd7bb07ba555"
+        },
+        "report": {
+          "path": "data/infrastructure/completion-evidence.20261019.report.json",
+          "sha256": "06f6080e11ba81b2dad158a744a11425dace87024f7ca4daca1e39f93b01a8d6"
+        }
+      },
+      "geometry_null": 76,
+      "layer": "infrastructure/completion-evidence",
+      "record_count": 76,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+          "sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/chindata-acquisition-supplement.20261019.pdf",
+          "sha256": "6584ea664d923a183d49018fbc0c14fe05bc0d558de7134497f825245ed73ae6",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577150.PDF"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+          "sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/peeringdb-dx1.20261019.json",
+          "sha256": "020eec01428ffff2adc126fb6490a87d92273db301a02ce21e3e051ebabba6f2",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.peeringdb.com/api/fac/1355"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/peeringdb-mc1.20261019.json",
+          "sha256": "e2e567a7fc2c6b145ea3a27d2e0e5aa5a94930a9b3af54f3ed502f2440ef7e93",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+          "sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/vnet-q2-2026-extract.20261019.web.json",
+          "sha256": "4fad67fc930c10b52a1e8475dd10c732039b43b4fdc7c7c96d36035acb2a99c9",
+          "source_published_at": "2026-08-18",
+          "source_updated_at": null,
+          "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results"
+        }
+      ],
+      "unit_counts": {
+        "campus_reference": 2,
+        "facility_registration": 5,
+        "phase_status": 3,
+        "project_phase_group": 21,
+        "property_title": 4,
+        "provider_city_declaration": 10,
+        "provider_city_latency_aggregate": 31
+      }
     }
   ],
-  "infrastructure_evidence_record_count": 324,
+  "infrastructure_evidence_record_count": 400,
   "infrastructure_evidence_schema": {
     "path": "schema/infrastructure-evidence.schema.json",
     "sha256": "fa850334dc793a71207e5e1589b6f2f4af4ae23be9741f5f57abc3ea9be2487f",
@@ -3356,7 +3491,7 @@
       ]
     }
   ],
-  "network_evidence_layer_count": 7,
+  "network_evidence_layer_count": 8,
   "network_evidence_layers": [
     {
       "derived_files": {
@@ -4137,9 +4272,209 @@
       "statuses": {
         "published": 563
       }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/gulf-routing-review.20261019.csv",
+          "path": "data/network/gulf-routing-review.20261019.csv",
+          "source": "data/network/gulf-routing-review.20261019.json"
+        }
+      },
+      "evidence_types": {
+        "routing_origin": 13,
+        "rpki_validation": 12
+      },
+      "files": {
+        "json": {
+          "path": "data/network/gulf-routing-review.20261019.json",
+          "sha256": "d6f2e71cec66398f59666adf332ed071426e61ad1a175673b3c9b8a46ec9b0d8"
+        },
+        "report": {
+          "path": "data/network/gulf-routing-review.20261019.report.json",
+          "sha256": "fe635fc8caf53e34e22a118ecf194f7bdf89e206df58ff4c9dd27d7929f5a8e2"
+        }
+      },
+      "layer": "gulf-routing-review",
+      "providers": [
+        "Amazon Web Services",
+        "Oracle Cloud Infrastructure"
+      ],
+      "record_count": 25,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_amazon",
+        "oracle_cloud"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=1.178.16.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=1.178.20.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=15.220.146.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2400%3A6500%3A0%3A7a00%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2600%3A1f01%3A48e0%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3A1600%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3A1a00%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3A2800%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=2603%3Ac002%3Ae00%3A%3A1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=51.170.80.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=64.110.120.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=79.72.0.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=79.76.16.1&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=1.178.20.0%2F24&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=15.220.146.0%2F23&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=2400%3A6500%3A%3A%2F32&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=16509&prefix=2600%3A1f01%3A48e0%3A%3A%2F47&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3A1600%3A%3A%2F44&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3A1a00%3A%3A%2F44&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3A2800%3A%3A%2F44&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=2603%3Ac002%3Ae00%3A%3A%2F44&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=51.170.80.0%2F20&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=64.110.120.0%2F21&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=79.72.0.0%2F20&sourceapp=cloud-cdn-cache"
+        },
+        {
+          "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+          "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/rpki-validation/data.json?resource=31898&prefix=79.76.16.0%2F23&sourceapp=cloud-cdn-cache"
+        }
+      ],
+      "statuses": {
+        "announced": 12,
+        "not_announced": 1,
+        "valid": 12
+      }
     }
   ],
-  "network_evidence_record_count": 3950,
+  "network_evidence_record_count": 3975,
   "network_evidence_schema": {
     "path": "schema/network-evidence.schema.json",
     "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",

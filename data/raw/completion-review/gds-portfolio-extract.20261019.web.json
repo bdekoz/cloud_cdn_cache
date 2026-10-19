@@ -1,0 +1,5 @@
+{
+  "capture_method": "web_tool_response",
+  "source_url": "https://investors.gds-services.com/static-files/46fa60b6-5dc1-4616-89e7-dc8c38658eed",
+  "response": "Internal Error ()\nciteturn49view0 [wordlim: 200] Source: open({\"ref_id\":\"https://investors.gds-services.com/static-files/46fa60b6-5dc1-4616-89e7-dc8c38658eed\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://investors.gds-services.com/static-files/46fa60b6-5dc1-4616-89e7-dc8c38658eed: (400) Timeout fetching\n"
+}

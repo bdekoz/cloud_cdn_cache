@@ -69,7 +69,7 @@ def build():
             usage = "unavailable_no_evidence_admitted"
         elif group == "Gulf network and interconnect enrichment":
             usage = "gulf_enrichment"
-        entry = {"reference_id": "ref-" + hashlib.sha256((url + "|" + str(ref)).encode()).hexdigest()[:16],
+        entry = {"reference_id": "ref-" + hashlib.sha256((url + "|" + str(ref or item.get("source_id"))).encode()).hexdigest()[:16],
             "group": group, "source_id": key or None, "title": title_for(item, path if available else None),
             "publisher": publisher, "publisher_identity_basis": "explicit source metadata or provider domain" if publisher != host else "source hostname; authorship not independently normalized",
             "source_url": url, "retrieved_at": item.get("retrieved_at"),
@@ -87,6 +87,7 @@ def build():
         entries[identity] = entry
 
     for catalog, group in [(CATALOG, "China geography and Gulf review"),
+                            (REPO_ROOT / "data/raw/completion-review/catalog.20261019.json", "Completion review: China, India, Apple, Gulf and Russia"),
                             (REPO_ROOT / "data/raw/gulf-enrichment/catalog.20261019.json", "Gulf network and interconnect enrichment"),
                             (REPO_ROOT / "data/raw/china-enrichment/catalog.20261011.json", "Earlier China enrichment")]:
         for item in read(catalog)["sources"]:
@@ -105,7 +106,7 @@ def build():
             sidecar = REPO_ROOT / (ref + ".provenance.json")
             item = read(sidecar) if sidecar.exists() else row
             add(item, "Earlier location inputs", "Original provider declaration used for locality or Gulf comparison; retrieval dates are not refreshed")
-    return {"built_at": DATE, "scope": "Sources retained for China geography, Gulf implementation/review and earlier China, India/Apple, CDN and Russia enrichment",
+    return {"built_at": DATE, "scope": "Sources retained for China geography, Gulf implementation, completion review, and earlier China, India/Apple, CDN and Russia enrichment",
         "date_policy": "Null means no publication/update date established; retrieval, publication and claim-as-of dates are distinct.",
         "rights_note": "Bibliographic inclusion is not a grant of redistribution rights. GeoNames reference coordinates are CC BY 4.0; other source-specific terms remain applicable.",
         "reference_count": len(entries), "references": sorted(entries.values(), key=lambda e: (e["group"], e["publisher"], e["title"], e["raw_source_ref"] or ""))}

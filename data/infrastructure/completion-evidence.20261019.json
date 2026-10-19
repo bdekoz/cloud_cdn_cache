@@ -1,0 +1,3750 @@
+{
+  "categories": {
+    "campus_activity_disclosure": "A named campus code with reported activity at a specified reporting date.",
+    "cloud_access_latency_measurement": "A published provider/city latency aggregate from residential FTTH measurements; not an exact site.",
+    "facility_address_registration": "A self-reported registry address linked by an explicit facility code.",
+    "historical_cdn_city_declaration": "A historical map's provider/city membership; not a current building inventory.",
+    "phase_status_disclosure": "A dated phase-specific construction/commissioning disclosure; not a refreshed whole-campus status.",
+    "project_approval_reference": "A filing's grouped project/phase and legal-entity reference; not a site count or operation finding.",
+    "property_title_reference": "A disclosed property title and address; not proof of current data-center operation."
+  },
+  "records": [
+    {
+      "category": "phase_status_disclosure",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "灵丘9期",
+      "parties": [
+        {
+          "name": "Chindata",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "current_operation_not_reassessed": true,
+        "disclosed_status": "Built but not fully commissioned; some equipment installation and energy acceptance remain",
+        "document_month": "2026-09",
+        "filing_disclosure_date": "2026-09-23",
+        "pdf_page": 71,
+        "physical_site_count_not_asserted": true,
+        "public_site_code": null
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-supplement.20261019.pdf",
+      "record_id": "chindata:phase_status_reference:lingqiu-9",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "6584ea664d923a183d49018fbc0c14fe05bc0d558de7134497f825245ed73ae6",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577150.PDF",
+      "spatial_representation": "none",
+      "unit": "phase_status"
+    },
+    {
+      "category": "phase_status_disclosure",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "庆阳1期",
+      "parties": [
+        {
+          "name": "Chindata",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "current_operation_not_reassessed": true,
+        "disclosed_status": "Construction not complete; approvals in progress",
+        "document_month": "2026-09",
+        "filing_disclosure_date": "2026-09-23",
+        "pdf_page": 69,
+        "physical_site_count_not_asserted": true,
+        "public_site_code": null
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-supplement.20261019.pdf",
+      "record_id": "chindata:phase_status_reference:qingyang-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "6584ea664d923a183d49018fbc0c14fe05bc0d558de7134497f825245ed73ae6",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577150.PDF",
+      "spatial_representation": "none",
+      "unit": "phase_status"
+    },
+    {
+      "category": "phase_status_disclosure",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "桑园3期",
+      "parties": [
+        {
+          "name": "Chindata",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "current_operation_not_reassessed": true,
+        "disclosed_status": "Construction not complete; approvals in progress",
+        "document_month": "2026-09",
+        "filing_disclosure_date": "2026-09-23",
+        "pdf_page": 69,
+        "physical_site_count_not_asserted": true,
+        "public_site_code": null
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-supplement.20261019.pdf",
+      "record_id": "chindata:phase_status_reference:sangyuan-3",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "6584ea664d923a183d49018fbc0c14fe05bc0d558de7134497f825245ed73ae6",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577150.PDF",
+      "spatial_representation": "none",
+      "unit": "phase_status"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "存瑞 1 期",
+      "parties": [
+        {
+          "name": "河北秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2019-05-27",
+        "approval_or_exemption_as_published": "张行审立字[2019]566号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "河北秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 105,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-104",
+        "project_label": "存瑞 1 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "河北秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:cunrui-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "存瑞 2 期",
+      "parties": [
+        {
+          "name": "怀来斯达惠数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2022-12-05",
+        "approval_or_exemption_as_published": "张行审字[2022]330号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达惠数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 105,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-104",
+        "project_label": "存瑞 2 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达惠"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:cunrui-2",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "存瑞 3 期",
+      "parties": [
+        {
+          "name": "怀来斯达俊数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2023-09-01",
+        "approval_or_exemption_as_published": "张行审字（2023）338号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达俊数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 105,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-104",
+        "project_label": "存瑞 3 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达俊"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:cunrui-3",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "存瑞 4 期",
+      "parties": [
+        {
+          "name": "怀来斯达皓数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2023-09-01",
+        "approval_or_exemption_as_published": "张行审字（2023）339号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达皓数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 105,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-104",
+        "project_label": "存瑞 4 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:cunrui-4",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "东花园 1 至 4 期",
+      "parties": [
+        {
+          "name": "河北秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2017-12-01",
+        "approval_or_exemption_as_published": "怀环审（2017）45号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "河北秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 105,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-104",
+        "project_label": "东花园 1 至 4 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "河北秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:donghuayuan-1-4",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "东花园 5 至 6 期",
+      "parties": [
+        {
+          "name": "怀来斯达歌数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2023-04-17",
+        "approval_or_exemption_as_published": "张行审字[2023]147号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达歌数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 105,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-104",
+        "project_label": "东花园 5 至 6 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达歌"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:donghuayuan-5-6",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "总部基地 1 期",
+      "parties": [
+        {
+          "name": "怀来斯达科数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2020-03-11",
+        "approval_or_exemption_as_published": "张行审字[2020]163号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达科数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "总部基地 1 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达科"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:headquarters-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "总部基地 2 期",
+      "parties": [
+        {
+          "name": "怀来斯达东数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2022-12-05",
+        "approval_or_exemption_as_published": "张行审立字[2022]331号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达东数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "总部基地 2 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达东"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:headquarters-2",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "总部基地 3 期",
+      "parties": [
+        {
+          "name": "怀来斯达华数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2023-06-20",
+        "approval_or_exemption_as_published": "张行审字[2023]260号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达华数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "总部基地 3 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达华"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:headquarters-3",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "总部基地 4 期",
+      "parties": [
+        {
+          "name": "怀来斯达铎数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2024-01-18",
+        "approval_or_exemption_as_published": "张行审字[2024]22号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达铎数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "总部基地 4 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达铎"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:headquarters-4",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "总部基地 5 期",
+      "parties": [
+        {
+          "name": "怀来斯达琪数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2024-10-15",
+        "approval_or_exemption_as_published": "张行审立字[2024]655号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达琪数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "总部基地 5 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达琪"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:headquarters-5",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "灵丘 1、2 期",
+      "parties": [
+        {
+          "name": "大同秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2019-07-09",
+        "approval_or_exemption_as_published": "灵环函〔2019〕63号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "大同秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "灵丘 1、2 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "大同秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:lingqiu-1-2",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "灵丘 3 期",
+      "parties": [
+        {
+          "name": "大同秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2020-06-17",
+        "approval_or_exemption_as_published": "灵环函〔2020〕36号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "大同秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "灵丘 3 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "大同秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:lingqiu-3",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "灵丘 4 期",
+      "parties": [
+        {
+          "name": "大同秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2020-08-21",
+        "approval_or_exemption_as_published": "灵环函〔2020〕59号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "大同秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "灵丘 4 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "大同秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:lingqiu-4",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "灵丘 5 至 7 期",
+      "parties": [
+        {
+          "name": "大同秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2022-09-02",
+        "approval_or_exemption_as_published": "无需办理环评手续",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "大同秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "灵丘 5 至 7 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "大同秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:lingqiu-5-7",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "灵丘 8 至 13 期",
+      "parties": [
+        {
+          "name": "大同秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2022-08-22",
+        "approval_or_exemption_as_published": "无需办理环评手续",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "大同秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "灵丘 8 至 13 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "大同秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:lingqiu-8-13",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "南通 1 期",
+      "parties": [
+        {
+          "name": "江苏秦淮数据科技有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2018-06-05",
+        "approval_or_exemption_as_published": "201832061100000130",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "江苏秦淮数据科技有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "南通 1 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "江苏秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:nantong-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "南通 2 期",
+      "parties": [
+        {
+          "name": "江苏思达歌数据科技有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2018-06-05",
+        "approval_or_exemption_as_published": "201832061100000131",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "江苏思达歌数据科技有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "南通 2 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "江苏思达歌"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:nantong-2",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "桑园 1 期",
+      "parties": [
+        {
+          "name": "河北秦淮数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2019-05-27",
+        "approval_or_exemption_as_published": "张行审立字[2019]565号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "河北秦淮数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "桑园 1 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "河北秦淮"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:sangyuan-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "桑园 2 期",
+      "parties": [
+        {
+          "name": "怀来斯达智数据科技有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2023-04-25",
+        "approval_or_exemption_as_published": "张行审字[2023]156号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达智数据科技有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "桑园 2 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达智"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:sangyuan-2",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "project_approval_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "桑园 3 期",
+      "parties": [
+        {
+          "name": "怀来斯达昕数据有限公司",
+          "role": "disclosed_project_entity"
+        }
+      ],
+      "properties": {
+        "approval_is_selected_reference_not_exhaustive": true,
+        "approval_issued_at": "2026-03-16",
+        "approval_or_exemption_as_published": "怀行审建环字[2026]4号",
+        "code_to_campus_join_status": "not_established",
+        "document_month": "2026-06",
+        "filing_disclosure_date": "2026-07-21",
+        "legal_entity": "怀来斯达昕数据有限公司",
+        "operation_not_inferred_from_approval": true,
+        "pdf_page": 106,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-105",
+        "project_label": "桑园 3 期",
+        "public_site_code": null,
+        "source_claim_scope": "legal_opinion_reporting_project_approvals",
+        "source_entity_alias": "斯达昕"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:project_reference:sangyuan-3",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "project_phase_group"
+    },
+    {
+      "category": "property_title_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "怀来县东花园镇大南辛堡村新建新媒体大数据产业基地一期建设项目机房1",
+      "parties": [
+        {
+          "name": "河北秦淮数据有限公司",
+          "role": "disclosed_title_holder"
+        }
+      ],
+      "properties": {
+        "address_as_published": "怀来县东花园镇大南辛堡村新建新媒体大数据产业基地一期建设项目机房1",
+        "legal_entity": "河北秦淮数据有限公司",
+        "operation_not_inferred_from_property_title": true,
+        "pdf_page": 173,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-172",
+        "public_site_code": null,
+        "title_number": "冀（2023）怀来县不动产权第0002381号"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:property_reference:donghuayuan-machine-room-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "property_title"
+    },
+    {
+      "category": "property_title_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "科泽路8号",
+      "parties": [
+        {
+          "name": "江苏秦淮数据科技有限公司",
+          "role": "disclosed_title_holder"
+        }
+      ],
+      "properties": {
+        "address_as_published": "科泽路8号",
+        "legal_entity": "江苏秦淮数据科技有限公司",
+        "operation_not_inferred_from_property_title": true,
+        "pdf_page": 178,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-177",
+        "public_site_code": null,
+        "title_number": "苏（2021）南通市不动产权第0068345号"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:property_reference:nantong-keze-8",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "property_title"
+    },
+    {
+      "category": "property_title_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "科泽路8号3幢",
+      "parties": [
+        {
+          "name": "江苏思达歌数据科技有限公司",
+          "role": "disclosed_title_holder"
+        }
+      ],
+      "properties": {
+        "address_as_published": "科泽路8号3幢",
+        "legal_entity": "江苏思达歌数据科技有限公司",
+        "operation_not_inferred_from_property_title": true,
+        "pdf_page": 178,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-177",
+        "public_site_code": null,
+        "title_number": "苏（2024）南通市不动产权第0005308号"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:property_reference:nantong-keze-8-building3",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "property_title"
+    },
+    {
+      "category": "property_title_reference",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "怀来县桑园镇黄营村环首都·桑园云计算产业基地建设项目（二期）项目3幢机房楼",
+      "parties": [
+        {
+          "name": "怀来斯达智数据科技有限公司",
+          "role": "disclosed_title_holder"
+        }
+      ],
+      "properties": {
+        "address_as_published": "怀来县桑园镇黄营村环首都·桑园云计算产业基地建设项目（二期）项目3幢机房楼",
+        "legal_entity": "怀来斯达智数据科技有限公司",
+        "operation_not_inferred_from_property_title": true,
+        "pdf_page": 178,
+        "physical_site_count_not_asserted": true,
+        "printed_page": "2-2-177",
+        "public_site_code": null,
+        "title_number": "冀（2024）怀来县不动产权第0005458号"
+      },
+      "provider": "Chindata",
+      "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+      "record_id": "chindata:property_reference:sangyuan-phase2-machine-room-3",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+      "source_updated_at": null,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+      "spatial_representation": "none",
+      "unit": "property_title"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DEEM — Jeddah",
+      "parties": [
+        {
+          "name": "DEEM",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 19,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "DEEM",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 20,
+          "salam": 25,
+          "stc": 18,
+          "zain": 21
+        }
+      },
+      "provider": "DEEM",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:deem-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DEEM — Riyadh",
+      "parties": [
+        {
+          "name": "DEEM",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 13,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "DEEM",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 15,
+          "salam": 21,
+          "stc": 12,
+          "zain": 13
+        }
+      },
+      "provider": "DEEM",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:deem-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DETASAD — Jeddah",
+      "parties": [
+        {
+          "name": "DETASAD",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 23,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "DETASAD",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 22,
+          "salam": 18,
+          "stc": 24,
+          "zain": 22
+        }
+      },
+      "provider": "DETASAD",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:detasad-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "DETASAD — Riyadh",
+      "parties": [
+        {
+          "name": "DETASAD",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 16,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "DETASAD",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 15,
+          "salam": 21,
+          "stc": 16,
+          "zain": 13
+        }
+      },
+      "provider": "DETASAD",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:detasad-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Edarat Group — Jeddah",
+      "parties": [
+        {
+          "name": "Edarat Group",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 21,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Edarat Group",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 20,
+          "salam": 20,
+          "stc": 21,
+          "zain": 23
+        }
+      },
+      "provider": "Edarat Group",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:edarat-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Edarat Group — Riyadh",
+      "parties": [
+        {
+          "name": "Edarat Group",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 15,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Edarat Group",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 11,
+          "salam": 20,
+          "stc": 15,
+          "zain": 12
+        }
+      },
+      "provider": "Edarat Group",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:edarat-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "GO Telecom — Riyadh",
+      "parties": [
+        {
+          "name": "GO Telecom",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 15,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "GO Telecom",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 12,
+          "salam": 20,
+          "stc": 15,
+          "zain": 11
+        }
+      },
+      "provider": "GO Telecom",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:go-telecom-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Google Cloud — Dammam",
+      "parties": [
+        {
+          "name": "Google Cloud",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 16,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Dammam",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Google Cloud",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 16,
+          "salam": 20,
+          "stc": 15,
+          "zain": 17
+        }
+      },
+      "provider": "Google Cloud",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:google-cloud-dammam-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Huawei Cloud — Riyadh",
+      "parties": [
+        {
+          "name": "Huawei Cloud",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 13,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Huawei Cloud",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 12,
+          "salam": 12,
+          "stc": 13,
+          "zain": 11
+        }
+      },
+      "provider": "Huawei Cloud",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:huawei-cloud-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Mobily — Dammam",
+      "parties": [
+        {
+          "name": "Mobily",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 21,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Dammam",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Mobily",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 16,
+          "salam": 27,
+          "stc": 22,
+          "zain": 20
+        }
+      },
+      "provider": "Mobily",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:mobily-dammam-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Mobily — Jeddah",
+      "parties": [
+        {
+          "name": "Mobily",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 20,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Mobily",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 18,
+          "salam": 25,
+          "stc": 20,
+          "zain": 19
+        }
+      },
+      "provider": "Mobily",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:mobily-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "NourNet — Riyadh",
+      "parties": [
+        {
+          "name": "NourNet",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 20,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "NourNet",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 17,
+          "salam": 12,
+          "stc": 22,
+          "zain": 13
+        }
+      },
+      "provider": "NourNet",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:nournet-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Oracle — Jeddah",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 20,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Oracle",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 25,
+          "salam": 16,
+          "stc": 19,
+          "zain": 21
+        }
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:oracle-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Oracle — Riyadh",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 19,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Oracle",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 28,
+          "salam": 11,
+          "stc": 18,
+          "zain": 13
+        }
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:oracle-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Safe Decision — Riyadh",
+      "parties": [
+        {
+          "name": "Safe Decision",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 14,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Safe Decision",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 15,
+          "salam": 12,
+          "stc": 15,
+          "zain": 15
+        }
+      },
+      "provider": "Safe Decision",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:safe-decision-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Salam — Riyadh",
+      "parties": [
+        {
+          "name": "Salam",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 18,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Salam",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 17,
+          "salam": 15,
+          "stc": 19,
+          "zain": 17
+        }
+      },
+      "provider": "Salam",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:salam-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SAP — Dammam",
+      "parties": [
+        {
+          "name": "SAP",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 21,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Dammam",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "SAP",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 13,
+          "salam": 22,
+          "stc": 23,
+          "zain": 15
+        }
+      },
+      "provider": "SAP",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:sap-dammam-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SAP — Riyadh",
+      "parties": [
+        {
+          "name": "SAP",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 19,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "SAP",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 12,
+          "salam": 20,
+          "stc": 20,
+          "zain": 13
+        }
+      },
+      "provider": "SAP",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:sap-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SCCC — Riyadh",
+      "parties": [
+        {
+          "name": "SCCC",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 12,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "SCCC",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 12,
+          "salam": 13,
+          "stc": 12,
+          "zain": 11
+        }
+      },
+      "provider": "SCCC",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:sccc-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SITE — Jeddah",
+      "parties": [
+        {
+          "name": "SITE",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 19,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "SITE",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 19,
+          "salam": 24,
+          "stc": 19,
+          "zain": 18
+        }
+      },
+      "provider": "SITE",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:site-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SITE — Riyadh",
+      "parties": [
+        {
+          "name": "SITE",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 13,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "SITE",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 12,
+          "salam": 13,
+          "stc": 14,
+          "zain": 10
+        }
+      },
+      "provider": "SITE",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:site-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "stc — Jeddah",
+      "parties": [
+        {
+          "name": "stc",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 19,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "stc",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 20,
+          "salam": 25,
+          "stc": 18,
+          "zain": 21
+        }
+      },
+      "provider": "stc",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:stc-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "stc — Riyadh",
+      "parties": [
+        {
+          "name": "stc",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 13,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "stc",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 15,
+          "salam": 21,
+          "stc": 11,
+          "zain": 13
+        }
+      },
+      "provider": "stc",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:stc-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Tamkeen Technologies — Riyadh",
+      "parties": [
+        {
+          "name": "Tamkeen Technologies",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 16,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Tamkeen Technologies",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 14,
+          "salam": 18,
+          "stc": 17,
+          "zain": 14
+        }
+      },
+      "provider": "Tamkeen Technologies",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:tamkeen-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Virtual Vision — Jeddah",
+      "parties": [
+        {
+          "name": "Virtual Vision",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 23,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Virtual Vision",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 23,
+          "salam": 18,
+          "stc": 24,
+          "zain": 23
+        }
+      },
+      "provider": "Virtual Vision",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:virtual-vision-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Virtual Vision — Riyadh",
+      "parties": [
+        {
+          "name": "Virtual Vision",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 18,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Virtual Vision",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 18,
+          "salam": 12,
+          "stc": 20,
+          "zain": 13
+        }
+      },
+      "provider": "Virtual Vision",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:virtual-vision-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Zain — Jeddah",
+      "parties": [
+        {
+          "name": "Zain",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 20,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Zain",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 20,
+          "salam": 21,
+          "stc": 20,
+          "zain": 17
+        }
+      },
+      "provider": "Zain",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:zain-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Zain — Riyadh",
+      "parties": [
+        {
+          "name": "Zain",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 15,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "Zain",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 14,
+          "salam": 15,
+          "stc": 15,
+          "zain": 13
+        }
+      },
+      "provider": "Zain",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:zain-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "ZainTECH — Dammam",
+      "parties": [
+        {
+          "name": "ZainTECH",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 25,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Dammam",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "ZainTECH",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 17,
+          "salam": 27,
+          "stc": 27,
+          "zain": 20
+        }
+      },
+      "provider": "ZainTECH",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:zaintech-dammam-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "ZainTECH — Jeddah",
+      "parties": [
+        {
+          "name": "ZainTECH",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 21,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Jeddah",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "ZainTECH",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 17,
+          "salam": 24,
+          "stc": 22,
+          "zain": 18
+        }
+      },
+      "provider": "ZainTECH",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:zaintech-jeddah-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "cloud_access_latency_measurement",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "ZainTECH — Riyadh",
+      "parties": [
+        {
+          "name": "ZainTECH",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "aggregation": "published weighted averages; weights and individual samples unavailable",
+        "country_weighted_average_ms": 16,
+        "dashboard_evidence": {
+          "raw_source_ref": "data/raw/completion-review/cst-latency-dashboard.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "cst-latency-dashboard",
+          "source_published_at": null,
+          "source_sha256": "82be4772385070230988fc682c74368ca19c96acef2fda4b607b5b99101b0a7c",
+          "source_updated_at": null,
+          "source_url": "https://www.cst.gov.sa/en/knowledge-center/reports/cloud-latency-report-26-dashboard"
+        },
+        "exact_facility_not_identified": true,
+        "locality": "Riyadh",
+        "measurement_population": "Saudi residential FTTH Meqyas probes",
+        "measurement_targets_not_published": true,
+        "october_health_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "provider_label": "ZainTECH",
+        "report_period": "2026-H1",
+        "telecom_provider_average_ms": {
+          "mobily": 13,
+          "salam": 15,
+          "stc": 17,
+          "zain": 13
+        }
+      },
+      "provider": "ZainTECH",
+      "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+      "record_id": "cst:cloud_latency_measurement:zaintech-riyadh-2026h1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "institution_declared",
+      "source_sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+      "source_updated_at": null,
+      "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+      "spatial_representation": "none",
+      "unit": "provider_city_latency_aggregate"
+    },
+    {
+      "category": "facility_address_registration",
+      "confidence": "medium",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix DX1 - Dubai",
+      "parties": [
+        {
+          "name": "Equinix",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": [
+          "International Media Production Zone (IMPZ)",
+          "Building F90",
+          "Dubai"
+        ],
+        "cloud_region_building_not_asserted": true,
+        "facility_code": "DX1",
+        "identity_join_basis": "explicit_DX1_facility_code_and_city",
+        "physical_site_count_not_asserted": true,
+        "registry_coordinates_not_admitted": true,
+        "registry_id": 1355,
+        "registry_is_self_reported": true,
+        "registry_updated_at": "2025-09-26T22:44:22Z"
+      },
+      "provider": "Equinix",
+      "raw_source_ref": "data/raw/completion-review/peeringdb-dx1.20261019.json",
+      "record_id": "equinix:facility_address_reference:dx1",
+      "relationships": [
+        {
+          "relationship_type": "corroborates_endpoint_identity",
+          "target_record_id": "gulf:interconnect_endpoint:equinix-dx1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "020eec01428ffff2adc126fb6490a87d92273db301a02ce21e3e051ebabba6f2",
+      "source_updated_at": null,
+      "source_url": "https://www.peeringdb.com/api/fac/1355",
+      "spatial_representation": "none",
+      "unit": "facility_registration"
+    },
+    {
+      "category": "facility_address_registration",
+      "confidence": "medium",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "SmartHub Fujairah",
+      "parties": [
+        {
+          "name": "Etisalat / e&",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": [],
+        "city_label_not_promoted_to_cloud_region": true,
+        "identity_join_basis": "explicit_facility_code_or_SmartHub_name_and_country",
+        "independent_operator_audit_not_asserted": true,
+        "operator_corroboration": {
+          "raw_source_ref": "data/raw/completion-review/eand-smarthub.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "eand-smarthub",
+          "source_published_at": null,
+          "source_sha256": "2cffe346f1316e134410115101882ade877e5212fa0262dc2a95b4c9fe2b9e37",
+          "source_updated_at": null,
+          "source_url": "https://www.eand.ae/smarthub.html"
+        },
+        "physical_site_count_not_asserted": true,
+        "query_filter_not_honored": true,
+        "registry_city": "Fujairah",
+        "registry_coordinates_not_admitted": true,
+        "registry_id": 1493,
+        "registry_is_self_reported": true,
+        "registry_updated_at": "2025-09-26T22:44:33Z",
+        "response_selection": "reviewed_facility_id_and_exact_name"
+      },
+      "provider": "Etisalat / e&",
+      "raw_source_ref": "data/raw/completion-review/peeringdb-mc1.20261019.json",
+      "record_id": "gulf:facility_registration_reference:1493",
+      "relationships": [
+        {
+          "relationship_type": "corroborates_endpoint_identity",
+          "target_record_id": "gulf:interconnect_endpoint:etisalat-smarthub-fujairah"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "e2e567a7fc2c6b145ea3a27d2e0e5aa5a94930a9b3af54f3ed502f2440ef7e93",
+      "source_updated_at": null,
+      "source_url": "https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1",
+      "spatial_representation": "none",
+      "unit": "facility_registration"
+    },
+    {
+      "category": "facility_address_registration",
+      "confidence": "medium",
+      "country_codes": [
+        "BH"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Bahrain DC53 MMR",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": [],
+        "city_label_not_promoted_to_cloud_region": true,
+        "identity_join_basis": "explicit_facility_code_or_SmartHub_name_and_country",
+        "independent_operator_audit_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "query_filter_not_honored": true,
+        "registry_city": "Askar",
+        "registry_coordinates_not_admitted": true,
+        "registry_id": 8242,
+        "registry_is_self_reported": true,
+        "registry_updated_at": "2025-09-26T22:54:22Z",
+        "response_selection": "reviewed_facility_id_and_exact_name"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/completion-review/peeringdb-mc1.20261019.json",
+      "record_id": "gulf:facility_registration_reference:8242",
+      "relationships": [
+        {
+          "relationship_type": "corroborates_endpoint_identity",
+          "target_record_id": "gulf:interconnect_endpoint:aws-dc53-manama"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "e2e567a7fc2c6b145ea3a27d2e0e5aa5a94930a9b3af54f3ed502f2440ef7e93",
+      "source_updated_at": null,
+      "source_url": "https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1",
+      "spatial_representation": "none",
+      "unit": "facility_registration"
+    },
+    {
+      "category": "facility_address_registration",
+      "confidence": "medium",
+      "country_codes": [
+        "BH"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Bahrain DC52 MMR",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": [],
+        "city_label_not_promoted_to_cloud_region": true,
+        "identity_join_basis": "explicit_facility_code_or_SmartHub_name_and_country",
+        "independent_operator_audit_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "query_filter_not_honored": true,
+        "registry_city": "Hamala",
+        "registry_coordinates_not_admitted": true,
+        "registry_id": 8243,
+        "registry_is_self_reported": true,
+        "registry_updated_at": "2025-09-26T22:54:22Z",
+        "response_selection": "reviewed_facility_id_and_exact_name"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/completion-review/peeringdb-mc1.20261019.json",
+      "record_id": "gulf:facility_registration_reference:8243",
+      "relationships": [
+        {
+          "relationship_type": "corroborates_endpoint_identity",
+          "target_record_id": "gulf:interconnect_endpoint:aws-dc52-manama"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "e2e567a7fc2c6b145ea3a27d2e0e5aa5a94930a9b3af54f3ed502f2440ef7e93",
+      "source_updated_at": null,
+      "source_url": "https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1",
+      "spatial_representation": "none",
+      "unit": "facility_registration"
+    },
+    {
+      "category": "facility_address_registration",
+      "confidence": "medium",
+      "country_codes": [
+        "OM"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix MC1 - Muscat",
+      "parties": [
+        {
+          "name": "Equinix",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "address_as_published": [
+          "Al Oqda Barka",
+          "Al Batinah"
+        ],
+        "city_label_not_promoted_to_cloud_region": true,
+        "identity_join_basis": "explicit_facility_code_or_SmartHub_name_and_country",
+        "independent_operator_audit_not_asserted": true,
+        "physical_site_count_not_asserted": true,
+        "query_filter_not_honored": true,
+        "registry_city": "Muscat",
+        "registry_coordinates_not_admitted": true,
+        "registry_id": 9339,
+        "registry_is_self_reported": true,
+        "registry_updated_at": "2025-09-26T22:55:45Z",
+        "response_selection": "reviewed_facility_id_and_exact_name"
+      },
+      "provider": "Equinix",
+      "raw_source_ref": "data/raw/completion-review/peeringdb-mc1.20261019.json",
+      "record_id": "gulf:facility_registration_reference:9339",
+      "relationships": [
+        {
+          "relationship_type": "corroborates_endpoint_identity",
+          "target_record_id": "gulf:interconnect_endpoint:equinix-mc1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "e2e567a7fc2c6b145ea3a27d2e0e5aa5a94930a9b3af54f3ed502f2440ef7e93",
+      "source_updated_at": null,
+      "source_url": "https://www.peeringdb.com/api/fac?name__icontains=Equinix%20MC1",
+      "spatial_representation": "none",
+      "unit": "facility_registration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Bengaluru",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Bengaluru",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:bengaluru",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Chennai",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Chennai",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:chennai",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Delhi",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Delhi",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:delhi",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Gandhinagar",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Gandhinagar",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:gandhinagar",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Hyderabad",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Hyderabad",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:hyderabad",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Jaipur",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Jaipur",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:jaipur",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Kochi",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Kochi",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:kochi",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Kolkata",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Kolkata",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:kolkata",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Mohali",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Mohali",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:mohali",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "historical_cdn_city_declaration",
+      "confidence": "high",
+      "country_codes": [
+        "IN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Mumbai",
+      "parties": [
+        {
+          "name": "Tata Communications",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "claim_as_of": null,
+        "coordinates_not_digitized_from_map": true,
+        "current_deployment_not_established": true,
+        "extraction_method": "manual_visual_review_of_provider_map_labels_and_legend",
+        "legend_color": "green",
+        "locality": "Mumbai",
+        "map_copyright_year": 2024,
+        "marker_status_as_depicted": "active",
+        "pdf_page": 1,
+        "physical_site_count_not_asserted": true,
+        "publication_date_not_established": true,
+        "service": "tata_cdn"
+      },
+      "provider": "Tata Communications",
+      "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+      "record_id": "tata:historical_cdn_city:mumbai",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+      "source_updated_at": null,
+      "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf",
+      "spatial_representation": "none",
+      "unit": "provider_city_declaration"
+    },
+    {
+      "category": "campus_activity_disclosure",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "N-HB Campus 03",
+      "parties": [
+        {
+          "name": "VNET",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "address": null,
+        "campus_code": "N-HB Campus 03",
+        "claim_as_of": "2026-06-30",
+        "code_abbreviation_not_decoded": true,
+        "disclosed_activity": "contributed_to_quarterly_increase_in_utilized_capacity",
+        "individual_capacity_mw": null,
+        "locality": null,
+        "physical_site_count_not_asserted": true
+      },
+      "provider": "VNET",
+      "raw_source_ref": "data/raw/completion-review/vnet-q2-2026-extract.20261019.web.json",
+      "record_id": "vnet:campus_activity_reference:n-hb-campus-03",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": "2026-08-18",
+      "source_scope": "provider_declared",
+      "source_sha256": "4fad67fc930c10b52a1e8475dd10c732039b43b4fdc7c7c96d36035acb2a99c9",
+      "source_updated_at": null,
+      "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results",
+      "spatial_representation": "none",
+      "unit": "campus_reference"
+    },
+    {
+      "category": "campus_activity_disclosure",
+      "confidence": "high",
+      "country_codes": [
+        "CN"
+      ],
+      "country_scope": "explicit_source_geography",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "N-OR Campus 01",
+      "parties": [
+        {
+          "name": "VNET",
+          "role": "declared_provider"
+        }
+      ],
+      "properties": {
+        "address": null,
+        "campus_code": "N-OR Campus 01",
+        "claim_as_of": "2026-06-30",
+        "code_abbreviation_not_decoded": true,
+        "disclosed_activity": "contributed_to_quarterly_increase_in_utilized_capacity",
+        "individual_capacity_mw": null,
+        "locality": null,
+        "physical_site_count_not_asserted": true
+      },
+      "provider": "VNET",
+      "raw_source_ref": "data/raw/completion-review/vnet-q2-2026-extract.20261019.web.json",
+      "record_id": "vnet:campus_activity_reference:n-or-campus-01",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": "2026-08-18",
+      "source_scope": "provider_declared",
+      "source_sha256": "4fad67fc930c10b52a1e8475dd10c732039b43b4fdc7c7c96d36035acb2a99c9",
+      "source_updated_at": null,
+      "source_url": "https://ir.vnet.com/news-releases/news-release-details/vnet-reports-unaudited-second-quarter-2026-financial-results",
+      "spatial_representation": "none",
+      "unit": "campus_reference"
+    }
+  ],
+  "retrieved_at": "2026-10-19",
+  "schema_version": "1.0.0",
+  "scope_note": "Independent dated assertions; no new physical-site total, public-code alias or current operation inferred.",
+  "type": "InfrastructureEvidenceCollection"
+}

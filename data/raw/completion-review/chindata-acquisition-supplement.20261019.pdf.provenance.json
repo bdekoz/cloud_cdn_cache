@@ -1,0 +1,20 @@
+{
+  "bytes": 1065360,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:10+00:00",
+  "content_type": "application/pdf",
+  "final_url": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577150.PDF",
+  "http_last_modified": "Tue, 22 Sep 2026 09:59:11 GMT",
+  "path": "data/raw/completion-review/chindata-acquisition-supplement.20261019.pdf",
+  "publisher": "Chongqing Kunyuan Asset Appraisal / Guangdong HEC Technology",
+  "raw_source_ref": "data/raw/completion-review/chindata-acquisition-supplement.20261019.pdf",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Appraiser's exchange-inquiry reply, including project-compliance disclosures; pending approvals must not be represented as operational status.",
+  "sha256": "6584ea664d923a183d49018fbc0c14fe05bc0d558de7134497f825245ed73ae6",
+  "source_id": "chindata-acquisition-supplement",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577150.PDF",
+  "title": "Chindata acquisition valuation inquiry reply, September 2026"
+}

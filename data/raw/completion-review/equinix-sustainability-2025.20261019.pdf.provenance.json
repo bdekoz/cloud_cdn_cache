@@ -1,0 +1,20 @@
+{
+  "bytes": 1940443,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:48:35+00:00",
+  "content_type": "application/pdf",
+  "final_url": "https://delivery-p112322-e1154416.adobeaemcloud.com/adobe/assets/deliver/urn:aaid:aem:e277427d-df16-4720-b4cd-4a30adbefa26/QRG_IBX-Sustainability-Quick-Reference.pdf",
+  "http_last_modified": "Mon, 04 May 2026 14:23:55 GMT",
+  "path": "data/raw/completion-review/equinix-sustainability-2025.20261019.pdf",
+  "publisher": "Equinix",
+  "raw_source_ref": "data/raw/completion-review/equinix-sustainability-2025.20261019.pdf",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Current official document-center link replacing the unavailable FY2024 URL; site codes and addresses, not cloud-region buildings.",
+  "sha256": "cbca9ed1698a83c8c66bbb694f61fccc7f3c3b7698383933e61cbab5840c476d",
+  "source_id": "equinix-sustainability-2025",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://delivery-p112322-e1154416.adobeaemcloud.com/adobe/assets/deliver/urn:aaid:aem:e277427d-df16-4720-b4cd-4a30adbefa26/QRG_IBX-Sustainability-Quick-Reference.pdf",
+  "title": "Equinix IBX Sustainability Quick Reference Guide, FY2025"
+}

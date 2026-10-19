@@ -1,0 +1,18 @@
+{
+  "bytes": 31092,
+  "capture_method": "api_response_bundle",
+  "captured_at": "2026-10-19T16:50:37+00:00",
+  "path": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+  "publisher": "RIPE NCC",
+  "query_count": 13,
+  "raw_source_ref": "data/raw/completion-review/gulf-routing-sample.20261019.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "One IPv4 and IPv6 prefix per AWS/OCI Gulf region and available Muscat border-group family; one address per prefix. Routing evidence does not establish geography, latency or service health.",
+  "sha256": "29b5ab844b598c19d9804210dfbee2cee67476c01f57a9245d929ce1dc72e69a",
+  "source_id": "gulf-routing-sample",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://stat.ripe.net/docs/data-api/api-endpoints/network-info",
+  "title": "Gulf prefix sample: RIPEstat routing origins and RPKI responses"
+}

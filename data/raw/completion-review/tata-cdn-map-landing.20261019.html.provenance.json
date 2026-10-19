@@ -1,0 +1,20 @@
+{
+  "bytes": 992318,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:12+00:00",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.tatacommunications.com/resourcehub/cdn/cdn-pop-map",
+  "http_last_modified": "Fri, 31 Jul 2026 09:10:34 GMT",
+  "path": "data/raw/completion-review/tata-cdn-map-landing.20261019.html",
+  "publisher": "Tata Communications",
+  "raw_source_ref": "data/raw/completion-review/tata-cdn-map-landing.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Landing-page date is not the linked map's publication or deployment date.",
+  "sha256": "4fdabac51f33fbe489162d6375323d517803b8a00f638f8fc8a8726f5236e5af",
+  "source_id": "tata-cdn-map-landing",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.tatacommunications.com/resourcehub/cdn/cdn-pop-map",
+  "title": "Tata Communications CDN PoP map landing page"
+}

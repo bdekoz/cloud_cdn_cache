@@ -1,5 +1,7 @@
 # China locality enrichment
 
+Follow-up: the [completion review](enrichment-completion.20261019.md) records subsequent additions, completed monitoring, and the remaining source-evidence dependencies. Counts and gaps below describe this document’s original implementation boundary.
+
 Implemented October 19, 2026. Chindata now has **nine directory codes**, up from four. A separate [locality view](../data/china/provider-localities.20261019.geojson) provides **147 map points** for nine cloud providers and Chindata. These are city/county reference points, not verified facility coordinates. They are excluded from the canonical location total.
 
 ## Chindata

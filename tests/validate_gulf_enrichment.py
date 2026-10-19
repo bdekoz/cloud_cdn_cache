@@ -45,7 +45,11 @@ def project(path, script, schema=None):
 
 
 def main():
-    old, manifest = baseline(), read(ROOT / f"data/manifest.{TAG}.json")
+    # Validate the Gulf implementation against its immutable publication boundary.
+    # The completion suite separately verifies the append-only current manifest.
+    frozen = ROOT / f"data/raw/repository/manifest-before-completion.{TAG}.json"
+    assert sha256(frozen) == read(frozen.with_suffix(".json.provenance.json"))["sha256"]
+    old, manifest = baseline(), read(frozen)
     previous = {l["layer"]: l for l in old["layers"]}
     current = {l["layer"]: l for l in manifest["layers"]}
     assert set(current) == set(previous)

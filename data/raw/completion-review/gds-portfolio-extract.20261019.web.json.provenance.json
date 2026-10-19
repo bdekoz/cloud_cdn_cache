@@ -1,0 +1,19 @@
+{
+  "capture_method": "web_tool_response",
+  "captured_at": "2026-10-19T16:52:20+00:00",
+  "error": "HTTP fetch forbidden; reader fetch timed out",
+  "failed_response_path": "data/raw/completion-review/gds-portfolio-extract.20261019.web.json",
+  "failed_response_sha256": "ba89fd61fd67ebece6cad790c46e7dfe4603fed141b5b9708d4714672fb432dc",
+  "payload_kind": "failed_retrieval_receipt_not_upstream_source",
+  "publisher": "GDS",
+  "raw_source_ref": "data/raw/completion-review/gds-portfolio-extract.20261019.web.json",
+  "result": "unavailable",
+  "retrieved_at": "2026-10-19",
+  "role": "Failed public reader request, no evidence admitted.",
+  "sha256": "ba89fd61fd67ebece6cad790c46e7dfe4603fed141b5b9708d4714672fb432dc",
+  "source_id": "gds-portfolio-extract",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://investors.gds-services.com/static-files/46fa60b6-5dc1-4616-89e7-dc8c38658eed",
+  "title": "GDS presentation, failed reader retrieval"
+}

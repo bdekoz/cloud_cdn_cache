@@ -1,0 +1,20 @@
+{
+  "bytes": 4523779,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:10+00:00",
+  "content_type": "application/pdf",
+  "final_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+  "http_last_modified": "Mon, 20 Jul 2026 10:38:16 GMT",
+  "path": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+  "publisher": "Jiayuan Law / Guangdong HEC Technology",
+  "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Project, legal-entity and property-title evidence; not a public H/W-code crosswalk or proof of current operation.",
+  "sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+  "source_id": "chindata-acquisition-legal",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF",
+  "title": "Chindata acquisition legal opinion, June 2026, disclosed July 21"
+}

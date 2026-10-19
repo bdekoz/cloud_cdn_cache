@@ -1,0 +1,776 @@
+{
+  "built_at": "2026-10-19",
+  "excluded_from_canonical_totals": true,
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          120.87472,
+          32.03028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "CN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/chindata-acquisition-legal.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-acquisition-legal",
+            "source_published_at": null,
+            "source_sha256": "65eefe83e29e4fd8f89016fe4c65754ff1757dcbf63a4149b8faca914bdce24c",
+            "source_updated_at": null,
+            "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-21/1225433429.PDF"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "chindata:locality:chindata_colocation:1799722",
+        "gazetteer": {
+          "admin1": "04",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "1799722",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Nantong"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Nantong",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Chindata",
+        "record_unit": "provider_service_locality",
+        "service": "chindata_colocation",
+        "source_claim_ids": [
+          "chindata:project_reference:nantong-1",
+          "chindata:project_reference:nantong-2"
+        ],
+        "source_locality_labels": [
+          "Nantong"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "chindata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.42947,
+          31.35259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "CN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/huawei-chinese-global.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "huawei-chinese-global",
+            "source_published_at": null,
+            "source_sha256": "642d90f563e92827ec4f63f229d9aaf2af8940aa5b88518bfe0569ac75c88da3",
+            "source_updated_at": null,
+            "source_url": "https://www.huaweicloud.com/intl/zh-cn/global/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "huawei:locality:huawei_cloud:1791236",
+        "gazetteer": {
+          "admin1": "01",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "1791236",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Wuhu"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Wuhu",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Huawei Cloud",
+        "record_unit": "provider_service_locality",
+        "service": "huawei_cloud",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Wuhu"
+        ],
+        "source_record_ids": [
+          "huawei:cloud_region:cn-east-4"
+        ],
+        "vendor_id": "huawei"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          80.27847,
+          13.08784
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1264527",
+        "gazetteer": {
+          "admin1": "25",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1264527",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Chennai"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Chennai",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:chennai"
+        ],
+        "source_locality_labels": [
+          "Chennai"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          75.78781,
+          26.91962
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1269515",
+        "gazetteer": {
+          "admin1": "24",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1269515",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Jaipur"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Jaipur",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:jaipur"
+        ],
+        "source_locality_labels": [
+          "Jaipur"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          78.45636,
+          17.38405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1269843",
+        "gazetteer": {
+          "admin1": "40",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1269843",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Hyderabad"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Hyderabad",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:hyderabad"
+        ],
+        "source_locality_labels": [
+          "Hyderabad"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.68333,
+          23.21667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1271715",
+        "gazetteer": {
+          "admin1": "09",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1271715",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Gandhinagar"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Gandhinagar",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:gandhinagar"
+        ],
+        "source_locality_labels": [
+          "Gandhinagar"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          77.23149,
+          28.65195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1273294",
+        "gazetteer": {
+          "admin1": "07",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1273294",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Delhi"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Delhi",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:delhi"
+        ],
+        "source_locality_labels": [
+          "Delhi"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          76.26022,
+          9.93988
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1273874",
+        "gazetteer": {
+          "admin1": "13",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "1273874",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Kochi"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Kochi",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:kochi"
+        ],
+        "source_locality_labels": [
+          "Kochi"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          88.36304,
+          22.56263
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1275004",
+        "gazetteer": {
+          "admin1": "28",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1275004",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Kolkata"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Kolkata",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:kolkata"
+        ],
+        "source_locality_labels": [
+          "Kolkata"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.88261,
+          19.07283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1275339",
+        "gazetteer": {
+          "admin1": "16",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1275339",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Mumbai"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Mumbai",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:mumbai"
+        ],
+        "source_locality_labels": [
+          "Mumbai"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          77.59369,
+          12.97194
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:1277333",
+        "gazetteer": {
+          "admin1": "19",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1277333",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Bengaluru"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Bengaluru",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:bengaluru"
+        ],
+        "source_locality_labels": [
+          "Bengaluru"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          76.72211,
+          30.67995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tata-cdn-map.20261019.pdf",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tata-cdn-map",
+            "source_published_at": null,
+            "source_sha256": "f0bc235bbf6d6f096acfd0a05c47c55a48b92549408a64fa5fb1977d2428178f",
+            "source_updated_at": null,
+            "source_url": "https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tata:locality:tata_cdn:6992326",
+        "gazetteer": {
+          "admin1": "23",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "6992326",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Mohali"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Mohali",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tata Communications",
+        "record_unit": "provider_service_locality",
+        "service": "tata_cdn",
+        "source_claim_ids": [
+          "tata:historical_cdn_city:mohali"
+        ],
+        "source_locality_labels": [
+          "Mohali"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "tata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.72185,
+          24.68773
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/completion-review/tencent-cls-regions.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "tencent-cls-regions",
+            "source_published_at": null,
+            "source_sha256": "40b3dedb2d9e50b9edfc38b45a3275ec3cb52abed1a7f0b235407a2110f444f5",
+            "source_updated_at": null,
+            "source_url": "https://www.tencentcloud.com/document/product/614/18940"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "tencent:locality:tencent_cloud:108410",
+        "gazetteer": {
+          "admin1": "10",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "108410",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Riyadh"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Riyadh",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Tencent Cloud",
+        "record_unit": "provider_service_locality",
+        "service": "tencent_cloud",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Riyadh"
+        ],
+        "source_record_ids": [
+          "tencent:cloud_region:me-saudi-arabia"
+        ],
+        "vendor_id": "tencent"
+      },
+      "type": "Feature"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "type": "FeatureCollection"
+}

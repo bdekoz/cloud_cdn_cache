@@ -329,6 +329,7 @@ def main() -> None:
                               for layer in ("yandex-prefixes", "yandex-routing"))
     if tag >= GULF_ENRICHMENT_TAG:
         network_layers.append(network_layer_manifest("gulf-provider-prefixes", GULF_ENRICHMENT_TAG))
+        network_layers.append(network_layer_manifest("gulf-routing-review", GULF_ENRICHMENT_TAG))
     views = []
     for view, parent in VIEW_NAMES.items():
         entry = layer_manifest(view, CHINA_IMPLEMENTATION_TAG if tag >= CHINA_IMPLEMENTATION_TAG else BASELINE_TAG)
@@ -389,6 +390,7 @@ def main() -> None:
             "china/geography-enrichment", "chindata/campus-alias-review", "gulf/aws-oracle-coverage"))
     if tag >= GULF_ENRICHMENT_TAG:
         assessments.append(assessment_manifest("gulf/enrichment-implementation", GULF_ENRICHMENT_TAG))
+        assessments.append(assessment_manifest("enrichment/completion-review", GULF_ENRICHMENT_TAG))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
@@ -399,6 +401,7 @@ def main() -> None:
                 "china-ai-services", "china-facilities-and-portfolios", "china-carrier-links"))
         if tag >= GULF_ENRICHMENT_TAG:
             infrastructure_layers.append(infrastructure_manifest("gulf-cloud-connectivity", GULF_ENRICHMENT_TAG))
+            infrastructure_layers.append(infrastructure_manifest("completion-evidence", GULF_ENRICHMENT_TAG))
         infrastructure_view = infrastructure_manifest("russia-connectivity", INFRASTRUCTURE_TAG)
         infrastructure_view["view_of"] = "infrastructure/connectivity"
         infrastructure_sections = {
@@ -444,6 +447,8 @@ def main() -> None:
     if tag >= GULF_ENRICHMENT_TAG:
         geographic_sections["geographic_footprint_views"].append(
             geographic_footprint_manifest(GULF_ENRICHMENT_TAG, "gulf/provider-localities"))
+        geographic_sections["geographic_footprint_views"].append(
+            geographic_footprint_manifest(GULF_ENRICHMENT_TAG, "enrichment/provider-localities"))
         geographic_sections["geographic_footprint_view_count"] = len(geographic_sections["geographic_footprint_views"])
     write_json(output, {
         **infrastructure_sections,

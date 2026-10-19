@@ -1,0 +1,20 @@
+{
+  "bytes": 47558,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:53:26+00:00",
+  "content_type": "application/x-javascript",
+  "final_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+  "http_last_modified": "Sun, 13 Sep 2026 13:12:07 GMT",
+  "path": "data/raw/completion-review/cst-latency-data.20261019.js",
+  "publisher": "Communications, Space and Technology Commission",
+  "raw_source_ref": "data/raw/completion-review/cst-latency-data.20261019.js",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Public script linked by the retained regulator dashboard; parse data without executing JavaScript. Latency is a country-wide weighted access measurement, not an exact facility location.",
+  "sha256": "5aa00efb5d28a40dc422d1c5edeb3d1d3d9b34f185ab8bbbaed4982f79d391f2",
+  "source_id": "cst-latency-data",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.cst.gov.sa/-/media/cst-website-app/data/media/cloud-latency-2026-interactive-report/cloud-latency-2026/cloud-script.js?v=20260930a",
+  "title": "CST cloud latency dashboard data and methodology, first half 2026"
+}

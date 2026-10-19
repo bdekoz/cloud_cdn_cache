@@ -1,0 +1,20 @@
+{
+  "bytes": 1075425,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:14+00:00",
+  "content_type": "text/html",
+  "final_url": "https://support.cucloud.cn/document/127/580/501.html?arcid=759&id=501",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/unicom-redis-regions.20261019.html",
+  "publisher": "China Unicom Cloud",
+  "raw_source_ref": "data/raw/completion-review/unicom-redis-regions.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Product-specific regional availability; not necessarily a public-cloud region directory.",
+  "sha256": "908d5a873213bb8ffb89152a1a4b783f97f25f797157d26b07cfc9015b7a38ab",
+  "source_id": "unicom-redis-regions",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://support.cucloud.cn/document/127/580/501.html?arcid=759&id=501",
+  "title": "Unicom Cloud Redis region documentation"
+}

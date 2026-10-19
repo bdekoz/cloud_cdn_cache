@@ -1,0 +1,20 @@
+{
+  "bytes": 54958,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:47:14+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://yandex.ru/company/news/09-10-2026-01",
+  "http_last_modified": null,
+  "path": "data/raw/completion-review/yandex-incident-review.20261019.html",
+  "publisher": "Yandex",
+  "raw_source_ref": "data/raw/completion-review/yandex-incident-review.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "The page's last update date controls the incident claim; a later retrieval does not prove recovery.",
+  "sha256": "33deb58b98eeabea0c9eb5e959ab619b0d1ad307acbb2997e53d8d4eb1d049e2",
+  "source_id": "yandex-incident-review",
+  "source_published_at": "2026-10-09",
+  "source_updated_at": "2026-10-11",
+  "source_url": "https://yandex.ru/company/news/09-10-2026-01",
+  "title": "Yandex data-centre incident update, rechecked"
+}
