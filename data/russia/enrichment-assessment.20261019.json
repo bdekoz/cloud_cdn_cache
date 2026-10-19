@@ -1,0 +1,898 @@
+{
+  "assessed_at": "2026-10-19",
+  "assessment_type": "russia_yandex_crypto_enrichment",
+  "baseline": {
+    "canonical_location_record_count": 27930,
+    "duplicate_record_ids": 0,
+    "filter": {
+      "country_code": "RU"
+    },
+    "geometry_null": 8,
+    "layers": [
+      {
+        "entity_types": {
+          "edge_pop": 2
+        },
+        "geometry_null": 0,
+        "layer": "google/edge",
+        "record_count": 2,
+        "snapshot_tag": "20261011",
+        "source": {
+          "path": "data/google/edge.20261011.geojson",
+          "sha256": "68a70eb60f6860423676e7681e8fa70139f42f5d398629a1c72739c994bb3752"
+        }
+      },
+      {
+        "entity_types": {
+          "edge_pop": 3
+        },
+        "geometry_null": 1,
+        "layer": "cloudflare/edge",
+        "record_count": 3,
+        "snapshot_tag": "20260804",
+        "source": {
+          "path": "data/cloudflare/edge.20260804.geojson",
+          "sha256": "d7eb0f6b02b1e706f8da1f32522cc1df50e26bcee7219404da3a0e82764e66b9"
+        }
+      },
+      {
+        "entity_types": {
+          "edge_pop": 2
+        },
+        "geometry_null": 2,
+        "layer": "cachefly/locations",
+        "record_count": 2,
+        "snapshot_tag": "20260804",
+        "source": {
+          "path": "data/cachefly/locations.20260804.geojson",
+          "sha256": "42f15e987b3d452c608a01d1e62793d02bab76d9f4fb04a0b7bc547037a0b203"
+        }
+      },
+      {
+        "entity_types": {
+          "observed_presence": 79
+        },
+        "geometry_null": 0,
+        "layer": "observations/cdn-mapping-cities",
+        "record_count": 79,
+        "snapshot_tag": "20260805",
+        "source": {
+          "path": "data/observations/cdn-mapping-cities.20260805.geojson",
+          "sha256": "d6592b8ec86bf37ea1b3a89d409861f8e0fbb9ab533f542e9fe73a3b73b9fee0"
+        }
+      },
+      {
+        "entity_types": {
+          "data_center": 5
+        },
+        "geometry_null": 5,
+        "layer": "yandex/data-centers",
+        "record_count": 5,
+        "snapshot_tag": "20261011",
+        "source": {
+          "path": "data/yandex/data-centers.20261011.geojson",
+          "sha256": "1c85278f23865180eb674e8ec07acc29daa0402d3ef861e014b3eb21439c7edb"
+        }
+      },
+      {
+        "entity_types": {
+          "edge_pop": 9
+        },
+        "geometry_null": 0,
+        "layer": "akamai/legacy-locations",
+        "record_count": 9,
+        "snapshot_tag": "20261019",
+        "source": {
+          "path": "data/akamai/legacy-locations.20261019.geojson",
+          "sha256": "e63c48bcc14607704bd0ed77facebab10faab98da505b3dc18b09534937fa323"
+        }
+      }
+    ],
+    "limit": "Mixed units and source ages; neither a current operational inventory nor a facility count. The older RU view omits the newly restored 2023 Akamai city records.",
+    "manifest_ref": "data/manifest.20261019.json",
+    "retained_country_view": {
+      "record_count": 91,
+      "snapshot_tag": "20261011",
+      "source": {
+        "path": "data/russia/locations-and-observations.20261011.geojson",
+        "sha256": "a1c903307a159f08793bb7557a6509a3e12550f0434df940bccce3d48eda4ead"
+      }
+    },
+    "ru_record_count": 100
+  },
+  "crypto_exchanges": [
+    {
+      "admission": "DNS/routing candidate only; origin and site identity remain unknown.",
+      "confirmed_current_ru_hosting": null,
+      "entity": "ABCEX",
+      "facility_record_id": null,
+      "finding": "Provider documents Russian cash offices and a public WebSocket endpoint; these identify business presence and an endpoint, not compute facilities.",
+      "source_keys": [
+        "abcex_docs",
+        "abcex_api",
+        "abcex_offices"
+      ]
+    },
+    {
+      "admission": "Use as a non-RU comparison and customer/cloud relationship, not as a new owned facility.",
+      "confirmed_current_ru_hosting": null,
+      "entity": "Bybit",
+      "facility_record_id": null,
+      "finding": "The operator API FAQ declares Singapore hosting; observed production API CNAMEs point to CloudFront names.",
+      "provider_declared_az_ids": [
+        "apse1-az2",
+        "apse1-az3"
+      ],
+      "provider_declared_cloud": "AWS",
+      "provider_declared_server_country_code": "SG",
+      "source_keys": [
+        "bybit"
+      ]
+    },
+    {
+      "admission": "Dated service-status and endpoint evidence; apply only to EXMO.me, not similarly named entities.",
+      "confirmed_current_ru_hosting": null,
+      "entity": "EXMO.me",
+      "facility_record_id": null,
+      "finding": "Operator announced termination and liquidation. Continued website DNS answers do not establish active trading or recovered service.",
+      "source_keys": [
+        "exmo_closure"
+      ],
+      "status_report_date": "2026-07-24"
+    },
+    {
+      "admission": "Historical event and attributed entity evidence only. Keep law-enforcement jurisdiction separate from server geography.",
+      "confirmed_current_ru_hosting": null,
+      "entity": "Garantex",
+      "facility_record_id": null,
+      "finding": "DOJ reports March 2025 domain seizures and server seizures by German and Finnish authorities; Treasury describes Russian operations. Neither establishes current Russian physical hosting.",
+      "source_keys": [
+        "garantex",
+        "grinex"
+      ]
+    },
+    {
+      "admission": "Re-verify operator/domain identity before collecting endpoints; do not inherit Garantex locations.",
+      "confirmed_current_ru_hosting": null,
+      "entity": "Grinex",
+      "facility_record_id": null,
+      "finding": "Treasury's August 2025 release describes a successor relationship to Garantex. Current domain-to-operator identity and hosting were not established in this review.",
+      "source_keys": [
+        "grinex"
+      ]
+    }
+  ],
+  "dns_pilot": {
+    "endpoints": [
+      {
+        "addresses": [
+          "109.238.90.238"
+        ],
+        "cnames": [],
+        "endpoint_role": "website",
+        "facility_record_id": null,
+        "hostname": "abcex.io",
+        "network_attribution": {
+          "asn_holder": "AS-SERVICEPIPE SERVICEPIPE LLC",
+          "origin_asns": [
+            201706
+          ],
+          "physical_country_code": null,
+          "registry_country_code": "RU",
+          "registry_network_name": "RU-SERVICEPIPE-20101203",
+          "routing_prefix": "109.238.90.0/24",
+          "source_keys": [
+            "abcex_route",
+            "abcex_registry",
+            "servicepipe_asn"
+          ]
+        },
+        "origin_country_code": null,
+        "query_statuses": {
+          "A": 0,
+          "AAAA": 0,
+          "CNAME": 0
+        },
+        "query_times": [
+          "2026-10-19T14:52:50.870300+00:00",
+          "2026-10-19T14:52:50.951800+00:00",
+          "2026-10-19T14:52:51.347542+00:00"
+        ],
+        "yandex_published_prefix_matches": []
+      },
+      {
+        "addresses": [
+          "13.249.74.104",
+          "13.249.74.19",
+          "13.249.74.21",
+          "13.249.74.45"
+        ],
+        "cnames": [
+          "d3d4ij29qlbhtu.cloudfront.net."
+        ],
+        "endpoint_role": "documented_rest_api",
+        "facility_record_id": null,
+        "hostname": "api.bybit.com",
+        "network_attribution": null,
+        "origin_country_code": null,
+        "query_statuses": {
+          "A": 0,
+          "AAAA": 0,
+          "CNAME": 0
+        },
+        "query_times": [
+          "2026-10-19T14:52:52.141082+00:00",
+          "2026-10-19T14:52:52.212876+00:00",
+          "2026-10-19T14:52:52.277349+00:00"
+        ],
+        "yandex_published_prefix_matches": []
+      },
+      {
+        "addresses": [
+          "185.178.208.182"
+        ],
+        "cnames": [],
+        "endpoint_role": "closure_notice_website",
+        "facility_record_id": null,
+        "hostname": "exmo.me",
+        "network_attribution": {
+          "asn_holder": "DDOS-GUARD DDOS-GUARD LTD",
+          "origin_asns": [
+            57724
+          ],
+          "physical_country_code": null,
+          "registry_country_code": "RU",
+          "registry_network_name": "RU-LLCDDOS-GUARD-20161123",
+          "routing_prefix": "185.178.208.0/24",
+          "source_keys": [
+            "exmo_route",
+            "exmo_registry",
+            "ddos_guard_asn"
+          ]
+        },
+        "origin_country_code": null,
+        "query_statuses": {
+          "A": 0,
+          "AAAA": 0,
+          "CNAME": 0
+        },
+        "query_times": [
+          "2026-10-19T14:52:52.528104+00:00",
+          "2026-10-19T14:52:52.740717+00:00",
+          "2026-10-19T14:52:52.947721+00:00"
+        ],
+        "yandex_published_prefix_matches": []
+      },
+      {
+        "addresses": [
+          "109.238.90.238"
+        ],
+        "cnames": [],
+        "endpoint_role": "documented_websocket",
+        "facility_record_id": null,
+        "hostname": "hub.abcex.io",
+        "network_attribution": {
+          "asn_holder": "AS-SERVICEPIPE SERVICEPIPE LLC",
+          "origin_asns": [
+            201706
+          ],
+          "physical_country_code": null,
+          "registry_country_code": "RU",
+          "registry_network_name": "RU-SERVICEPIPE-20101203",
+          "routing_prefix": "109.238.90.0/24",
+          "source_keys": [
+            "abcex_route",
+            "abcex_registry",
+            "servicepipe_asn"
+          ]
+        },
+        "origin_country_code": null,
+        "query_statuses": {
+          "A": 0,
+          "AAAA": 0,
+          "CNAME": 0
+        },
+        "query_times": [
+          "2026-10-19T14:52:51.595808+00:00",
+          "2026-10-19T14:52:51.673800+00:00",
+          "2026-10-19T14:52:51.734913+00:00"
+        ],
+        "yandex_published_prefix_matches": []
+      },
+      {
+        "addresses": [
+          "13.226.38.102",
+          "13.226.38.122",
+          "13.226.38.39",
+          "13.226.38.76",
+          "2600:9000:21dd:2a00:17:57ca:2ec0:93a1",
+          "2600:9000:21dd:5a00:17:57ca:2ec0:93a1",
+          "2600:9000:21dd:600:17:57ca:2ec0:93a1",
+          "2600:9000:21dd:8000:17:57ca:2ec0:93a1",
+          "2600:9000:21dd:9000:17:57ca:2ec0:93a1",
+          "2600:9000:21dd:d800:17:57ca:2ec0:93a1",
+          "2600:9000:21dd:e00:17:57ca:2ec0:93a1",
+          "2600:9000:21dd:f600:17:57ca:2ec0:93a1"
+        ],
+        "cnames": [
+          "d2mo22rbksh9yz.cloudfront.net."
+        ],
+        "endpoint_role": "documented_websocket",
+        "facility_record_id": null,
+        "hostname": "stream.bybit.com",
+        "network_attribution": null,
+        "origin_country_code": null,
+        "query_statuses": {
+          "A": 0,
+          "AAAA": 0,
+          "CNAME": 0
+        },
+        "query_times": [
+          "2026-10-19T14:52:52.347188+00:00",
+          "2026-10-19T14:52:52.404601+00:00",
+          "2026-10-19T14:52:52.473122+00:00"
+        ],
+        "yandex_published_prefix_matches": []
+      }
+    ],
+    "hostname_count": 5,
+    "limit": "One resolver, A/AAAA/CNAME only, no explicit ECS or located probe. Empty NOERROR answers are not NXDOMAIN. Network registration is not physical hosting; a CDN or protection endpoint can hide origins. No match against these Yandex feeds does not exclude other Yandex dependencies.",
+    "nonzero_dns_status_count": 0,
+    "query_count": 15,
+    "query_errors": 0,
+    "source_key": "dns",
+    "yandex_matched_endpoint_count": 0
+  },
+  "enrichment_options": [
+    {
+      "candidate": "Yandex cloud region/zone hierarchy",
+      "gate": "Separate four public-cloud zones from BareMetal and Kazakhstan; keep facility joins null; document age and current-health limits.",
+      "priority": 1,
+      "target": "location layer with region and availability_zone units"
+    },
+    {
+      "candidate": "Yandex CDN city declarations",
+      "gate": "Resolve Simferopol country normalization; retain global PoP claim separately; no city-to-prefix join or exact site inference.",
+      "priority": 1,
+      "target": "city-level edge declarations"
+    },
+    {
+      "candidate": "Yandex service-prefix feeds and ASN routing",
+      "gate": "Keep VPC, BareMetal, CDN and supporting services distinct; preserve overlaps; country null without geographic evidence.",
+      "priority": 1,
+      "target": "existing network-evidence provider_prefix/routing_origin types"
+    },
+    {
+      "candidate": "Exchange identities, service status and DNS endpoints",
+      "gate": "Store entity ID, endpoint role, exact DNS response/time/resolver, routing and registry evidence; CDN/protection and origin attribution must be separate. Do not place exchanges in the facility inventory.",
+      "priority": 1,
+      "target": "separate application-endpoint evidence contract"
+    },
+    {
+      "candidate": "RIPE June 2026 ASN registration join for CDN observations",
+      "gate": "Match source-study date and allocated/assigned ASN intervals, as for APNIC; registration country must not populate physical country.",
+      "priority": 2,
+      "target": "separate registration-filtered comparison view"
+    },
+    {
+      "candidate": "Other domestic providers",
+      "gate": "Use the October 11 assessment as a lead; re-fetch before normalization. Not revalidated in this focused review.",
+      "priority": 2,
+      "target": "Selectel hierarchy, Cloud.ru product hierarchies, IXcellerate lifecycle directory"
+    }
+  ],
+  "excluded_from_canonical_totals": true,
+  "new_canonical_records": 0,
+  "scope": "RU infrastructure coverage with Yandex and a bounded five-exchange cohort; not a market census.",
+  "source_access_gaps": [
+    {
+      "impact": "No reliable current exchange-domain identity or operating-status inference.",
+      "source_url": "https://grinex.io/",
+      "status": "HTTP 403 in raw fetch; web reader returned a journal title"
+    },
+    {
+      "impact": "Excluded from structured identity/hosting assertions.",
+      "source_key": "exmo_split_fetch",
+      "status": "HTTP 200 soft 404 in raw fetch; web reader returned an older article"
+    }
+  ],
+  "sources": {
+    "abcex_api": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/crypto/abcex-api-intro.20261019.html",
+      "resolved_url": "https://abcex.readme.io/reference/intro",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:52:23.660645+00:00",
+      "sha256": "2f4bd96f9b62f23cd9eae48e349411d4c1df202f1e24461410050dc16d45e868",
+      "source_published_at": null,
+      "source_updated_at": "2026-05-04",
+      "source_url": "https://abcex.readme.io/reference/intro"
+    },
+    "abcex_docs": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/crypto/abcex-api.20261019.html",
+      "resolved_url": "https://abcex.io/documentation/en/api-keys.html",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:14.274531+00:00",
+      "sha256": "289a18fbd23ee10062caf86ba33a09352e8a70ec75d8a9d713cc0576ca4af520",
+      "source_published_at": null,
+      "source_url": "https://abcex.io/documentation/en/api-keys.html"
+    },
+    "abcex_offices": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/crypto/abcex-offices.20261019.html",
+      "resolved_url": "https://abcex.io/documentation/en/cash.html",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:15.296920+00:00",
+      "sha256": "ae338fe88631dc492021b6421765b4565af5240e2950d3e86e7165eb84e5c58c",
+      "source_published_at": null,
+      "source_url": "https://abcex.io/documentation/en/cash.html"
+    },
+    "abcex_registry": {
+      "media_type": "application/rdap+json",
+      "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+      "raw_source_ref": "data/raw/crypto/abcex-rdap.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:53:34.667091+00:00",
+      "sha256": "94248ea5eafda5615b96b3f7e84b6dc657f5b29e9aa5368397ada424ab80378e",
+      "source_published_at": null,
+      "source_url": "https://rdap.db.ripe.net/ip/109.238.90.238"
+    },
+    "abcex_route": {
+      "media_type": "application/json",
+      "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+      "raw_source_ref": "data/raw/crypto/abcex-network-info.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:53:33.742041+00:00",
+      "sha256": "4ae11e68626dd0c5368dc9f678fc94ff7cf2e02a635ce457da5b76910e014c44",
+      "source_published_at": null,
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=109.238.90.238"
+    },
+    "bybit": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/crypto/bybit-api-faq.20261019.html",
+      "resolved_url": "https://bybit-exchange.github.io/docs/faq",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:06.422805+00:00",
+      "sha256": "860b9f35eca617992855ed556474a254fc845b7d68e7e548d78d2d2c369c58c3",
+      "source_published_at": null,
+      "source_url": "https://bybit-exchange.github.io/docs/faq"
+    },
+    "cdn_cities": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/cdn-pops.20261019.html",
+      "resolved_url": "https://yandex.cloud/en/docs/cdn/concepts/points-of-presence",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:03.175111+00:00",
+      "sha256": "c09c71ccf3e6c666cb4ff253548502121eeb766cd1308879293b985461841cdf",
+      "source_date_basis": "Visible Updated at date in the provider documentation web reader; raw HTML body has no rendered date.",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-14",
+      "source_url": "https://yandex.cloud/en/docs/cdn/concepts/points-of-presence"
+    },
+    "cdn_prefixes": {
+      "media_type": "application/json",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/cdn-prefixes.20261019.json",
+      "resolved_url": "https://tech.cdn.yandex.net/prefixes/yc.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:04.055029+00:00",
+      "sha256": "27daf2da169adab504771f0375ad58f5e2f8d076497e9146dd6432c0830a4a84",
+      "source_published_at": null,
+      "source_url": "https://tech.cdn.yandex.net/prefixes/yc.json"
+    },
+    "ddos_guard_asn": {
+      "media_type": "application/json",
+      "notes": "RIPEstat ASN attribution and routing status, not physical hosting geography.",
+      "raw_source_ref": "data/raw/crypto/as57724-overview.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:54:40.332360+00:00",
+      "sha256": "e3215f3217295e9aa1938e7ef42e4dfac90f62125736bc5b3455db3bb243b6a9",
+      "source_published_at": null,
+      "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS57724"
+    },
+    "dns": {
+      "media_type": "application/json",
+      "notes": "Direct DNS observations. Full resolver responses, query URLs and timestamps retained. Resolver-selected answers do not identify origin hosting location, owned facilities, or exchange operational status.",
+      "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+      "source_published_at": null,
+      "source_url": "https://dns.google/resolve"
+    },
+    "exmo_closure": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/crypto/exmo-me-closure.20261019.html",
+      "resolved_url": "https://exmo.me/blog/uvedomleniya/termination-and-liquidation",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:10.936479+00:00",
+      "sha256": "7d3fbf4eeda6d51943c2878b2fbe923a09a0339182cabc3626e693c0f256d2cb",
+      "source_published_at": "2026-07-24",
+      "source_url": "https://exmo.me/blog/uvedomleniya/termination-and-liquidation"
+    },
+    "exmo_registry": {
+      "media_type": "application/rdap+json",
+      "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+      "raw_source_ref": "data/raw/crypto/exmo-me-rdap.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:53:35.110385+00:00",
+      "sha256": "4065f3290e028839f8e490574439b1de7e28edbec19f572b7e2c3de17f595267",
+      "source_published_at": null,
+      "source_url": "https://rdap.db.ripe.net/ip/185.178.208.182"
+    },
+    "exmo_route": {
+      "media_type": "application/json",
+      "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+      "raw_source_ref": "data/raw/crypto/exmo-me-network-info.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:53:34.214535+00:00",
+      "sha256": "b63126e8c08f9d47e1e594202f3fb2161b01dfac44b1019995d27ffe4b8b4828",
+      "source_published_at": null,
+      "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=185.178.208.182"
+    },
+    "exmo_split_fetch": {
+      "content_status": "soft_404",
+      "media_type": "text/html",
+      "notes": "HTTP fetch returned a Page not found document. Not used to infer corporate relationships or exchange hosting; the public web reader returned the older article. Retained to document this access mismatch.",
+      "raw_source_ref": "data/raw/crypto/exmo-com-split.20261019.html",
+      "resolved_url": "https://exmo.com/blog/en/product/exmo-coms-product-release-recap-main-updates-of-the-year",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:12.273096+00:00",
+      "sha256": "3c97d24fc9f3bed45375584390577ae142973f64f0832feccd6a3371a0bf1f04",
+      "source_published_at": null,
+      "source_url": "https://exmo.com/blog/en/product/exmo-coms-product-release-recap-main-updates-of-the-year"
+    },
+    "garantex": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/crypto/garantex-doj.20261019.html",
+      "resolved_url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:08.000567+00:00",
+      "sha256": "75a7704a0ece665ad707a84758ad526d62fc762c6720dafbbf6acd5f1cfbd02a",
+      "source_published_at": "2025-03-07",
+      "source_updated_at": "2025-04-25",
+      "source_url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation"
+    },
+    "grinex": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/crypto/grinex-treasury.20261019.html",
+      "resolved_url": "https://home.treasury.gov/news/press-releases/sb0225",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:08.199351+00:00",
+      "sha256": "e8f39321db35ef8ec3ab5880038efc8548834625dbc721b3669c3b3a789bfe4a",
+      "source_published_at": "2025-08-14",
+      "source_url": "https://home.treasury.gov/news/press-releases/sb0225"
+    },
+    "interconnect": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/cloud-interconnect.20261019.html",
+      "resolved_url": "https://yandex.cloud/en/docs/interconnect/concepts/pub-con",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:52:22.817155+00:00",
+      "sha256": "2bb9ef07718726856ba7d02c6a3c8c6004a31db512388a206978795f0595c117",
+      "source_date_basis": "Visible Updated at date in the provider documentation web reader; raw HTML body has no rendered date.",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-30",
+      "source_url": "https://yandex.cloud/en/docs/interconnect/concepts/pub-con"
+    },
+    "public_ips": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/cloud-public-ips.20261019.html",
+      "resolved_url": "https://yandex.cloud/en/docs/overview/concepts/public-ips",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:00.974233+00:00",
+      "sha256": "5bd504bd510385871b1ff02dc2f0691e654a5f1446688b62acba5194f01860ff",
+      "source_date_basis": "Visible Updated at date in the provider documentation web reader; raw HTML body has no rendered date.",
+      "source_published_at": null,
+      "source_updated_at": "2026-08-21",
+      "source_url": "https://yandex.cloud/en/docs/overview/concepts/public-ips"
+    },
+    "regions": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/cloud-regions.20261019.html",
+      "resolved_url": "https://yandex.cloud/en/docs/overview/concepts/region",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:49:58.623469+00:00",
+      "sha256": "1b125c9d4dddb18e97780f48565d7fb0b6966f82d6f929a4f65a5a8c87116992",
+      "source_published_at": null,
+      "source_url": "https://yandex.cloud/en/docs/overview/concepts/region"
+    },
+    "servicepipe_asn": {
+      "media_type": "application/json",
+      "notes": "RIPEstat ASN attribution and routing status, not physical hosting geography.",
+      "raw_source_ref": "data/raw/crypto/as201706-overview.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:54:39.787374+00:00",
+      "sha256": "155dff1a0fb690d2c1efe465419069b32e4dea9c4a3414923d7cb18c7a2b9a05",
+      "source_published_at": null,
+      "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS201706"
+    },
+    "yandex_asn": {
+      "media_type": "application/json",
+      "notes": "RIPEstat ASN attribution and routing status, not physical hosting geography.",
+      "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:54:38.115829+00:00",
+      "sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+      "source_published_at": null,
+      "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+    },
+    "yandex_status": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/provider-status.20261019.html",
+      "resolved_url": "https://yandex.ru/company/news/09-10-2026-01",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:50:06.255924+00:00",
+      "sha256": "08c65744be3b990fa4206c023ea3eef4dac191d21c0c652867d410a8bc9d4b61",
+      "source_published_at": "2026-10-09",
+      "source_updated_at": "2026-10-11",
+      "source_url": "https://yandex.ru/company/news/09-10-2026-01"
+    },
+    "zones": {
+      "media_type": "text/html",
+      "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/cloud-zones.20261019.html",
+      "resolved_url": "https://yandex.cloud/en/docs/overview/concepts/geo-scope",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T14:49:56.903103+00:00",
+      "sha256": "69644c8fb7016e313d3e67028e4db360b063a63c3cac530fe23e4b7fdd46cf2c",
+      "source_date_basis": "Visible Updated at date in the provider documentation web reader; raw HTML body has no rendered date.",
+      "source_published_at": null,
+      "source_updated_at": "2026-07-13",
+      "source_url": "https://yandex.cloud/en/docs/overview/concepts/geo-scope"
+    }
+  },
+  "yandex": {
+    "asn": {
+      "holder": "YandexCloud Yandex.Cloud LLC",
+      "number": 200350,
+      "source_keys": [
+        "interconnect",
+        "yandex_asn"
+      ]
+    },
+    "cdn": {
+      "city_count": 35,
+      "country_review_required": [
+        {
+          "city": "Simferopol",
+          "normalized_country_code": null,
+          "reason": "Disputed territorial attribution; preserve the source label and review country normalization before any RU view inclusion.",
+          "source_country_label": "Russia"
+        }
+      ],
+      "duplicate_prefixes": 0,
+      "ip_families": {
+        "4": 107,
+        "6": 8
+      },
+      "limit": "City declarations, global PoP totals and service prefixes cannot be added or joined one-to-one; overlapping prefixes are valid declarations, not extra capacity.",
+      "overlapping_prefix_pairs": [
+        [
+          "188.72.105.0/24",
+          "188.72.105.0/27"
+        ]
+      ],
+      "prefix_count": 115,
+      "prefix_geography_provided": false,
+      "prefix_to_city_mapping_provided": false,
+      "provider_global_pop_claim": 78,
+      "source_country_labels": {
+        "Belarus": [
+          "Minsk"
+        ],
+        "Germany": [
+          "Frankfurt"
+        ],
+        "Kazakhstan": [
+          "Aktobe",
+          "Karaganda"
+        ],
+        "Kyrgyzstan": [
+          "Manas"
+        ],
+        "Netherlands": [
+          "Amsterdam"
+        ],
+        "Russia": [
+          "Alexandrov",
+          "Chelyabinsk",
+          "Chita",
+          "Irkutsk",
+          "Khabarovsk",
+          "Krasnodar",
+          "Krasnoyarsk",
+          "Moscow",
+          "Nizhny Novgorod",
+          "Novosibirsk",
+          "Orenburg",
+          "Petrozavodsk",
+          "Rostov-on-Don",
+          "Saint Petersburg",
+          "Samara",
+          "Simferopol",
+          "Sochi",
+          "Stavropol",
+          "Tambov",
+          "Tyumen",
+          "Ufa",
+          "Vladikavkaz",
+          "Vladivostok",
+          "Volgograd",
+          "Voronezh",
+          "Yaroslavl",
+          "Yekaterinburg"
+        ],
+        "Tajikistan": [
+          "Dushanbe"
+        ],
+        "Uzbekistan": [
+          "Tashkent"
+        ]
+      },
+      "source_keys": [
+        "cdn_cities",
+        "cdn_prefixes"
+      ],
+      "source_russia_label_city_count": 27
+    },
+    "certified_localities_ref": "data/yandex/data-centers.20261011.geojson",
+    "cloud_zone_candidates": [
+      {
+        "current_health_verified": false,
+        "facility_record_id": null,
+        "service_scope": "public_cloud",
+        "source_country_code": "RU",
+        "zone_id": "ru-central1-a"
+      },
+      {
+        "current_health_verified": false,
+        "facility_record_id": null,
+        "service_scope": "public_cloud",
+        "source_country_code": "RU",
+        "zone_id": "ru-central1-b"
+      },
+      {
+        "current_health_verified": false,
+        "facility_record_id": null,
+        "service_scope": "public_cloud",
+        "source_country_code": "RU",
+        "zone_id": "ru-central1-d"
+      },
+      {
+        "current_health_verified": false,
+        "facility_record_id": null,
+        "service_scope": "public_cloud",
+        "source_country_code": "RU",
+        "zone_id": "ru-central1-e"
+      },
+      {
+        "current_health_verified": false,
+        "facility_record_id": null,
+        "service_scope": "baremetal",
+        "source_country_code": "RU",
+        "zone_id": "ru-central1-m"
+      }
+    ],
+    "cloud_zone_source_keys": [
+      "zones",
+      "regions"
+    ],
+    "existing_cdn_observations": {
+      "asn": 200350,
+      "comparison_source": {
+        "path": "data/observations/cdn-asn-comparison.20261019.json",
+        "sha256": "60c7693e13d2fb5bf5878866a31c5ac37bcb8b55cafdaa75d06ce77489134534"
+      },
+      "limit": "ASN-level TLS associations do not identify a city, cache count, Apple-owned infrastructure, current operation, or a crypto-exchange customer.",
+      "physical_country_code": null,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-200350",
+        "apple": "observation:observed_presence:apple-200350",
+        "microsoft": "observation:observed_presence:microsoft-200350"
+      },
+      "source_study_month": "2026-06"
+    },
+    "public_ip_candidates": {
+      "counts_by_service": {
+        "baremetal": 7,
+        "dspm": 3,
+        "smartcaptcha-ips": 2,
+        "sws-ips": 2,
+        "virtual-private-cloud": 33,
+        "yandex-cloud-ips": 2
+      },
+      "physical_country_code": null,
+      "prefixes_by_service": {
+        "baremetal": [
+          "89.223.6.0/23",
+          "89.223.20.0/24",
+          "92.255.58.0/23",
+          "94.126.204.0/22",
+          "94.139.248.0/22",
+          "185.184.128.0/22",
+          "185.216.194.0/23"
+        ],
+        "dspm": [
+          "2a02:6b8:c0e:500:0:f898::/112",
+          "2a02:6b8:c02:900:0:f898::/112",
+          "2a02:6b8:c41:1300:0:f898::/112"
+        ],
+        "smartcaptcha-ips": [
+          "84.201.151.229/32",
+          "2a0d:d6c1:0:1a::20e/128"
+        ],
+        "sws-ips": [
+          "46.243.212.0/24",
+          "194.247.51.0/24"
+        ],
+        "virtual-private-cloud": [
+          "31.44.8.0/21",
+          "37.230.168.0/23",
+          "37.230.172.0/22",
+          "37.230.188.0/22",
+          "45.133.96.0/22",
+          "46.21.244.0/22",
+          "46.243.210.0/23",
+          "51.250.0.0/17",
+          "62.84.112.0/20",
+          "81.26.176.0/20",
+          "84.201.128.0/18",
+          "84.252.128.0/20",
+          "89.169.128.0/18",
+          "89.232.188.0/22",
+          "92.255.1.0/24",
+          "92.255.3.0/24",
+          "93.77.160.0/19",
+          "94.131.80.0/20",
+          "103.76.52.0/22",
+          "111.88.144.0/20",
+          "111.88.240.0/20",
+          "130.193.32.0/19",
+          "153.51.32.0/19",
+          "153.51.96.0/19",
+          "158.160.0.0/16",
+          "178.154.192.0/18",
+          "178.170.222.0/24",
+          "185.206.164.0/22",
+          "193.32.216.0/22",
+          "213.130.80.0/21",
+          "213.165.192.0/19",
+          "217.28.224.0/20",
+          "217.198.168.0/21"
+        ],
+        "yandex-cloud-ips": [
+          "2a02:6b8::/32",
+          "2a0d:d6c0::/29"
+        ]
+      },
+      "source_key": "public_ips"
+    },
+    "separate_kazakhstan_zones": [
+      "kz1-a"
+    ],
+    "status_review": {
+      "current_recovery_verified": false,
+      "limit": "The retrieved statement is still dated October 11; absence of a later update establishes neither continued outage nor recovery. Do not infer permanent retirement or zone-to-building mappings.",
+      "report_updated_at": "2026-10-11",
+      "reported_statuses": {
+        "Kaluga": "partially_disrupted",
+        "Sasovo": "stopped",
+        "Vladimir": "stopped"
+      },
+      "source_key": "yandex_status"
+    }
+  }
+}

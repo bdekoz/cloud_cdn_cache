@@ -1,0 +1,12 @@
+{
+  "content_status": "soft_404",
+  "media_type": "text/html",
+  "notes": "HTTP fetch returned a Page not found document. Not used to infer corporate relationships or exchange hosting; the public web reader returned the older article. Retained to document this access mismatch.",
+  "raw_source_ref": "data/raw/crypto/exmo-com-split.20261019.html",
+  "resolved_url": "https://exmo.com/blog/en/product/exmo-coms-product-release-recap-main-updates-of-the-year",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:50:12.273096+00:00",
+  "sha256": "3c97d24fc9f3bed45375584390577ae142973f64f0832feccd6a3371a0bf1f04",
+  "source_published_at": null,
+  "source_url": "https://exmo.com/blog/en/product/exmo-coms-product-release-recap-main-updates-of-the-year"
+}

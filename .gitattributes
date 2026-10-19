@@ -1,3 +1,5 @@
 # Preserve captured source bytes and their recorded digests. Upstream formatting
 # is evidence, so repository whitespace checks do not apply to these snapshots.
 data/raw/china-enrichment/* -text -whitespace
+data/raw/crypto/* -text -whitespace
+data/raw/yandex/* -text -whitespace

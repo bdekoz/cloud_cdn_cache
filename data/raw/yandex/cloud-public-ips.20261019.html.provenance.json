@@ -1,0 +1,13 @@
+{
+  "media_type": "text/html",
+  "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/yandex/cloud-public-ips.20261019.html",
+  "resolved_url": "https://yandex.cloud/en/docs/overview/concepts/public-ips",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:50:00.974233+00:00",
+  "sha256": "5bd504bd510385871b1ff02dc2f0691e654a5f1446688b62acba5194f01860ff",
+  "source_date_basis": "Visible Updated at date in the provider documentation web reader; raw HTML body has no rendered date.",
+  "source_published_at": null,
+  "source_updated_at": "2026-08-21",
+  "source_url": "https://yandex.cloud/en/docs/overview/concepts/public-ips"
+}

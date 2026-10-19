@@ -47,6 +47,8 @@ Stable provider IDs are preferred for `record_id`, `source_record_id`, and `site
 
 ## Evidence hierarchy
 
+The [Yandex and crypto-exchange review](russia-yandex-crypto.20261019.md) applies these boundaries to Russian infrastructure enrichment. Provider-declared zones, CDN cities, global PoP totals and prefixes have different units. Exchange office locations, IP registry country and endpoint routing do not establish origin hosting. Preserve domain identity, service status, DNS observation time and unknown origin geography separately; the bounded pilot is an assessment, outside canonical totals.
+
 Sources are selected in this order:
 
 1. Provider APIs and machine-readable provider endpoints

@@ -24,6 +24,7 @@ CHINA_REVIEW_TAG = "20261011"
 CHINA_IMPLEMENTATION_TAG = "20261011"
 CDN_COMPARISON_TAG = "20261019"
 CARTOGRAPHY_RESTORATION_TAG = "20261019"
+RUSSIA_ENRICHMENT_REVIEW_TAG = "20261019"
 
 BASELINE_LAYERS = (
     "google/edge",
@@ -308,6 +309,8 @@ def main() -> None:
             "china/legacy-reconciliation", "china/enrichment-implementation"))
     if tag >= CARTOGRAPHY_RESTORATION_TAG:
         assessments.append(assessment_manifest("apple/dns-endpoint-audit", CARTOGRAPHY_RESTORATION_TAG))
+    if tag >= RUSSIA_ENRICHMENT_REVIEW_TAG:
+        assessments.append(assessment_manifest("russia/enrichment-assessment", RUSSIA_ENRICHMENT_REVIEW_TAG))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:

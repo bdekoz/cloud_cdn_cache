@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Direct DNS observations. Full resolver responses, query URLs and timestamps retained. Resolver-selected answers do not identify origin hosting location, owned facilities, or exchange operational status.",
+  "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+  "source_published_at": null,
+  "source_url": "https://dns.google/resolve"
+}

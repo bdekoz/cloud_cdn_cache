@@ -1,0 +1,207 @@
+{
+  "handle" : "109.238.88.0 - 109.238.91.255",
+  "startAddress" : "109.238.88.0",
+  "endAddress" : "109.238.91.255",
+  "ipVersion" : "v4",
+  "name" : "RU-SERVICEPIPE-20101203",
+  "type" : "ALLOCATED PA",
+  "country" : "RU",
+  "parentHandle" : "0.0.0.0 - 255.255.255.255",
+  "cidr0_cidrs" : [ {
+    "v4prefix" : "109.238.88.0",
+    "length" : 22
+  } ],
+  "status" : [ "active" ],
+  "entities" : [ {
+    "handle" : "EP13314-RIPE",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "Evgenii Popov" ], [ "kind", { }, "text", "individual" ], [ "adr", {
+      "label" : "Russia, Moscow Petrovka 27"
+    }, "text", [ "", "", "", "", "", "", "" ] ], [ "tel", {
+      "type" : "voice"
+    }, "text", "+7 495 6275944" ] ] ],
+    "roles" : [ "administrative", "technical" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/EP13314-RIPE"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "ORG-SL617-RIPE",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "SERVICEPIPE LLC" ], [ "kind", { }, "text", "org" ], [ "adr", {
+      "label" : "2nd Kabelnaya street, 2/3, 2nd floor, room XVIII 8\n111024\nMoscow\nRUSSIAN FEDERATION"
+    }, "text", [ "", "", "", "", "", "", "" ] ], [ "tel", {
+      "type" : "voice"
+    }, "text", "+74953749728" ] ] ],
+    "roles" : [ "registrant" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/ORG-SL617-RIPE"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "RIPE-NCC-HM-MNT",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "RIPE-NCC-HM-MNT" ], [ "kind", { }, "text", "individual" ], [ "org", { }, "text", "ORG-NCC1-RIPE" ] ] ],
+    "roles" : [ "registrant" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/RIPE-NCC-HM-MNT"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "SERVICEPIPE-MNT",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "SERVICEPIPE-MNT" ], [ "kind", { }, "text", "individual" ] ] ],
+    "roles" : [ "registrant" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/SERVICEPIPE-MNT"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "AR60221-RIPE",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "Abuse-C Role" ], [ "kind", { }, "text", "group" ], [ "adr", {
+      "label" : "2nd Kabelnaya street, 2/3 building, 2nd floor, room XVIII 8"
+    }, "text", [ "", "", "", "", "", "", "" ] ], [ "email", {
+      "type" : "abuse"
+    }, "text", "abuse@servicepipe.ru" ] ] ],
+    "roles" : [ "abuse" ],
+    "entities" : [ {
+      "handle" : "SERVICEPIPE-MNT",
+      "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "SERVICEPIPE-MNT" ], [ "kind", { }, "text", "individual" ] ] ],
+      "roles" : [ "registrant" ],
+      "links" : [ {
+        "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+        "rel" : "self",
+        "href" : "https://rdap.db.ripe.net/entity/SERVICEPIPE-MNT"
+      }, {
+        "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+        "rel" : "copyright",
+        "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+      } ],
+      "objectClassName" : "entity"
+    } ],
+    "objectClassName" : "entity"
+  } ],
+  "links" : [ {
+    "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "rel" : "rdap-up",
+    "href" : "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/109.238.88.0%20-%20109.238.91.255",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "rel" : "rdap-up rdap-active",
+    "href" : "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/109.238.88.0%20-%20109.238.91.255?status=active",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "rel" : "rdap-down",
+    "href" : "https://rdap.db.ripe.net/ips/rirSearch1/rdap-down/109.238.88.0%20-%20109.238.91.255",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "rel" : "rdap-top",
+    "href" : "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/109.238.88.0%20-%20109.238.91.255",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "rel" : "rdap-top rdap-active",
+    "href" : "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/109.238.88.0%20-%20109.238.91.255?status=active",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "rel" : "rdap-bottom",
+    "href" : "https://rdap.db.ripe.net/ips/rirSearch1/rdap-bottom/109.238.88.0%20-%20109.238.91.255",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "rel" : "self",
+    "href" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+    "rel" : "copyright",
+    "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+  } ],
+  "events" : [ {
+    "eventAction" : "registration",
+    "eventDate" : "2022-12-16T16:22:54Z"
+  }, {
+    "eventAction" : "last changed",
+    "eventDate" : "2024-04-25T13:38:07Z"
+  } ],
+  "rdapConformance" : [ "geofeed1", "rirSearch1", "ips", "cidr0", "rdap_level_0", "nro_rdap_profile_0", "redacted" ],
+  "notices" : [ {
+    "title" : "Filtered",
+    "description" : [ "This output has been filtered." ]
+  }, {
+    "title" : "Whois Inaccuracy Reporting",
+    "description" : [ "If you see inaccuracies in the results, please visit:" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+      "rel" : "inaccuracy-report",
+      "href" : "https://www.ripe.net/contact-form?topic=ripe_dbm&show_form=true",
+      "type" : "text/html"
+    } ]
+  }, {
+    "title" : "Source",
+    "description" : [ "Objects returned came from source", "RIPE" ]
+  }, {
+    "title" : "Terms and Conditions",
+    "description" : [ "This is the RIPE Database query service. The objects are in RDAP format." ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/ip/109.238.90.238",
+      "rel" : "terms-of-service",
+      "href" : "http://www.ripe.net/db/support/db-terms-conditions.pdf",
+      "type" : "application/pdf"
+    } ]
+  } ],
+  "port43" : "whois.ripe.net",
+  "objectClassName" : "ip network",
+  "redacted" : [ {
+    "name" : {
+      "description" : "Personal e-mail information"
+    },
+    "reason" : {
+      "description" : "Personal data"
+    },
+    "prePath" : "$.entities[?(@.handle=='EP13314-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+    "method" : "removal"
+  }, {
+    "name" : {
+      "description" : "Personal e-mail information"
+    },
+    "reason" : {
+      "description" : "Personal data"
+    },
+    "prePath" : "$.entities[?(@.handle=='ORG-SL617-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+    "method" : "removal"
+  }, {
+    "name" : {
+      "description" : "Personal e-mail information"
+    },
+    "reason" : {
+      "description" : "Personal data"
+    },
+    "prePath" : "$.entities[?(@.handle=='AR60221-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+    "method" : "removal"
+  } ]
+}

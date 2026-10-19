@@ -1,0 +1,13 @@
+{
+  "media_type": "text/html",
+  "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/yandex/cloud-interconnect.20261019.html",
+  "resolved_url": "https://yandex.cloud/en/docs/interconnect/concepts/pub-con",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:52:22.817155+00:00",
+  "sha256": "2bb9ef07718726856ba7d02c6a3c8c6004a31db512388a206978795f0595c117",
+  "source_date_basis": "Visible Updated at date in the provider documentation web reader; raw HTML body has no rendered date.",
+  "source_published_at": null,
+  "source_updated_at": "2026-09-30",
+  "source_url": "https://yandex.cloud/en/docs/interconnect/concepts/pub-con"
+}

@@ -1,0 +1,553 @@
+{
+  "method": "Google Public DNS HTTPS JSON API; one query per hostname and RR type; no explicit ECS or probe location",
+  "records": [
+    {
+      "endpoint_role": "website",
+      "hostname": "abcex.io",
+      "queried_at": "2026-10-19T14:52:50.870300+00:00",
+      "resolver_url": "https://dns.google/resolve?name=abcex.io&type=A",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 23,
+            "data": "109.238.90.238",
+            "name": "abcex.io.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "abcex.io.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "A"
+    },
+    {
+      "endpoint_role": "website",
+      "hostname": "abcex.io",
+      "queried_at": "2026-10-19T14:52:50.951800+00:00",
+      "resolver_url": "https://dns.google/resolve?name=abcex.io&type=AAAA",
+      "response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 212.67.27.6.",
+        "Question": [
+          {
+            "name": "abcex.io.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "AAAA"
+    },
+    {
+      "endpoint_role": "website",
+      "hostname": "abcex.io",
+      "queried_at": "2026-10-19T14:52:51.347542+00:00",
+      "resolver_url": "https://dns.google/resolve?name=abcex.io&type=CNAME",
+      "response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 212.67.27.6.",
+        "Question": [
+          {
+            "name": "abcex.io.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "CNAME"
+    },
+    {
+      "endpoint_role": "documented_websocket",
+      "hostname": "hub.abcex.io",
+      "queried_at": "2026-10-19T14:52:51.595808+00:00",
+      "resolver_url": "https://dns.google/resolve?name=hub.abcex.io&type=A",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 2912,
+            "data": "109.238.90.238",
+            "name": "hub.abcex.io.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "hub.abcex.io.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "A"
+    },
+    {
+      "endpoint_role": "documented_websocket",
+      "hostname": "hub.abcex.io",
+      "queried_at": "2026-10-19T14:52:51.673800+00:00",
+      "resolver_url": "https://dns.google/resolve?name=hub.abcex.io&type=AAAA",
+      "response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1113,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "hub.abcex.io.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "AAAA"
+    },
+    {
+      "endpoint_role": "documented_websocket",
+      "hostname": "hub.abcex.io",
+      "queried_at": "2026-10-19T14:52:51.734913+00:00",
+      "resolver_url": "https://dns.google/resolve?name=hub.abcex.io&type=CNAME",
+      "response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from ns1.servicepipe.ru.(212.67.27.6).",
+        "Question": [
+          {
+            "name": "hub.abcex.io.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "CNAME"
+    },
+    {
+      "endpoint_role": "documented_rest_api",
+      "hostname": "api.bybit.com",
+      "queried_at": "2026-10-19T14:52:52.141082+00:00",
+      "resolver_url": "https://dns.google/resolve?name=api.bybit.com&type=A",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 60,
+            "data": "d3d4ij29qlbhtu.cloudfront.net.",
+            "name": "api.bybit.com.",
+            "type": 5
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.104",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.21",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.45",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.19",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 205.251.197.26.",
+        "Question": [
+          {
+            "name": "api.bybit.com.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "A"
+    },
+    {
+      "endpoint_role": "documented_rest_api",
+      "hostname": "api.bybit.com",
+      "queried_at": "2026-10-19T14:52:52.212876+00:00",
+      "resolver_url": "https://dns.google/resolve?name=api.bybit.com&type=AAAA",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 60,
+            "data": "d3d4ij29qlbhtu.cloudfront.net.",
+            "name": "api.bybit.com.",
+            "type": 5
+          }
+        ],
+        "Authority": [
+          {
+            "TTL": 3,
+            "data": "ns-418.awsdns-52.com. hostmaster.cloudfront.net. 1377556270 16384 2048 1048576 60",
+            "name": "cloudfront.net.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "api.bybit.com.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "AAAA"
+    },
+    {
+      "endpoint_role": "documented_rest_api",
+      "hostname": "api.bybit.com",
+      "queried_at": "2026-10-19T14:52:52.277349+00:00",
+      "resolver_url": "https://dns.google/resolve?name=api.bybit.com&type=CNAME",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 60,
+            "data": "d3d4ij29qlbhtu.cloudfront.net.",
+            "name": "api.bybit.com.",
+            "type": 5
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "api.bybit.com.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "CNAME"
+    },
+    {
+      "endpoint_role": "documented_websocket",
+      "hostname": "stream.bybit.com",
+      "queried_at": "2026-10-19T14:52:52.347188+00:00",
+      "resolver_url": "https://dns.google/resolve?name=stream.bybit.com&type=A",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 18,
+            "data": "d2mo22rbksh9yz.cloudfront.net.",
+            "name": "stream.bybit.com.",
+            "type": 5
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.39",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.122",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.76",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.102",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 205.251.192.29.",
+        "Question": [
+          {
+            "name": "stream.bybit.com.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "A"
+    },
+    {
+      "endpoint_role": "documented_websocket",
+      "hostname": "stream.bybit.com",
+      "queried_at": "2026-10-19T14:52:52.404601+00:00",
+      "resolver_url": "https://dns.google/resolve?name=stream.bybit.com&type=AAAA",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 1,
+            "data": "d2mo22rbksh9yz.cloudfront.net.",
+            "name": "stream.bybit.com.",
+            "type": 5
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:5a00:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:d800:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:e00:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:2a00:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:9000:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:8000:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:f600:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:600:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 205.251.192.29.",
+        "Question": [
+          {
+            "name": "stream.bybit.com.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "AAAA"
+    },
+    {
+      "endpoint_role": "documented_websocket",
+      "hostname": "stream.bybit.com",
+      "queried_at": "2026-10-19T14:52:52.473122+00:00",
+      "resolver_url": "https://dns.google/resolve?name=stream.bybit.com&type=CNAME",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 1,
+            "data": "d2mo22rbksh9yz.cloudfront.net.",
+            "name": "stream.bybit.com.",
+            "type": 5
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "stream.bybit.com.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "CNAME"
+    },
+    {
+      "endpoint_role": "closure_notice_website",
+      "hostname": "exmo.me",
+      "queried_at": "2026-10-19T14:52:52.528104+00:00",
+      "resolver_url": "https://dns.google/resolve?name=exmo.me&type=A",
+      "response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 120,
+            "data": "185.178.208.182",
+            "name": "exmo.me.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 185.129.101.200.",
+        "Question": [
+          {
+            "name": "exmo.me.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "A"
+    },
+    {
+      "endpoint_role": "closure_notice_website",
+      "hostname": "exmo.me",
+      "queried_at": "2026-10-19T14:52:52.740717+00:00",
+      "resolver_url": "https://dns.google/resolve?name=exmo.me&type=AAAA",
+      "response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.ddos-guard.net. support.ddos-guard.net. 1789392389 10800 3600 604800 3600",
+            "name": "exmo.me.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 185.129.103.200.",
+        "Question": [
+          {
+            "name": "exmo.me.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "AAAA"
+    },
+    {
+      "endpoint_role": "closure_notice_website",
+      "hostname": "exmo.me",
+      "queried_at": "2026-10-19T14:52:52.947721+00:00",
+      "resolver_url": "https://dns.google/resolve?name=exmo.me&type=CNAME",
+      "response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.ddos-guard.net. support.ddos-guard.net. 1789392389 10800 3600 604800 3600",
+            "name": "exmo.me.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 185.129.103.200.",
+        "Question": [
+          {
+            "name": "exmo.me.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "rrtype": "CNAME"
+    }
+  ]
+}

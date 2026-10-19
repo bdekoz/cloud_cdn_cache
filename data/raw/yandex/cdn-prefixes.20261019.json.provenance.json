@@ -1,0 +1,11 @@
+{
+  "media_type": "application/json",
+  "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/yandex/cdn-prefixes.20261019.json",
+  "resolved_url": "https://tech.cdn.yandex.net/prefixes/yc.json",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:50:04.055029+00:00",
+  "sha256": "27daf2da169adab504771f0375ad58f5e2f8d076497e9146dd6432c0830a4a84",
+  "source_published_at": null,
+  "source_url": "https://tech.cdn.yandex.net/prefixes/yc.json"
+}

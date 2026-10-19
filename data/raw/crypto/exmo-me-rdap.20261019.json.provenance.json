@@ -1,0 +1,10 @@
+{
+  "media_type": "application/rdap+json",
+  "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+  "raw_source_ref": "data/raw/crypto/exmo-me-rdap.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:53:35.110385+00:00",
+  "sha256": "4065f3290e028839f8e490574439b1de7e28edbec19f572b7e2c3de17f595267",
+  "source_published_at": null,
+  "source_url": "https://rdap.db.ripe.net/ip/185.178.208.182"
+}

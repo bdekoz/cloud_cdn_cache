@@ -43,6 +43,10 @@
     {
       "path": "data/apple/dns-endpoint-audit.20261019.json",
       "sha256": "93808f31fdb95e60783de7d39d650fe19ea3d777bb1cbedc4f54f947eb646c84"
+    },
+    {
+      "path": "data/russia/enrichment-assessment.20261019.json",
+      "sha256": "7e2b400ca95c4686d4062c49a18417cc6b0dff7872b9e6b09cd2596dbeadea5b"
     }
   ],
   "generated_from_retained_snapshots_at": "2026-10-19",

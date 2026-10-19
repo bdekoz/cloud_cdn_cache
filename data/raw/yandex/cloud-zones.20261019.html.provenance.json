@@ -1,0 +1,13 @@
+{
+  "media_type": "text/html",
+  "notes": "Public source retained for a bounded infrastructure assessment. Publication/update dates are evaluated separately; retrieval does not establish current operations or physical hosting. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/yandex/cloud-zones.20261019.html",
+  "resolved_url": "https://yandex.cloud/en/docs/overview/concepts/geo-scope",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:49:56.903103+00:00",
+  "sha256": "69644c8fb7016e313d3e67028e4db360b063a63c3cac530fe23e4b7fdd46cf2c",
+  "source_date_basis": "Visible Updated at date in the provider documentation web reader; raw HTML body has no rendered date.",
+  "source_published_at": null,
+  "source_updated_at": "2026-07-13",
+  "source_url": "https://yandex.cloud/en/docs/overview/concepts/geo-scope"
+}

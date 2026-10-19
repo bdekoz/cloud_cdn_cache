@@ -1,0 +1,10 @@
+{
+  "media_type": "application/json",
+  "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+  "raw_source_ref": "data/raw/crypto/exmo-me-network-info.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:53:34.214535+00:00",
+  "sha256": "b63126e8c08f9d47e1e594202f3fb2161b01dfac44b1019995d27ffe4b8b4828",
+  "source_published_at": null,
+  "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=185.178.208.182"
+}

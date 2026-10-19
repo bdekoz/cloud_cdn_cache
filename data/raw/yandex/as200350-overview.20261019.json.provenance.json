@@ -1,0 +1,10 @@
+{
+  "media_type": "application/json",
+  "notes": "RIPEstat ASN attribution and routing status, not physical hosting geography.",
+  "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:54:38.115829+00:00",
+  "sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+  "source_published_at": null,
+  "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+}

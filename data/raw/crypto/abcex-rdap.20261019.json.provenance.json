@@ -1,0 +1,10 @@
+{
+  "media_type": "application/rdap+json",
+  "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+  "raw_source_ref": "data/raw/crypto/abcex-rdap.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:53:34.667091+00:00",
+  "sha256": "94248ea5eafda5615b96b3f7e84b6dc657f5b29e9aa5368397ada424ab80378e",
+  "source_published_at": null,
+  "source_url": "https://rdap.db.ripe.net/ip/109.238.90.238"
+}

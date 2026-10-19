@@ -1,0 +1,10 @@
+{
+  "media_type": "application/json",
+  "notes": "Public RIPE routing or registry evidence for a DNS answer; not proof of an exchange origin location.",
+  "raw_source_ref": "data/raw/crypto/abcex-network-info.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T14:53:33.742041+00:00",
+  "sha256": "4ae11e68626dd0c5368dc9f678fc94ff7cf2e02a635ce457da5b76910e014c44",
+  "source_published_at": null,
+  "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=109.238.90.238"
+}
