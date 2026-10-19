@@ -1,0 +1,19 @@
+{
+  "bytes": 1409377,
+  "capture_method": "http_response",
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://aws.amazon.com/blogs/migration-and-modernization/how-to-plan-your-migration-to-the-aws-region-in-saudi-arabia/",
+  "http_last_modified": "Thu, 15 Oct 2026 14:22:57 GMT",
+  "path": "data/raw/geography-enrichment/aws-saudi-plan.20261019.html",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/geography-enrichment/aws-saudi-plan.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "planned December 2026 launch; not live as of review",
+  "sha256": "17175fad1a0d6dc26fbf5037cc807fb692f67a61fd80fed7f993bbee93cd71f6",
+  "source_id": "aws-saudi-plan",
+  "source_published_at": "2026-10-15",
+  "source_updated_at": null,
+  "source_url": "https://aws.amazon.com/blogs/migration-and-modernization/how-to-plan-your-migration-to-the-aws-region-in-saudi-arabia/",
+  "title": "How to plan your migration to the AWS Region in Saudi Arabia"
+}

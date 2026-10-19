@@ -138,3 +138,7 @@ For a genuinely new snapshot, set a new ISO date, review the upstream source ver
 - `No rule to make target ...geojson` or `...json`: the manifest names a missing canonical source, or the requested CSV has no matching location/network document.
 - CSV did not rebuild: use `make -B <target>` and check timestamps on the GeoJSON, schema, and jq program.
 - A CSV appears in `git status`: only manifest-declared normalized targets are expected to be ignored; raw, recovered, historical, or unregistered files remain visible intentionally.
+
+## Locality CSV view
+
+`make RETRIEVED_AT=2026-10-19 csv` includes the separate geographic-footprint view. Generate it alone with `make data/china/provider-localities.20261019.csv`. It uses `scripts/geographic-footprint-to-csv.jq`, preserving grouped source IDs, evidence and gazetteer metadata as JSON-valued columns. It is not a canonical location-schema CSV and does not enter canonical record totals.

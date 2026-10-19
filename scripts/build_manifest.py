@@ -26,6 +26,7 @@ CDN_COMPARISON_TAG = "20261019"
 CARTOGRAPHY_RESTORATION_TAG = "20261019"
 RUSSIA_ENRICHMENT_REVIEW_TAG = "20261019"
 RUSSIA_IMPLEMENTATION_TAG = "20261019"
+GEOGRAPHY_ENRICHMENT_TAG = "20261019"
 RUSSIA_LOCATION_LAYERS = (
     "yandex/regions-and-zones", "yandex/cdn-cities", "selectel/russian-hierarchy",
     "cloudru/advanced-regions-and-zones", "cloudru/evolution-zones", "ixcellerate/data-centers",
@@ -261,6 +262,20 @@ def application_manifest(tag: str) -> dict[str, Any]:
             "sources": [sources[key] for key in sorted(sources)], "derived_files": report["derived_files"]}
 
 
+def geographic_footprint_manifest(tag: str) -> dict[str, Any]:
+    path = REPO_ROOT / f"data/china/provider-localities.{tag}.geojson"
+    report_path = path.with_suffix(".report.json")
+    collection = json.loads(path.read_text(encoding="utf-8"))
+    report = json.loads(report_path.read_text(encoding="utf-8"))
+    return {"layer": "china/provider-localities", "snapshot_tag": tag,
+        "schema_version": collection["schema_version"], "record_count": len(collection["features"]),
+        "record_unit": "provider_service_locality", "excluded_from_canonical_totals": True,
+        "physical_sites": False, "input_layers": report["input_layers"],
+        "files": {"geojson": {"path": repo_ref(path), "sha256": sha256(path)},
+                  "report": {"path": repo_ref(report_path), "sha256": sha256(report_path)}},
+        "derived_files": report["derived_files"]}
+
+
 def main() -> None:
     args = parse_args()
     tag = retrieval_tag(args.retrieved_at)
@@ -295,6 +310,9 @@ def main() -> None:
             "akamai/legacy-locations", "apple/dns-cities"))
     if tag >= RUSSIA_IMPLEMENTATION_TAG:
         layer_specs.extend((layer, RUSSIA_IMPLEMENTATION_TAG) for layer in RUSSIA_LOCATION_LAYERS)
+    if tag >= GEOGRAPHY_ENRICHMENT_TAG:
+        layer_specs = [(layer, GEOGRAPHY_ENRICHMENT_TAG if layer == "chindata/data-centers" else snapshot_tag)
+                       for layer, snapshot_tag in layer_specs]
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     network_layers = []
     if tag >= NETWORK_TAG:
@@ -359,6 +377,9 @@ def main() -> None:
         assessments.append(assessment_manifest("russia/enrichment-assessment", RUSSIA_ENRICHMENT_REVIEW_TAG))
     if tag >= RUSSIA_IMPLEMENTATION_TAG:
         assessments.append(assessment_manifest("russia/enrichment-implementation", RUSSIA_IMPLEMENTATION_TAG))
+    if tag >= GEOGRAPHY_ENRICHMENT_TAG:
+        assessments.extend(assessment_manifest(name, GEOGRAPHY_ENRICHMENT_TAG) for name in (
+            "china/geography-enrichment", "chindata/campus-alias-review", "gulf/aws-oracle-coverage"))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
@@ -394,10 +415,26 @@ def main() -> None:
             "application_endpoint_record_count": application_layer["record_count"],
             "application_entity_count": application_layer["entity_count"],
         }
+    geographic_sections = {}
+    scope_note = "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count."
+    if tag >= GEOGRAPHY_ENRICHMENT_TAG:
+        footprint_schema = REPO_ROOT / "schema/geographic-footprint.schema.json"
+        bibliography = REPO_ROOT / f"data/references/bibliography.{GEOGRAPHY_ENRICHMENT_TAG}.json"
+        bibliography_doc = REPO_ROOT / f"docs/bibliography.{GEOGRAPHY_ENRICHMENT_TAG}.md"
+        geographic_sections = {
+            "geographic_footprint_schema": {"path": repo_ref(footprint_schema), "sha256": sha256(footprint_schema), "version": "1.0.0"},
+            "geographic_footprint_views": [geographic_footprint_manifest(GEOGRAPHY_ENRICHMENT_TAG)],
+            "geographic_footprint_view_count": 1,
+            "bibliography": {"files": {"json": {"path": repo_ref(bibliography), "sha256": sha256(bibliography)},
+                                       "markdown": {"path": repo_ref(bibliography_doc), "sha256": sha256(bibliography_doc)}},
+                             "reference_count": json.loads(bibliography.read_text())["reference_count"]},
+        }
+        scope_note = scope_note.replace("Derived views", "Derived location views") + " Geographic footprint views group provider/service/locality memberships, use reference-point geometry and are also excluded from canonical totals."
     write_json(output, {
         **infrastructure_sections,
         **comparison_sections,
         **application_sections,
+        **geographic_sections,
         "assessments": assessments,
         "generated_from_retained_snapshots_at": args.retrieved_at,
         "layer_count": len(layers),
@@ -412,7 +449,7 @@ def main() -> None:
         },
         "record_count": sum(layer["record_count"] for layer in layers),
         "schema": {"path": repo_ref(location_schema), "sha256": sha256(location_schema), "version": location_version},
-        "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
+        "scope_note": scope_note,
         "quarantine": {"audit_path": repo_ref(quarantine_audit), "audit_sha256": sha256(quarantine_audit)},
         "view_count": len(views),
         "views": views,

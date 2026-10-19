@@ -1,0 +1,26 @@
+{
+  "archive_member": "CN.txt",
+  "bytes": 399,
+  "capture_method": "verbatim_selected_archive_rows",
+  "content_type": "application/zip",
+  "download_bytes": 32196606,
+  "download_sha256": "d5c8b5b5c71c5e23eee0bd21fa6856fe4a55c0e2c8dc81b70b4c1047ee50bd81",
+  "final_url": "https://download.geonames.org/export/dump/CN.zip",
+  "http_last_modified": "Mon, 19 Oct 2026 01:54:20 GMT",
+  "path": "data/raw/geography-enrichment/geonames-cn.20261019.tsv",
+  "publisher": "GeoNames",
+  "raw_source_ref": "data/raw/geography-enrichment/geonames-cn.20261019.tsv",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "county identity review; selected rows retained separately",
+  "selected_geonames_ids": [
+    "1803485",
+    "2036767"
+  ],
+  "sha256": "14b876af4550e4aa75d2ea75d3e79510a0ef71af7d954d8f384d594474e38ef8",
+  "source_id": "geonames-cn",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://download.geonames.org/export/dump/CN.zip",
+  "title": "GeoNames China gazetteer"
+}

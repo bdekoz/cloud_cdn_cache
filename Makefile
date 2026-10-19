@@ -7,7 +7,8 @@ CSV_INFRASTRUCTURE_JSON := $(shell jq -r '(.infrastructure_evidence_layers[]?, .
 CSV_VENDOR_JSON := $(shell jq -r '.vendor_registry? | .files.json.path // empty' $(MANIFEST) 2>/dev/null)
 CSV_COMPARISON_JSON := $(shell jq -r '.observation_comparison_views[]? | .files.json.path' $(MANIFEST) 2>/dev/null)
 CSV_APPLICATION_JSON := $(shell jq -r '.application_endpoint_layers[]? | .files.json.path' $(MANIFEST) 2>/dev/null)
-CSV_TARGETS := $(CSV_GEOJSON:.geojson=.csv) $(CSV_NETWORK_JSON:.json=.csv) $(CSV_INFRASTRUCTURE_JSON:.json=.csv) $(CSV_VENDOR_JSON:.json=.csv) $(CSV_COMPARISON_JSON:.json=.csv) $(CSV_APPLICATION_JSON:.json=.csv)
+CSV_FOOTPRINT_GEOJSON := $(shell jq -r '.geographic_footprint_views[]? | .files.geojson.path' $(MANIFEST) 2>/dev/null)
+CSV_TARGETS := $(CSV_GEOJSON:.geojson=.csv) $(CSV_NETWORK_JSON:.json=.csv) $(CSV_INFRASTRUCTURE_JSON:.json=.csv) $(CSV_VENDOR_JSON:.json=.csv) $(CSV_COMPARISON_JSON:.json=.csv) $(CSV_APPLICATION_JSON:.json=.csv) $(CSV_FOOTPRINT_GEOJSON:.geojson=.csv)
 
 .PHONY: all check check-csv-tools clean-csv csv help refresh-network refresh-network-offline
 
@@ -56,6 +57,10 @@ data/applications/%.csv: data/applications/%.json schema/application-endpoint.sc
 		-f scripts/application-endpoint-to-csv.jq "$<" > "$@.tmp"
 	@mv "$@.tmp" "$@"
 
+data/china/provider-localities.%.csv: data/china/provider-localities.%.geojson schema/geographic-footprint.schema.json scripts/geographic-footprint-to-csv.jq
+	@jq -r -f scripts/geographic-footprint-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"
+
 refresh-network:
 	python3 -B scripts/update_network.py --retrieved-at $(RETRIEVED_AT) --fetch
 	python3 -B scripts/update_peeringdb.py --retrieved-at $(RETRIEVED_AT) --fetch
@@ -83,6 +88,7 @@ check:
 	python3 -B tests/validate_china_review.py
 	python3 -B tests/validate_china_enrichment.py
 	python3 -B tests/validate_cartography_sources.py
+	python3 -B tests/validate_geography_enrichment.py
 	git diff --check
 
 help:

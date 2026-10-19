@@ -1,0 +1,19 @@
+{
+  "bytes": 10262,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.chindatagroup.com/global/base/42.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/chindata-gallery-42.20261019.html",
+  "publisher": "Chindata",
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-42.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "identity review; no inferred photographic geolocation",
+  "sha256": "c8bc8400606cc2b23060fcc3531a5d040744ebf895a1dfb3d6c4f0cfe82eb66a",
+  "source_id": "chindata-gallery-42",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/global/base/42.html",
+  "title": "Chindata code detail gallery 42"
+}

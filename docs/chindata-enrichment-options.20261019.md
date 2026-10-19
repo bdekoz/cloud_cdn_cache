@@ -1,6 +1,6 @@
 # Chindata: empty map and enrichment options
 
-Reviewed October 19, 2026. This is a source investigation and proposed implementation sequence; the canonical Chindata layer has not been changed.
+Reviewed October 19, 2026. This document preserves the initial investigation. The subsequently approved [implementation](china-geography-enrichment.20261019.md) expands the code directory to nine entries and adds four separately counted locality points; the historical four-code snapshot below remains unchanged.
 
 The [current layer](../data/chindata/data-centers.20261011.geojson) contains four records, not zero: `ChinaNorth H01`, `H02`, `H04` and `W01`. All four have null geometry, unknown city and unknown lifecycle, so a point map has nothing to draw. The [October implementation](china-enrichment.20261011.md) explicitly retained the unresolved code-to-campus relationships.
 

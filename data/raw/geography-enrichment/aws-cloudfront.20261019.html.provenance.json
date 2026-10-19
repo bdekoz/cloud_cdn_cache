@@ -1,0 +1,19 @@
+{
+  "bytes": 451015,
+  "capture_method": "http_response",
+  "content_type": "text/html;charset=utf-8",
+  "final_url": "https://aws.amazon.com/cloudfront/features/",
+  "http_last_modified": "Fri, 16 Oct 2026 22:04:36 GMT",
+  "path": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "edge-location coverage reconciliation",
+  "sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+  "source_id": "aws-cloudfront",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://aws.amazon.com/cloudfront/features/",
+  "title": "Amazon CloudFront features and network"
+}

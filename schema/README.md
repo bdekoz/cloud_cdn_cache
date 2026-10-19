@@ -2,6 +2,8 @@
 
 Connectivity systems, regulatory authorizations, fiber links, optical/quantum projects, and other emergent units use the separate [`infrastructure-evidence.schema.json`](infrastructure-evidence.schema.json). Its category vocabulary is open, every category has a definition, and every record states its unit. It does not modify the retained location/network contracts or combine their totals. See [`infrastructure-expansion.20261011.md`](../docs/infrastructure-expansion.20261011.md).
 
+Derived provider/service/locality points use [`geographic-footprint.schema.json`](geographic-footprint.schema.json), published under `geographic_footprint_views` in the manifest. They have their own `footprint_id`, grouped canonical `source_record_ids` or named-evidence `source_claim_ids`, and reviewed GeoNames provenance. Their geometry is a city or county reference point; `physical_site_confirmed=false` and `excluded_from_canonical_totals=true` are required. Availability zones do not generate separate locality points. See [China locality enrichment](../docs/china-geography-enrichment.20261019.md).
+
 [`location-v1.3.schema.json`](location-v1.3.schema.json) is the current location contract, accepting retained `1.1.0`/`1.2.0` records and new `1.3.0` records. [`location.schema.json`](location.schema.json) remains the unchanged 1.2 contract for historical manifests. Both define the same canonical fields and CSV column order. Service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes. CSV is a deterministic projection of canonical GeoJSON.
 
 Version 1.1 adds fields needed to represent Chinese provider catalogs without collapsing unlike products or jurisdictions:

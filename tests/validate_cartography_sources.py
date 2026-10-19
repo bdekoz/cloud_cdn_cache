@@ -42,11 +42,12 @@ def main():
     old_manifest = read(old)
     current = read(ROOT/'data/manifest.20261019.json')
     baseline = read(ROOT/'data/raw/repository/manifest-before-russia.20261019.json')
+    before_geography = read(ROOT/'data/raw/repository/manifest-before-geography.20261019.json')
     assert baseline['record_count'] == 27930 and baseline['layer_count'] == 33
-    assert current['layers'][:33] == baseline['layers']
+    assert before_geography['layers'][:33] == baseline['layers']
     assert current['record_count'] == sum(layer['record_count'] for layer in current['layers'])
     assert current['layer_count'] == len(current['layers'])
-    assert current['layers'][:len(old_manifest['layers'])] == old_manifest['layers']
+    assert before_geography['layers'][:len(old_manifest['layers'])] == old_manifest['layers']
     for layer in current['layers']:
         for file in layer['files'].values():
             assert digest(ROOT/file['path']) == file['sha256']
@@ -86,7 +87,7 @@ def main():
     for sidecar in RAW.glob('*.provenance.json'):
         p = read(sidecar)
         assert digest(ROOT/p['raw_source_ref']) == p['sha256']
-    print('Cartography sources passed: 416 retained Akamai rows; 14 Apple DNS cities; 104 located and 4 held addresses; all 31 prior layers unchanged.')
+    print('Cartography sources passed: 416 retained Akamai rows; 14 Apple DNS cities; 104 located and 4 held addresses; all historical layers preserved.')
 
 
 if __name__ == '__main__': main()

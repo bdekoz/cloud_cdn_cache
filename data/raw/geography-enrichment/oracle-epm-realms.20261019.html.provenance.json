@@ -1,0 +1,19 @@
+{
+  "bytes": 95835,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+  "publisher": "Oracle",
+  "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "product-scoped dedicated realms; not general public availability",
+  "sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+  "source_id": "oracle-epm-realms",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+  "title": "EPM Cloud Geographic, Data, and Air-gapped Regions"
+}

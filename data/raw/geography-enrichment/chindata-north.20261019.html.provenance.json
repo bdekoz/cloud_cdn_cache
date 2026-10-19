@@ -1,0 +1,19 @@
+{
+  "bytes": 42227,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/chindata-north.20261019.html",
+  "publisher": "Chindata",
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "code or named-locality directory evidence",
+  "sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+  "source_id": "chindata-north",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html",
+  "title": "Chindata regional directory: north"
+}

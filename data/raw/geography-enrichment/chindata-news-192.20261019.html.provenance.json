@@ -1,0 +1,19 @@
+{
+  "bytes": 41189,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.chindatagroup.com/media/news/192.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/chindata-news-192.20261019.html",
+  "publisher": "Chindata",
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-news-192.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "named campus locality or dated lifecycle evidence",
+  "sha256": "a27538b4de349310e235dc4fe0da4b4824b3cd467d7c749adc58505a9bac5839",
+  "source_id": "chindata-news-192",
+  "source_published_at": "2020-01-17",
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/media/news/192.html",
+  "title": "Sangyuan campus opening"
+}

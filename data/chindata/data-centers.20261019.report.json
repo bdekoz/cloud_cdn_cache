@@ -1,0 +1,485 @@
+{
+  "coordinate_methods": {
+    "unknown": 9
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/chindata/data-centers.20261019.csv",
+      "path": "data/chindata/data-centers.20261019.csv",
+      "source": "data/chindata/data-centers.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "chindata-north",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+    },
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/chindata-yangtze.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "chindata-yangtze",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9918d8f18a609952e6d807f52815d282210866542a7cc19e7f9a795c5defe7a9",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/58.html"
+    },
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/chindata-greater-bay.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "chindata-greater-bay",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b99e3cd0c6a4d185373ef8dcf31cfa1b827f7f429791ea989cf3d0eb2869d9a6",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/59.html"
+    },
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "chindata-qingyang",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "fd1c17028e559f5633cb0d0dd8b5fbe82a6cf4451b071e5f953559601316bcac",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html"
+    },
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/chindata-zhongwei.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "chindata-zhongwei",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "bc9c145dd0895ba12dad93061cc37a1e9e533ad5863cf66b86e651b34b3fc8fb",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/495.html"
+    },
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/chindata-ulanqab.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "chindata-ulanqab",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "229267c6da9e031cb9c189a717beedb7afc24d76b4314ee2043bf975cc47d64f",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/517.html"
+    },
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/chindata-yichang.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "chindata-yichang",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "3158dbed27842633dd54a86c9e4f8f4cc599c1ad5cea81bbe1fcb27961e653d0",
+      "source_updated_at": null,
+      "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/522.html"
+    }
+  ],
+  "entity_types": {
+    "data_center": 9
+  },
+  "generated_files": [
+    "data/chindata/data-centers.20261019.geojson"
+  ],
+  "geometry_null": 9,
+  "layer": "data-centers",
+  "lifecycle_statuses": {
+    "unknown": 9
+  },
+  "named_bases_separate_from_code_inventory": [
+    {
+      "detail_source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-498.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-gallery-498",
+        "source_published_at": null,
+        "source_sha256": "cbfddd8cc100b7e1345fc7c0be9101679d8155cb1a5e52efb02892e6b4aa966f",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/global/base/498.html"
+      },
+      "regional_source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-qingyang",
+        "source_published_at": null,
+        "source_sha256": "fd1c17028e559f5633cb0d0dd8b5fbe82a6cf4451b071e5f953559601316bcac",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html"
+      },
+      "source_name": "庆阳"
+    },
+    {
+      "detail_source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-500.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-gallery-500",
+        "source_published_at": null,
+        "source_sha256": "923baeb66a9346530245a381e00e0868d10cb0260f27c731cc975e801ccaa7e8",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/global/base/500.html"
+      },
+      "regional_source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-zhongwei.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-zhongwei",
+        "source_published_at": null,
+        "source_sha256": "bc9c145dd0895ba12dad93061cc37a1e9e533ad5863cf66b86e651b34b3fc8fb",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/495.html"
+      },
+      "source_name": "中卫"
+    }
+  ],
+  "new_code_count": 5,
+  "parser": "update_geography_enrichment.py:chindata",
+  "previous_record_count": 4,
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-directory.20261019.html",
+  "record_count": 9,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "source_sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+  "source_url": "https://www.chindatagroup.com/global.html",
+  "traversed_regional_pages": [
+    {
+      "base_entries": [
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-216.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-216",
+            "source_published_at": null,
+            "source_sha256": "b1b33318584769afb3977eb7c19c7367256bd595a4042aaa0a07a887e2cb098a",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/216.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-north",
+            "source_published_at": null,
+            "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+          },
+          "source_name": "ChinaNorth H06"
+        },
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-214.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-214",
+            "source_published_at": null,
+            "source_sha256": "2a25c15dc26070447263b2f005b208e90c65a4831d1495c639dc1dbeea9be365",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/214.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-north",
+            "source_published_at": null,
+            "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+          },
+          "source_name": "ChinaNorth H05"
+        },
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-188.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-188",
+            "source_published_at": null,
+            "source_sha256": "301b1f509c19204928bbb508d188c50ff18d22f1f9beeba8b4cfabd9400bf225",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/188.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-north",
+            "source_published_at": null,
+            "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+          },
+          "source_name": "ChinaNorth H03"
+        },
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-65.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-65",
+            "source_published_at": null,
+            "source_sha256": "bc79565f840c67cbcced12ebeb1e12dc5c8a9333088d68b5dd3e58b9a33bd100",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/65.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-north",
+            "source_published_at": null,
+            "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+          },
+          "source_name": "ChinaNorth W01"
+        },
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-35.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-35",
+            "source_published_at": null,
+            "source_sha256": "865e3b7c76cd48c877967ba5a02fadaa3c48403227ffc9bb026a76286c684555",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/35.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-north",
+            "source_published_at": null,
+            "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+          },
+          "source_name": "ChinaNorth H04"
+        },
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-42.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-42",
+            "source_published_at": null,
+            "source_sha256": "c8bc8400606cc2b23060fcc3531a5d040744ebf895a1dfb3d6c4f0cfe82eb66a",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/42.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-north",
+            "source_published_at": null,
+            "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+          },
+          "source_name": "ChinaNorth H01"
+        },
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-41.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-41",
+            "source_published_at": null,
+            "source_sha256": "c07a968015295a27b7be57212728076fcbb3b04c3da337e63275763f6016e6c9",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/41.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-north",
+            "source_published_at": null,
+            "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+          },
+          "source_name": "ChinaNorth H02"
+        }
+      ],
+      "code_count": 7,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-north",
+        "source_published_at": null,
+        "source_sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+      },
+      "source_id": "chindata-north"
+    },
+    {
+      "base_entries": [
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-73.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-73",
+            "source_published_at": null,
+            "source_sha256": "3fb485b42850483ecb801c4041850a5888a18e344a60bf44ea121ab07593954d",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/73.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-yangtze.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-yangtze",
+            "source_published_at": null,
+            "source_sha256": "9918d8f18a609952e6d807f52815d282210866542a7cc19e7f9a795c5defe7a9",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/58.html"
+          },
+          "source_name": "ChinaEast H01"
+        }
+      ],
+      "code_count": 1,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-yangtze.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-yangtze",
+        "source_published_at": null,
+        "source_sha256": "9918d8f18a609952e6d807f52815d282210866542a7cc19e7f9a795c5defe7a9",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/58.html"
+      },
+      "source_id": "chindata-yangtze"
+    },
+    {
+      "base_entries": [
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-71.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-71",
+            "source_published_at": null,
+            "source_sha256": "2e2203c8ed298f58d2657be7061893dc5c8999b3409dfde664693afb29e162f8",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/71.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-greater-bay.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-greater-bay",
+            "source_published_at": null,
+            "source_sha256": "b99e3cd0c6a4d185373ef8dcf31cfa1b827f7f429791ea989cf3d0eb2869d9a6",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/59.html"
+          },
+          "source_name": "ChinaSouth W01"
+        }
+      ],
+      "code_count": 1,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-greater-bay.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-greater-bay",
+        "source_published_at": null,
+        "source_sha256": "b99e3cd0c6a4d185373ef8dcf31cfa1b827f7f429791ea989cf3d0eb2869d9a6",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/59.html"
+      },
+      "source_id": "chindata-greater-bay"
+    },
+    {
+      "base_entries": [
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-498.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-498",
+            "source_published_at": null,
+            "source_sha256": "cbfddd8cc100b7e1345fc7c0be9101679d8155cb1a5e52efb02892e6b4aa966f",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/498.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-qingyang",
+            "source_published_at": null,
+            "source_sha256": "fd1c17028e559f5633cb0d0dd8b5fbe82a6cf4451b071e5f953559601316bcac",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html"
+          },
+          "source_name": "庆阳"
+        }
+      ],
+      "code_count": 0,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-qingyang",
+        "source_published_at": null,
+        "source_sha256": "fd1c17028e559f5633cb0d0dd8b5fbe82a6cf4451b071e5f953559601316bcac",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html"
+      },
+      "source_id": "chindata-qingyang"
+    },
+    {
+      "base_entries": [
+        {
+          "detail_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-gallery-500.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-gallery-500",
+            "source_published_at": null,
+            "source_sha256": "923baeb66a9346530245a381e00e0868d10cb0260f27c731cc975e801ccaa7e8",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/global/base/500.html"
+          },
+          "regional_source": {
+            "raw_source_ref": "data/raw/geography-enrichment/chindata-zhongwei.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_id": "chindata-zhongwei",
+            "source_published_at": null,
+            "source_sha256": "bc9c145dd0895ba12dad93061cc37a1e9e533ad5863cf66b86e651b34b3fc8fb",
+            "source_updated_at": null,
+            "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/495.html"
+          },
+          "source_name": "中卫"
+        }
+      ],
+      "code_count": 0,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-zhongwei.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-zhongwei",
+        "source_published_at": null,
+        "source_sha256": "bc9c145dd0895ba12dad93061cc37a1e9e533ad5863cf66b86e651b34b3fc8fb",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/495.html"
+      },
+      "source_id": "chindata-zhongwei"
+    },
+    {
+      "base_entries": [],
+      "code_count": 0,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-ulanqab.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-ulanqab",
+        "source_published_at": null,
+        "source_sha256": "229267c6da9e031cb9c189a717beedb7afc24d76b4314ee2043bf975cc47d64f",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/517.html"
+      },
+      "source_id": "chindata-ulanqab"
+    },
+    {
+      "base_entries": [],
+      "code_count": 0,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/chindata-yichang.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "chindata-yichang",
+        "source_published_at": null,
+        "source_sha256": "3158dbed27842633dd54a86c9e4f8f4cc599c1ad5cea81bbe1fcb27961e653d0",
+        "source_updated_at": null,
+        "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/522.html"
+      },
+      "source_id": "chindata-yichang"
+    }
+  ]
+}

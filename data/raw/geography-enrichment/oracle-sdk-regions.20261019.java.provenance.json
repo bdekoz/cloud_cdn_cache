@@ -1,0 +1,19 @@
+{
+  "bytes": 60250,
+  "capture_method": "http_response",
+  "content_type": "text/plain; charset=utf-8",
+  "final_url": "https://raw.githubusercontent.com/oracle/oci-java-sdk/master/bmc-common/src/main/java/com/oracle/bmc/Region.java",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/oracle-sdk-regions.20261019.java",
+  "publisher": "Oracle",
+  "raw_source_ref": "data/raw/geography-enrichment/oracle-sdk-regions.20261019.java",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "realm-qualified region identity corroboration; registration is not launch proof",
+  "sha256": "1afdd4c2837fe1defd2994b5fe1469c7461ad71d69dcbb61b27dfd5f88184748",
+  "source_id": "oracle-sdk-regions",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://raw.githubusercontent.com/oracle/oci-java-sdk/master/bmc-common/src/main/java/com/oracle/bmc/Region.java",
+  "title": "OCI Java SDK region registry"
+}

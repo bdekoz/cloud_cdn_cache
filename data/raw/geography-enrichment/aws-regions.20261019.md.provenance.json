@@ -1,0 +1,19 @@
+{
+  "bytes": 10771,
+  "capture_method": "http_response",
+  "content_type": "text/markdown; charset=utf-8",
+  "final_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.md",
+  "http_last_modified": "Fri, 16 Oct 2026 07:59:50 GMT",
+  "path": "data/raw/geography-enrichment/aws-regions.20261019.md",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/geography-enrichment/aws-regions.20261019.md",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "current region identifiers and country scope",
+  "sha256": "ef429b0b6e5d6faee11cb33123e0aa2293bd76c871fcd9221d54cc0a63ad2c50",
+  "source_id": "aws-regions",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.md",
+  "title": "AWS Regions"
+}

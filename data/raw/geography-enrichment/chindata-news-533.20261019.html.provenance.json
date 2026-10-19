@@ -1,0 +1,19 @@
+{
+  "bytes": 40015,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.chindatagroup.com/media/news/533.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/chindata-news-533.20261019.html",
+  "publisher": "Chindata",
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-news-533.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "named campus locality or dated lifecycle evidence",
+  "sha256": "f6574668d2562e3f31e9d7b3b8805540a5305a3b99428d9b6293ce30561fd024",
+  "source_id": "chindata-news-533",
+  "source_published_at": "2026-07-02",
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/media/news/533.html",
+  "title": "Sangyuan SST system entering service"
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChinaSouth W01 全球资源-基地 全球资源：作为横跨中国，印度和东南亚的亚太地区唯一的数据中心平台，Chindata正在成为新兴市场的领导者。</title>
+	<meta name="keywords" content="秦淮数据集团，Chindata，超大规模，新兴市场，边缘计算数据中心，信息技术产业、数字地产运营商"/>
+	<meta name="description" content="秦淮数据集团是全球首家以泛亚洲新兴市场作为业务发展核心区域的超大规模数字地产运营商。秦淮数据集团布局全球，重点发力新兴市场，业务已覆盖中国、印度、东南亚等国家，是亚太地区独一无二的数据中心平台。">
+	
+
+<!--样式头部文件-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="author" content="Minehtink.com"/>
+
+<link rel="icon" href="/home/images/favicon.ico?v=1655720565">
+
+<link href="/home/css/swiper.min.css" rel="stylesheet">
+<link href="/home/fonts/iconfont.css" rel="stylesheet">
+<link href="/home/css/common.css?v=1768977686" rel="stylesheet">
+<script src="/home/js/jquery-1.11.1.min.js"></script>
+<script src="/home/js/swiper.min.js"></script>
+<script src="/home/js/md5.js"></script>
+<script src="/home/js/jquery.SuperSlide.2.1.2.js"></script>
+<script src="/home/js/jquery.form.js"></script>
+<script src="/home/js/layer/layer.js"></script>
+<script src="/home/js/layer/layer/extend/layer.ext.js"></script>
+<script src="/home/js/jquery.cookie.js"></script>
+<script src="/home/js/common.js?v=1655720564"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C2EH0T9YGW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C2EH0T9YGW');
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?05bb3749f6a575bbfae66be3fd272b37";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- Plugins Guestbook CSS-->
+<link rel="stylesheet" href="/plugins/sy_guestbook/view/assets/css/sy.guestbook.css">
+</head>
+
+<body>
+
+<div class="mephoto-view">
+	<a href="javascript:;" class="js-t-btn js-return" onclick="history.back(-1)"><i class="iconfont icon-return"></i></a>
+	<a href="javascript:;" class="js-t-btn js-play"><i class="iconfont icon-play3"></i></a>
+	<div class="mephoto-bigview" id="mephoto-bigview">
+		<ul class="swiper-wrapper">
+            <!--相册-->
+                            <li class="swiper-slide">
+                    <div class="pic" style="background-image:url(https://www.chindatagroup.com/upload/portal/20191218/36e495292aba2e93e93aa65f6b5a9a44.jpeg)"></div>
+                </li>
+                        <!--相册-->
+		</ul>
+	</div>
+	<div class="mephoto-smview" id="mephoto-smview">
+		<div class="mephoto-mask"></div>
+		<ul class="swiper-wrapper">
+            <!--相册-->
+                            <li class="swiper-slide">
+                    <div class="pic" style="background-image:url(https://www.chindatagroup.com/upload/portal/20191218/36e495292aba2e93e93aa65f6b5a9a44.jpeg)"></div>
+                </li>
+                        <!--相册-->
+		</ul>
+		<span class="sm-btn sm-prev"><i class="iconfont icon-leftarrow"></i></span>
+		<span class="sm-btn sm-next"><i class="iconfont icon-rightarrow"></i></span>
+	</div>
+</div>
+
+<script>
+    var bgBanner = new Swiper('#mephoto-bigview', {
+        effect:'fade',
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        speed:800,
+        on:{
+            init:function(){
+                $('#mephoto-smview li').eq(0).addClass('on')
+            },
+            transitionStart: function(){
+                var mvid = bgBanner.activeIndex
+                $('#mephoto-smview li').eq(mvid).addClass('on').siblings().removeClass('on')
+            },
+        },
+    })
+    bgBanner.autoplay.stop();
+    $('.js-play').click(function(){
+        if(bgBanner.autoplay.running){
+            bgBanner.autoplay.stop()
+            $(this).html('<i class="iconfont icon-play3"></i>')
+        }else{
+            bgBanner.autoplay.start()
+            $(this).html('<i class="iconfont icon-pause"></i>')
+        }
+    })
+    var smBanner = new Swiper('#mephoto-smview', {
+        slidesPerView:isMobile() ? 3 : 8,
+        speed:800,
+        slidesOffsetAfter:$('.sm-btn').outerWidth()*2,
+        navigation: {
+            nextEl: '.sm-next',
+            prevEl: '.sm-prev',
+        },
+    })
+    $('#mephoto-smview li').mouseover(function(){
+        var sid = $(this).index()
+        $(this).addClass('on').siblings().removeClass('on')
+        bgBanner.slideTo(sid)
+    })
+</script>
+
+
+</body>
+</html>

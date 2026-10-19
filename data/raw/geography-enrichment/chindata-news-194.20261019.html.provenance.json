@@ -1,0 +1,19 @@
+{
+  "bytes": 45672,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.chindatagroup.com/media/news/194.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/chindata-news-194.20261019.html",
+  "publisher": "Chindata",
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-news-194.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "named campus locality or dated lifecycle evidence",
+  "sha256": "17af50013ce44f93731a587862fc74630e78e77d82aebe3e4032bd6b6f78c5ed",
+  "source_id": "chindata-news-194",
+  "source_published_at": "2020-02-08",
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/media/news/194.html",
+  "title": "Huailai campus development"
+}

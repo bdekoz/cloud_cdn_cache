@@ -160,7 +160,13 @@ def validate_views_and_manifest() -> None:
     # Other enrichment can add canonical layers in the same manifest. These
     # comparison views must preserve prior layers and never enter their totals.
     current_layers = {layer["layer"]: layer for layer in current["layers"]}
-    assert all(current_layers[layer["layer"]] == layer for layer in previous["layers"])
+    frozen = read("data/raw/repository/manifest-before-geography.20261019.json")
+    frozen_layers = {layer["layer"]: layer for layer in frozen["layers"]}
+    assert all(frozen_layers[layer["layer"]] == layer for layer in previous["layers"])
+    # The geography suite separately verifies the sole intentional refresh,
+    # Chindata, against this retained manifest and all historical file hashes.
+    assert all(current_layers[name] == layer for name, layer in frozen_layers.items()
+               if name != "chindata/data-centers")
     assert current["record_count"] == sum(layer["record_count"] for layer in current["layers"])
     assert {"observations/apple-asn", "india/cdn-cities", "observations/cdn-asn-comparison",
             "india/cdn-asn-comparison"}.isdisjoint(current_layers)

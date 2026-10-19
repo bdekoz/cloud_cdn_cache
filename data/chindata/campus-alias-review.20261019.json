@@ -1,0 +1,375 @@
+{
+  "alias_relationships": [
+    {
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-news-194.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-news-194",
+          "source_published_at": "2020-02-08",
+          "source_sha256": "17af50013ce44f93731a587862fc74630e78e77d82aebe3e4032bd6b6f78c5ed",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/media/news/194.html"
+        }
+      ],
+      "left_claim_id": "chindata:locality-claim:donghuayuan",
+      "match_status": "candidate",
+      "reason": "Same three-campus context, but no explicit equivalence statement",
+      "right_claim_id": "chindata:locality-claim:guanting-lake"
+    }
+  ],
+  "built_at": "2026-10-19",
+  "claims": [
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "Campus inaugurated in Huailai, Zhangjiakou on 2020-01-14; the separate 2026 article reports an SST system in service at the named campus.",
+      "claim_as_of": "2020-01-14",
+      "claim_id": "chindata:locality-claim:sangyuan",
+      "claim_type": "named_campus",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-news-192.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-news-192",
+          "source_published_at": "2020-01-17",
+          "source_sha256": "a27538b4de349310e235dc4fe0da4b4824b3cd467d7c749adc58505a9bac5839",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/media/news/192.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-news-533.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-news-533",
+          "source_published_at": "2026-07-02",
+          "source_sha256": "f6574668d2562e3f31e9d7b3b8805540a5305a3b99428d9b6293ce30561fd024",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/media/news/533.html"
+        }
+      ],
+      "locality": "Huailai",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": null,
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [
+        "桑园"
+      ],
+      "source_names": [
+        "Sangyuan Cloud Computing Campus"
+      ]
+    },
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "Named among Huailai's three campuses; exact relation to the Guanting Lake campus remains a candidate alias.",
+      "claim_as_of": "2020-02-08",
+      "claim_id": "chindata:locality-claim:donghuayuan",
+      "claim_type": "named_campus",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-news-194.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-news-194",
+          "source_published_at": "2020-02-08",
+          "source_sha256": "17af50013ce44f93731a587862fc74630e78e77d82aebe3e4032bd6b6f78c5ed",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/media/news/194.html"
+        }
+      ],
+      "locality": "Huailai",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": null,
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [
+        "东花园"
+      ],
+      "source_names": [
+        "Donghuayuan"
+      ]
+    },
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "The article reports operation beginning in 2017; this is historical campus evidence.",
+      "claim_as_of": "2020-01-17",
+      "claim_id": "chindata:locality-claim:guanting-lake",
+      "claim_type": "named_campus",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-news-192.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-news-192",
+          "source_published_at": "2020-01-17",
+          "source_sha256": "a27538b4de349310e235dc4fe0da4b4824b3cd467d7c749adc58505a9bac5839",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/media/news/192.html"
+        }
+      ],
+      "locality": "Huailai",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": null,
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [
+        "官厅湖"
+      ],
+      "source_names": [
+        "Guanting Lake"
+      ]
+    },
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "Campus described as about to enter use in February 2020; no present-day completion inferred.",
+      "claim_as_of": "2020-02-08",
+      "claim_id": "chindata:locality-claim:cunrui",
+      "claim_type": "named_campus",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-news-194.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-news-194",
+          "source_published_at": "2020-02-08",
+          "source_sha256": "17af50013ce44f93731a587862fc74630e78e77d82aebe3e4032bd6b6f78c5ed",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/media/news/194.html"
+        }
+      ],
+      "locality": "Huailai",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": null,
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [
+        "存瑞"
+      ],
+      "source_names": [
+        "Cunrui"
+      ]
+    },
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "Phase 9 reported in production in the 2025 retrospective, presented 2025-12-28 and published 2026-04-01.",
+      "claim_as_of": "2025-12-28",
+      "claim_id": "chindata:locality-claim:lingqiu-phase-9",
+      "claim_type": "project_phase",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/lingqiu-government-2026.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "lingqiu-government-2026",
+          "source_published_at": "2026-04-01",
+          "source_sha256": "02076b0cf43ff506d3642f136f86e68d67e122b2efc93c11a4970f30de91f492",
+          "source_updated_at": null,
+          "source_url": "https://www.lingqiu.gov.cn/lqxrmzfz/zfgzbg/202604/4377a3fe37a042bb9cca483a93d7ac5f.shtml"
+        }
+      ],
+      "locality": "Lingqiu",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": "9",
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [],
+      "source_names": [
+        "秦淮数据9期"
+      ]
+    },
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "The 2026 work program calls for accelerating phase 10 construction; completion and present status are unestablished.",
+      "claim_as_of": "2025-12-28",
+      "claim_id": "chindata:locality-claim:lingqiu-phase-10",
+      "claim_type": "project_phase",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/lingqiu-government-2026.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "lingqiu-government-2026",
+          "source_published_at": "2026-04-01",
+          "source_sha256": "02076b0cf43ff506d3642f136f86e68d67e122b2efc93c11a4970f30de91f492",
+          "source_updated_at": null,
+          "source_url": "https://www.lingqiu.gov.cn/lqxrmzfz/zfgzbg/202604/4377a3fe37a042bb9cca483a93d7ac5f.shtml"
+        }
+      ],
+      "locality": "Lingqiu",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": "10",
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [],
+      "source_names": [
+        "秦淮10期"
+      ]
+    },
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "Named base link in the regional directory; no operating status, building count or code alias established.",
+      "claim_as_of": null,
+      "claim_id": "chindata:locality-claim:qingyang-base",
+      "claim_type": "named_directory_base",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-qingyang",
+          "source_published_at": null,
+          "source_sha256": "fd1c17028e559f5633cb0d0dd8b5fbe82a6cf4451b071e5f953559601316bcac",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html"
+        }
+      ],
+      "locality": "Qingyang",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": null,
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [],
+      "source_names": [
+        "庆阳"
+      ]
+    },
+    {
+      "address": null,
+      "canonical_code_match": null,
+      "canonical_code_match_status": "unresolved",
+      "claim": "Named base link in the regional directory; no operating status, building count or code alias established.",
+      "claim_as_of": null,
+      "claim_id": "chindata:locality-claim:zhongwei-base",
+      "claim_type": "named_directory_base",
+      "country_code": "CN",
+      "current_lifecycle_status": "unknown",
+      "evidence": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-zhongwei.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "chindata-zhongwei",
+          "source_published_at": null,
+          "source_sha256": "bc9c145dd0895ba12dad93061cc37a1e9e533ad5863cf66b86e651b34b3fc8fb",
+          "source_updated_at": null,
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/495.html"
+        }
+      ],
+      "locality": "Zhongwei",
+      "operator_identity_note": "Provider brand is established; no legal-entity or property-title join inferred",
+      "operator_legal_entity": null,
+      "phase": null,
+      "physical_site_confirmed": false,
+      "provider": "Chindata",
+      "search_aliases_not_established_by_this_source": [],
+      "source_names": [
+        "中卫"
+      ]
+    }
+  ],
+  "code_matches": [
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinaeast-h01",
+      "source_name": "ChinaEast H01"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinanorth-h01",
+      "source_name": "ChinaNorth H01"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinanorth-h02",
+      "source_name": "ChinaNorth H02"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinanorth-h03",
+      "source_name": "ChinaNorth H03"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinanorth-h04",
+      "source_name": "ChinaNorth H04"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinanorth-h05",
+      "source_name": "ChinaNorth H05"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinanorth-h06",
+      "source_name": "ChinaNorth H06"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinanorth-w01",
+      "source_name": "ChinaNorth W01"
+    },
+    {
+      "campus_claim_id": null,
+      "match_status": "unresolved",
+      "reason": "No explicit code-to-campus crosswalk in retained sources",
+      "record_id": "chindata:data_center:chinasouth-w01",
+      "source_name": "ChinaSouth W01"
+    }
+  ],
+  "excluded_from_canonical_totals": true,
+  "held_directory_areas": [
+    {
+      "reason": "Regional marketing page contains no named base entry; no deployed locality asserted",
+      "source_id": "chindata-ulanqab"
+    },
+    {
+      "reason": "Regional marketing page contains no named base entry; no deployed locality asserted",
+      "source_id": "chindata-yichang"
+    }
+  ],
+  "interpretation": "Names and phases can overlap. Neither claim count nor locality count is a count of facilities.",
+  "record_unit": "dated_name_or_phase_assertion"
+}

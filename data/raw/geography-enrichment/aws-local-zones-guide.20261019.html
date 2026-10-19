@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Available Local Zones - AWS Local Zones</title><meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="assets_root" content="/assets" /><meta name="target_state" content="available-local-zones" /><meta name="default_state" content="available-local-zones" /><link rel="icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="canonical" href="https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html" /><meta name="description" content="Find the Local Zones closest to you." /><meta name="deployment_region" content="IAD" /><meta name="product" content="AWS Local Zones" /><meta name="guide" content="User Guide" /><meta name="abstract" content="AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers." /><meta name="guide-locale" content="en_us" /><meta name="tocs" content="toc-contents.json" /><link rel="canonical" href="https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/local-zones/latest/ug/available-local-zones.html" hreflang="id-id" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/local-zones/latest/ug/available-local-zones.html" hreflang="id" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/local-zones/latest/ug/available-local-zones.html" hreflang="de-de" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/local-zones/latest/ug/available-local-zones.html" hreflang="de" /><link rel="alternate" href="https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html" hreflang="en-us" /><link rel="alternate" href="https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html" hreflang="en" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/local-zones/latest/ug/available-local-zones.html" hreflang="es-es" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/local-zones/latest/ug/available-local-zones.html" hreflang="es" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/local-zones/latest/ug/available-local-zones.html" hreflang="fr-fr" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/local-zones/latest/ug/available-local-zones.html" hreflang="fr" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/local-zones/latest/ug/available-local-zones.html" hreflang="it-it" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/local-zones/latest/ug/available-local-zones.html" hreflang="it" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/local-zones/latest/ug/available-local-zones.html" hreflang="ja-jp" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/local-zones/latest/ug/available-local-zones.html" hreflang="ja" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/local-zones/latest/ug/available-local-zones.html" hreflang="ko-kr" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/local-zones/latest/ug/available-local-zones.html" hreflang="ko" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/local-zones/latest/ug/available-local-zones.html" hreflang="pt-br" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/local-zones/latest/ug/available-local-zones.html" hreflang="pt" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_cn/local-zones/latest/ug/available-local-zones.html" hreflang="zh-cn" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_tw/local-zones/latest/ug/available-local-zones.html" hreflang="zh-tw" /><link rel="alternate" href="https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html" hreflang="x-default" /><meta name="feedback-item" content="Local Zones" /><meta name="this_doc_product" content="AWS Local Zones" /><meta name="this_doc_guide" content="User Guide" /><head xmlns="http://www.w3.org/1999/xhtml"> <script defer="" src="/assets/r/awsdocs-doc-page.2.0.0.js"></script><link href="/assets/r/awsdocs-doc-page.2.0.0.css" rel="stylesheet"/></head>
+<script defer="" id="awsc-panorama-bundle" type="text/javascript" src="https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js" data-config="{'appEntity':'aws-documentation','region':'us-east-1','service':'local-zones'}"></script><meta id="panorama-serviceSubSection" value="User Guide" /><meta id="panorama-serviceConsolePage" value="Available Local Zones" /></head><body class="awsdocs awsui"><div class="awsdocs-container"><p><a href="available-local-zones.md">View a markdown version of this page</a></p><awsdocs-header></awsdocs-header><awsui-app-layout id="app-layout" class="awsui-util-no-gutters" ng-controller="ContentController as $ctrl" header-selector="awsdocs-header" navigation-hide="false" navigation-width="$ctrl.navWidth" navigation-open="$ctrl.navOpen" navigation-change="$ctrl.onNavChange($event)" tools-hide="$ctrl.hideTools" tools-width="$ctrl.toolsWidth" tools-open="$ctrl.toolsOpen" tools-change="$ctrl.onToolsChange($event)"><div id="guide-toc" dom-region="navigation"><awsdocs-toc></awsdocs-toc></div><div id="main-column" dom-region="content" tabindex="-1"><awsdocs-view class="awsdocs-view"><div id="awsdocs-content"><head><title>Available Local Zones - AWS Local Zones</title><meta name="pdf" content="/pdfs/local-zones/latest/ug/local-zones.pdf#available-local-zones" /><meta name="rss" content="local-zones.rss" /><meta name="forums" content="https://repost.aws/" /><meta name="feedback" content="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Local%20Zones&amp;topic_url=https://docs.aws.amazon.com/en_us/local-zones/latest/ug/available-local-zones.html" /><meta name="feedback-yes" content="feedbackyes.html?topic_url=https://docs.aws.amazon.com/en_us/local-zones/latest/ug/available-local-zones.html" /><meta name="feedback-no" content="feedbackno.html?topic_url=https://docs.aws.amazon.com/en_us/local-zones/latest/ug/available-local-zones.html" /><meta name="keywords" content="AWS Local Zones,Local Zones,Local Zones near me,available Local Zones,list of Local Zones,find Local Zones" /><link rel="alternate" type="text/markdown" href="available-local-zones.md" title="Markdown version" /><script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "BreadcrumbList",
+    "itemListElement" : [
+      {
+        "@type" : "ListItem",
+        "position" : 1,
+        "name" : "AWS",
+        "item" : "https://aws.amazon.com"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 2,
+        "name" : "Local Zones",
+        "item" : "https://docs.aws.amazon.com/local-zones/index.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 3,
+        "name" : "User Guide",
+        "item" : "https://docs.aws.amazon.com/local-zones/latest/ug"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 4,
+        "name" : "Available Local Zones",
+        "item" : "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+      }
+    ]
+}
+</script></head><body><div id="main"><div style="display: none"><a href="/pdfs/local-zones/latest/ug/local-zones.pdf#available-local-zones" target="_blank" rel="noopener noreferrer" title="Open PDF"></a></div><div id="breadcrumbs" class="breadcrumb"><a href="/index.html">Documentation</a><a href="/local-zones/index.html">Local Zones</a><a href="what-is-aws-local-zones.html">User Guide</a></div><div id="page-toc-src"><a href="#lz-list">List of Local Zones</a><a href="#find-lzs">Find your Local Zones using the AWS CLI</a></div><div id="main-content" class="awsui-util-container"><div id="main-col-body"><awsdocs-language-banner data-service="$ctrl.pageService"></awsdocs-language-banner><h1 class="topictitle" id="available-local-zones">Available Local Zones</h1><div class="awsdocs-page-header-container"><awsdocs-page-header></awsdocs-page-header><awsdocs-filter-selector id="awsdocs-filter-selector"></awsdocs-filter-selector></div><p>AWS Local Zones is available around the world. Find the Local Zone closest to you.</p><p>The following terms are identifying details associated with a
+  Local Zone.</p><div class="itemizedlist">
+ 
+
+   
+
+   
+   
+   
+   
+   
+   
+ <ul class="itemizedlist"><li class="listitem">
+   <p>Group Long Name - The name for a group of Local Zones.</p>
+  </li><li class="listitem">
+   <p>Local Zone Name - The name of the Local Zone.</p>
+  </li><li class="listitem">
+   <p>Local Zone ID - The ID of the Local Zone. The ID is the code of the Local Zone's parent Region followed by an
+    identifier for its location. For example, <code class="code">us-west-2-lax-1a</code> is in Los Angeles where
+     <code class="code">us-west-2</code> is the parent Region code and <code class="code">lax-1a</code> is the location
+    identifier.</p>
+  </li><li class="listitem">
+   <p>Network Border Group - A unique group from which AWS advertises public IP addresses.</p>
+  </li><li class="listitem">
+   <p>Parent Region Name - The name of the AWS Region for the Local Zone.</p>
+  </li><li class="listitem">
+   <p>Parent Zone ID - The ID of the parent AWS zone that handles some of the Local Zone control plane operations, such as API calls.</p>
+  </li><li class="listitem">
+   <p>Geography - The geography for a Local Zone is the specific physical location of its
+    infrastructure.</p>
+  </li></ul></div><p>For more information on Local Zone terms, see <a href="./concepts-local-zones.html">Concepts</a></p>
+  <h2 id="lz-list">List of Local Zones</h2>
+
+   <p>Locate the Local Zone closest to you.</p>
+
+ <div class="highlights" id="inline-topiclist"><h6>AWS Local Zones</h6><ul><li><p><a href="#lzs-northamerica">North America</a></p></li><li><p><a href="#lzs-southamerica">South America</a></p></li><li><p><a href="#lzs-africa">Africa</a></p></li><li><p><a href="#lzs-asia-pacific">Asia Pacific</a></p></li><li><p><a href="#lzs-europe">Europe</a></p></li></ul></div>
+
+  
+   <h3 id="lzs-northamerica">North America</h3>
+   <p>The following Local Zones are available in North America:</p>
+   <div class="table-container"><div class="table-contents"><table id="w79aac15c11b7b5"><thead>
+      <tr>
+       <th>Local Zone Group Long Name</th>
+       <th>Local Zone Name</th>
+       <th>Local Zone ID</th>
+       <th>Network Border Group</th>
+       <th>Parent Region Name</th>
+       <th>Parent Zone ID</th>
+       <th>Geography</th>
+      </tr>
+     </thead>
+      <tr>
+       <td tabindex="-1">México (Querétaro)</td>
+       <td tabindex="-1"><code class="code">us-east-1-qro-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-qro1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-qro-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az1</code></td>
+       <td tabindex="-1"><code class="code">Mexico</code></td>
+      </tr>
+     
+      <tr>
+       <td tabindex="-1">US East (Atlanta) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-atl-2a</code></td>
+       <td tabindex="-1"><code class="code">use1-atl2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-atl-2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az5</code></td>
+       <td tabindex="-1"><code class="code">Georgia, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Atlanta) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-atl-2b</code></td>
+       <td tabindex="-1"><code class="code">use1-atl2-az2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-atl-2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az2</code></td>
+       <td tabindex="-1"><code class="code">Georgia, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Atlanta)*</td>
+       <td tabindex="-1"><code class="code">us-east-1-atl-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-atl1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-atl-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az4</code></td>
+       <td tabindex="-1"><code class="code">Georgia, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Boston)</td>
+       <td tabindex="-1"><code class="code">us-east-1-bos-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-bos1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-bos-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az4</code></td>
+       <td tabindex="-1"><code class="code">Massachusetts, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Chicago) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-chi-2a</code></td>
+       <td tabindex="-1"><code class="code">use1-chi2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-chi-2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az6</code></td>
+       <td tabindex="-1"><code class="code">Illinois, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Chicago)*</td>
+       <td tabindex="-1"><code class="code">us-east-1-chi-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-chi1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-chi-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az5</code></td>
+       <td tabindex="-1"><code class="code">Illinois, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Dallas) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-dfw-2a</code></td>
+       <td tabindex="-1"><code class="code">use1-dfw2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-dfw-2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az4</code></td>
+       <td tabindex="-1"><code class="code">Texas, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Dallas)*</td>
+       <td tabindex="-1"><code class="code">us-east-1-dfw-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-dfw1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-dfw-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az1</code></td>
+       <td tabindex="-1"><code class="code">Texas, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Houston) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-iah-2a</code></td>
+       <td tabindex="-1"><code class="code">use1-iah2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-iah-2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az2</code></td>
+       <td tabindex="-1"><code class="code">Texas, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Houston)*</td>
+       <td tabindex="-1"><code class="code">us-east-1-iah-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-iah1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-iah-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az6</code></td>
+       <td tabindex="-1"><code class="code">Texas, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Kansas City) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-mci-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-mci1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-mci-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az2</code></td>
+       <td tabindex="-1"><code class="code">Missouri, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Miami) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-mia-2a</code></td>
+       <td tabindex="-1"><code class="code">use1-mia2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-mia-2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az6</code></td>
+       <td tabindex="-1"><code class="code">Florida, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Miami)*</td>
+       <td tabindex="-1"><code class="code">us-east-1-mia-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-mia1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-mia-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az2</code></td>
+       <td tabindex="-1"><code class="code">Florida, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Minneapolis)</td>
+       <td tabindex="-1"><code class="code">us-east-1-msp-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-msp1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-msp-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az5</code></td>
+       <td tabindex="-1"><code class="code">Minnesota, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (New York City) 2</td>
+       <td tabindex="-1"><code class="code">us-east-1-nyc-2a</code></td>
+       <td tabindex="-1"><code class="code">use1-nyc2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-nyc-2</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az5</code></td>
+       <td tabindex="-1"><code class="code">New Jersey, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (New York City)*</td>
+       <td tabindex="-1"><code class="code">us-east-1-nyc-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-nyc1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-nyc-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az5</code></td>
+       <td tabindex="-1"><code class="code">New Jersey, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US East (Philadelphia)</td>
+       <td tabindex="-1"><code class="code">us-east-1-phl-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-phl1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-phl-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az1</code></td>
+       <td tabindex="-1"><code class="code">Pennsylvania, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Denver)</td>
+       <td tabindex="-1"><code class="code">us-west-2-den-1a</code></td>
+       <td tabindex="-1"><code class="code">usw2-den1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-den-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az4</code></td>
+       <td tabindex="-1"><code class="code">Colorado, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Honolulu)</td>
+       <td tabindex="-1"><code class="code">us-west-2-hnl-1a</code></td>
+       <td tabindex="-1"><code class="code">usw2-hnl1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-hnl-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az3</code></td>
+       <td tabindex="-1"><code class="code">Hawaii, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Las Vegas) 2</td>
+       <td tabindex="-1"><code class="code">us-west-2-las-2a</code></td>
+       <td tabindex="-1"><code class="code">usw2-las2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-las-2</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az1</code></td>
+       <td tabindex="-1"><code class="code">Nevada, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Las Vegas)*</td>
+       <td tabindex="-1"><code class="code">us-west-2-las-1a</code></td>
+       <td tabindex="-1"><code class="code">usw2-las1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-las-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az3</code></td>
+       <td tabindex="-1"><code class="code">Nevada, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Los Angeles)</td>
+       <td tabindex="-1"><code class="code">us-west-2-lax-1a</code></td>
+       <td tabindex="-1"><code class="code">usw2-lax1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-lax-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az2</code></td>
+       <td tabindex="-1"><code class="code">California, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Los Angeles)</td>
+       <td tabindex="-1"><code class="code">us-west-2-lax-1b</code></td>
+       <td tabindex="-1"><code class="code">usw2-lax1-az2</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-lax-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az4</code></td>
+       <td tabindex="-1"><code class="code">California, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Phoenix) 2</td>
+       <td tabindex="-1"><code class="code">us-west-2-phx-2a</code></td>
+       <td tabindex="-1"><code class="code">usw2-phx2-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-phx-2</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az2</code></td>
+       <td tabindex="-1"><code class="code">Arizona, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Phoenix)*</td>
+       <td tabindex="-1"><code class="code">us-west-2-phx-1a</code></td>
+       <td tabindex="-1"><code class="code">usw2-phx1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-phx-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az2</code></td>
+       <td tabindex="-1"><code class="code">Arizona, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Portland)*</td>
+       <td tabindex="-1"><code class="code">us-west-2-pdx-1a</code></td>
+       <td tabindex="-1"><code class="code">usw2-pdx1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-pdx-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az3</code></td>
+       <td tabindex="-1"><code class="code">Oregon, United States of America</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">US West (Seattle)</td>
+       <td tabindex="-1"><code class="code">us-west-2-sea-1a</code></td>
+       <td tabindex="-1"><code class="code">usw2-sea1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2-sea-1</code></td>
+       <td tabindex="-1"><code class="code">us-west-2</code></td>
+       <td tabindex="-1"><code class="code">usw2-az1</code></td>
+       <td tabindex="-1"><code class="code">Washington, United States of America</code></td>
+      </tr>
+     </table></div></div>
+    <p>* Contact Support to request access.</p>
+   
+
+   
+   <h3 id="lzs-southamerica">South America</h3>
+   <p>The following Local Zones are available in South America:</p>
+   <div class="table-container"><div class="table-contents"><table id="w79aac15c11b9b5"><thead>
+      <tr>
+       <th>Local Zone Group Long Name</th>
+       <th>Local Zone Name</th>
+       <th>Local Zone ID</th>
+       <th>Network Border Group</th>
+       <th>Parent Region Name</th>
+       <th>Parent Zone ID</th>
+       <th>Geography</th>
+      </tr>
+     </thead>
+      <tr>
+       <td tabindex="-1">Argentina (Buenos Aires)</td>
+       <td tabindex="-1"><code class="code">us-east-1-bue-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-bue1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-bue-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az2</code></td>
+       <td tabindex="-1"><code class="code">Argentina</code></td>
+      </tr>
+      
+      <tr>
+       <td tabindex="-1">Chile (Santiago)</td>
+       <td tabindex="-1"><code class="code">us-east-1-scl-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-scl1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-scl-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az1</code></td>
+       <td tabindex="-1"><code class="code">Chile</code></td>
+      </tr>
+      
+      <tr>
+       <td tabindex="-1">Peru (Lima)</td>
+       <td tabindex="-1"><code class="code">us-east-1-lim-1a</code></td>
+       <td tabindex="-1"><code class="code">use1-lim1-az1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1-lim-1</code></td>
+       <td tabindex="-1"><code class="code">us-east-1</code></td>
+       <td tabindex="-1"><code class="code">use1-az2</code></td>
+       <td tabindex="-1"><code class="code">Peru</code></td>
+      </tr>
+      
+     </table></div></div>
+   
+
+   
+
+   
+   <h3 id="lzs-africa">Africa</h3>
+<p>The following Local Zones are available in Africa:</p>
+   <div class="table-container"><div class="table-contents"><table id="w79aac15c11c11b5"><thead>
+      <tr>
+       <th>Local Zone Group Long Name</th>
+       <th>Local Zone Name</th>
+       <th>Local Zone ID</th>
+       <th>Network Border Group</th>
+       <th>Parent Region Name</th>
+       <th>Parent Zone ID</th>
+       <th>Geography</th>
+      </tr>
+     </thead>
+      
+      <tr>
+       <td tabindex="-1">Nigeria (Lagos)</td>
+       <td tabindex="-1"><code class="code">af-south-1-los-1a</code></td>
+       <td tabindex="-1"><code class="code">afs1-los1-az1</code></td>
+       <td tabindex="-1"><code class="code">af-south-1-los-1</code></td>
+       <td tabindex="-1"><code class="code">af-south-1</code></td>
+       <td tabindex="-1"><code class="code">afs1-az1</code></td>
+       <td tabindex="-1"><code class="code">Nigeria</code></td>
+      </tr>
+      
+     </table></div></div>
+   
+   
+  
+  
+
+   
+   <h3 id="lzs-asia-pacific">Asia Pacific</h3>
+<p>The following Local Zones are available in Asia Pacific:</p>
+   <div class="table-container"><div class="table-contents"><table id="w79aac15c11c13b5"><thead>
+      <tr>
+       <th>Local Zone Group Long Name</th>
+       <th>Local Zone Name</th>
+       <th>Local Zone ID</th>
+       <th>Network Border Group</th>
+       <th>Parent Region Name</th>
+       <th>Parent Zone ID</th>
+       <th>Geography</th>
+      </tr>
+     </thead>
+      
+      <tr>
+       <td tabindex="-1">Australia (Perth)</td>
+       <td tabindex="-1"><code class="code">ap-southeast-2-per-1a</code></td>
+       <td tabindex="-1"><code class="code">apse2-per1-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-2-per-1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-2</code></td>
+       <td tabindex="-1"><code class="code">apse2-az1</code></td>
+       <td tabindex="-1"><code class="code">Australia</code></td>
+      </tr>
+      
+      <tr>
+       <td tabindex="-1">India (Delhi)</td>
+       <td tabindex="-1"><code class="code">ap-south-1-del-1a</code></td>
+       <td tabindex="-1"><code class="code">aps1-del1-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-south-1-del-1</code></td>
+       <td tabindex="-1"><code class="code">ap-south-1</code></td>
+       <td tabindex="-1"><code class="code">aps1-az3</code></td>
+       <td tabindex="-1"><code class="code">India</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">India (Kolkata)</td>
+       <td tabindex="-1"><code class="code">ap-south-1-ccu-1a</code></td>
+       <td tabindex="-1"><code class="code">aps1-ccu1-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-south-1-ccu-1</code></td>
+       <td tabindex="-1"><code class="code">ap-south-1</code></td>
+       <td tabindex="-1"><code class="code">aps1-az1</code></td>
+       <td tabindex="-1"><code class="code">India</code></td>
+      </tr>
+      
+      <tr>
+       <td tabindex="-1">New Zealand (Auckland)*</td>
+       <td tabindex="-1"><code class="code">ap-southeast-2-akl-1a</code></td>
+       <td tabindex="-1"><code class="code">apse2-akl1-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-2-akl-1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-2</code></td>
+       <td tabindex="-1"><code class="code">apse2-az2</code></td>
+       <td tabindex="-1"><code class="code">New Zealand</code></td>
+      </tr>
+      
+      <tr>
+       <td tabindex="-1">Philippines (Manila)</td>
+       <td tabindex="-1"><code class="code">ap-southeast-1-mnl-1a</code></td>
+       <td tabindex="-1"><code class="code">apse1-mnl1-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-1-mnl-1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-1</code></td>
+       <td tabindex="-1"><code class="code">apse1-az1</code></td>
+       <td tabindex="-1"><code class="code">Philippines</code></td>
+      </tr>
+      
+      <tr>
+       <td tabindex="-1">Taiwan (Taipei)*</td>
+       <td tabindex="-1"><code class="code">ap-northeast-1-tpe-1a</code></td>
+       <td tabindex="-1"><code class="code">apne1-tpe1-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-northeast-1-tpe-1</code></td>
+       <td tabindex="-1"><code class="code">ap-northeast-1</code></td>
+       <td tabindex="-1"><code class="code">apne1-az2</code></td>
+       <td tabindex="-1"><code class="code">Taiwan</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">Thailand (Bangkok)</td>
+       <td tabindex="-1"><code class="code">ap-southeast-1-bkk-1a</code></td>
+       <td tabindex="-1"><code class="code">apse1-bkk1-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-1-bkk-1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-1</code></td>
+       <td tabindex="-1"><code class="code">apse1-az1</code></td>
+       <td tabindex="-1"><code class="code">Thailand</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">Vietnam (Hanoi)</td>
+       <td tabindex="-1"><code class="code">ap-southeast-1-han-1a</code></td>
+       <td tabindex="-1"><code class="code">apse1-han-az1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-1-han-1</code></td>
+       <td tabindex="-1"><code class="code">ap-southeast-1</code></td>
+       <td tabindex="-1"><code class="code">apse1-az3</code></td>
+       <td tabindex="-1"><code class="code">Vietnam</code></td>
+      </tr>
+      
+     </table></div></div>
+   
+ 
+
+   
+   <h3 id="lzs-europe">Europe</h3>
+<p>The following Local Zones are available in Europe:</p>
+   <div class="table-container"><div class="table-contents"><table id="w79aac15c11c15b5"><thead>
+      <tr>
+       <th>Local Zone Group Long Name</th>
+       <th>Local Zone Name</th>
+       <th>Local Zone ID</th>
+       <th>Network Border Group</th>
+       <th>Parent Region Name</th>
+       <th>Parent Zone ID</th>
+       <th>Geography</th>
+      </tr>
+     </thead>
+      
+      <tr>
+       <td tabindex="-1">Denmark (Copenhagen)</td>
+       <td tabindex="-1"><code class="code">eu-north-1-cph-1a</code></td>
+       <td tabindex="-1"><code class="code">eun1-cph1-az1</code></td>
+       <td tabindex="-1"><code class="code">eu-north-1-cph-1</code></td>
+       <td tabindex="-1"><code class="code">eu-north-1</code></td>
+       <td tabindex="-1"><code class="code">eun1-az2</code></td>
+       <td tabindex="-1"><code class="code">Denmark</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">Finland (Helsinki)</td>
+       <td tabindex="-1"><code class="code">eu-north-1-hel-1a</code></td>
+       <td tabindex="-1"><code class="code">eun1-hel1-az1</code></td>
+       <td tabindex="-1"><code class="code">eu-north-1-hel-1</code></td>
+       <td tabindex="-1"><code class="code">eu-north-1</code></td>
+       <td tabindex="-1"><code class="code">eun1-az1</code></td>
+       <td tabindex="-1"><code class="code">Finland</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">Germany (Hamburg)</td>
+       <td tabindex="-1"><code class="code">eu-central-1-ham-1a</code></td>
+       <td tabindex="-1"><code class="code">euc1-ham1-az1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1-ham-1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1</code></td>
+       <td tabindex="-1"><code class="code">euc1-az3</code></td>
+       <td tabindex="-1"><code class="code">Germany</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">Greece (Athens)</td>
+       <td tabindex="-1"><code class="code">eu-central-1-ath-1a</code></td>
+       <td tabindex="-1"><code class="code">euc1-ath1-az1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1-ath-1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1</code></td>
+       <td tabindex="-1"><code class="code">euc1-az2</code></td>
+       <td tabindex="-1"><code class="code">Greece</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">Poland (Warsaw)</td>
+       <td tabindex="-1"><code class="code">eu-central-1-waw-1a</code></td>
+       <td tabindex="-1"><code class="code">euc1-waw1-az1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1-waw-1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1</code></td>
+       <td tabindex="-1"><code class="code">euc1-az3</code></td>
+       <td tabindex="-1"><code class="code">Poland</code></td>
+      </tr>
+      <tr>
+       <td tabindex="-1">Turkey (Istanbul)</td>
+       <td tabindex="-1"><code class="code">eu-central-1-ist-1a</code></td>
+       <td tabindex="-1"><code class="code">euc1-ist1-az1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1-ist-1</code></td>
+       <td tabindex="-1"><code class="code">eu-central-1</code></td>
+       <td tabindex="-1"><code class="code">euc1-az1</code></td>
+       <td tabindex="-1"><code class="code">Turkey</code></td>
+      </tr>
+     
+     </table></div></div>
+   
+   
+
+  
+
+
+
+  <p>For the complete list of supported and announced Local Zones, see <a href="https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/" rel="noopener noreferrer" target="_blank"><span>AWS Local Zones
+   Locations</span><awsui-icon class="awsdocs-link-icon" name="external"></awsui-icon></a>.</p>
+  
+  
+  <h2 id="find-lzs">Find your Local Zones using the AWS CLI</h2>
+  <p>Use the <a href="https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-availability-zones.html">describe-availability-zones</a> command to get a details of the Local Zones available in a
+   specific Region, for your account.</p>
+  <p>The following example shows how to run the <code class="code">describe-availability-zones</code>
+   command:</p>
+  <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"><awsui-icon name="copy"></awsui-icon></div></div><!--DEBUG: cli ()--><code class="nohighlight">aws ec2 describe-availability-zones \
+  --region <code class="replaceable">us-west-2</code> \
+  --filters Name=zone-type,Values=local-zone \
+  --all-availability-zones</code></pre>
+  <p>The following example shows an output of the <code class="code">describe-availability-zones</code>
+   command:</p>
+  <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"><awsui-icon name="copy"></awsui-icon></div></div><!--DEBUG: cli ()--><code class=""><span>{</span>
+            "State": "available",
+            "OptInStatus": "opted-in",
+            "Messages": [],
+            "RegionName": "us-west-2",
+            "ZoneName": "us-west-2-lax-1a",
+            "ZoneId": "usw2-lax1-az1",
+            "GroupName": "us-west-2-lax-1",
+            "NetworkBorderGroup": "us-west-2-lax-1",
+            "ZoneType": "local-zone",
+            "ParentZoneName": "us-west-2a",
+            "ParentZoneId": "usw2-az2",
+            "GroupLongName": "US West (Los Angeles)"
+        },
+        <span>{</span>
+            "State": "available",
+            "OptInStatus": "opted-in",
+            "Messages": [],
+            "RegionName": "us-west-2",
+            "ZoneName": "us-west-2-lax-1b",
+            "ZoneId": "usw2-lax1-az2",
+            "GroupName": "us-west-2-lax-1",
+            "NetworkBorderGroup": "us-west-2-lax-1",
+            "ZoneType": "local-zone",
+            "ParentZoneName": "us-west-2d",
+            "ParentZoneId": "usw2-az4",
+            "GroupLongName": "US West (Los Angeles)"
+        }</code></pre>
+
+ <awsdocs-copyright class="copyright-print"></awsdocs-copyright><awsdocs-thumb-feedback right-edge="{{$ctrl.thumbFeedbackRightEdge}}"></awsdocs-thumb-feedback></div><noscript><div><div><div><div id="js_error_message"><p><img src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png" alt="Warning" /> <strong>Javascript is disabled or is unavailable in your browser.</strong></p><p>To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.</p></div></div></div></div></noscript><div id="main-col-footer" class="awsui-util-font-size-0"><div id="doc-conventions"><a target="_top" href="/general/latest/gr/docconventions.html">Document Conventions</a></div><div class="prev-next"><div id="previous" class="prev-link" accesskey="p" href="./how-local-zones-work.html">How AWS Local Zones work</div><div id="next" class="next-link" accesskey="n" href="./getting-started.html">Getting started</div></div></div><awsdocs-page-utilities></awsdocs-page-utilities></div><div id="quick-feedback-yes" style="display: none;"><div class="title">Did this page help you? - Yes</div><div class="content"><p>Thanks for letting us know we're doing a good job!</p><p>If you've got a moment, please tell us what we did right so we can do more of it.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Local Zones&amp;topic_url=https://docs.aws.amazon.com/en_us/local-zones/latest/ug/available-local-zones.html"></awsui-button></p></div></div><div id="quick-feedback-no" style="display: none;"><div class="title">Did this page help you? - No</div><div class="content"><p>Thanks for letting us know this page needs work. We're sorry we let you down.</p><p>If you've got a moment, please tell us how we can make the documentation better.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Local Zones&amp;topic_url=https://docs.aws.amazon.com/en_us/local-zones/latest/ug/available-local-zones.html"></awsui-button></p></div></div></div></body></div></awsdocs-view><div class="page-loading-indicator" id="page-loading-indicator"><awsui-spinner size="large"></awsui-spinner></div></div><div id="tools-panel" dom-region="tools"><awsdocs-tools-panel id="awsdocs-tools-panel"></awsdocs-tools-panel></div></awsui-app-layout><awsdocs-cookie-banner class="doc-cookie-banner"></awsdocs-cookie-banner></div></body></html>

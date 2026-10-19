@@ -1,0 +1,867 @@
+{
+  "accuracy_risks": [
+    "A cloud region is not necessarily its city's data center; AWS UAE is country-scoped.",
+    "AWS me-central-1 is UAE; Alibaba me-central-1 is Riyadh. Alibaba me-east-1 is Dubai; Huawei me-east-1 is Riyadh.",
+    "OCI AD counts and fault domains are not building counts; AD names have tenancy-specific prefixes.",
+    "Directory lifecycle is separate from present service health; this review is not a live health assessment."
+  ],
+  "aws_cloudfront_reconciliation": {
+    "current_listed_gulf_labels": [
+      "Bahrain",
+      "Doha",
+      "Dubai",
+      "Jeddah",
+      "Muscat",
+      "Riyadh"
+    ],
+    "current_source": {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-cloudfront",
+      "source_published_at": null,
+      "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    },
+    "fujairah_assessment": "2022 launch post mentions a CloudFront location, absent from current features city list; do not silently add as currently operational",
+    "historical_fujairah_source": {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-uae-launch.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-uae-launch",
+      "source_published_at": "2022-08-29",
+      "source_sha256": "78a43d822154ddbd2a6cf5d214bdb65401dc32f667c21b96a970f1cb201fab02",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/blogs/aws/now-open-aws-region-in-the-united-arab-emirates-uae/"
+    }
+  },
+  "aws_current_regions": [
+    {
+      "city": null,
+      "country_label": "Bahrain",
+      "declared_zone_count": 3,
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-regions.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-regions",
+        "source_published_at": null,
+        "source_sha256": "ef429b0b6e5d6faee11cb33123e0aa2293bd76c871fcd9221d54cc0a63ad2c50",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.md"
+      },
+      "region_id": "me-south-1",
+      "region_name": "Middle East (Bahrain)"
+    },
+    {
+      "city": null,
+      "country_label": "United Arab Emirates",
+      "declared_zone_count": 3,
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-regions.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-regions",
+        "source_published_at": null,
+        "source_sha256": "ef429b0b6e5d6faee11cb33123e0aa2293bd76c871fcd9221d54cc0a63ad2c50",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.md"
+      },
+      "region_id": "me-central-1",
+      "region_name": "Middle East (UAE)"
+    }
+  ],
+  "aws_current_zone_ids": [
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-availability-zones",
+        "source_published_at": null,
+        "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+      },
+      "region_id": "me-central-1",
+      "zone_id": "mec1-az1"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-availability-zones",
+        "source_published_at": null,
+        "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+      },
+      "region_id": "me-central-1",
+      "zone_id": "mec1-az2"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-availability-zones",
+        "source_published_at": null,
+        "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+      },
+      "region_id": "me-central-1",
+      "zone_id": "mec1-az3"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-availability-zones",
+        "source_published_at": null,
+        "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+      },
+      "region_id": "me-south-1",
+      "zone_id": "mes1-az1"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-availability-zones",
+        "source_published_at": null,
+        "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+      },
+      "region_id": "me-south-1",
+      "zone_id": "mes1-az2"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-availability-zones",
+        "source_published_at": null,
+        "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+      },
+      "region_id": "me-south-1",
+      "zone_id": "mes1-az3"
+    }
+  ],
+  "aws_interconnect_candidates": [
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-direct-connect",
+        "source_published_at": null,
+        "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+        "source_updated_at": null,
+        "source_url": "https://aws.amazon.com/directconnect/locations/"
+      },
+      "location_label": "AWS Bahrain DC52, Manama, Bahrain",
+      "record_unit": "interconnect_location",
+      "region_building_identity_asserted": false
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-direct-connect",
+        "source_published_at": null,
+        "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+        "source_updated_at": null,
+        "source_url": "https://aws.amazon.com/directconnect/locations/"
+      },
+      "location_label": "AWS Bahrain DC53, Manama, Bahrain",
+      "record_unit": "interconnect_location",
+      "region_building_identity_asserted": false
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-direct-connect",
+        "source_published_at": null,
+        "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+        "source_updated_at": null,
+        "source_url": "https://aws.amazon.com/directconnect/locations/"
+      },
+      "location_label": "Equinix MC1 Barka, Muscat",
+      "record_unit": "interconnect_location",
+      "region_building_identity_asserted": false
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-direct-connect",
+        "source_published_at": null,
+        "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+        "source_updated_at": null,
+        "source_url": "https://aws.amazon.com/directconnect/locations/"
+      },
+      "location_label": "Equinix DX1, Dubai, UAE",
+      "record_unit": "interconnect_location",
+      "region_building_identity_asserted": false
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-direct-connect",
+        "source_published_at": null,
+        "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+        "source_updated_at": null,
+        "source_url": "https://aws.amazon.com/directconnect/locations/"
+      },
+      "location_label": "Etisalat Smart Hub Data Center, Fujairah, UAE",
+      "record_unit": "interconnect_location",
+      "region_building_identity_asserted": false
+    }
+  ],
+  "aws_local_zones_reconciliation": {
+    "current_gulf_rows": [],
+    "historical_muscat_record": "aws:local_zone:mes1-mct1-az1",
+    "missing_listing_is_not_retirement": true,
+    "source": {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-local-zones-guide.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-local-zones-guide",
+      "source_published_at": null,
+      "source_sha256": "4f188cbd0edab8ed25e4abf4275c6c44bbca31a7a18eda7d33b61540eb348ab8",
+      "source_updated_at": null,
+      "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+    }
+  },
+  "aws_saudi_plan": {
+    "availability_zone_ids": [],
+    "evidence": {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-saudi-plan.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-saudi-plan",
+      "source_published_at": "2026-10-15",
+      "source_sha256": "17175fad1a0d6dc26fbf5037cc807fb692f67a61fd80fed7f993bbee93cd71f6",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/blogs/migration-and-modernization/how-to-plan-your-migration-to-the-aws-region-in-saudi-arabia/"
+    },
+    "expected_launch": "2026-12",
+    "lifecycle_status": "planned",
+    "region_id": null
+  },
+  "baseline_geometry_null": 18,
+  "baseline_layer_counts": {
+    "aws/cloudfront": 6,
+    "aws/local-zones": 1,
+    "aws/regions-and-zones": 8,
+    "oracle/cloud-regions": 4
+  },
+  "baseline_manifest": {
+    "path": "data/raw/repository/manifest-before-geography.20261019.json",
+    "sha256": "d212cd91065645d413bfff71734c5501a2f6af0ac6327e001b160ac9dcbcd79a"
+  },
+  "baseline_record_count": 19,
+  "baseline_records": [
+    {
+      "city": "Dubai",
+      "country_code": "AE",
+      "entity_type": "edge_pop",
+      "geometry_null": true,
+      "layer": "aws/cloudfront",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+      "record_id": "aws:edge_pop:cloudfront-ae-dubai",
+      "retrieved_at": "2026-08-04",
+      "source_sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    },
+    {
+      "city": "Bahrain",
+      "country_code": "BH",
+      "entity_type": "edge_pop",
+      "geometry_null": true,
+      "layer": "aws/cloudfront",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+      "record_id": "aws:edge_pop:cloudfront-bh-bahrain",
+      "retrieved_at": "2026-08-04",
+      "source_sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    },
+    {
+      "city": "Muscat",
+      "country_code": "OM",
+      "entity_type": "edge_pop",
+      "geometry_null": true,
+      "layer": "aws/cloudfront",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+      "record_id": "aws:edge_pop:cloudfront-om-muscat",
+      "retrieved_at": "2026-08-04",
+      "source_sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    },
+    {
+      "city": "Doha",
+      "country_code": "QA",
+      "entity_type": "edge_pop",
+      "geometry_null": true,
+      "layer": "aws/cloudfront",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+      "record_id": "aws:edge_pop:cloudfront-qa-doha",
+      "retrieved_at": "2026-08-04",
+      "source_sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    },
+    {
+      "city": "Jeddah",
+      "country_code": "SA",
+      "entity_type": "edge_pop",
+      "geometry_null": true,
+      "layer": "aws/cloudfront",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+      "record_id": "aws:edge_pop:cloudfront-sa-jeddah",
+      "retrieved_at": "2026-08-04",
+      "source_sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    },
+    {
+      "city": "Riyadh",
+      "country_code": "SA",
+      "entity_type": "edge_pop",
+      "geometry_null": true,
+      "layer": "aws/cloudfront",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
+      "record_id": "aws:edge_pop:cloudfront-sa-riyadh",
+      "retrieved_at": "2026-08-04",
+      "source_sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    },
+    {
+      "city": "Muscat",
+      "country_code": "OM",
+      "entity_type": "local_zone",
+      "geometry_null": false,
+      "layer": "aws/local-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/available-local-zones.20260804.html",
+      "record_id": "aws:local_zone:mes1-mct1-az1",
+      "retrieved_at": "2026-08-04",
+      "source_sha256": "f3a6e3ce2449d296b7f34c481f8d89a27dc9ee2d077e4e7a7e8e1cfed4390d52",
+      "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+    },
+    {
+      "city": null,
+      "country_code": "AE",
+      "entity_type": "availability_zone",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:availability_zone:mec1-az1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": null,
+      "country_code": "AE",
+      "entity_type": "availability_zone",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:availability_zone:mec1-az2",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": null,
+      "country_code": "AE",
+      "entity_type": "availability_zone",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:availability_zone:mec1-az3",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": null,
+      "country_code": "BH",
+      "entity_type": "availability_zone",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:availability_zone:mes1-az1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": null,
+      "country_code": "BH",
+      "entity_type": "availability_zone",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:availability_zone:mes1-az2",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": null,
+      "country_code": "BH",
+      "entity_type": "availability_zone",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:availability_zone:mes1-az3",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": null,
+      "country_code": "AE",
+      "entity_type": "cloud_region",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:cloud_region:me-central-1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": null,
+      "country_code": "BH",
+      "entity_type": "cloud_region",
+      "geometry_null": true,
+      "layer": "aws/regions-and-zones",
+      "lifecycle_status": "operational",
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/aws/availability-zones.20260805.md",
+      "record_id": "aws:cloud_region:me-south-1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "a9be2442b95e68d76cd4d4756900f53f35d9db1cf8faab24839849598d2f62af",
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "city": "Abu Dhabi",
+      "country_code": "AE",
+      "entity_type": "cloud_region",
+      "geometry_null": true,
+      "layer": "oracle/cloud-regions",
+      "lifecycle_status": "operational",
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/oracle/regions.20260805.html",
+      "record_id": "oracle:cloud_region:me-abudhabi-1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+    },
+    {
+      "city": "Dubai",
+      "country_code": "AE",
+      "entity_type": "cloud_region",
+      "geometry_null": true,
+      "layer": "oracle/cloud-regions",
+      "lifecycle_status": "operational",
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/oracle/regions.20260805.html",
+      "record_id": "oracle:cloud_region:me-dubai-1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+    },
+    {
+      "city": "Jeddah",
+      "country_code": "SA",
+      "entity_type": "cloud_region",
+      "geometry_null": true,
+      "layer": "oracle/cloud-regions",
+      "lifecycle_status": "operational",
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/oracle/regions.20260805.html",
+      "record_id": "oracle:cloud_region:me-jeddah-1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+    },
+    {
+      "city": "Riyadh",
+      "country_code": "SA",
+      "entity_type": "cloud_region",
+      "geometry_null": true,
+      "layer": "oracle/cloud-regions",
+      "lifecycle_status": "operational",
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/oracle/regions.20260805.html",
+      "record_id": "oracle:cloud_region:me-riyadh-1",
+      "retrieved_at": "2026-08-05",
+      "source_sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+    }
+  ],
+  "canonical_aws_oracle_layers_changed": false,
+  "mode": "assessment_and_implementation_plan",
+  "oracle_dedicated_product_references": [
+    {
+      "current_lifecycle_status": "unknown",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-epm-realms",
+        "source_published_at": null,
+        "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html"
+      },
+      "public_availability_asserted": false,
+      "realm_label": "DRCC Oman (OC9)",
+      "region_id": "me-dcc-muscat-1",
+      "region_key": "MCT",
+      "region_name": "Muscat, Oman",
+      "scope": "Oracle EPM product directory / dedicated realm"
+    },
+    {
+      "current_lifecycle_status": "unknown",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-epm-realms",
+        "source_published_at": null,
+        "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html"
+      },
+      "public_availability_asserted": false,
+      "realm_label": "DRCC Qatar (OC21)",
+      "region_id": "me-dcc-doha-1",
+      "region_key": "DOH",
+      "region_name": "Doha, Qatar",
+      "scope": "Oracle EPM product directory / dedicated realm"
+    },
+    {
+      "current_lifecycle_status": "unknown",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-epm-realms",
+        "source_published_at": null,
+        "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html"
+      },
+      "public_availability_asserted": false,
+      "realm_label": "DRCC UAE (OC29)",
+      "region_id": "me-abudhabi-2",
+      "region_key": "RKT",
+      "region_name": "Abu Dhabi, UAE 1",
+      "scope": "Oracle EPM product directory / dedicated realm"
+    },
+    {
+      "current_lifecycle_status": "unknown",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-epm-realms",
+        "source_published_at": null,
+        "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html"
+      },
+      "public_availability_asserted": false,
+      "realm_label": "DRCC UAE (OC29)",
+      "region_id": "me-abudhabi-4",
+      "region_key": "SHJ",
+      "region_name": "Abu Dhabi, UAE 2",
+      "scope": "Oracle EPM product directory / dedicated realm"
+    },
+    {
+      "current_lifecycle_status": "unknown",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-epm-realms",
+        "source_published_at": null,
+        "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html"
+      },
+      "public_availability_asserted": false,
+      "realm_label": "DRCC Saudi Arabia (OC36)",
+      "region_id": "me-riyadh-2",
+      "region_key": "KZQ",
+      "region_name": "Riyadh, Saudi Arabia",
+      "scope": "Oracle EPM product directory / dedicated realm"
+    },
+    {
+      "current_lifecycle_status": "unknown",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-epm-realms",
+        "source_published_at": null,
+        "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html"
+      },
+      "public_availability_asserted": false,
+      "realm_label": "DRCC Saudi Arabia (OC36)",
+      "region_id": "me-alkhobar-1",
+      "region_key": "DAM",
+      "region_name": "Al Khobar, Saudi Arabia",
+      "scope": "Oracle EPM product directory / dedicated realm"
+    }
+  ],
+  "oracle_fastconnect_candidates": [
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-fastconnect-partners",
+        "source_published_at": null,
+        "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+        "source_updated_at": null,
+        "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+      },
+      "location_label": "Riyadh, Saudi Arabia",
+      "operator": "Center3",
+      "record_unit": "region_interconnect_location_relationship",
+      "region_building_identity_asserted": false,
+      "region_label": "Saudi Arabia Central (Riyadh)"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-fastconnect-partners",
+        "source_published_at": null,
+        "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+        "source_updated_at": null,
+        "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+      },
+      "location_label": "Jeddah, Saudi Arabia",
+      "operator": "Mobily",
+      "record_unit": "region_interconnect_location_relationship",
+      "region_building_identity_asserted": false,
+      "region_label": "Saudi Arabia West (Jeddah)"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-fastconnect-partners",
+        "source_published_at": null,
+        "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+        "source_updated_at": null,
+        "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+      },
+      "location_label": "Jeddah, Saudi Arabia",
+      "operator": "Center3",
+      "record_unit": "region_interconnect_location_relationship",
+      "region_building_identity_asserted": false,
+      "region_label": "Saudi Arabia West (Jeddah)"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-fastconnect-partners",
+        "source_published_at": null,
+        "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+        "source_updated_at": null,
+        "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+      },
+      "location_label": "Middle East, Abu Dhabi, UAE",
+      "operator": "Equinix",
+      "record_unit": "region_interconnect_location_relationship",
+      "region_building_identity_asserted": false,
+      "region_label": "UAE Central (Abu Dhabi)"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-fastconnect-partners",
+        "source_published_at": null,
+        "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+        "source_updated_at": null,
+        "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+      },
+      "location_label": "DX1, Dubai, UAE",
+      "operator": "Equinix",
+      "record_unit": "region_interconnect_location_relationship",
+      "region_building_identity_asserted": false,
+      "region_label": "UAE East (Dubai)"
+    },
+    {
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-fastconnect-partners",
+        "source_published_at": null,
+        "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+        "source_updated_at": null,
+        "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+      },
+      "location_label": "Dubai, UAE",
+      "operator": "Gulf Data Hub",
+      "record_unit": "region_interconnect_location_relationship",
+      "region_building_identity_asserted": false,
+      "region_label": "UAE East (Dubai)"
+    }
+  ],
+  "oracle_public_regions": [
+    {
+      "availability_domain_count": 1,
+      "canonical_record_id": "oracle:cloud_region:me-abudhabi-1",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-regions",
+        "source_published_at": null,
+        "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+      },
+      "realm_key": "OC1",
+      "region_id": "me-abudhabi-1",
+      "region_key": "AUH",
+      "region_name": "UAE Central (Abu Dhabi)",
+      "source_location_label": "Abu Dhabi, UAE"
+    },
+    {
+      "availability_domain_count": 1,
+      "canonical_record_id": "oracle:cloud_region:me-dubai-1",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-regions",
+        "source_published_at": null,
+        "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+      },
+      "realm_key": "OC1",
+      "region_id": "me-dubai-1",
+      "region_key": "DXB",
+      "region_name": "UAE East (Dubai)",
+      "source_location_label": "Dubai, UAE"
+    },
+    {
+      "availability_domain_count": 1,
+      "canonical_record_id": "oracle:cloud_region:me-jeddah-1",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-regions",
+        "source_published_at": null,
+        "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+      },
+      "realm_key": "OC1",
+      "region_id": "me-jeddah-1",
+      "region_key": "JED",
+      "region_name": "Saudi Arabia West (Jeddah)",
+      "source_location_label": "Jeddah, Saudi Arabia"
+    },
+    {
+      "availability_domain_count": 1,
+      "canonical_record_id": "oracle:cloud_region:me-riyadh-1",
+      "evidence": {
+        "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "oracle-regions",
+        "source_published_at": null,
+        "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+        "source_updated_at": null,
+        "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+      },
+      "realm_key": "OC1",
+      "region_id": "me-riyadh-1",
+      "region_key": "RUH",
+      "region_name": "Saudi Arabia Central (Riyadh)",
+      "source_location_label": "Riyadh, Saudi Arabia"
+    }
+  ],
+  "oracle_sdk_reference": {
+    "evidence": {
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-sdk-regions.20261019.java",
+      "retrieved_at": "2026-10-19",
+      "source_id": "oracle-sdk-regions",
+      "source_published_at": null,
+      "source_sha256": "1afdd4c2837fe1defd2994b5fe1469c7461ad71d69dcbb61b27dfd5f88184748",
+      "source_updated_at": null,
+      "source_url": "https://raw.githubusercontent.com/oracle/oci-java-sdk/master/bmc-common/src/main/java/com/oracle/bmc/Region.java"
+    },
+    "limitation": "SDK registration establishes a client identifier and realm, not current launch, public access, address or ownership"
+  },
+  "plan": [
+    {
+      "acceptance": "No AWS UAE region/AZ assigned to Dubai; city views excluded from facility totals, with original source dates and a licensed gazetteer crosswalk.",
+      "action": "Add separate city-reference views for the four public OCI regions and five explicit Gulf CloudFront cities; keep country-only Bahrain and AWS core-region geography at country precision.",
+      "priority": "P0"
+    },
+    {
+      "acceptance": "Provider, service and realm namespace every identity. No inferred Saudi code, AZ count or operational lifecycle. Existing IDs persist.",
+      "action": "Refresh core directory identities and track AWS Saudi as planned for December 2026; wait for official region/AZ identifiers and launch evidence.",
+      "priority": "P0"
+    },
+    {
+      "acceptance": "Retain mes1-mct1-az1 and its original evidence; mark listing discrepancy for review. Absence alone cannot establish retirement.",
+      "action": "Reconcile the historical Muscat Local Zone against the current guide, where no Gulf Local Zone rows were found.",
+      "priority": "P0"
+    },
+    {
+      "acceptance": "Deduplicate physical endpoints separately from region associations; do not identify them as region data-center buildings. Reconcile historical Fujairah CloudFront evidence separately.",
+      "action": "Add the five AWS Direct Connect entries and six OCI FastConnect region/site relationships to an interconnect evidence layer, after operator/address matching.",
+      "priority": "P1"
+    },
+    {
+      "acceptance": "Dedicated realms remain separate from OC1 public regions; no public availability or tenancy-independent AD names inferred from SDK registration.",
+      "action": "Add Oracle EPM's six dedicated Gulf region references in OC9, OC21, OC29 and OC36 as product-scoped evidence; review SDK-only entries separately.",
+      "priority": "P1"
+    },
+    {
+      "acceptance": "Prefix registration, routing, latency, DNS and CDN edge location remain distinct from application origins, owned facilities and service health.",
+      "action": "Join official AWS/OCI prefix feeds and published geofeeds by provider/service/region; use public measurements only as dated corroboration.",
+      "priority": "P2"
+    },
+    {
+      "acceptance": "Alert on missing IDs and schema/realm changes; publish counts of listed, mapped, unlocated, stale and conflicting records separately. No scheduler created by this assessment.",
+      "action": "Implement weekly source-change checks and a planned-launch watch, retaining raw bytes, publication date, assertion date and retrieval date.",
+      "priority": "P2"
+    }
+  ],
+  "reviewed_at": "2026-10-19",
+  "scope": "GCC: UAE, Saudi Arabia, Bahrain, Oman, Qatar, Kuwait; AWS and Oracle"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 47709,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+  "publisher": "Oracle",
+  "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "public regions, realms and AD counts",
+  "sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+  "source_id": "oracle-regions",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm",
+  "title": "OCI Regions and Availability Domains"
+}

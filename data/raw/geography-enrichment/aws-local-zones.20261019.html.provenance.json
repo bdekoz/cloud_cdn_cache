@@ -1,0 +1,19 @@
+{
+  "bytes": 389592,
+  "capture_method": "http_response",
+  "content_type": "text/html;charset=utf-8",
+  "final_url": "https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/",
+  "http_last_modified": "Fri, 16 Oct 2026 03:48:04 GMT",
+  "path": "data/raw/geography-enrichment/aws-local-zones.20261019.html",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/geography-enrichment/aws-local-zones.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "live versus announced Local Zones",
+  "sha256": "2c1fbe348b7502b2795e3eb0f39084c7fd079015305c75f600be21bef6e16471",
+  "source_id": "aws-local-zones",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/",
+  "title": "AWS Local Zones locations"
+}

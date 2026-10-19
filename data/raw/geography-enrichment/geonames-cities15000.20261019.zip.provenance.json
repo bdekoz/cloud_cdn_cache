@@ -1,0 +1,19 @@
+{
+  "bytes": 3362224,
+  "capture_method": "http_response",
+  "content_type": "application/zip",
+  "final_url": "https://download.geonames.org/export/dump/cities15000.zip",
+  "http_last_modified": "Mon, 19 Oct 2026 02:00:27 GMT",
+  "path": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+  "publisher": "GeoNames",
+  "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "locality reference points only",
+  "sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+  "source_id": "geonames-cities15000",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://download.geonames.org/export/dump/cities15000.zip",
+  "title": "GeoNames cities15000 gazetteer"
+}

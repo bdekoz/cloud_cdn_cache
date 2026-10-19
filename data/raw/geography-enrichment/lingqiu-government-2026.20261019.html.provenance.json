@@ -1,0 +1,19 @@
+{
+  "bytes": 77761,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://www.lingqiu.gov.cn/lqxrmzfz/zfgzbg/202604/4377a3fe37a042bb9cca483a93d7ac5f.shtml",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/lingqiu-government-2026.20261019.html",
+  "publisher": "Lingqiu County Government",
+  "raw_source_ref": "data/raw/geography-enrichment/lingqiu-government-2026.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "phase-specific project evidence",
+  "sha256": "02076b0cf43ff506d3642f136f86e68d67e122b2efc93c11a4970f30de91f492",
+  "source_id": "lingqiu-government-2026",
+  "source_published_at": "2026-04-01",
+  "source_updated_at": null,
+  "source_url": "https://www.lingqiu.gov.cn/lqxrmzfz/zfgzbg/202604/4377a3fe37a042bb9cca483a93d7ac5f.shtml",
+  "title": "Lingqiu County 2026 government work report"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 181349,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+  "http_last_modified": "Thu, 15 Oct 2026 15:12:44 GMT",
+  "path": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+  "publisher": "Oracle",
+  "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "network interconnect location and region associations",
+  "sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+  "source_id": "oracle-fastconnect-partners",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+  "title": "Oracle FastConnect partners and locations"
+}

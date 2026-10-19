@@ -1,0 +1,19 @@
+{
+  "bytes": 38553,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/517.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/chindata-ulanqab.20261019.html",
+  "publisher": "Chindata",
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-ulanqab.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "code or named-locality directory evidence",
+  "sha256": "229267c6da9e031cb9c189a717beedb7afc24d76b4314ee2043bf975cc47d64f",
+  "source_id": "chindata-ulanqab",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/517.html",
+  "title": "Chindata regional directory: ulanqab"
+}

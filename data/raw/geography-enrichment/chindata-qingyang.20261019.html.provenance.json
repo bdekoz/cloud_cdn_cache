@@ -1,0 +1,19 @@
+{
+  "bytes": 39356,
+  "capture_method": "http_response",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html",
+  "http_last_modified": null,
+  "path": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+  "publisher": "Chindata",
+  "raw_source_ref": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "code or named-locality directory evidence",
+  "sha256": "fd1c17028e559f5633cb0d0dd8b5fbe82a6cf4451b071e5f953559601316bcac",
+  "source_id": "chindata-qingyang",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html",
+  "title": "Chindata regional directory: qingyang"
+}

@@ -202,9 +202,115 @@
     {
       "path": "data/russia/enrichment-implementation.20261019.json",
       "sha256": "9129f9fcedacf52340d409f690feb8b5785b0355a520c2c4ce7ec0453abe0e3e"
+    },
+    {
+      "path": "data/china/geography-enrichment.20261019.json",
+      "sha256": "92c6f32f9d5a4115280ce682f84f26259d7dbe94a7c39a3bb83562d3e11230c6"
+    },
+    {
+      "path": "data/chindata/campus-alias-review.20261019.json",
+      "sha256": "2051d568a863cb3ef2101b5dfe8a66788dcf22a2026a0ab25d06545d52f1be67"
+    },
+    {
+      "path": "data/gulf/aws-oracle-coverage.20261019.json",
+      "sha256": "c470f5498c7b07185761eb4ccffdc69c05cc562636d283cd110781e047859571"
     }
   ],
+  "bibliography": {
+    "files": {
+      "json": {
+        "path": "data/references/bibliography.20261019.json",
+        "sha256": "f73545258dbbe36f1fcd81838be47e9be5a33a703043b6d2c214b3e10aac70b4"
+      },
+      "markdown": {
+        "path": "docs/bibliography.20261019.md",
+        "sha256": "57ce2134c23ae39520f07e25a338c2ab96c807ea5c6108666b4e0bc23e4840f0"
+      }
+    },
+    "reference_count": 174
+  },
   "generated_from_retained_snapshots_at": "2026-10-19",
+  "geographic_footprint_schema": {
+    "path": "schema/geographic-footprint.schema.json",
+    "sha256": "e742e68f459dfa496b4bc0bc54bc5bb8c401b363892e190aabf8e5ace66b2e69",
+    "version": "1.0.0"
+  },
+  "geographic_footprint_view_count": 1,
+  "geographic_footprint_views": [
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/china/provider-localities.20261019.csv",
+          "path": "data/china/provider-localities.20261019.csv",
+          "source": "data/china/provider-localities.20261019.geojson"
+        }
+      },
+      "excluded_from_canonical_totals": true,
+      "files": {
+        "geojson": {
+          "path": "data/china/provider-localities.20261019.geojson",
+          "sha256": "55399b1f0afa4d7b6486081a173356475aadff44369dc1eaededade51c033ebb"
+        },
+        "report": {
+          "path": "data/china/provider-localities.20261019.report.json",
+          "sha256": "ed4d749322f2d52c9773b7a4637c9f7feae727a9789b9d0e0a356a7faa5bda31"
+        }
+      },
+      "input_layers": [
+        {
+          "layer": "alibaba/regions-and-zones",
+          "path": "data/alibaba/regions-and-zones.20261011.geojson",
+          "sha256": "e18df2b13adeaaaa4b10bf1d2c5ee0c02f58fa47f7af166a88cb297cf1d05d4e"
+        },
+        {
+          "layer": "tencent/regions-and-zones",
+          "path": "data/tencent/regions-and-zones.20261011.geojson",
+          "sha256": "2bc21869ac7ff7b73e54223115e65d999cb86b30784212e4fef4a3814d67503d"
+        },
+        {
+          "layer": "huawei/regions",
+          "path": "data/huawei/regions.20261011.geojson",
+          "sha256": "dd413fd84f0684c4b21936e52dec7556ce79a027871cc08cd33fd3b21ff417a8"
+        },
+        {
+          "layer": "baidu/regions-and-zones",
+          "path": "data/baidu/regions-and-zones.20261011.geojson",
+          "sha256": "b5c28ae85d80e5e19c25849b876115eae3837286178b52583918e183e20af164"
+        },
+        {
+          "layer": "volcano/regions-and-zones",
+          "path": "data/volcano/regions-and-zones.20261011.geojson",
+          "sha256": "3392685ecdedd9be2c5aba03a2b2e7178d389906b26c5f25b4423d38ac7bb1ca"
+        },
+        {
+          "layer": "kingsoft/mainland-regions-and-zones",
+          "path": "data/kingsoft/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "9fbc91f6d961d31032c20ee8d34d62e376d8b0a5121d9f7e7c101c99ca3589a6"
+        },
+        {
+          "layer": "jd/mainland-regions-and-zones",
+          "path": "data/jd/mainland-regions-and-zones.20261011.geojson",
+          "sha256": "17ac545e377912f40b8369623dae5d0d39ae9c6d5bd57894b38eb2fba80769dc"
+        },
+        {
+          "layer": "tianyi/vpc-resource-pools",
+          "path": "data/tianyi/vpc-resource-pools.20261011.geojson",
+          "sha256": "58ebc35590386ccda28f06817f04b2bf85fda04701207e9bc1ab0ef912945b36"
+        },
+        {
+          "layer": "qiniu/resource-pools-and-regions",
+          "path": "data/qiniu/resource-pools-and-regions.20261011.geojson",
+          "sha256": "a156164864f64d10c9417d979e202ec9a437c72f523aef71ba0eaabf3e249c49"
+        }
+      ],
+      "layer": "china/provider-localities",
+      "physical_sites": false,
+      "record_count": 147,
+      "record_unit": "provider_service_locality",
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019"
+    }
+  ],
   "infrastructure_evidence_layer_count": 4,
   "infrastructure_evidence_layers": [
     {
@@ -1729,36 +1835,36 @@
     },
     {
       "coordinate_methods": {
-        "unknown": 4
+        "unknown": 9
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/chindata/data-centers.20261011.csv",
-          "path": "data/chindata/data-centers.20261011.csv",
-          "source": "data/chindata/data-centers.20261011.geojson"
+          "generator": "make data/chindata/data-centers.20261019.csv",
+          "path": "data/chindata/data-centers.20261019.csv",
+          "source": "data/chindata/data-centers.20261019.geojson"
         }
       },
       "entity_types": {
-        "data_center": 4
+        "data_center": 9
       },
       "files": {
         "geojson": {
-          "path": "data/chindata/data-centers.20261011.geojson",
-          "sha256": "5f59fe01b8141f4827cb556233da332cfaa86768a531fbfb375ca519f1c99f29"
+          "path": "data/chindata/data-centers.20261019.geojson",
+          "sha256": "4c5a2ff86677ba4b9d16b07bd27ab7db71953f44bfa90a01861e30e5d418b763"
         },
         "report": {
-          "path": "data/chindata/data-centers.20261011.report.json",
-          "sha256": "9a8213054df3f64d8e481c3dfb9f1ddaa93b144646fa8ce6ac4a31a9075c763e"
+          "path": "data/chindata/data-centers.20261019.report.json",
+          "sha256": "81a202281e2f4df41a9d4a79e597404fd7b1e35557986437b8dd71916d1481b1"
         }
       },
-      "geometry_null": 4,
+      "geometry_null": 9,
       "layer": "chindata/data-centers",
       "providers": [
         "Chindata"
       ],
-      "record_count": 4,
+      "record_count": 9,
       "retrieved_at": [
-        "2026-10-11"
+        "2026-10-19"
       ],
       "schema_versions": [
         "1.2.0"
@@ -1766,16 +1872,59 @@
       "services": [
         "chindata_colocation"
       ],
-      "snapshot_tag": "20261011",
+      "snapshot_tag": "20261019",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
         {
-          "raw_source_ref": "data/raw/china-enrichment/chindata-directory.20261011.html",
-          "sha256": "e0a25f70b0192bbfc4109b0132c1d3adf7a4260d9790309c2a0b2c62a6261b31",
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-greater-bay.20261019.html",
+          "sha256": "b99e3cd0c6a4d185373ef8dcf31cfa1b827f7f429791ea989cf3d0eb2869d9a6",
           "source_published_at": null,
-          "source_url": "https://www.chindatagroup.com/global.html"
+          "source_scope": "provider_declared",
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/59.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-north.20261019.html",
+          "sha256": "b346e77bf6676e05b3ad1c7da58632fbc3f09d62516ea6cf4529722813b7b48c",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/34.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-qingyang.20261019.html",
+          "sha256": "fd1c17028e559f5633cb0d0dd8b5fbe82a6cf4451b071e5f953559601316bcac",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/494.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-ulanqab.20261019.html",
+          "sha256": "229267c6da9e031cb9c189a717beedb7afc24d76b4314ee2043bf975cc47d64f",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/517.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-yangtze.20261019.html",
+          "sha256": "9918d8f18a609952e6d807f52815d282210866542a7cc19e7f9a795c5defe7a9",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/58.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-yichang.20261019.html",
+          "sha256": "3158dbed27842633dd54a86c9e4f8f4cc599c1ad5cea81bbe1fcb27961e653d0",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/522.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/chindata-zhongwei.20261019.html",
+          "sha256": "bc9c145dd0895ba12dad93061cc37a1e9e533ad5863cf66b86e651b34b3fc8fb",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://www.chindatagroup.com/portal/article/index/cid/28/id/495.html"
         }
       ]
     },
@@ -3939,13 +4088,13 @@
     "audit_path": "data/quarantine/audit.20260804.json",
     "audit_sha256": "04436c3e7bf4b0864e70bd0be95d4c95ef9e314eb32d63a18f514436ae4beadc"
   },
-  "record_count": 28019,
+  "record_count": 28024,
   "schema": {
     "path": "schema/location-v1.3.schema.json",
     "sha256": "76b0a52f9f49ac2ac727823576ba31b8c3c10e057cc8d9d92283a6b6280284f9",
     "version": "1.3.0"
   },
-  "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
+  "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived location views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count. Geographic footprint views group provider/service/locality memberships, use reference-point geometry and are also excluded from canonical totals.",
   "vendor_registry": {
     "category_counts": {
       "vendor_identity": 47

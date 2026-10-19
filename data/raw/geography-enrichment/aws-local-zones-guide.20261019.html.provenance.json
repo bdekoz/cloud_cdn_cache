@@ -1,0 +1,19 @@
+{
+  "bytes": 41190,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html",
+  "http_last_modified": "Fri, 16 Oct 2026 07:58:31 GMT",
+  "path": "data/raw/geography-enrichment/aws-local-zones-guide.20261019.html",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/geography-enrichment/aws-local-zones-guide.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "itemized Local Zone IDs and parent regions",
+  "sha256": "4f188cbd0edab8ed25e4abf4275c6c44bbca31a7a18eda7d33b61540eb348ab8",
+  "source_id": "aws-local-zones-guide",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html",
+  "title": "Available AWS Local Zones"
+}

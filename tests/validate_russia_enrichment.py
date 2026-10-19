@@ -197,10 +197,13 @@ def applications():
 
 def manifests_and_regeneration():
     baseline, current = read(BASELINE), read(f"data/manifest.{TAG}.json")
-    assert current["layers"][:33] == baseline["layers"]
+    frozen = read(f"data/raw/repository/manifest-before-geography.{TAG}.json")
+    assert frozen["layers"][:33] == baseline["layers"]
     assert current["network_evidence_layers"][:4] == baseline["network_evidence_layers"]
     assert current["observation_comparison_views"][:2] == baseline["observation_comparison_views"]
-    assert current["record_count"] == 28019 and current["layer_count"] == 39
+    assert frozen["record_count"] == 28019 and frozen["layer_count"] == 39
+    assert current["record_count"] == sum(l["record_count"] for l in current["layers"])
+    assert current["layers"][33:] == frozen["layers"][33:]
     assert current["network_evidence_record_count"] == 3387 and current["network_evidence_layer_count"] == 6
     assert current["application_endpoint_record_count"] == 15 and current["application_entity_count"] == 5
     assert current["observation_comparison_view_count"] == 3

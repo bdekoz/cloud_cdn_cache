@@ -1,0 +1,8 @@
+{
+  "capture_method": "byte_copy_of_committed_manifest",
+  "raw_source_ref": "data/raw/repository/manifest-before-geography.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "d212cd91065645d413bfff71734c5501a2f6af0ac6327e001b160ac9dcbcd79a",
+  "source_commit": "c593ac7",
+  "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/c593ac7/data/manifest.20261019.json"
+}

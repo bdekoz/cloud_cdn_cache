@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Derived provider locality footprint, excluded from canonical totals",
+  "type": "object",
+  "required": ["type", "schema_version", "built_at", "excluded_from_canonical_totals", "features"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {"const": "FeatureCollection"},
+    "schema_version": {"const": "1.0.0"},
+    "built_at": {"type": "string", "format": "date"},
+    "excluded_from_canonical_totals": {"const": true},
+    "features": {"type": "array", "items": {"$ref": "#/$defs/feature"}}
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["source_url", "raw_source_ref", "source_sha256", "retrieved_at"],
+      "properties": {
+        "source_url": {"type": "string", "format": "uri"},
+        "raw_source_ref": {"type": "string", "pattern": "^data/raw/"},
+        "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "retrieved_at": {"type": "string", "format": "date"}
+      }
+    },
+    "feature": {
+      "type": "object", "additionalProperties": false,
+      "required": ["type", "geometry", "properties"],
+      "properties": {
+        "type": {"const": "Feature"},
+        "geometry": {
+          "type": "object", "additionalProperties": false,
+          "required": ["type", "coordinates"],
+          "properties": {
+            "type": {"const": "Point"},
+            "coordinates": {"type": "array", "minItems": 2, "maxItems": 2,
+              "prefixItems": [{"type": "number", "minimum": -180, "maximum": 180},
+                              {"type": "number", "minimum": -90, "maximum": 90}]}
+          }
+        },
+        "properties": {
+          "type": "object", "additionalProperties": false,
+          "required": ["footprint_id", "provider", "vendor_id", "service", "locality", "country_code",
+                       "location_precision", "coordinate_method", "coordinate_crs", "record_unit",
+                       "physical_site_confirmed", "lifecycle_status", "source_record_ids", "source_claim_ids",
+                       "source_locality_labels", "evidence", "gazetteer", "excluded_from_canonical_totals"],
+          "properties": {
+            "footprint_id": {"type": "string", "minLength": 1},
+            "provider": {"type": "string", "minLength": 1},
+            "vendor_id": {"type": "string", "minLength": 1},
+            "service": {"type": "string", "minLength": 1},
+            "locality": {"type": "string", "minLength": 1},
+            "country_code": {"type": "string", "pattern": "^[A-Z]{2}$"},
+            "location_precision": {"enum": ["city", "county"]},
+            "coordinate_method": {"const": "gazetteer_reference_point"},
+            "coordinate_crs": {"const": "EPSG:4326"},
+            "record_unit": {"const": "provider_service_locality"},
+            "physical_site_confirmed": {"const": false},
+            "lifecycle_status": {"const": "not_assessed"},
+            "source_record_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+            "source_claim_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+            "source_locality_labels": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+            "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/evidence"}},
+            "gazetteer": {
+              "type": "object",
+              "required": ["geonames_id", "feature_code", "admin1", "name", "evidence", "license_url"],
+              "properties": {
+                "geonames_id": {"type": "string", "pattern": "^[0-9]+$"},
+                "feature_code": {"type": "string"}, "admin1": {"type": "string"},
+                "name": {"type": "string"}, "evidence": {"$ref": "#/$defs/evidence"},
+                "license_url": {"const": "https://creativecommons.org/licenses/by/4.0/"}
+              }
+            },
+            "excluded_from_canonical_totals": {"const": true}
+          },
+          "anyOf": [{"properties": {"source_record_ids": {"minItems": 1}}},
+                    {"properties": {"source_claim_ids": {"minItems": 1}}}]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 570017,
+  "capture_method": "http_response",
+  "content_type": "text/html;charset=utf-8",
+  "final_url": "https://aws.amazon.com/directconnect/locations/",
+  "http_last_modified": "Fri, 16 Oct 2026 03:42:58 GMT",
+  "path": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "interconnect sites distinct from cloud region data centers",
+  "sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+  "source_id": "aws-direct-connect",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://aws.amazon.com/directconnect/locations/",
+  "title": "AWS Direct Connect locations"
+}

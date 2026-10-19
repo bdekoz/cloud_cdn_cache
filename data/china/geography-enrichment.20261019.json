@@ -1,0 +1,523 @@
+{
+  "alibaba_reconciliation": {
+    "availability_zone_count": 133,
+    "canonical_layer_retained": {
+      "path": "data/alibaba/regions-and-zones.20261011.geojson",
+      "sha256": "e18df2b13adeaaaa4b10bf1d2c5ee0c02f58fa47f7af166a88cb297cf1d05d4e"
+    },
+    "comparison_method": "Ordered table cells and immediately preceding section headings, whitespace normalized; scripts excluded",
+    "directory_tables_equal_to_20261011": true,
+    "fresh_source": {
+      "raw_source_ref": "data/raw/geography-enrichment/alibaba-directory.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "alibaba-directory",
+      "source_published_at": null,
+      "source_sha256": "cc515be456bd269585544334077f5bbb3d87b190d380dbead947af8556d071ad",
+      "source_updated_at": null,
+      "source_url": "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones"
+    },
+    "normalized_tables_sha256": "d45957ca0bbc6d7fff83e8eb8ce2a4f9a8d7203e1064edd9b0f442a11fc53f4e",
+    "note": "Fresh directory tables match; raw pages differ in tracking script values. Original canonical dates remain intact. Johor zone-count conflict and broad city labels remain unresolved.",
+    "previous_directory_sha256": "8248e4772f5145002fdcea4eed4909509f7c2303af2df62873855acd43154831",
+    "region_count": 38,
+    "reviewed_at": "2026-10-19",
+    "table_count": 5
+  },
+  "baseline_manifest": {
+    "path": "data/raw/repository/manifest-before-geography.20261019.json",
+    "sha256": "d212cd91065645d413bfff71734c5501a2f6af0ac6327e001b160ac9dcbcd79a"
+  },
+  "built_at": "2026-10-19",
+  "chindata_code_count": 9,
+  "chindata_new_codes": 5,
+  "locality_points": 147,
+  "scope_note": "This implementation expands Chindata and adds cartographic locality views for nine existing China cloud directories. The 31-vendor assessment records remaining work; it does not claim every vendor has newly verified physical sites.",
+  "source_catalog": {
+    "path": "data/raw/geography-enrichment/catalog.20261019.json",
+    "sha256": "af909b176cc2ebfb609d7af12d0a4c07a1204243d0aee6348b481703d9f466a9"
+  },
+  "vendor_count": 31,
+  "vendors": [
+    {
+      "canonical_geometry_null": 171,
+      "canonical_location_records": 171,
+      "derived_locality_points": 29,
+      "existing_review_source_ids": [
+        "alibaba-directory",
+        "alibaba-marketing",
+        "alibaba-model-studio",
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 4,
+      "name": "Alibaba Cloud / Qwen / Model Studio",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "alibaba"
+    },
+    {
+      "canonical_geometry_null": 97,
+      "canonical_location_records": 97,
+      "derived_locality_points": 19,
+      "existing_review_source_ids": [
+        "tencent-directory"
+      ],
+      "held_non_zone_records": 3,
+      "name": "Tencent Cloud / Hunyuan",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-08-04",
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "tencent"
+    },
+    {
+      "canonical_geometry_null": 31,
+      "canonical_location_records": 31,
+      "derived_locality_points": 23,
+      "existing_review_source_ids": [
+        "huawei-global",
+        "huawei-trust"
+      ],
+      "held_non_zone_records": 2,
+      "name": "Huawei Cloud / ModelArts / Pangu",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "huawei"
+    },
+    {
+      "canonical_geometry_null": 27,
+      "canonical_location_records": 27,
+      "derived_locality_points": 8,
+      "existing_review_source_ids": [],
+      "held_non_zone_records": 0,
+      "name": "Baidu AI Cloud / Qianfan",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "baidu"
+    },
+    {
+      "canonical_geometry_null": 24,
+      "canonical_location_records": 24,
+      "derived_locality_points": 5,
+      "existing_review_source_ids": [
+        "seedance-official",
+        "byteplus-modelark",
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 1,
+      "name": "ByteDance / Volcano Engine / Doubao / Seedance",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud_and_model_platform",
+      "vendor_id": "volcano"
+    },
+    {
+      "canonical_geometry_null": 63,
+      "canonical_location_records": 63,
+      "derived_locality_points": 35,
+      "existing_review_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 7,
+      "name": "China Telecom / Tianyi Cloud",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "carrier_cloud",
+      "vendor_id": "tianyi"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 0,
+      "name": "China Mobile Cloud",
+      "next_step": "Capture product resource-pool/region APIs and named facility lists; separate carrier network, GPU product availability and physical deployment evidence.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "carrier_cloud",
+      "vendor_id": "china-mobile"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "unicom-ai-pools",
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 0,
+      "name": "China Unicom Cloud",
+      "next_step": "Capture product resource-pool/region APIs and named facility lists; separate carrier network, GPU product availability and physical deployment evidence.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "carrier_cloud",
+      "vendor_id": "china-unicom"
+    },
+    {
+      "canonical_geometry_null": 22,
+      "canonical_location_records": 22,
+      "derived_locality_points": 4,
+      "existing_review_source_ids": [],
+      "held_non_zone_records": 2,
+      "name": "Kingsoft Cloud",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud",
+      "vendor_id": "kingsoft"
+    },
+    {
+      "canonical_geometry_null": 14,
+      "canonical_location_records": 14,
+      "derived_locality_points": 4,
+      "existing_review_source_ids": [],
+      "held_non_zone_records": 0,
+      "name": "JD Cloud",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud",
+      "vendor_id": "jd"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "bilibili-2025-report"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Bilibili",
+      "next_step": "Capture itemized POP directories and provider geofeeds; corroborate dated routing and facility relationships. Fleet totals and CDN observations do not establish owned buildings.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "consumer_platform_and_content_delivery",
+      "vendor_id": "bilibili"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "deepseek-api",
+        "deepseek-identity"
+      ],
+      "held_non_zone_records": 0,
+      "name": "DeepSeek",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "deepseek"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "kimi-endpoints"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Moonshot AI / Kimi",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "moonshot"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "fal-identity"
+      ],
+      "held_non_zone_records": 0,
+      "name": "fal",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "global_ai_inference_platform",
+      "vendor_id": "fal"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "seedance2ai-identity"
+      ],
+      "held_non_zone_records": 0,
+      "name": "seedance2.ai",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "independent_ai_application_platform",
+      "vendor_id": "seedance2ai"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "byteplus-modelark"
+      ],
+      "held_non_zone_records": 0,
+      "name": "BytePlus ModelArk",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "international_ai_service_platform",
+      "vendor_id": "byteplus"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "ucloud-baremetal"
+      ],
+      "held_non_zone_records": 0,
+      "name": "UCloud / UPHost",
+      "next_step": "Capture product resource-pool/region APIs and named facility lists; separate carrier network, GPU product availability and physical deployment evidence.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "public_cloud_and_gpu_bare_metal",
+      "vendor_id": "ucloud"
+    },
+    {
+      "canonical_geometry_null": 23,
+      "canonical_location_records": 23,
+      "derived_locality_points": 16,
+      "existing_review_source_ids": [
+        "qiniu-resource-pools"
+      ],
+      "held_non_zone_records": 5,
+      "name": "Qiniu Cloud / QVM",
+      "next_step": "Resolve held region/pool labels against provider product directories; add explicit region/AZ identities only when published. Keep locality points separate from physical facilities.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-11"
+      ],
+      "vendor_class": "public_cloud_and_media_cloud",
+      "vendor_id": "qiniu"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "siliconflow"
+      ],
+      "held_non_zone_records": 0,
+      "name": "SiliconFlow",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "multi_model_inference_platform",
+      "vendor_id": "siliconflow"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "minimax"
+      ],
+      "held_non_zone_records": 0,
+      "name": "MiniMax",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "minimax"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "zai"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Z.ai / GLM",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "model_developer_and_api_operator",
+      "vendor_id": "zai"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "kling",
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Kuaishou / Kling AI",
+      "next_step": "Seek explicit hosting/operator/region statements and dated service endpoints; model availability, headquarters and domain registration do not establish physical hosting.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "consumer_platform_and_model_api",
+      "vendor_id": "kuaishou"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [],
+      "held_non_zone_records": 0,
+      "name": "GDS Holdings",
+      "next_step": "Reconcile existing recognition/portfolio evidence to itemized campus, legal-operator and address records; seek planning, EIA and completion documents with explicit project IDs.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "colocation_operator",
+      "vendor_id": "gds"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "azure-china-operator"
+      ],
+      "held_non_zone_records": 0,
+      "name": "VNET Group",
+      "next_step": "Reconcile existing recognition/portfolio evidence to itemized campus, legal-operator and address records; seek planning, EIA and completion documents with explicit project IDs.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "colocation_and_cloud_operator",
+      "vendor_id": "vnet"
+    },
+    {
+      "canonical_geometry_null": 9,
+      "canonical_location_records": 9,
+      "derived_locality_points": 4,
+      "existing_review_source_ids": [],
+      "held_non_zone_records": 0,
+      "name": "Chindata",
+      "next_step": "Join code labels to legal operator, campus, address and phase using provider crosswalks and local permits; validate original coordinate CRS before any facility geometry.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [
+        "2026-10-19"
+      ],
+      "vendor_class": "hyperscale_colocation_operator",
+      "vendor_id": "chindata"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [],
+      "held_non_zone_records": 0,
+      "name": "Wangsu / ChinaNetCenter",
+      "next_step": "Capture itemized POP directories and provider geofeeds; corroborate dated routing and facility relationships. Fleet totals and CDN observations do not establish owned buildings.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "independent_cdn",
+      "vendor_id": "wangsu"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [],
+      "held_non_zone_records": 0,
+      "name": "BaishanCloud",
+      "next_step": "Capture itemized POP directories and provider geofeeds; corroborate dated routing and facility relationships. Fleet totals and CDN observations do not establish owned buildings.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "independent_edge_cloud",
+      "vendor_id": "baishan"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Shanghai DataPort / 数据港",
+      "next_step": "Reconcile existing recognition/portfolio evidence to itemized campus, legal-operator and address records; seek planning, EIA and completion documents with explicit project IDs.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "dataport"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Runze / 润泽",
+      "next_step": "Reconcile existing recognition/portfolio evidence to itemized campus, legal-operator and address records; seek planning, EIA and completion documents with explicit project IDs.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "runze"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Heying Data / 合盈数据",
+      "next_step": "Reconcile existing recognition/portfolio evidence to itemized campus, legal-operator and address records; seek planning, EIA and completion documents with explicit project IDs.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "heying"
+    },
+    {
+      "canonical_geometry_null": 0,
+      "canonical_location_records": 0,
+      "derived_locality_points": 0,
+      "existing_review_source_ids": [
+        "miit-green-facilities-directory"
+      ],
+      "held_non_zone_records": 0,
+      "name": "Meili Cloud / 美利云",
+      "next_step": "Reconcile existing recognition/portfolio evidence to itemized campus, legal-operator and address records; seek planning, EIA and completion documents with explicit project IDs.",
+      "review_scope": "existing China-review cohort; inclusion is not an ownership or nationality assertion",
+      "source_snapshot_dates": [],
+      "vendor_class": "physical_facility_operator_candidate",
+      "vendor_id": "meiliyun"
+    }
+  ]
+}
