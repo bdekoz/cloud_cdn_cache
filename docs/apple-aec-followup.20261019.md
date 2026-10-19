@@ -55,3 +55,5 @@ make RETRIEVED_AT=2026-10-19 csv
 ```
 
 Validation checks source hashes, null candidate geometry, host/origin distinctions, historical bibliography preservation, unchanged location layers and cache maps, CSV parity and deterministic offline reproduction. The consolidated manifest now contains 3,989 network records and 429 infrastructure assertions; the 40 assessment candidates are excluded from those record totals.
+
+All 18 validation suites and the complete October 19 CSV export passed for this update. The [project state and handoff](project-state.20261019.md) records the published checkpoint and remaining evidence dependencies across the enrichment work.

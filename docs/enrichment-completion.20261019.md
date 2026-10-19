@@ -1,8 +1,10 @@
 # Enrichment completion review
 
+This report records the completion pass before the subsequent Apple TV and cache research. The [project state and handoff](project-state.20261019.md) gives the consolidated counts, later commits, validation results and remaining evidence dependencies.
+
 The follow-up implementation adds 76 infrastructure assertions, 25 routing/RPKI records and 13 locality reference points. The 28,024 canonical location records remain unchanged. The [completion ledger](../data/enrichment/completion-review.20261019.json) accounts for all 24 held China records, all ten Gulf endpoints, the existing 31-vendor China cohort, and the India/Apple/Russia follow-ups. Unresolved source identities remain explicit; a completed research pass does not establish an unpublished location or future launch.
 
-The current manifest contains 39 canonical layers, eight network layers with 3,975 records, six infrastructure layers with 400 assertions, and three locality views with 169 points. Locality views and infrastructure assertions are excluded from canonical location totals. The [bibliography](bibliography.20261019.md) now contains 209 entries, including failed retrievals and sources reviewed without admitting locations. Earlier location, network and infrastructure outputs remain byte-identical to the [frozen pre-completion manifest](../data/raw/repository/manifest-before-completion.20261019.json).
+The [completion checkpoint manifest](../data/raw/repository/manifest-before-apple-tv.20261019.json) contains 39 canonical layers, eight network layers with 3,975 records, six infrastructure layers with 400 assertions, and three locality views with 169 points. Locality views and infrastructure assertions are excluded from canonical location totals. The [checkpoint bibliography](../data/raw/repository/bibliography-before-apple-tv.20261019.json) contains 209 entries, including failed retrievals and sources reviewed without admitting locations. Earlier location, network and infrastructure outputs remain byte-identical to the [frozen pre-completion manifest](../data/raw/repository/manifest-before-completion.20261019.json).
 
 | Addition | Count | Admission boundary |
 | --- | ---: | --- |
@@ -33,6 +35,8 @@ Huawei's [Chinese global-infrastructure page](https://www.huaweicloud.com/intl/z
 The [Tata CDN map](https://www.tatacommunications.com/hubfs/TaCO-2024/cdn/doc/cdn-poplist-map.pdf) visually marks Mohali, Delhi, Jaipur, Gandhinagar, Mumbai, Kolkata, Hyderabad, Bengaluru, Chennai and Kochi as active. The green/orange legend was inspected directly. These ten memberships are retained with unknown current lifecycle and locality reference geometry. The map carries a 2024 copyright notice, which is not treated as a precise publication or deployment date; the landing page's 2022 date is not transferred to the linked PDF.
 
 Jio's [CDN page](https://www.jio.com/enterprisecloud/services/ai-cloud/network/content-delivery-network/) and its linked datasheet and brochure were retained and reviewed. They establish service scope but provide no itemized deployment-city list. The page's original gzip response bytes remain intact and are decoded only for inspection. [Apple's AEC page](https://cache.edge.apple.com/) describes its partner program without listing installations. Neither source resolves the June study's missing endpoint identities. Tata declarations, Jio service statements, Apple ASN/TLS observations and Apple DNS city evidence remain distinct.
+
+Subsequent work separately documents [Apple TV delivery](apple-tv-delivery.20261019.md), [cache-host localities](apple-edge-cache.20261019.md) and [unlocated cache candidates with routing evidence](apple-aec-followup.20261019.md). Those additions do not revise the historical scope or counts of this completion pass.
 
 ## Gulf identity, routing and latency
 
@@ -66,4 +70,4 @@ make check
 
 Validation covers unchanged historical layers, source hashes, exact registry selection, unresolved-code preservation, historical-date handling, reference-coordinate identities, all held-record dispositions, CSV parity, bibliography-ID uniqueness, successful workflow receipts and byte-identical offline regeneration. Capture scripts are separate from reproduction. They retain exact HTTP bytes or explicitly labeled reader/API bundles, including unsuccessful leads; they do not silently refresh an existing capture.
 
-All 16 validation suites and the complete October 19 CSV export passed for this implementation. The hosted source-review result is recorded separately above.
+All 16 validation suites available at this completion checkpoint and the complete October 19 CSV export passed. The later Apple work expands the passing suite to 18, as recorded in the [project state](project-state.20261019.md). The hosted source-review result is recorded separately above.

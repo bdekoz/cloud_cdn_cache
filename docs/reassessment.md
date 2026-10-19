@@ -1,8 +1,8 @@
 # Post-refinement dataset reassessment
 
-Date: 2026-08-04; updated 2026-10-11
+Assessment scope: 2026-08-04 through 2026-10-11. Status links updated 2026-10-19.
 
-This report records the implemented result. The original [`assessment.20260804.md`](assessment.20260804.md) is the read-only baseline and has not been revised. Detailed methods, source policy, parsing decisions, and commands are in [`methods.md`](methods.md).
+This historical report records the implemented result through October 11. The [October 19 project state](project-state.20261019.md) and [consolidated manifest](../data/manifest.20261019.json) include the subsequent India, Russia, China, Gulf and Apple work. The original [`assessment.20260804.md`](assessment.20260804.md) is the read-only baseline and has not been revised. Detailed methods, source policy, parsing decisions, and commands are in [`methods.md`](methods.md).
 
 ## Executive outcome
 
@@ -12,7 +12,7 @@ The later [expanded infrastructure review](infrastructure-expansion.20261011.md)
 
 The repository now has a schema-validated, reproducible update path for global edge, cloud, observation, mainland-China public-cloud, China edge/CDN assessment, and China colocation assessment work.
 
-The current [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,500 location-schema records across 31 layers, 3,167 network records across four layers and 297 infrastructure assertions across four layers. The October [Google refresh](google-enrichment.20261011.md) retains its Cloud/AI-zone, GPU and GCPing enrichment; the [Russia reassessment](russia-reassessment.20261011.md) retains five Yandex localities. Seven mainland views repeat 212 IDs and the Russia view repeats 91; all eight views are excluded from canonical totals. The 47-reference vendor registry is separately counted metadata.
+The October 11 [`manifest.20261011.json`](../data/manifest.20261011.json) contains 27,500 location-schema records across 31 layers, 3,167 network records across four layers and 297 infrastructure assertions across four layers. The October [Google refresh](google-enrichment.20261011.md) retains its Cloud/AI-zone, GPU and GCPing enrichment; the [Russia reassessment](russia-reassessment.20261011.md) retains five Yandex localities. Seven mainland views repeat 212 IDs and the Russia view repeats 91; all eight views are excluded from canonical totals. The 47-reference vendor registry is separately counted metadata.
 
 The main improvement is semantic, not merely numeric: provider declarations, current lifecycle, access restriction, jurisdiction, product scope, inferred or inherited coordinates, independent observations, partial directories, aggregate marketing coverage, and quarantined claims are now distinct.
 
@@ -32,7 +32,7 @@ Every generated record has stable identity, source URL, immutable raw reference 
 
 Canonical normalized location layers are retained as GeoJSON; network layers are retained as `NetworkEvidenceCollection` JSON. CSV is a lossless on-demand projection: jq follows the applicable schema-required field order, restores location coordinates from point geometry, and compactly encodes arrays and objects. The Makefile can generate all projections or one named target. The manifest hashes only retained canonical JSON/GeoJSON and reports and records the CSV source and generation command separately. Evidence-bearing raw, recovered, and historical CSVs are unaffected.
 
-## Canonical coverage
+## Canonical coverage at the October 11 checkpoint
 
 | Layer | Records | Record meaning | Geometry |
 |---|---:|---|---:|
@@ -198,6 +198,8 @@ Unsupported Baidu global claims and an uncited Alibaba estimate layer remain qua
 
 ## Prioritized enrichment roadmap
 
+This roadmap preserves the October 11 priorities. The later [completion review](enrichment-completion.20261019.md) and [project state](project-state.20261019.md) distinguish implemented work from the remaining evidence dependencies.
+
 ### Priority 0: protect semantics on every update
 
 - Keep the schema 1.1 core fields mandatory and use 1.2 only where its added semantics apply.
@@ -233,7 +235,7 @@ Unsupported Baidu global claims and an uncited Alibaba estimate layer remain qua
 - Execute RIPE Atlas only after approved targets, credentials/credits, and the reviewed measurement specification are available.
 - Complete a source-rights matrix before republishing retained provider or independent raw snapshots outside this repository.
 
-## Verification status
+## Verification at the October 11 checkpoint
 
 The suite validates schema conformance, coordinate CRS, stable IDs, parent integrity, view subsets, jurisdiction/access semantics, raw hashes, on-demand CSV/GeoJSON parity, provider-specific source counts, assessment gates, quarantine evidence, and byte-for-byte canonical GeoJSON regeneration.
 
