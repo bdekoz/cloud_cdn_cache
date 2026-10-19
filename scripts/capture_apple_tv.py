@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
+from functools import partial
 import hashlib
 import json
 from pathlib import Path
@@ -30,8 +31,8 @@ def documents():
     ]]
 
 
-def capture(spec):
-    path = ROOT / f"{spec['source_id']}.{TAG}.{spec['extension']}"
+def capture(spec, *, output_dir=ROOT):
+    path = output_dir / f"{spec['source_id']}.{TAG}.{spec['extension']}"
     sidecar = Path(str(path) + ".provenance.json")
     if path.exists():
         item = json.loads(sidecar.read_text())
@@ -77,15 +78,18 @@ def capture(spec):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--specifications", type=Path, help="Explicit public resource capture specifications; default: Apple documents")
+    parser.add_argument("--output-dir", type=Path, default=ROOT, help="Separate retained-source directory for a follow-up catalog")
     args = parser.parse_args()
-    ROOT.mkdir(parents=True, exist_ok=True)
+    output_dir = args.output_dir.resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    catalog = output_dir / f"catalog.{TAG}.json"
     specs = json.loads(args.specifications.read_text()) if args.specifications else documents()
-    existing = {s["source_id"]: s for s in json.loads(CATALOG.read_text())["sources"]} if CATALOG.exists() else {}
+    existing = {s["source_id"]: s for s in json.loads(catalog.read_text())["sources"]} if catalog.exists() else {}
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for item in pool.map(capture, specs):
+        for item in pool.map(partial(capture, output_dir=output_dir), specs):
             existing[item["source_id"]] = item
             print(item["source_id"], item["result"], item.get("bytes", item.get("error")), flush=True)
-    write_json(CATALOG, {"retrieved_at": DATE, "sources": [existing[k] for k in sorted(existing)]})
+    write_json(catalog, {"retrieved_at": DATE, "sources": [existing[k] for k in sorted(existing)]})
 
 
 if __name__ == "__main__":

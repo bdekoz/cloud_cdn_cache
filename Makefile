@@ -108,6 +108,7 @@ check:
 	python3 -B tests/validate_gulf_enrichment.py
 	python3 -B tests/validate_completion_enrichment.py
 	python3 -B tests/validate_apple_tv.py
+	python3 -B tests/validate_apple_aec_followup.py
 	git diff --check
 
 help:

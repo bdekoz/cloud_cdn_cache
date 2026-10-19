@@ -333,6 +333,7 @@ def main() -> None:
         network_layers.append(network_layer_manifest("gulf-routing-review", GULF_ENRICHMENT_TAG))
     if tag >= APPLE_TV_TAG:
         network_layers.append(network_layer_manifest("apple-tv-routing", APPLE_TV_TAG))
+        network_layers.append(network_layer_manifest("apple-aec-candidate-routing", APPLE_TV_TAG))
     views = []
     for view, parent in VIEW_NAMES.items():
         entry = layer_manifest(view, CHINA_IMPLEMENTATION_TAG if tag >= CHINA_IMPLEMENTATION_TAG else BASELINE_TAG)
@@ -397,6 +398,7 @@ def main() -> None:
     if tag >= APPLE_TV_TAG:
         assessments.append(assessment_manifest("apple/tv-delivery-review", APPLE_TV_TAG))
         assessments.append(assessment_manifest("apple/aec-review", APPLE_TV_TAG))
+        assessments.append(assessment_manifest("apple/aec-followup", APPLE_TV_TAG))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
@@ -411,6 +413,7 @@ def main() -> None:
         if tag >= APPLE_TV_TAG:
             infrastructure_layers.append(infrastructure_manifest("apple-tv-delivery", APPLE_TV_TAG))
             infrastructure_layers.append(infrastructure_manifest("apple-aec-hosts", APPLE_TV_TAG))
+            infrastructure_layers.append(infrastructure_manifest("apple-aec-followup", APPLE_TV_TAG))
         infrastructure_view = infrastructure_manifest("russia-connectivity", INFRASTRUCTURE_TAG)
         infrastructure_view["view_of"] = "infrastructure/connectivity"
         infrastructure_sections = {

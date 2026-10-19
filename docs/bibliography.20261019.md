@@ -1,6 +1,6 @@
 # Enrichment bibliography
 
-Built 2026-10-19. 268 retained-source or unavailable-reference entries.
+Built 2026-10-19. 295 retained-source or unavailable-reference entries.
 
 The [machine-readable index](../data/references/bibliography.20261019.json) records the full SHA-256, raw path, source dates, publisher, role and admission limits for every entry. Retrieval dates do not establish a current deployment. Failed URLs and held evidence are included explicitly.
 
@@ -125,6 +125,62 @@ GeoNames coordinates are locality reference points under [CC BY 4.0](https://cre
 - **TENET** — [TENET Apple Edge Cache launch announcement discovery](https://www.tenet.ua/news?page=2). retrieved 2026-10-19; [retained source](../data/raw/apple-tv/aec-tenet-news.20261019.html). `ref-5a3c36751e42fbd4`. Host deployment evidence; serving-area and office locations must not be used as cache coordinates.
 
 - **TENET** — [TENET Apple Edge Cache launch, accessible page text](https://www.tenet.ua/novini/apple-edge-cache). retrieved 2026-10-19; published 2026-09-16; [retained source](../data/raw/apple-tv/aec-tenet-web.20261019.json). `ref-de731ac40e467ed9`. Public web-reader text; direct HTTP capture lacked the article. Network installation only; no cache city or current health established.
+
+## Apple cache follow-up: classifications, routing and host corroboration
+
+- **1-IX** — [1-IX European route-server looking glass](https://lgeuro.1-ix.net/routeservers/rs2-eu-ipv4?o=asc&s=routes_exported). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/1ix-eu-looking-glass.20261019.html). `ref-b5b398ce72efddb3`. Public peer-session lead; a JavaScript shell alone is not evidence of live peer state or cache placement.
+
+- **CEnet** — [CEnet infrastructure services](https://cenet.catholic.edu.au/infrastructure-services). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/cenet-infrastructure.20261019.html). `ref-dc9403d5519c970d`. General service directory distinguishes Apple peering from named Google/Akamai caches; omission is not proof of AEC retirement.
+
+- **Giganet Internet Szolgaltato** — [Giganet Hungary company history](https://www.giganet.hu/rolunk/). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/giganet-hu-history.20261019.html). `ref-a38a3fa1992554da`. Host declares Apple-cache installation in 2024 without locating it. Distinct from Giganet Ukraine.
+
+- **Giganet Internet Szolgaltato** — [Giganet Hungary infrastructure](https://www.giganet.hu/rolunk/infrastrukturank/). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/giganet-hu-infrastructure.20261019.html). `ref-d5dc4b7cf9695370`. Budapest and Nyiregyhaza infrastructure is not an Apple cache-site assignment.
+
+- **IX Australia** — [IX Australia content network](https://ix.asn.au/services/content-network/). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/ixaustralia-content.20261019.html). `ref-f5c6181eeffba7cc`. Operator confirms hosted Apple caches without listing their individual locations.
+
+- **LU-CIX** — [LU-CIX route-server control policy](https://www.lu-cix.lu/solutions/route-servers/). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/lucix-route-policy.20261019.html). `ref-a106b530adfb86f8`. 31128 is a documented special peer-as value for AEC; no cache placement is established.
+
+- **Netify** — [Netify Apple CDN public directory](https://www.netify.ai/resources/cdn/apple-cdn). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-apple.20261019.html). `ref-c2fa36fcbf65c215`. Independent classification directory; AEC is included but not distinguished per row. Aggregate counts are not appliance or facility counts.
+
+- **Netify** — [Netify Apple CDN: Australia](https://www.netify.ai/resources/cdn/apple-cdn/country/au). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-apple-au.20261019.html). `ref-72770293a5b4db86`. Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.
+
+- **Netify** — [Netify Apple CDN: Hungary](https://www.netify.ai/resources/cdn/apple-cdn/country/hu). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-apple-hu.20261019.html). `ref-35759dc57d8b6840`. Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.
+
+- **Netify** — [Netify Apple CDN: India](https://www.netify.ai/resources/cdn/apple-cdn/country/in). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-apple-in.20261019.html). `ref-2b236af28ba774e7`. Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.
+
+- **Netify** — [Netify Apple CDN: Russia](https://www.netify.ai/resources/cdn/apple-cdn/country/ru). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-apple-ru.20261019.html). `ref-d333981283d0de64`. Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.
+
+- **Netify** — [Netify Apple CDN: Ukraine](https://www.netify.ai/resources/cdn/apple-cdn/country/ua). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-apple-ua.20261019.html). `ref-7185f306c6781d73`. Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.
+
+- **Netify** — [Netify Apple CDN: United Arab Emirates](https://www.netify.ai/resources/cdn/apple-cdn/country/ae). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-apple-ae.20261019.html). `ref-723f9f5a59228777`. Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.
+
+- **Netify** — [Netify geolocation data semantics](https://www.netify.ai/documentation/data-feeds/v2/objects/geolocation). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-geolocation.20261019.html). `ref-103f1f2c851bce04`. Publisher methodology and field meaning; city data and country fallback have different sources.
+
+- **Netify** — [Netify pop data semantics](https://www.netify.ai/documentation/data-feeds/v2/objects/pop). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/netify-pop.20261019.html). `ref-9301dd64eb3ea8d3`. Publisher methodology and field meaning; city data and country fallback have different sources.
+
+- **RIPE NCC** — [RIPE RDAP AS31128](https://rdap.db.ripe.net/autnum/31128). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/ripe-as31128-rdap.20261019.json). `ref-037f2a5a3ceba380`. Registry identity check only; registry and IX service labels have different scopes.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 103.49.6.240](https://stat.ripe.net/data/network-info/data.json?resource=103.49.6.240). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-103-49-6-240.20261019.json). `ref-d17696c6f33c990d`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 113.29.208.196](https://stat.ripe.net/data/network-info/data.json?resource=113.29.208.196). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-113-29-208-196.20261019.json). `ref-537c9526e1f9fb3b`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 131.242.32.80](https://stat.ripe.net/data/network-info/data.json?resource=131.242.32.80). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-131-242-32-80.20261019.json). `ref-7451e947edea2bab`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 178.210.56.80](https://stat.ripe.net/data/network-info/data.json?resource=178.210.56.80). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-178-210-56-80.20261019.json). `ref-96e72d12b7c4b0a5`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 185.158.208.16](https://stat.ripe.net/data/network-info/data.json?resource=185.158.208.16). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-185-158-208-16.20261019.json). `ref-2bfa9c848a54c3fa`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 203.76.191.144](https://stat.ripe.net/data/network-info/data.json?resource=203.76.191.144). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-203-76-191-144.20261019.json). `ref-6ee3ef23d7c7e6e0`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 213.186.25.80](https://stat.ripe.net/data/network-info/data.json?resource=213.186.25.80). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-213-186-25-80.20261019.json). `ref-220bd95e9296710e`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 81.9.21.144](https://stat.ripe.net/data/network-info/data.json?resource=81.9.21.144). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-81-9-21-144.20261019.json). `ref-5b405afbc8f0cc4f`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 87.239.27.240](https://stat.ripe.net/data/network-info/data.json?resource=87.239.27.240). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-87-239-27-240.20261019.json). `ref-7d72f78d714b5a47`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **RIPE NCC** — [Routing origin for Netify Apple CDN candidate 88.209.219.16](https://stat.ripe.net/data/network-info/data.json?resource=88.209.219.16). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/routing-88-209-219-16.20261019.json). `ref-38f4005d3dec8d26`. Routing for a third-party-classified sample address; not an HTTP observation, confirmed AEC, service health or physical location.
+
+- **SFMIX** — [SFMIX Mutual Aid network presentation](https://sfmix.org/wp-content/uploads/2025/10/20250715-MWPS-SFMIX-Slides.pdf). retrieved 2026-10-19; [retained source](../data/raw/apple-aec-followup/sfmix-2025-topology.20261019.pdf). `ref-8bc7132c25d901a3`. Historical separation of AS31128 cache peering, AS40271 partial routes and other exchange roles; not a new cache-site inventory.
 
 ## CDN, India, Apple and Russia references
 

@@ -1,0 +1,37 @@
+{
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/apple-aec-candidate-routing.20261019.csv",
+      "path": "data/network/apple-aec-candidate-routing.20261019.csv",
+      "source": "data/network/apple-aec-candidate-routing.20261019.json"
+    }
+  },
+  "evidence_types": {
+    "routing_origin": 10
+  },
+  "generated_files": [
+    "data/network/apple-aec-candidate-routing.20261019.json"
+  ],
+  "layer": "apple-aec-candidate-routing",
+  "parser": "scripts/update_apple_aec_followup.py",
+  "provider_counts": {
+    "Apple": 1,
+    "CEnet": 1,
+    "Inetcom Carrier": 1,
+    "Kvant-Telekom": 1,
+    "Netplus Broadband Services": 1,
+    "Omonia": 1,
+    "QLD Government Business (IT)": 1,
+    "Ukrainian Backbone Networks": 1,
+    "Vimpelcom": 1,
+    "Wireline": 1
+  },
+  "record_count": 10,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "statuses": {
+    "announced": 10
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/infrastructure/apple-aec-followup.20261019.csv",
+      "path": "data/infrastructure/apple-aec-followup.20261019.csv",
+      "source": "data/infrastructure/apple-aec-followup.20261019.json"
+    }
+  },
+  "parser": "scripts/update_apple_aec_followup.py",
+  "physical_site_total": null,
+  "record_count": 3
+}

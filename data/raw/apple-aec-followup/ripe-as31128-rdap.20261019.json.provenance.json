@@ -1,0 +1,33 @@
+{
+  "bytes": 8005,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T18:40:17+00:00",
+  "content_encoding": null,
+  "content_type": "application/rdap+json",
+  "final_url": "https://rdap.db.ripe.net/autnum/31128",
+  "http_peer_address": "193.0.6.151",
+  "http_status": 200,
+  "measurement_vantage_country_code": null,
+  "method": "GET",
+  "path": "data/raw/apple-aec-followup/ripe-as31128-rdap.20261019.json",
+  "publisher": "RIPE NCC",
+  "raw_source_ref": "data/raw/apple-aec-followup/ripe-as31128-rdap.20261019.json",
+  "response_headers": {
+    "connection": "close",
+    "content-length": "8005",
+    "content-security-policy": "default-src 'none'; frame-ancestors 'none'; sandbox",
+    "content-type": "application/rdap+json",
+    "date": "Mon, 19 Oct 2026 18:40:17 GMT",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Origin"
+  },
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Registry identity check only; registry and IX service labels have different scopes.",
+  "sha256": "6542f91607fc1d5f9b7d2efbb181cd5a29edbd564a41548f94da6944bc3d06ce",
+  "source_id": "ripe-as31128-rdap",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://rdap.db.ripe.net/autnum/31128",
+  "title": "RIPE RDAP AS31128"
+}

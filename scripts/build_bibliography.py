@@ -73,6 +73,10 @@ def build():
             usage = "apple_tv_and_cache_host_review"
             if item.get("result") == "http_error":
                 usage = "failed_retrieval_receipt_no_evidence_admitted"
+        elif group.startswith("Apple cache follow-up:"):
+            usage = "apple_cache_candidate_and_host_review"
+            if item.get("result") == "http_error":
+                usage = "failed_retrieval_receipt_no_evidence_admitted"
         entry = {"reference_id": "ref-" + hashlib.sha256((url + "|" + str(ref or item.get("source_id"))).encode()).hexdigest()[:16],
             "group": group, "source_id": key or None, "title": title_for(item, path if available else None),
             "publisher": publisher, "publisher_identity_basis": "explicit source metadata or provider domain" if publisher != host else "source hostname; authorship not independently normalized",
@@ -92,6 +96,7 @@ def build():
 
     for catalog, group in [(CATALOG, "China geography and Gulf review"),
                             (REPO_ROOT / "data/raw/apple-tv/catalog.20261019.json", "Apple TV delivery: web, artwork, public previews and cache hosts"),
+                            (REPO_ROOT / "data/raw/apple-aec-followup/catalog.20261019.json", "Apple cache follow-up: classifications, routing and host corroboration"),
                             (REPO_ROOT / "data/raw/completion-review/catalog.20261019.json", "Completion review: China, India, Apple, Gulf and Russia"),
                             (REPO_ROOT / "data/raw/gulf-enrichment/catalog.20261019.json", "Gulf network and interconnect enrichment"),
                             (REPO_ROOT / "data/raw/china-enrichment/catalog.20261011.json", "Earlier China enrichment")]:

@@ -2,6 +2,8 @@
 
 Built 2026-10-19. The [cache-hosting map](../data/apple/aec-localities.20261019.geojson) contains two city reference points: one explicitly named Apple Edge Cache (AEC) deployment and one operator-declared Apple caching locality whose AEC program identity is unconfirmed. This is a partial evidence map, not a global inventory or a count of currently operating sites.
 
+The [subsequent host and routing review](apple-aec-followup.20261019.md) adds 40 unlocated CDN candidates, ten routing observations and three host/policy assertions. It clarifies AS31128's Apple registration and Giganet's host-versus-origin labels without adding map points. The findings below retain their original scope.
+
 | Locality | Admitted evidence | Interpretation and remaining gap |
 | --- | --- | --- |
 | Santa Clara, California, US | [SFMIX's cache directory](https://ip.sfmix.org/) explicitly lists Apple Edge Cache, Apple TV+, AS31128 and SCL02. Its [location directory](https://sfmix.org/locations/) places SCL02 at CoreSite, 2972 Stender Way, Santa Clara. | Explicit AEC host/site declaration. The separate [AS31128 participant entry](https://portal.sfmix.org/participants/) is inactive; current cache-site lifecycle remains unresolved. The observed Apple TV HTTP peer belongs to SFMIX AS40271, but its placement at SCL02 is not established. |
@@ -49,6 +51,7 @@ Regenerate from retained inputs without network access. PDF corroboration uses `
 ```sh
 python3 -B scripts/update_apple_tv.py
 python3 -B scripts/update_apple_aec.py
+python3 -B scripts/update_apple_aec_followup.py
 python3 -B scripts/build_bibliography.py
 python3 -B scripts/build_manifest.py --retrieved-at 2026-10-19
 make check

@@ -1,0 +1,1078 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Apple CDN  - Apple Edge Cache (AEC) - CDN Information </title>
+
+
+<link rel="canonical" href="https://www.netify.ai/resources/cdn/apple-cdn" />
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Details on Apple CDN including network maps, network ranges, PoPs, IPs, and applications.">
+
+<meta property="og:site_name" content="Netify">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Apple CDN  - Apple Edge Cache (AEC) - CDN Information " />
+<meta property="og:description" content="Details on Apple CDN including network maps, network ranges, PoPs, IPs, and applications." />
+<meta property="og:url" content="https://www.netify.ai/resources/cdn/apple-cdn" />
+<meta property="og:image" content="/images/logo-og.png" />
+
+<meta name="twitter:card" content="/images/logo-og.png">
+<meta name="twitter:title" content="Apple CDN  - Apple Edge Cache (AEC) - CDN Information ">
+<meta name="twitter:description" content="Details on Apple CDN including network maps, network ranges, PoPs, IPs, and applications.">
+
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="preload" as="style" href="https://www.netify.ai/build/assets/app-hn6G2yWe.css" /><link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/app-5JFM6kRh.js" /><link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/_commonjsHelpers-DaWZu8wl.js" /><link rel="stylesheet" href="https://www.netify.ai/build/assets/app-hn6G2yWe.css" /><script type="module" src="https://www.netify.ai/build/assets/app-5JFM6kRh.js"></script>
+
+
+
+    </head>
+
+    <body class="bg-white min-h-screen">
+        <header class="sticky top-0 z-50 w-full border-b border-slate-500 bg-slate-900/95 backdrop-blur-sm">
+  <nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-4 lg:px-8">
+    <div class="flex lg:flex-1">
+      <a href="/" class="-m-1.5 p-1.5">
+        <span class="sr-only">Netify</span>
+        <img 
+          src="/images/netify-dark.svg" 
+          alt="Netify logo" 
+          class="h-8 w-auto" 
+          width="135" 
+          height="32" 
+          fetchpriority="high"
+        />
+      </a>
+    </div>
+    <div class="hidden lg:flex lg:gap-x-12">
+      <a href="/products" class="text-sm/6 font-semibold text-white">Products</a>
+      <a href="/resources" class="text-sm/6 font-semibold text-white">Resources</a>
+      <a href="/documentation" class="text-sm/6 font-semibold text-white">Documentation</a>
+      <a href="/blog" class="text-sm/6 font-semibold text-white">Blog</a>
+      <a href="https://portal.netify.ai" class="text-sm/6 font-semibold text-white">Sign In</a>
+    </div>
+    <div class="flex flex-1 items-center justify-end gap-x-6 pr-6">
+                <a href="/contact-us" class="rounded-md bg-brand-secondary px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-brand-secondary-hover hidden lg:block">Contact Us</a>
+    </div>
+    <div class="flex lg:hidden">
+      <button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
+        <span class="sr-only">Open main menu</span>
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+          <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <el-dialog>
+    <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
+      <div tabindex="0" class="fixed inset-0 focus:outline-none">
+        <el-dialog-panel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-slate-900/95 p-4 pt-3 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+          <div class="flex items-center gap-x-6">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Netify</span>
+                <img 
+                  src="/images/netify-dark.svg" 
+                  alt="Netify logo" 
+                  class="h-8 w-auto" 
+                  width="135" 
+                  height="32" 
+                  fetchpriority="high"
+                />
+            </a>
+            <a href="/contact-us" class="ml-auto rounded-md bg-brand-secondary px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-brand-secondary-hover">Contact Us</a>
+            <button type="button" command="close" commandfor="mobile-menu" class="-m-2.5 rounded-md p-2.5 text-gray-400">
+              <span class="sr-only">Close menu</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+                <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-white/10">
+              <div class="space-y-2 py-6">
+                <a href="/products" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Products</a>
+                <a href="/resources" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Resources</a>
+                <a href="/documentation" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Documentation</a>
+                <a href="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Blog</a>
+                <a href="https://portal.netify.ai" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Sign In</a>
+              </div>
+            </div>
+          </div>
+        </el-dialog-panel>
+      </div>
+    </dialog>
+  </el-dialog>
+</header>
+        <nav aria-label="Breadcrumb" class="flex border-b border-gray-200 bg-white hidden lg:flex">
+  <ol class="mx-auto flex w-full max-w-(--breakpoint-xl) items-center space-x-4 px-4 sm:px-6 lg:px-8">
+    
+    <li class="flex">
+      <div class="flex items-center">
+        <a href="/" class="p-2 -m-2 text-gray-400 hover:text-gray-500 block">
+          <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="size-5 shrink-0" width="20" height="20">
+            <path d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z" clip-rule="evenodd" fill-rule="evenodd" />
+          </svg>
+          <span class="sr-only">Home</span>
+        </a>
+      </div>
+    </li>
+
+                            <li class="flex">
+          <div class="flex items-center">
+            <svg viewBox="0 0 24 44" width="24" height="44" fill="currentColor" preserveAspectRatio="none" aria-hidden="true" class="h-full w-6 shrink-0 text-gray-200">
+              <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
+            </svg>
+                          <a href="/resources" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Resources</a>
+                      </div>
+        </li>
+                        <li class="flex">
+          <div class="flex items-center">
+            <svg viewBox="0 0 24 44" width="24" height="44" fill="currentColor" preserveAspectRatio="none" aria-hidden="true" class="h-full w-6 shrink-0 text-gray-200">
+              <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
+            </svg>
+                          <a href="/resources/cdn" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">CDNs</a>
+                      </div>
+        </li>
+                        <li class="flex">
+          <div class="flex items-center">
+            <svg viewBox="0 0 24 44" width="24" height="44" fill="currentColor" preserveAspectRatio="none" aria-hidden="true" class="h-full w-6 shrink-0 text-gray-200">
+              <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
+            </svg>
+                          <span class="ml-4 text-sm font-medium text-gray-500">Apple CDN</span>
+                      </div>
+        </li>
+          
+      </ol>
+</nav>
+
+
+        <div class="max-w-7xl mx-auto bg-white min-h-screen flex flex-col">
+
+            <div class="flex flex-col md:flex-row flex-1">
+                <div class="flex-1 pl-5 pr-5 order-1 md:order-2">
+                    <div class="overflow-hidden bg-white">
+                        <div class="relative isolate">
+                            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 pb-8">
+
+                                
+                                
+                                <main>
+                                                                            <div class="prose-docs">
+                                            
+<h1>Apple CDN</h1>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <div>
+                    <p>                         
+                <a rel="nofollow" href="https://cache.edge.apple">Apple CDN</a>
+                systems are deployed across
+                                    <b>69 countries and territories</b> on <b>8,957 IPs</b>.
+                      
+            </p>                    
+        
+        <h2>What Is Apple CDN?</h2>
+        <div class="flex items-center mt-1 mx-auto">
+            <img
+            src="https://static.netify.ai/logos/a/p/p/nccyr-pqa/icon.ico?v=3"
+            height="50"
+            class="h-[50px] pr-[10px] opacity-100 drop-shadow-lg" 
+            alt="Apple CDN Logo" 
+        >
+    
+    <div>
+        <p>
+                            <b>Apple CDN</b> - CDN<br>
+            
+                            Apple CDN is a content delivery network that delivers Apple content to customers.  It includes Apple Edge Cache (AEC) network equipment, which is Apple infrastructure deployed within ISP partner networks.
+                    </p>
+    </div>
+</div>
+    </div>
+    <div>
+        <div class="relative isolate overflow-hidden rounded-3xl bg-gray-900 p-6 mt-0 mb-6 lg:mb-2 shadow-lg lg:shadow-xl ring-1 ring-white/10 sm:px-12 lg:max-w-lg lg:px-8 xl:px-10">
+    <div aria-hidden="true" class="absolute top-1/2 left-1/2 -z-10 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
+        <div class="aspect-[1097/845] w-[30rem] bg-linear-to-tr from-[#3b82f6] to-[#7c3aed] opacity-15 clip-blob">
+        </div>
+    </div>
+
+    <div class="relative z-10">
+        <aside aria-label="Netify Data Feeds">
+            <span class="block text-white font-bold tracking-tight text-lg pb-2">
+                Netify Data Feeds
+            </span>
+
+            <span class="mt-4 text-base/7 text-gray-100 text-sm">
+                            We provide network intelligence to help deliver better digital experiences to end users and businesses.  Use our APIs and datasets to get started today.
+                        </span>
+
+            <div class="mt-6 flex flex-wrap items-center gap-4">
+                                    <a href="/products/netify-data-feeds" class="btn rounded-md bg-brand-secondary text-center my-1 px-3.5 py-2.5 text-sm font-semibold whitespace-nowrap text-white shadow-sm hover:bg-brand-secondary-hover">Learn More</a>
+                                
+                            </div>
+        </aside>
+    </div>
+</div>
+    </div>
+</div>
+
+
+<hr>
+
+
+<h2>Apple CDN Top Hosted Applications</h2>
+    
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div>
+                                <div class="w-full overflow-hidden rounded-xl border border-slate-200 bg-white shadow-md mt-0 lg:mt-3 mb-4">
+    <table class="w-full border-collapse text-left text-sm">
+        <thead class="bg-slate-50/50">
+            <tr>
+                <th>App</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        <div class="flex items-center gap-2">
+                                                            <span class="inline-flex items-baseline gap-1.5">
+        <img src="https://static.netify.ai/logos/a/p/p/nccyr/favicon.png?v=6" 
+             alt="Apple Icon" 
+             height="16"
+             class="w-4 h-4 object-contain self-center translate-y-[-1px]">
+        
+        <a class="text-sm text-blue-600 hover:underline decoration-2 underline-offset-4" 
+           href="/resources/applications/apple">
+            Apple
+        </a>
+    </span> 
+                                                    </div>
+                    </td>
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        Business
+                    </td>
+                </tr>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        <div class="flex items-center gap-2">
+                                                            <span class="inline-flex items-baseline gap-1.5">
+        <img src="https://static.netify.ai/logos/a/p/p/nccyr-vpybhq/favicon.png?v=4" 
+             alt="Apple iCloud Icon" 
+             height="16"
+             class="w-4 h-4 object-contain self-center translate-y-[-1px]">
+        
+        <a class="text-sm text-blue-600 hover:underline decoration-2 underline-offset-4" 
+           href="/resources/applications/apple-icloud">
+            Apple iCloud
+        </a>
+    </span> 
+                                                    </div>
+                    </td>
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        File Sharing
+                    </td>
+                </tr>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        <div class="flex items-center gap-2">
+                                                            <span class="inline-flex items-baseline gap-1.5">
+        <img src="https://static.netify.ai/logos/a/p/p/nccyr-vgharf/favicon.png?v=4" 
+             alt="Apple iTunes Icon" 
+             height="16"
+             class="w-4 h-4 object-contain self-center translate-y-[-1px]">
+        
+        <a class="text-sm text-blue-600 hover:underline decoration-2 underline-offset-4" 
+           href="/resources/applications/apple-itunes">
+            Apple iTunes
+        </a>
+    </span> 
+                                                    </div>
+                    </td>
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        Arts and Entertainment
+                    </td>
+                </tr>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        <div class="flex items-center gap-2">
+                                                            <span class="inline-flex items-baseline gap-1.5">
+        <img src="https://static.netify.ai/logos/a/p/p/nccyr-chfu/favicon.png?v=5" 
+             alt="Apple Push Icon" 
+             height="16"
+             class="w-4 h-4 object-contain self-center translate-y-[-1px]">
+        
+        <a class="text-sm text-blue-600 hover:underline decoration-2 underline-offset-4" 
+           href="/resources/applications/apple-push">
+            Apple Push
+        </a>
+    </span> 
+                                                    </div>
+                    </td>
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        Messaging
+                    </td>
+                </tr>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        <div class="flex items-center gap-2">
+                                                            <span class="inline-flex items-baseline gap-1.5">
+        <img src="https://static.netify.ai/logos/a/p/p/nccyr-gi/favicon.png?v=6" 
+             alt="Apple TV Icon" 
+             height="16"
+             class="w-4 h-4 object-contain self-center translate-y-[-1px]">
+        
+        <a class="text-sm text-blue-600 hover:underline decoration-2 underline-offset-4" 
+           href="/resources/applications/apple-tv">
+            Apple TV
+        </a>
+    </span> 
+                                                    </div>
+                    </td>
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        Streaming Media
+                    </td>
+                </tr>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        <div class="flex items-center gap-2">
+                                                            <span class="inline-flex items-baseline gap-1.5">
+        <img src="https://static.netify.ai/logos/a/p/p/nccyr-hcqngrf/favicon.png?v=3" 
+             alt="Apple Updates Icon" 
+             height="16"
+             class="w-4 h-4 object-contain self-center translate-y-[-1px]">
+        
+        <a class="text-sm text-blue-600 hover:underline decoration-2 underline-offset-4" 
+           href="/resources/applications/apple-updates">
+            Apple Updates
+        </a>
+    </span> 
+                                                    </div>
+                    </td>
+                    <td class="py-1 px-2 border-b border-gray-100">
+                        OS/Software Updates
+                    </td>
+                </tr>
+                    </tbody>
+                <tfoot>
+            <tr>
+                <td colspan="2">
+                    ... and 2 more
+                </td>
+            </tr>
+        </tfoot>
+            </table>
+</div>
+            </div>
+            <div>
+                                                            <aside  aria-label="Applications via Content Delivery Networks"  class="w-full border border-slate-300 rounded-xl bg-gray-100 p-3 mb-1 lg:mb-3 mt-1 lg:mt-3 shadow-md">
+            <p class="mb-0"><span class="text-sm font-bold tracking-tight text-slate-600">Applications via Content Delivery Networks</span></p>
+        <p>
+                                Managed via Apple CDN, these applications leverage a global CDN to deliver content from the network edge, ensuring low-latency access for users everywhere.
+                            </p>
+</aside>
+                                                </div>
+        </div>
+    
+    <hr>
+
+
+
+    <h2>Apple CDN Network Map</h2>
+    <div class="px-1 py-2 mb-4 rounded-lg border border-gray-200 bg-gray-50 shadow-md">
+
+    
+    
+    
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="col-span-1">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="2" class="py-1!"><span class="text-sm text-slate-700">Network Map</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-t-1 border-gray-300 pt-2">
+                            <td class="w-1/2 px-2 py-2 text-sm text-gray-500">Cities</td>
+                            <td class="w-1/2 px-2 py-2 text-sm text-gray-500">194</td>
+                        </tr>
+                        <tr class="border-t-1 border-gray-200 pt-2">
+                            <td class="px-2 py-2 text-sm text-gray-500">Countries</td>
+                            <td class="px-2 py-2 text-sm text-gray-500">69</td>
+                        </tr>
+                        <tr class="border-t-1 border-gray-200 pt-2">
+                            <td class="px-2 py-2 text-sm text-gray-500">Networks</td>
+                            <td class="px-2 py-2 text-sm text-gray-500">97</td>
+                        </tr>
+                        <tr class="border-t-1 border-gray-200 pt-2">
+                            <td class="px-2 py-2 text-sm text-gray-500">ASNs</td>
+                            <td class="px-2 py-2 text-sm text-gray-500">304</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-span-1">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="2" class="py-1!"><span class="text-sm text-slate-700">IP Info</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-t-1 border-gray-300 pt-2">
+                            <td class="w-1/2 px-2 py-2 text-sm text-gray-500">Total IPs</td>
+                            <td class="px-2 py-2 text-sm text-gray-500">8,957</td>
+                        </tr>
+                        <tr class="border-t-1 border-gray-200 pt-2">
+                            <td class="px-2 py-2 text-sm text-gray-500">IPv4</td>
+                            <td class="px-2 py-2 text-sm text-gray-500">6,571</td>
+                        </tr>
+                        <tr class="border-t-1 border-gray-200 pt-2">
+                            <td class="px-2 py-2 text-sm text-gray-500">IPv6</td>
+                            <td class="px-2 py-2 text-sm text-gray-500">2,386</td>
+                        </tr>
+                        <tr class="border-t-1 border-gray-200 pt-2">
+                            <td class="px-2 py-2 text-sm text-gray-500">Routes</td>
+                            <td class="px-2 py-2 text-sm text-gray-500">850</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-span-1">
+                <div class="lg:pt-6 text-sm text-gray-700">
+                    Please note: a single Apple CDN server can host several IPv4 and IPv6 addresses.
+
+                                    </div>
+            </div>
+        </div>
+    
+        <div class="lg:mt-6 h-[300px] lg:h-[500px] w-full" id="world_map" data-chart-data="{&quot;countries&quot;:{&quot;AF&quot;:{&quot;label&quot;:&quot;Afghanistan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AX&quot;:{&quot;label&quot;:&quot;Aland Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AL&quot;:{&quot;label&quot;:&quot;Albania&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;DZ&quot;:{&quot;label&quot;:&quot;Algeria&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AS&quot;:{&quot;label&quot;:&quot;American Samoa&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AD&quot;:{&quot;label&quot;:&quot;Andorra&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AO&quot;:{&quot;label&quot;:&quot;Angola&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AI&quot;:{&quot;label&quot;:&quot;Anguilla&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AQ&quot;:{&quot;label&quot;:&quot;Antarctica&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AG&quot;:{&quot;label&quot;:&quot;Antigua and Barbuda&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AR&quot;:{&quot;label&quot;:&quot;Argentina&quot;,&quot;count&quot;:41,&quot;locations&quot;:[&quot;Buenos Aires&quot;,&quot;Cordoba&quot;],&quot;ip_count&quot;:41,&quot;count_normalized&quot;:&quot;0.43&quot;},&quot;AM&quot;:{&quot;label&quot;:&quot;Armenia&quot;,&quot;count&quot;:3,&quot;locations&quot;:[&quot;Yerevan&quot;],&quot;ip_count&quot;:3,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AW&quot;:{&quot;label&quot;:&quot;Aruba&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;AU&quot;:{&quot;label&quot;:&quot;Australia&quot;,&quot;count&quot;:511,&quot;locations&quot;:[&quot;Perth&quot;,&quot;Sydney&quot;,&quot;Melbourne&quot;,&quot;Brisbane&quot;,&quot;Adelaide&quot;],&quot;ip_count&quot;:511,&quot;count_normalized&quot;:&quot;0.78&quot;},&quot;AT&quot;:{&quot;label&quot;:&quot;Austria&quot;,&quot;count&quot;:13,&quot;locations&quot;:[],&quot;ip_count&quot;:13,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;AZ&quot;:{&quot;label&quot;:&quot;Azerbaijan&quot;,&quot;count&quot;:4,&quot;locations&quot;:[&quot;Baku&quot;],&quot;ip_count&quot;:4,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BS&quot;:{&quot;label&quot;:&quot;Bahamas&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BH&quot;:{&quot;label&quot;:&quot;Bahrain&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BD&quot;:{&quot;label&quot;:&quot;Bangladesh&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BB&quot;:{&quot;label&quot;:&quot;Barbados&quot;,&quot;count&quot;:4,&quot;locations&quot;:[],&quot;ip_count&quot;:4,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BY&quot;:{&quot;label&quot;:&quot;Belarus&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BE&quot;:{&quot;label&quot;:&quot;Belgium&quot;,&quot;count&quot;:22,&quot;locations&quot;:[&quot;Brussels&quot;],&quot;ip_count&quot;:22,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;BZ&quot;:{&quot;label&quot;:&quot;Belize&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BJ&quot;:{&quot;label&quot;:&quot;Benin&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BM&quot;:{&quot;label&quot;:&quot;Bermuda&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BT&quot;:{&quot;label&quot;:&quot;Bhutan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BO&quot;:{&quot;label&quot;:&quot;Bolivia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BQ&quot;:{&quot;label&quot;:&quot;Bonaire, St. Eustatius &amp; Saba&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BA&quot;:{&quot;label&quot;:&quot;Bosnia and Herzegovina&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BW&quot;:{&quot;label&quot;:&quot;Botswana&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BV&quot;:{&quot;label&quot;:&quot;Bouvet Island&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BR&quot;:{&quot;label&quot;:&quot;Brazil&quot;,&quot;count&quot;:224,&quot;locations&quot;:[&quot;Sao Paulo&quot;,&quot;Fortaleza&quot;,&quot;Brasilia&quot;,&quot;Rio de Janeiro&quot;,&quot;Belem&quot;,&quot;Porto Alegre&quot;,&quot;Curitiba&quot;,&quot;Belo Horizonte&quot;,&quot;Campinas&quot;],&quot;ip_count&quot;:224,&quot;count_normalized&quot;:&quot;0.57&quot;},&quot;IO&quot;:{&quot;label&quot;:&quot;British Indian Ocean Territory&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;VG&quot;:{&quot;label&quot;:&quot;British Virgin Islands&quot;,&quot;count&quot;:4,&quot;locations&quot;:[&quot;Road Town&quot;],&quot;ip_count&quot;:4,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BN&quot;:{&quot;label&quot;:&quot;Brunei&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BG&quot;:{&quot;label&quot;:&quot;Bulgaria&quot;,&quot;count&quot;:10,&quot;locations&quot;:[&quot;Sofia&quot;],&quot;ip_count&quot;:10,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;BF&quot;:{&quot;label&quot;:&quot;Burkina Faso&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BI&quot;:{&quot;label&quot;:&quot;Burundi&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CV&quot;:{&quot;label&quot;:&quot;Cabo Verde&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KH&quot;:{&quot;label&quot;:&quot;Cambodia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CM&quot;:{&quot;label&quot;:&quot;Cameroon&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CA&quot;:{&quot;label&quot;:&quot;Canada&quot;,&quot;count&quot;:328,&quot;locations&quot;:[&quot;Toronto&quot;,&quot;Halifax&quot;,&quot;Burlington&quot;,&quot;Winnipeg&quot;,&quot;Calgary&quot;,&quot;Edmonton&quot;,&quot;Vancouver&quot;,&quot;Richmond Hill&quot;,&quot;Montreal&quot;,&quot;Moncton&quot;,&quot;Trois-Rivieres&quot;,&quot;Barrie&quot;],&quot;ip_count&quot;:328,&quot;count_normalized&quot;:&quot;0.65&quot;},&quot;KY&quot;:{&quot;label&quot;:&quot;Cayman Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CF&quot;:{&quot;label&quot;:&quot;Central African Republic&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TD&quot;:{&quot;label&quot;:&quot;Chad&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CL&quot;:{&quot;label&quot;:&quot;Chile&quot;,&quot;count&quot;:31,&quot;locations&quot;:[&quot;Santiago&quot;],&quot;ip_count&quot;:31,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;CN&quot;:{&quot;label&quot;:&quot;China&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CX&quot;:{&quot;label&quot;:&quot;Christmas Island&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CC&quot;:{&quot;label&quot;:&quot;Cocos Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CO&quot;:{&quot;label&quot;:&quot;Colombia&quot;,&quot;count&quot;:21,&quot;locations&quot;:[],&quot;ip_count&quot;:21,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;KM&quot;:{&quot;label&quot;:&quot;Comoros&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CD&quot;:{&quot;label&quot;:&quot;Congo - DRC&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CK&quot;:{&quot;label&quot;:&quot;Cook Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CR&quot;:{&quot;label&quot;:&quot;Costa Rica&quot;,&quot;count&quot;:28,&quot;locations&quot;:[],&quot;ip_count&quot;:28,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;HR&quot;:{&quot;label&quot;:&quot;Croatia&quot;,&quot;count&quot;:1,&quot;locations&quot;:[],&quot;ip_count&quot;:1,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CU&quot;:{&quot;label&quot;:&quot;Cuba&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CW&quot;:{&quot;label&quot;:&quot;Curacao&quot;,&quot;count&quot;:4,&quot;locations&quot;:[],&quot;ip_count&quot;:4,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CY&quot;:{&quot;label&quot;:&quot;Cyprus&quot;,&quot;count&quot;:1,&quot;locations&quot;:[],&quot;ip_count&quot;:1,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CZ&quot;:{&quot;label&quot;:&quot;Czechia&quot;,&quot;count&quot;:2,&quot;locations&quot;:[],&quot;ip_count&quot;:2,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;DK&quot;:{&quot;label&quot;:&quot;Denmark&quot;,&quot;count&quot;:62,&quot;locations&quot;:[&quot;Copenhagen&quot;],&quot;ip_count&quot;:62,&quot;count_normalized&quot;:&quot;0.45&quot;},&quot;DJ&quot;:{&quot;label&quot;:&quot;Djibouti&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;DM&quot;:{&quot;label&quot;:&quot;Dominica&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;DO&quot;:{&quot;label&quot;:&quot;Dominican Republic&quot;,&quot;count&quot;:8,&quot;locations&quot;:[&quot;Santo Domingo&quot;],&quot;ip_count&quot;:8,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;EC&quot;:{&quot;label&quot;:&quot;Ecuador&quot;,&quot;count&quot;:31,&quot;locations&quot;:[&quot;Guayaquil&quot;],&quot;ip_count&quot;:31,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;EG&quot;:{&quot;label&quot;:&quot;Egypt&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SV&quot;:{&quot;label&quot;:&quot;El Salvador&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GQ&quot;:{&quot;label&quot;:&quot;Equatorial Guinea&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ER&quot;:{&quot;label&quot;:&quot;Eritrea&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;EE&quot;:{&quot;label&quot;:&quot;Estonia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SZ&quot;:{&quot;label&quot;:&quot;Eswatini&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ET&quot;:{&quot;label&quot;:&quot;Ethiopia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;FK&quot;:{&quot;label&quot;:&quot;Falkland Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;FO&quot;:{&quot;label&quot;:&quot;Faroe Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;FJ&quot;:{&quot;label&quot;:&quot;Fiji&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;FI&quot;:{&quot;label&quot;:&quot;Finland&quot;,&quot;count&quot;:37,&quot;locations&quot;:[&quot;Lahti&quot;,&quot;Helsinki&quot;],&quot;ip_count&quot;:37,&quot;count_normalized&quot;:&quot;0.43&quot;},&quot;FR&quot;:{&quot;label&quot;:&quot;France&quot;,&quot;count&quot;:174,&quot;locations&quot;:[&quot;Paris&quot;,&quot;Marseille&quot;],&quot;ip_count&quot;:174,&quot;count_normalized&quot;:&quot;0.53&quot;},&quot;GF&quot;:{&quot;label&quot;:&quot;French Guiana&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PF&quot;:{&quot;label&quot;:&quot;French Polynesia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TF&quot;:{&quot;label&quot;:&quot;French Southern Territories&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GA&quot;:{&quot;label&quot;:&quot;Gabon&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GM&quot;:{&quot;label&quot;:&quot;Gambia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GE&quot;:{&quot;label&quot;:&quot;Georgia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;DE&quot;:{&quot;label&quot;:&quot;Germany&quot;,&quot;count&quot;:711,&quot;locations&quot;:[&quot;Frankfurt am Main&quot;,&quot;Berlin&quot;,&quot;Duesseldorf&quot;,&quot;Hamburg&quot;],&quot;ip_count&quot;:711,&quot;count_normalized&quot;:&quot;0.90&quot;},&quot;GH&quot;:{&quot;label&quot;:&quot;Ghana&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GI&quot;:{&quot;label&quot;:&quot;Gibraltar&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GR&quot;:{&quot;label&quot;:&quot;Greece&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GL&quot;:{&quot;label&quot;:&quot;Greenland&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GD&quot;:{&quot;label&quot;:&quot;Grenada&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GP&quot;:{&quot;label&quot;:&quot;Guadeloupe&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GU&quot;:{&quot;label&quot;:&quot;Guam&quot;,&quot;count&quot;:6,&quot;locations&quot;:[],&quot;ip_count&quot;:6,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GT&quot;:{&quot;label&quot;:&quot;Guatemala&quot;,&quot;count&quot;:26,&quot;locations&quot;:[&quot;Guatemala City&quot;],&quot;ip_count&quot;:26,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;GG&quot;:{&quot;label&quot;:&quot;Guernsey&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GN&quot;:{&quot;label&quot;:&quot;Guinea&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GW&quot;:{&quot;label&quot;:&quot;Guinea-Bissau&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GY&quot;:{&quot;label&quot;:&quot;Guyana&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;HT&quot;:{&quot;label&quot;:&quot;Haiti&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;HM&quot;:{&quot;label&quot;:&quot;Heard Island and McDonald Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;HN&quot;:{&quot;label&quot;:&quot;Honduras&quot;,&quot;count&quot;:12,&quot;locations&quot;:[],&quot;ip_count&quot;:12,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;HK&quot;:{&quot;label&quot;:&quot;Hong Kong&quot;,&quot;count&quot;:287,&quot;locations&quot;:[&quot;Hong Kong&quot;],&quot;ip_count&quot;:287,&quot;count_normalized&quot;:&quot;0.61&quot;},&quot;HU&quot;:{&quot;label&quot;:&quot;Hungary&quot;,&quot;count&quot;:14,&quot;locations&quot;:[&quot;Budapest&quot;],&quot;ip_count&quot;:14,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;IS&quot;:{&quot;label&quot;:&quot;Iceland&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;IN&quot;:{&quot;label&quot;:&quot;India&quot;,&quot;count&quot;:160,&quot;locations&quot;:[&quot;Mumbai&quot;,&quot;New Delhi&quot;,&quot;Chennai&quot;],&quot;ip_count&quot;:160,&quot;count_normalized&quot;:&quot;0.52&quot;},&quot;ID&quot;:{&quot;label&quot;:&quot;Indonesia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;IR&quot;:{&quot;label&quot;:&quot;Iran&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;IQ&quot;:{&quot;label&quot;:&quot;Iraq&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;IE&quot;:{&quot;label&quot;:&quot;Ireland&quot;,&quot;count&quot;:20,&quot;locations&quot;:[&quot;Dublin&quot;],&quot;ip_count&quot;:20,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;IM&quot;:{&quot;label&quot;:&quot;Isle of Man&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;IL&quot;:{&quot;label&quot;:&quot;Israel&quot;,&quot;count&quot;:4,&quot;locations&quot;:[&quot;Tel Aviv&quot;],&quot;ip_count&quot;:4,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;IT&quot;:{&quot;label&quot;:&quot;Italy&quot;,&quot;count&quot;:2,&quot;locations&quot;:[&quot;Milan&quot;],&quot;ip_count&quot;:2,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CI&quot;:{&quot;label&quot;:&quot;Ivory Coast&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;JM&quot;:{&quot;label&quot;:&quot;Jamaica&quot;,&quot;count&quot;:11,&quot;locations&quot;:[&quot;Kingston&quot;],&quot;ip_count&quot;:11,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;JP&quot;:{&quot;label&quot;:&quot;Japan&quot;,&quot;count&quot;:707,&quot;locations&quot;:[&quot;Tokyo&quot;,&quot;Osaka&quot;],&quot;ip_count&quot;:707,&quot;count_normalized&quot;:&quot;0.90&quot;},&quot;JE&quot;:{&quot;label&quot;:&quot;Jersey&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;JO&quot;:{&quot;label&quot;:&quot;Jordan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KZ&quot;:{&quot;label&quot;:&quot;Kazakhstan&quot;,&quot;count&quot;:1,&quot;locations&quot;:[],&quot;ip_count&quot;:1,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KE&quot;:{&quot;label&quot;:&quot;Kenya&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KI&quot;:{&quot;label&quot;:&quot;Kiribati&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;XK&quot;:{&quot;label&quot;:&quot;Kosovo&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KW&quot;:{&quot;label&quot;:&quot;Kuwait&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KG&quot;:{&quot;label&quot;:&quot;Kyrgyzstan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LA&quot;:{&quot;label&quot;:&quot;Laos&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LV&quot;:{&quot;label&quot;:&quot;Latvia&quot;,&quot;count&quot;:3,&quot;locations&quot;:[],&quot;ip_count&quot;:3,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LB&quot;:{&quot;label&quot;:&quot;Lebanon&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LS&quot;:{&quot;label&quot;:&quot;Lesotho&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LR&quot;:{&quot;label&quot;:&quot;Liberia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LY&quot;:{&quot;label&quot;:&quot;Libya&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LI&quot;:{&quot;label&quot;:&quot;Liechtenstein&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LT&quot;:{&quot;label&quot;:&quot;Lithuania&quot;,&quot;count&quot;:21,&quot;locations&quot;:[&quot;Vilnius&quot;],&quot;ip_count&quot;:21,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;LU&quot;:{&quot;label&quot;:&quot;Luxembourg&quot;,&quot;count&quot;:9,&quot;locations&quot;:[&quot;Luxembourg&quot;],&quot;ip_count&quot;:9,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;MO&quot;:{&quot;label&quot;:&quot;Macao&quot;,&quot;count&quot;:11,&quot;locations&quot;:[],&quot;ip_count&quot;:11,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;MG&quot;:{&quot;label&quot;:&quot;Madagascar&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MW&quot;:{&quot;label&quot;:&quot;Malawi&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MY&quot;:{&quot;label&quot;:&quot;Malaysia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MV&quot;:{&quot;label&quot;:&quot;Maldives&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ML&quot;:{&quot;label&quot;:&quot;Mali&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MT&quot;:{&quot;label&quot;:&quot;Malta&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MH&quot;:{&quot;label&quot;:&quot;Marshall Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MQ&quot;:{&quot;label&quot;:&quot;Martinique&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MR&quot;:{&quot;label&quot;:&quot;Mauritania&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MU&quot;:{&quot;label&quot;:&quot;Mauritius&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;YT&quot;:{&quot;label&quot;:&quot;Mayotte&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MX&quot;:{&quot;label&quot;:&quot;Mexico&quot;,&quot;count&quot;:49,&quot;locations&quot;:[&quot;Coyoacan&quot;,&quot;Monterrey&quot;,&quot;Ciudad Juarez&quot;,&quot;Guadalajara&quot;,&quot;Santiago de Queretaro&quot;,&quot;Mexico City&quot;],&quot;ip_count&quot;:49,&quot;count_normalized&quot;:&quot;0.44&quot;},&quot;FM&quot;:{&quot;label&quot;:&quot;Micronesia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MD&quot;:{&quot;label&quot;:&quot;Moldova&quot;,&quot;count&quot;:2,&quot;locations&quot;:[&quot;Chisinau&quot;],&quot;ip_count&quot;:2,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MC&quot;:{&quot;label&quot;:&quot;Monaco&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MN&quot;:{&quot;label&quot;:&quot;Mongolia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ME&quot;:{&quot;label&quot;:&quot;Montenegro&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MS&quot;:{&quot;label&quot;:&quot;Montserrat&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MA&quot;:{&quot;label&quot;:&quot;Morocco&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MZ&quot;:{&quot;label&quot;:&quot;Mozambique&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MM&quot;:{&quot;label&quot;:&quot;Myanmar&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NA&quot;:{&quot;label&quot;:&quot;Namibia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NR&quot;:{&quot;label&quot;:&quot;Nauru&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NP&quot;:{&quot;label&quot;:&quot;Nepal&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NL&quot;:{&quot;label&quot;:&quot;Netherlands&quot;,&quot;count&quot;:219,&quot;locations&quot;:[&quot;Amsterdam&quot;,&quot;Schiphol&quot;,&quot;Rotterdam&quot;],&quot;ip_count&quot;:219,&quot;count_normalized&quot;:&quot;0.56&quot;},&quot;NC&quot;:{&quot;label&quot;:&quot;New Caledonia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NZ&quot;:{&quot;label&quot;:&quot;New Zealand&quot;,&quot;count&quot;:43,&quot;locations&quot;:[&quot;Christchurch&quot;,&quot;Auckland&quot;],&quot;ip_count&quot;:43,&quot;count_normalized&quot;:&quot;0.43&quot;},&quot;NI&quot;:{&quot;label&quot;:&quot;Nicaragua&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NE&quot;:{&quot;label&quot;:&quot;Niger&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NG&quot;:{&quot;label&quot;:&quot;Nigeria&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NU&quot;:{&quot;label&quot;:&quot;Niue&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NF&quot;:{&quot;label&quot;:&quot;Norfolk Island&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KP&quot;:{&quot;label&quot;:&quot;North Korea&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MK&quot;:{&quot;label&quot;:&quot;North Macedonia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MP&quot;:{&quot;label&quot;:&quot;Northern Mariana Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;NO&quot;:{&quot;label&quot;:&quot;Norway&quot;,&quot;count&quot;:25,&quot;locations&quot;:[&quot;Oslo&quot;,&quot;Rennesoy&quot;],&quot;ip_count&quot;:25,&quot;count_normalized&quot;:&quot;0.42&quot;},&quot;OM&quot;:{&quot;label&quot;:&quot;Oman&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PK&quot;:{&quot;label&quot;:&quot;Pakistan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PW&quot;:{&quot;label&quot;:&quot;Palau&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PS&quot;:{&quot;label&quot;:&quot;Palestine&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PA&quot;:{&quot;label&quot;:&quot;Panama&quot;,&quot;count&quot;:15,&quot;locations&quot;:[&quot;Panama City&quot;],&quot;ip_count&quot;:15,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;PG&quot;:{&quot;label&quot;:&quot;Papua New Guinea&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PY&quot;:{&quot;label&quot;:&quot;Paraguay&quot;,&quot;count&quot;:18,&quot;locations&quot;:[],&quot;ip_count&quot;:18,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;PE&quot;:{&quot;label&quot;:&quot;Peru&quot;,&quot;count&quot;:20,&quot;locations&quot;:[],&quot;ip_count&quot;:20,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;PH&quot;:{&quot;label&quot;:&quot;Philippines&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PN&quot;:{&quot;label&quot;:&quot;Pitcairn&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PL&quot;:{&quot;label&quot;:&quot;Poland&quot;,&quot;count&quot;:59,&quot;locations&quot;:[&quot;Warsaw&quot;],&quot;ip_count&quot;:59,&quot;count_normalized&quot;:&quot;0.44&quot;},&quot;PT&quot;:{&quot;label&quot;:&quot;Portugal&quot;,&quot;count&quot;:15,&quot;locations&quot;:[&quot;Lisbon&quot;,&quot;Porto&quot;],&quot;ip_count&quot;:15,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;PR&quot;:{&quot;label&quot;:&quot;Puerto Rico&quot;,&quot;count&quot;:9,&quot;locations&quot;:[],&quot;ip_count&quot;:9,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;QA&quot;:{&quot;label&quot;:&quot;Qatar&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;CG&quot;:{&quot;label&quot;:&quot;Republic of the Congo&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;RE&quot;:{&quot;label&quot;:&quot;Reunion&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;RO&quot;:{&quot;label&quot;:&quot;Romania&quot;,&quot;count&quot;:34,&quot;locations&quot;:[&quot;Bucharest&quot;,&quot;Timisoara&quot;,&quot;Cluj-Napoca&quot;],&quot;ip_count&quot;:34,&quot;count_normalized&quot;:&quot;0.43&quot;},&quot;RU&quot;:{&quot;label&quot;:&quot;Russia&quot;,&quot;count&quot;:16,&quot;locations&quot;:[&quot;Moscow&quot;],&quot;ip_count&quot;:16,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;RW&quot;:{&quot;label&quot;:&quot;Rwanda&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;WS&quot;:{&quot;label&quot;:&quot;Samoa&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SM&quot;:{&quot;label&quot;:&quot;San Marino&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ST&quot;:{&quot;label&quot;:&quot;Sao Tome and Principe&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SA&quot;:{&quot;label&quot;:&quot;Saudi Arabia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SN&quot;:{&quot;label&quot;:&quot;Senegal&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;RS&quot;:{&quot;label&quot;:&quot;Serbia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SC&quot;:{&quot;label&quot;:&quot;Seychelles&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SL&quot;:{&quot;label&quot;:&quot;Sierra Leone&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SG&quot;:{&quot;label&quot;:&quot;Singapore&quot;,&quot;count&quot;:275,&quot;locations&quot;:[&quot;Singapore&quot;],&quot;ip_count&quot;:275,&quot;count_normalized&quot;:&quot;0.61&quot;},&quot;SX&quot;:{&quot;label&quot;:&quot;Sint Maarten&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SK&quot;:{&quot;label&quot;:&quot;Slovakia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SI&quot;:{&quot;label&quot;:&quot;Slovenia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SB&quot;:{&quot;label&quot;:&quot;Solomon Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SO&quot;:{&quot;label&quot;:&quot;Somalia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ZA&quot;:{&quot;label&quot;:&quot;South Africa&quot;,&quot;count&quot;:102,&quot;locations&quot;:[&quot;Johannesburg&quot;,&quot;Cape Town&quot;,&quot;Pretoria&quot;],&quot;ip_count&quot;:102,&quot;count_normalized&quot;:&quot;0.48&quot;},&quot;GS&quot;:{&quot;label&quot;:&quot;South Georgia and the South Sandwich Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KR&quot;:{&quot;label&quot;:&quot;South Korea&quot;,&quot;count&quot;:103,&quot;locations&quot;:[&quot;Seoul&quot;],&quot;ip_count&quot;:103,&quot;count_normalized&quot;:&quot;0.48&quot;},&quot;SS&quot;:{&quot;label&quot;:&quot;South Sudan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ES&quot;:{&quot;label&quot;:&quot;Spain&quot;,&quot;count&quot;:163,&quot;locations&quot;:[&quot;Madrid&quot;],&quot;ip_count&quot;:163,&quot;count_normalized&quot;:&quot;0.52&quot;},&quot;LK&quot;:{&quot;label&quot;:&quot;Sri Lanka&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;BL&quot;:{&quot;label&quot;:&quot;St. Barthelemy&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SH&quot;:{&quot;label&quot;:&quot;St. Helena&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;KN&quot;:{&quot;label&quot;:&quot;St. Kitts and Nevis&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;LC&quot;:{&quot;label&quot;:&quot;St. Lucia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;MF&quot;:{&quot;label&quot;:&quot;St. Martin&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;PM&quot;:{&quot;label&quot;:&quot;St. Pierre and Miquelon&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;VC&quot;:{&quot;label&quot;:&quot;St. Vincent &amp; the Grenadines&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SD&quot;:{&quot;label&quot;:&quot;Sudan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SR&quot;:{&quot;label&quot;:&quot;Suriname&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SJ&quot;:{&quot;label&quot;:&quot;Svalbard and Jan Mayen&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;SE&quot;:{&quot;label&quot;:&quot;Sweden&quot;,&quot;count&quot;:205,&quot;locations&quot;:[&quot;Stockholm&quot;],&quot;ip_count&quot;:205,&quot;count_normalized&quot;:&quot;0.55&quot;},&quot;CH&quot;:{&quot;label&quot;:&quot;Switzerland&quot;,&quot;count&quot;:43,&quot;locations&quot;:[&quot;Luzern&quot;,&quot;Bern&quot;,&quot;Lausanne&quot;],&quot;ip_count&quot;:43,&quot;count_normalized&quot;:&quot;0.43&quot;},&quot;SY&quot;:{&quot;label&quot;:&quot;Syria&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TW&quot;:{&quot;label&quot;:&quot;Taiwan&quot;,&quot;count&quot;:46,&quot;locations&quot;:[&quot;Taipei&quot;],&quot;ip_count&quot;:46,&quot;count_normalized&quot;:&quot;0.43&quot;},&quot;TJ&quot;:{&quot;label&quot;:&quot;Tajikistan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TZ&quot;:{&quot;label&quot;:&quot;Tanzania&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TH&quot;:{&quot;label&quot;:&quot;Thailand&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TL&quot;:{&quot;label&quot;:&quot;Timor Leste&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TG&quot;:{&quot;label&quot;:&quot;Togo&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TK&quot;:{&quot;label&quot;:&quot;Tokelau&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TO&quot;:{&quot;label&quot;:&quot;Tonga&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TT&quot;:{&quot;label&quot;:&quot;Trinidad and Tobago&quot;,&quot;count&quot;:7,&quot;locations&quot;:[],&quot;ip_count&quot;:7,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;TN&quot;:{&quot;label&quot;:&quot;Tunisia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TR&quot;:{&quot;label&quot;:&quot;Turkey&quot;,&quot;count&quot;:4,&quot;locations&quot;:[&quot;Istanbul&quot;],&quot;ip_count&quot;:4,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TM&quot;:{&quot;label&quot;:&quot;Turkmenistan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TC&quot;:{&quot;label&quot;:&quot;Turks and Caicos Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;TV&quot;:{&quot;label&quot;:&quot;Tuvalu&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;VI&quot;:{&quot;label&quot;:&quot;U.S. Virgin Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;UG&quot;:{&quot;label&quot;:&quot;Uganda&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;UA&quot;:{&quot;label&quot;:&quot;Ukraine&quot;,&quot;count&quot;:35,&quot;locations&quot;:[&quot;Kyiv&quot;],&quot;ip_count&quot;:35,&quot;count_normalized&quot;:&quot;0.43&quot;},&quot;AE&quot;:{&quot;label&quot;:&quot;United Arab Emirates&quot;,&quot;count&quot;:1,&quot;locations&quot;:[],&quot;ip_count&quot;:1,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;GB&quot;:{&quot;label&quot;:&quot;United Kingdom&quot;,&quot;count&quot;:527,&quot;locations&quot;:[&quot;London&quot;,&quot;Manchester&quot;,&quot;Birmingham&quot;,&quot;Bristol&quot;,&quot;Edinburgh&quot;],&quot;ip_count&quot;:527,&quot;count_normalized&quot;:&quot;0.79&quot;},&quot;US&quot;:{&quot;label&quot;:&quot;United States&quot;,&quot;count&quot;:3341,&quot;locations&quot;:[&quot;San Jose&quot;,&quot;New York City&quot;,&quot;Atlanta&quot;,&quot;Phoenix&quot;,&quot;Detroit&quot;,&quot;Miami&quot;,&quot;Santa Clara&quot;,&quot;Ashburn&quot;,&quot;Denver&quot;,&quot;Chicago&quot;,&quot;Seattle&quot;,&quot;Minneapolis&quot;,&quot;Honolulu&quot;,&quot;Los Angeles&quot;,&quot;Newark&quot;,&quot;Reston&quot;,&quot;Boston&quot;,&quot;Dallas&quot;,&quot;Davenport&quot;,&quot;Portland&quot;,&quot;San Francisco&quot;,&quot;El Paso&quot;,&quot;Las Vegas&quot;,&quot;San Diego&quot;,&quot;Kansas City&quot;,&quot;Austin&quot;,&quot;Salt Lake City&quot;,&quot;Columbus&quot;,&quot;Philadelphia&quot;,&quot;Sacramento&quot;,&quot;Tampa&quot;,&quot;Washington&quot;,&quot;Cincinnati&quot;,&quot;North Bergen&quot;],&quot;ip_count&quot;:3341,&quot;count_normalized&quot;:&quot;1.00&quot;},&quot;UM&quot;:{&quot;label&quot;:&quot;United States Minor Outlying Islands&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;UY&quot;:{&quot;label&quot;:&quot;Uruguay&quot;,&quot;count&quot;:7,&quot;locations&quot;:[],&quot;ip_count&quot;:7,&quot;count_normalized&quot;:&quot;0.41&quot;},&quot;UZ&quot;:{&quot;label&quot;:&quot;Uzbekistan&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;VU&quot;:{&quot;label&quot;:&quot;Vanuatu&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;VA&quot;:{&quot;label&quot;:&quot;Vatican&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;VE&quot;:{&quot;label&quot;:&quot;Venezuela&quot;,&quot;count&quot;:4,&quot;locations&quot;:[],&quot;ip_count&quot;:4,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;VN&quot;:{&quot;label&quot;:&quot;Vietnam&quot;,&quot;count&quot;:1,&quot;locations&quot;:[],&quot;ip_count&quot;:1,&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;WF&quot;:{&quot;label&quot;:&quot;Wallis and Futuna&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;EH&quot;:{&quot;label&quot;:&quot;Western Sahara&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;YE&quot;:{&quot;label&quot;:&quot;Yemen&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ZM&quot;:{&quot;label&quot;:&quot;Zambia&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;},&quot;ZW&quot;:{&quot;label&quot;:&quot;Zimbabwe&quot;,&quot;count&quot;:0,&quot;locations&quot;:[],&quot;count_normalized&quot;:&quot;0.40&quot;}},&quot;countries_active&quot;:{&quot;JP&quot;:true,&quot;NL&quot;:true,&quot;US&quot;:true,&quot;BR&quot;:true,&quot;DE&quot;:true,&quot;IN&quot;:true,&quot;CA&quot;:true,&quot;GB&quot;:true,&quot;AU&quot;:true,&quot;SE&quot;:true,&quot;SG&quot;:true,&quot;IE&quot;:true,&quot;ES&quot;:true,&quot;HK&quot;:true,&quot;DK&quot;:true,&quot;FR&quot;:true,&quot;ZA&quot;:true,&quot;KR&quot;:true,&quot;TW&quot;:true,&quot;PR&quot;:true,&quot;CO&quot;:true,&quot;MO&quot;:true,&quot;GT&quot;:true,&quot;HN&quot;:true,&quot;AR&quot;:true,&quot;PY&quot;:true,&quot;RO&quot;:true,&quot;PE&quot;:true,&quot;CL&quot;:true,&quot;FI&quot;:true,&quot;NZ&quot;:true,&quot;PL&quot;:true,&quot;CH&quot;:true,&quot;BB&quot;:true,&quot;UA&quot;:true,&quot;LT&quot;:true,&quot;RU&quot;:true,&quot;NO&quot;:true,&quot;BE&quot;:true,&quot;HU&quot;:true,&quot;JM&quot;:true,&quot;DO&quot;:true,&quot;AT&quot;:true,&quot;VE&quot;:true,&quot;CZ&quot;:true,&quot;EC&quot;:true,&quot;UY&quot;:true,&quot;CR&quot;:true,&quot;MX&quot;:true,&quot;LU&quot;:true,&quot;TT&quot;:true,&quot;PA&quot;:true,&quot;CW&quot;:true,&quot;KZ&quot;:true,&quot;BG&quot;:true,&quot;PT&quot;:true,&quot;IL&quot;:true,&quot;GU&quot;:true,&quot;VG&quot;:true,&quot;MD&quot;:true,&quot;VN&quot;:true,&quot;HR&quot;:true,&quot;LV&quot;:true,&quot;TR&quot;:true,&quot;AZ&quot;:true,&quot;IT&quot;:true,&quot;AM&quot;:true,&quot;AE&quot;:true,&quot;CY&quot;:true},&quot;continents_active&quot;:{&quot;Asia&quot;:true,&quot;Europe&quot;:true,&quot;North America&quot;:true,&quot;South America&quot;:true,&quot;Oceania&quot;:true,&quot;Africa&quot;:true},&quot;legend&quot;:{&quot;North America&quot;:{&quot;Barbados&quot;:{&quot;code&quot;:&quot;BB&quot;,&quot;country&quot;:&quot;Barbados&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:[]},&quot;British Virgin Islands&quot;:{&quot;code&quot;:&quot;VG&quot;,&quot;country&quot;:&quot;British Virgin Islands&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;3577430&quot;:true}},&quot;Canada&quot;:{&quot;code&quot;:&quot;CA&quot;,&quot;country&quot;:&quot;Canada&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;6167865&quot;:true,&quot;6324729&quot;:true,&quot;5911592&quot;:true,&quot;6183235&quot;:true,&quot;5913490&quot;:true,&quot;5946768&quot;:true,&quot;6173331&quot;:true,&quot;6122091&quot;:true,&quot;6077243&quot;:true,&quot;6076211&quot;:true,&quot;6169141&quot;:true,&quot;5894171&quot;:true}},&quot;Costa Rica&quot;:{&quot;code&quot;:&quot;CR&quot;,&quot;country&quot;:&quot;Costa Rica&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:[]},&quot;Curacao&quot;:{&quot;code&quot;:&quot;CW&quot;,&quot;country&quot;:&quot;Curacao&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:[]},&quot;Dominican Republic&quot;:{&quot;code&quot;:&quot;DO&quot;,&quot;country&quot;:&quot;Dominican Republic&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;3492908&quot;:true}},&quot;Guatemala&quot;:{&quot;code&quot;:&quot;GT&quot;,&quot;country&quot;:&quot;Guatemala&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;3598132&quot;:true}},&quot;Honduras&quot;:{&quot;code&quot;:&quot;HN&quot;,&quot;country&quot;:&quot;Honduras&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:[]},&quot;Jamaica&quot;:{&quot;code&quot;:&quot;JM&quot;,&quot;country&quot;:&quot;Jamaica&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;3489854&quot;:true}},&quot;Mexico&quot;:{&quot;code&quot;:&quot;MX&quot;,&quot;country&quot;:&quot;Mexico&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;3530139&quot;:true,&quot;3995465&quot;:true,&quot;4013708&quot;:true,&quot;4005539&quot;:true,&quot;3991164&quot;:true,&quot;3530597&quot;:true}},&quot;Panama&quot;:{&quot;code&quot;:&quot;PA&quot;,&quot;country&quot;:&quot;Panama&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;3703443&quot;:true}},&quot;Puerto Rico&quot;:{&quot;code&quot;:&quot;PR&quot;,&quot;country&quot;:&quot;Puerto Rico&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:[]},&quot;Trinidad and Tobago&quot;:{&quot;code&quot;:&quot;TT&quot;,&quot;country&quot;:&quot;Trinidad and Tobago&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:[]},&quot;United States&quot;:{&quot;code&quot;:&quot;US&quot;,&quot;country&quot;:&quot;United States&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;locations&quot;:{&quot;5392171&quot;:true,&quot;5128581&quot;:true,&quot;4180439&quot;:true,&quot;5308655&quot;:true,&quot;4990729&quot;:true,&quot;4164138&quot;:true,&quot;5393015&quot;:true,&quot;4744870&quot;:true,&quot;5419384&quot;:true,&quot;4887398&quot;:true,&quot;5809844&quot;:true,&quot;5037649&quot;:true,&quot;5856195&quot;:true,&quot;5368361&quot;:true,&quot;5101798&quot;:true,&quot;4781530&quot;:true,&quot;4930956&quot;:true,&quot;4684888&quot;:true,&quot;4853423&quot;:true,&quot;5746545&quot;:true,&quot;5391959&quot;:true,&quot;5520993&quot;:true,&quot;5506956&quot;:true,&quot;5391811&quot;:true,&quot;4393217&quot;:true,&quot;4671654&quot;:true,&quot;5780993&quot;:true,&quot;4509177&quot;:true,&quot;4560349&quot;:true,&quot;5389489&quot;:true,&quot;4174757&quot;:true,&quot;4140963&quot;:true,&quot;4508722&quot;:true,&quot;5101879&quot;:true}}},&quot;Europe&quot;:{&quot;Austria&quot;:{&quot;code&quot;:&quot;AT&quot;,&quot;country&quot;:&quot;Austria&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:[]},&quot;Belgium&quot;:{&quot;code&quot;:&quot;BE&quot;,&quot;country&quot;:&quot;Belgium&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2800866&quot;:true}},&quot;Bulgaria&quot;:{&quot;code&quot;:&quot;BG&quot;,&quot;country&quot;:&quot;Bulgaria&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;727011&quot;:true}},&quot;Croatia&quot;:{&quot;code&quot;:&quot;HR&quot;,&quot;country&quot;:&quot;Croatia&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:[]},&quot;Cyprus&quot;:{&quot;code&quot;:&quot;CY&quot;,&quot;country&quot;:&quot;Cyprus&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:[]},&quot;Czechia&quot;:{&quot;code&quot;:&quot;CZ&quot;,&quot;country&quot;:&quot;Czechia&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:[]},&quot;Denmark&quot;:{&quot;code&quot;:&quot;DK&quot;,&quot;country&quot;:&quot;Denmark&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2618425&quot;:true}},&quot;Finland&quot;:{&quot;code&quot;:&quot;FI&quot;,&quot;country&quot;:&quot;Finland&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;649360&quot;:true,&quot;658225&quot;:true}},&quot;France&quot;:{&quot;code&quot;:&quot;FR&quot;,&quot;country&quot;:&quot;France&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2988507&quot;:true,&quot;2995469&quot;:true}},&quot;Germany&quot;:{&quot;code&quot;:&quot;DE&quot;,&quot;country&quot;:&quot;Germany&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2925533&quot;:true,&quot;2950159&quot;:true,&quot;2934246&quot;:true,&quot;2911298&quot;:true}},&quot;Hungary&quot;:{&quot;code&quot;:&quot;HU&quot;,&quot;country&quot;:&quot;Hungary&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;3054643&quot;:true}},&quot;Ireland&quot;:{&quot;code&quot;:&quot;IE&quot;,&quot;country&quot;:&quot;Ireland&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2964574&quot;:true}},&quot;Italy&quot;:{&quot;code&quot;:&quot;IT&quot;,&quot;country&quot;:&quot;Italy&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;3173435&quot;:true}},&quot;Latvia&quot;:{&quot;code&quot;:&quot;LV&quot;,&quot;country&quot;:&quot;Latvia&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:[]},&quot;Lithuania&quot;:{&quot;code&quot;:&quot;LT&quot;,&quot;country&quot;:&quot;Lithuania&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;593116&quot;:true}},&quot;Luxembourg&quot;:{&quot;code&quot;:&quot;LU&quot;,&quot;country&quot;:&quot;Luxembourg&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2960316&quot;:true}},&quot;Moldova&quot;:{&quot;code&quot;:&quot;MD&quot;,&quot;country&quot;:&quot;Moldova&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;618426&quot;:true}},&quot;Netherlands&quot;:{&quot;code&quot;:&quot;NL&quot;,&quot;country&quot;:&quot;Netherlands&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2759794&quot;:true,&quot;10173839&quot;:true,&quot;2747891&quot;:true}},&quot;Norway&quot;:{&quot;code&quot;:&quot;NO&quot;,&quot;country&quot;:&quot;Norway&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;3143244&quot;:true,&quot;3141965&quot;:true}},&quot;Poland&quot;:{&quot;code&quot;:&quot;PL&quot;,&quot;country&quot;:&quot;Poland&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;756135&quot;:true}},&quot;Portugal&quot;:{&quot;code&quot;:&quot;PT&quot;,&quot;country&quot;:&quot;Portugal&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2267057&quot;:true,&quot;2735943&quot;:true}},&quot;Romania&quot;:{&quot;code&quot;:&quot;RO&quot;,&quot;country&quot;:&quot;Romania&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;683506&quot;:true,&quot;665087&quot;:true,&quot;681290&quot;:true}},&quot;Russia&quot;:{&quot;code&quot;:&quot;RU&quot;,&quot;country&quot;:&quot;Russia&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;524901&quot;:true}},&quot;Spain&quot;:{&quot;code&quot;:&quot;ES&quot;,&quot;country&quot;:&quot;Spain&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;3117735&quot;:true}},&quot;Sweden&quot;:{&quot;code&quot;:&quot;SE&quot;,&quot;country&quot;:&quot;Sweden&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2673730&quot;:true}},&quot;Switzerland&quot;:{&quot;code&quot;:&quot;CH&quot;,&quot;country&quot;:&quot;Switzerland&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2659811&quot;:true,&quot;2661552&quot;:true,&quot;2659994&quot;:true}},&quot;Ukraine&quot;:{&quot;code&quot;:&quot;UA&quot;,&quot;country&quot;:&quot;Ukraine&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;703448&quot;:true}},&quot;United Kingdom&quot;:{&quot;code&quot;:&quot;GB&quot;,&quot;country&quot;:&quot;United Kingdom&quot;,&quot;continent&quot;:&quot;Europe&quot;,&quot;locations&quot;:{&quot;2643743&quot;:true,&quot;2643123&quot;:true,&quot;2655603&quot;:true,&quot;2654675&quot;:true,&quot;2650225&quot;:true}}},&quot;Asia&quot;:{&quot;Armenia&quot;:{&quot;code&quot;:&quot;AM&quot;,&quot;country&quot;:&quot;Armenia&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;616052&quot;:true}},&quot;Azerbaijan&quot;:{&quot;code&quot;:&quot;AZ&quot;,&quot;country&quot;:&quot;Azerbaijan&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;587084&quot;:true}},&quot;Hong Kong&quot;:{&quot;code&quot;:&quot;HK&quot;,&quot;country&quot;:&quot;Hong Kong&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;1819729&quot;:true}},&quot;India&quot;:{&quot;code&quot;:&quot;IN&quot;,&quot;country&quot;:&quot;India&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;1275339&quot;:true,&quot;1261481&quot;:true,&quot;1264527&quot;:true}},&quot;Israel&quot;:{&quot;code&quot;:&quot;IL&quot;,&quot;country&quot;:&quot;Israel&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;293397&quot;:true}},&quot;Japan&quot;:{&quot;code&quot;:&quot;JP&quot;,&quot;country&quot;:&quot;Japan&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;1850147&quot;:true,&quot;1853909&quot;:true}},&quot;Kazakhstan&quot;:{&quot;code&quot;:&quot;KZ&quot;,&quot;country&quot;:&quot;Kazakhstan&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:[]},&quot;Macao&quot;:{&quot;code&quot;:&quot;MO&quot;,&quot;country&quot;:&quot;Macao&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:[]},&quot;Singapore&quot;:{&quot;code&quot;:&quot;SG&quot;,&quot;country&quot;:&quot;Singapore&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;1880252&quot;:true}},&quot;South Korea&quot;:{&quot;code&quot;:&quot;KR&quot;,&quot;country&quot;:&quot;South Korea&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;1835848&quot;:true}},&quot;Taiwan&quot;:{&quot;code&quot;:&quot;TW&quot;,&quot;country&quot;:&quot;Taiwan&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;1668341&quot;:true}},&quot;Turkey&quot;:{&quot;code&quot;:&quot;TR&quot;,&quot;country&quot;:&quot;Turkey&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:{&quot;745044&quot;:true}},&quot;United Arab Emirates&quot;:{&quot;code&quot;:&quot;AE&quot;,&quot;country&quot;:&quot;United Arab Emirates&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:[]},&quot;Vietnam&quot;:{&quot;code&quot;:&quot;VN&quot;,&quot;country&quot;:&quot;Vietnam&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;locations&quot;:[]}},&quot;South America&quot;:{&quot;Argentina&quot;:{&quot;code&quot;:&quot;AR&quot;,&quot;country&quot;:&quot;Argentina&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:{&quot;3435910&quot;:true,&quot;3860259&quot;:true}},&quot;Brazil&quot;:{&quot;code&quot;:&quot;BR&quot;,&quot;country&quot;:&quot;Brazil&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:{&quot;3448439&quot;:true,&quot;3399415&quot;:true,&quot;3469058&quot;:true,&quot;3451190&quot;:true,&quot;3405870&quot;:true,&quot;3452925&quot;:true,&quot;3464975&quot;:true,&quot;3470127&quot;:true,&quot;3467865&quot;:true}},&quot;Chile&quot;:{&quot;code&quot;:&quot;CL&quot;,&quot;country&quot;:&quot;Chile&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:{&quot;3871336&quot;:true}},&quot;Colombia&quot;:{&quot;code&quot;:&quot;CO&quot;,&quot;country&quot;:&quot;Colombia&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:[]},&quot;Ecuador&quot;:{&quot;code&quot;:&quot;EC&quot;,&quot;country&quot;:&quot;Ecuador&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:{&quot;3657509&quot;:true}},&quot;Paraguay&quot;:{&quot;code&quot;:&quot;PY&quot;,&quot;country&quot;:&quot;Paraguay&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:[]},&quot;Peru&quot;:{&quot;code&quot;:&quot;PE&quot;,&quot;country&quot;:&quot;Peru&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:[]},&quot;Uruguay&quot;:{&quot;code&quot;:&quot;UY&quot;,&quot;country&quot;:&quot;Uruguay&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:[]},&quot;Venezuela&quot;:{&quot;code&quot;:&quot;VE&quot;,&quot;country&quot;:&quot;Venezuela&quot;,&quot;continent&quot;:&quot;South America&quot;,&quot;locations&quot;:[]}},&quot;Africa&quot;:{&quot;South Africa&quot;:{&quot;code&quot;:&quot;ZA&quot;,&quot;country&quot;:&quot;South Africa&quot;,&quot;continent&quot;:&quot;Africa&quot;,&quot;locations&quot;:{&quot;993800&quot;:true,&quot;3369157&quot;:true,&quot;964137&quot;:true}}},&quot;Oceania&quot;:{&quot;Australia&quot;:{&quot;code&quot;:&quot;AU&quot;,&quot;country&quot;:&quot;Australia&quot;,&quot;continent&quot;:&quot;Oceania&quot;,&quot;locations&quot;:{&quot;2063523&quot;:true,&quot;2147714&quot;:true,&quot;2158177&quot;:true,&quot;2174003&quot;:true,&quot;2078025&quot;:true}},&quot;Guam&quot;:{&quot;code&quot;:&quot;GU&quot;,&quot;country&quot;:&quot;Guam&quot;,&quot;continent&quot;:&quot;Oceania&quot;,&quot;locations&quot;:[]},&quot;New Zealand&quot;:{&quot;code&quot;:&quot;NZ&quot;,&quot;country&quot;:&quot;New Zealand&quot;,&quot;continent&quot;:&quot;Oceania&quot;,&quot;locations&quot;:{&quot;2192362&quot;:true,&quot;2193733&quot;:true}}}},&quot;ip_count&quot;:8957,&quot;country_count&quot;:{&quot;Japan&quot;:true,&quot;Netherlands&quot;:true,&quot;United States&quot;:true,&quot;Brazil&quot;:true,&quot;Germany&quot;:true,&quot;India&quot;:true,&quot;Canada&quot;:true,&quot;United Kingdom&quot;:true,&quot;Australia&quot;:true,&quot;Sweden&quot;:true,&quot;Singapore&quot;:true,&quot;Ireland&quot;:true,&quot;Spain&quot;:true,&quot;Hong Kong&quot;:true,&quot;Denmark&quot;:true,&quot;France&quot;:true,&quot;South Africa&quot;:true,&quot;South Korea&quot;:true,&quot;Taiwan&quot;:true,&quot;Puerto Rico&quot;:true,&quot;Colombia&quot;:true,&quot;Macao&quot;:true,&quot;Guatemala&quot;:true,&quot;Honduras&quot;:true,&quot;Argentina&quot;:true,&quot;Paraguay&quot;:true,&quot;Romania&quot;:true,&quot;Peru&quot;:true,&quot;Chile&quot;:true,&quot;Finland&quot;:true,&quot;New Zealand&quot;:true,&quot;Poland&quot;:true,&quot;Switzerland&quot;:true,&quot;Barbados&quot;:true,&quot;Ukraine&quot;:true,&quot;Lithuania&quot;:true,&quot;Russia&quot;:true,&quot;Norway&quot;:true,&quot;Belgium&quot;:true,&quot;Hungary&quot;:true,&quot;Jamaica&quot;:true,&quot;Dominican Republic&quot;:true,&quot;Austria&quot;:true,&quot;Venezuela&quot;:true,&quot;Czechia&quot;:true,&quot;Ecuador&quot;:true,&quot;Uruguay&quot;:true,&quot;Costa Rica&quot;:true,&quot;Mexico&quot;:true,&quot;Luxembourg&quot;:true,&quot;Trinidad and Tobago&quot;:true,&quot;Panama&quot;:true,&quot;Curacao&quot;:true,&quot;Kazakhstan&quot;:true,&quot;Bulgaria&quot;:true,&quot;Portugal&quot;:true,&quot;Israel&quot;:true,&quot;Guam&quot;:true,&quot;British Virgin Islands&quot;:true,&quot;Moldova&quot;:true,&quot;Vietnam&quot;:true,&quot;Croatia&quot;:true,&quot;Latvia&quot;:true,&quot;Turkey&quot;:true,&quot;Azerbaijan&quot;:true,&quot;Italy&quot;:true,&quot;Armenia&quot;:true,&quot;United Arab Emirates&quot;:true,&quot;Cyprus&quot;:true},&quot;country_list&quot;:{&quot;JP&quot;:&quot;Japan&quot;,&quot;NL&quot;:&quot;Netherlands&quot;,&quot;US&quot;:&quot;United States&quot;,&quot;BR&quot;:&quot;Brazil&quot;,&quot;DE&quot;:&quot;Germany&quot;,&quot;IN&quot;:&quot;India&quot;,&quot;CA&quot;:&quot;Canada&quot;,&quot;GB&quot;:&quot;United Kingdom&quot;,&quot;AU&quot;:&quot;Australia&quot;,&quot;SE&quot;:&quot;Sweden&quot;,&quot;SG&quot;:&quot;Singapore&quot;,&quot;IE&quot;:&quot;Ireland&quot;,&quot;ES&quot;:&quot;Spain&quot;,&quot;HK&quot;:&quot;Hong Kong&quot;,&quot;DK&quot;:&quot;Denmark&quot;,&quot;FR&quot;:&quot;France&quot;,&quot;ZA&quot;:&quot;South Africa&quot;,&quot;KR&quot;:&quot;South Korea&quot;,&quot;TW&quot;:&quot;Taiwan&quot;,&quot;PR&quot;:&quot;Puerto Rico&quot;,&quot;CO&quot;:&quot;Colombia&quot;,&quot;MO&quot;:&quot;Macao&quot;,&quot;GT&quot;:&quot;Guatemala&quot;,&quot;HN&quot;:&quot;Honduras&quot;,&quot;AR&quot;:&quot;Argentina&quot;,&quot;PY&quot;:&quot;Paraguay&quot;,&quot;RO&quot;:&quot;Romania&quot;,&quot;PE&quot;:&quot;Peru&quot;,&quot;CL&quot;:&quot;Chile&quot;,&quot;FI&quot;:&quot;Finland&quot;,&quot;NZ&quot;:&quot;New Zealand&quot;,&quot;PL&quot;:&quot;Poland&quot;,&quot;CH&quot;:&quot;Switzerland&quot;,&quot;BB&quot;:&quot;Barbados&quot;,&quot;UA&quot;:&quot;Ukraine&quot;,&quot;LT&quot;:&quot;Lithuania&quot;,&quot;RU&quot;:&quot;Russia&quot;,&quot;NO&quot;:&quot;Norway&quot;,&quot;BE&quot;:&quot;Belgium&quot;,&quot;HU&quot;:&quot;Hungary&quot;,&quot;JM&quot;:&quot;Jamaica&quot;,&quot;DO&quot;:&quot;Dominican Republic&quot;,&quot;AT&quot;:&quot;Austria&quot;,&quot;VE&quot;:&quot;Venezuela&quot;,&quot;CZ&quot;:&quot;Czechia&quot;,&quot;EC&quot;:&quot;Ecuador&quot;,&quot;UY&quot;:&quot;Uruguay&quot;,&quot;CR&quot;:&quot;Costa Rica&quot;,&quot;MX&quot;:&quot;Mexico&quot;,&quot;LU&quot;:&quot;Luxembourg&quot;,&quot;TT&quot;:&quot;Trinidad and Tobago&quot;,&quot;PA&quot;:&quot;Panama&quot;,&quot;CW&quot;:&quot;Curacao&quot;,&quot;KZ&quot;:&quot;Kazakhstan&quot;,&quot;BG&quot;:&quot;Bulgaria&quot;,&quot;PT&quot;:&quot;Portugal&quot;,&quot;IL&quot;:&quot;Israel&quot;,&quot;GU&quot;:&quot;Guam&quot;,&quot;VG&quot;:&quot;British Virgin Islands&quot;,&quot;MD&quot;:&quot;Moldova&quot;,&quot;VN&quot;:&quot;Vietnam&quot;,&quot;HR&quot;:&quot;Croatia&quot;,&quot;LV&quot;:&quot;Latvia&quot;,&quot;TR&quot;:&quot;Turkey&quot;,&quot;AZ&quot;:&quot;Azerbaijan&quot;,&quot;IT&quot;:&quot;Italy&quot;,&quot;AM&quot;:&quot;Armenia&quot;,&quot;AE&quot;:&quot;United Arab Emirates&quot;,&quot;CY&quot;:&quot;Cyprus&quot;},&quot;ip_counts&quot;:{&quot;total&quot;:8957,&quot;ipv4&quot;:6571,&quot;ipv6&quot;:2386},&quot;ip_networks&quot;:{&quot;amazon-aws&quot;:true,&quot;apple&quot;:true,&quot;linode&quot;:true,&quot;sfn&quot;:true,&quot;gthost&quot;:true,&quot;eastlink&quot;:true,&quot;cogeco&quot;:true,&quot;shaw-communications&quot;:true,&quot;google-cloud&quot;:true,&quot;datacamp&quot;:true,&quot;odido&quot;:true,&quot;kaopucloud&quot;:true,&quot;rain-za&quot;:true,&quot;tencent-cloud&quot;:true,&quot;vultr&quot;:true,&quot;m247&quot;:true,&quot;angola-cables&quot;:true,&quot;2degrees&quot;:true,&quot;talktalk&quot;:true,&quot;1-and-1&quot;:true,&quot;telus&quot;:true,&quot;oracle-cloud&quot;:true,&quot;astound&quot;:true,&quot;digitalocean&quot;:true,&quot;xplornet&quot;:true,&quot;nocix&quot;:true,&quot;cox&quot;:true,&quot;rogers&quot;:true,&quot;beanfield&quot;:true,&quot;teksavvy&quot;:true,&quot;vodafone&quot;:true,&quot;digi&quot;:true,&quot;core-backbone&quot;:true,&quot;altibox&quot;:true,&quot;proximus&quot;:true,&quot;ionos&quot;:true,&quot;bite-lietuva&quot;:true,&quot;wilhelm&quot;:true,&quot;velia&quot;:true,&quot;cherry-servers&quot;:true,&quot;three&quot;:true,&quot;zenlayer&quot;:true,&quot;edge-connect&quot;:true,&quot;iaoa&quot;:true,&quot;mercury&quot;:true,&quot;digicel&quot;:true,&quot;vodacom&quot;:true,&quot;google-fiber&quot;:true,&quot;orange&quot;:true,&quot;ohioix&quot;:true,&quot;ovhcloud&quot;:true,&quot;aussie-broadband&quot;:true,&quot;dimension-data&quot;:true,&quot;afrihost&quot;:true,&quot;ebox&quot;:true,&quot;aire-networks&quot;:true,&quot;ufinet&quot;:true,&quot;altice-europe&quot;:true,&quot;china-mobile&quot;:true,&quot;viasat&quot;:true,&quot;gigahost&quot;:true,&quot;totalplay&quot;:true,&quot;hostpapa&quot;:true,&quot;swisscom&quot;:true,&quot;telenor&quot;:true,&quot;rakuten-mobile&quot;:true,&quot;nos&quot;:true,&quot;exatel&quot;:true,&quot;mtn&quot;:true,&quot;edgeuno&quot;:true,&quot;cabase&quot;:true,&quot;claro&quot;:true,&quot;flo-networks&quot;:true,&quot;c-and-w&quot;:true,&quot;superloop&quot;:true,&quot;edgeix&quot;:true,&quot;starhub&quot;:true,&quot;vocus&quot;:true,&quot;taiwan-mobile&quot;:true,&quot;canada-government&quot;:true,&quot;t-mobile&quot;:true,&quot;arelion&quot;:true,&quot;dna&quot;:true,&quot;altafiber&quot;:true,&quot;melbicom&quot;:true,&quot;spark&quot;:true,&quot;vnpt&quot;:true,&quot;contabo&quot;:true,&quot;hivelocity&quot;:true,&quot;upcloud&quot;:true,&quot;hetzner&quot;:true,&quot;nano-it&quot;:true,&quot;netcup&quot;:true,&quot;g-core-labs&quot;:true,&quot;itldc&quot;:true,&quot;clouvider&quot;:true,&quot;oneprovider&quot;:true},&quot;ip_asn_routes&quot;:{&quot;3.112.0.0\/14&quot;:true,&quot;5.35.47.0\/24&quot;:true,&quot;5.35.70.0\/24&quot;:true,&quot;17.253.0.0\/23&quot;:true,&quot;17.253.2.0\/23&quot;:true,&quot;17.253.4.0\/23&quot;:true,&quot;17.253.6.0\/23&quot;:true,&quot;17.253.8.0\/23&quot;:true,&quot;17.253.10.0\/24&quot;:true,&quot;17.253.11.0\/24&quot;:true,&quot;17.253.12.0\/23&quot;:true,&quot;17.253.14.0\/23&quot;:true,&quot;17.253.16.0\/23&quot;:true,&quot;17.253.18.0\/24&quot;:true,&quot;17.253.20.0\/23&quot;:true,&quot;17.253.22.0\/23&quot;:true,&quot;17.253.24.0\/24&quot;:true,&quot;17.253.26.0\/23&quot;:true,&quot;17.253.28.0\/23&quot;:true,&quot;17.253.30.0\/23&quot;:true,&quot;17.253.34.0\/24&quot;:true,&quot;17.253.36.0\/23&quot;:true,&quot;17.253.38.0\/23&quot;:true,&quot;17.253.40.0\/21&quot;:true,&quot;17.253.48.0\/23&quot;:true,&quot;17.253.52.0\/23&quot;:true,&quot;17.253.54.0\/24&quot;:true,&quot;17.253.56.0\/23&quot;:true,&quot;17.253.58.0\/23&quot;:true,&quot;17.253.60.0\/23&quot;:true,&quot;17.253.62.0\/23&quot;:true,&quot;17.253.64.0\/23&quot;:true,&quot;17.253.66.0\/23&quot;:true,&quot;17.253.68.0\/23&quot;:true,&quot;17.253.70.0\/23&quot;:true,&quot;17.253.72.0\/23&quot;:true,&quot;17.253.74.0\/23&quot;:true,&quot;17.253.76.0\/23&quot;:true,&quot;17.253.78.0\/23&quot;:true,&quot;17.253.82.0\/23&quot;:true,&quot;17.253.84.0\/23&quot;:true,&quot;17.253.86.0\/23&quot;:true,&quot;17.253.88.0\/22&quot;:true,&quot;17.253.96.0\/23&quot;:true,&quot;17.253.98.0\/23&quot;:true,&quot;17.253.104.0\/23&quot;:true,&quot;17.253.106.0\/23&quot;:true,&quot;17.253.108.0\/23&quot;:true,&quot;17.253.111.0\/24&quot;:true,&quot;17.253.112.0\/23&quot;:true,&quot;17.253.114.0\/23&quot;:true,&quot;17.253.116.0\/23&quot;:true,&quot;17.253.118.0\/24&quot;:true,&quot;17.253.119.0\/24&quot;:true,&quot;17.253.120.0\/24&quot;:true,&quot;17.253.121.0\/24&quot;:true,&quot;17.253.122.0\/24&quot;:true,&quot;17.253.124.0\/23&quot;:true,&quot;17.253.126.0\/23&quot;:true,&quot;17.253.144.0\/24&quot;:true,&quot;17.253.145.0\/24&quot;:true,&quot;17.253.150.0\/24&quot;:true,&quot;17.253.192.0\/24&quot;:true,&quot;17.253.197.0\/24&quot;:true,&quot;17.253.251.0\/24&quot;:true,&quot;17.253.254.0\/24&quot;:true,&quot;23.92.16.0\/21&quot;:true,&quot;23.142.48.0\/24&quot;:true,&quot;23.143.152.0\/24&quot;:true,&quot;23.162.200.0\/24&quot;:true,&quot;24.101.64.0\/19&quot;:true,&quot;24.119.158.0\/24&quot;:true,&quot;24.124.3.0\/24&quot;:true,&quot;24.143.8.0\/24&quot;:true,&quot;24.224.128.0\/20&quot;:true,&quot;24.226.0.0\/17&quot;:true,&quot;24.244.8.0\/21&quot;:true,&quot;24.244.24.0\/21&quot;:true,&quot;24.244.32.0\/21&quot;:true,&quot;24.244.40.0\/21&quot;:true,&quot;31.172.0.0\/18&quot;:true,&quot;35.212.128.0\/17&quot;:true,&quot;37.19.200.0\/24&quot;:true,&quot;37.143.80.0\/21&quot;:true,&quot;37.203.32.0\/23&quot;:true,&quot;38.54.57.0\/24&quot;:true,&quot;38.109.228.0\/24&quot;:true,&quot;38.110.1.0\/24&quot;:true,&quot;38.114.122.0\/24&quot;:true,&quot;38.158.216.0\/21&quot;:true,&quot;38.188.255.0\/24&quot;:true,&quot;38.199.81.0\/24&quot;:true,&quot;41.73.36.0\/22&quot;:true,&quot;41.73.40.0\/22&quot;:true,&quot;41.193.164.0\/23&quot;:true,&quot;43.130.32.0\/20&quot;:true,&quot;45.32.32.0\/19&quot;:true,&quot;45.64.22.0\/23&quot;:true,&quot;45.68.4.0\/24&quot;:true,&quot;45.68.35.0\/24&quot;:true,&quot;45.68.47.0\/24&quot;:true,&quot;45.68.48.0\/22&quot;:true,&quot;45.68.52.0\/24&quot;:true,&quot;45.133.18.0\/24&quot;:true,&quot;45.136.199.0\/24&quot;:true,&quot;45.143.166.0\/23&quot;:true,&quot;45.183.45.0\/24&quot;:true,&quot;45.192.241.0\/24&quot;:true,&quot;45.225.190.0\/23&quot;:true,&quot;45.232.33.0\/24&quot;:true,&quot;46.137.224.0\/19&quot;:true,&quot;46.226.162.0\/23&quot;:true,&quot;46.226.164.0\/23&quot;:true,&quot;46.227.144.0\/21&quot;:true,&quot;50.86.96.0\/20&quot;:true,&quot;52.52.0.0\/15&quot;:true,&quot;52.76.128.0\/17&quot;:true,&quot;60.234.80.0\/23&quot;:true,&quot;61.58.64.0\/23&quot;:true,&quot;62.24.128.0\/18&quot;:true,&quot;62.24.192.0\/18&quot;:true,&quot;62.45.0.0\/16&quot;:true,&quot;62.181.160.0\/19&quot;:true,&quot;62.204.96.0\/19&quot;:true,&quot;62.206.0.0\/16&quot;:true,&quot;62.214.0.0\/17&quot;:true,&quot;62.245.128.0\/17&quot;:true,&quot;64.114.240.0\/21&quot;:true,&quot;64.181.224.0\/19&quot;:true,&quot;64.255.160.0\/19&quot;:true,&quot;65.48.198.0\/23&quot;:true,&quot;65.50.216.0\/21&quot;:true,&quot;65.87.224.0\/19&quot;:true,&quot;66.42.32.0\/20&quot;:true,&quot;66.42.80.0\/20&quot;:true,&quot;66.60.128.0\/21&quot;:true,&quot;66.90.132.0\/22&quot;:true,&quot;66.128.170.0\/24&quot;:true,&quot;66.223.128.0\/18&quot;:true,&quot;66.253.182.0\/23&quot;:true,&quot;67.60.202.0\/24&quot;:true,&quot;67.220.66.0\/24&quot;:true,&quot;67.220.95.0\/24&quot;:true,&quot;68.183.32.0\/20&quot;:true,&quot;69.168.128.0\/20&quot;:true,&quot;69.168.185.0\/24&quot;:true,&quot;69.197.136.0\/22&quot;:true,&quot;70.109.170.0\/23&quot;:true,&quot;70.186.0.0\/20&quot;:true,&quot;70.186.24.0\/21&quot;:true,&quot;72.46.48.0\/21&quot;:true,&quot;72.136.192.0\/23&quot;:true,&quot;72.136.224.0\/19&quot;:true,&quot;72.234.0.0\/16&quot;:true,&quot;74.50.12.0\/24&quot;:true,&quot;74.211.96.0\/21&quot;:true,&quot;76.9.192.0\/19&quot;:true,&quot;76.10.160.0\/20&quot;:true,&quot;77.52.192.0\/18&quot;:true,&quot;77.75.144.0\/21&quot;:true,&quot;77.86.0.0\/17&quot;:true,&quot;77.95.69.0\/24&quot;:true,&quot;77.109.128.0\/19&quot;:true,&quot;77.241.192.0\/20&quot;:true,&quot;79.72.64.0\/19&quot;:true,&quot;79.116.0.0\/16&quot;:true,&quot;79.127.242.0\/23&quot;:true,&quot;79.127.248.0\/24&quot;:true,&quot;80.85.246.0\/24&quot;:true,&quot;80.251.208.0\/20&quot;:true,&quot;81.9.16.0\/21&quot;:true,&quot;81.27.250.0\/23&quot;:true,&quot;81.95.0.0\/20&quot;:true,&quot;81.167.32.0\/22&quot;:true,&quot;81.167.37.0\/24&quot;:true,&quot;81.173.128.0\/17&quot;:true,&quot;81.244.0.0\/16&quot;:true,&quot;82.78.0.0\/17&quot;:true,&quot;82.165.254.0\/24&quot;:true,&quot;82.223.0.0\/16&quot;:true,&quot;84.15.64.0\/19&quot;:true,&quot;84.17.37.0\/24&quot;:true,&quot;84.17.40.0\/24&quot;:true,&quot;84.17.41.0\/24&quot;:true,&quot;84.17.62.0\/24&quot;:true,&quot;84.46.0.0\/17&quot;:true,&quot;87.239.26.0\/23&quot;:true,&quot;88.209.219.0\/24&quot;:true,&quot;88.218.79.0\/24&quot;:true,&quot;89.27.192.0\/18&quot;:true,&quot;89.124.100.0\/24&quot;:true,&quot;89.168.64.0\/18&quot;:true,&quot;91.106.128.0\/18&quot;:true,&quot;91.196.33.0\/24&quot;:true,&quot;93.115.28.0\/24&quot;:true,&quot;93.115.29.0\/24&quot;:true,&quot;94.153.120.0\/21&quot;:true,&quot;94.156.116.0\/24&quot;:true,&quot;95.161.252.0\/24&quot;:true,&quot;95.181.173.0\/24&quot;:true,&quot;95.209.0.0\/16&quot;:true,&quot;96.18.43.0\/24&quot;:true,&quot;96.43.50.0\/24&quot;:true,&quot;97.75.160.0\/19&quot;:true,&quot;98.98.92.0\/22&quot;:true,&quot;102.222.100.0\/24&quot;:true,&quot;103.2.118.0\/24&quot;:true,&quot;103.2.136.0\/22&quot;:true,&quot;103.13.116.0\/24&quot;:true,&quot;103.40.104.0\/22&quot;:true,&quot;103.49.6.0\/24&quot;:true,&quot;103.203.84.0\/24&quot;:true,&quot;103.241.56.0\/22&quot;:true,&quot;104.218.144.0\/21&quot;:true,&quot;104.244.226.0\/24&quot;:true,&quot;105.255.0.0\/18&quot;:true,&quot;107.151.194.0\/24&quot;:true,&quot;107.188.128.0\/17&quot;:true,&quot;108.61.246.0\/23&quot;:true,&quot;109.98.0.0\/16&quot;:true,&quot;113.29.208.0\/21&quot;:true,&quot;119.31.191.0\/24&quot;:true,&quot;119.171.128.0\/17&quot;:true,&quot;124.217.187.0\/24&quot;:true,&quot;125.11.128.0\/18&quot;:true,&quot;125.11.192.0\/18&quot;:true,&quot;128.14.90.0\/24&quot;:true,&quot;131.72.209.0\/24&quot;:true,&quot;131.108.236.0\/22&quot;:true,&quot;131.242.32.0\/20&quot;:true,&quot;134.122.32.0\/20&quot;:true,&quot;134.195.207.0\/24&quot;:true,&quot;134.209.96.0\/20&quot;:true,&quot;136.228.96.0\/19&quot;:true,&quot;136.244.0.0\/19&quot;:true,&quot;139.84.192.0\/20&quot;:true,&quot;139.162.160.0\/19&quot;:true,&quot;139.178.196.0\/24&quot;:true,&quot;139.178.197.0\/24&quot;:true,&quot;139.178.198.0\/24&quot;:true,&quot;141.227.137.0\/24&quot;:true,&quot;141.227.156.0\/24&quot;:true,&quot;141.227.158.0\/24&quot;:true,&quot;142.93.128.0\/20&quot;:true,&quot;142.190.110.0\/23&quot;:true,&quot;143.20.165.0\/24&quot;:true,&quot;143.110.224.0\/20&quot;:true,&quot;144.6.0.0\/21&quot;:true,&quot;144.126.240.0\/22&quot;:true,&quot;144.202.0.0\/20&quot;:true,&quot;146.115.0.0\/17&quot;:true,&quot;146.190.112.0\/20&quot;:true,&quot;149.7.16.0\/24&quot;:true,&quot;149.34.251.0\/24&quot;:true,&quot;149.88.23.0\/24&quot;:true,&quot;150.109.80.0\/23&quot;:true,&quot;152.42.192.0\/19&quot;:true,&quot;152.230.192.0\/23&quot;:true,&quot;152.231.110.0\/24&quot;:true,&quot;154.0.8.0\/21&quot;:true,&quot;155.138.128.0\/19&quot;:true,&quot;155.138.240.0\/20&quot;:true,&quot;160.3.24.0\/24&quot;:true,&quot;161.33.224.0\/20&quot;:true,&quot;162.0.180.0\/22&quot;:true,&quot;162.39.0.0\/18&quot;:true,&quot;162.253.24.0\/22&quot;:true,&quot;163.192.0.0\/18&quot;:true,&quot;165.166.139.0\/24&quot;:true,&quot;165.227.224.0\/20&quot;:true,&quot;166.70.0.0\/16&quot;:true,&quot;167.71.0.0\/20&quot;:true,&quot;167.99.80.0\/20&quot;:true,&quot;167.172.32.0\/20&quot;:true,&quot;168.195.130.0\/24&quot;:true,&quot;168.210.4.0\/22&quot;:true,&quot;168.210.8.0\/22&quot;:true,&quot;168.232.103.0\/24&quot;:true,&quot;169.0.0.0\/15&quot;:true,&quot;170.64.224.0\/20&quot;:true,&quot;172.93.16.0\/22&quot;:true,&quot;172.99.188.0\/24&quot;:true,&quot;172.104.128.0\/19&quot;:true,&quot;172.105.240.0\/22&quot;:true,&quot;172.233.0.0\/19&quot;:true,&quot;172.233.64.0\/19&quot;:true,&quot;172.234.80.0\/20&quot;:true,&quot;172.234.96.0\/19&quot;:true,&quot;172.236.160.0\/19&quot;:true,&quot;172.238.0.0\/19&quot;:true,&quot;172.238.96.0\/19&quot;:true,&quot;173.47.112.0\/24&quot;:true,&quot;176.56.96.0\/20&quot;:true,&quot;176.97.75.0\/24&quot;:true,&quot;177.36.180.0\/24&quot;:true,&quot;177.75.66.0\/24&quot;:true,&quot;177.234.202.0\/24&quot;:true,&quot;178.128.96.0\/20&quot;:true,&quot;178.210.56.0\/24&quot;:true,&quot;179.1.156.0\/24&quot;:true,&quot;179.1.158.0\/24&quot;:true,&quot;179.1.214.0\/24&quot;:true,&quot;179.31.52.0\/24&quot;:true,&quot;179.49.23.0\/24&quot;:true,&quot;181.36.186.0\/24&quot;:true,&quot;181.44.127.0\/24&quot;:true,&quot;181.78.59.0\/24&quot;:true,&quot;181.196.82.0\/24&quot;:true,&quot;182.239.125.0\/24&quot;:true,&quot;184.62.47.0\/24&quot;:true,&quot;184.105.28.0\/23&quot;:true,&quot;185.30.72.0\/24&quot;:true,&quot;185.42.244.0\/22&quot;:true,&quot;185.86.67.0\/24&quot;:true,&quot;185.103.101.0\/24&quot;:true,&quot;185.130.27.0\/24&quot;:true,&quot;185.148.114.0\/23&quot;:true,&quot;185.158.208.0\/24&quot;:true,&quot;185.181.60.0\/22&quot;:true,&quot;185.196.12.0\/24&quot;:true,&quot;186.15.250.0\/24&quot;:true,&quot;186.16.30.0\/24&quot;:true,&quot;186.66.224.0\/20&quot;:true,&quot;186.96.52.0\/24&quot;:true,&quot;186.96.146.0\/24&quot;:true,&quot;186.101.78.0\/23&quot;:true,&quot;187.19.160.0\/20&quot;:true,&quot;187.19.192.0\/20&quot;:true,&quot;187.72.64.0\/18&quot;:true,&quot;187.189.206.0\/24&quot;:true,&quot;187.191.12.0\/24&quot;:true,&quot;187.251.64.0\/24&quot;:true,&quot;188.93.173.0\/24&quot;:true,&quot;188.166.196.0\/22&quot;:true,&quot;188.166.208.0\/20&quot;:true,&quot;189.84.231.0\/24&quot;:true,&quot;189.127.17.0\/24&quot;:true,&quot;190.27.43.0\/24&quot;:true,&quot;190.83.160.0\/20&quot;:true,&quot;190.104.163.0\/24&quot;:true,&quot;190.113.97.0\/24&quot;:true,&quot;190.210.140.0\/24&quot;:true,&quot;190.218.152.0\/24&quot;:true,&quot;190.242.191.0\/24&quot;:true,&quot;192.3.150.0\/24&quot;:true,&quot;192.73.220.0\/24&quot;:true,&quot;192.122.184.0\/21&quot;:true,&quot;192.129.155.0\/24&quot;:true,&quot;192.184.128.0\/18&quot;:true,&quot;193.5.6.0\/23&quot;:true,&quot;193.39.68.0\/24&quot;:true,&quot;193.57.46.0\/24&quot;:true,&quot;193.57.47.0\/24&quot;:true,&quot;193.212.0.0\/14&quot;:true,&quot;193.233.233.0\/24&quot;:true,&quot;194.9.25.0\/24&quot;:true,&quot;194.55.169.0\/24&quot;:true,&quot;194.193.64.0\/19&quot;:true,&quot;194.223.224.0\/19&quot;:true,&quot;195.23.0.0\/16&quot;:true,&quot;195.136.71.0\/24&quot;:true,&quot;195.211.24.0\/24&quot;:true,&quot;195.234.113.0\/24&quot;:true,&quot;196.44.8.0\/21&quot;:true,&quot;198.105.124.0\/24&quot;:true,&quot;198.189.164.0\/22&quot;:true,&quot;198.245.96.0\/21&quot;:true,&quot;199.45.192.0\/19&quot;:true,&quot;200.10.177.0\/24&quot;:true,&quot;200.25.8.0\/24&quot;:true,&quot;200.25.32.0\/22&quot;:true,&quot;200.25.72.0\/24&quot;:true,&quot;200.25.88.0\/24&quot;:true,&quot;200.25.91.0\/24&quot;:true,&quot;200.25.97.0\/24&quot;:true,&quot;200.49.191.0\/24&quot;:true,&quot;200.73.124.0\/24&quot;:true,&quot;200.103.224.0\/20&quot;:true,&quot;200.115.95.0\/24&quot;:true,&quot;200.166.0.0\/16&quot;:true,&quot;200.192.104.0\/24&quot;:true,&quot;200.195.144.0\/21&quot;:true,&quot;200.208.0.0\/16&quot;:true,&quot;200.211.0.0\/16&quot;:true,&quot;200.213.0.0\/16&quot;:true,&quot;200.248.0.0\/16&quot;:true,&quot;200.250.0.0\/16&quot;:true,&quot;200.251.0.0\/16&quot;:true,&quot;200.252.0.0\/16&quot;:true,&quot;201.6.48.0\/21&quot;:true,&quot;201.17.46.0\/23&quot;:true,&quot;201.72.0.0\/16&quot;:true,&quot;201.174.170.0\/24&quot;:true,&quot;201.174.220.0\/24&quot;:true,&quot;201.174.228.0\/24&quot;:true,&quot;201.191.214.0\/24&quot;:true,&quot;201.224.48.0\/21&quot;:true,&quot;202.86.119.0\/24&quot;:true,&quot;202.128.74.0\/23&quot;:true,&quot;202.142.224.0\/19&quot;:true,&quot;202.224.32.0\/19&quot;:true,&quot;203.26.79.0\/24&quot;:true,&quot;203.76.191.0\/24&quot;:true,&quot;203.78.37.0\/24&quot;:true,&quot;203.117.80.0\/20&quot;:true,&quot;203.117.128.0\/20&quot;:true,&quot;203.133.12.0\/22&quot;:true,&quot;203.134.0.0\/17&quot;:true,&quot;203.185.40.0\/21&quot;:true,&quot;203.211.5.0\/24&quot;:true,&quot;204.17.140.0\/24&quot;:true,&quot;204.29.12.0\/22&quot;:true,&quot;204.111.16.0\/20&quot;:true,&quot;205.120.0.0\/13&quot;:true,&quot;205.213.96.0\/19&quot;:true,&quot;205.237.36.0\/22&quot;:true,&quot;206.81.16.0\/20&quot;:true,&quot;206.167.212.0\/24&quot;:true,&quot;206.188.224.0\/19&quot;:true,&quot;206.214.27.0\/24&quot;:true,&quot;207.38.128.0\/18&quot;:true,&quot;207.70.170.0\/23&quot;:true,&quot;207.172.0.0\/18&quot;:true,&quot;207.181.192.0\/18&quot;:true,&quot;207.204.104.0\/21&quot;:true,&quot;207.246.96.0\/20&quot;:true,&quot;208.52.60.0\/22&quot;:true,&quot;208.54.0.0\/24&quot;:true,&quot;208.54.24.0\/21&quot;:true,&quot;208.54.56.0\/21&quot;:true,&quot;208.73.136.0\/22&quot;:true,&quot;208.104.115.0\/24&quot;:true,&quot;209.38.96.0\/20&quot;:true,&quot;209.89.64.0\/21&quot;:true,&quot;209.97.160.0\/20&quot;:true,&quot;209.143.0.0\/21&quot;:true,&quot;209.170.64.0\/18&quot;:true,&quot;211.77.54.0\/24&quot;:true,&quot;212.10.0.0\/16&quot;:true,&quot;212.50.128.0\/19&quot;:true,&quot;213.178.64.0\/19&quot;:true,&quot;213.186.25.0\/24&quot;:true,&quot;216.15.0.0\/17&quot;:true,&quot;216.17.16.0\/20&quot;:true,&quot;216.26.96.0\/19&quot;:true,&quot;216.68.96.0\/19&quot;:true,&quot;216.99.124.0\/23&quot;:true,&quot;216.106.185.0\/24&quot;:true,&quot;216.152.168.0\/22&quot;:true,&quot;216.167.224.0\/19&quot;:true,&quot;216.177.160.0\/19&quot;:true,&quot;216.250.96.0\/24&quot;:true,&quot;217.30.8.0\/22&quot;:true,&quot;218.219.160.0\/19&quot;:true,&quot;222.153.208.0\/21&quot;:true,&quot;2001:4e0::\/36&quot;:true,&quot;2001:4e8::\/32&quot;:true,&quot;2001:510:c010::\/48&quot;:true,&quot;2001:569::\/45&quot;:true,&quot;2001:56a:2::\/48&quot;:true,&quot;2001:56a:8000::\/45&quot;:true,&quot;2001:578:20::\/43&quot;:true,&quot;2001:5a8:600::\/39&quot;:true,&quot;2001:678:6d4::\/48&quot;:true,&quot;2001:7e0::\/32&quot;:true,&quot;2001:918:ff60::\/46&quot;:true,&quot;2001:a60::\/29&quot;:true,&quot;2001:c28::\/32&quot;:true,&quot;2001:d58::\/32&quot;:true,&quot;2001:df1:9780::\/48&quot;:true,&quot;2001:ee0:37c::\/46&quot;:true,&quot;2001:f90:800::\/37&quot;:true,&quot;2001:ff0::\/37&quot;:true,&quot;2001:ff0:8000::\/37&quot;:true,&quot;2001:ff0:8800::\/37&quot;:true,&quot;2001:1284:f800::\/37&quot;:true,&quot;2001:1291::\/40&quot;:true,&quot;2001:1330::\/30&quot;:true,&quot;2001:13c7:600a::\/48&quot;:true,&quot;2001:13c7:600e::\/48&quot;:true,&quot;2001:1438::\/33&quot;:true,&quot;2001:14b8::\/29&quot;:true,&quot;2001:1620:2080::\/41&quot;:true,&quot;2001:18c0::\/32&quot;:true,&quot;2001:1948::\/32&quot;:true,&quot;2001:1970::\/32&quot;:true,&quot;2001:19f0::\/38&quot;:true,&quot;2001:19f0:4400::\/38&quot;:true,&quot;2001:19f0:6800::\/38&quot;:true,&quot;2001:19f0:7000::\/38&quot;:true,&quot;2001:19f0:7400::\/38&quot;:true,&quot;2001:19f0:b000::\/38&quot;:true,&quot;2001:19f0:b400::\/38&quot;:true,&quot;2001:19f0:b800::\/38&quot;:true,&quot;2001:1a68:1c::\/46&quot;:true,&quot;2001:1a68:38::\/45&quot;:true,&quot;2001:1a80::\/29&quot;:true,&quot;2001:1a88::\/29&quot;:true,&quot;2001:1ab8::\/32&quot;:true,&quot;2001:2030::\/33&quot;:true,&quot;2001:41b0:200::\/39&quot;:true,&quot;2001:41d0::\/33&quot;:true,&quot;2001:41d0:ab01::\/48&quot;:true,&quot;2001:41d0:ab02::\/48&quot;:true,&quot;2001:41d0:ab03::\/48&quot;:true,&quot;2001:41d0:ab04::\/48&quot;:true,&quot;2001:41d0:ab05::\/48&quot;:true,&quot;2001:41d0:ab0a::\/48&quot;:true,&quot;2001:4218::\/32&quot;:true,&quot;2001:43e8::\/32&quot;:true,&quot;2001:4546:1000::\/48&quot;:true,&quot;2001:4600::\/24&quot;:true,&quot;2001:4858::\/33&quot;:true,&quot;2001:48a8:68fc::\/48&quot;:true,&quot;2001:48f8::\/48&quot;:true,&quot;2001:4c38::\/29&quot;:true,&quot;2001:4dd0::\/32&quot;:true,&quot;2400:6180::\/48&quot;:true,&quot;2400:6180:10::\/48&quot;:true,&quot;2400:8901::\/32&quot;:true,&quot;2400:8902::\/32&quot;:true,&quot;2400:d320::\/32&quot;:true,&quot;2400:d321::\/32&quot;:true,&quot;2401:b60:5::\/48&quot;:true,&quot;2401:7000::\/46&quot;:true,&quot;2401:c080:1800::\/38&quot;:true,&quot;2401:c080:1c00::\/38&quot;:true,&quot;2401:d000::\/28&quot;:true,&quot;2401:e180::\/34&quot;:true,&quot;2402:1f00:8000::\/40&quot;:true,&quot;2402:6b00::\/32&quot;:true,&quot;2402:9200:10::\/45&quot;:true,&quot;2403:300:a04::\/48&quot;:true,&quot;2403:300:a05::\/48&quot;:true,&quot;2403:300:a08::\/48&quot;:true,&quot;2403:300:a0a::\/48&quot;:true,&quot;2403:300:a0c::\/48&quot;:true,&quot;2403:300:a0e::\/48&quot;:true,&quot;2403:300:a14::\/48&quot;:true,&quot;2403:300:a16::\/48&quot;:true,&quot;2403:300:a26::\/48&quot;:true,&quot;2403:300:a30::\/48&quot;:true,&quot;2403:300:a32::\/48&quot;:true,&quot;2403:300:a33::\/48&quot;:true,&quot;2403:4800:2000::\/35&quot;:true,&quot;2403:5800:1000::\/36&quot;:true,&quot;2404:4408::\/34&quot;:true,&quot;2404:54c0::\/32&quot;:true,&quot;2404:9400:1::\/48&quot;:true,&quot;2404:9400:2::\/48&quot;:true,&quot;2404:9400:3::\/48&quot;:true,&quot;2404:9400:4::\/48&quot;:true,&quot;2404:9400:6::\/48&quot;:true,&quot;2405:7000::\/38&quot;:true,&quot;2405:7e00:1000::\/36&quot;:true,&quot;2405:9200:1100::\/48&quot;:true,&quot;2405:f980::\/48&quot;:true,&quot;2406:3000:c::\/48&quot;:true,&quot;2406:3c00::\/32&quot;:true,&quot;2406:5a00::\/32&quot;:true,&quot;2407:3640::\/32&quot;:true,&quot;2407:b400::\/32&quot;:true,&quot;2407:c800::\/32&quot;:true,&quot;2407:d140:1000::\/36&quot;:true,&quot;240b:c000::\/24&quot;:true,&quot;2600:2101::\/32&quot;:true,&quot;2600:2108:4000::\/34&quot;:true,&quot;2600:3c00::\/32&quot;:true,&quot;2600:3c02::\/32&quot;:true,&quot;2600:3c03::\/32&quot;:true,&quot;2600:3c04::\/32&quot;:true,&quot;2600:3c07::\/32&quot;:true,&quot;2600:3c09::\/32&quot;:true,&quot;2600:3c0d::\/32&quot;:true,&quot;2600:3c0e::\/32&quot;:true,&quot;2600:3c13::\/32&quot;:true,&quot;2600:3c14::\/32&quot;:true,&quot;2600:3c15::\/32&quot;:true,&quot;2600:6801::\/35&quot;:true,&quot;2600:7400::\/32&quot;:true,&quot;2602:faaa::\/36&quot;:true,&quot;2602:ff99:5::\/48&quot;:true,&quot;2603:d0a0::\/31&quot;:true,&quot;2604:2900::\/32&quot;:true,&quot;2604:4500:6::\/48&quot;:true,&quot;2604:4500:8::\/48&quot;:true,&quot;2604:4500:9::\/48&quot;:true,&quot;2604:9f00::\/28&quot;:true,&quot;2604:a880:2::\/48&quot;:true,&quot;2604:a880:400::\/48&quot;:true,&quot;2604:a880:cad::\/48&quot;:true,&quot;2604:b000:b000::\/36&quot;:true,&quot;2604:d600:cbc::\/46&quot;:true,&quot;2604:d600:1000::\/42&quot;:true,&quot;2604:e200::\/32&quot;:true,&quot;2604:fcc0:8000::\/37&quot;:true,&quot;2605:d00::\/32&quot;:true,&quot;2605:7200::\/33&quot;:true,&quot;2605:7380:8000::\/34&quot;:true,&quot;2605:9480:3000::\/40&quot;:true,&quot;2605:a140::\/32&quot;:true,&quot;2605:a141::\/32&quot;:true,&quot;2605:a200:2000::\/36&quot;:true,&quot;2605:d000::\/32&quot;:true,&quot;2606:400:8000::\/33&quot;:true,&quot;2606:65c0:20::\/48&quot;:true,&quot;2606:65c0:40::\/48&quot;:true,&quot;2606:6d00::\/44&quot;:true,&quot;2606:8c00::\/48&quot;:true,&quot;2606:8c00:2::\/48&quot;:true,&quot;2606:9300::\/32&quot;:true,&quot;2606:e2c0::\/32&quot;:true,&quot;2607:e400:1000::\/36&quot;:true,&quot;2607:f0c8::\/32&quot;:true,&quot;2607:f130::\/33&quot;:true,&quot;2607:f280::\/33&quot;:true,&quot;2607:f500::\/32&quot;:true,&quot;2607:f750:8000::\/40&quot;:true,&quot;2607:f798:800::\/37&quot;:true,&quot;2607:f920::\/32&quot;:true,&quot;2607:fa10::\/32&quot;:true,&quot;2607:fa18::\/32&quot;:true,&quot;2607:fa98::\/36&quot;:true,&quot;2607:fa98:1000::\/36&quot;:true,&quot;2607:fa98:3000::\/36&quot;:true,&quot;2607:fa98:4000::\/36&quot;:true,&quot;2607:fa98:6000::\/36&quot;:true,&quot;2607:fb00:30::\/45&quot;:true,&quot;2607:fb90:c100::\/43&quot;:true,&quot;2607:fb90:c120::\/44&quot;:true,&quot;2607:fb90:c130::\/45&quot;:true,&quot;2607:fb90:c140::\/42&quot;:true,&quot;2607:fbd8::\/32&quot;:true,&quot;2607:fc68::\/46&quot;:true,&quot;2610:80::\/35&quot;:true,&quot;2610:170::\/32&quot;:true,&quot;2620:13e:3000::\/40&quot;:true,&quot;2620:149:a00::\/48&quot;:true,&quot;2620:149:a06::\/48&quot;:true,&quot;2620:149:a08::\/48&quot;:true,&quot;2620:149:a09::\/48&quot;:true,&quot;2620:149:a0a::\/48&quot;:true,&quot;2620:149:a0c::\/48&quot;:true,&quot;2620:149:a0d::\/48&quot;:true,&quot;2620:149:a0e::\/48&quot;:true,&quot;2620:149:a0f::\/48&quot;:true,&quot;2620:149:a10::\/48&quot;:true,&quot;2620:149:a15::\/48&quot;:true,&quot;2620:149:a16::\/48&quot;:true,&quot;2620:149:a18::\/48&quot;:true,&quot;2620:149:a1e::\/48&quot;:true,&quot;2620:149:a20::\/47&quot;:true,&quot;2620:149:a23::\/48&quot;:true,&quot;2620:149:a25::\/48&quot;:true,&quot;2620:149:a28::\/48&quot;:true,&quot;2620:149:a29::\/48&quot;:true,&quot;2620:149:a32::\/48&quot;:true,&quot;2620:149:a33::\/48&quot;:true,&quot;2620:149:af0::\/48&quot;:true,&quot;2620:149:af1::\/48&quot;:true,&quot;2620:149:af6::\/48&quot;:true,&quot;2800:40::\/44&quot;:true,&quot;2800:a0::\/31&quot;:true,&quot;2800:1e0:a02::\/48&quot;:true,&quot;2800:1e0:1020::\/44&quot;:true,&quot;2800:1e0:1030::\/44&quot;:true,&quot;2800:1e0:1070::\/48&quot;:true,&quot;2800:26f::\/32&quot;:true,&quot;2800:2a0:1100::\/46&quot;:true,&quot;2800:300::\/34&quot;:true,&quot;2800:350:110::\/44&quot;:true,&quot;2800:370:1200::\/48&quot;:true,&quot;2800:3a0:10::\/44&quot;:true,&quot;2800:5f0:801::\/48&quot;:true,&quot;2800:810:20a::\/47&quot;:true,&quot;2800:810:20c::\/46&quot;:true,&quot;2800:b10::\/48&quot;:true,&quot;2800:e00::\/36&quot;:true,&quot;2801:12:e800::\/48&quot;:true,&quot;2801:1d:a001::\/48&quot;:true,&quot;2801:80:1780::\/43&quot;:true,&quot;2801:135::\/48&quot;:true,&quot;2801:145::\/40&quot;:true,&quot;2803:2540:f::\/48&quot;:true,&quot;2803:2a01:9803::\/48&quot;:true,&quot;2803:3b80:c020::\/48&quot;:true,&quot;2803:6000::\/32&quot;:true,&quot;2803:6de0::\/32&quot;:true,&quot;2803:7450:ba01::\/48&quot;:true,&quot;2803:c180::\/35&quot;:true,&quot;2803:c800::\/34&quot;:true,&quot;2803:cd60:42::\/48&quot;:true,&quot;2803:e600:fb00::\/40&quot;:true,&quot;2803:e880:81c0::\/42&quot;:true,&quot;2804:74:8000::\/46&quot;:true,&quot;2804:a8::\/32&quot;:true,&quot;2804:14c:f8::\/45&quot;:true,&quot;2804:14d:5cf0::\/44&quot;:true,&quot;2804:30c::\/40&quot;:true,&quot;2804:3b0:8340::\/42&quot;:true,&quot;2804:29b8:1000::\/36&quot;:true,&quot;2804:3674::\/32&quot;:true,&quot;2804:428c:100::\/40&quot;:true,&quot;2806:202::\/32&quot;:true,&quot;2806:2f0:31::\/48&quot;:true,&quot;2806:2f0:52::\/48&quot;:true,&quot;2806:2f0:92::\/48&quot;:true,&quot;2a00:ff0:1234::\/48&quot;:true,&quot;2a00:1248::\/32&quot;:true,&quot;2a00:1440::\/32&quot;:true,&quot;2a00:1c28::\/31&quot;:true,&quot;2a00:1f40::\/29&quot;:true,&quot;2a00:4120:8008::\/45&quot;:true,&quot;2a00:8a84:2000::\/41&quot;:true,&quot;2a00:b700:5::\/48&quot;:true,&quot;2a00:f500::\/31&quot;:true,&quot;2a01:8:8000::\/44&quot;:true,&quot;2a01:270::\/32&quot;:true,&quot;2a01:4a0:8::\/47&quot;:true,&quot;2a01:4f8::\/32&quot;:true,&quot;2a01:4f9::\/32&quot;:true,&quot;2a01:798::\/29&quot;:true,&quot;2a01:7a7::\/32&quot;:true,&quot;2a01:7e02::\/32&quot;:true,&quot;2a01:7e04::\/32&quot;:true,&quot;2a01:a700::\/29&quot;:true,&quot;2a01:b740:a02::\/48&quot;:true,&quot;2a01:b740:a04::\/47&quot;:true,&quot;2a01:b740:a06::\/48&quot;:true,&quot;2a01:b740:a08::\/48&quot;:true,&quot;2a01:b740:a0a::\/48&quot;:true,&quot;2a01:b740:a0c::\/48&quot;:true,&quot;2a01:b740:a10::\/48&quot;:true,&quot;2a01:b740:a11::\/48&quot;:true,&quot;2a01:b740:a14::\/48&quot;:true,&quot;2a01:b740:a16::\/48&quot;:true,&quot;2a01:b740:a18::\/48&quot;:true,&quot;2a01:b740:a1a::\/47&quot;:true,&quot;2a01:b740:a1c::\/48&quot;:true,&quot;2a01:b740:a1e::\/48&quot;:true,&quot;2a01:b740:a20::\/48&quot;:true,&quot;2a01:b740:a22::\/48&quot;:true,&quot;2a01:b740:a24::\/48&quot;:true,&quot;2a01:b740:a26::\/48&quot;:true,&quot;2a01:b740:a27::\/48&quot;:true,&quot;2a01:b740:a30::\/48&quot;:true,&quot;2a01:b746:104::\/48&quot;:true,&quot;2a01:b746:105::\/48&quot;:true,&quot;2a01:b746:106::\/48&quot;:true,&quot;2a01:ecc0:3c0::\/42&quot;:true,&quot;2a01:ecc0:400::\/42&quot;:true,&quot;2a01:ecc0:480::\/42&quot;:true,&quot;2a01:ecc0:500::\/42&quot;:true,&quot;2a01:ecc0:540::\/42&quot;:true,&quot;2a01:ecc0:b00::\/42&quot;:true,&quot;2a01:ecc0:b40::\/42&quot;:true,&quot;2a01:ecc0:b80::\/42&quot;:true,&quot;2a02:fb8::\/32&quot;:true,&quot;2a02:2000::\/46&quot;:true,&quot;2a02:2028::\/32&quot;:true,&quot;2a02:2278:fffb::\/48&quot;:true,&quot;2a02:2278:ffff::\/48&quot;:true,&quot;2a02:2608::\/32&quot;:true,&quot;2a02:27aa::\/32&quot;:true,&quot;2a02:27ac::\/32&quot;:true,&quot;2a02:2f02::\/31&quot;:true,&quot;2a02:2f0c::\/31&quot;:true,&quot;2a02:7aa0:4000::\/48&quot;:true,&quot;2a02:7aa0:5000::\/48&quot;:true,&quot;2a02:a000::\/26&quot;:true,&quot;2a03:4000::\/32&quot;:true,&quot;2a03:5f80:b::\/48&quot;:true,&quot;2a03:7400::\/32&quot;:true,&quot;2a03:90c0:10::\/44&quot;:true,&quot;2a03:90c0:20::\/44&quot;:true,&quot;2a03:90c0:80::\/44&quot;:true,&quot;2a03:90c0:90::\/44&quot;:true,&quot;2a03:90c0:d0::\/44&quot;:true,&quot;2a03:90c0:130::\/44&quot;:true,&quot;2a03:90c0:140::\/44&quot;:true,&quot;2a03:90c0:160::\/44&quot;:true,&quot;2a03:90c0:180::\/44&quot;:true,&quot;2a03:90c0:190::\/44&quot;:true,&quot;2a03:90c0:1a0::\/44&quot;:true,&quot;2a03:90c0:1b0::\/44&quot;:true,&quot;2a03:90c0:1d0::\/44&quot;:true,&quot;2a03:90c0:240::\/44&quot;:true,&quot;2a03:90c0:270::\/44&quot;:true,&quot;2a03:90c0:290::\/44&quot;:true,&quot;2a03:90c0:370::\/44&quot;:true,&quot;2a03:90c0:390::\/44&quot;:true,&quot;2a03:90c0:420::\/44&quot;:true,&quot;2a03:90c0:4c0::\/44&quot;:true,&quot;2a03:90c0:510::\/44&quot;:true,&quot;2a03:90c0:5f0::\/44&quot;:true,&quot;2a03:94e0::\/32&quot;:true,&quot;2a03:b0c0:1::\/48&quot;:true,&quot;2a03:b0c0:2::\/48&quot;:true,&quot;2a03:b0c0:3::\/48&quot;:true,&quot;2a04:3540::\/32&quot;:true,&quot;2a04:3541:8000::\/34&quot;:true,&quot;2a04:3543::\/32&quot;:true,&quot;2a04:3544:8000::\/34&quot;:true,&quot;2a04:3545::\/34&quot;:true,&quot;2a04:3545:8000::\/34&quot;:true,&quot;2a04:5201:6::\/48&quot;:true,&quot;2a05:9404::\/32&quot;:true,&quot;2a05:9406::\/32&quot;:true,&quot;2a05:f480:1400::\/38&quot;:true,&quot;2a05:f480:2000::\/38&quot;:true,&quot;2a05:f480:2400::\/38&quot;:true,&quot;2a05:f480:2800::\/38&quot;:true,&quot;2a05:f480:2c00::\/38&quot;:true,&quot;2a05:f480:3000::\/38&quot;:true,&quot;2a05:f480:3400::\/38&quot;:true,&quot;2a06:f900::\/36&quot;:true,&quot;2a06:f900:4000::\/36&quot;:true,&quot;2a06:f901::\/36&quot;:true,&quot;2a06:f902::\/36&quot;:true,&quot;2a06:f902:4000::\/36&quot;:true,&quot;2a06:f903:4000::\/36&quot;:true,&quot;2a06:f904::\/36&quot;:true,&quot;2a06:f905::\/36&quot;:true,&quot;2a09:cd42::\/32&quot;:true,&quot;2a0a:8dc0::\/36&quot;:true,&quot;2a0a:8dc0:1000::\/36&quot;:true,&quot;2a0a:8dc0:2000::\/36&quot;:true,&quot;2a0a:8dc0:3000::\/36&quot;:true,&quot;2a0a:8dc0:4000::\/36&quot;:true,&quot;2a0a:8dc0:5000::\/36&quot;:true,&quot;2a0a:8dc0:7000::\/36&quot;:true,&quot;2a0a:8dc0:8000::\/36&quot;:true,&quot;2a0a:8dc0:9000::\/36&quot;:true,&quot;2a0a:8dc0:a000::\/36&quot;:true,&quot;2a0a:9300:1::\/48&quot;:true,&quot;2a0b:880:9::\/48&quot;:true,&quot;2a0c:5a80::\/29&quot;:true,&quot;2a0c:b9c1::\/32&quot;:true,&quot;2a0e:97c0:7d7::\/48&quot;:true,&quot;2a10:c800:1::\/48&quot;:true,&quot;2a10:f782::\/48&quot;:true,&quot;2a11:840:47::\/48&quot;:true,&quot;2a12:5e40::\/32&quot;:true,&quot;2a13:f780::\/29&quot;:true,&quot;2a14:2f40::\/32&quot;:true,&quot;2c0e:4010:a000::\/36&quot;:true,&quot;2c0e:4020:a000::\/36&quot;:true,&quot;2c0f:f4c0::\/32&quot;:true,&quot;2c0f:fd58::\/29&quot;:true,&quot;2c0f:ffd8::\/32&quot;:true},&quot;ip_asns&quot;:{&quot;AS16509&quot;:true,&quot;AS216071&quot;:true,&quot;AS714&quot;:true,&quot;AS6185&quot;:true,&quot;AS63949&quot;:true,&quot;AS397326&quot;:true,&quot;AS400798&quot;:true,&quot;AS62563&quot;:true,&quot;AS27364&quot;:true,&quot;AS11492&quot;:true,&quot;AS11232&quot;:true,&quot;AS35986&quot;:true,&quot;AS11260&quot;:true,&quot;AS7992&quot;:true,&quot;AS6327&quot;:true,&quot;AS50629&quot;:true,&quot;AS19527&quot;:true,&quot;AS212238&quot;:true,&quot;AS50266&quot;:true,&quot;AS12993&quot;:true,&quot;AS154177&quot;:true,&quot;AS63023&quot;:true,&quot;AS6208&quot;:true,&quot;AS271957&quot;:true,&quot;AS64146&quot;:true,&quot;AS37105&quot;:true,&quot;AS11845&quot;:true,&quot;AS132203&quot;:true,&quot;AS20473&quot;:true,&quot;AS4609&quot;:true,&quot;AS271885&quot;:true,&quot;AS64150&quot;:true,&quot;AS64112&quot;:true,&quot;AS273149&quot;:true,&quot;AS273165&quot;:true,&quot;AS208951&quot;:true,&quot;AS9009&quot;:true,&quot;AS62005&quot;:true,&quot;AS64116&quot;:true,&quot;AS401615&quot;:true,&quot;AS37468&quot;:true,&quot;AS52341&quot;:true,&quot;AS210644&quot;:true,&quot;AS56329&quot;:true,&quot;AS11272&quot;:true,&quot;AS9790&quot;:true,&quot;AS131596&quot;:true,&quot;AS13285&quot;:true,&quot;AS15435&quot;:true,&quot;AS12741&quot;:true,&quot;AS15600&quot;:true,&quot;AS20676&quot;:true,&quot;AS8881&quot;:true,&quot;AS8767&quot;:true,&quot;AS852&quot;:true,&quot;AS31898&quot;:true,&quot;AS395662&quot;:true,&quot;AS14813&quot;:true,&quot;AS11404&quot;:true,&quot;AS21804&quot;:true,&quot;AS14051&quot;:true,&quot;AS7459&quot;:true,&quot;AS13576&quot;:true,&quot;AS8047&quot;:true,&quot;AS23473&quot;:true,&quot;AS14061&quot;:true,&quot;AS22995&quot;:true,&quot;AS32097&quot;:true,&quot;AS13977&quot;:true,&quot;AS22773&quot;:true,&quot;AS15108&quot;:true,&quot;AS812&quot;:true,&quot;AS36149&quot;:true,&quot;AS209888&quot;:true,&quot;AS25820&quot;:true,&quot;AS21949&quot;:true,&quot;AS5645&quot;:true,&quot;AS21497&quot;:true,&quot;AS35297&quot;:true,&quot;AS12390&quot;:true,&quot;AS39801&quot;:true,&quot;AS13030&quot;:true,&quot;AS15440&quot;:true,&quot;AS57269&quot;:true,&quot;AS60068&quot;:true,&quot;AS3216&quot;:true,&quot;AS20764&quot;:true,&quot;AS201011&quot;:true,&quot;AS29695&quot;:true,&quot;AS8422&quot;:true,&quot;AS5432&quot;:true,&quot;AS8708&quot;:true,&quot;AS8560&quot;:true,&quot;AS13194&quot;:true,&quot;AS15943&quot;:true,&quot;AS35598&quot;:true,&quot;AS42864&quot;:true,&quot;AS29066&quot;:true,&quot;AS198930&quot;:true,&quot;AS207957&quot;:true,&quot;AS16125&quot;:true,&quot;AS15895&quot;:true,&quot;AS26383&quot;:true,&quot;AS50952&quot;:true,&quot;AS203273&quot;:true,&quot;AS44034&quot;:true,&quot;AS23404&quot;:true,&quot;AS13415&quot;:true,&quot;AS21859&quot;:true,&quot;AS328365&quot;:true,&quot;AS10084&quot;:true,&quot;AS9365&quot;:true,&quot;AS45177&quot;:true,&quot;AS9354&quot;:true,&quot;AS58507&quot;:true,&quot;AS197961&quot;:true,&quot;AS55850&quot;:true,&quot;AS30600&quot;:true,&quot;AS40786&quot;:true,&quot;AS36994&quot;:true,&quot;AS29752&quot;:true,&quot;AS16591&quot;:true,&quot;AS9050&quot;:true,&quot;AS45768&quot;:true,&quot;AS17408&quot;:true,&quot;AS9824&quot;:true,&quot;AS10118&quot;:true,&quot;AS27884&quot;:true,&quot;AS64126&quot;:true,&quot;AS9650&quot;:true,&quot;AS62866&quot;:true,&quot;AS53449&quot;:true,&quot;AS397412&quot;:true,&quot;AS31128&quot;:true,&quot;AS16276&quot;:true,&quot;AS13760&quot;:true,&quot;AS4764&quot;:true,&quot;AS6079&quot;:true,&quot;AS14259&quot;:true,&quot;AS27986&quot;:true,&quot;AS37680&quot;:true,&quot;AS31775&quot;:true,&quot;AS7029&quot;:true,&quot;AS62887&quot;:true,&quot;AS2711&quot;:true,&quot;AS6315&quot;:true,&quot;AS263702&quot;:true,&quot;AS20011&quot;:true,&quot;AS61461&quot;:true,&quot;AS37611&quot;:true,&quot;AS1403&quot;:true,&quot;AS29119&quot;:true,&quot;AS53062&quot;:true,&quot;AS53087&quot;:true,&quot;AS52468&quot;:true,&quot;AS43727&quot;:true,&quot;AS18678&quot;:true,&quot;AS6057&quot;:true,&quot;AS22724&quot;:true,&quot;AS28118&quot;:true,&quot;AS27747&quot;:true,&quot;AS28006&quot;:true,&quot;AS9231&quot;:true,&quot;AS7155&quot;:true,&quot;AS22890&quot;:true,&quot;AS11090&quot;:true,&quot;AS8821&quot;:true,&quot;AS41494&quot;:true,&quot;AS200845&quot;:true,&quot;AS61159&quot;:true,&quot;AS56655&quot;:true,&quot;AS20530&quot;:true,&quot;AS52228&quot;:true,&quot;AS23201&quot;:true,&quot;AS14522&quot;:true,&quot;AS22884&quot;:true,&quot;AS27947&quot;:true,&quot;AS28126&quot;:true,&quot;AS16735&quot;:true,&quot;AS28458&quot;:true,&quot;AS210834&quot;:true,&quot;AS28343&quot;:true,&quot;AS19429&quot;:true,&quot;AS27665&quot;:true,&quot;AS27895&quot;:true,&quot;AS52263&quot;:true,&quot;AS16814&quot;:true,&quot;AS18809&quot;:true,&quot;AS23520&quot;:true,&quot;AS36352&quot;:true,&quot;AS14333&quot;:true,&quot;AS237&quot;:true,&quot;AS46375&quot;:true,&quot;AS3303&quot;:true,&quot;AS208450&quot;:true,&quot;AS49559&quot;:true,&quot;AS2119&quot;:true,&quot;AS41406&quot;:true,&quot;AS138384&quot;:true,&quot;AS18081&quot;:true,&quot;AS1897&quot;:true,&quot;AS20804&quot;:true,&quot;AS206446&quot;:true,&quot;AS16637&quot;:true,&quot;AS207569&quot;:true,&quot;AS2152&quot;:true,&quot;AS14638&quot;:true,&quot;AS40237&quot;:true,&quot;AS263779&quot;:true,&quot;AS7195&quot;:true,&quot;AS23243&quot;:true,&quot;AS27901&quot;:true,&quot;AS8167&quot;:true,&quot;AS52376&quot;:true,&quot;AS4230&quot;:true,&quot;AS61580&quot;:true,&quot;AS14868&quot;:true,&quot;AS28573&quot;:true,&quot;AS32098&quot;:true,&quot;AS11830&quot;:true,&quot;AS11556&quot;:true,&quot;AS38195&quot;:true,&quot;AS3605&quot;:true,&quot;AS18126&quot;:true,&quot;AS4685&quot;:true,&quot;AS24305&quot;:true,&quot;AS133661&quot;:true,&quot;AS17924&quot;:true,&quot;AS4657&quot;:true,&quot;AS9416&quot;:true,&quot;AS9443&quot;:true,&quot;AS9269&quot;:true,&quot;AS9924&quot;:true,&quot;AS7782&quot;:true,&quot;AS11758&quot;:true,&quot;AS4922&quot;:true,&quot;AS210&quot;:true,&quot;AS2381&quot;:true,&quot;AS11290&quot;:true,&quot;AS376&quot;:true,&quot;AS16904&quot;:true,&quot;AS11139&quot;:true,&quot;AS6300&quot;:true,&quot;AS30689&quot;:true,&quot;AS21928&quot;:true,&quot;AS32425&quot;:true,&quot;AS14615&quot;:true,&quot;AS7106&quot;:true,&quot;AS1299&quot;:true,&quot;AS9674&quot;:true,&quot;AS39642&quot;:true,&quot;AS16086&quot;:true,&quot;AS13101&quot;:true,&quot;AS44306&quot;:true,&quot;AS10242&quot;:true,&quot;AS11796&quot;:true,&quot;AS6181&quot;:true,&quot;AS33749&quot;:true,&quot;AS11081&quot;:true,&quot;AS16527&quot;:true,&quot;AS63473&quot;:true,&quot;AS56630&quot;:true,&quot;AS17961&quot;:true,&quot;AS4771&quot;:true,&quot;AS200019&quot;:true,&quot;AS56150&quot;:true,&quot;AS135905&quot;:true,&quot;AS52374&quot;:true,&quot;AS15694&quot;:true,&quot;AS141995&quot;:true,&quot;AS61112&quot;:true,&quot;AS59364&quot;:true,&quot;AS133159&quot;:true,&quot;AS8849&quot;:true,&quot;AS29802&quot;:true,&quot;AS396055&quot;:true,&quot;AS25697&quot;:true,&quot;AS40021&quot;:true,&quot;AS33576&quot;:true,&quot;AS399804&quot;:true,&quot;AS35916&quot;:true,&quot;AS22439&quot;:true,&quot;AS267507&quot;:true,&quot;AS17072&quot;:true,&quot;AS51659&quot;:true,&quot;AS2860&quot;:true,&quot;AS41075&quot;:true,&quot;AS24940&quot;:true,&quot;AS59729&quot;:true,&quot;AS50979&quot;:true,&quot;AS43513&quot;:true,&quot;AS52173&quot;:true,&quot;AS197540&quot;:true,&quot;AS199524&quot;:true,&quot;AS202053&quot;:true,&quot;AS200740&quot;:true,&quot;AS204957&quot;:true,&quot;AS202448&quot;:true,&quot;AS62240&quot;:true,&quot;AS56322&quot;:true,&quot;AS136258&quot;:true,&quot;AS199912&quot;:true,&quot;AS210896&quot;:true,&quot;AS215904&quot;:true},&quot;pop_list&quot;:{&quot;, Japan&quot;:true,&quot;, Netherlands&quot;:true,&quot;San Jose, United States&quot;:true,&quot;New York City, United States&quot;:true,&quot;Atlanta, United States&quot;:true,&quot;Phoenix, United States&quot;:true,&quot;Sao Paulo, Brazil&quot;:true,&quot;Detroit, United States&quot;:true,&quot;Miami, United States&quot;:true,&quot;Frankfurt am Main, Germany&quot;:true,&quot;Santa Clara, United States&quot;:true,&quot;Mumbai, India&quot;:true,&quot;Ashburn, United States&quot;:true,&quot;Denver, United States&quot;:true,&quot;Toronto, Canada&quot;:true,&quot;Chicago, United States&quot;:true,&quot;London, United Kingdom&quot;:true,&quot;Seattle, United States&quot;:true,&quot;Perth, Australia&quot;:true,&quot;Stockholm, Sweden&quot;:true,&quot;Minneapolis, United States&quot;:true,&quot;Amsterdam, Netherlands&quot;:true,&quot;Honolulu, United States&quot;:true,&quot;Los Angeles, United States&quot;:true,&quot;Singapore, Singapore&quot;:true,&quot;Dublin, Ireland&quot;:true,&quot;Madrid, Spain&quot;:true,&quot;Sydney, Australia&quot;:true,&quot;Tokyo, Japan&quot;:true,&quot;Berlin, Germany&quot;:true,&quot;Osaka, Japan&quot;:true,&quot;Manchester, United Kingdom&quot;:true,&quot;Duesseldorf, Germany&quot;:true,&quot;Hong Kong, Hong Kong&quot;:true,&quot;Newark, United States&quot;:true,&quot;Schiphol, Netherlands&quot;:true,&quot;Copenhagen, Denmark&quot;:true,&quot;Paris, France&quot;:true,&quot;Johannesburg, South Africa&quot;:true,&quot;Seoul, South Korea&quot;:true,&quot;Taipei, Taiwan&quot;:true,&quot;Reston, United States&quot;:true,&quot;Melbourne, Australia&quot;:true,&quot;Marseille, France&quot;:true,&quot;Boston, United States&quot;:true,&quot;Dallas, United States&quot;:true,&quot;Davenport, United States&quot;:true,&quot;, United States&quot;:true,&quot;, Canada&quot;:true,&quot;Halifax, Canada&quot;:true,&quot;Burlington, Canada&quot;:true,&quot;Winnipeg, Canada&quot;:true,&quot;Calgary, Canada&quot;:true,&quot;Edmonton, Canada&quot;:true,&quot;Vancouver, Canada&quot;:true,&quot;, Germany&quot;:true,&quot;Portland, United States&quot;:true,&quot;Rotterdam, Netherlands&quot;:true,&quot;, France&quot;:true,&quot;, Puerto Rico&quot;:true,&quot;, Colombia&quot;:true,&quot;Cape Town, South Africa&quot;:true,&quot;Pretoria, South Africa&quot;:true,&quot;, South Africa&quot;:true,&quot;, Macao&quot;:true,&quot;, Guatemala&quot;:true,&quot;, Honduras&quot;:true,&quot;, Argentina&quot;:true,&quot;, Paraguay&quot;:true,&quot;, Romania&quot;:true,&quot;, Peru&quot;:true,&quot;Fortaleza, Brazil&quot;:true,&quot;, Chile&quot;:true,&quot;, United Kingdom&quot;:true,&quot;, Finland&quot;:true,&quot;San Francisco, United States&quot;:true,&quot;Christchurch, New Zealand&quot;:true,&quot;Auckland, New Zealand&quot;:true,&quot;, New Zealand&quot;:true,&quot;, Taiwan&quot;:true,&quot;Birmingham, United Kingdom&quot;:true,&quot;Bristol, United Kingdom&quot;:true,&quot;Edinburgh, United Kingdom&quot;:true,&quot;, Poland&quot;:true,&quot;, Switzerland&quot;:true,&quot;, Barbados&quot;:true,&quot;El Paso, United States&quot;:true,&quot;, Spain&quot;:true,&quot;Las Vegas, United States&quot;:true,&quot;San Diego, United States&quot;:true,&quot;Richmond Hill, Canada&quot;:true,&quot;Montreal, Canada&quot;:true,&quot;Moncton, Canada&quot;:true,&quot;Kyiv, Ukraine&quot;:true,&quot;, Lithuania&quot;:true,&quot;, Russia&quot;:true,&quot;Oslo, Norway&quot;:true,&quot;Rennesoy, Norway&quot;:true,&quot;Brussels, Belgium&quot;:true,&quot;Bucharest, Romania&quot;:true,&quot;Timisoara, Romania&quot;:true,&quot;Vilnius, Lithuania&quot;:true,&quot;Hamburg, Germany&quot;:true,&quot;, Hungary&quot;:true,&quot;, Ukraine&quot;:true,&quot;Brisbane, Australia&quot;:true,&quot;, Australia&quot;:true,&quot;Kingston, Jamaica&quot;:true,&quot;Kansas City, United States&quot;:true,&quot;Austin, United States&quot;:true,&quot;Salt Lake City, United States&quot;:true,&quot;Cluj-Napoca, Romania&quot;:true,&quot;, Dominican Republic&quot;:true,&quot;Columbus, United States&quot;:true,&quot;New Delhi, India&quot;:true,&quot;, India&quot;:true,&quot;Chennai, India&quot;:true,&quot;, Belgium&quot;:true,&quot;, Austria&quot;:true,&quot;, South Korea&quot;:true,&quot;, Venezuela&quot;:true,&quot;, Czechia&quot;:true,&quot;, Brazil&quot;:true,&quot;Guayaquil, Ecuador&quot;:true,&quot;, Uruguay&quot;:true,&quot;, Ecuador&quot;:true,&quot;Santo Domingo, Dominican Republic&quot;:true,&quot;Guatemala City, Guatemala&quot;:true,&quot;, Hong Kong&quot;:true,&quot;, Sweden&quot;:true,&quot;Brasilia, Brazil&quot;:true,&quot;, Costa Rica&quot;:true,&quot;Coyoacan, Mexico&quot;:true,&quot;Monterrey, Mexico&quot;:true,&quot;Ciudad Juarez, Mexico&quot;:true,&quot;Guadalajara, Mexico&quot;:true,&quot;, Mexico&quot;:true,&quot;, Luxembourg&quot;:true,&quot;Rio de Janeiro, Brazil&quot;:true,&quot;, Trinidad and Tobago&quot;:true,&quot;, Panama&quot;:true,&quot;, Curacao&quot;:true,&quot;Luzern, Switzerland&quot;:true,&quot;Bern, Switzerland&quot;:true,&quot;Lausanne, Switzerland&quot;:true,&quot;, Kazakhstan&quot;:true,&quot;, Bulgaria&quot;:true,&quot;Lisbon, Portugal&quot;:true,&quot;Porto, Portugal&quot;:true,&quot;Warsaw, Poland&quot;:true,&quot;, Israel&quot;:true,&quot;Santiago de Queretaro, Mexico&quot;:true,&quot;Santiago, Chile&quot;:true,&quot;Buenos Aires, Argentina&quot;:true,&quot;Belem, Brazil&quot;:true,&quot;Porto Alegre, Brazil&quot;:true,&quot;Curitiba, Brazil&quot;:true,&quot;Belo Horizonte, Brazil&quot;:true,&quot;Campinas, Brazil&quot;:true,&quot;Mexico City, Mexico&quot;:true,&quot;Panama City, Panama&quot;:true,&quot;Adelaide, Australia&quot;:true,&quot;, Guam&quot;:true,&quot;Trois-Rivieres, Canada&quot;:true,&quot;Road Town, British Virgin Islands&quot;:true,&quot;Philadelphia, United States&quot;:true,&quot;Sacramento, United States&quot;:true,&quot;Tampa, United States&quot;:true,&quot;Washington, United States&quot;:true,&quot;, Denmark&quot;:true,&quot;Lahti, Finland&quot;:true,&quot;Helsinki, Finland&quot;:true,&quot;Cincinnati, United States&quot;:true,&quot;Barrie, Canada&quot;:true,&quot;, Moldova&quot;:true,&quot;, Vietnam&quot;:true,&quot;Cordoba, Argentina&quot;:true,&quot;, Singapore&quot;:true,&quot;North Bergen, United States&quot;:true,&quot;, Croatia&quot;:true,&quot;, Latvia&quot;:true,&quot;Luxembourg, Luxembourg&quot;:true,&quot;Istanbul, Turkey&quot;:true,&quot;Baku, Azerbaijan&quot;:true,&quot;Milan, Italy&quot;:true,&quot;Sofia, Bulgaria&quot;:true,&quot;Budapest, Hungary&quot;:true,&quot;Chisinau, Moldova&quot;:true,&quot;Yerevan, Armenia&quot;:true,&quot;Tel Aviv, Israel&quot;:true,&quot;Moscow, Russia&quot;:true,&quot;, United Arab Emirates&quot;:true,&quot;, Italy&quot;:true,&quot;, Cyprus&quot;:true},&quot;route_counts&quot;:{&quot;ipv4&quot;:0,&quot;ipv6&quot;:0,&quot;total&quot;:0},&quot;anycast_routes&quot;:[],&quot;is_mixed_network_and_ips&quot;:false}"></div>
+
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+
+            <div>
+                            <h3>North America</h3>
+                <ul>
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-bb"></i>
+        <a href="/resources/cdn/apple-cdn/country/bb"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Barbados</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-vg"></i>
+        <a href="/resources/cdn/apple-cdn/country/vg"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">British Virgin Islands</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ca"></i>
+        <a href="/resources/cdn/apple-cdn/country/ca"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Canada</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-cr"></i>
+        <a href="/resources/cdn/apple-cdn/country/cr"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Costa Rica</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-cw"></i>
+        <a href="/resources/cdn/apple-cdn/country/cw"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Curacao</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-do"></i>
+        <a href="/resources/cdn/apple-cdn/country/do"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Dominican Republic</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-gt"></i>
+        <a href="/resources/cdn/apple-cdn/country/gt"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Guatemala</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-hn"></i>
+        <a href="/resources/cdn/apple-cdn/country/hn"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Honduras</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-jm"></i>
+        <a href="/resources/cdn/apple-cdn/country/jm"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Jamaica</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-mx"></i>
+        <a href="/resources/cdn/apple-cdn/country/mx"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Mexico</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-pa"></i>
+        <a href="/resources/cdn/apple-cdn/country/pa"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Panama</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-pr"></i>
+        <a href="/resources/cdn/apple-cdn/country/pr"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Puerto Rico</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-tt"></i>
+        <a href="/resources/cdn/apple-cdn/country/tt"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Trinidad and Tobago</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-us"></i>
+        <a href="/resources/cdn/apple-cdn/country/us"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">United States</span></a>
+    </li>
+
+                                    </ul>
+            
+                            <h3>South America</h3>
+                <ul>
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ar"></i>
+        <a href="/resources/cdn/apple-cdn/country/ar"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Argentina</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-br"></i>
+        <a href="/resources/cdn/apple-cdn/country/br"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Brazil</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-cl"></i>
+        <a href="/resources/cdn/apple-cdn/country/cl"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Chile</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-co"></i>
+        <a href="/resources/cdn/apple-cdn/country/co"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Colombia</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ec"></i>
+        <a href="/resources/cdn/apple-cdn/country/ec"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Ecuador</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-py"></i>
+        <a href="/resources/cdn/apple-cdn/country/py"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Paraguay</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-pe"></i>
+        <a href="/resources/cdn/apple-cdn/country/pe"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Peru</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-uy"></i>
+        <a href="/resources/cdn/apple-cdn/country/uy"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Uruguay</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ve"></i>
+        <a href="/resources/cdn/apple-cdn/country/ve"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Venezuela</span></a>
+    </li>
+
+                                    </ul>
+                    </div>
+    
+
+            <div>
+                            <h3>Europe</h3>
+                <ul>
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-at"></i>
+        <a href="/resources/cdn/apple-cdn/country/at"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Austria</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-be"></i>
+        <a href="/resources/cdn/apple-cdn/country/be"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Belgium</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-bg"></i>
+        <a href="/resources/cdn/apple-cdn/country/bg"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Bulgaria</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-hr"></i>
+        <a href="/resources/cdn/apple-cdn/country/hr"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Croatia</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-cy"></i>
+        <a href="/resources/cdn/apple-cdn/country/cy"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Cyprus</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-cz"></i>
+        <a href="/resources/cdn/apple-cdn/country/cz"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Czechia</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-dk"></i>
+        <a href="/resources/cdn/apple-cdn/country/dk"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Denmark</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-fi"></i>
+        <a href="/resources/cdn/apple-cdn/country/fi"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Finland</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-fr"></i>
+        <a href="/resources/cdn/apple-cdn/country/fr"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">France</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-de"></i>
+        <a href="/resources/cdn/apple-cdn/country/de"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Germany</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-hu"></i>
+        <a href="/resources/cdn/apple-cdn/country/hu"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Hungary</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ie"></i>
+        <a href="/resources/cdn/apple-cdn/country/ie"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Ireland</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-it"></i>
+        <a href="/resources/cdn/apple-cdn/country/it"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Italy</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-lv"></i>
+        <a href="/resources/cdn/apple-cdn/country/lv"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Latvia</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-lt"></i>
+        <a href="/resources/cdn/apple-cdn/country/lt"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Lithuania</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-lu"></i>
+        <a href="/resources/cdn/apple-cdn/country/lu"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Luxembourg</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-md"></i>
+        <a href="/resources/cdn/apple-cdn/country/md"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Moldova</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-nl"></i>
+        <a href="/resources/cdn/apple-cdn/country/nl"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Netherlands</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-no"></i>
+        <a href="/resources/cdn/apple-cdn/country/no"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Norway</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-pl"></i>
+        <a href="/resources/cdn/apple-cdn/country/pl"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Poland</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-pt"></i>
+        <a href="/resources/cdn/apple-cdn/country/pt"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Portugal</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ro"></i>
+        <a href="/resources/cdn/apple-cdn/country/ro"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Romania</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ru"></i>
+        <a href="/resources/cdn/apple-cdn/country/ru"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Russia</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-es"></i>
+        <a href="/resources/cdn/apple-cdn/country/es"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Spain</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-se"></i>
+        <a href="/resources/cdn/apple-cdn/country/se"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Sweden</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ch"></i>
+        <a href="/resources/cdn/apple-cdn/country/ch"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Switzerland</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ua"></i>
+        <a href="/resources/cdn/apple-cdn/country/ua"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Ukraine</span></a>
+    </li>
+
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-gb"></i>
+        <a href="/resources/cdn/apple-cdn/country/gb"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">United Kingdom</span></a>
+    </li>
+
+                                    </ul>
+            
+                            <h3>Africa</h3>
+                <ul>
+                                            <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-za"></i>
+        <a href="/resources/cdn/apple-cdn/country/za"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">South Africa</span></a>
+    </li>
+
+                                    </ul>
+            
+        </div>
+    
+    <div>
+
+                    <h3>Asia</h3>
+            <ul>
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-am"></i>
+        <a href="/resources/cdn/apple-cdn/country/am"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Armenia</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-az"></i>
+        <a href="/resources/cdn/apple-cdn/country/az"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Azerbaijan</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-hk"></i>
+        <a href="/resources/cdn/apple-cdn/country/hk"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Hong Kong</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-in"></i>
+        <a href="/resources/cdn/apple-cdn/country/in"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">India</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-il"></i>
+        <a href="/resources/cdn/apple-cdn/country/il"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Israel</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-jp"></i>
+        <a href="/resources/cdn/apple-cdn/country/jp"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Japan</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-kz"></i>
+        <a href="/resources/cdn/apple-cdn/country/kz"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Kazakhstan</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-mo"></i>
+        <a href="/resources/cdn/apple-cdn/country/mo"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Macao</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-sg"></i>
+        <a href="/resources/cdn/apple-cdn/country/sg"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Singapore</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-kr"></i>
+        <a href="/resources/cdn/apple-cdn/country/kr"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">South Korea</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-tw"></i>
+        <a href="/resources/cdn/apple-cdn/country/tw"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Taiwan</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-tr"></i>
+        <a href="/resources/cdn/apple-cdn/country/tr"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Turkey</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-ae"></i>
+        <a href="/resources/cdn/apple-cdn/country/ae"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">United Arab Emirates</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-vn"></i>
+        <a href="/resources/cdn/apple-cdn/country/vn"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Vietnam</span></a>
+    </li>
+
+                            </ul>
+        
+                    <h3>Oceania</h3>
+            <ul>
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-au"></i>
+        <a href="/resources/cdn/apple-cdn/country/au"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Australia</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-gu"></i>
+        <a href="/resources/cdn/apple-cdn/country/gu"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">Guam</span></a>
+    </li>
+
+                                    <li class="no-bullet pb-1">
+        <i class="app-inline-icon-flag lg:ml-0! mr-0.5 famfamfam-flag-nz"></i>
+        <a href="/resources/cdn/apple-cdn/country/nz"><span iiiclass="text-[11.5pt] font-bold opacity-75 leading-relaxed text-blue-800">New Zealand</span></a>
+    </li>
+
+                            </ul>
+        
+    </div>
+
+</div>
+
+                                        </div>
+                                                                    </main>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-56 lg:w-66 border-t md:border-t-0 md:border-r border-slate-100 p-3 order-2 md:order-1 bg-gray-50 mt-10 md:mt-0">
+                        <nav aria-label="Sidebar" class="flex-1 space-y-1 px-2 pb-5">
+    
+                        <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Intelligence
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/resources/vpns" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                VPNs
+                            </span>
+                        </a>
+                                            <a href="/resources/tor" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Tor IPs
+                            </span>
+                        </a>
+                                            <a href="/resources/crawlers" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Crawlers
+                            </span>
+                        </a>
+                                            <a href="/resources/dox" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                DoH / DoT / DoQ
+                            </span>
+                        </a>
+                                            <a href="/resources/mobile-gateways" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Mobile Gateways
+                            </span>
+                        </a>
+                                            <a href="/resources/speedtest" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Speed Test Servers
+                            </span>
+                        </a>
+                                            <a href="/resources/macs" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                MAC Address Vendors
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Application Stack
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/resources/applications" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Applications
+                            </span>
+                        </a>
+                                            <a href="/resources/domains" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Domains
+                            </span>
+                        </a>
+                                            <a href="/resources/hostnames" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Hostnames
+                            </span>
+                        </a>
+                                            <a href="/resources/ips" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                IPs
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Platform Stack
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/resources/hosting" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Hosting
+                            </span>
+                        </a>
+                                            <a href="/resources/saas" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                SaaS
+                            </span>
+                        </a>
+                                            <a href="/resources/cdn" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            bg-gray-100 text-gray-900">
+                            <span class="border-b border-dotted border-gray-400">
+                                CDNs
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Network Stack
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/resources/telco" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                ISPs/Telcos
+                            </span>
+                        </a>
+                                            <a href="/resources/special-networks" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Special Networks
+                            </span>
+                        </a>
+                                            <a href="/resources/networks" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Other Networks
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+            </nav>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="bg-slate-900/95 border-t border-slate-500">
+    <div class="mx-auto max-w-7xl px-6 pt-8 pb-8 sm:pt-12 lg:px-8 lg:pt-16">
+        <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-8">
+            
+            <div class="order-last mt-12 xl:mt-0 flex flex-col items-start space-y-8">
+                <img 
+                  src="/images/netify-dark.svg" 
+                  alt="Netify logo" 
+                  class="h-9 w-auto" 
+                  width="152" 
+                  height="36" 
+                  fetchpriority="high"
+                />
+                <p class="text-sm/6 text-balance text-gray-300">
+                    7 Bayview Road,<br>
+                    Ottawa, Ontario, K1Y 4T1<br>
+                    Canada<br>
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-8 xl:col-span-2">
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div>
+                        <p class="text-sm/6 font-semibold text-white">Company</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/blog" class="text-sm/6 text-gray-400 hover:text-gray-300">Blog and News</a></li>
+                            <li><a href="/about-us" class="text-sm/6 text-gray-400 hover:text-gray-300">Leadership Team</a></li>
+                            <li><a href="/contact-us" class="text-sm/6 text-gray-400 hover:text-gray-300">Contact Us</a></li>
+                            <li><a href="/privacy-policy" class="text-sm/6 text-gray-400 hover:text-gray-300">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-10 md:mt-0">
+                        <p class="text-sm/6 font-semibold text-white">Product</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/products" class="text-sm/6 text-gray-400 hover:text-gray-300">Products Overview</a></li>
+                            <li><a href="/products/netify-dpi" class="text-sm/6 text-gray-400 hover:text-gray-300">Netify DPI Agent</a></li>
+                            <li><a href="/products/netify-data-feeds" class="text-sm/6 text-gray-400 hover:text-gray-300">Netify Data Feeds</a></li>
+                            <li><a href="/products/netify-informatics" class="text-sm/6 text-gray-400 hover:text-gray-300">Netify Informatics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div>
+                        <p class="text-sm/6 font-semibold text-white">Resources</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/resources" class="text-sm/6 text-gray-400 hover:text-gray-300">Resources Overview</a></li>
+                            <li><a href="/resources/applications" class="text-sm/6 text-gray-400 hover:text-gray-300">Application Data</a></li>
+                            <li><a href="/resources/tor" class="text-sm/6 text-gray-400 hover:text-gray-300">Tor IP Data</a></li>
+                            <li><a href="/resources/vpns" class="text-sm/6 text-gray-400 hover:text-gray-300">VPN IPs</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-10 md:mt-0">
+                        <p class="text-sm/6 font-semibold text-white">Documentation</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/documentation" class="text-sm/6 text-gray-400 hover:text-gray-300">Docs Overview</a></li>
+                            <li><a href="/documentation/agent" class="text-sm/6 text-gray-400 hover:text-gray-300">DPI Docs</a></li>
+                            <li><a href="/documentation/data-feeds/v2" class="text-sm/6 text-gray-400 hover:text-gray-300">Data Feeds Docs</a></li>
+                            <li><a href="/documentation/informatics/v2" class="text-sm/6 text-gray-400 hover:text-gray-300">Informatics Docs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-white/10 mt-8 pt-4">
+            <p class="text-sm/6 text-gray-400">&copy; 2026 Netify - eGloo</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<div id="cookie-notice" data-cookie-notice class="fixed bottom-0 inset-x-0 bg-slate-900 text-white text-sm z-50 hidden" role="region" aria-label="Cookie notice" aria-hidden="true">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
+        <p>
+            This website uses <strong>essential cookies only</strong> to ensure proper operation.
+            <a href="/privacy-policy" class="underline hover:text-slate-300">Privacy Policy</a>
+        </p>
+
+        <div class="text-right">
+            <form method="POST" action="/cookie-notice/dismiss">
+                <input type="hidden" name="_token" value="QkcjeSQ9jOWYuNSD3o2JWRqAeRtUlhtz935Rn9BF" autocomplete="off">                <button type="submit" class="bg-slate-50 text-slate-900 px-4 py-1.5 rounded-md text-sm font-medium hover:bg-slate-200">OK</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+        
+            <link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/world-ips-BksOjsMs.js" /><link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/AnimatedTheme-D5AVWCJy.js" /><link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/worldLow-DTwqVYfG.js" /><link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/_commonjsHelpers-DaWZu8wl.js" /><script type="module" src="https://www.netify.ai/build/assets/world-ips-BksOjsMs.js"></script>    </body>
+</html>

@@ -43,7 +43,10 @@ def projection(path, script, schema=None):
 
 def check_boundaries():
     assert sha256(BASELINE) == "c06527415def65023f40211790d322efa23a3f776630f9688684d078a21caf35"
-    old, current = read(BASELINE), read(ROOT / f"data/manifest.{TAG}.json")
+    # Keep the initial Apple publication boundary reproducible after follow-up layers.
+    completed = ROOT / f"data/raw/repository/manifest-before-apple-aec-followup.{TAG}.json"
+    assert sha256(completed) == "ae9cd07ed8944182ab180d2efb8773fee7643632c78b5c40d9f21c02f40e27ca"
+    old, current = read(BASELINE), read(completed)
     changed = {"network_evidence_layer_count", "network_evidence_record_count", "network_evidence_layers",
                "infrastructure_evidence_layer_count", "infrastructure_evidence_record_count", "infrastructure_evidence_layers",
                "geographic_footprint_view_count", "geographic_footprint_views", "assessments", "bibliography"}
@@ -64,7 +67,9 @@ def check_boundaries():
 
     frozen_bib = ROOT / f"data/raw/repository/bibliography-before-apple-tv.{TAG}.json"
     assert sha256(frozen_bib) == old["bibliography"]["files"]["json"]["sha256"]
-    before, after = read(frozen_bib), read(ROOT / current["bibliography"]["files"]["json"]["path"])
+    completed_bib = ROOT / f"data/raw/repository/bibliography-before-apple-aec-followup.{TAG}.json"
+    assert sha256(completed_bib) == current["bibliography"]["files"]["json"]["sha256"]
+    before, after = read(frozen_bib), read(completed_bib)
     originals = {r["reference_id"]: r for r in before["references"]}
     refs = {r["reference_id"]: r for r in after["references"]}
     assert len(refs) == len(after["references"]) == after["reference_count"] == 268

@@ -1,0 +1,9 @@
+{
+  "notes": "Immutable boundary before the Apple cache follow-up review.",
+  "raw_source_ref": "data/raw/repository/manifest-before-apple-aec-followup.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "ae9cd07ed8944182ab180d2efb8773fee7643632c78b5c40d9f21c02f40e27ca",
+  "source_commit": "93b74f7",
+  "source_published_at": null,
+  "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/93b74f7/data/manifest.20261019.json"
+}

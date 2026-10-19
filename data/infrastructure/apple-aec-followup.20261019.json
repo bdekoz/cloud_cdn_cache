@@ -1,0 +1,148 @@
+{
+  "categories": {
+    "cache_host_declaration": "Operator-declared Apple caching with unresolved placement and program identity.",
+    "cache_routing_policy_reference": "AEC routing-policy identifier, not an installed site."
+  },
+  "records": [
+    {
+      "category": "cache_host_declaration",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "cache_location_not_established",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache follow-up: Giganet Internet Szolgaltato",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "Giganet Internet Szolgaltato",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": false,
+        "apple_tv_delivery_established": false,
+        "bix_pilot_site_identity_not_established": true,
+        "claim_year": 2024,
+        "current_operation_not_verified": true,
+        "infrastructure_cities_not_cache_assignments": [
+          "Budapest",
+          "Nyiregyhaza"
+        ],
+        "infrastructure_evidence": {
+          "raw_source_ref": "data/raw/apple-aec-followup/giganet-hu-infrastructure.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "491aec2ff6056515f17494b4269a3a47d3f1b4380f958ca985a27a60c350aba9",
+          "source_updated_at": null,
+          "source_url": "https://www.giganet.hu/rolunk/infrastrukturank/"
+        },
+        "locality": null,
+        "mapping_disposition": "held_no_unique_cache_city",
+        "physical_site_count_not_asserted": true,
+        "reported_installation": true,
+        "same_name_ukrainian_operator_not_joined": true
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-aec-followup/giganet-hu-history.20261019.html",
+      "record_id": "apple:aec-followup:giganet-hu",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b479f33a4f55ea4cb2e8db976816fa0282172e9f29ea4e23a0e8acf6562e814d",
+      "source_updated_at": null,
+      "source_url": "https://www.giganet.hu/rolunk/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_host_declaration",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "cache_location_not_established",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache follow-up: IX Australia",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "IX Australia",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": false,
+        "apple_tv_delivery_established": false,
+        "individual_cache_sites_not_listed": true,
+        "locality": null,
+        "mapping_disposition": "held_hosted_caches_without_placement",
+        "physical_site_count_not_asserted": true,
+        "reported_hosting": true
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-aec-followup/ixaustralia-content.20261019.html",
+      "record_id": "apple:aec-followup:ixaustralia-hosting",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "2d1c267f184272b35d6e694fd5c133aaed1c3d3fe64eb081d25be06c31bcb5d8",
+      "source_updated_at": null,
+      "source_url": "https://ix.asn.au/services/content-network/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    },
+    {
+      "category": "cache_routing_policy_reference",
+      "confidence": "high",
+      "country_codes": [],
+      "country_scope": "cache_location_not_established",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Apple cache follow-up: LU-CIX",
+      "parties": [
+        {
+          "name": "Apple",
+          "role": "content_provider"
+        },
+        {
+          "name": "LU-CIX",
+          "role": "declaring_host_or_exchange"
+        }
+      ],
+      "properties": {
+        "aec_program_identity_explicit": true,
+        "apple_tv_delivery_established": false,
+        "identifier_scope": "special_peer_as_value_in_route_server_policy",
+        "locality": null,
+        "mapping_disposition": "held_routing_policy_not_cache_placement",
+        "peer_as_value": 31128,
+        "physical_site_count_not_asserted": true,
+        "route_server_asn": 49624
+      },
+      "provider": "Apple",
+      "raw_source_ref": "data/raw/apple-aec-followup/lucix-route-policy.20261019.html",
+      "record_id": "apple:aec-followup:lucix-policy",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "2e21c061685ad441c402b16079250553ea7da4d5eb75727ec5d61badf97dea5b",
+      "source_updated_at": null,
+      "source_url": "https://www.lu-cix.lu/solutions/route-servers/",
+      "spatial_representation": "none",
+      "unit": "assertion"
+    }
+  ],
+  "retrieved_at": "2026-10-19",
+  "schema_version": "1.0.0",
+  "scope_note": "Follow-up cache-host and routing-policy declarations; no new cache locality is established.",
+  "type": "InfrastructureEvidenceCollection"
+}

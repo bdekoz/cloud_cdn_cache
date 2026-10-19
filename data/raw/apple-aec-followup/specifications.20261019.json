@@ -1,0 +1,189 @@
+[
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Independent classification directory; AEC is included but not distinguished per row. Aggregate counts are not appliance or facility counts.",
+    "source_id": "netify-apple",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/resources/cdn/apple-cdn",
+    "title": "Netify Apple CDN public directory"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.",
+    "source_id": "netify-apple-in",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/resources/cdn/apple-cdn/country/in",
+    "title": "Netify Apple CDN: India"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.",
+    "source_id": "netify-apple-ru",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/resources/cdn/apple-cdn/country/ru",
+    "title": "Netify Apple CDN: Russia"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.",
+    "source_id": "netify-apple-ae",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/resources/cdn/apple-cdn/country/ae",
+    "title": "Netify Apple CDN: United Arab Emirates"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.",
+    "source_id": "netify-apple-hu",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/resources/cdn/apple-cdn/country/hu",
+    "title": "Netify Apple CDN: Hungary"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.",
+    "source_id": "netify-apple-au",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/resources/cdn/apple-cdn/country/au",
+    "title": "Netify Apple CDN: Australia"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Candidate Apple-CDN network/city classifications, not verified AEC deployments or Apple TV delivery. Null cities remain null; publisher observation dates are unestablished.",
+    "source_id": "netify-apple-ua",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/resources/cdn/apple-cdn/country/ua",
+    "title": "Netify Apple CDN: Ukraine"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Publisher methodology and field meaning; city data and country fallback have different sources.",
+    "source_id": "netify-geolocation",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/documentation/data-feeds/v2/objects/geolocation",
+    "title": "Netify geolocation data semantics"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Netify",
+    "role": "Publisher methodology and field meaning; city data and country fallback have different sources.",
+    "source_id": "netify-pop",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.netify.ai/documentation/data-feeds/v2/objects/pop",
+    "title": "Netify pop data semantics"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Giganet Internet Szolgaltato",
+    "role": "Host declares Apple-cache installation in 2024 without locating it. Distinct from Giganet Ukraine.",
+    "source_id": "giganet-hu-history",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.giganet.hu/rolunk/",
+    "title": "Giganet Hungary company history"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "Giganet Internet Szolgaltato",
+    "role": "Budapest and Nyiregyhaza infrastructure is not an Apple cache-site assignment.",
+    "source_id": "giganet-hu-infrastructure",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.giganet.hu/rolunk/infrastrukturank/",
+    "title": "Giganet Hungary infrastructure"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "LU-CIX",
+    "role": "31128 is a documented special peer-as value for AEC; no cache placement is established.",
+    "source_id": "lucix-route-policy",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://www.lu-cix.lu/solutions/route-servers/",
+    "title": "LU-CIX route-server control policy"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "IX Australia",
+    "role": "Operator confirms hosted Apple caches without listing their individual locations.",
+    "source_id": "ixaustralia-content",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://ix.asn.au/services/content-network/",
+    "title": "IX Australia content network"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "CEnet",
+    "role": "General service directory distinguishes Apple peering from named Google/Akamai caches; omission is not proof of AEC retirement.",
+    "source_id": "cenet-infrastructure",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://cenet.catholic.edu.au/infrastructure-services",
+    "title": "CEnet infrastructure services"
+  },
+  {
+    "extension": "html",
+    "method": "GET",
+    "publisher": "1-IX",
+    "role": "Public peer-session lead; a JavaScript shell alone is not evidence of live peer state or cache placement.",
+    "source_id": "1ix-eu-looking-glass",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://lgeuro.1-ix.net/routeservers/rs2-eu-ipv4?o=asc&s=routes_exported",
+    "title": "1-IX European route-server looking glass"
+  },
+  {
+    "extension": "json",
+    "method": "GET",
+    "publisher": "RIPE NCC",
+    "role": "Registry identity check only; registry and IX service labels have different scopes.",
+    "source_id": "ripe-as31128-rdap",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://rdap.db.ripe.net/autnum/31128",
+    "title": "RIPE RDAP AS31128"
+  },
+  {
+    "extension": "pdf",
+    "method": "GET",
+    "publisher": "SFMIX",
+    "role": "Historical separation of AS31128 cache peering, AS40271 partial routes and other exchange roles; not a new cache-site inventory.",
+    "source_id": "sfmix-2025-topology",
+    "source_published_at": null,
+    "source_updated_at": null,
+    "source_url": "https://sfmix.org/wp-content/uploads/2025/10/20250715-MWPS-SFMIX-Slides.pdf",
+    "title": "SFMIX Mutual Aid network presentation"
+  }
+]

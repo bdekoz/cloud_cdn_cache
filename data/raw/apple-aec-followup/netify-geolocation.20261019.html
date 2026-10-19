@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Geolocation Object - Netify Data Feeds</title>
+
+
+<link rel="canonical" href="https://www.netify.ai/documentation/data-feeds/v2/objects/geolocation" />
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This page provides the technical information for the Geolocation object in the Netify Data Feeds.">
+
+<meta property="og:site_name" content="Netify">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Geolocation Object - Netify Data Feeds" />
+<meta property="og:description" content="This page provides the technical information for the Geolocation object in the Netify Data Feeds." />
+<meta property="og:url" content="https://www.netify.ai/documentation/data-feeds/v2/objects/geolocation" />
+<meta property="og:image" content="/images/logo-og.png" />
+
+<meta name="twitter:card" content="/images/logo-og.png">
+<meta name="twitter:title" content="Geolocation Object - Netify Data Feeds">
+<meta name="twitter:description" content="This page provides the technical information for the Geolocation object in the Netify Data Feeds.">
+
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="preload" as="style" href="https://www.netify.ai/build/assets/app-hn6G2yWe.css" /><link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/app-5JFM6kRh.js" /><link rel="modulepreload" as="script" href="https://www.netify.ai/build/assets/_commonjsHelpers-DaWZu8wl.js" /><link rel="stylesheet" href="https://www.netify.ai/build/assets/app-hn6G2yWe.css" /><script type="module" src="https://www.netify.ai/build/assets/app-5JFM6kRh.js"></script>
+
+    
+            <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"\/","name":"Home","image":null}},{"@type":"ListItem","position":2,"item":{"@id":"\/documentation","name":"Documentation","image":null}},{"@type":"ListItem","position":3,"item":{"@id":"\/documentation\/data-feeds\/v2","name":"Data Feeds","image":null}},{"@type":"ListItem","position":4,"item":{"@id":"\/documentation\/data-feeds\/v2\/objects\/geolocation","name":"Geolocation Object","image":null}}]}</script>
+
+    
+
+    </head>
+
+    <body class="bg-white min-h-screen">
+        <header class="sticky top-0 z-50 w-full border-b border-slate-500 bg-slate-900/95 backdrop-blur-sm">
+  <nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-4 lg:px-8">
+    <div class="flex lg:flex-1">
+      <a href="/" class="-m-1.5 p-1.5">
+        <span class="sr-only">Netify</span>
+        <img 
+          src="/images/netify-dark.svg" 
+          alt="Netify logo" 
+          class="h-8 w-auto" 
+          width="135" 
+          height="32" 
+          fetchpriority="high"
+        />
+      </a>
+    </div>
+    <div class="hidden lg:flex lg:gap-x-12">
+      <a href="/products" class="text-sm/6 font-semibold text-white">Products</a>
+      <a href="/resources" class="text-sm/6 font-semibold text-white">Resources</a>
+      <a href="/documentation" class="text-sm/6 font-semibold text-white">Documentation</a>
+      <a href="/blog" class="text-sm/6 font-semibold text-white">Blog</a>
+      <a href="https://portal.netify.ai" class="text-sm/6 font-semibold text-white">Sign In</a>
+    </div>
+    <div class="flex flex-1 items-center justify-end gap-x-6 pr-6">
+                <a href="/contact-us" class="rounded-md bg-brand-secondary px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-brand-secondary-hover hidden lg:block">Contact Us</a>
+    </div>
+    <div class="flex lg:hidden">
+      <button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
+        <span class="sr-only">Open main menu</span>
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+          <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <el-dialog>
+    <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
+      <div tabindex="0" class="fixed inset-0 focus:outline-none">
+        <el-dialog-panel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-slate-900/95 p-4 pt-3 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+          <div class="flex items-center gap-x-6">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Netify</span>
+                <img 
+                  src="/images/netify-dark.svg" 
+                  alt="Netify logo" 
+                  class="h-8 w-auto" 
+                  width="135" 
+                  height="32" 
+                  fetchpriority="high"
+                />
+            </a>
+            <a href="/contact-us" class="ml-auto rounded-md bg-brand-secondary px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-brand-secondary-hover">Contact Us</a>
+            <button type="button" command="close" commandfor="mobile-menu" class="-m-2.5 rounded-md p-2.5 text-gray-400">
+              <span class="sr-only">Close menu</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+                <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-white/10">
+              <div class="space-y-2 py-6">
+                <a href="/products" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Products</a>
+                <a href="/resources" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Resources</a>
+                <a href="/documentation" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Documentation</a>
+                <a href="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Blog</a>
+                <a href="https://portal.netify.ai" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Sign In</a>
+              </div>
+            </div>
+          </div>
+        </el-dialog-panel>
+      </div>
+    </dialog>
+  </el-dialog>
+</header>
+        <nav aria-label="Breadcrumb" class="flex border-b border-gray-200 bg-white hidden lg:flex">
+  <ol class="mx-auto flex w-full max-w-(--breakpoint-xl) items-center space-x-4 px-4 sm:px-6 lg:px-8">
+    
+    <li class="flex">
+      <div class="flex items-center">
+        <a href="/" class="p-2 -m-2 text-gray-400 hover:text-gray-500 block">
+          <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="size-5 shrink-0" width="20" height="20">
+            <path d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z" clip-rule="evenodd" fill-rule="evenodd" />
+          </svg>
+          <span class="sr-only">Home</span>
+        </a>
+      </div>
+    </li>
+
+                            <li class="flex">
+          <div class="flex items-center">
+            <svg viewBox="0 0 24 44" width="24" height="44" fill="currentColor" preserveAspectRatio="none" aria-hidden="true" class="h-full w-6 shrink-0 text-gray-200">
+              <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
+            </svg>
+                          <a href="/documentation" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Documentation</a>
+                      </div>
+        </li>
+                        <li class="flex">
+          <div class="flex items-center">
+            <svg viewBox="0 0 24 44" width="24" height="44" fill="currentColor" preserveAspectRatio="none" aria-hidden="true" class="h-full w-6 shrink-0 text-gray-200">
+              <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
+            </svg>
+                          <a href="/documentation/data-feeds/v2" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Data Feeds</a>
+                      </div>
+        </li>
+                        <li class="flex">
+          <div class="flex items-center">
+            <svg viewBox="0 0 24 44" width="24" height="44" fill="currentColor" preserveAspectRatio="none" aria-hidden="true" class="h-full w-6 shrink-0 text-gray-200">
+              <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
+            </svg>
+                          <span class="ml-4 text-sm font-medium text-gray-500">Geolocation Object</span>
+                      </div>
+        </li>
+          
+        <li class="flex-1 flex justify-end py-0">
+      <div class="w-full max-w-xs pr-6">
+        <form action="/search" method="get" role="search" aria-label="Site search">
+          <label for="search" class="sr-only">Search</label>
+          <div class="relative">
+            <input id="search" name="q" type="search" value="" placeholder="Search the site" class="block w-full h-9 px-3 border border-gray-200 rounded-lg text-sm" />
+          </div>
+        </form>
+      </div>
+    </li>
+      </ol>
+</nav>
+
+
+
+        <div class="max-w-7xl mx-auto bg-white min-h-screen flex flex-col">
+
+            <div class="flex flex-col md:flex-row flex-1">
+                <div class="flex-1 pl-5 pr-5 order-1 md:order-2">
+                    <div class="overflow-hidden bg-white">
+                        <div class="relative isolate">
+                            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 pb-8">
+
+                                
+                                
+                                <main>
+                                                                            <div class="prose-docs">
+                                            
+<h1>Geolocation Object</h1>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div>
+        <p>
+            The <b>geolocation</b> (<span class="pl-0.5 pr-0.5 ml-0.5 py-0.5 rounded-md bg-slate-100 text-red-900 font-mono text-[0.9em] border border-slate-200/60">geolocation</span>
+) object is provided on IP addresses with known locations.
+            This information is provided in both the
+            <a href="/documentation/data-feeds/v2/api/ip">IP API</a>
+            and various Netify Data Feed datasets.
+        </p>
+        <p>
+            The geolocation provided in our APIs and data feeds is city-level or country-level.
+            City-level (if available) data comes directly from Netify's data collectors and analysis.
+            If the city-level information is unavailable, the country-level data is
+            provided using <a href="https://ipinfo.io">IPinfo</a> data.
+        </p>
+        <p>
+            The <b>Geoname ID</b> is provided for both the city and region information.
+            <a href="https://www.geonames.org">Geonames</a>
+            is an open geographical database available under the Creative Commons attribution license.
+        </p>
+    </div>
+    <div>
+                <div class="overflow-hidden p-0 mb-0 lg:mb-3 mt-0 lg:mt-3 rounded-xl border border-slate-300 bg-slate-100 shadow-md transition-shadow hover:shadow-lg">
+    <div class="overflow-hidden bg-white">
+                    <div class="px-2 py-2 sm:px-3 bg-slate-100">
+                <span class="text-sm! font-medium text-slate-600">Geolocation Info</span>
+            </div>
+                <div class="px-1 py-1 sm:px-3">
+            <dl class="divide-y divide-gray-100 border-t border-gray-100">
+                                    <div class="
+                            bg-white
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            City
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            Toronto
+                        </dd>
+                    </div>
+                                    <div class="
+                            bg-gray-50
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            City Geoname ID
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            6167865
+                        </dd>
+                    </div>
+                                    <div class="
+                            bg-white
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            Region
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            Ontario
+                        </dd>
+                    </div>
+                                    <div class="
+                            bg-gray-50
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            Region Geoname ID
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            6093943
+                        </dd>
+                    </div>
+                                    <div class="
+                            bg-white
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            Country
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            <i class="app-inline-icon-flag lg:-ml-[3px]! famfamfam-flag-ca"></i>
+ <span class="text-sm pl-1 py-2 leading-relaxed text-slate-600">Canada</span>
+
+    
+                        </dd>
+                    </div>
+                                    <div class="
+                            bg-gray-50
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            Continent
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            North America
+                        </dd>
+                    </div>
+                                    <div class="
+                            bg-white
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            Latitude
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            43.70011
+                        </dd>
+                    </div>
+                                    <div class="
+                            bg-gray-50
+                                                            lg:grid-cols-[minmax(135px,auto)_1fr]
+                                                        px-2 py-1.5 grid grid-cols-1
+                            gap-x-4 items-baseline
+                        ">
+                        <dt class="text-sm font-medium text-slate-600 sm:text-slate-600 leading-6">
+                            Longitude
+                        </dt>
+                        <dd class="sm:pl-2 text-sm text-slate-600 leading-6 break-words">
+                            -79.41630
+                        </dd>
+                    </div>
+                            </dl>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+
+<hr>
+
+
+<h2>Geolocation Attributes</h2>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div>
+                <div class="mt-4 mb-4">
+    <div class="flex items-center gap-2"> 
+        <h3 class="!text-sm !mt-0 !mb-0">
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-json-attributes text-slate-600 border border-json-attributes-border">
+                continent
+            </span>
+        </h3>
+        <span class="text-[10px] px-1.5 py-0.5 rounded-full border border-slate-200 bg-slate-50 text-slate-500 font-mono">
+            object
+        </span>
+                                        </div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 px-2 py-2 sm:gap-4 hover:bg-slate-50/50 transition-colors">
+        <dd class="sm:col-span-3 text-sm text-slate-600 leading-relaxed mt-1 sm:mt-0">
+            A small object with the continent <b>code</b> and <b>label</b>.
+        </dd>
+    </div>
+</div>
+
+                <div class="mt-4 mb-4">
+    <div class="flex items-center gap-2"> 
+        <h3 class="!text-sm !mt-0 !mb-0">
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-json-attributes text-slate-600 border border-json-attributes-border">
+                country
+            </span>
+        </h3>
+        <span class="text-[10px] px-1.5 py-0.5 rounded-full border border-slate-200 bg-slate-50 text-slate-500 font-mono">
+            object
+        </span>
+                                        </div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 px-2 py-2 sm:gap-4 hover:bg-slate-50/50 transition-colors">
+        <dd class="sm:col-span-3 text-sm text-slate-600 leading-relaxed mt-1 sm:mt-0">
+            A small object with the country <b>code</b> and <b>label</b>.
+        </dd>
+    </div>
+</div>
+
+                <div class="mt-4 mb-4">
+    <div class="flex items-center gap-2"> 
+        <h3 class="!text-sm !mt-0 !mb-0">
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-json-attributes text-slate-600 border border-json-attributes-border">
+                region
+            </span>
+        </h3>
+        <span class="text-[10px] px-1.5 py-0.5 rounded-full border border-slate-200 bg-slate-50 text-slate-500 font-mono">
+            object
+        </span>
+                                        </div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 px-2 py-2 sm:gap-4 hover:bg-slate-50/50 transition-colors">
+        <dd class="sm:col-span-3 text-sm text-slate-600 leading-relaxed mt-1 sm:mt-0">
+            A small object with the region <b>geoname_id</b> and <b>label</b>.
+        </dd>
+    </div>
+</div>
+
+                <div class="mt-4 mb-4">
+    <div class="flex items-center gap-2"> 
+        <h3 class="!text-sm !mt-0 !mb-0">
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-json-attributes text-slate-600 border border-json-attributes-border">
+                city
+            </span>
+        </h3>
+        <span class="text-[10px] px-1.5 py-0.5 rounded-full border border-slate-200 bg-slate-50 text-slate-500 font-mono">
+            object
+        </span>
+                                        </div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 px-2 py-2 sm:gap-4 hover:bg-slate-50/50 transition-colors">
+        <dd class="sm:col-span-3 text-sm text-slate-600 leading-relaxed mt-1 sm:mt-0">
+            A small object with the city <b>geoname_id</b> and <b>label</b>.
+        </dd>
+    </div>
+</div>
+
+                <div class="mt-4 mb-4">
+    <div class="flex items-center gap-2"> 
+        <h3 class="!text-sm !mt-0 !mb-0">
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-json-attributes text-slate-600 border border-json-attributes-border">
+                coordinates
+            </span>
+        </h3>
+        <span class="text-[10px] px-1.5 py-0.5 rounded-full border border-slate-200 bg-slate-50 text-slate-500 font-mono">
+            object
+        </span>
+                                        </div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 px-2 py-2 sm:gap-4 hover:bg-slate-50/50 transition-colors">
+        <dd class="sm:col-span-3 text-sm text-slate-600 leading-relaxed mt-1 sm:mt-0">
+            A small object with the scale (city or country), <b>latitude</b> and <b>longitude</b>.
+        </dd>
+    </div>
+</div>
+    </div>
+    <div>
+<div class="not-prose">
+    <div class="w-full min-w-0 overflow-hidden p-0 mb-3 mt-0 lg:mt-3 rounded-xl border border-slate-300 bg-slate-50 shadow-md">
+
+                    <div class="px-2 py-0 bg-slate-100 border-b border-slate-200">
+                <p><span class="text-sm font-medium opacity-90">Geolocation Object - JSON Overview</span></p>
+            </div>
+        
+        <div class="code-block code-standard w-full overflow-x-auto">
+            <pre class="p-0 m-0 overflow-x-auto"><code class="block w-full text-[0.8rem] whitespace-pre language-json">"geolocation": {
+   "continent": {
+      "code": "NA",
+      "label": "North America"
+   },
+   "country": {
+      "code": "CA",
+      "label": "Canada"
+   },
+   "region": {
+      "geoname_id": 6093943,
+      "label": "Ontario"
+   },
+   "city": {
+      "geoname_id": 6167865,
+      "label": "Toronto"
+   },
+   "coordinates": {
+      "scale": "city",
+      "latitude": "43.70011",
+      "longitude": "-79.41630"
+   }
+}</code></pre>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+                                        </div>
+                                                                    </main>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-56 lg:w-66 border-t md:border-t-0 md:border-r border-slate-100 p-3 order-2 md:order-1 bg-gray-50 mt-10 md:mt-0">
+                        <nav aria-label="Sidebar" class="flex-1 space-y-1 px-2 pb-5">
+    
+                        <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Introduction
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/documentation/data-feeds/v2" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            bg-gray-100 text-gray-900">
+                            <span class="border-b border-dotted border-gray-400">
+                                Overview
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/intro/authentication" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Authentication
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/intro/response-codes" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Response Codes
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/intro/response-payload" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Response Payload
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/intro/categories" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Categories
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/intro/changelog" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Changelog
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            APIs
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/documentation/data-feeds/v2/api/ip" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                IP API
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/api/hostname" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Hostname API
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Datasets
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/documentation/data-feeds/v2/datasets/application-domains" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Application Domains
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/datasets/application-ips" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Application IPs
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/datasets/application-stats" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Application Stats
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/datasets/tor" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Tor
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/datasets/vpn" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                VPNs
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/datasets/speedtest" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Speed Test
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/datasets/mobile-gateway" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Mobile Gateway
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Top Level Objects
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/documentation/data-feeds/v2/objects/ip" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                IP Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/hostname" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Hostname Object
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Core Objects
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/documentation/data-feeds/v2/objects/application" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Application Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/asn" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                ASN Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/entity" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Entity Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/geolocation" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            bg-gray-100 text-gray-900">
+                            <span class="border-b border-dotted border-gray-400">
+                                Geolocation Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/network" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Network Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/pop" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                PoP Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/rdns" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Reverse DNS Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/tls-certificate" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                TLS Certificate Object
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Extended Objects
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/documentation/data-feeds/v2/objects/mobile-gateway" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Mobile Gateway Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/speedtest" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Speed Test Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/tor" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Tor Object
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/objects/vpn" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                VPN Object
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+                                <div class="space-y-1">
+                <p class="border-l-[3px] border-gray-200 py-2 pr-2 pl-2 text-sm font-medium text-gray-600">
+                                            Guides
+                                    </p>
+                <div class="space-y-1">
+                                            <a href="/documentation/data-feeds/v2/guides/ips-vs-stats" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Application IPs vs Stats
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/guides/empty-datasets" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                Empty Datasets
+                            </span>
+                        </a>
+                                            <a href="/documentation/data-feeds/v2/guides/app-ips-vs-networks" class="group flex w-full items-center rounded-md py-0 pr-2 pl-5 text-sm
+                            text-gray-600 hover:bg-gray-50 hover:text-gray-950">
+                            <span class="border-b border-dotted border-gray-400">
+                                App IPs vs Networks
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+            </nav>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="bg-slate-900/95 border-t border-slate-500">
+    <div class="mx-auto max-w-7xl px-6 pt-8 pb-8 sm:pt-12 lg:px-8 lg:pt-16">
+        <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-8">
+            
+            <div class="order-last mt-12 xl:mt-0 flex flex-col items-start space-y-8">
+                <img 
+                  src="/images/netify-dark.svg" 
+                  alt="Netify logo" 
+                  class="h-9 w-auto" 
+                  width="152" 
+                  height="36" 
+                  fetchpriority="high"
+                />
+                <p class="text-sm/6 text-balance text-gray-300">
+                    7 Bayview Road,<br>
+                    Ottawa, Ontario, K1Y 4T1<br>
+                    Canada<br>
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-8 xl:col-span-2">
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div>
+                        <p class="text-sm/6 font-semibold text-white">Company</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/blog" class="text-sm/6 text-gray-400 hover:text-gray-300">Blog and News</a></li>
+                            <li><a href="/about-us" class="text-sm/6 text-gray-400 hover:text-gray-300">Leadership Team</a></li>
+                            <li><a href="/contact-us" class="text-sm/6 text-gray-400 hover:text-gray-300">Contact Us</a></li>
+                            <li><a href="/privacy-policy" class="text-sm/6 text-gray-400 hover:text-gray-300">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-10 md:mt-0">
+                        <p class="text-sm/6 font-semibold text-white">Product</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/products" class="text-sm/6 text-gray-400 hover:text-gray-300">Products Overview</a></li>
+                            <li><a href="/products/netify-dpi" class="text-sm/6 text-gray-400 hover:text-gray-300">Netify DPI Agent</a></li>
+                            <li><a href="/products/netify-data-feeds" class="text-sm/6 text-gray-400 hover:text-gray-300">Netify Data Feeds</a></li>
+                            <li><a href="/products/netify-informatics" class="text-sm/6 text-gray-400 hover:text-gray-300">Netify Informatics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div>
+                        <p class="text-sm/6 font-semibold text-white">Resources</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/resources" class="text-sm/6 text-gray-400 hover:text-gray-300">Resources Overview</a></li>
+                            <li><a href="/resources/applications" class="text-sm/6 text-gray-400 hover:text-gray-300">Application Data</a></li>
+                            <li><a href="/resources/tor" class="text-sm/6 text-gray-400 hover:text-gray-300">Tor IP Data</a></li>
+                            <li><a href="/resources/vpns" class="text-sm/6 text-gray-400 hover:text-gray-300">VPN IPs</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-10 md:mt-0">
+                        <p class="text-sm/6 font-semibold text-white">Documentation</p>
+                        <ul class="mt-6 space-y-4">
+                            <li><a href="/documentation" class="text-sm/6 text-gray-400 hover:text-gray-300">Docs Overview</a></li>
+                            <li><a href="/documentation/agent" class="text-sm/6 text-gray-400 hover:text-gray-300">DPI Docs</a></li>
+                            <li><a href="/documentation/data-feeds/v2" class="text-sm/6 text-gray-400 hover:text-gray-300">Data Feeds Docs</a></li>
+                            <li><a href="/documentation/informatics/v2" class="text-sm/6 text-gray-400 hover:text-gray-300">Informatics Docs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-white/10 mt-8 pt-4">
+            <p class="text-sm/6 text-gray-400">&copy; 2026 Netify - eGloo</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<div id="cookie-notice" data-cookie-notice class="fixed bottom-0 inset-x-0 bg-slate-900 text-white text-sm z-50 hidden" role="region" aria-label="Cookie notice" aria-hidden="true">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
+        <p>
+            This website uses <strong>essential cookies only</strong> to ensure proper operation.
+            <a href="/privacy-policy" class="underline hover:text-slate-300">Privacy Policy</a>
+        </p>
+
+        <div class="text-right">
+            <form method="POST" action="/cookie-notice/dismiss">
+                <input type="hidden" name="_token" value="zcN8xyFzVbXYAjFb4vpqYfTKR2hk5u2yDb4LAIJj" autocomplete="off">                <button type="submit" class="bg-slate-50 text-slate-900 px-4 py-1.5 rounded-md text-sm font-medium hover:bg-slate-200">OK</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+        
+            </body>
+</html>

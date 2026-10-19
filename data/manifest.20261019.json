@@ -230,20 +230,24 @@
     {
       "path": "data/apple/aec-review.20261019.json",
       "sha256": "1956b757a3002547806d6507c2150a40d0efe8acb5fc4b37d15f98a6269189d6"
+    },
+    {
+      "path": "data/apple/aec-followup.20261019.json",
+      "sha256": "c888f7d2e01927cb90bbff55133ab5a0aaf0efba721e8410439fd20a2aa41062"
     }
   ],
   "bibliography": {
     "files": {
       "json": {
         "path": "data/references/bibliography.20261019.json",
-        "sha256": "4bbd807e6349e067bbfe0ba6818fe6f92382fe1f3b19eceb6a3a6e888a2a02be"
+        "sha256": "d943c62c06e00ccd1588a8a446453ea4f15b91b9565e1d6e1616cf94f1f1e067"
       },
       "markdown": {
         "path": "docs/bibliography.20261019.md",
-        "sha256": "32d202768b618adc7cd5c0d01ce3982de1614ceeadd044a6ceb03b815a4aaa72"
+        "sha256": "08b16cc8825eb2ce158197e959cefde441cf7224ae54aae3aeeb128592159aed"
       }
     },
-    "reference_count": 268
+    "reference_count": 295
   },
   "generated_from_retained_snapshots_at": "2026-10-19",
   "geographic_footprint_schema": {
@@ -468,7 +472,7 @@
       "snapshot_tag": "20261019"
     }
   ],
-  "infrastructure_evidence_layer_count": 8,
+  "infrastructure_evidence_layer_count": 9,
   "infrastructure_evidence_layers": [
     {
       "category_counts": {
@@ -1330,9 +1334,63 @@
       "unit_counts": {
         "assertion": 8
       }
+    },
+    {
+      "category_counts": {
+        "cache_host_declaration": 2,
+        "cache_routing_policy_reference": 1
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/apple-aec-followup.20261019.csv",
+          "path": "data/infrastructure/apple-aec-followup.20261019.csv",
+          "source": "data/infrastructure/apple-aec-followup.20261019.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/apple-aec-followup.20261019.json",
+          "sha256": "74757e3c776ac59b6ab0fd9e1769fd7b2d04848c21a73ac5877e7e2d648edc73"
+        },
+        "report": {
+          "path": "data/infrastructure/apple-aec-followup.20261019.report.json",
+          "sha256": "bdf4376731af16a3e43019204c2beb3ab30c655bbff67913c01d0517b85efd2b"
+        }
+      },
+      "geometry_null": 3,
+      "layer": "infrastructure/apple-aec-followup",
+      "record_count": 3,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/giganet-hu-history.20261019.html",
+          "sha256": "b479f33a4f55ea4cb2e8db976816fa0282172e9f29ea4e23a0e8acf6562e814d",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.giganet.hu/rolunk/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/ixaustralia-content.20261019.html",
+          "sha256": "2d1c267f184272b35d6e694fd5c133aaed1c3d3fe64eb081d25be06c31bcb5d8",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://ix.asn.au/services/content-network/"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/lucix-route-policy.20261019.html",
+          "sha256": "2e21c061685ad441c402b16079250553ea7da4d5eb75727ec5d61badf97dea5b",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.lu-cix.lu/solutions/route-servers/"
+        }
+      ],
+      "unit_counts": {
+        "assertion": 3
+      }
     }
   ],
-  "infrastructure_evidence_record_count": 426,
+  "infrastructure_evidence_record_count": 429,
   "infrastructure_evidence_schema": {
     "path": "schema/infrastructure-evidence.schema.json",
     "sha256": "fa850334dc793a71207e5e1589b6f2f4af4ae23be9741f5f57abc3ea9be2487f",
@@ -3781,7 +3839,7 @@
       ]
     }
   ],
-  "network_evidence_layer_count": 9,
+  "network_evidence_layer_count": 10,
   "network_evidence_layers": [
     {
       "derived_files": {
@@ -4834,9 +4892,123 @@
       "statuses": {
         "announced": 4
       }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/apple-aec-candidate-routing.20261019.csv",
+          "path": "data/network/apple-aec-candidate-routing.20261019.csv",
+          "source": "data/network/apple-aec-candidate-routing.20261019.json"
+        }
+      },
+      "evidence_types": {
+        "routing_origin": 10
+      },
+      "files": {
+        "json": {
+          "path": "data/network/apple-aec-candidate-routing.20261019.json",
+          "sha256": "5fa634fbe8ab7c09fbc279c71f3dcdb99c549ff2da0d90166d3e4af2b60ac0ff"
+        },
+        "report": {
+          "path": "data/network/apple-aec-candidate-routing.20261019.report.json",
+          "sha256": "39d4a73cb9b0ab4287ba4d4d2c4d1fb81dbfd1ce08287384c356d31eb72ab36d"
+        }
+      },
+      "layer": "apple-aec-candidate-routing",
+      "providers": [
+        "Apple",
+        "CEnet",
+        "Inetcom Carrier",
+        "Kvant-Telekom",
+        "Netplus Broadband Services",
+        "Omonia",
+        "QLD Government Business (IT)",
+        "Ukrainian Backbone Networks",
+        "Vimpelcom",
+        "Wireline"
+      ],
+      "record_count": 10,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "apple_cdn_candidate"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-103-49-6-240.20261019.json",
+          "sha256": "fe004bd1f0d8a706e4867b16d94a6b158cf2398e9afd870c4998140b84baa0da",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=103.49.6.240"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-113-29-208-196.20261019.json",
+          "sha256": "51e173e2dff72a8abcf429538419d0726a067dd4064bc806f6f0d231b3cb0d79",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=113.29.208.196"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-131-242-32-80.20261019.json",
+          "sha256": "4361ad80a05b77b77b21fd297ba2f7615f01ca3c900b62b3250cfeeb756a45c9",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=131.242.32.80"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-178-210-56-80.20261019.json",
+          "sha256": "b899fde15b875579c39ca232544bf3a4b299be8805a7e919b800ab895a985a3b",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=178.210.56.80"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-185-158-208-16.20261019.json",
+          "sha256": "8c4719355ecb6856d680bc44860ef577b8e1065d54aa3d368ba09c504dd32198",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=185.158.208.16"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-203-76-191-144.20261019.json",
+          "sha256": "3db0eed9fa18fed87584a9c56a7ca48deb1954f7d70225dbf81c7d13034a073f",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=203.76.191.144"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-213-186-25-80.20261019.json",
+          "sha256": "89c8c530ac99304cf315766fbe604f25cc6389a460070f628f4c63a15b2b31de",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=213.186.25.80"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-81-9-21-144.20261019.json",
+          "sha256": "6498c73788fc7a8317c268358c98f1fa037a2bbb070c9a05b64522ed12586379",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=81.9.21.144"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-87-239-27-240.20261019.json",
+          "sha256": "2c441348c0ef47962952a07eec47d24982a9d49d7ff5424e4ed5ca9f6bd4242b",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=87.239.27.240"
+        },
+        {
+          "raw_source_ref": "data/raw/apple-aec-followup/routing-88-209-219-16.20261019.json",
+          "sha256": "746314f6bf8015fe6cc9aceec2cfef5f85dbe4d733d1943b47a669d7c4ddb682",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=88.209.219.16"
+        }
+      ],
+      "statuses": {
+        "announced": 10
+      }
     }
   ],
-  "network_evidence_record_count": 3979,
+  "network_evidence_record_count": 3989,
   "network_evidence_schema": {
     "path": "schema/network-evidence.schema.json",
     "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",

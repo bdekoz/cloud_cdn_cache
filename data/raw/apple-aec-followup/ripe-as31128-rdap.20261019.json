@@ -1,0 +1,201 @@
+{
+  "handle" : "AS31128",
+  "startAutnum" : 31128,
+  "endAutnum" : 31128,
+  "name" : "SHAZAM-AS",
+  "status" : [ "active" ],
+  "entities" : [ {
+    "handle" : "CC11317-RIPE",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "Conor Creagh" ], [ "kind", { }, "text", "individual" ], [ "adr", {
+      "label" : "Hollyhill,\nCork,\nIreland"
+    }, "text", [ "", "", "", "", "", "", "" ] ], [ "tel", {
+      "type" : "voice"
+    }, "text", "+353214284000" ] ] ],
+    "roles" : [ "administrative", "technical" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/autnum/31128",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/CC11317-RIPE"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "CC72744-MNT",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "CC72744-MNT" ], [ "kind", { }, "text", "individual" ] ] ],
+    "roles" : [ "registrant" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/autnum/31128",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/CC72744-MNT"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "ORG-ADIL1-RIPE",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "Apple Distribution International Ltd." ], [ "kind", { }, "text", "org" ], [ "adr", {
+      "label" : "Hollyhill Industrial Estate\nHollyhill\nCork\nIRELAND"
+    }, "text", [ "", "", "", "", "", "", "" ] ], [ "tel", {
+      "type" : "voice"
+    }, "text", "+353214284000" ], [ "tel", {
+      "type" : "fax"
+    }, "text", "+353214284000" ] ] ],
+    "roles" : [ "registrant" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/autnum/31128",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/ORG-ADIL1-RIPE"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "RIPE-NCC-END-MNT",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "RIPE-NCC-END-MNT" ], [ "kind", { }, "text", "individual" ], [ "org", { }, "text", "ORG-NCC1-RIPE" ] ] ],
+    "roles" : [ "registrant" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/autnum/31128",
+      "rel" : "self",
+      "href" : "https://rdap.db.ripe.net/entity/RIPE-NCC-END-MNT"
+    }, {
+      "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel" : "copyright",
+      "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+    } ],
+    "objectClassName" : "entity"
+  }, {
+    "handle" : "AR15502-RIPE",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "Abuse-C Role" ], [ "kind", { }, "text", "group" ], [ "adr", {
+      "label" : "APPLE DISTRIBUTION INTERNATIONAL LTD.\nHollyhill Industrial Estate\nHollyhill\nCork\nIRELAND"
+    }, "text", [ "", "", "", "", "", "", "" ] ], [ "email", {
+      "type" : "abuse"
+    }, "text", "abuse@icloud.com" ] ] ],
+    "roles" : [ "abuse" ],
+    "entities" : [ {
+      "handle" : "CC72744-MNT",
+      "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "CC72744-MNT" ], [ "kind", { }, "text", "individual" ] ] ],
+      "roles" : [ "registrant" ],
+      "links" : [ {
+        "value" : "https://rdap.db.ripe.net/autnum/31128",
+        "rel" : "self",
+        "href" : "https://rdap.db.ripe.net/entity/CC72744-MNT"
+      }, {
+        "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+        "rel" : "copyright",
+        "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+      } ],
+      "objectClassName" : "entity"
+    } ],
+    "objectClassName" : "entity"
+  } ],
+  "links" : [ {
+    "value" : "https://rdap.db.ripe.net/autnum/31128",
+    "rel" : "rdap-up",
+    "href" : "https://rdap.db.ripe.net/autnums/rirSearch1/rdap-up/AS31128",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/autnum/31128",
+    "rel" : "rdap-up rdap-active",
+    "href" : "https://rdap.db.ripe.net/autnums/rirSearch1/rdap-up/AS31128?status=active",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/autnum/31128",
+    "rel" : "rdap-down",
+    "href" : "https://rdap.db.ripe.net/autnums/rirSearch1/rdap-down/AS31128",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/autnum/31128",
+    "rel" : "rdap-top",
+    "href" : "https://rdap.db.ripe.net/autnums/rirSearch1/rdap-top/AS31128",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/autnum/31128",
+    "rel" : "rdap-top rdap-active",
+    "href" : "https://rdap.db.ripe.net/autnums/rirSearch1/rdap-top/AS31128?status=active",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/autnum/31128",
+    "rel" : "rdap-bottom",
+    "href" : "https://rdap.db.ripe.net/autnums/rirSearch1/rdap-bottom/AS31128",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "https://rdap.db.ripe.net/autnum/31128",
+    "rel" : "self",
+    "href" : "https://rdap.db.ripe.net/autnum/31128",
+    "type" : "application/rdap+json"
+  }, {
+    "value" : "http://www.ripe.net/data-tools/support/documentation/terms",
+    "rel" : "copyright",
+    "href" : "http://www.ripe.net/data-tools/support/documentation/terms"
+  } ],
+  "events" : [ {
+    "eventAction" : "registration",
+    "eventDate" : "2005-02-22T13:23:26Z"
+  }, {
+    "eventAction" : "last changed",
+    "eventDate" : "2021-01-11T14:07:44Z"
+  } ],
+  "rdapConformance" : [ "nro_rdap_profile_asn_flat_0", "rirSearch1", "autnums", "cidr0", "rdap_level_0", "nro_rdap_profile_0", "redacted" ],
+  "notices" : [ {
+    "title" : "Filtered",
+    "description" : [ "This output has been filtered." ]
+  }, {
+    "title" : "Whois Inaccuracy Reporting",
+    "description" : [ "If you see inaccuracies in the results, please visit:" ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/autnum/31128",
+      "rel" : "inaccuracy-report",
+      "href" : "https://www.ripe.net/contact-form?topic=ripe_dbm&show_form=true",
+      "type" : "text/html"
+    } ]
+  }, {
+    "title" : "Source",
+    "description" : [ "Objects returned came from source", "RIPE" ]
+  }, {
+    "title" : "Terms and Conditions",
+    "description" : [ "This is the RIPE Database query service. The objects are in RDAP format." ],
+    "links" : [ {
+      "value" : "https://rdap.db.ripe.net/autnum/31128",
+      "rel" : "terms-of-service",
+      "href" : "http://www.ripe.net/db/support/db-terms-conditions.pdf",
+      "type" : "application/pdf"
+    } ]
+  } ],
+  "port43" : "whois.ripe.net",
+  "objectClassName" : "autnum",
+  "redacted" : [ {
+    "name" : {
+      "description" : "Personal e-mail information"
+    },
+    "reason" : {
+      "description" : "Personal data"
+    },
+    "prePath" : "$.entities[?(@.handle=='CC11317-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+    "method" : "removal"
+  }, {
+    "name" : {
+      "description" : "Personal e-mail information"
+    },
+    "reason" : {
+      "description" : "Personal data"
+    },
+    "prePath" : "$.entities[?(@.handle=='ORG-ADIL1-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+    "method" : "removal"
+  }, {
+    "name" : {
+      "description" : "Personal e-mail information"
+    },
+    "reason" : {
+      "description" : "Personal data"
+    },
+    "prePath" : "$.entities[?(@.handle=='AR15502-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+    "method" : "removal"
+  } ]
+}

@@ -1,0 +1,31 @@
+{
+  "bytes": 1302,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T18:40:17+00:00",
+  "content_encoding": null,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://lgeuro.1-ix.net/routeservers/rs2-eu-ipv4?o=asc&s=routes_exported",
+  "http_peer_address": "185.239.24.11",
+  "http_status": 200,
+  "measurement_vantage_country_code": null,
+  "method": "GET",
+  "path": "data/raw/apple-aec-followup/1ix-eu-looking-glass.20261019.html",
+  "publisher": "1-IX",
+  "raw_source_ref": "data/raw/apple-aec-followup/1ix-eu-looking-glass.20261019.html",
+  "response_headers": {
+    "connection": "close",
+    "content-length": "1302",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 19 Oct 2026 18:40:18 GMT",
+    "server": "nginx"
+  },
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Public peer-session lead; a JavaScript shell alone is not evidence of live peer state or cache placement.",
+  "sha256": "4fbee55b9971fc06cdaa2f3e24bbf05fc2f3aa213a575223640deb41132b3291",
+  "source_id": "1ix-eu-looking-glass",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://lgeuro.1-ix.net/routeservers/rs2-eu-ipv4?o=asc&s=routes_exported",
+  "title": "1-IX European route-server looking glass"
+}
