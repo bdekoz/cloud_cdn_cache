@@ -1,0 +1,2421 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -79.39864,
+          43.70643
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Toronto",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "Canada",
+        "country_code": "CA",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Toronto — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 4,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 473,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 341,
+                  "prefix": "17.253.24.0/23"
+                }
+              ],
+              "ip": "17.253.24.105"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 474,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 341,
+                  "prefix": "17.253.24.0/23"
+                }
+              ],
+              "ip": "17.253.24.137"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 729,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 354,
+                  "prefix": "2620:149:a25::/48"
+                }
+              ],
+              "ip": "2620:149:a25:3000::52"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 730,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 354,
+                  "prefix": "2620:149:a25::/48"
+                }
+              ],
+              "ip": "2620:149:a25:4000::52"
+            }
+          ],
+          "geonames_id": "6167865",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:ca-ca-on-toronto",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "ca-ca-on-toronto",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "CA-ON"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -118.24368,
+          34.05223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Los Angeles",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Los Angeles — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 14,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 92,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                },
+                {
+                  "dns_type": 1,
+                  "raw_source_ref": "data/raw/cartography-restoration/apple-doh-dns.20261019.json"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2767,
+                  "prefix": "17.132.91.0/24"
+                }
+              ],
+              "ip": "17.132.91.11"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 93,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                },
+                {
+                  "dns_type": 1,
+                  "raw_source_ref": "data/raw/cartography-restoration/apple-doh-dns.20261019.json"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2767,
+                  "prefix": "17.132.91.0/24"
+                }
+              ],
+              "ip": "17.132.91.12"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 94,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2767,
+                  "prefix": "17.132.91.0/24"
+                }
+              ],
+              "ip": "17.132.91.13"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 95,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                },
+                {
+                  "dns_type": 1,
+                  "raw_source_ref": "data/raw/cartography-restoration/apple-doh-dns.20261019.json"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2767,
+                  "prefix": "17.132.91.0/24"
+                }
+              ],
+              "ip": "17.132.91.14"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 96,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                },
+                {
+                  "dns_type": 1,
+                  "raw_source_ref": "data/raw/cartography-restoration/apple-doh-dns.20261019.json"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2767,
+                  "prefix": "17.132.91.0/24"
+                }
+              ],
+              "ip": "17.132.91.15"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 97,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2767,
+                  "prefix": "17.132.91.0/24"
+                }
+              ],
+              "ip": "17.132.91.16"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 475,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2777,
+                  "prefix": "17.253.82.0/23"
+                }
+              ],
+              "ip": "17.253.82.241"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 476,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2777,
+                  "prefix": "17.253.82.0/23"
+                }
+              ],
+              "ip": "17.253.82.243"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 710,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2783,
+                  "prefix": "2620:149:9cc::/64"
+                }
+              ],
+              "ip": "2620:149:9cc::11"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 711,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2783,
+                  "prefix": "2620:149:9cc::/64"
+                }
+              ],
+              "ip": "2620:149:9cc::12"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 712,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2783,
+                  "prefix": "2620:149:9cc::/64"
+                }
+              ],
+              "ip": "2620:149:9cc::13"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 713,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2783,
+                  "prefix": "2620:149:9cc::/64"
+                }
+              ],
+              "ip": "2620:149:9cc::14"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 714,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2783,
+                  "prefix": "2620:149:9cc::/64"
+                }
+              ],
+              "ip": "2620:149:9cc::15"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 715,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2783,
+                  "prefix": "2620:149:9cc::/64"
+                }
+              ],
+              "ip": "2620:149:9cc::16"
+            }
+          ],
+          "geonames_id": "5368361",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-ca-los-angeles",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-ca-los-angeles",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-CA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.89496,
+          37.33939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "San Jose",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "San Jose — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 4,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 464,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2954,
+                  "prefix": "17.253.4.0/23"
+                }
+              ],
+              "ip": "17.253.4.213"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 465,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2954,
+                  "prefix": "17.253.4.0/23"
+                }
+              ],
+              "ip": "17.253.4.227"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 466,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2954,
+                  "prefix": "17.253.4.0/23"
+                }
+              ],
+              "ip": "17.253.4.247"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 463,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 2954,
+                  "prefix": "17.253.4.0/23"
+                }
+              ],
+              "ip": "17.253.4.85"
+            }
+          ],
+          "geonames_id": "5392171",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-ca-san-jose",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-ca-san-jose",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-CA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.95524,
+          37.35411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Santa Clara",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Santa Clara — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 4,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 469,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3023,
+                  "prefix": "17.253.16.0/23"
+                }
+              ],
+              "ip": "17.253.16.119"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 470,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3023,
+                  "prefix": "17.253.16.0/23"
+                }
+              ],
+              "ip": "17.253.16.247"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 718,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3035,
+                  "prefix": "2620:149:a0c::/48"
+                }
+              ],
+              "ip": "2620:149:a0c:3000::1c2"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 719,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3035,
+                  "prefix": "2620:149:a0c::/48"
+                }
+              ],
+              "ip": "2620:149:a0c:4000::1c2"
+            }
+          ],
+          "geonames_id": "5393015",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-ca-santa-clara",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-ca-santa-clara",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-CA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.9847,
+          39.73915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Denver",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Denver — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 2,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 472,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3137,
+                  "prefix": "17.253.22.0/23"
+                }
+              ],
+              "ip": "17.253.22.119"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 722,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3141,
+                  "prefix": "2620:149:a1e::/48"
+                }
+              ],
+              "ip": "2620:149:a1e:3000::1c2"
+            }
+          ],
+          "geonames_id": "5419384",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-co-denver",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-co-denver",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-CO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.19366,
+          25.77427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Miami",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Miami — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 8,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 680,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::10"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 681,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::3"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 682,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::4"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 683,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::5"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 684,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::6"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 685,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::7"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 686,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::8"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 687,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3294,
+                  "prefix": "2620:149:9c7::/64"
+                }
+              ],
+              "ip": "2620:149:9c7::9"
+            }
+          ],
+          "geonames_id": "4164138",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-fl-miami",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-fl-miami",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-FL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.38798,
+          33.749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Atlanta",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Atlanta — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 8,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 72,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.10"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 65,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.3"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 66,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.4"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 67,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.5"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 68,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.6"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 69,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.7"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 70,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.8"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 71,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3351,
+                  "prefix": "17.132.84.0/24"
+                }
+              ],
+              "ip": "17.132.84.9"
+            }
+          ],
+          "geonames_id": "4180439",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-ga-atlanta",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-ga-atlanta",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-GA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.65005,
+          41.85003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Chicago",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Chicago — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 6,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 723,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3445,
+                  "prefix": "2620:149:a23::/48"
+                }
+              ],
+              "ip": "2620:149:a23:3000::192"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 724,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3445,
+                  "prefix": "2620:149:a23::/48"
+                }
+              ],
+              "ip": "2620:149:a23:3000::1a2"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 725,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3445,
+                  "prefix": "2620:149:a23::/48"
+                }
+              ],
+              "ip": "2620:149:a23:3000::1b2"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 726,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3445,
+                  "prefix": "2620:149:a23::/48"
+                }
+              ],
+              "ip": "2620:149:a23:4000::192"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 727,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3445,
+                  "prefix": "2620:149:a23::/48"
+                }
+              ],
+              "ip": "2620:149:a23:4000::1a2"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 728,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3445,
+                  "prefix": "2620:149:a23::/48"
+                }
+              ],
+              "ip": "2620:149:a23:4000::1b2"
+            }
+          ],
+          "geonames_id": "4887398",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-il-chicago",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-il-chicago",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-IL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -83.22187,
+          42.47337
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Southfield",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Southfield — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 4,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 467,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3670,
+                  "prefix": "17.253.11.0/24"
+                }
+              ],
+              "ip": "17.253.11.103"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 468,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3670,
+                  "prefix": "17.253.11.0/24"
+                }
+              ],
+              "ip": "17.253.11.135"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 716,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3676,
+                  "prefix": "2620:149:a08::/48"
+                }
+              ],
+              "ip": "2620:149:a08:3000::42"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 717,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3676,
+                  "prefix": "2620:149:a08::/48"
+                }
+              ],
+              "ip": "2620:149:a08:4000::42"
+            }
+          ],
+          "geonames_id": "5010636",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-mi-southfield",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-mi-southfield",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-MI"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.17237,
+          40.73566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Newark",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Newark — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 4,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 477,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3874,
+                  "prefix": "17.253.96.0/23"
+                }
+              ],
+              "ip": "17.253.96.119"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 478,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3874,
+                  "prefix": "17.253.96.0/23"
+                }
+              ],
+              "ip": "17.253.96.247"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 720,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3877,
+                  "prefix": "2620:149:a0e::/48"
+                }
+              ],
+              "ip": "2620:149:a0e:3000::1c2"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 721,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3877,
+                  "prefix": "2620:149:a0e::/48"
+                }
+              ],
+              "ip": "2620:149:a0e:4000::1c2"
+            }
+          ],
+          "geonames_id": "5101798",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-nj-newark",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-nj-newark",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-NJ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.05653,
+          40.78955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Secaucus",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Secaucus — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 29,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 73,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.111"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 74,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.112"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 75,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.113"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 76,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.114"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 77,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.115"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 78,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.116"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 79,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.117"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 80,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.118"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 81,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.119"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 82,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.120"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 83,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.121"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 84,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.122"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 85,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3889,
+                  "prefix": "17.132.88.0/24"
+                }
+              ],
+              "ip": "17.132.88.123"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 688,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::111"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 689,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::112"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 690,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::113"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 691,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::114"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 692,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::115"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 693,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::116"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 694,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::117"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 695,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::118"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 696,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::119"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 697,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::120"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 698,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::121"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 699,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::122"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 700,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::123"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 701,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::124"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 702,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::125"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 703,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 3895,
+                  "prefix": "2620:149:9c9::/64"
+                }
+              ],
+              "ip": "2620:149:9c9::126"
+            }
+          ],
+          "geonames_id": "5104504",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-nj-secaucus",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-nj-secaucus",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-NJ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.00597,
+          40.71427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "New York",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "New York — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 4,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 459,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4049,
+                  "prefix": "17.253.2.0/23"
+                }
+              ],
+              "ip": "17.253.2.113"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 460,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4049,
+                  "prefix": "17.253.2.0/23"
+                }
+              ],
+              "ip": "17.253.2.117"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 461,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4049,
+                  "prefix": "17.253.2.0/23"
+                }
+              ],
+              "ip": "17.253.2.241"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 462,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4049,
+                  "prefix": "17.253.2.0/23"
+                }
+              ],
+              "ip": "17.253.2.245"
+            }
+          ],
+          "geonames_id": "5128581",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-ny-new-york",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-ny-new-york",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-NY"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -96.80667,
+          32.78306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Dallas",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Dallas — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 12,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 86,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4367,
+                  "prefix": "17.132.89.0/24"
+                }
+              ],
+              "ip": "17.132.89.11"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 87,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4367,
+                  "prefix": "17.132.89.0/24"
+                }
+              ],
+              "ip": "17.132.89.12"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 88,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4367,
+                  "prefix": "17.132.89.0/24"
+                }
+              ],
+              "ip": "17.132.89.13"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 89,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4367,
+                  "prefix": "17.132.89.0/24"
+                }
+              ],
+              "ip": "17.132.89.14"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 90,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4367,
+                  "prefix": "17.132.89.0/24"
+                }
+              ],
+              "ip": "17.132.89.15"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 91,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4367,
+                  "prefix": "17.132.89.0/24"
+                }
+              ],
+              "ip": "17.132.89.16"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 704,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4393,
+                  "prefix": "2620:149:9cb::/64"
+                }
+              ],
+              "ip": "2620:149:9cb:0:17:132:89:11"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 705,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4393,
+                  "prefix": "2620:149:9cb::/64"
+                }
+              ],
+              "ip": "2620:149:9cb:0:17:132:89:12"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 706,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4393,
+                  "prefix": "2620:149:9cb::/64"
+                }
+              ],
+              "ip": "2620:149:9cb:0:17:132:89:13"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 707,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4393,
+                  "prefix": "2620:149:9cb::/64"
+                }
+              ],
+              "ip": "2620:149:9cb:0:17:132:89:14"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 708,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4393,
+                  "prefix": "2620:149:9cb::/64"
+                }
+              ],
+              "ip": "2620:149:9cb:0:17:132:89:15"
+            },
+            {
+              "evidence": [
+                {
+                  "line": 709,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4393,
+                  "prefix": "2620:149:9cb::/64"
+                }
+              ],
+              "ip": "2620:149:9cb:0:17:132:89:16"
+            }
+          ],
+          "geonames_id": "4684888",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-tx-dallas",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-tx-dallas",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-TX"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.48749,
+          39.04372
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": "Ashburn",
+        "confidence": "medium",
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "geocoded",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "observed_presence",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": null,
+        "name": "Ashburn — Apple DNS over HTTPS",
+        "parent_record_id": null,
+        "properties": {
+          "coordinate_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+          "coordinate_source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+          "endpoint_count": 1,
+          "endpoint_evidence": [
+            {
+              "evidence": [
+                {
+                  "line": 471,
+                  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt"
+                }
+              ],
+              "geofeed_matches": [
+                {
+                  "line": 4519,
+                  "prefix": "17.253.20.0/23"
+                }
+              ],
+              "ip": "17.253.20.247"
+            }
+          ],
+          "geonames_id": "4744870",
+          "grain": "distinct_observed_dns_city",
+          "hostname": "doh.dns.apple.com",
+          "physical_site_confirmed": false,
+          "scope_note": "Partial DNS endpoint geography from observed addresses joined to Apple's most-specific geofeed city. City centroid, not a facility or content cache; endpoint multiplicity is not a site count.",
+          "selection_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+          "selection_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac"
+        },
+        "provider": "Apple",
+        "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+        "record_id": "apple:dns-city:us-us-va-ashburn",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.1.0",
+        "service": "dns_over_https",
+        "service_scope": [
+          "dns_over_https"
+        ],
+        "site_code": null,
+        "source_collection": "apple_doh_city_observations",
+        "source_published_at": null,
+        "source_record_id": "us-us-va-ashburn",
+        "source_scope": "observed",
+        "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+        "source_url": "https://ip-geolocation.apple.com/",
+        "subdivision": "US-VA"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

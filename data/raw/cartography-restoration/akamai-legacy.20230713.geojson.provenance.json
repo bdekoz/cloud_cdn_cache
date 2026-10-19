@@ -1,0 +1,9 @@
+{
+  "media_type": "application/geo+json",
+  "notes": "Exact copy of the retained repository layer. Normalization-only retrieval; original per-record Last Update is 2023-07-12. Preserve historical coordinates and lifecycle.",
+  "raw_source_ref": "data/raw/cartography-restoration/akamai-legacy.20230713.geojson",
+  "retrieved_at": "2026-10-19",
+  "sha256": "7d530045291643bde91a21368dac72926e8008de55a14558e85974e74eb6e542",
+  "source_published_at": "2023-07-12",
+  "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/6a9102cb8f8c95a9f3687feaea5a93d8ae611b5d/data/akamai_13-07-2023.geojson"
+}

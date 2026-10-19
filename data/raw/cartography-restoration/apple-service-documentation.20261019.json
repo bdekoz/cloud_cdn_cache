@@ -1,0 +1,11 @@
+{
+  "downloaded_page_sha256": "66c80e67fd6489102e3d5f6c865d32903f85365b9cf48c45c87004d4d1a235cc",
+  "extraction_note": "Reviewed factual extraction; full downloaded HTML remains a local research input.",
+  "hostname": "doh.dns.apple.com",
+  "port": 443,
+  "reviewed_at": "2026-10-19",
+  "service": "DNS over HTTPS",
+  "source_kind": "Apple enterprise-network service documentation",
+  "source_url": "https://support.apple.com/en-us/101555",
+  "transport": "TCP"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "text/csv",
+  "notes": "Apple-published RFC 8805 IP city hints. No facility coordinates or service attribution; joined only to independently observed DNS addresses.",
+  "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+  "retrieved_at": "2026-10-19",
+  "sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+  "source_published_at": null,
+  "source_url": "https://ip-geolocation.apple.com/"
+}

@@ -1,0 +1,12 @@
+{
+  "downloaded_page_sha256": "ea1984dfa8ae768d0d46b537d76cc74e613a53dbe27ac50925d1ef5908990f3c",
+  "extraction_note": "Reviewed factual extraction; full downloaded HTML remains a local research input.",
+  "hostname": "doh.dns.apple.com",
+  "itemized_apple_geography_present": false,
+  "promised_detailed_list_hyperlink": null,
+  "reported_apple_dns_location_count_lower_bound_exclusive": 236,
+  "reported_operator": "PCH/Woodynet",
+  "reviewed_at": "2026-10-19",
+  "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/",
+  "study_published_at": "2026-06-06"
+}

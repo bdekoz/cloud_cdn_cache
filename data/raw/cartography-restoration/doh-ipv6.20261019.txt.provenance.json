@@ -1,0 +1,9 @@
+{
+  "media_type": "text/plain",
+  "notes": "IPv6 companion to the public DNS observations, same source and partial coverage limitations.",
+  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt",
+  "retrieved_at": "2026-10-19",
+  "sha256": "c8b2e48a1504e67095d1761e0aaae7f2c407d4217701a3d9f269b4d728f15b00",
+  "source_published_at": null,
+  "source_url": "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv6.txt"
+}

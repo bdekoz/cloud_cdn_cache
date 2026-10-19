@@ -115,6 +115,12 @@ Entity-specific values that do not apply to every layer—such as `asset_count`,
 
 Network outputs are `NetworkEvidenceCollection` JSON documents. Records carry independent observation time, retrieval time, source version, raw checksum, validity interval, and confidence. Prefix and ASN relationships are many-to-many and time-bound. Location layers may reference network record IDs in future properties, but network evidence must never overwrite provider-declared location records or manufacture geometry.
 
+## Derived CDN ASN comparisons
+
+[`cdn-comparison.schema.json`](cdn-comparison.schema.json) defines `CdnAsnComparison`, a non-spatial view with one row per numeric ASN. Each row preserves all source AS names, seven nullable provider observation IDs and an optional APNIC allocation/assignment entry. A null provider ID means not observed in the retained study, not verified absence. A null registration means no eligible match in the selected APNIC file, not a negative country classification. Matching entries retain the country code, source line, ASN interval, status and allocation/assignment date.
+
+The collection records its selection, June source dates, October build date and input hashes. APNIC country never fills a location field. The full matrix and India subset are listed separately as `observation_comparison_views` in the manifest and excluded from canonical counts. Apple and India-city GeoJSON views retain exact source features under the existing location schema. See the [implementation and reproduction notes](../docs/cdn-mapping-india-apple.20261019.md).
+
 ## China service and vendor evidence
 
 The [October China implementation](../docs/china-enrichment.20261011.md) uses infrastructure-evidence schema 1.0.0 for AI product regions, API endpoints/templates, model listings, GPU product catalogs, recognized compute facilities, portfolios, cable/station declarations and carrier services. Each collection defines its categories and units. Access/storage region, inference scope, developer, API operator and physical host remain distinct. Aggregate or recognition entries do not become speculative location points.

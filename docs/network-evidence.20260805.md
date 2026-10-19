@@ -109,3 +109,11 @@ make check
 ```
 
 Take a new network snapshot deliberately with `make refresh-network`. This fetches current provider feeds, the bounded RIPEstat sample, and PeeringDB relationships before rebuilding the manifest. Review source terms, changes, and semantic diffs before publication.
+
+## Subsequent cartography sources, 2026-10-19
+
+The [Akamai and Apple DNS update](cartography-restoration.20261019.md) adds 416
+retained Akamai location rows and 14 observed Apple DNS cities in the 20261019
+manifest. Existing ASN and city observations retain their original evidence
+and counts. The Apple layer has service-specific city provenance; the PCH
+aggregate remains an unitemized research lead.

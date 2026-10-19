@@ -1,0 +1,9 @@
+{
+  "media_type": "text/tab-separated-values",
+  "notes": "Selected exact rows from the 2026-10-19 cities500 archive. GeoNames CC BY 4.0; https://www.geonames.org/about.html. Original archive SHA-256: 3f0949d068003cbb7e614275c5a28107a8f4c6b766f704b2bd317004d4cd0527",
+  "raw_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+  "retrieved_at": "2026-10-19",
+  "sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+  "source_published_at": null,
+  "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+}

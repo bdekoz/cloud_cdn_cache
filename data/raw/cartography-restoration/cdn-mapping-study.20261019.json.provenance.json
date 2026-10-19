@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Reviewed factual extraction; full downloaded HTML remains a local research input.",
+  "raw_source_ref": "data/raw/cartography-restoration/cdn-mapping-study.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "9c0ad7d71ff67a300963d9a76a9233d2010bfd38d2d4fad67e76b1f41e4c7451",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+}

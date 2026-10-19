@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Local reviewed identity crosswalk from Apple city hints to retained GeoNames populated places.",
+  "raw_source_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac",
+  "source_published_at": null,
+  "source_url": "https://ip-geolocation.apple.com/"
+}

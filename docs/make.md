@@ -1,6 +1,6 @@
 # Make usage
 
-Date: 2026-08-04; updated 2026-10-11
+Date: 2026-08-04; updated 2026-10-19
 
 The Makefile manages disposable CSV projections, validation, and the bounded network refresh workflow. Schema-normalized GeoJSON is retained for locations, `NetworkEvidenceCollection` JSON is retained for network assertions, and CSV is created only when a consumer needs it. Other provider refreshes remain explicit updater commands.
 
@@ -14,6 +14,8 @@ The current manifest also includes separately counted `InfrastructureEvidenceCol
 - Poppler's `pdftotext` for Russian/Yandex certifications, China's final recognition directory and corporate/carrier filings
 
 Run `make help` for the short command list.
+
+The current October 19 manifest includes the [India/Apple comparisons](cdn-mapping-india-apple.20261019.md). Run `make RETRIEVED_AT=2026-10-19 csv` to include their projections. Direct targets are `make data/india/cdn-asn-comparison.20261019.csv`, `make data/observations/cdn-asn-comparison.20261019.csv`, `make data/observations/apple-asn.20261019.csv` and `make data/india/cdn-cities.20261019.csv`. Matrix CSVs use `scripts/cdn-comparison-to-csv.jq`, retain source observation IDs, and label missing matches `not_observed_in_this_snapshot`. Their JSON sources and the dated APNIC snapshot are retained; generated CSVs are disposable. The comparison validator runs under `make check`.
 
 ## Generate CSV
 

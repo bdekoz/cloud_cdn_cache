@@ -1,0 +1,65 @@
+{
+  "apnic_snapshot": {
+    "delegated_asn_range_count": 13680,
+    "india_delegated_asn_count": 6171,
+    "records_through": "2026-06-05",
+    "resource_record_counts": {
+      "asn": 14553,
+      "ipv4": 58051,
+      "ipv6": 112310
+    },
+    "serial": "20260606",
+    "timezone": "+1000"
+  },
+  "apple_only_asn_count": 0,
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/india/cdn-asn-comparison.20261019.csv",
+      "path": "data/india/cdn-asn-comparison.20261019.csv",
+      "source": "data/india/cdn-asn-comparison.20261019.json"
+    }
+  },
+  "generated_files": [
+    "data/india/cdn-asn-comparison.20261019.json"
+  ],
+  "layer": "india/cdn-asn-comparison",
+  "parser": "update_cdn_comparisons.py",
+  "provider_counts": {
+    "akamai": 65,
+    "apple": 10,
+    "aws-cloudfront": 1,
+    "fna": 198,
+    "ggc": 249,
+    "microsoft": 20,
+    "oca": 115
+  },
+  "record_count": 279,
+  "record_unit": "distinct_asn",
+  "rights_note": "Study downloads have no stated data license; APNIC conditions remain in the raw header.",
+  "schema": "schema/cdn-comparison.schema.json",
+  "schema_version": "1.0.0",
+  "selection": "apnic_registration_country_IN",
+  "source_date_note": "June publication and registry snapshot; October derivation is not a new scan.",
+  "sources": [
+    {
+      "path": "data/observations/cdn-mapping.20260804.geojson",
+      "retrieved_at": "2026-08-04",
+      "role": "provider_asn_observations",
+      "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b",
+      "source_published_at": "2026-06-06"
+    },
+    {
+      "path": "data/raw/apnic/delegated-apnic-extended.20260606.gz",
+      "retrieved_at": "2026-10-19",
+      "role": "asn_registration_country",
+      "sha256": "e7ac6245d8951aaa498b0f99a4e745cd80043bbfeb0f40c48d42cbce6adc56c8",
+      "source_published_at": "2026-06-06",
+      "source_url": "https://ftp.apnic.net/stats/apnic/2026/delegated-apnic-extended-20260606.gz"
+    }
+  ],
+  "unknown_apnic_country_count": 0,
+  "unmatched_apnic_asn_count": 0,
+  "view_excluded_from_canonical_totals": true,
+  "view_of": "observations/cdn-mapping"
+}

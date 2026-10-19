@@ -1,0 +1,6483 @@
+{
+  "built_at": "2026-10-19",
+  "excluded_from_canonical_totals": true,
+  "missing_provider_semantics": "not_observed_in_this_snapshot",
+  "provider_columns": [
+    {
+      "dataset": "Google GGC",
+      "key": "ggc",
+      "provider": "Google"
+    },
+    {
+      "dataset": "Netflix OCA",
+      "key": "oca",
+      "provider": "Netflix"
+    },
+    {
+      "dataset": "Facebook/Meta FNA",
+      "key": "fna",
+      "provider": "Meta"
+    },
+    {
+      "dataset": "Akamai",
+      "key": "akamai",
+      "provider": "Akamai"
+    },
+    {
+      "dataset": "Microsoft CDN",
+      "key": "microsoft",
+      "provider": "Microsoft"
+    },
+    {
+      "dataset": "Apple",
+      "key": "apple",
+      "provider": "Apple"
+    },
+    {
+      "dataset": "AWS CloudFront",
+      "key": "aws-cloudfront",
+      "provider": "Amazon Web Services"
+    }
+  ],
+  "records": [
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "1999-03-09",
+        "source_line": 171042,
+        "start_asn": 9498,
+        "status": "allocated"
+      },
+      "as_names": [
+        "BHARTI Airtel Ltd."
+      ],
+      "asn": 9498,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-9498",
+        "apple": "observation:observed_presence:apple-9498",
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-9498",
+        "ggc": "observation:observed_presence:ggc-9498",
+        "microsoft": "observation:observed_presence:microsoft-9498",
+        "oca": "observation:observed_presence:oca-9498"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "1999-07-23",
+        "source_line": 171103,
+        "start_asn": 9583,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sify Limited"
+      ],
+      "asn": 9583,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-9583",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-9583",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-9583"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2000-01-19",
+        "source_line": 171215,
+        "start_asn": 9829,
+        "status": "allocated"
+      },
+      "as_names": [
+        "National Internet Backbone"
+      ],
+      "asn": 9829,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-9829",
+        "apple": "observation:observed_presence:apple-9829",
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-9829",
+        "ggc": "observation:observed_presence:ggc-9829",
+        "microsoft": "observation:observed_presence:microsoft-9829",
+        "oca": "observation:observed_presence:oca-9829"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2000-06-14",
+        "source_line": 171303,
+        "start_asn": 10029,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SHYAM SPECTRA PVT LTD"
+      ],
+      "asn": 10029,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-10029",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2000-11-16",
+        "source_line": 171479,
+        "start_asn": 17465,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Cable ISP in India"
+      ],
+      "asn": 17465,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17465",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17465",
+        "ggc": "observation:observed_presence:ggc-17465",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-17465"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2000-11-24",
+        "source_line": 171497,
+        "start_asn": 17483,
+        "status": "allocated"
+      },
+      "as_names": [
+        "CityOnline Services Ltd"
+      ],
+      "asn": 17483,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17483",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17483",
+        "ggc": "observation:observed_presence:ggc-17483",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-17483"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2000-11-28",
+        "source_line": 171502,
+        "start_asn": 17488,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Hathway IP Over Cable Internet"
+      ],
+      "asn": 17488,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17488",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17488",
+        "ggc": "observation:observed_presence:ggc-17488",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-17488"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-01-22",
+        "source_line": 171556,
+        "start_asn": 17625,
+        "status": "allocated"
+      },
+      "as_names": [
+        "BlazeNet's Network"
+      ],
+      "asn": 17625,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17625",
+        "ggc": "observation:observed_presence:ggc-17625",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-03-14",
+        "source_line": 171594,
+        "start_asn": 17665,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ONEOTT INTERTAINMENT LIMITED"
+      ],
+      "asn": 17665,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17665",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17665",
+        "ggc": "observation:observed_presence:ggc-17665",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-17665"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-05-04",
+        "source_line": 171635,
+        "start_asn": 17747,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SITI NETWORKS LIMITED"
+      ],
+      "asn": 17747,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17747",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17747",
+        "ggc": "observation:observed_presence:ggc-17747",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-17747"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-05-21",
+        "source_line": 171642,
+        "start_asn": 17754,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Excellmedia"
+      ],
+      "asn": 17754,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17754",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17754",
+        "ggc": "observation:observed_presence:ggc-17754",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-17754"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-05-28",
+        "source_line": 171650,
+        "start_asn": 17762,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Tata Teleservices Maharashtra Ltd"
+      ],
+      "asn": 17762,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17762",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-06-01",
+        "source_line": 171659,
+        "start_asn": 17771,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Southern Online Bio Technologies Ltd"
+      ],
+      "asn": 17771,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-17771",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-07-09",
+        "source_line": 171689,
+        "start_asn": 17813,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Mahanagar Telephone Nigam Limited"
+      ],
+      "asn": 17813,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17813",
+        "apple": "observation:observed_presence:apple-17813",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-17813",
+        "microsoft": "observation:observed_presence:microsoft-17813",
+        "oca": "observation:observed_presence:oca-17813"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2001-08-24",
+        "source_line": 171740,
+        "start_asn": 17917,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Quadrant Televentures Limited"
+      ],
+      "asn": 17917,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-17917",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-17917",
+        "ggc": "observation:observed_presence:ggc-17917",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-17917"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2002-02-15",
+        "source_line": 171787,
+        "start_asn": 18002,
+        "status": "allocated"
+      },
+      "as_names": [
+        "AS Number for Interdomain Routing"
+      ],
+      "asn": 18002,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-18002",
+        "ggc": "observation:observed_presence:ggc-18002",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-18002"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2002-04-19",
+        "source_line": 171891,
+        "start_asn": 18196,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Seven Star Internet Service Provider"
+      ],
+      "asn": 18196,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-18196",
+        "ggc": "observation:observed_presence:ggc-18196",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2002-05-07",
+        "source_line": 171902,
+        "start_asn": 18207,
+        "status": "allocated"
+      },
+      "as_names": [
+        "YOU Broadband & Cable India Ltd."
+      ],
+      "asn": 18207,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-18207",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-18207",
+        "ggc": "observation:observed_presence:ggc-18207",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-18207"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2007-02-05",
+        "source_line": 171904,
+        "start_asn": 18209,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Atria Convergence Technologies Ltd.,"
+      ],
+      "asn": 18209,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-18209",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-18209",
+        "ggc": "observation:observed_presence:ggc-18209",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-18209"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2005-04-06",
+        "source_line": 171924,
+        "start_asn": 18229,
+        "status": "allocated"
+      },
+      "as_names": [
+        "CtrlS"
+      ],
+      "asn": 18229,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-18229",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-18229",
+        "ggc": "observation:observed_presence:ggc-18229",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-18229"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2005-08-31",
+        "source_line": 172158,
+        "start_asn": 23860,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Alliance Broadband Services Pvt. Ltd."
+      ],
+      "asn": 23860,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-23860",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-23860",
+        "ggc": "observation:observed_presence:ggc-23860",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-23860"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2005-10-28",
+        "source_line": 172418,
+        "start_asn": 24186,
+        "status": "allocated"
+      },
+      "as_names": [
+        "RailTel Corporation of India Ltd"
+      ],
+      "asn": 24186,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-24186",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-24186",
+        "ggc": "observation:observed_presence:ggc-24186",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-24186"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2004-12-08",
+        "source_line": 172470,
+        "start_asn": 24309,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA"
+      ],
+      "asn": 24309,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-24309",
+        "apple": "observation:observed_presence:apple-24309",
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-24309",
+        "ggc": "observation:observed_presence:ggc-24309",
+        "microsoft": "observation:observed_presence:microsoft-24309",
+        "oca": "observation:observed_presence:oca-24309"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2006-02-02",
+        "source_line": 172635,
+        "start_asn": 24554,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Microscan Internet Limited"
+      ],
+      "asn": 24554,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-24554",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-24554",
+        "ggc": "observation:observed_presence:ggc-24554",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-24554"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2006-02-13",
+        "source_line": 172641,
+        "start_asn": 24560,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Bharti Airtel Ltd., Telemedia Services"
+      ],
+      "asn": 24560,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-24560",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2006-08-28",
+        "source_line": 172833,
+        "start_asn": 38207,
+        "status": "allocated"
+      },
+      "as_names": [
+        "RAJESH DIGITAL & DATACOM PRIVATE LIMITED"
+      ],
+      "asn": 38207,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-38207",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-38207"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2006-10-17",
+        "source_line": 172881,
+        "start_asn": 38266,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Vodafone Idea Ltd"
+      ],
+      "asn": 38266,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-38266",
+        "apple": "observation:observed_presence:apple-38266",
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-38266",
+        "ggc": "observation:observed_presence:ggc-38266",
+        "microsoft": "observation:observed_presence:microsoft-38266",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2007-05-21",
+        "source_line": 173055,
+        "start_asn": 38571,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Star Broadband Services"
+      ],
+      "asn": 38571,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-38571"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-02-26",
+        "source_line": 173244,
+        "start_asn": 45117,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Ishan's Network"
+      ],
+      "asn": 45117,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45117",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45117",
+        "ggc": "observation:observed_presence:ggc-45117",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45117"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-04-18",
+        "source_line": 173306,
+        "start_asn": 45184,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Den Digital Entertainment Pvt. Ltd. AS ISP india"
+      ],
+      "asn": 45184,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45184",
+        "ggc": "observation:observed_presence:ggc-45184",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45184"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-04-28",
+        "source_line": 173316,
+        "start_asn": 45194,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Syscon Infoway Pvt. Ltd."
+      ],
+      "asn": 45194,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45194",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45194",
+        "ggc": "observation:observed_presence:ggc-45194",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45194"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-07-18",
+        "source_line": 173390,
+        "start_asn": 45271,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Vodafone Idea Ltd"
+      ],
+      "asn": 45271,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45271",
+        "ggc": "observation:observed_presence:ggc-45271",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-08-25",
+        "source_line": 173446,
+        "start_asn": 45415,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Vasai Cable Pvt. Ltd."
+      ],
+      "asn": 45415,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45415",
+        "ggc": "observation:observed_presence:ggc-45415",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45415"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-11-21",
+        "source_line": 173550,
+        "start_asn": 45528,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Tikona Infinet Ltd."
+      ],
+      "asn": 45528,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45528",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45528",
+        "ggc": "observation:observed_presence:ggc-45528",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45528"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-11-26",
+        "source_line": 173558,
+        "start_asn": 45536,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Readylink Internet Services Limited"
+      ],
+      "asn": 45536,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45536",
+        "ggc": "observation:observed_presence:ggc-45536",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45536"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2008-12-19",
+        "source_line": 173582,
+        "start_asn": 45582,
+        "status": "allocated"
+      },
+      "as_names": [
+        "VAINAVI INDUSTIES LTD, INTERNET SERVICE PROVIDER, INDIA"
+      ],
+      "asn": 45582,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45582",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45582",
+        "ggc": "observation:observed_presence:ggc-45582",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45582"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-03-09",
+        "source_line": 173640,
+        "start_asn": 45648,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Bell Teleservices India Pvt Ltd., ISP having own OFC network in Bangalore, India."
+      ],
+      "asn": 45648,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45648",
+        "ggc": "observation:observed_presence:ggc-45648",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45648"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-05-06",
+        "source_line": 173703,
+        "start_asn": 45769,
+        "status": "allocated"
+      },
+      "as_names": [
+        "D-Vois Broadband Pvt Ltd"
+      ],
+      "asn": 45769,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45769",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45769",
+        "ggc": "observation:observed_presence:ggc-45769",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45769"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-05-12",
+        "source_line": 173709,
+        "start_asn": 45775,
+        "status": "allocated"
+      },
+      "as_names": [
+        "WISH NET PRIVATE LIMITED"
+      ],
+      "asn": 45775,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45775",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45775",
+        "ggc": "observation:observed_presence:ggc-45775",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45775"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-06-18",
+        "source_line": 173736,
+        "start_asn": 45804,
+        "status": "allocated"
+      },
+      "as_names": [
+        "MEGHBELA BROADBAND"
+      ],
+      "asn": 45804,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45804",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45804",
+        "ggc": "observation:observed_presence:ggc-45804",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45804"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-06-26",
+        "source_line": 173751,
+        "start_asn": 45820,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Tata Teleservices ISP AS"
+      ],
+      "asn": 45820,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45820",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45820",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-08-21",
+        "source_line": 173811,
+        "start_asn": 45884,
+        "status": "allocated"
+      },
+      "as_names": [
+        "RVR Infrastructure Limited Service provider hyderabad india"
+      ],
+      "asn": 45884,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-45884",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-01-25",
+        "source_line": 173833,
+        "start_asn": 45916,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Gujarat Telelink Pvt Ltd"
+      ],
+      "asn": 45916,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-45916",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45916",
+        "ggc": "observation:observed_presence:ggc-45916",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45916"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-10-22",
+        "source_line": 173857,
+        "start_asn": 45942,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sikka Broadband Pvt. Ltd."
+      ],
+      "asn": 45942,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-45942",
+        "ggc": "observation:observed_presence:ggc-45942",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-45942"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-12-18",
+        "source_line": 173924,
+        "start_asn": 55341,
+        "status": "allocated"
+      },
+      "as_names": [
+        "51/A RACHNA MIDAS GOKULPETH"
+      ],
+      "asn": 55341,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-55341",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-55341"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 2,
+        "country_code": "IN",
+        "delegated_at": "2009-12-30",
+        "source_line": 173932,
+        "start_asn": 55351,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Microscan Internet Limited"
+      ],
+      "asn": 55352,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-55352",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-55352",
+        "ggc": "observation:observed_presence:ggc-55352",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-55352"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-12-31",
+        "source_line": 173933,
+        "start_asn": 55353,
+        "status": "allocated"
+      },
+      "as_names": [
+        "RAJESH PATEL NET SERVICES PVT. LTD."
+      ],
+      "asn": 55353,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-55353",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-02-09",
+        "source_line": 173965,
+        "start_asn": 55410,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Vodafone Idea Ltd"
+      ],
+      "asn": 55410,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-55410",
+        "apple": "observation:observed_presence:apple-55410",
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-55410",
+        "ggc": "observation:observed_presence:ggc-55410",
+        "microsoft": "observation:observed_presence:microsoft-55410",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-08-24",
+        "source_line": 174182,
+        "start_asn": 55734,
+        "status": "allocated"
+      },
+      "as_names": [
+        "001 IT Complex"
+      ],
+      "asn": 55734,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-55734",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-10-14",
+        "source_line": 174257,
+        "start_asn": 55814,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Siliguri Internet & Cable TV Pvt. Ltd."
+      ],
+      "asn": 55814,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-55814",
+        "ggc": "observation:observed_presence:ggc-55814",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-10-19",
+        "source_line": 174267,
+        "start_asn": 55824,
+        "status": "allocated"
+      },
+      "as_names": [
+        "NKN Core Network"
+      ],
+      "asn": 55824,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-55824",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-55824",
+        "ggc": "observation:observed_presence:ggc-55824",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-10-27",
+        "source_line": 174279,
+        "start_asn": 55836,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Reliance Jio Infocomm Limited"
+      ],
+      "asn": 55836,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-55836",
+        "apple": "observation:observed_presence:apple-55836",
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-55836",
+        "ggc": "observation:observed_presence:ggc-55836",
+        "microsoft": "observation:observed_presence:microsoft-55836",
+        "oca": "observation:observed_presence:oca-55836"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-11-10",
+        "source_line": 174304,
+        "start_asn": 55862,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Wan & Lan Internet Pvt Ltd"
+      ],
+      "asn": 55862,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-55862",
+        "ggc": "observation:observed_presence:ggc-55862",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-55862"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-12-21",
+        "source_line": 174363,
+        "start_asn": 55947,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Bangalore Broadband Network Pvt Ltd"
+      ],
+      "asn": 55947,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-55947",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-55947",
+        "ggc": "observation:observed_presence:ggc-55947",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-55947"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2011-04-19",
+        "source_line": 174534,
+        "start_asn": 56209,
+        "status": "allocated"
+      },
+      "as_names": [
+        "AIRLINK TELESERVICES PRIVATE LIMITED"
+      ],
+      "asn": 56209,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-56209",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-56209",
+        "ggc": "observation:observed_presence:ggc-56209",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2011-05-09",
+        "source_line": 174562,
+        "start_asn": 56268,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Northeast Dataa Network Pvt Ltd"
+      ],
+      "asn": 56268,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-56268",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-56268",
+        "ggc": "observation:observed_presence:ggc-56268",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-56268"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2012-08-10",
+        "source_line": 174816,
+        "start_asn": 58678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Intech Online Private Limited"
+      ],
+      "asn": 58678,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-58678",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-58678",
+        "ggc": "observation:observed_presence:ggc-58678",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-58678"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2012-12-10",
+        "source_line": 174888,
+        "start_asn": 58758,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Candor infosolution Pvt Ltd"
+      ],
+      "asn": 58762,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-58762",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2012-12-10",
+        "source_line": 174888,
+        "start_asn": 58758,
+        "status": "allocated"
+      },
+      "as_names": [
+        "B TEL INTERNET PRIVATE LIMITED"
+      ],
+      "asn": 58765,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-58765",
+        "ggc": "observation:observed_presence:ggc-58765",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-58765"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 174950,
+        "start_asn": 58897,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Rainbow communications India Pvt Ltd"
+      ],
+      "asn": 58898,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-58898",
+        "ggc": "observation:observed_presence:ggc-58898",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-58898"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 174950,
+        "start_asn": 58897,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Shivansh Infotech pvt Ltd"
+      ],
+      "asn": 58906,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-58906",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 175004,
+        "start_asn": 58963,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Infonet online solutions private limited"
+      ],
+      "asn": 58963,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-58963",
+        "ggc": "observation:observed_presence:ggc-58963",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 175004,
+        "start_asn": 58963,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ANJANI BROADBAND SOLUTIONS PVT.LTD."
+      ],
+      "asn": 58965,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-58965",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-58965",
+        "ggc": "observation:observed_presence:ggc-58965",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-58965"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 175004,
+        "start_asn": 58963,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Shine Communications Pvt Ltd"
+      ],
+      "asn": 58971,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-58971",
+        "ggc": "observation:observed_presence:ggc-58971",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-09-09",
+        "source_line": 175027,
+        "start_asn": 59161,
+        "status": "allocated"
+      },
+      "as_names": [
+        "U.P. COMMUNICATION SERVICES PVT LTD"
+      ],
+      "asn": 59162,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-59162",
+        "ggc": "observation:observed_presence:ggc-59162",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-59162"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-09-09",
+        "source_line": 175027,
+        "start_asn": 59161,
+        "status": "allocated"
+      },
+      "as_names": [
+        "NETRUN TECHNOLOGIES PVT LTD"
+      ],
+      "asn": 59185,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-59185",
+        "ggc": "observation:observed_presence:ggc-59185",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-59185"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-09-09",
+        "source_line": 175027,
+        "start_asn": 59161,
+        "status": "allocated"
+      },
+      "as_names": [
+        "PEERCAST TELECOM INDIA PVT LTD"
+      ],
+      "asn": 59191,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-59191",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2010-02-12",
+        "source_line": 175446,
+        "start_asn": 131210,
+        "status": "allocated"
+      },
+      "as_names": [
+        "2713/4 lakshmi building adipampa road v.v.mohalla"
+      ],
+      "asn": 131210,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-131210",
+        "ggc": "observation:observed_presence:ggc-131210",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-131210"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-08-21",
+        "source_line": 175450,
+        "start_asn": 131215,
+        "status": "allocated"
+      },
+      "as_names": [
+        "116 MADHAV DARSHAN"
+      ],
+      "asn": 131215,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-131215",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2009-12-14",
+        "source_line": 175503,
+        "start_asn": 131269,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Atria Convergence Technologies Ltd.,"
+      ],
+      "asn": 131269,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-131269",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-131269",
+        "ggc": "observation:observed_presence:ggc-131269",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-131269"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2011-06-27",
+        "source_line": 175579,
+        "start_asn": 131442,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Digital Network Associates Pvt Ltd"
+      ],
+      "asn": 131442,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-131442",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2016-08-02",
+        "source_line": 175756,
+        "start_asn": 132115,
+        "status": "allocated"
+      },
+      "as_names": [
+        "INDINET SERVICE PRIVATE LIMITED"
+      ],
+      "asn": 132115,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-132115",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132115",
+        "ggc": "observation:observed_presence:ggc-132115",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132115"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2012-01-13",
+        "source_line": 175757,
+        "start_asn": 132116,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Anonet Network Private Limited"
+      ],
+      "asn": 132116,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-132116",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132116",
+        "ggc": "observation:observed_presence:ggc-132116",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132116"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2012-02-09",
+        "source_line": 175778,
+        "start_asn": 132137,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Shree Omkar Infocom Pvt Ltd"
+      ],
+      "asn": 132137,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132137",
+        "ggc": "observation:observed_presence:ggc-132137",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132137"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2012-03-27",
+        "source_line": 175846,
+        "start_asn": 132220,
+        "status": "allocated"
+      },
+      "as_names": [
+        "JPR Digital Pvt. Ltd."
+      ],
+      "asn": 132220,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132220",
+        "ggc": "observation:observed_presence:ggc-132220",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132220"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2016-08-16",
+        "source_line": 175920,
+        "start_asn": 132296,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Seven Star Digital Network Private Limited"
+      ],
+      "asn": 132296,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-132296",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132296",
+        "ggc": "observation:observed_presence:ggc-132296",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132296"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2012-07-11",
+        "source_line": 175947,
+        "start_asn": 132323,
+        "status": "allocated"
+      },
+      "as_names": [
+        "PERFECT INTERNET PVT LTD"
+      ],
+      "asn": 132323,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132323",
+        "ggc": "observation:observed_presence:ggc-132323",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2012-10-16",
+        "source_line": 176075,
+        "start_asn": 132453,
+        "status": "allocated"
+      },
+      "as_names": [
+        "TRIPLE PLAY BROADBAND PRIVATE LIMITED"
+      ],
+      "asn": 132453,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132453",
+        "ggc": "observation:observed_presence:ggc-132453",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132453"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2012-11-23",
+        "source_line": 176118,
+        "start_asn": 132497,
+        "status": "allocated"
+      },
+      "as_names": [
+        "DIGITAL NETWORK ASSOCIATES PRIVATE LIMITED"
+      ],
+      "asn": 132497,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-132497",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132497",
+        "ggc": "observation:observed_presence:ggc-132497",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132497"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 6,
+        "country_code": "IN",
+        "delegated_at": "2013-01-14",
+        "source_line": 176165,
+        "start_asn": 132555,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Gatik Business Solutions"
+      ],
+      "asn": 132559,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-132559",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132559",
+        "ggc": "observation:observed_presence:ggc-132559",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132559"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 176290,
+        "start_asn": 132746,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Realtel Network Services Pvt Ltd"
+      ],
+      "asn": 132754,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132754",
+        "ggc": "observation:observed_presence:ggc-132754",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132754"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 176290,
+        "start_asn": 132746,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Smartlink Solutions Pvt. Ltd."
+      ],
+      "asn": 132761,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-132761",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 176290,
+        "start_asn": 132746,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Five network Broadband Solution Pvt Ltd"
+      ],
+      "asn": 132768,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132768",
+        "ggc": "observation:observed_presence:ggc-132768",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132768"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 176290,
+        "start_asn": 132746,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Gazon Communications India Limited"
+      ],
+      "asn": 132770,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-132770",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132770",
+        "ggc": "observation:observed_presence:ggc-132770",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132770"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 176290,
+        "start_asn": 132746,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Fibre Air Services Private Limited"
+      ],
+      "asn": 132771,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132771",
+        "ggc": "observation:observed_presence:ggc-132771",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132771"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2013-04-17",
+        "source_line": 176290,
+        "start_asn": 132746,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Niss Internet services private limited"
+      ],
+      "asn": 132774,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-132774",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Charotar Telelink Pvt Ltd"
+      ],
+      "asn": 132933,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132933",
+        "ggc": "observation:observed_presence:ggc-132933",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Skymax Broadband Services Pvt. Ltd."
+      ],
+      "asn": 132934,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132934",
+        "ggc": "observation:observed_presence:ggc-132934",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132934"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Pintwire Infomatics Private Limited"
+      ],
+      "asn": 132957,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-132957",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Mukand Infotel Pvt Ltd."
+      ],
+      "asn": 132960,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132960",
+        "ggc": "observation:observed_presence:ggc-132960",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Kings Broadband Pvt Ltd"
+      ],
+      "asn": 132976,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132976",
+        "ggc": "observation:observed_presence:ggc-132976",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132976"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Threesa Infoway Pvt.Ltd."
+      ],
+      "asn": 132996,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-132996",
+        "ggc": "observation:observed_presence:ggc-132996",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-132996"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Airnet Cable And Datacom Pvt Ltd"
+      ],
+      "asn": 133001,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133001",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133001",
+        "ggc": "observation:observed_presence:ggc-133001",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133001"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2013-07-22",
+        "source_line": 176422,
+        "start_asn": 132922,
+        "status": "allocated"
+      },
+      "as_names": [
+        "UCN CABLE NETWORK PVT. LTD"
+      ],
+      "asn": 133007,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133007",
+        "ggc": "observation:observed_presence:ggc-133007",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133007"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SAMPARK ESTATES PVT. LTD."
+      ],
+      "asn": 133232,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133232",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133232",
+        "ggc": "observation:observed_presence:ggc-133232",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133232"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Elxer Communications Private Limited"
+      ],
+      "asn": 133255,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-133255",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Gigantic Infotel Pvt Ltd"
+      ],
+      "asn": 133275,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133275",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133275",
+        "ggc": "observation:observed_presence:ggc-133275",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133275"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Dehradun Enet Solutions Private Ltd"
+      ],
+      "asn": 133278,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-133278",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133278"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Andhra Pradesh State FiberNet Limited"
+      ],
+      "asn": 133287,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133287",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133287",
+        "ggc": "observation:observed_presence:ggc-133287",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133287"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Soibam Technology Private Limited"
+      ],
+      "asn": 133300,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-133300",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "DWANIRINN"
+      ],
+      "asn": 133301,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133301",
+        "ggc": "observation:observed_presence:ggc-133301",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133301"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 90,
+        "country_code": "IN",
+        "delegated_at": "2014-01-22",
+        "source_line": 176631,
+        "start_asn": 133230,
+        "status": "allocated"
+      },
+      "as_names": [
+        "TERRAFIBER NETWORKS PRIVATE LIMITED"
+      ],
+      "asn": 133315,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-133315",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 10,
+        "country_code": "IN",
+        "delegated_at": "2014-08-27",
+        "source_line": 176844,
+        "start_asn": 133589,
+        "status": "allocated"
+      },
+      "as_names": [
+        "VIZAG BROADCASTING COMPANY PVT. LTD"
+      ],
+      "asn": 133593,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133593",
+        "ggc": "observation:observed_presence:ggc-133593",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133593"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2023-09-06",
+        "source_line": 176865,
+        "start_asn": 133619,
+        "status": "allocated"
+      },
+      "as_names": [
+        "DESIVPS"
+      ],
+      "asn": 133619,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133619",
+        "apple": "observation:observed_presence:apple-133619",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-133619",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 22,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176883,
+        "start_asn": 133638,
+        "status": "allocated"
+      },
+      "as_names": [
+        "MNR Broadband Services Pvt. Ltd."
+      ],
+      "asn": 133648,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133648",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133648",
+        "ggc": "observation:observed_presence:ggc-133648",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133648"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 22,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176883,
+        "start_asn": 133638,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Zapbytes Technologies Pvt. Ltd."
+      ],
+      "asn": 133652,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133652",
+        "ggc": "observation:observed_presence:ggc-133652",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 5,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176885,
+        "start_asn": 133661,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Netplus Broadband Services Private Limited"
+      ],
+      "asn": 133661,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133661",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133661",
+        "ggc": "observation:observed_presence:ggc-133661",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133661"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 61,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176887,
+        "start_asn": 133667,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Precious netcom pvt ltd"
+      ],
+      "asn": 133676,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133676",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133676",
+        "ggc": "observation:observed_presence:ggc-133676",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133676"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 61,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176887,
+        "start_asn": 133667,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Vizag Broadband Communications Pvt Ltd"
+      ],
+      "asn": 133678,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-133678",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 61,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176887,
+        "start_asn": 133667,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SDN TELECOM PVT LTD"
+      ],
+      "asn": 133685,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133685",
+        "ggc": "observation:observed_presence:ggc-133685",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133685"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 61,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176887,
+        "start_asn": 133667,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Home Broadband Services LLP"
+      ],
+      "asn": 133711,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133711",
+        "ggc": "observation:observed_presence:ggc-133711",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 61,
+        "country_code": "IN",
+        "delegated_at": "2014-09-15",
+        "source_line": 176887,
+        "start_asn": 133667,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Zess Networks Private Limited"
+      ],
+      "asn": 133720,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133720",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133720",
+        "ggc": "observation:observed_presence:ggc-133720",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133720"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Logon Broadband"
+      ],
+      "asn": 133968,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133968",
+        "ggc": "observation:observed_presence:ggc-133968",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Excitel Broadband Private Limited"
+      ],
+      "asn": 133982,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-133982",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133982",
+        "ggc": "observation:observed_presence:ggc-133982",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-133982"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SBR Telecom Pvt. Ltd"
+      ],
+      "asn": 133989,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-133989",
+        "ggc": "observation:observed_presence:ggc-133989",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Foxtel Telecommunications Pvt. Ltd."
+      ],
+      "asn": 134004,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134004",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Laxmi Internet Services Pvt Ltd"
+      ],
+      "asn": 134012,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134012",
+        "ggc": "observation:observed_presence:ggc-134012",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "NET 4 U SERVICES PVT LTD"
+      ],
+      "asn": 134014,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134014",
+        "ggc": "observation:observed_presence:ggc-134014",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134014"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Airgenie Communications Private Limited"
+      ],
+      "asn": 134021,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134021",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Genstar Network Solutions Pvt Ltd."
+      ],
+      "asn": 134022,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134022",
+        "ggc": "observation:observed_presence:ggc-134022",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Ultranet services private limited"
+      ],
+      "asn": 134026,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134026",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134026"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Mithril Telecommunications Private Limited"
+      ],
+      "asn": 134033,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-134033",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134033",
+        "ggc": "observation:observed_presence:ggc-134033",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134033"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2015-02-11",
+        "source_line": 177071,
+        "start_asn": 133961,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ETHERNET XPRESS PVT. LTD."
+      ],
+      "asn": 134053,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134053",
+        "ggc": "observation:observed_presence:ggc-134053",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134053"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 15,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177256,
+        "start_asn": 134246,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Bhawani Cable and Broadband Services"
+      ],
+      "asn": 134258,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134258",
+        "ggc": "observation:observed_presence:ggc-134258",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 15,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177256,
+        "start_asn": 134246,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Skynet"
+      ],
+      "asn": 134259,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134259",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 84,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177258,
+        "start_asn": 134262,
+        "status": "allocated"
+      },
+      "as_names": [
+        "IAXN Telecom Pvt. Ltd."
+      ],
+      "asn": 134316,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134316"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 84,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177258,
+        "start_asn": 134262,
+        "status": "allocated"
+      },
+      "as_names": [
+        "JETSPOTNETWORKS PVT LTD"
+      ],
+      "asn": 134325,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134325",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 84,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177258,
+        "start_asn": 134262,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Airdesign Broadcast Media Pvt Ltd"
+      ],
+      "asn": 134326,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134326",
+        "ggc": "observation:observed_presence:ggc-134326",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 84,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177258,
+        "start_asn": 134262,
+        "status": "allocated"
+      },
+      "as_names": [
+        "cloudsky superfast broadband and services Pvt Ltd"
+      ],
+      "asn": 134340,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134340",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 84,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177258,
+        "start_asn": 134262,
+        "status": "allocated"
+      },
+      "as_names": [
+        "jdm broadband services pvt ltd"
+      ],
+      "asn": 134341,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134341",
+        "ggc": "observation:observed_presence:ggc-134341",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 84,
+        "country_code": "IN",
+        "delegated_at": "2015-06-17",
+        "source_line": 177258,
+        "start_asn": 134262,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Giga5 Fiber Network Private Limited"
+      ],
+      "asn": 134345,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134345",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2015-07-09",
+        "source_line": 177288,
+        "start_asn": 134375,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Fusionnet Web Services Private Limited"
+      ],
+      "asn": 134375,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-134375",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134375",
+        "ggc": null,
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134375"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2015-09-11",
+        "source_line": 177525,
+        "start_asn": 134674,
+        "status": "allocated"
+      },
+      "as_names": [
+        "TATA PLAY BROADBAND PRIVATE LIMITED"
+      ],
+      "asn": 134674,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134674",
+        "ggc": "observation:observed_presence:ggc-134674",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134674"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 72,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177679,
+        "start_asn": 134848,
+        "status": "allocated"
+      },
+      "as_names": [
+        "iForce Networks"
+      ],
+      "asn": 134858,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134858",
+        "ggc": "observation:observed_presence:ggc-134858",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 72,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177679,
+        "start_asn": 134848,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sscn Pvt Ltd"
+      ],
+      "asn": 134866,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134866",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 72,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177679,
+        "start_asn": 134848,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sri Vari Network Private Limited"
+      ],
+      "asn": 134877,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134877"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 72,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177679,
+        "start_asn": 134848,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Wsns Pvt. Ltd."
+      ],
+      "asn": 134883,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134883",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 72,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177679,
+        "start_asn": 134848,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ARICHWAL IT SERVICES PRIVATE LIMITED"
+      ],
+      "asn": 134884,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134884",
+        "ggc": "observation:observed_presence:ggc-134884",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 72,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177679,
+        "start_asn": 134848,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Super Sonic Broadband Pvt Ltd"
+      ],
+      "asn": 134886,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134886",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 72,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177679,
+        "start_asn": 134848,
+        "status": "allocated"
+      },
+      "as_names": [
+        "JETWAY BROADBAND INDIA PVT LTD"
+      ],
+      "asn": 134913,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134913",
+        "ggc": "observation:observed_presence:ggc-134913",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 6,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177681,
+        "start_asn": 134921,
+        "status": "allocated"
+      },
+      "as_names": [
+        "R G TECHNOSOLUTIONS PVT LTD"
+      ],
+      "asn": 134922,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134922",
+        "ggc": "observation:observed_presence:ggc-134922",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 20,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177683,
+        "start_asn": 134928,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Spiderlink Networks Pvt Ltd"
+      ],
+      "asn": 134928,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134928",
+        "ggc": "observation:observed_presence:ggc-134928",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134928"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 20,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177683,
+        "start_asn": 134928,
+        "status": "allocated"
+      },
+      "as_names": [
+        "VORTEX INFOWAY PRIVATE LIMITED"
+      ],
+      "asn": 134932,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134932",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 20,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177683,
+        "start_asn": 134928,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Speed Communication"
+      ],
+      "asn": 134937,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-134937",
+        "ggc": "observation:observed_presence:ggc-134937",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-134937"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 20,
+        "country_code": "IN",
+        "delegated_at": "2015-12-07",
+        "source_line": 177683,
+        "start_asn": 134928,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Ashok Secure Broadband Network Pvt Ltd"
+      ],
+      "asn": 134942,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-134942",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2016-01-14",
+        "source_line": 177760,
+        "start_asn": 135031,
+        "status": "allocated"
+      },
+      "as_names": [
+        "RI Networks Pvt. Ltd."
+      ],
+      "asn": 135031,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135031",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135031"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2016-01-19",
+        "source_line": 177765,
+        "start_asn": 135036,
+        "status": "allocated"
+      },
+      "as_names": [
+        "NextG Network Provider"
+      ],
+      "asn": 135036,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135036",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2018-05-03",
+        "source_line": 177868,
+        "start_asn": 135139,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Skylink Fibernet Private Limited"
+      ],
+      "asn": 135139,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135139",
+        "ggc": "observation:observed_presence:ggc-135139",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135139"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "E Net Entertainment Pvt Ltd"
+      ],
+      "asn": 135188,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135188",
+        "ggc": "observation:observed_presence:ggc-135188",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SRI SAI COMMUNICATION AND INTERNET PRIVATE LIMITED"
+      ],
+      "asn": 135193,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135193",
+        "ggc": "observation:observed_presence:ggc-135193",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Spider Broadband Pvt. Ltd."
+      ],
+      "asn": 135214,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135214",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Gtel Communications Private Limited"
+      ],
+      "asn": 135218,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135218",
+        "ggc": "observation:observed_presence:ggc-135218",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "MilesWeb Internet Services Pvt Ltd"
+      ],
+      "asn": 135222,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-135222",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Jeecommunications"
+      ],
+      "asn": 135226,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135226",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Ipnet Broadband Network Pvt Ltd"
+      ],
+      "asn": 135232,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135232",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SHERIE PLEXUS ISP PRIVATE LIMITED"
+      ],
+      "asn": 135234,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135234",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sonali Internet Services Pvt Ltd"
+      ],
+      "asn": 135239,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135239",
+        "ggc": "observation:observed_presence:ggc-135239",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135239"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "K Net Solutions Pvt Ltd"
+      ],
+      "asn": 135247,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-135247",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135247",
+        "ggc": "observation:observed_presence:ggc-135247",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135247"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "VORTEX INFOCOM PRIVATE LIMITED"
+      ],
+      "asn": 135248,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135248",
+        "ggc": "observation:observed_presence:ggc-135248",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Mft Internet Private Limited"
+      ],
+      "asn": 135253,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135253",
+        "ggc": "observation:observed_presence:ggc-135253",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "DL GTPL Broadband Private Limited"
+      ],
+      "asn": 135257,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135257",
+        "ggc": "observation:observed_presence:ggc-135257",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sdh Network Pvt Ltd"
+      ],
+      "asn": 135258,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135258",
+        "ggc": "observation:observed_presence:ggc-135258",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2016-03-18",
+        "source_line": 177899,
+        "start_asn": 135170,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Fast 4 Technologies"
+      ],
+      "asn": 135269,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135269",
+        "ggc": "observation:observed_presence:ggc-135269",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Advika Web Developments Hosting Pvt Ltd"
+      ],
+      "asn": 135682,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-135682",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Qwistel Network Service Private Limited"
+      ],
+      "asn": 135687,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135687",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Global Ra Net Services Pvt. Ltd."
+      ],
+      "asn": 135692,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135692",
+        "ggc": "observation:observed_presence:ggc-135692",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Tachyon Communications Pvt Ltd"
+      ],
+      "asn": 135697,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135697",
+        "ggc": "observation:observed_presence:ggc-135697",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135697"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "DISHAWAVES INFONET PVT. LTD"
+      ],
+      "asn": 135718,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135718",
+        "ggc": "observation:observed_presence:ggc-135718",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Allnet Broadband Network Pvt Ltd"
+      ],
+      "asn": 135724,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135724",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135724"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Adn Broadband"
+      ],
+      "asn": 135738,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135738",
+        "ggc": "observation:observed_presence:ggc-135738",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135738"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SHREE BALAJI INFOWAY PRIVATE LIMITED"
+      ],
+      "asn": 135744,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135744",
+        "ggc": "observation:observed_presence:ggc-135744",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 94,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178241,
+        "start_asn": 135678,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Speednet Unique Network Pvt Ltd"
+      ],
+      "asn": 135760,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135760",
+        "ggc": "observation:observed_presence:ggc-135760",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2016-06-17",
+        "source_line": 178242,
+        "start_asn": 135772,
+        "status": "allocated"
+      },
+      "as_names": [
+        "POWERNET"
+      ],
+      "asn": 135772,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135772",
+        "ggc": "observation:observed_presence:ggc-135772",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135772"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 16,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178244,
+        "start_asn": 135778,
+        "status": "allocated"
+      },
+      "as_names": [
+        "AirFiber Networks Pvt Ltd"
+      ],
+      "asn": 135780,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135780",
+        "ggc": "observation:observed_presence:ggc-135780",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 22,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178246,
+        "start_asn": 135795,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Zeroshell Networks Private Limited"
+      ],
+      "asn": 135795,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135795",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 22,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178246,
+        "start_asn": 135795,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Rapidnet Private Limited"
+      ],
+      "asn": 135799,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135799",
+        "ggc": "observation:observed_presence:ggc-135799",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 22,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178246,
+        "start_asn": 135795,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Fiberzone Communications Pvt Ltd"
+      ],
+      "asn": 135808,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135808",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 22,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178246,
+        "start_asn": 135795,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Srk Network"
+      ],
+      "asn": 135810,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135810",
+        "ggc": "observation:observed_presence:ggc-135810",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135810"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 22,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178246,
+        "start_asn": 135795,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Extreme IX"
+      ],
+      "asn": 135814,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-135814",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178247,
+        "start_asn": 135817,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ESTO MEDIA PRIVATE LIMITED"
+      ],
+      "asn": 135817,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135817",
+        "ggc": "observation:observed_presence:ggc-135817",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178248,
+        "start_asn": 135818,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Multicraft Digital Technologies Private Limited"
+      ],
+      "asn": 135834,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135834",
+        "ggc": "observation:observed_presence:ggc-135834",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 40,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178248,
+        "start_asn": 135818,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Galaxynet Connections Private Limited"
+      ],
+      "asn": 135852,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135852",
+        "ggc": "observation:observed_presence:ggc-135852",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-135852"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 19,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178250,
+        "start_asn": 135859,
+        "status": "allocated"
+      },
+      "as_names": [
+        "GTPL KCBPL BROADBAND PVT LTD"
+      ],
+      "asn": 135872,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-135872",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135872",
+        "ggc": "observation:observed_presence:ggc-135872",
+        "microsoft": "observation:observed_presence:microsoft-135872",
+        "oca": "observation:observed_presence:oca-135872"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 19,
+        "country_code": "IN",
+        "delegated_at": "2016-10-25",
+        "source_line": 178250,
+        "start_asn": 135859,
+        "status": "allocated"
+      },
+      "as_names": [
+        "AT Broadband Pvt Ltd"
+      ],
+      "asn": 135876,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-135876",
+        "ggc": "observation:observed_presence:ggc-135876",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 30,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178461,
+        "start_asn": 136278,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Paradise Telecom Pvt Ltd"
+      ],
+      "asn": 136284,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136284",
+        "ggc": "observation:observed_presence:ggc-136284",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-136284"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 30,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178461,
+        "start_asn": 136278,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Cybercity Extreme Broadband Pvt Ltd"
+      ],
+      "asn": 136286,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136286",
+        "ggc": "observation:observed_presence:ggc-136286",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 30,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178461,
+        "start_asn": 136278,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Falconet Internet Pvt.ltd."
+      ],
+      "asn": 136287,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136287",
+        "ggc": "observation:observed_presence:ggc-136287",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178462,
+        "start_asn": 136308,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Deenet Networks Private Limited"
+      ],
+      "asn": 136308,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136308",
+        "ggc": "observation:observed_presence:ggc-136308",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-136308"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 69,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178463,
+        "start_asn": 136309,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Vortex Netsol Private Limited"
+      ],
+      "asn": 136334,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-136334",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136334",
+        "ggc": "observation:observed_presence:ggc-136334",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-136334"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 69,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178463,
+        "start_asn": 136309,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Thamizhaga Internet Communications Private Limited"
+      ],
+      "asn": 136336,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136336",
+        "ggc": "observation:observed_presence:ggc-136336",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-136336"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 69,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178463,
+        "start_asn": 136309,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Isolnet Network Solution Pvt Ltd"
+      ],
+      "asn": 136360,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-136360",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 69,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178463,
+        "start_asn": 136309,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Yes India Communications Pvt. Ltd"
+      ],
+      "asn": 136362,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136362",
+        "ggc": "observation:observed_presence:ggc-136362",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 69,
+        "country_code": "IN",
+        "delegated_at": "2017-02-16",
+        "source_line": 178463,
+        "start_asn": 136309,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Microtalk Communications Pvt Ltd"
+      ],
+      "asn": 136374,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-136374",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 95,
+        "country_code": "IN",
+        "delegated_at": "2017-06-07",
+        "source_line": 178703,
+        "start_asn": 136625,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Navkar Netsol Private Ltd"
+      ],
+      "asn": 136634,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136634",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 95,
+        "country_code": "IN",
+        "delegated_at": "2017-06-07",
+        "source_line": 178703,
+        "start_asn": 136625,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Scud Communication Pvt Ltd"
+      ],
+      "asn": 136639,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-136639",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 95,
+        "country_code": "IN",
+        "delegated_at": "2017-06-07",
+        "source_line": 178703,
+        "start_asn": 136625,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Arktel Networks Pvt. Ltd"
+      ],
+      "asn": 136696,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136696",
+        "ggc": "observation:observed_presence:ggc-136696",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 95,
+        "country_code": "IN",
+        "delegated_at": "2017-06-07",
+        "source_line": 178703,
+        "start_asn": 136625,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Stampede Communications Pvt. Ltd."
+      ],
+      "asn": 136714,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136714",
+        "ggc": "observation:observed_presence:ggc-136714",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-136714"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 95,
+        "country_code": "IN",
+        "delegated_at": "2017-06-07",
+        "source_line": 178703,
+        "start_asn": 136625,
+        "status": "allocated"
+      },
+      "as_names": [
+        "APPLE BROADBAND SERVICES PVT. LTD"
+      ],
+      "asn": 136716,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136716",
+        "ggc": "observation:observed_presence:ggc-136716",
+        "microsoft": "observation:observed_presence:microsoft-136716",
+        "oca": "observation:observed_presence:oca-136716"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2017-08-03",
+        "source_line": 178813,
+        "start_asn": 136902,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Alegra Communication Private Limited"
+      ],
+      "asn": 136902,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136902",
+        "ggc": "observation:observed_presence:ggc-136902",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-136902"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2017-08-29",
+        "source_line": 178857,
+        "start_asn": 136946,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Weebo networks Pvt Ltd"
+      ],
+      "asn": 136946,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-136946",
+        "ggc": "observation:observed_presence:ggc-136946",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-136946"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2020-03-06",
+        "source_line": 178910,
+        "start_asn": 137000,
+        "status": "allocated"
+      },
+      "as_names": [
+        "VIJAYALAKSHMI NET SERVICES PVT LTD"
+      ],
+      "asn": 137000,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137000",
+        "ggc": "observation:observed_presence:ggc-137000",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Delix Net Solution Pvt. Ltd"
+      ],
+      "asn": 137098,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-137098",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "RENU TECHNOLOGIES"
+      ],
+      "asn": 137101,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-137101",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Grace Teleinfra Pvt Ltd"
+      ],
+      "asn": 137109,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137109",
+        "ggc": "observation:observed_presence:ggc-137109",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-137109"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Nas Internet Services Private Limited"
+      ],
+      "asn": 137120,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137120",
+        "ggc": "observation:observed_presence:ggc-137120",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Navkar Supertech Pvt Ltd"
+      ],
+      "asn": 137127,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137127",
+        "ggc": "observation:observed_presence:ggc-137127",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "High Speed Broadband"
+      ],
+      "asn": 137132,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-137132",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Skynet Datacom Pvt Ltd"
+      ],
+      "asn": 137157,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137157",
+        "ggc": "observation:observed_presence:ggc-137157",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Quality Broadband Pvt Ltd"
+      ],
+      "asn": 137163,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137163",
+        "ggc": "observation:observed_presence:ggc-137163",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Satellite Netcom Private Limited"
+      ],
+      "asn": 137166,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-137166",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137166",
+        "ggc": "observation:observed_presence:ggc-137166",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-137166"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2017-11-17",
+        "source_line": 178992,
+        "start_asn": 137082,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ALL CONNECT NETWORK SERVICES PRIVATE LIMITED"
+      ],
+      "asn": 137172,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-137172",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2018-01-02",
+        "source_line": 179092,
+        "start_asn": 137282,
+        "status": "allocated"
+      },
+      "as_names": [
+        "KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY"
+      ],
+      "asn": 137282,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-137282",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2018-04-12",
+        "source_line": 179293,
+        "start_asn": 137586,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Macro Signal Pvt Ltd"
+      ],
+      "asn": 137645,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137645",
+        "ggc": "observation:observed_presence:ggc-137645",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2018-04-12",
+        "source_line": 179293,
+        "start_asn": 137586,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Protoact Digital Network Pvt. Ltd."
+      ],
+      "asn": 137678,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-137678",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2018-04-12",
+        "source_line": 179293,
+        "start_asn": 137586,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Alien Dns Pvt Ltd"
+      ],
+      "asn": 137681,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-137681",
+        "ggc": "observation:observed_presence:ggc-137681",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 78,
+        "country_code": "IN",
+        "delegated_at": "2018-09-19",
+        "source_line": 179614,
+        "start_asn": 138242,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Radinet Info Solutions Private Limited"
+      ],
+      "asn": 138277,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138277",
+        "ggc": "observation:observed_presence:ggc-138277",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 78,
+        "country_code": "IN",
+        "delegated_at": "2018-09-19",
+        "source_line": 179614,
+        "start_asn": 138242,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Unigro Infranet Online Pvt. Ltd."
+      ],
+      "asn": 138290,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138290",
+        "ggc": "observation:observed_presence:ggc-138290",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 78,
+        "country_code": "IN",
+        "delegated_at": "2018-09-19",
+        "source_line": 179614,
+        "start_asn": 138242,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Juweriyah Networks Private Limited"
+      ],
+      "asn": 138296,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-138296",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138296",
+        "ggc": "observation:observed_presence:ggc-138296",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-138296"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 78,
+        "country_code": "IN",
+        "delegated_at": "2018-09-19",
+        "source_line": 179614,
+        "start_asn": 138242,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Opticom Networks Private Limited"
+      ],
+      "asn": 138300,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138300",
+        "ggc": "observation:observed_presence:ggc-138300",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 78,
+        "country_code": "IN",
+        "delegated_at": "2018-09-19",
+        "source_line": 179614,
+        "start_asn": 138242,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Limerick Technologies Pvt Ltd"
+      ],
+      "asn": 138311,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138311",
+        "ggc": "observation:observed_presence:ggc-138311",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-138311"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "MANISHA TRADERS"
+      ],
+      "asn": 138713,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138713",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sns Internet Services Private Limited"
+      ],
+      "asn": 138730,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138730",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Kovai Fibernet Pvt Ltd"
+      ],
+      "asn": 138731,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-138731",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Bakliwal Telecom Services Pvt Ltd"
+      ],
+      "asn": 138734,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138734",
+        "ggc": "observation:observed_presence:ggc-138734",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Kerala Vision Broad Band Private Limited"
+      ],
+      "asn": 138754,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-138754",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138754",
+        "ggc": "observation:observed_presence:ggc-138754",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-138754"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sadaa Smartlinks Communication Private Limited"
+      ],
+      "asn": 138762,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-138762",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Specific Net Pvt. Ltd."
+      ],
+      "asn": 138771,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138771",
+        "ggc": "observation:observed_presence:ggc-138771",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-02-11",
+        "source_line": 179985,
+        "start_asn": 138702,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Coastal Broadband And Online Services Pvt. Ltd."
+      ],
+      "asn": 138797,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-138797",
+        "ggc": "observation:observed_presence:ggc-138797",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2019-05-28",
+        "source_line": 180176,
+        "start_asn": 139195,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Seans Media Pvt Ltd"
+      ],
+      "asn": 139195,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-139195",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-08-06",
+        "source_line": 180355,
+        "start_asn": 139477,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Aspt Networks Pvt Ltd"
+      ],
+      "asn": 139490,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-139490",
+        "ggc": "observation:observed_presence:ggc-139490",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-139490"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-08-06",
+        "source_line": 180355,
+        "start_asn": 139477,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ZITA TELECOM PRIVATE LIMITED"
+      ],
+      "asn": 139515,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-139515",
+        "ggc": "observation:observed_presence:ggc-139515",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2019-08-06",
+        "source_line": 180355,
+        "start_asn": 139477,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Syncbroad Networks Private Limited"
+      ],
+      "asn": 139531,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-139531",
+        "ggc": "observation:observed_presence:ggc-139531",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-02-14",
+        "source_line": 180777,
+        "start_asn": 140108,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Ethereal Business Solutions Private Limited"
+      ],
+      "asn": 140151,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-140151",
+        "ggc": "observation:observed_presence:ggc-140151",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-02-14",
+        "source_line": 180777,
+        "start_asn": 140108,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Reis Network Solutions"
+      ],
+      "asn": 140171,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-140171",
+        "ggc": "observation:observed_presence:ggc-140171",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-02-14",
+        "source_line": 180777,
+        "start_asn": 140108,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Mithril Telecommunications Private Limited"
+      ],
+      "asn": 140174,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-140174",
+        "ggc": "observation:observed_presence:ggc-140174",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-02-14",
+        "source_line": 180777,
+        "start_asn": 140108,
+        "status": "allocated"
+      },
+      "as_names": [
+        "NetConnect Services Private Limited"
+      ],
+      "asn": 140197,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-140197",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2020-04-03",
+        "source_line": 180868,
+        "start_asn": 140543,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ReadyDedis, LLC"
+      ],
+      "asn": 140543,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-140543",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2020-05-13",
+        "source_line": 180950,
+        "start_asn": 140641,
+        "status": "allocated"
+      },
+      "as_names": [
+        "YOTTA NETWORK SERVICES PRIVATE LIMITED"
+      ],
+      "asn": 140641,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-140641",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2020-08-19",
+        "source_line": 181203,
+        "start_asn": 141014,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Balaji Teleworks Development Pvt Ltd"
+      ],
+      "asn": 141014,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141014",
+        "ggc": "observation:observed_presence:ggc-141014",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-10-09",
+        "source_line": 181330,
+        "start_asn": 141241,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Hyosec Solutions Private Limited"
+      ],
+      "asn": 141253,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141253",
+        "ggc": "observation:observed_presence:ggc-141253",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-141253"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-10-09",
+        "source_line": 181330,
+        "start_asn": 141241,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Inri Communications Pvt Ltd"
+      ],
+      "asn": 141266,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-141266",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-10-09",
+        "source_line": 181330,
+        "start_asn": 141241,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Maxnet Digital Pvt Ltd"
+      ],
+      "asn": 141275,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141275",
+        "ggc": "observation:observed_presence:ggc-141275",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-10-09",
+        "source_line": 181330,
+        "start_asn": 141241,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Wyris Network Pvt Ltd"
+      ],
+      "asn": 141322,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141322",
+        "ggc": "observation:observed_presence:ggc-141322",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-10-09",
+        "source_line": 181330,
+        "start_asn": 141241,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Hightec Network Solutions (OPC) Private Limited"
+      ],
+      "asn": 141324,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141324",
+        "ggc": "observation:observed_presence:ggc-141324",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-10-09",
+        "source_line": 181330,
+        "start_asn": 141241,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Udupi Fastnet Private Limited"
+      ],
+      "asn": 141329,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141329",
+        "ggc": "observation:observed_presence:ggc-141329",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-141329"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2020-10-09",
+        "source_line": 181330,
+        "start_asn": 141241,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Lalat Internet Service Pvt Ltd"
+      ],
+      "asn": 141339,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141339",
+        "ggc": "observation:observed_presence:ggc-141339",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 42,
+        "country_code": "IN",
+        "delegated_at": "2020-12-17",
+        "source_line": 181465,
+        "start_asn": 141476,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sancfil Technologies Internet Services Pvt.Ltd"
+      ],
+      "asn": 141514,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141514",
+        "ggc": "observation:observed_presence:ggc-141514",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 57,
+        "country_code": "IN",
+        "delegated_at": "2020-12-17",
+        "source_line": 181467,
+        "start_asn": 141519,
+        "status": "allocated"
+      },
+      "as_names": [
+        "KERALA FIBRE OPTIC NETWORK LIMITED"
+      ],
+      "asn": 141549,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141549",
+        "ggc": "observation:observed_presence:ggc-141549",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 57,
+        "country_code": "IN",
+        "delegated_at": "2020-12-17",
+        "source_line": 181467,
+        "start_asn": 141519,
+        "status": "allocated"
+      },
+      "as_names": [
+        "St Broadband Cable Service"
+      ],
+      "asn": 141574,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-141574",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-03-05",
+        "source_line": 181576,
+        "start_asn": 141783,
+        "status": "allocated"
+      },
+      "as_names": [
+        "INDTEL INFRA PRIVATE LIMITED"
+      ],
+      "asn": 141799,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-141799",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-03-05",
+        "source_line": 181576,
+        "start_asn": 141783,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Snet Networks Private Limited"
+      ],
+      "asn": 141830,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-141830",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-03-05",
+        "source_line": 181576,
+        "start_asn": 141783,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Neolog Online Services Private Limited"
+      ],
+      "asn": 141834,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-141834",
+        "ggc": "observation:observed_presence:ggc-141834",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-03-05",
+        "source_line": 181576,
+        "start_asn": 141783,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Sai Sri Technologies (OPC) Private Limited"
+      ],
+      "asn": 141864,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-141864",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-06-18",
+        "source_line": 181880,
+        "start_asn": 142439,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Aeertel Fibernet Telecom"
+      ],
+      "asn": 142459,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-142459",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-06-18",
+        "source_line": 181880,
+        "start_asn": 142439,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Nextia Broadband Pvt Ltd"
+      ],
+      "asn": 142488,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-142488",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-06-18",
+        "source_line": 181880,
+        "start_asn": 142439,
+        "status": "allocated"
+      },
+      "as_names": [
+        "INCUBIX UNIFIED SOLUTIONS PVT LTD"
+      ],
+      "asn": 142529,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-142529",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-08-12",
+        "source_line": 181995,
+        "start_asn": 146846,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Weblink Systems Private Limited"
+      ],
+      "asn": 146872,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-146872",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-08-12",
+        "source_line": 181995,
+        "start_asn": 146846,
+        "status": "allocated"
+      },
+      "as_names": [
+        "BIGVENTURES MEDIA PVT LTD"
+      ],
+      "asn": 146902,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-146902",
+        "ggc": "observation:observed_presence:ggc-146902",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-08-12",
+        "source_line": 181995,
+        "start_asn": 146846,
+        "status": "allocated"
+      },
+      "as_names": [
+        "MICRONET GIGAFIBER PRIVATE LIMITED"
+      ],
+      "asn": 146904,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-146904",
+        "ggc": "observation:observed_presence:ggc-146904",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-08-12",
+        "source_line": 181995,
+        "start_asn": 146846,
+        "status": "allocated"
+      },
+      "as_names": [
+        "INTERCITY FIBER NETWORKS PRIVATE LIMITED"
+      ],
+      "asn": 146908,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-146908",
+        "ggc": "observation:observed_presence:ggc-146908",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-08-12",
+        "source_line": 181995,
+        "start_asn": 146846,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Tier 4 Cloud Services"
+      ],
+      "asn": 146943,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": "observation:observed_presence:aws-cloudfront-146943",
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-146943",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 96,
+        "country_code": "IN",
+        "delegated_at": "2021-10-08",
+        "source_line": 182125,
+        "start_asn": 147195,
+        "status": "allocated"
+      },
+      "as_names": [
+        "FUTURE CONNECT BROADBANDPRIVATE LIMITED"
+      ],
+      "asn": 147226,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-147226",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-12-09",
+        "source_line": 182271,
+        "start_asn": 149180,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Megatel Networks Private Limited"
+      ],
+      "asn": 149240,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-149240",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-12-09",
+        "source_line": 182271,
+        "start_asn": 149180,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Hightech Broadband Services Pvt Ltd"
+      ],
+      "asn": 149248,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-149248",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2021-12-09",
+        "source_line": 182271,
+        "start_asn": 149180,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Roarnet Broadband Pvt Ltd"
+      ],
+      "asn": 149268,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-149268",
+        "ggc": "observation:observed_presence:ggc-149268",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2022-02-24",
+        "source_line": 182402,
+        "start_asn": 149525,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SCNSKY DIGITAL OPC PRIVATE LIMITED"
+      ],
+      "asn": 149584,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-149584",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2022-07-05",
+        "source_line": 182587,
+        "start_asn": 150007,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Pioneer Elabs Ltd."
+      ],
+      "asn": 150008,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-150008",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-150008",
+        "ggc": "observation:observed_presence:ggc-150008",
+        "microsoft": null,
+        "oca": "observation:observed_presence:oca-150008"
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2022-12-02",
+        "source_line": 182829,
+        "start_asn": 150560,
+        "status": "allocated"
+      },
+      "as_names": [
+        "HOSTDZIRE WEB SERVICES PRIVATE LIMITED"
+      ],
+      "asn": 150623,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-150623",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2023-08-25",
+        "source_line": 183239,
+        "start_asn": 151679,
+        "status": "allocated"
+      },
+      "as_names": [
+        "FAB FIVE NETWORK PRIVATE LIMITED"
+      ],
+      "asn": 151690,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-151690",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2023-08-25",
+        "source_line": 183239,
+        "start_asn": 151679,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Multireach Broadband Services Private Limited"
+      ],
+      "asn": 151712,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-151712",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2023-08-25",
+        "source_line": 183239,
+        "start_asn": 151679,
+        "status": "allocated"
+      },
+      "as_names": [
+        "SWIFTIFY PRIVATE LIMITED"
+      ],
+      "asn": 151729,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-151729",
+        "ggc": "observation:observed_presence:ggc-151729",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2023-08-25",
+        "source_line": 183239,
+        "start_asn": 151679,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ONREMOTE TELECOM PRIVATE LIMITED"
+      ],
+      "asn": 151732,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-151732",
+        "ggc": "observation:observed_presence:ggc-151732",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2023-08-25",
+        "source_line": 183239,
+        "start_asn": 151679,
+        "status": "allocated"
+      },
+      "as_names": [
+        "WEONE BROADAND PRIVATE LIMITED"
+      ],
+      "asn": 151757,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-151757",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2024-02-23",
+        "source_line": 183550,
+        "start_asn": 152586,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Kuroit"
+      ],
+      "asn": 152586,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-152586",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-152586",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2024-08-20",
+        "source_line": 183821,
+        "start_asn": 153203,
+        "status": "allocated"
+      },
+      "as_names": [
+        "ELXIRE"
+      ],
+      "asn": 153252,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-153252",
+        "ggc": "observation:observed_presence:ggc-153252",
+        "microsoft": null,
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 100,
+        "country_code": "IN",
+        "delegated_at": "2024-08-20",
+        "source_line": 183821,
+        "start_asn": 153203,
+        "status": "allocated"
+      },
+      "as_names": [
+        "Edgerede Private Limited"
+      ],
+      "asn": 153259,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-153259",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2024-11-05",
+        "source_line": 183906,
+        "start_asn": 153393,
+        "status": "allocated"
+      },
+      "as_names": [
+        "RACKVOLT CLOUD SOLUTIONS PRIVATE LIMITED"
+      ],
+      "asn": 153393,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-153393",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 3,
+        "country_code": "IN",
+        "delegated_at": "2025-05-26",
+        "source_line": 184280,
+        "start_asn": 153914,
+        "status": "allocated"
+      },
+      "as_names": [
+        "NETRANEX TECHNOLOGIES (INDIA) PRIVATE LIMITED"
+      ],
+      "asn": 153914,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-153914",
+        "apple": "observation:observed_presence:apple-153914",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-153914",
+        "oca": null
+      }
+    },
+    {
+      "apnic_registration": {
+        "asn_count": 1,
+        "country_code": "IN",
+        "delegated_at": "2025-12-19",
+        "source_line": 184740,
+        "start_asn": 154455,
+        "status": "allocated"
+      },
+      "as_names": [
+        "AYUSHMATI LOGITECH PRIVATE LIMITED"
+      ],
+      "asn": 154455,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-154455",
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      }
+    }
+  ],
+  "registration_country_is_not_geolocation": true,
+  "schema_version": "1.0.0",
+  "selection": "apnic_registration_country_IN",
+  "sources": [
+    {
+      "path": "data/observations/cdn-mapping.20260804.geojson",
+      "retrieved_at": "2026-08-04",
+      "role": "provider_asn_observations",
+      "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b",
+      "source_published_at": "2026-06-06"
+    },
+    {
+      "path": "data/raw/apnic/delegated-apnic-extended.20260606.gz",
+      "retrieved_at": "2026-10-19",
+      "role": "asn_registration_country",
+      "sha256": "e7ac6245d8951aaa498b0f99a4e745cd80043bbfeb0f40c48d42cbce6adc56c8",
+      "source_published_at": "2026-06-06",
+      "source_url": "https://ftp.apnic.net/stats/apnic/2026/delegated-apnic-extended-20260606.gz"
+    }
+  ],
+  "type": "CdnAsnComparison",
+  "view_of": "observations/cdn-mapping"
+}

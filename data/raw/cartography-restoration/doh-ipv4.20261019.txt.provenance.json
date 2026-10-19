@@ -1,0 +1,9 @@
+{
+  "media_type": "text/plain",
+  "notes": "Public resolved DoH hostname/address observations; retain exact bytes. Partial resolver vantage coverage. Used only for exact Apple DNS hostname tokens.",
+  "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt",
+  "retrieved_at": "2026-10-19",
+  "sha256": "74ff6f883b28d0aaa3893027696cefe55f7386412e58d9a0065646ecc5828d9c",
+  "source_published_at": null,
+  "source_url": "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv4.txt"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "One current public recursive DNS response. Its resolver vantage cannot enumerate global Apple DNS deployments; no addresses inferred from prefixes.",
+  "raw_source_ref": "data/raw/cartography-restoration/apple-doh-dns.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "ed0bb30c5c1e6693556466809c2fd3ba511e48fb1dbf8bdf7455640fe5b5e725",
+  "source_published_at": null,
+  "source_url": "https://dns.google/resolve?name=doh.dns.apple.com&type=A"
+}

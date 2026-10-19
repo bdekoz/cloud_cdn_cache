@@ -1,0 +1,33 @@
+{
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/india/cdn-cities.20261019.csv",
+      "path": "data/india/cdn-cities.20261019.csv",
+      "source": "data/india/cdn-cities.20261019.geojson"
+    }
+  },
+  "generated_files": [
+    "data/india/cdn-cities.20261019.geojson"
+  ],
+  "geometry_null": 0,
+  "layer": "india/cdn-cities",
+  "provider_counts": {
+    "Google": 211,
+    "Meta": 146,
+    "Netflix": 158
+  },
+  "record_count": 515,
+  "selection": "country_code=IN",
+  "sources": [
+    {
+      "path": "data/observations/cdn-mapping-cities.20260805.geojson",
+      "retrieved_at": "2026-08-05",
+      "role": "provider_city_observations",
+      "sha256": "d6592b8ec86bf37ea1b3a89d409861f8e0fbb9ab533f542e9fe73a3b73b9fee0",
+      "source_published_at": "2026-06-06"
+    }
+  ],
+  "view_excluded_from_canonical_totals": true,
+  "view_of": "observations/cdn-mapping-cities"
+}

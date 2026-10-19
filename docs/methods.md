@@ -1,6 +1,6 @@
 # Data refinement methods
 
-Date: 2026-08-04; updated 2026-10-11
+Date: 2026-08-04; updated 2026-10-19
 
 This document explains the assessment, recovery, schema evolution, provider refreshes, hyperscaler coverage review, mainland-China cloud work, separate edge/CDN and colocation tracks, independent observations, and non-spatial network evidence. The immutable baseline is [`assessment.20260804.md`](assessment.20260804.md); the implemented result is recorded in [`reassessment.md`](reassessment.md), with item 4/5 detail in [`network-evidence.20260805.md`](network-evidence.20260805.md).
 
@@ -251,6 +251,10 @@ Coordinates describe the precision in `location_precision`; they do not prove a 
 Hong Kong, Macao, and Taiwan are never silently folded into `mainland_china`. Provider marketing groupings and billing regions remain in `properties` when they differ from the canonical jurisdiction field.
 
 ## Independent observations, recovery, and quarantine
+
+The [India and Apple evaluation](cdn-mapping-india-apple.20261019.md) reviews the [June 2026 source study](https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/) against the retained layers. A country-filtered city view and an ASN registration-country view answer different questions. Cross-provider comparisons must include Apple's separate input, join on numeric ASN, and retain ASNs missing from the six-provider matrix. An Apple TLS observation does not by itself distinguish Apple Edge Cache, third-party delivery, or another Apple service such as DNS over HTTPS.
+
+`update_cdn_comparisons.py` implements a 6,564-ASN full union, a 279-ASN APNIC India comparison, a 973-row Apple ASN view and a 515-row India city view. The archived APNIC serial `20260606` covers records through June 5 in `+1000`; its allocated/assigned ASN intervals are matched without treating registration country as endpoint location. Unmatched registration is null. Matrix cells preserve source record IDs or an explicit not-observed-in-this-snapshot state; the 98 Apple-only ASNs remain in the union. All four outputs repeat existing observations and are excluded from canonical totals. Their October build date does not change the June study date or August observation retrieval dates.
 
 The June 2026 provider CSVs contain 13,638 source rows. Every file has one invalid `ASN 0` row with a blank AS name. Raw evidence is unchanged, while normalization rejects all seven and emits 13,631 valid provider/ASN TLS observations. Reports preserve raw, accepted, and rejected counts. These rows have null geometry and are evidence of visible behavior in an ASN at one time, not appliance counts or physical sites.
 

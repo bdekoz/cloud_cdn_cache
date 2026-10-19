@@ -1,0 +1,31 @@
+{
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/observations/apple-asn.20261019.csv",
+      "path": "data/observations/apple-asn.20261019.csv",
+      "source": "data/observations/apple-asn.20261019.geojson"
+    }
+  },
+  "generated_files": [
+    "data/observations/apple-asn.20261019.geojson"
+  ],
+  "geometry_null": 973,
+  "layer": "observations/apple-asn",
+  "provider_counts": {
+    "Apple": 973
+  },
+  "record_count": 973,
+  "selection": "provider=Apple",
+  "sources": [
+    {
+      "path": "data/observations/cdn-mapping.20260804.geojson",
+      "retrieved_at": "2026-08-04",
+      "role": "provider_asn_observations",
+      "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b",
+      "source_published_at": "2026-06-06"
+    }
+  ],
+  "view_excluded_from_canonical_totals": true,
+  "view_of": "observations/cdn-mapping"
+}

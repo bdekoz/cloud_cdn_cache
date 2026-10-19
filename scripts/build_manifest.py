@@ -22,6 +22,8 @@ RUSSIA_REVIEW_TAG = "20261011"
 INFRASTRUCTURE_TAG = "20261011"
 CHINA_REVIEW_TAG = "20261011"
 CHINA_IMPLEMENTATION_TAG = "20261011"
+CDN_COMPARISON_TAG = "20261019"
+CARTOGRAPHY_RESTORATION_TAG = "20261019"
 
 BASELINE_LAYERS = (
     "google/edge",
@@ -146,6 +148,22 @@ def assessment_manifest(name: str, tag: str) -> dict[str, str]:
     return {"path": repo_ref(path), "sha256": sha256(path)}
 
 
+def comparison_manifest(name: str, tag: str) -> dict[str, Any]:
+    path = REPO_ROOT / "data" / f"{name}.{tag}.json"
+    report_path = path.with_suffix(".report.json")
+    collection = json.loads(path.read_text(encoding="utf-8"))
+    report = json.loads(report_path.read_text(encoding="utf-8"))
+    return {
+        "layer": name, "snapshot_tag": tag, "built_at": collection["built_at"],
+        "view_of": collection["view_of"], "selection": collection["selection"],
+        "record_count": len(collection["records"]), "record_unit": "distinct_asn",
+        "excluded_from_canonical_totals": True, "sources": collection["sources"],
+        "files": {"json": {"path": repo_ref(path), "sha256": sha256(path)},
+                  "report": {"path": repo_ref(report_path), "sha256": sha256(report_path)}},
+        "derived_files": report["derived_files"],
+    }
+
+
 def network_layer_manifest(layer: str, tag: str) -> dict[str, Any]:
     base = REPO_ROOT / "data/network" / f"{layer}.{tag}"
     json_path = Path(f"{base}.json")
@@ -239,6 +257,9 @@ def main() -> None:
                        for layer, snapshot_tag in layer_specs]
         layer_specs.extend((layer, CHINA_IMPLEMENTATION_TAG) for layer in (
             "microsoft/china-cloud-regions", "qiniu/resource-pools-and-regions"))
+    if tag >= CARTOGRAPHY_RESTORATION_TAG:
+        layer_specs.extend((layer, CARTOGRAPHY_RESTORATION_TAG) for layer in (
+            "akamai/legacy-locations", "apple/dns-cities"))
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     network_layers = []
     if tag >= NETWORK_TAG:
@@ -260,6 +281,21 @@ def main() -> None:
         entry = layer_manifest("russia/locations-and-observations", RUSSIA_REVIEW_TAG)
         entry["view_of"] = ["google/edge", "cloudflare/edge", "cachefly/locations", "observations/cdn-mapping-cities", "yandex/data-centers"]
         views.append(entry)
+    comparison_sections = {}
+    if tag >= CDN_COMPARISON_TAG:
+        for view, parent in (("observations/apple-asn", "observations/cdn-mapping"),
+                             ("india/cdn-cities", "observations/cdn-mapping-cities")):
+            entry = layer_manifest(view, CDN_COMPARISON_TAG)
+            entry["view_of"] = parent
+            views.append(entry)
+        comparison_schema = REPO_ROOT / "schema/cdn-comparison.schema.json"
+        comparison_sections = {
+            "observation_comparison_schema": {"path": repo_ref(comparison_schema),
+                                              "sha256": sha256(comparison_schema), "version": "1.0.0"},
+            "observation_comparison_views": [comparison_manifest(name, CDN_COMPARISON_TAG) for name in
+                                             ("observations/cdn-asn-comparison", "india/cdn-asn-comparison")],
+            "observation_comparison_view_count": 2,
+        }
     assessments = [assessment_manifest(name, BASELINE_TAG) for name in ASSESSMENT_NAMES]
     if tag >= RUSSIA_REVIEW_TAG:
         assessments.extend(assessment_manifest(name, RUSSIA_REVIEW_TAG) for name in ("russia/provider-assessment", "yandex/image-claim-review"))
@@ -270,6 +306,8 @@ def main() -> None:
     if tag >= CHINA_IMPLEMENTATION_TAG:
         assessments.extend(assessment_manifest(name, CHINA_IMPLEMENTATION_TAG) for name in (
             "china/legacy-reconciliation", "china/enrichment-implementation"))
+    if tag >= CARTOGRAPHY_RESTORATION_TAG:
+        assessments.append(assessment_manifest("apple/dns-endpoint-audit", CARTOGRAPHY_RESTORATION_TAG))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
@@ -295,6 +333,7 @@ def main() -> None:
             infrastructure_sections["vendor_registry_record_count"] = registry["record_count"]
     write_json(output, {
         **infrastructure_sections,
+        **comparison_sections,
         "assessments": assessments,
         "generated_from_retained_snapshots_at": args.retrieved_at,
         "layer_count": len(layers),

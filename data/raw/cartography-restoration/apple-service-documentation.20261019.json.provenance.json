@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Reviewed factual extraction; full downloaded HTML remains a local research input.",
+  "raw_source_ref": "data/raw/cartography-restoration/apple-service-documentation.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "3947464cce03ea5f6e555e1df0b142c85583ef5d6aed6638955e0ad75a98b907",
+  "source_published_at": null,
+  "source_url": "https://support.apple.com/en-us/101555"
+}

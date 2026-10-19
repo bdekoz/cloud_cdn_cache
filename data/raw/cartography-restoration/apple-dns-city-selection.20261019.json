@@ -1,0 +1,90 @@
+{
+  "method": "Explicit country/subdivision/city identity review. New York is GeoNames New York City. Toronto is Ontario (GeoNames admin1 08). Coordinates are city reference points, not server locations.",
+  "places": [
+    {
+      "country_code": "CA",
+      "geofeed_city": "Toronto",
+      "geonames_id": "6167865",
+      "subdivision": "CA-ON"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Los Angeles",
+      "geonames_id": "5368361",
+      "subdivision": "US-CA"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "San Jose",
+      "geonames_id": "5392171",
+      "subdivision": "US-CA"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Santa Clara",
+      "geonames_id": "5393015",
+      "subdivision": "US-CA"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Denver",
+      "geonames_id": "5419384",
+      "subdivision": "US-CO"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Miami",
+      "geonames_id": "4164138",
+      "subdivision": "US-FL"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Atlanta",
+      "geonames_id": "4180439",
+      "subdivision": "US-GA"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Chicago",
+      "geonames_id": "4887398",
+      "subdivision": "US-IL"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Southfield",
+      "geonames_id": "5010636",
+      "subdivision": "US-MI"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Newark",
+      "geonames_id": "5101798",
+      "subdivision": "US-NJ"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Secaucus",
+      "geonames_id": "5104504",
+      "subdivision": "US-NJ"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "New York",
+      "geonames_id": "5128581",
+      "subdivision": "US-NY"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Dallas",
+      "geonames_id": "4684888",
+      "subdivision": "US-TX"
+    },
+    {
+      "country_code": "US",
+      "geofeed_city": "Ashburn",
+      "geonames_id": "4744870",
+      "subdivision": "US-VA"
+    }
+  ],
+  "reviewed_at": "2026-10-19"
+}

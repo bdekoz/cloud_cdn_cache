@@ -1,0 +1,35 @@
+{
+  "coordinate_methods": {
+    "legacy": 416
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/akamai/legacy-locations.20261019.csv",
+      "path": "data/akamai/legacy-locations.20261019.csv",
+      "source": "data/akamai/legacy-locations.20261019.geojson"
+    }
+  },
+  "entity_types": {
+    "edge_pop": 416
+  },
+  "evidence_vintage": "2023-07-13",
+  "generated_files": [
+    "data/akamai/legacy-locations.20261019.geojson"
+  ],
+  "geometry_null": 0,
+  "layer": "legacy-locations",
+  "lifecycle_statuses": {
+    "operational": 355,
+    "planned": 61
+  },
+  "normalization_only": true,
+  "parser": "scripts/update_cartography_sources.py",
+  "raw_source_ref": "data/raw/cartography-restoration/akamai-legacy.20230713.geojson",
+  "record_count": 416,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_note": "Restores retained 2023 geography, including 61 planned rows. No 2026 deployment verification.",
+  "source_sha256": "7d530045291643bde91a21368dac72926e8008de55a14558e85974e74eb6e542",
+  "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/6a9102cb8f8c95a9f3687feaea5a93d8ae611b5d/data/akamai_13-07-2023.geojson"
+}

@@ -1,0 +1,91 @@
+{
+  "coordinate_methods": {
+    "geocoded": 14
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/apple/dns-cities.20261019.csv",
+      "path": "data/apple/dns-cities.20261019.csv",
+      "source": "data/apple/dns-cities.20261019.geojson"
+    }
+  },
+  "endpoint_audit": "data/apple/dns-endpoint-audit.20261019.json",
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+      "source_url": "https://ip-geolocation.apple.com/"
+    },
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/doh-ipv4.20261019.txt",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "74ff6f883b28d0aaa3893027696cefe55f7386412e58d9a0065646ecc5828d9c",
+      "source_url": "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv4.txt"
+    },
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/doh-ipv6.20261019.txt",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "c8b2e48a1504e67095d1761e0aaae7f2c407d4217701a3d9f269b4d728f15b00",
+      "source_url": "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv6.txt"
+    },
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/apple-doh-dns.20261019.json",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "ed0bb30c5c1e6693556466809c2fd3ba511e48fb1dbf8bdf7455640fe5b5e725",
+      "source_url": "https://dns.google/resolve?name=doh.dns.apple.com&type=A"
+    },
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/apple-dns-geonames.20261019.tsv",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "0561a42581d402dc9b711f7161282feb9d2d6fea6831a2af31e332b39163c55d",
+      "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+    },
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/apple-dns-city-selection.20261019.json",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "846e9fa26ed410b6dd9af57eebf6d1d94bbec999c0b7c2ada6d4d3876a9811ac",
+      "source_url": "https://ip-geolocation.apple.com/"
+    },
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/apple-service-documentation.20261019.json",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "3947464cce03ea5f6e555e1df0b142c85583ef5d6aed6638955e0ad75a98b907",
+      "source_url": "https://support.apple.com/en-us/101555"
+    },
+    {
+      "raw_source_ref": "data/raw/cartography-restoration/cdn-mapping-study.20261019.json",
+      "source_published_at": "2026-06-06",
+      "source_scope": "observed",
+      "source_sha256": "9c0ad7d71ff67a300963d9a76a9233d2010bfd38d2d4fad67e76b1f41e4c7451",
+      "source_url": "https://anuragbhatia.com/post/2026/06/cdn-mapping-across-the-globe/"
+    }
+  ],
+  "entity_types": {
+    "observed_presence": 14
+  },
+  "generated_files": [
+    "data/apple/dns-cities.20261019.geojson"
+  ],
+  "geometry_null": 0,
+  "layer": "dns-cities",
+  "lifecycle_statuses": {
+    "unknown": 14
+  },
+  "parser": "scripts/update_cartography_sources.py",
+  "raw_source_ref": "data/raw/cartography-restoration/apple-geofeed.20261019.csv",
+  "record_count": 14,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_note": "Resolver vantage bias and incomplete observations. Four shared anycast addresses have no Apple geofeed city. PCH's entire POP list and the unitemized 236-location aggregate are not promoted to Apple sites.",
+  "source_sha256": "bcc03cc8f7e094ec411fb17c9968d0862791496eb979da7c4b2e3d7fd1f6f488",
+  "source_url": "https://ip-geolocation.apple.com/"
+}
