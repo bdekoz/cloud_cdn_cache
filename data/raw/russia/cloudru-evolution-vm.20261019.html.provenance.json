@@ -1,0 +1,11 @@
+{
+  "media_type": "text/html",
+  "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+  "resolved_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T15:22:45.176606+00:00",
+  "sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+  "source_published_at": null,
+  "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+}

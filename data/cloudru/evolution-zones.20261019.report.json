@@ -1,0 +1,44 @@
+{
+  "built_at": "2026-10-19",
+  "coordinate_methods": {
+    "unknown": 3
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/cloudru/evolution-zones.20261019.csv",
+      "path": "data/cloudru/evolution-zones.20261019.csv",
+      "source": "data/cloudru/evolution-zones.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/russia/cloudru-evolution-overview.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "f0e16ca0140fe1e601469efdecd730a174bc8769914559b0ae2e9bec76ece758",
+      "source_updated_at": null,
+      "source_url": "https://cloud.ru/docs/evolution/overview/index"
+    }
+  ],
+  "entity_types": {
+    "availability_zone": 3
+  },
+  "generated_files": [
+    "data/cloudru/evolution-zones.20261019.geojson"
+  ],
+  "geometry_null": 3,
+  "layer": "cloudru/evolution-zones",
+  "lifecycle_statuses": {
+    "unknown": 3
+  },
+  "parser": "update_russia_enrichment.py",
+  "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+  "record_count": 3,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location-v1.3.schema.json",
+  "schema_version": "1.3.0",
+  "source_sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+  "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines",
+  "zone_to_building_mapping_asserted": false
+}

@@ -2,7 +2,7 @@
 
 Connectivity systems, regulatory authorizations, fiber links, optical/quantum projects, and other emergent units use the separate [`infrastructure-evidence.schema.json`](infrastructure-evidence.schema.json). Its category vocabulary is open, every category has a definition, and every record states its unit. It does not modify the retained location/network contracts or combine their totals. See [`infrastructure-expansion.20261011.md`](../docs/infrastructure-expansion.20261011.md).
 
-`location.schema.json` defines the normalized record serialized as a provider layer's canonical GeoJSON. The current contract is version `1.2.0`; it accepts retained `1.1.0` records and newly generated `1.2.0` records so an older snapshot never has to be silently relabeled. Service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes. CSV is a deterministic projection generated from that GeoJSON on demand.
+[`location-v1.3.schema.json`](location-v1.3.schema.json) is the current location contract, accepting retained `1.1.0`/`1.2.0` records and new `1.3.0` records. [`location.schema.json`](location.schema.json) remains the unchanged 1.2 contract for historical manifests. Both define the same canonical fields and CSV column order. Service names are stable snake_case identifiers and entity types distinguish unlike infrastructure classes. CSV is a deterministic projection of canonical GeoJSON.
 
 Version 1.1 adds fields needed to represent Chinese provider catalogs without collapsing unlike products or jurisdictions:
 
@@ -17,6 +17,8 @@ Version 1.2 adds two source-preserving values:
 
 - `super_region` represents CoreWeave's published grouping of availability zones without pretending that it is an ordinary cloud region.
 - `access_status=restricted` represents subscription-, partition-, government-, or scenario-gated access that is broader than a temporary sales restriction and is not dedicated to one customer.
+
+Version 1.3 permits an availability zone with an unpublished parent identity to retain `parent_record_id=null`, only when `properties.parent_region_not_published_in_source=true` and `properties.parent_identity_evidence` supplies a source URL, raw reference and hash. Earlier versions still require a parent. This supports Cloud.ru Evolution without fabricating a region; other known parent relationships remain mandatory.
 
 The consolidated 2026-08-05 manifest is intentionally mixed-version and mixed-date: the 2026-08-04 layers retain schema version 1.1 and their original retrieval date, while the new hyperscaler layers use schema version 1.2 and retrieval date 2026-08-05.
 
@@ -59,6 +61,11 @@ Google AI zones use `properties.zone_kind=ai` and restricted project visibility.
 | Microsoft Azure | `azure_cloud` | `cloud_region` |
 | Google Cloud | `google_cloud` | `cloud_region`, `availability_zone` |
 | Yandex | `yandex_data_centers` | `data_center` |
+| Yandex Cloud | `yandex_cloud`, `yandex_baremetal` | `cloud_region`, `availability_zone` |
+| Yandex Cloud | `yandex_cdn` | `edge_pop` (city with one or more PoPs) |
+| Selectel | `selectel_cloud` | `cloud_region`, `availability_zone`, `cloud_resource_pool` |
+| Cloud.ru | `cloudru_advanced`, `cloudru_evolution` | `cloud_region`, `availability_zone` |
+| IXcellerate | `colocation` | `data_center` |
 | Oracle Cloud Infrastructure | `oracle_cloud` | `cloud_region` |
 | IBM Cloud | `ibm_cloud` | `cloud_region`, `availability_zone` |
 | IBM Cloud | `ibm_classic` | `data_center` |
@@ -120,6 +127,14 @@ Network outputs are `NetworkEvidenceCollection` JSON documents. Records carry in
 [`cdn-comparison.schema.json`](cdn-comparison.schema.json) defines `CdnAsnComparison`, a non-spatial view with one row per numeric ASN. Each row preserves all source AS names, seven nullable provider observation IDs and an optional APNIC allocation/assignment entry. A null provider ID means not observed in the retained study, not verified absence. A null registration means no eligible match in the selected APNIC file, not a negative country classification. Matching entries retain the country code, source line, ASN interval, status and allocation/assignment date.
 
 The collection records its selection, June source dates, October build date and input hashes. APNIC country never fills a location field. The full matrix and India subset are listed separately as `observation_comparison_views` in the manifest and excluded from canonical counts. Apple and India-city GeoJSON views retain exact source features under the existing location schema. See the [implementation and reproduction notes](../docs/cdn-mapping-india-apple.20261019.md).
+
+Version 1.1 adds the RIPE country selection and `rir_registration`, with an explicit `registry=ripencc` and the same interval/source-line evidence. Version 1.0 retains `apnic_registration`; the validator rejects mixing the two contracts. The [Russia comparison](../docs/russia-enrichment.20261019.md#june-registration-comparison-and-geographic-view) is a separate derived view, never a physical-country assignment.
+
+## Application endpoint evidence
+
+[`application-endpoint.schema.json`](application-endpoint.schema.json) defines a separately counted `ApplicationEndpointCollection`. Entities carry sourced identity/status context and optional provider-declared hosting. Query records have the grain entity/hostname/role/timestamp/RR type, retain the complete resolver response, and distinguish NOERROR without the requested RR from NXDOMAIN, DNS failure and transport failure. Confidence describes the observation, not an origin inference.
+
+Address enrichment preserves routing and registry receipts separately. Neither `registry_country_code` nor an entity's declared cloud region populates `origin_country_code`. Any future non-null origin country or facility identity requires independent origin evidence with an explicit scope and method. The current crypto collection has no such attributed origins. It records one resolver without an explicitly located probe or ECS. CSV retains nested evidence as JSON cells; entity details remain in the source JSON. Application records and entity counts are excluded from location, network and infrastructure totals. See the [implementation](../docs/russia-enrichment.20261019.md#exchange-endpoint-evidence).
 
 ## China service and vendor evidence
 

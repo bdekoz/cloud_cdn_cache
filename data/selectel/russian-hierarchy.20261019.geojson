@@ -1,0 +1,1443 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "Москва: Зона доступности 1",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "facility_mapping_asserted": false,
+          "provider_zone_label": "Зона доступности 1",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:availability_zone:moscow-az-1",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "Москва: Зона доступности 2",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "facility_mapping_asserted": false,
+          "provider_zone_label": "Зона доступности 2",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:availability_zone:moscow-az-2",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "Москва: Зона доступности 3",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "facility_mapping_asserted": false,
+          "provider_zone_label": "Зона доступности 3",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:availability_zone:moscow-az-3",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "Москва: Зона доступности 4",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "facility_mapping_asserted": false,
+          "provider_zone_label": "Зона доступности 4",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:availability_zone:moscow-az-4",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Novosibirsk",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Novosibirsk",
+        "name": "Новосибирск: Зона доступности 1",
+        "parent_record_id": "selectel:cloud_region:novosibirsk",
+        "properties": {
+          "facility_mapping_asserted": false,
+          "provider_zone_label": "Зона доступности 1",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:availability_zone:novosibirsk-az-1",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "Санкт-Петербург: Зона доступности 1",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "facility_mapping_asserted": false,
+          "provider_zone_label": "Зона доступности 1",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:availability_zone:saint-petersburg-az-1",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "Санкт-Петербург: Зона доступности 2",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "facility_mapping_asserted": false,
+          "provider_zone_label": "Зона доступности 2",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:availability_zone:saint-petersburg-az-2",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "Москва",
+        "parent_record_id": null,
+        "properties": {
+          "facility_mapping_asserted": false,
+          "identity_basis": "provider_region_label",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_region:moscow",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Novosibirsk",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Novosibirsk",
+        "name": "Новосибирск",
+        "parent_record_id": null,
+        "properties": {
+          "facility_mapping_asserted": false,
+          "identity_basis": "provider_region_label",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_region:novosibirsk",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "Санкт-Петербург",
+        "parent_record_id": null,
+        "properties": {
+          "facility_mapping_asserted": false,
+          "identity_basis": "provider_region_label",
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_region:saint-petersburg",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": null,
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": null,
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "gis-1",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-1": [
+              "gis-1a"
+            ]
+          },
+          "source_cells": [
+            "gis-1 Сегмент: gis-1a (Аттестованное облако, Аттестованное S3)"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:gis-1",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "gis-1",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "gis-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "gis-2",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-1": [
+              "gis-2a"
+            ]
+          },
+          "source_cells": [
+            "gis-2 Сегмент: gis-2a (Аттестованное облако)"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:gis-2",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "gis-2",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "gis-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "MSK-1",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-1": []
+          },
+          "source_cells": [
+            "MSK-1"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:msk-1",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "MSK-1",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "MSK-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "MSK-2",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-1": []
+          },
+          "source_cells": [
+            "MSK-2"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:msk-2",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "MSK-2",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "MSK-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "MSK-3",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-2"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-2": []
+          },
+          "source_cells": [
+            "MSK-3"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:msk-3",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "MSK-3",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "MSK-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "MSK-7",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-3"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-3": []
+          },
+          "source_cells": [
+            "MSK-7"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:msk-7",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "MSK-7",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "MSK-7",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Novosibirsk",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Novosibirsk",
+        "name": "NSK-1",
+        "parent_record_id": "selectel:cloud_region:novosibirsk",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:novosibirsk-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:novosibirsk-az-1": []
+          },
+          "source_cells": [
+            "NSK-1"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:nsk-1",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "NSK-1",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "NSK-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "ru-1",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-2"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-2": [
+              "ru-1a",
+              "ru-1b",
+              "ru-1c"
+            ]
+          },
+          "source_cells": [
+            "ru-1 Сегменты: ru-1a, ru-1b, ru-1c"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:ru-1",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ru-1",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "ru-1",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "ru-2",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-1": [
+              "ru-2a",
+              "ru-2b",
+              "ru-2c"
+            ]
+          },
+          "source_cells": [
+            "ru-2 Сегменты: ru-2a, ru-2b, ru-2c"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:ru-2",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ru-2",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "ru-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "ru-3",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-1": [
+              "ru-3a",
+              "ru-3b"
+            ]
+          },
+          "source_cells": [
+            "ru-3 Сегменты: ru-3a, ru-3b"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:ru-3",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ru-3",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "ru-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "ru-6",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-3",
+            "selectel:availability_zone:moscow-az-4",
+            "selectel:availability_zone:moscow-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-1": [
+              "ru-6b"
+            ],
+            "selectel:availability_zone:moscow-az-3": [
+              "ru-6a"
+            ],
+            "selectel:availability_zone:moscow-az-4": [
+              "ru-6c"
+            ]
+          },
+          "source_cells": [
+            "ru-6 Сегмент: ru-6a",
+            "ru-6 Сегмент: ru-6c",
+            "ru-6 Сегмент: ru-6b"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:ru-6",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ru-6",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "ru-6",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Moscow",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Moscow",
+        "name": "ru-7",
+        "parent_record_id": "selectel:cloud_region:moscow",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:moscow-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:moscow-az-1": [
+              "ru-7a",
+              "ru-7b"
+            ]
+          },
+          "source_cells": [
+            "ru-7 Сегменты: ru-7a, ru-7b"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:ru-7",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ru-7",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "ru-7",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Novosibirsk",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Novosibirsk",
+        "name": "ru-8",
+        "parent_record_id": "selectel:cloud_region:novosibirsk",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:novosibirsk-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:novosibirsk-az-1": [
+              "ru-8a"
+            ]
+          },
+          "source_cells": [
+            "ru-8 Сегмент: ru-8a"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:ru-8",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ru-8",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "ru-8",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "ru-9",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-2"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-2": [
+              "ru-9a"
+            ]
+          },
+          "source_cells": [
+            "ru-9 Сегмент: ru-9a"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:ru-9",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "ru-9",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "ru-9",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "SPB-2",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-1"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-1": []
+          },
+          "source_cells": [
+            "SPB-2"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:spb-2",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "SPB-2",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "SPB-2",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "SPB-3",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-2"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-2": []
+          },
+          "source_cells": [
+            "SPB-3"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:spb-3",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "SPB-3",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "SPB-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "SPB-4",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-2"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-2": []
+          },
+          "source_cells": [
+            "SPB-4"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:spb-4",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "SPB-4",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "SPB-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": "Saint Petersburg",
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "cloud_resource_pool",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "city",
+        "metro": "Saint Petersburg",
+        "name": "SPB-5",
+        "parent_record_id": "selectel:cloud_region:saint-petersburg",
+        "properties": {
+          "availability_zone_record_ids": [
+            "selectel:availability_zone:saint-petersburg-az-2"
+          ],
+          "facility_mapping_asserted": false,
+          "segments_by_zone": {
+            "selectel:availability_zone:saint-petersburg-az-2": []
+          },
+          "source_cells": [
+            "SPB-5"
+          ],
+          "source_updated_at": null
+        },
+        "provider": "Selectel",
+        "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+        "record_id": "selectel:cloud_resource_pool:spb-5",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "selectel_cloud",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "SPB-5",
+        "source_collection": "selectel_selectel_cloud",
+        "source_published_at": null,
+        "source_record_id": "SPB-5",
+        "source_scope": "provider_declared",
+        "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+        "source_url": "https://docs.selectel.ru/infrastructure/locations/",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

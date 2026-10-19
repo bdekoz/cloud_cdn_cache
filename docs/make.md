@@ -17,6 +17,8 @@ Run `make help` for the short command list.
 
 The current October 19 manifest includes the [India/Apple comparisons](cdn-mapping-india-apple.20261019.md). Run `make RETRIEVED_AT=2026-10-19 csv` to include their projections. Direct targets are `make data/india/cdn-asn-comparison.20261019.csv`, `make data/observations/cdn-asn-comparison.20261019.csv`, `make data/observations/apple-asn.20261019.csv` and `make data/india/cdn-cities.20261019.csv`. Matrix CSVs use `scripts/cdn-comparison-to-csv.jq`, retain source observation IDs, and label missing matches `not_observed_in_this_snapshot`. Their JSON sources and the dated APNIC snapshot are retained; generated CSVs are disposable. The comparison validator runs under `make check`.
 
+The same manifest includes the [Russia enrichment](russia-enrichment.20261019.md): six location layers, two Yandex network layers, the refreshed RU geographic view, the RIPE registration comparison and application endpoints. Direct targets include `make data/russia/cdn-asn-comparison.20261019.csv` and `make data/applications/crypto-endpoints.20261019.csv`. The application projection preserves each DNS response and address/provenance objects in JSON cells; entity-level context stays in the canonical JSON. RIPE comparison headers name the registry explicitly while older APNIC projections retain their headers. Location schema 1.3 keeps the same field order as 1.2.
+
 ## Generate CSV
 
 Generate every CSV target recorded by the default dated manifest:

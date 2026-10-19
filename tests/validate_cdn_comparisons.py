@@ -164,11 +164,15 @@ def validate_views_and_manifest() -> None:
     assert current["record_count"] == sum(layer["record_count"] for layer in current["layers"])
     assert {"observations/apple-asn", "india/cdn-cities", "observations/cdn-asn-comparison",
             "india/cdn-asn-comparison"}.isdisjoint(current_layers)
-    for key in ("network_evidence_layers", "infrastructure_evidence_layers", "vendor_registry",
-                "network_evidence_record_count", "infrastructure_evidence_record_count"):
+    for key in ("infrastructure_evidence_layers", "vendor_registry", "infrastructure_evidence_record_count"):
         assert previous[key] == current[key], key
+    current_network = {layer["layer"]: layer for layer in current["network_evidence_layers"]}
+    assert all(current_network[layer["layer"]] == layer for layer in previous["network_evidence_layers"])
+    assert current["network_evidence_record_count"] == sum(layer["record_count"] for layer in current_network.values())
     assert current["view_count"] == previous["view_count"] + 2 == 10
-    assert current["observation_comparison_view_count"] == 2
+    assert current["observation_comparison_view_count"] == len(current["observation_comparison_views"])
+    assert {"observations/cdn-asn-comparison", "india/cdn-asn-comparison"} <= {
+        layer["layer"] for layer in current["observation_comparison_views"]}
     for entry in current["views"] + current["observation_comparison_views"]:
         for file in entry["files"].values():
             assert sha256(ROOT / file["path"]) == file["sha256"]

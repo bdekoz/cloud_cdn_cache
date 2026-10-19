@@ -1,0 +1,45 @@
+{
+  "built_at": "2026-10-19",
+  "coordinate_methods": {
+    "unknown": 8
+  },
+  "current_health_not_asserted": true,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/yandex/regions-and-zones.20261019.csv",
+      "path": "data/yandex/regions-and-zones.20261019.csv",
+      "source": "data/yandex/regions-and-zones.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/yandex/cloud-zones.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "69644c8fb7016e313d3e67028e4db360b063a63c3cac530fe23e4b7fdd46cf2c",
+      "source_updated_at": "2026-07-13",
+      "source_url": "https://yandex.cloud/en/docs/overview/concepts/geo-scope"
+    }
+  ],
+  "entity_types": {
+    "availability_zone": 6,
+    "cloud_region": 2
+  },
+  "generated_files": [
+    "data/yandex/regions-and-zones.20261019.geojson"
+  ],
+  "geometry_null": 8,
+  "layer": "yandex/regions-and-zones",
+  "lifecycle_statuses": {
+    "unknown": 8
+  },
+  "parser": "update_russia_enrichment.py",
+  "raw_source_ref": "data/raw/yandex/cloud-regions.20261019.html",
+  "record_count": 8,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location-v1.3.schema.json",
+  "schema_version": "1.3.0",
+  "source_sha256": "1b125c9d4dddb18e97780f48565d7fb0b6966f82d6f929a4f65a5a8c87116992",
+  "source_url": "https://yandex.cloud/en/docs/overview/concepts/region"
+}

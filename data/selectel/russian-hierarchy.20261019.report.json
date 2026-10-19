@@ -1,0 +1,36 @@
+{
+  "built_at": "2026-10-19",
+  "coordinate_methods": {
+    "unknown": 28
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/selectel/russian-hierarchy.20261019.csv",
+      "path": "data/selectel/russian-hierarchy.20261019.csv",
+      "source": "data/selectel/russian-hierarchy.20261019.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 7,
+    "cloud_region": 3,
+    "cloud_resource_pool": 18
+  },
+  "generated_files": [
+    "data/selectel/russian-hierarchy.20261019.geojson"
+  ],
+  "geography": "Russian regions only",
+  "geometry_null": 28,
+  "layer": "selectel/russian-hierarchy",
+  "lifecycle_statuses": {
+    "unknown": 28
+  },
+  "parser": "update_russia_enrichment.py",
+  "pool_unit": "distinct_provider_pool_code",
+  "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+  "record_count": 28,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location-v1.3.schema.json",
+  "schema_version": "1.3.0",
+  "source_sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+  "source_url": "https://docs.selectel.ru/infrastructure/locations/"
+}

@@ -6,7 +6,8 @@ CSV_NETWORK_JSON := $(shell jq -r '.network_evidence_layers[]?.files.json.path' 
 CSV_INFRASTRUCTURE_JSON := $(shell jq -r '(.infrastructure_evidence_layers[]?, .infrastructure_evidence_views[]?) | .files.json.path' $(MANIFEST) 2>/dev/null)
 CSV_VENDOR_JSON := $(shell jq -r '.vendor_registry? | .files.json.path // empty' $(MANIFEST) 2>/dev/null)
 CSV_COMPARISON_JSON := $(shell jq -r '.observation_comparison_views[]? | .files.json.path' $(MANIFEST) 2>/dev/null)
-CSV_TARGETS := $(CSV_GEOJSON:.geojson=.csv) $(CSV_NETWORK_JSON:.json=.csv) $(CSV_INFRASTRUCTURE_JSON:.json=.csv) $(CSV_VENDOR_JSON:.json=.csv) $(CSV_COMPARISON_JSON:.json=.csv)
+CSV_APPLICATION_JSON := $(shell jq -r '.application_endpoint_layers[]? | .files.json.path' $(MANIFEST) 2>/dev/null)
+CSV_TARGETS := $(CSV_GEOJSON:.geojson=.csv) $(CSV_NETWORK_JSON:.json=.csv) $(CSV_INFRASTRUCTURE_JSON:.json=.csv) $(CSV_VENDOR_JSON:.json=.csv) $(CSV_COMPARISON_JSON:.json=.csv) $(CSV_APPLICATION_JSON:.json=.csv)
 
 .PHONY: all check check-csv-tools clean-csv csv help refresh-network refresh-network-offline
 
@@ -46,6 +47,15 @@ data/india/cdn-asn-comparison.%.csv: data/india/cdn-asn-comparison.%.json schema
 	@jq -r -f scripts/cdn-comparison-to-csv.jq "$<" > "$@.tmp"
 	@mv "$@.tmp" "$@"
 
+data/russia/cdn-asn-comparison.%.csv: data/russia/cdn-asn-comparison.%.json schema/cdn-comparison.schema.json scripts/cdn-comparison-to-csv.jq
+	@jq -r -f scripts/cdn-comparison-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"
+
+data/applications/%.csv: data/applications/%.json schema/application-endpoint.schema.json scripts/application-endpoint-to-csv.jq
+	@jq -r --slurpfile schema schema/application-endpoint.schema.json \
+		-f scripts/application-endpoint-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"
+
 refresh-network:
 	python3 -B scripts/update_network.py --retrieved-at $(RETRIEVED_AT) --fetch
 	python3 -B scripts/update_peeringdb.py --retrieved-at $(RETRIEVED_AT) --fetch
@@ -68,6 +78,7 @@ check:
 	python3 -B tests/validate_cdn_comparisons.py
 	python3 -B tests/validate_network.py
 	python3 -B tests/validate_russia.py
+	python3 -B tests/validate_russia_enrichment.py
 	python3 -B tests/validate_infrastructure.py
 	python3 -B tests/validate_china_review.py
 	python3 -B tests/validate_china_enrichment.py

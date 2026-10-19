@@ -1,0 +1,191 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "region",
+        "metro": null,
+        "name": "ru.AZ-3",
+        "parent_record_id": null,
+        "properties": {
+          "country_evidence": {
+            "raw_source_ref": "data/raw/russia/cloudru-evolution-overview.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "f0e16ca0140fe1e601469efdecd730a174bc8769914559b0ae2e9bec76ece758",
+            "source_updated_at": null,
+            "source_url": "https://cloud.ru/docs/evolution/overview/index"
+          },
+          "facility_mapping_asserted": false,
+          "parent_identity_evidence": {
+            "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+            "source_updated_at": null,
+            "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+          },
+          "parent_region_not_published_in_source": true,
+          "provider_zone_label": "ru.AZ-3",
+          "source_updated_at": null
+        },
+        "provider": "Cloud.ru",
+        "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+        "record_id": "cloudru:availability_zone:evolution-2c63c482-2532-4bba-8c9b-70ea330507bf",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "cloudru_evolution",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "2c63c482-2532-4bba-8c9b-70ea330507bf",
+        "source_collection": "cloudru_cloudru_evolution",
+        "source_published_at": null,
+        "source_record_id": "2c63c482-2532-4bba-8c9b-70ea330507bf",
+        "source_scope": "provider_declared",
+        "source_sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+        "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "region",
+        "metro": null,
+        "name": "ru.AZ-2",
+        "parent_record_id": null,
+        "properties": {
+          "country_evidence": {
+            "raw_source_ref": "data/raw/russia/cloudru-evolution-overview.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "f0e16ca0140fe1e601469efdecd730a174bc8769914559b0ae2e9bec76ece758",
+            "source_updated_at": null,
+            "source_url": "https://cloud.ru/docs/evolution/overview/index"
+          },
+          "facility_mapping_asserted": false,
+          "parent_identity_evidence": {
+            "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+            "source_updated_at": null,
+            "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+          },
+          "parent_region_not_published_in_source": true,
+          "provider_zone_label": "ru.AZ-2",
+          "source_updated_at": null
+        },
+        "provider": "Cloud.ru",
+        "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+        "record_id": "cloudru:availability_zone:evolution-479a4ab3-3ff3-4972-95c5-7610bac5c0bb",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "cloudru_evolution",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "479a4ab3-3ff3-4972-95c5-7610bac5c0bb",
+        "source_collection": "cloudru_cloudru_evolution",
+        "source_published_at": null,
+        "source_record_id": "479a4ab3-3ff3-4972-95c5-7610bac5c0bb",
+        "source_scope": "provider_declared",
+        "source_sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+        "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "public",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Russia",
+        "country_code": "RU",
+        "entity_type": "availability_zone",
+        "first_seen": "2026-10-19",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-19",
+        "lifecycle_status": "unknown",
+        "location_precision": "region",
+        "metro": null,
+        "name": "ru.AZ-1",
+        "parent_record_id": null,
+        "properties": {
+          "country_evidence": {
+            "raw_source_ref": "data/raw/russia/cloudru-evolution-overview.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "f0e16ca0140fe1e601469efdecd730a174bc8769914559b0ae2e9bec76ece758",
+            "source_updated_at": null,
+            "source_url": "https://cloud.ru/docs/evolution/overview/index"
+          },
+          "facility_mapping_asserted": false,
+          "parent_identity_evidence": {
+            "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+            "source_updated_at": null,
+            "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+          },
+          "parent_region_not_published_in_source": true,
+          "provider_zone_label": "ru.AZ-1",
+          "source_updated_at": null
+        },
+        "provider": "Cloud.ru",
+        "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+        "record_id": "cloudru:availability_zone:evolution-7c99a597-8516-494f-a2c7-d7377048681e",
+        "retrieved_at": "2026-10-19",
+        "schema_version": "1.3.0",
+        "service": "cloudru_evolution",
+        "service_scope": [
+          "public_cloud"
+        ],
+        "site_code": "7c99a597-8516-494f-a2c7-d7377048681e",
+        "source_collection": "cloudru_cloudru_evolution",
+        "source_published_at": null,
+        "source_record_id": "7c99a597-8516-494f-a2c7-d7377048681e",
+        "source_scope": "provider_declared",
+        "source_sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+        "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

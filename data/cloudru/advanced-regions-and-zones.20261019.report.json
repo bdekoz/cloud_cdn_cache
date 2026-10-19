@@ -1,0 +1,35 @@
+{
+  "built_at": "2026-10-19",
+  "coordinate_methods": {
+    "unknown": 5
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/cloudru/advanced-regions-and-zones.20261019.csv",
+      "path": "data/cloudru/advanced-regions-and-zones.20261019.csv",
+      "source": "data/cloudru/advanced-regions-and-zones.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [],
+  "entity_types": {
+    "availability_zone": 4,
+    "cloud_region": 1
+  },
+  "generated_files": [
+    "data/cloudru/advanced-regions-and-zones.20261019.geojson"
+  ],
+  "geometry_null": 5,
+  "layer": "cloudru/advanced-regions-and-zones",
+  "lifecycle_statuses": {
+    "unknown": 5
+  },
+  "parser": "update_russia_enrichment.py",
+  "raw_source_ref": "data/raw/russia/cloudru-advanced-faq.20261019.html",
+  "record_count": 5,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location-v1.3.schema.json",
+  "schema_version": "1.3.0",
+  "source_sha256": "5717d80a155cfb1695efff9ad74ceda5b121c2f66496f39b153251ac59788281",
+  "source_url": "https://cloud.ru/docs/dc-cloud/ug/topics/faq__advanced__datacenter-az",
+  "zone_to_building_mapping_asserted": false
+}

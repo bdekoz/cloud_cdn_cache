@@ -1,0 +1,6786 @@
+{
+  "built_at": "2026-10-19",
+  "excluded_from_canonical_totals": true,
+  "missing_provider_semantics": "not_observed_in_this_snapshot",
+  "provider_columns": [
+    {
+      "dataset": "Google GGC",
+      "key": "ggc",
+      "provider": "Google"
+    },
+    {
+      "dataset": "Netflix OCA",
+      "key": "oca",
+      "provider": "Netflix"
+    },
+    {
+      "dataset": "Facebook/Meta FNA",
+      "key": "fna",
+      "provider": "Meta"
+    },
+    {
+      "dataset": "Akamai",
+      "key": "akamai",
+      "provider": "Akamai"
+    },
+    {
+      "dataset": "Microsoft CDN",
+      "key": "microsoft",
+      "provider": "Microsoft"
+    },
+    {
+      "dataset": "Apple",
+      "key": "apple",
+      "provider": "Apple"
+    },
+    {
+      "dataset": "AWS CloudFront",
+      "key": "aws-cloudfront",
+      "provider": "Amazon Web Services"
+    }
+  ],
+  "records": [
+    {
+      "as_names": [
+        "PVimpelCom"
+      ],
+      "asn": 3216,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-3216",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-3216",
+        "ggc": "observation:observed_presence:ggc-3216",
+        "microsoft": "observation:observed_presence:microsoft-3216",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1994-04-15",
+        "registry": "ripencc",
+        "source_line": 100763,
+        "start_asn": 3216,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Boscom LLC"
+      ],
+      "asn": 5514,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-5514",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2015-10-29",
+        "registry": "ripencc",
+        "source_line": 101018,
+        "start_asn": 5514,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "AO IK Informsvyaz-Chernozemye"
+      ],
+      "asn": 6856,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-6856",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1996-12-04",
+        "registry": "ripencc",
+        "source_line": 101260,
+        "start_asn": 6856,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC RTComm.RU"
+      ],
+      "asn": 8342,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-8342",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1997-06-11",
+        "registry": "ripencc",
+        "source_line": 101412,
+        "start_asn": 8342,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 8359,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-8359",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-8359",
+        "microsoft": "observation:observed_presence:microsoft-8359",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1997-06-26",
+        "registry": "ripencc",
+        "source_line": 101423,
+        "start_asn": 8359,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Intersvyaz-2 JSC"
+      ],
+      "asn": 8369,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-8369",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1997-07-03",
+        "registry": "ripencc",
+        "source_line": 101431,
+        "start_asn": 8369,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PVimpelCom"
+      ],
+      "asn": 8402,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-8402",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1997-07-30",
+        "registry": "ripencc",
+        "source_line": 101458,
+        "start_asn": 8402,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "OBIT Ltd."
+      ],
+      "asn": 8492,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-8492",
+        "microsoft": "observation:observed_presence:microsoft-8492",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-02-17",
+        "registry": "ripencc",
+        "source_line": 101522,
+        "start_asn": 8492,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Central Telegraph Public Joint-stock Company"
+      ],
+      "asn": 8615,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-8615",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-8615",
+        "microsoft": "observation:observed_presence:microsoft-8615",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1998-01-09",
+        "registry": "ripencc",
+        "source_line": 101600,
+        "start_asn": 8615,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MAXnet Systems Ltd."
+      ],
+      "asn": 8636,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-8636",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1998-01-27",
+        "registry": "ripencc",
+        "source_line": 101614,
+        "start_asn": 8636,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Nauka-Svyaz"
+      ],
+      "asn": 8641,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-8641",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2000-04-17",
+        "registry": "ripencc",
+        "source_line": 101619,
+        "start_asn": 8641,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Comcor"
+      ],
+      "asn": 8732,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-8732",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1998-03-26",
+        "registry": "ripencc",
+        "source_line": 101681,
+        "start_asn": 8732,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Redcom-lnternet"
+      ],
+      "asn": 8749,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-8749",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1998-04-09",
+        "registry": "ripencc",
+        "source_line": 101693,
+        "start_asn": 8749,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Digit One LLC"
+      ],
+      "asn": 8905,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-8905",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1998-07-28",
+        "registry": "ripencc",
+        "source_line": 101808,
+        "start_asn": 8905,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 9049,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-9049",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-9049",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-10-13",
+        "registry": "ripencc",
+        "source_line": 101907,
+        "start_asn": 9049,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Jsc timeweb"
+      ],
+      "asn": 9123,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-9123",
+        "apple": "observation:observed_presence:apple-9123",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-9123",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-04-01",
+        "registry": "ripencc",
+        "source_line": 101965,
+        "start_asn": 9123,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 12389,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-12389",
+        "apple": "observation:observed_presence:apple-12389",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-12389",
+        "microsoft": "observation:observed_presence:microsoft-12389",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-07-01",
+        "registry": "ripencc",
+        "source_line": 102111,
+        "start_asn": 12389,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Data-center IMAQLIQ Ltd."
+      ],
+      "asn": 12555,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-12555",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-05-02",
+        "registry": "ripencc",
+        "source_line": 102218,
+        "start_asn": 12555,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Citytelecom LLC"
+      ],
+      "asn": 12616,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-12616",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-12616",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-04-03",
+        "registry": "ripencc",
+        "source_line": 102258,
+        "start_asn": 12616,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC KomTehCentr"
+      ],
+      "asn": 12668,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-12668",
+        "microsoft": "observation:observed_presence:microsoft-12668",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1999-09-21",
+        "registry": "ripencc",
+        "source_line": 102294,
+        "start_asn": 12668,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Digital Network"
+      ],
+      "asn": 12695,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-12695",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1999-09-30",
+        "registry": "ripencc",
+        "source_line": 102311,
+        "start_asn": 12695,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PJSC MegaFon"
+      ],
+      "asn": 12714,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-12714",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-12714",
+        "microsoft": "observation:observed_presence:microsoft-12714",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1999-10-08",
+        "registry": "ripencc",
+        "source_line": 102324,
+        "start_asn": 12714,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "RECONN LLC"
+      ],
+      "asn": 12722,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-12722",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-02-14",
+        "registry": "ripencc",
+        "source_line": 102327,
+        "start_asn": 12722,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 12730,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-12730",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1999-10-14",
+        "registry": "ripencc",
+        "source_line": 102332,
+        "start_asn": 12730,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 12846,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-12846",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "1999-12-08",
+        "registry": "ripencc",
+        "source_line": 102415,
+        "start_asn": 12846,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "T2 Mobile LLC"
+      ],
+      "asn": 12958,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-12958",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2000-01-26",
+        "registry": "ripencc",
+        "source_line": 102474,
+        "start_asn": 12958,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Joint Stock Company TransTeleCom"
+      ],
+      "asn": 15974,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-15974",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2000-11-15",
+        "registry": "ripencc",
+        "source_line": 103089,
+        "start_asn": 15974,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Datacheap LLC"
+      ],
+      "asn": 16262,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-16262",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-10-08",
+        "registry": "ripencc",
+        "source_line": 103281,
+        "start_asn": 16262,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Joint Stock Company TransTeleCom"
+      ],
+      "asn": 20485,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-20485",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-20485",
+        "microsoft": "observation:observed_presence:microsoft-20485",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2001-03-13",
+        "registry": "ripencc",
+        "source_line": 103370,
+        "start_asn": 20485,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Cjsc Rascom"
+      ],
+      "asn": 20764,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-20764",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-20764",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2001-05-22",
+        "registry": "ripencc",
+        "source_line": 103538,
+        "start_asn": 20764,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 21017,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-21017",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-21017",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2001-07-27",
+        "registry": "ripencc",
+        "source_line": 103699,
+        "start_asn": 21017,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Joint Stock Company TransTeleCom"
+      ],
+      "asn": 21127,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-21127",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2001-09-03",
+        "registry": "ripencc",
+        "source_line": 103764,
+        "start_asn": 21127,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "TrunkMobile JSC"
+      ],
+      "asn": 21367,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-21367",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-06-15",
+        "registry": "ripencc",
+        "source_line": 103923,
+        "start_asn": 21367,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Flex Ltd."
+      ],
+      "asn": 21453,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-21453",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2001-12-14",
+        "registry": "ripencc",
+        "source_line": 103977,
+        "start_asn": 21453,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Zao complat-telecom"
+      ],
+      "asn": 24663,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-24663",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-02-11",
+        "registry": "ripencc",
+        "source_line": 104082,
+        "start_asn": 24663,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Rosin.telekom"
+      ],
+      "asn": 24689,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-24689",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-11-23",
+        "registry": "ripencc",
+        "source_line": 104100,
+        "start_asn": 24689,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Ufanet"
+      ],
+      "asn": 24955,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-24955",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-24955",
+        "microsoft": "observation:observed_presence:microsoft-24955",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-06-06",
+        "registry": "ripencc",
+        "source_line": 104257,
+        "start_asn": 24955,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Non state educational institution Educational Scientific and Experimental Center of Moscow I"
+      ],
+      "asn": 25100,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-25100",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-07-25",
+        "registry": "ripencc",
+        "source_line": 104355,
+        "start_asn": 25100,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 25446,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-25446",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-11-25",
+        "registry": "ripencc",
+        "source_line": 104585,
+        "start_asn": 25446,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 25490,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-25490",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-12-09",
+        "registry": "ripencc",
+        "source_line": 104618,
+        "start_asn": 25490,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PJSC Moscow city telephone network"
+      ],
+      "asn": 25513,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-25513",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-12-17",
+        "registry": "ripencc",
+        "source_line": 104636,
+        "start_asn": 25513,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 25515,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-25515",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-12-18",
+        "registry": "ripencc",
+        "source_line": 104638,
+        "start_asn": 25515,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC masterhost"
+      ],
+      "asn": 25532,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-25532",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2002-12-27",
+        "registry": "ripencc",
+        "source_line": 104652,
+        "start_asn": 25532,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "CrimeaCom South LLC"
+      ],
+      "asn": 28761,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-28761",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-02-18",
+        "registry": "ripencc",
+        "source_line": 104763,
+        "start_asn": 28761,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Citytelecom LLC"
+      ],
+      "asn": 28762,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-28762",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-02-18",
+        "registry": "ripencc",
+        "source_line": 104764,
+        "start_asn": 28762,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PJSC Bashinformsvyaz"
+      ],
+      "asn": 28812,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-28812",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-03-03",
+        "registry": "ripencc",
+        "source_line": 104798,
+        "start_asn": 28812,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Pjsc tattelecom"
+      ],
+      "asn": 28840,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-28840",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-03-12",
+        "registry": "ripencc",
+        "source_line": 104817,
+        "start_asn": 28840,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Citytelecom LLC"
+      ],
+      "asn": 29076,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-29076",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-29076",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-05-27",
+        "registry": "ripencc",
+        "source_line": 104976,
+        "start_asn": 29076,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Iskratelecom JSC"
+      ],
+      "asn": 29124,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-29124",
+        "microsoft": "observation:observed_presence:microsoft-29124",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-06-11",
+        "registry": "ripencc",
+        "source_line": 105009,
+        "start_asn": 29124,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC IOT"
+      ],
+      "asn": 29182,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-29182",
+        "apple": "observation:observed_presence:apple-29182",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-29182",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-06-23",
+        "registry": "ripencc",
+        "source_line": 105047,
+        "start_asn": 29182,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Mastertel"
+      ],
+      "asn": 29226,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-29226",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-29226",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2003-07-03",
+        "registry": "ripencc",
+        "source_line": 105076,
+        "start_asn": 29226,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 30881,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-30881",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-01-05",
+        "registry": "ripencc",
+        "source_line": 105485,
+        "start_asn": 30881,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PJSC MegaFon"
+      ],
+      "asn": 31133,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-31133",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-03-05",
+        "registry": "ripencc",
+        "source_line": 105641,
+        "start_asn": 31133,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Novotelecom Ltd"
+      ],
+      "asn": 31200,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-31200",
+        "microsoft": "observation:observed_presence:microsoft-31200",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-03-22",
+        "registry": "ripencc",
+        "source_line": 105686,
+        "start_asn": 31200,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PJSC MegaFon"
+      ],
+      "asn": 31208,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-31208",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-03-23",
+        "registry": "ripencc",
+        "source_line": 105692,
+        "start_asn": 31208,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "TIS Dialog LLC"
+      ],
+      "asn": 31214,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-31214",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-03-23",
+        "registry": "ripencc",
+        "source_line": 105696,
+        "start_asn": 31214,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Orion Telecom LLC"
+      ],
+      "asn": 31257,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-31257",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-03-31",
+        "registry": "ripencc",
+        "source_line": 105725,
+        "start_asn": 31257,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PJSC MegaFon"
+      ],
+      "asn": 31261,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-31261",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-04-01",
+        "registry": "ripencc",
+        "source_line": 105727,
+        "start_asn": 31261,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Citytelecom LLC"
+      ],
+      "asn": 33842,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-33842",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-33842",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-08-12",
+        "registry": "ripencc",
+        "source_line": 106071,
+        "start_asn": 33842,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Norilsk-Telecom JSC"
+      ],
+      "asn": 33871,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-33871",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-08-25",
+        "registry": "ripencc",
+        "source_line": 106089,
+        "start_asn": 33871,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "UFO Hosting LLC"
+      ],
+      "asn": 33993,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-33993",
+        "apple": "observation:observed_presence:apple-33993",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-33993",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-09-24",
+        "registry": "ripencc",
+        "source_line": 106179,
+        "start_asn": 33993,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Internet-Cosmos LLC"
+      ],
+      "asn": 34300,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34300",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-12-10",
+        "registry": "ripencc",
+        "source_line": 106372,
+        "start_asn": 34300,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 34351,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34351",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2004-12-22",
+        "registry": "ripencc",
+        "source_line": 106405,
+        "start_asn": 34351,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PortTelekom LLC"
+      ],
+      "asn": 34470,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-34470",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34470",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-01-28",
+        "registry": "ripencc",
+        "source_line": 106496,
+        "start_asn": 34470,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 34533,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34533",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-02-08",
+        "registry": "ripencc",
+        "source_line": 106547,
+        "start_asn": 34533,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Megasvyaz LLC"
+      ],
+      "asn": 34602,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34602",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-02-22",
+        "registry": "ripencc",
+        "source_line": 106605,
+        "start_asn": 34602,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Petersburg Internet Network ltd."
+      ],
+      "asn": 34665,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-34665",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34665",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-11-01",
+        "registry": "ripencc",
+        "source_line": 106651,
+        "start_asn": 34665,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sibirskie Seti Ltd."
+      ],
+      "asn": 34757,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-34757",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-03-30",
+        "registry": "ripencc",
+        "source_line": 106723,
+        "start_asn": 34757,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Telezon-Seti LLC"
+      ],
+      "asn": 34858,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34858",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-04-20",
+        "registry": "ripencc",
+        "source_line": 106811,
+        "start_asn": 34858,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 34892,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-34892",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-04-26",
+        "registry": "ripencc",
+        "source_line": 106837,
+        "start_asn": 34892,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Kviktel LLC"
+      ],
+      "asn": 34959,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-34959",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-34959",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-10-28",
+        "registry": "ripencc",
+        "source_line": 106892,
+        "start_asn": 34959,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 34974,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-34974",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-05-11",
+        "registry": "ripencc",
+        "source_line": 106905,
+        "start_asn": 34974,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Severen-Telecom"
+      ],
+      "asn": 35000,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-35000",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-05-17",
+        "registry": "ripencc",
+        "source_line": 106922,
+        "start_asn": 35000,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Jsc aviel"
+      ],
+      "asn": 35271,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-35271",
+        "microsoft": "observation:observed_presence:microsoft-35271",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-07-06",
+        "registry": "ripencc",
+        "source_line": 107132,
+        "start_asn": 35271,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sprinthost.ru LLC"
+      ],
+      "asn": 35278,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-35278",
+        "apple": "observation:observed_presence:apple-35278",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-35278",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-12-18",
+        "registry": "ripencc",
+        "source_line": 107137,
+        "start_asn": 35278,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Inetcom Carrier LLC"
+      ],
+      "asn": 35598,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-35598",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-35598",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-09-14",
+        "registry": "ripencc",
+        "source_line": 107385,
+        "start_asn": 35598,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "SkyNet Ltd."
+      ],
+      "asn": 35807,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-35807",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-11-01",
+        "registry": "ripencc",
+        "source_line": 107538,
+        "start_asn": 35807,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Big Telecom JSC"
+      ],
+      "asn": 35810,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-35810",
+        "microsoft": "observation:observed_presence:microsoft-35810",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-11-02",
+        "registry": "ripencc",
+        "source_line": 107540,
+        "start_asn": 35810,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "P.a.k.t LLC"
+      ],
+      "asn": 39087,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-39087",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-12-09",
+        "registry": "ripencc",
+        "source_line": 107700,
+        "start_asn": 39087,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Edinaya Set Limited Liability Company"
+      ],
+      "asn": 39134,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-39134",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-12-16",
+        "registry": "ripencc",
+        "source_line": 107738,
+        "start_asn": 39134,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Joint-stock Company teleport Telecom"
+      ],
+      "asn": 39153,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-39153",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2005-12-22",
+        "registry": "ripencc",
+        "source_line": 107753,
+        "start_asn": 39153,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Okb Progress LLC"
+      ],
+      "asn": 39238,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-39238",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-07-26",
+        "registry": "ripencc",
+        "source_line": 107824,
+        "start_asn": 39238,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC RDE Unico"
+      ],
+      "asn": 39442,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-39442",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-02-22",
+        "registry": "ripencc",
+        "source_line": 107994,
+        "start_asn": 39442,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Jsc ru-center"
+      ],
+      "asn": 39494,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-39494",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-03-07",
+        "registry": "ripencc",
+        "source_line": 108038,
+        "start_asn": 39494,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Extreme Ltd"
+      ],
+      "asn": 39709,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-39709",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-04-13",
+        "registry": "ripencc",
+        "source_line": 108203,
+        "start_asn": 39709,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "E-Light-Telecom Ltd."
+      ],
+      "asn": 39927,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-39927",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-05-18",
+        "registry": "ripencc",
+        "source_line": 108386,
+        "start_asn": 39927,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sibirskie Seti Ltd."
+      ],
+      "asn": 40995,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-40995",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-05-29",
+        "registry": "ripencc",
+        "source_line": 108424,
+        "start_asn": 40995,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Ltd. SPAImpulse"
+      ],
+      "asn": 41034,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-41034",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-06-02",
+        "registry": "ripencc",
+        "source_line": 108458,
+        "start_asn": 41034,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Lovitel LLC"
+      ],
+      "asn": 41275,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-41275",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-07-13",
+        "registry": "ripencc",
+        "source_line": 108640,
+        "start_asn": 41275,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "T2 Mobile LLC"
+      ],
+      "asn": 41330,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-41330",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-07-25",
+        "registry": "ripencc",
+        "source_line": 108688,
+        "start_asn": 41330,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "UGMK-Telecom LLC"
+      ],
+      "asn": 41560,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-41560",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-09-14",
+        "registry": "ripencc",
+        "source_line": 108872,
+        "start_asn": 41560,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 41668,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-41668",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-10-03",
+        "registry": "ripencc",
+        "source_line": 108962,
+        "start_asn": 41668,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 41733,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-41733",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-10-16",
+        "registry": "ripencc",
+        "source_line": 109021,
+        "start_asn": 41733,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Baykov Ilya Sergeevich"
+      ],
+      "asn": 41745,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-41745",
+        "apple": "observation:observed_presence:apple-41745",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-41745",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-02-05",
+        "registry": "ripencc",
+        "source_line": 109032,
+        "start_asn": 41745,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 41771,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-41771",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-10-23",
+        "registry": "ripencc",
+        "source_line": 109054,
+        "start_asn": 41771,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Teledyne Systems Limited"
+      ],
+      "asn": 41789,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-41789",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-10-25",
+        "registry": "ripencc",
+        "source_line": 109070,
+        "start_asn": 41789,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sibirskie Seti Ltd."
+      ],
+      "asn": 41794,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-41794",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-10-25",
+        "registry": "ripencc",
+        "source_line": 109074,
+        "start_asn": 41794,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Krivets Sergey Sergeevich"
+      ],
+      "asn": 42038,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42038",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-12-08",
+        "registry": "ripencc",
+        "source_line": 109274,
+        "start_asn": 42038,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 42116,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-42116",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2006-12-20",
+        "registry": "ripencc",
+        "source_line": 109338,
+        "start_asn": 42116,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "OOO Istranet"
+      ],
+      "asn": 42291,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-42291",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-01-29",
+        "registry": "ripencc",
+        "source_line": 109482,
+        "start_asn": 42291,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Limited Company Svyazservice"
+      ],
+      "asn": 42387,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42387",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-02-14",
+        "registry": "ripencc",
+        "source_line": 109561,
+        "start_asn": 42387,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "T2 Mobile LLC"
+      ],
+      "asn": 42437,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42437",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2015-01-22",
+        "registry": "ripencc",
+        "source_line": 109601,
+        "start_asn": 42437,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Connect LLC"
+      ],
+      "asn": 42511,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42511",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-03-05",
+        "registry": "ripencc",
+        "source_line": 109660,
+        "start_asn": 42511,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Unet Communication LLC"
+      ],
+      "asn": 42518,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-42518",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42518",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-03-06",
+        "registry": "ripencc",
+        "source_line": 109667,
+        "start_asn": 42518,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Novaya Sibir Plus Ltd."
+      ],
+      "asn": 42574,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42574",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-03-14",
+        "registry": "ripencc",
+        "source_line": 109715,
+        "start_asn": 42574,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Rostelecom"
+      ],
+      "asn": 42610,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-42610",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42610",
+        "microsoft": "observation:observed_presence:microsoft-42610",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-03-22",
+        "registry": "ripencc",
+        "source_line": 109743,
+        "start_asn": 42610,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Joint Stock Company Smartkom"
+      ],
+      "asn": 42676,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-42676",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-03-30",
+        "registry": "ripencc",
+        "source_line": 109795,
+        "start_asn": 42676,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "InterkamService LLC"
+      ],
+      "asn": 42742,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42742",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-04-10",
+        "registry": "ripencc",
+        "source_line": 109847,
+        "start_asn": 42742,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "KaspNet Ltd."
+      ],
+      "asn": 42922,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-42922",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-05-10",
+        "registry": "ripencc",
+        "source_line": 109996,
+        "start_asn": 42922,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "ITT Ltd."
+      ],
+      "asn": 43182,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-43182",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-06-20",
+        "registry": "ripencc",
+        "source_line": 110207,
+        "start_asn": 43182,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Optizon Ltd"
+      ],
+      "asn": 43238,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-43238",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-07-02",
+        "registry": "ripencc",
+        "source_line": 110253,
+        "start_asn": 43238,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "RN Telecom Ltd."
+      ],
+      "asn": 43265,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-43265",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-07-05",
+        "registry": "ripencc",
+        "source_line": 110273,
+        "start_asn": 43265,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Hosting Ltd"
+      ],
+      "asn": 43362,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-43362",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-07-20",
+        "registry": "ripencc",
+        "source_line": 110354,
+        "start_asn": 43362,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Ztv Corp LLC"
+      ],
+      "asn": 43581,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-43581",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-43581",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2020-09-03",
+        "registry": "ripencc",
+        "source_line": 110528,
+        "start_asn": 43581,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Jsc Kvant-telekom"
+      ],
+      "asn": 43727,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-43727",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-09-19",
+        "registry": "ripencc",
+        "source_line": 110641,
+        "start_asn": 43727,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sever-Svyaz LLC"
+      ],
+      "asn": 43849,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-43849",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-10-09",
+        "registry": "ripencc",
+        "source_line": 110745,
+        "start_asn": 43849,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Lentel Business Ltd."
+      ],
+      "asn": 44030,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44030",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-11-07",
+        "registry": "ripencc",
+        "source_line": 110907,
+        "start_asn": 44030,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Korporatsia Svyazy Ltd."
+      ],
+      "asn": 44041,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44041",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-11-08",
+        "registry": "ripencc",
+        "source_line": 110916,
+        "start_asn": 44041,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Petersburg Internet Network ltd."
+      ],
+      "asn": 44050,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44050",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-11-09",
+        "registry": "ripencc",
+        "source_line": 110923,
+        "start_asn": 44050,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Trytek LLC"
+      ],
+      "asn": 44056,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44056",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-11-12",
+        "registry": "ripencc",
+        "source_line": 110928,
+        "start_asn": 44056,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Webhost LLC"
+      ],
+      "asn": 44094,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44094",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2016-11-29",
+        "registry": "ripencc",
+        "source_line": 110956,
+        "start_asn": 44094,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "SpaceWeb Ltd"
+      ],
+      "asn": 44112,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-44112",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44112",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-11-19",
+        "registry": "ripencc",
+        "source_line": 110970,
+        "start_asn": 44112,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Internet-Pro LLC"
+      ],
+      "asn": 44128,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44128",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-11-21",
+        "registry": "ripencc",
+        "source_line": 110983,
+        "start_asn": 44128,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sibirskie Seti Ltd."
+      ],
+      "asn": 44206,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44206",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-12-04",
+        "registry": "ripencc",
+        "source_line": 111038,
+        "start_asn": 44206,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "En+ Telecom LLC"
+      ],
+      "asn": 44267,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44267",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2007-12-14",
+        "registry": "ripencc",
+        "source_line": 111087,
+        "start_asn": 44267,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Elektrosvyaz"
+      ],
+      "asn": 44391,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44391",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-01-16",
+        "registry": "ripencc",
+        "source_line": 111195,
+        "start_asn": 44391,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Chelyabinsk-Signal LLC"
+      ],
+      "asn": 44493,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-44493",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44493",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-01-28",
+        "registry": "ripencc",
+        "source_line": 111285,
+        "start_asn": 44493,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "OJSC Kostroma Municipal Telephone Network"
+      ],
+      "asn": 44507,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44507",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-01-29",
+        "registry": "ripencc",
+        "source_line": 111298,
+        "start_asn": 44507,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Jsc Kvant-telekom"
+      ],
+      "asn": 44604,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44604",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-02-12",
+        "registry": "ripencc",
+        "source_line": 111384,
+        "start_asn": 44604,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Octopusnet LTD"
+      ],
+      "asn": 44724,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-44724",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44724",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-02-28",
+        "registry": "ripencc",
+        "source_line": 111491,
+        "start_asn": 44724,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "IP Server LLC"
+      ],
+      "asn": 44812,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-44812",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-44812",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-03-14",
+        "registry": "ripencc",
+        "source_line": 111572,
+        "start_asn": 44812,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Vsevnet Ltd."
+      ],
+      "asn": 44882,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44882",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-03-26",
+        "registry": "ripencc",
+        "source_line": 111635,
+        "start_asn": 44882,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Ramtel Ltd."
+      ],
+      "asn": 44943,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44943",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-04-04",
+        "registry": "ripencc",
+        "source_line": 111692,
+        "start_asn": 44943,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Stavtelecom LLC"
+      ],
+      "asn": 44963,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-44963",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-04-09",
+        "registry": "ripencc",
+        "source_line": 111711,
+        "start_asn": 44963,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Ufanet"
+      ],
+      "asn": 47119,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47119",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-04-29",
+        "registry": "ripencc",
+        "source_line": 111807,
+        "start_asn": 47119,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Omskie kabelnye seti Ltd."
+      ],
+      "asn": 47165,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47165",
+        "microsoft": "observation:observed_presence:microsoft-47165",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-05-07",
+        "registry": "ripencc",
+        "source_line": 111845,
+        "start_asn": 47165,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Garant-Park-Internet LLC"
+      ],
+      "asn": 47196,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": "observation:observed_presence:aws-cloudfront-47196",
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-05-14",
+        "registry": "ripencc",
+        "source_line": 111874,
+        "start_asn": 47196,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "CityLink Ltd"
+      ],
+      "asn": 47236,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47236",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-05-22",
+        "registry": "ripencc",
+        "source_line": 111913,
+        "start_asn": 47236,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "OTS Ltd."
+      ],
+      "asn": 47286,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47286",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-05-28",
+        "registry": "ripencc",
+        "source_line": 111957,
+        "start_asn": 47286,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sibirskie Seti Ltd."
+      ],
+      "asn": 47433,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47433",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-06-19",
+        "registry": "ripencc",
+        "source_line": 112089,
+        "start_asn": 47433,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Pskovline Ltd."
+      ],
+      "asn": 47438,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47438",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-06-19",
+        "registry": "ripencc",
+        "source_line": 112093,
+        "start_asn": 47438,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "mayak Network LLC"
+      ],
+      "asn": 47551,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47551",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2014-11-21",
+        "registry": "ripencc",
+        "source_line": 112196,
+        "start_asn": 47551,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Dmitriy V. Kozmenko"
+      ],
+      "asn": 47586,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47586",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-07-17",
+        "registry": "ripencc",
+        "source_line": 112227,
+        "start_asn": 47586,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Timer, LLC"
+      ],
+      "asn": 47626,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47626",
+        "microsoft": "observation:observed_presence:microsoft-47626",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2017-07-10",
+        "registry": "ripencc",
+        "source_line": 112260,
+        "start_asn": 47626,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC VK"
+      ],
+      "asn": 47764,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-47764",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-47764",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-08-15",
+        "registry": "ripencc",
+        "source_line": 112384,
+        "start_asn": 47764,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LTD Erline"
+      ],
+      "asn": 47895,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47895",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-09-11",
+        "registry": "ripencc",
+        "source_line": 112502,
+        "start_asn": 47895,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "OOO Creative Direct Marketing Solutions"
+      ],
+      "asn": 47914,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-47914",
+        "microsoft": "observation:observed_presence:microsoft-47914",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-09-15",
+        "registry": "ripencc",
+        "source_line": 112521,
+        "start_asn": 47914,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Uzhnie Magistraljnie Linii Svyazi LLC"
+      ],
+      "asn": 48084,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48084",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-10-10",
+        "registry": "ripencc",
+        "source_line": 112665,
+        "start_asn": 48084,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "T2 Mobile LLC"
+      ],
+      "asn": 48092,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48092",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-10-13",
+        "registry": "ripencc",
+        "source_line": 112672,
+        "start_asn": 48092,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Enterprise Cloud Ltd."
+      ],
+      "asn": 48096,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-48096",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-48096",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-10-13",
+        "registry": "ripencc",
+        "source_line": 112676,
+        "start_asn": 48096,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 48124,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-48124",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-10-15",
+        "registry": "ripencc",
+        "source_line": 112702,
+        "start_asn": 48124,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Fortex Cjsc"
+      ],
+      "asn": 48166,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48166",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-10-21",
+        "registry": "ripencc",
+        "source_line": 112740,
+        "start_asn": 48166,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 48176,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48176",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-10-22",
+        "registry": "ripencc",
+        "source_line": 112748,
+        "start_asn": 48176,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "T2 Mobile LLC"
+      ],
+      "asn": 48190,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48190",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-10-23",
+        "registry": "ripencc",
+        "source_line": 112759,
+        "start_asn": 48190,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Hosting technology LTD"
+      ],
+      "asn": 48282,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-48282",
+        "apple": "observation:observed_presence:apple-48282",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-48282",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-11-03",
+        "registry": "ripencc",
+        "source_line": 112841,
+        "start_asn": 48282,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Ray-Svyaz Ltd."
+      ],
+      "asn": 48327,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48327",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-11-12",
+        "registry": "ripencc",
+        "source_line": 112879,
+        "start_asn": 48327,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Mediasoft ekspert"
+      ],
+      "asn": 48347,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-48347",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48347",
+        "microsoft": "observation:observed_presence:microsoft-48347",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-11-17",
+        "registry": "ripencc",
+        "source_line": 112899,
+        "start_asn": 48347,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Zero Kilometer"
+      ],
+      "asn": 48586,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48586",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2016-03-01",
+        "registry": "ripencc",
+        "source_line": 113117,
+        "start_asn": 48586,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "ITSOFT LLC"
+      ],
+      "asn": 48614,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-48614",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2008-12-18",
+        "registry": "ripencc",
+        "source_line": 113138,
+        "start_asn": 48614,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "TrustInfo LLC"
+      ],
+      "asn": 48757,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-48757",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-01-30",
+        "registry": "ripencc",
+        "source_line": 113264,
+        "start_asn": 48757,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC smart Center"
+      ],
+      "asn": 48763,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-48763",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-08-27",
+        "registry": "ripencc",
+        "source_line": 113270,
+        "start_asn": 48763,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 48858,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48858",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-02-19",
+        "registry": "ripencc",
+        "source_line": 113349,
+        "start_asn": 48858,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Optima-Shid LLC"
+      ],
+      "asn": 48882,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-48882",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-02-23",
+        "registry": "ripencc",
+        "source_line": 113372,
+        "start_asn": 48882,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Data Storage Center JSC"
+      ],
+      "asn": 49063,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-49063",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-04-03",
+        "registry": "ripencc",
+        "source_line": 113527,
+        "start_asn": 49063,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Telecompany Viza-2 Ltd."
+      ],
+      "asn": 49070,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": "observation:observed_presence:fna-49070",
+        "ggc": "observation:observed_presence:ggc-49070",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-04-06",
+        "registry": "ripencc",
+        "source_line": 113534,
+        "start_asn": 49070,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Nizhnetagilskie Kompyuternye Seti LLC"
+      ],
+      "asn": 49218,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-49218",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-04-29",
+        "registry": "ripencc",
+        "source_line": 113663,
+        "start_asn": 49218,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Baxet"
+      ],
+      "asn": 49392,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-49392",
+        "apple": "observation:observed_presence:apple-49392",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-49392",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-01-18",
+        "registry": "ripencc",
+        "source_line": 113822,
+        "start_asn": 49392,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "AVK-Wellcom Ltd."
+      ],
+      "asn": 49403,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-49403",
+        "microsoft": "observation:observed_presence:microsoft-49403",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-06-03",
+        "registry": "ripencc",
+        "source_line": 113832,
+        "start_asn": 49403,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Provodov.net Ltd."
+      ],
+      "asn": 49478,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-49478",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-06-16",
+        "registry": "ripencc",
+        "source_line": 113902,
+        "start_asn": 49478,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Selectel"
+      ],
+      "asn": 49505,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-49505",
+        "apple": "observation:observed_presence:apple-49505",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-49505",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-06-18",
+        "registry": "ripencc",
+        "source_line": 113928,
+        "start_asn": 49505,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Kom lan Ltd"
+      ],
+      "asn": 49583,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-49583",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-07-08",
+        "registry": "ripencc",
+        "source_line": 113997,
+        "start_asn": 49583,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Nizhnevolzhskie Telecommunication Networks Real LLC"
+      ],
+      "asn": 49718,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-49718",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-08-27",
+        "registry": "ripencc",
+        "source_line": 114120,
+        "start_asn": 49718,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Vainah Telecom"
+      ],
+      "asn": 49724,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-49724",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-08-27",
+        "registry": "ripencc",
+        "source_line": 114124,
+        "start_asn": 49724,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Regional TeleSystem Ltd"
+      ],
+      "asn": 49963,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-49963",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-10-19",
+        "registry": "ripencc",
+        "source_line": 114338,
+        "start_asn": 49963,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Kristelecom Ltd."
+      ],
+      "asn": 50022,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50022",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-10-28",
+        "registry": "ripencc",
+        "source_line": 114391,
+        "start_asn": 50022,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "BaikalWestCom"
+      ],
+      "asn": 50187,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50187",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-11-26",
+        "registry": "ripencc",
+        "source_line": 114542,
+        "start_asn": 50187,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "QWARTA LLC"
+      ],
+      "asn": 50214,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-50214",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-12-02",
+        "registry": "ripencc",
+        "source_line": 114566,
+        "start_asn": 50214,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JV A-Mobile Ltd."
+      ],
+      "asn": 50257,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50257",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-12-10",
+        "registry": "ripencc",
+        "source_line": 114602,
+        "start_asn": 50257,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Selectel"
+      ],
+      "asn": 50340,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-50340",
+        "apple": "observation:observed_presence:apple-50340",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-50340",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2017-10-16",
+        "registry": "ripencc",
+        "source_line": 114675,
+        "start_asn": 50340,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Orion Telecom LLC"
+      ],
+      "asn": 50427,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50427",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-01-14",
+        "registry": "ripencc",
+        "source_line": 114752,
+        "start_asn": 50427,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "IQHost Ltd"
+      ],
+      "asn": 50465,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-50465",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-01-21",
+        "registry": "ripencc",
+        "source_line": 114789,
+        "start_asn": 50465,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Svyaz-Energo Ltd."
+      ],
+      "asn": 50477,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50477",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-01-25",
+        "registry": "ripencc",
+        "source_line": 114801,
+        "start_asn": 50477,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 50498,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50498",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-01-29",
+        "registry": "ripencc",
+        "source_line": 114819,
+        "start_asn": 50498,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Maxiplace Ltd."
+      ],
+      "asn": 50516,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-50516",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2015-01-26",
+        "registry": "ripencc",
+        "source_line": 114833,
+        "start_asn": 50516,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 50543,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-50543",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-02-08",
+        "registry": "ripencc",
+        "source_line": 114857,
+        "start_asn": 50543,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Telecom.ru Ltd"
+      ],
+      "asn": 50716,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50716",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-03-15",
+        "registry": "ripencc",
+        "source_line": 115007,
+        "start_asn": 50716,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Metroset"
+      ],
+      "asn": 50923,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-50923",
+        "microsoft": "observation:observed_presence:microsoft-50923",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-04-21",
+        "registry": "ripencc",
+        "source_line": 115192,
+        "start_asn": 50923,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LNTech LLC"
+      ],
+      "asn": 51076,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-51076",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-51076",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2023-11-14",
+        "registry": "ripencc",
+        "source_line": 115333,
+        "start_asn": 51076,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC trc Fiord"
+      ],
+      "asn": 51369,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-51369",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-51369",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-04-12",
+        "registry": "ripencc",
+        "source_line": 115603,
+        "start_asn": 51369,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 51570,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-51570",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-09-30",
+        "registry": "ripencc",
+        "source_line": 115780,
+        "start_asn": 51570,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 51604,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-51604",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-10-06",
+        "registry": "ripencc",
+        "source_line": 115812,
+        "start_asn": 51604,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Ilim Telecom Ltd."
+      ],
+      "asn": 51655,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-51655",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-10-14",
+        "registry": "ripencc",
+        "source_line": 115857,
+        "start_asn": 51655,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Baxet"
+      ],
+      "asn": 51659,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-51659",
+        "apple": "observation:observed_presence:apple-51659",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-51659",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-10-14",
+        "registry": "ripencc",
+        "source_line": 115860,
+        "start_asn": 51659,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Flynet Ltd"
+      ],
+      "asn": 51724,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-51724",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-10-26",
+        "registry": "ripencc",
+        "source_line": 115921,
+        "start_asn": 51724,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Multiservice"
+      ],
+      "asn": 52043,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-52043",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-12-20",
+        "registry": "ripencc",
+        "source_line": 116207,
+        "start_asn": 52043,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Comfortel Ltd."
+      ],
+      "asn": 56534,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-56534",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-56534",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-03-11",
+        "registry": "ripencc",
+        "source_line": 116566,
+        "start_asn": 56534,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Fly-Tech Ltd."
+      ],
+      "asn": 56634,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-56634",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-04-13",
+        "registry": "ripencc",
+        "source_line": 116652,
+        "start_asn": 56634,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Smart Ape"
+      ],
+      "asn": 56694,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-56694",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-56694",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2015-12-11",
+        "registry": "ripencc",
+        "source_line": 116707,
+        "start_asn": 56694,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC avanta Telecom"
+      ],
+      "asn": 56701,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-56701",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2017-03-03",
+        "registry": "ripencc",
+        "source_line": 116714,
+        "start_asn": 56701,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Teleskan-Intercom Ltd"
+      ],
+      "asn": 56724,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-56724",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-05-04",
+        "registry": "ripencc",
+        "source_line": 116736,
+        "start_asn": 56724,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "CityTelekom Ltd."
+      ],
+      "asn": 56791,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-56791",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-05-17",
+        "registry": "ripencc",
+        "source_line": 116792,
+        "start_asn": 56791,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC ER-Telecom Holding"
+      ],
+      "asn": 57026,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-57026",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-07-05",
+        "registry": "ripencc",
+        "source_line": 117006,
+        "start_asn": 57026,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Ufanet"
+      ],
+      "asn": 57128,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-57128",
+        "microsoft": "observation:observed_presence:microsoft-57128",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-07-26",
+        "registry": "ripencc",
+        "source_line": 117098,
+        "start_asn": 57128,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Subnet LLC"
+      ],
+      "asn": 57227,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-57227",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-08-29",
+        "registry": "ripencc",
+        "source_line": 117186,
+        "start_asn": 57227,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC RetnNet"
+      ],
+      "asn": 57304,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-57304",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-57304",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2022-10-25",
+        "registry": "ripencc",
+        "source_line": 117251,
+        "start_asn": 57304,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "SYSTEMA Ltd"
+      ],
+      "asn": 57354,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-57354",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-10-05",
+        "registry": "ripencc",
+        "source_line": 117294,
+        "start_asn": 57354,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Adman LLC"
+      ],
+      "asn": 57494,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-57494",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-57494",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-11-14",
+        "registry": "ripencc",
+        "source_line": 117415,
+        "start_asn": 57494,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PE Ahmedov Alil Aliomarovich"
+      ],
+      "asn": 57534,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-57534",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-11-23",
+        "registry": "ripencc",
+        "source_line": 117453,
+        "start_asn": 57534,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Joint-stock Company moscow Energy Communication Node"
+      ],
+      "asn": 58067,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-58067",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-04-12",
+        "registry": "ripencc",
+        "source_line": 117943,
+        "start_asn": 58067,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Vpsville"
+      ],
+      "asn": 59504,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-59504",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-07-27",
+        "registry": "ripencc",
+        "source_line": 118310,
+        "start_asn": 59504,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Ufanet"
+      ],
+      "asn": 60095,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-60095",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2014-05-22",
+        "registry": "ripencc",
+        "source_line": 118834,
+        "start_asn": 60095,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Consumer Internet Cooperative PG-19"
+      ],
+      "asn": 60246,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-60246",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-05-31",
+        "registry": "ripencc",
+        "source_line": 118960,
+        "start_asn": 60246,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Mezhdugorodnyaya Mezhdunarodnaya Telefonnaya Stanciya Ltd."
+      ],
+      "asn": 60299,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-60299",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2013-08-16",
+        "registry": "ripencc",
+        "source_line": 119010,
+        "start_asn": 60299,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 60490,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-60490",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2013-07-11",
+        "registry": "ripencc",
+        "source_line": 119174,
+        "start_asn": 60490,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Vichislitelniy Centr Ltd."
+      ],
+      "asn": 61276,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-61276",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-12-10",
+        "registry": "ripencc",
+        "source_line": 119881,
+        "start_asn": 61276,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "PVONET LTD"
+      ],
+      "asn": 61308,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-61308",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-11-29",
+        "registry": "ripencc",
+        "source_line": 119909,
+        "start_asn": 61308,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Start2 LLC"
+      ],
+      "asn": 61400,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-61400",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-10-25",
+        "registry": "ripencc",
+        "source_line": 119992,
+        "start_asn": 61400,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "JSC Selectel"
+      ],
+      "asn": 61976,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-61976",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-09-19",
+        "registry": "ripencc",
+        "source_line": 120046,
+        "start_asn": 61976,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Innovative Telecommunications LLC"
+      ],
+      "asn": 62040,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-62040",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2014-03-10",
+        "registry": "ripencc",
+        "source_line": 120104,
+        "start_asn": 62040,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Hostland LTD"
+      ],
+      "asn": 62082,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-62082",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2014-02-20",
+        "registry": "ripencc",
+        "source_line": 120140,
+        "start_asn": 62082,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Plazmatelekom LLC"
+      ],
+      "asn": 62440,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-62440",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2013-09-19",
+        "registry": "ripencc",
+        "source_line": 120460,
+        "start_asn": 62440,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "IT Outsourcing LLC"
+      ],
+      "asn": 64439,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-64439",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-64439",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2016-08-24",
+        "registry": "ripencc",
+        "source_line": 120521,
+        "start_asn": 64439,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "NetOne Rus JSC"
+      ],
+      "asn": 196695,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-196695",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-08-10",
+        "registry": "ripencc",
+        "source_line": 120627,
+        "start_asn": 196695,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Ardinvest LTD"
+      ],
+      "asn": 196705,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-196705",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2009-03-13",
+        "registry": "ripencc",
+        "source_line": 120632,
+        "start_asn": 196705,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Yarnet Ltd"
+      ],
+      "asn": 197078,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-197078",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-05-20",
+        "registry": "ripencc",
+        "source_line": 120874,
+        "start_asn": 197078,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Multifunctional Telecommunications Systems LTD"
+      ],
+      "asn": 197298,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-197298",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2010-10-07",
+        "registry": "ripencc",
+        "source_line": 121071,
+        "start_asn": 197298,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Domain names registrar REG.RU, Ltd"
+      ],
+      "asn": 197695,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-197695",
+        "aws-cloudfront": "observation:observed_presence:aws-cloudfront-197695",
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-197695",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-03-28",
+        "registry": "ripencc",
+        "source_line": 121462,
+        "start_asn": 197695,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Autonomous public institution High technology park IT-park"
+      ],
+      "asn": 197765,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-197765",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2011-04-19",
+        "registry": "ripencc",
+        "source_line": 121529,
+        "start_asn": 197765,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Beget LLC"
+      ],
+      "asn": 198610,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-198610",
+        "apple": "observation:observed_presence:apple-198610",
+        "aws-cloudfront": "observation:observed_presence:aws-cloudfront-198610",
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-198610",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-06-25",
+        "registry": "ripencc",
+        "source_line": 122346,
+        "start_asn": 198610,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Virtual infrastructures Ltd."
+      ],
+      "asn": 198770,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-198770",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-05-08",
+        "registry": "ripencc",
+        "source_line": 122505,
+        "start_asn": 198770,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Proton66 OOO"
+      ],
+      "asn": 198953,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-198953",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2023-04-06",
+        "registry": "ripencc",
+        "source_line": 122685,
+        "start_asn": 198953,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Yanislav Basiuk"
+      ],
+      "asn": 199133,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-199133",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2026-04-10",
+        "registry": "ripencc",
+        "source_line": 122859,
+        "start_asn": 199133,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "DK Svyaz OOO"
+      ],
+      "asn": 199624,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": "observation:observed_presence:aws-cloudfront-199624",
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-11-02",
+        "registry": "ripencc",
+        "source_line": 123339,
+        "start_asn": 199624,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Okay-Telecom Ltd."
+      ],
+      "asn": 199669,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-199669",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2012-10-12",
+        "registry": "ripencc",
+        "source_line": 123382,
+        "start_asn": 199669,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Yandex.Cloud LLC"
+      ],
+      "asn": 200350,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-200350",
+        "apple": "observation:observed_presence:apple-200350",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-200350",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-08-02",
+        "registry": "ripencc",
+        "source_line": 124046,
+        "start_asn": 200350,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Eneva Ltd"
+      ],
+      "asn": 200483,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-200483",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-200483",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2026-03-02",
+        "registry": "ripencc",
+        "source_line": 124176,
+        "start_asn": 200483,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "OOO VPS"
+      ],
+      "asn": 200487,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-200487",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-200487",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2015-06-23",
+        "registry": "ripencc",
+        "source_line": 124180,
+        "start_asn": 200487,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Jormungand LLC"
+      ],
+      "asn": 200897,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-200897",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-200897",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2026-02-17",
+        "registry": "ripencc",
+        "source_line": 124572,
+        "start_asn": 200897,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Abdurakhmanov Magomed Zikrulaevich"
+      ],
+      "asn": 201147,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-201147",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2015-01-14",
+        "registry": "ripencc",
+        "source_line": 124812,
+        "start_asn": 201147,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Loginov Vladislav"
+      ],
+      "asn": 201279,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-201279",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-201279",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2026-02-10",
+        "registry": "ripencc",
+        "source_line": 124943,
+        "start_asn": 201279,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Trader soft LLC"
+      ],
+      "asn": 201848,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-201848",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2014-06-26",
+        "registry": "ripencc",
+        "source_line": 125499,
+        "start_asn": 201848,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LTD AtelRybinsk"
+      ],
+      "asn": 201952,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-201952",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2014-05-22",
+        "registry": "ripencc",
+        "source_line": 125602,
+        "start_asn": 201952,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "A-Siti Limited Liability Company"
+      ],
+      "asn": 202136,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-202136",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2014-03-28",
+        "registry": "ripencc",
+        "source_line": 125784,
+        "start_asn": 202136,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Tyurin Viktor Mihaylovich"
+      ],
+      "asn": 202423,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-202423",
+        "apple": "observation:observed_presence:apple-202423",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-202423",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-05-17",
+        "registry": "ripencc",
+        "source_line": 126066,
+        "start_asn": 202423,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Trusted Network LLC"
+      ],
+      "asn": 202696,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-202696",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2016-06-21",
+        "registry": "ripencc",
+        "source_line": 126332,
+        "start_asn": 202696,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "OOO Intercom"
+      ],
+      "asn": 202838,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-202838",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2016-05-20",
+        "registry": "ripencc",
+        "source_line": 126472,
+        "start_asn": 202838,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "GlavTel ltd"
+      ],
+      "asn": 203004,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-203004",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2016-04-18",
+        "registry": "ripencc",
+        "source_line": 126631,
+        "start_asn": 203004,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Kontel LLC"
+      ],
+      "asn": 204490,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-204490",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-204490",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-03-02",
+        "registry": "ripencc",
+        "source_line": 128080,
+        "start_asn": 204490,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Denis Dmitrievich Galyamin"
+      ],
+      "asn": 204576,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-204576",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-02-15",
+        "registry": "ripencc",
+        "source_line": 128165,
+        "start_asn": 204576,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Global Cloud Network LLC"
+      ],
+      "asn": 204720,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-204720",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-01-22",
+        "registry": "ripencc",
+        "source_line": 128309,
+        "start_asn": 204720,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "IT-Zavod LLC"
+      ],
+      "asn": 207209,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-207209",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2016-08-10",
+        "registry": "ripencc",
+        "source_line": 130732,
+        "start_asn": 207209,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Best Line Ltd."
+      ],
+      "asn": 207676,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-207676",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-12-18",
+        "registry": "ripencc",
+        "source_line": 131181,
+        "start_asn": 207676,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Global Internet Solutions LLC"
+      ],
+      "asn": 207713,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-207713",
+        "apple": "observation:observed_presence:apple-207713",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-207713",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2022-05-24",
+        "registry": "ripencc",
+        "source_line": 131216,
+        "start_asn": 207713,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Ediniy Operator Svyazi LLC"
+      ],
+      "asn": 208087,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-208087",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-10-04",
+        "registry": "ripencc",
+        "source_line": 131568,
+        "start_asn": 208087,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "ServTech LTD"
+      ],
+      "asn": 208626,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-208626",
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-208626",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-07-01",
+        "registry": "ripencc",
+        "source_line": 132089,
+        "start_asn": 208626,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Cloud.ru"
+      ],
+      "asn": 208677,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-208677",
+        "aws-cloudfront": "observation:observed_presence:aws-cloudfront-208677",
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-208677",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-06-21",
+        "registry": "ripencc",
+        "source_line": 132138,
+        "start_asn": 208677,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "MTS PJSC"
+      ],
+      "asn": 209024,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-209024",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-04-23",
+        "registry": "ripencc",
+        "source_line": 132468,
+        "start_asn": 209024,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Digital Hosting Provider LLC"
+      ],
+      "asn": 209207,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-209207",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-209207",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2026-01-19",
+        "registry": "ripencc",
+        "source_line": 132645,
+        "start_asn": 209207,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Cifrovie Seti Urala"
+      ],
+      "asn": 209307,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": "observation:observed_presence:ggc-209307",
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2019-02-28",
+        "registry": "ripencc",
+        "source_line": 132739,
+        "start_asn": 209307,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sbcloud LLC"
+      ],
+      "asn": 209805,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-209805",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-209805",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-11-29",
+        "registry": "ripencc",
+        "source_line": 133222,
+        "start_asn": 209805,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "ITGLOBAL.COM RUS Ltd"
+      ],
+      "asn": 209974,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-209974",
+        "apple": "observation:observed_presence:apple-209974",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-209974",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-11-01",
+        "registry": "ripencc",
+        "source_line": 133387,
+        "start_asn": 209974,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "EuroByte LLC"
+      ],
+      "asn": 210079,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-210079",
+        "apple": "observation:observed_presence:apple-210079",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-210079",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2018-10-11",
+        "registry": "ripencc",
+        "source_line": 133491,
+        "start_asn": 210079,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Aeza Group LLC"
+      ],
+      "asn": 210644,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-210644",
+        "apple": "observation:observed_presence:apple-210644",
+        "aws-cloudfront": "observation:observed_presence:aws-cloudfront-210644",
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-210644",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-10-13",
+        "registry": "ripencc",
+        "source_line": 134029,
+        "start_asn": 210644,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Yandex.Cloud LLC"
+      ],
+      "asn": 210656,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-210656",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-210656",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-10-11",
+        "registry": "ripencc",
+        "source_line": 134041,
+        "start_asn": 210656,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "EdgeCenter LLC"
+      ],
+      "asn": 210756,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-210756",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-210756",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-09-14",
+        "registry": "ripencc",
+        "source_line": 134141,
+        "start_asn": 210756,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "AdminVPS OOO"
+      ],
+      "asn": 211183,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-211183",
+        "apple": "observation:observed_presence:apple-211183",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-211183",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2021-06-10",
+        "registry": "ripencc",
+        "source_line": 134544,
+        "start_asn": 211183,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "NUBES LLC"
+      ],
+      "asn": 212136,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-212136",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": null,
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2020-12-17",
+        "registry": "ripencc",
+        "source_line": 135456,
+        "start_asn": 212136,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Alex Group LLC"
+      ],
+      "asn": 212165,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-212165",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2020-12-14",
+        "registry": "ripencc",
+        "source_line": 135485,
+        "start_asn": 212165,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Cloud assets LLC"
+      ],
+      "asn": 212441,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-212441",
+        "apple": "observation:observed_presence:apple-212441",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-212441",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2020-10-28",
+        "registry": "ripencc",
+        "source_line": 135747,
+        "start_asn": 212441,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "ITGLOBAL.COM RUS Ltd"
+      ],
+      "asn": 212675,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-212675",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-212675",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2020-09-11",
+        "registry": "ripencc",
+        "source_line": 135969,
+        "start_asn": 212675,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Delta Ltd"
+      ],
+      "asn": 213220,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-213220",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-213220",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2020-05-18",
+        "registry": "ripencc",
+        "source_line": 136493,
+        "start_asn": 213220,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "LLC Dzhibien Host"
+      ],
+      "asn": 214719,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-214719",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2025-10-08",
+        "registry": "ripencc",
+        "source_line": 137861,
+        "start_asn": 214719,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Mt Finance LLC"
+      ],
+      "asn": 214822,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-214822",
+        "apple": "observation:observed_presence:apple-214822",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-214822",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2024-05-27",
+        "registry": "ripencc",
+        "source_line": 137952,
+        "start_asn": 214822,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Denis Aleksandrovich Iakovlev"
+      ],
+      "asn": 214891,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-214891",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-214891",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2024-05-16",
+        "registry": "ripencc",
+        "source_line": 138015,
+        "start_asn": 214891,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Sozonov Matvei Andreevich"
+      ],
+      "asn": 215103,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": "observation:observed_presence:apple-215103",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-215103",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2026-02-24",
+        "registry": "ripencc",
+        "source_line": 138207,
+        "start_asn": 215103,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Helou LLC"
+      ],
+      "asn": 215314,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-215314",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2024-03-14",
+        "registry": "ripencc",
+        "source_line": 138397,
+        "start_asn": 215314,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Join Stock Company Serenity Platforms"
+      ],
+      "asn": 216140,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-216140",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2023-10-17",
+        "registry": "ripencc",
+        "source_line": 139160,
+        "start_asn": 216140,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Aeza Group LLC"
+      ],
+      "asn": 216246,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-216246",
+        "apple": "observation:observed_presence:apple-216246",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-216246",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2023-09-27",
+        "registry": "ripencc",
+        "source_line": 139255,
+        "start_asn": 216246,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "New Hosting Technologies LLC"
+      ],
+      "asn": 216334,
+      "provider_record_ids": {
+        "akamai": "observation:observed_presence:akamai-216334",
+        "apple": "observation:observed_presence:apple-216334",
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-216334",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2023-09-08",
+        "registry": "ripencc",
+        "source_line": 139334,
+        "start_asn": 216334,
+        "status": "allocated"
+      }
+    },
+    {
+      "as_names": [
+        "Petersburg Internet Network ltd."
+      ],
+      "asn": 216368,
+      "provider_record_ids": {
+        "akamai": null,
+        "apple": null,
+        "aws-cloudfront": null,
+        "fna": null,
+        "ggc": null,
+        "microsoft": "observation:observed_presence:microsoft-216368",
+        "oca": null
+      },
+      "rir_registration": {
+        "asn_count": 1,
+        "country_code": "RU",
+        "delegated_at": "2025-09-10",
+        "registry": "ripencc",
+        "source_line": 139363,
+        "start_asn": 216368,
+        "status": "allocated"
+      }
+    }
+  ],
+  "registration_country_is_not_geolocation": true,
+  "schema_version": "1.1.0",
+  "selection": "ripe_registration_country_RU",
+  "sources": [
+    {
+      "path": "data/observations/cdn-mapping.20260804.geojson",
+      "retrieved_at": "2026-08-04",
+      "role": "provider_asn_observations",
+      "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b",
+      "source_published_at": "2026-06-06"
+    },
+    {
+      "path": "data/raw/ripe/delegated-ripencc-extended.20260606.bz2",
+      "retrieved_at": "2026-10-19",
+      "role": "asn_registration_country",
+      "sha256": "992f42e8a1450f7a3cdf0e163b0d7ce1895529f89e9b1da64dcdfb60b33b1593",
+      "source_published_at": "2026-06-06",
+      "source_url": "https://ftp.ripe.net/pub/stats/ripencc/2026/delegated-ripencc-extended-20260606.bz2"
+    }
+  ],
+  "type": "CdnAsnComparison",
+  "view_of": "observations/cdn-mapping"
+}

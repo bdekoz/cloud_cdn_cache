@@ -1,0 +1,652 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Application endpoint evidence",
+  "description": "One DNS query per entity, hostname, role, timestamp and RR type. Entity business/status evidence, declared hosting, endpoint routing and physical origins remain distinct.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "const": "ApplicationEndpointCollection"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "built_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "excluded_from_location_and_network_totals": {
+      "const": true
+    },
+    "endpoint_is_not_origin": {
+      "const": true
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      },
+      "minItems": 1
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "type",
+    "schema_version",
+    "built_at",
+    "excluded_from_location_and_network_totals",
+    "endpoint_is_not_origin",
+    "entities",
+    "records"
+  ],
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "raw_source_ref": {
+          "type": "string",
+          "pattern": "^data/raw/"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "source_updated_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": [
+        "source_url",
+        "raw_source_ref",
+        "source_sha256",
+        "source_published_at",
+        "source_updated_at",
+        "retrieved_at"
+      ]
+    },
+    "rr": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65535
+        },
+        "TTL": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "type",
+        "TTL",
+        "data"
+      ]
+    },
+    "response": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "Status": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 65535
+        },
+        "Question": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "name",
+              "type"
+            ]
+          },
+          "minItems": 1
+        },
+        "Answer": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rr"
+          }
+        },
+        "Authority": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rr"
+          }
+        },
+        "TC": {
+          "type": "boolean"
+        },
+        "RD": {
+          "type": "boolean"
+        },
+        "RA": {
+          "type": "boolean"
+        },
+        "AD": {
+          "type": "boolean"
+        },
+        "CD": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "Status",
+        "Question"
+      ]
+    },
+    "origin_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "scope": {
+          "enum": [
+            "provider_declared_origin",
+            "independent_origin_measurement"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      },
+      "required": [
+        "scope",
+        "method",
+        "source"
+      ]
+    },
+    "network": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "routing_prefix": {
+          "type": "string"
+        },
+        "origin_asns": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4294967295
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "asn_holder": {
+          "type": "string"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "registry_network_name": {
+          "type": "string"
+        },
+        "registry_country_code": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2}$"
+        },
+        "registry_start_address": {
+          "type": "string"
+        },
+        "registry_end_address": {
+          "type": "string"
+        },
+        "routing_evidence": {
+          "$ref": "#/$defs/source"
+        },
+        "registry_evidence": {
+          "$ref": "#/$defs/source"
+        },
+        "asn_identity_evidence": {
+          "$ref": "#/$defs/source"
+        },
+        "physical_country_code": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "routing_prefix",
+        "origin_asns",
+        "asn_holder",
+        "observed_at",
+        "registry_network_name",
+        "registry_country_code",
+        "registry_start_address",
+        "registry_end_address",
+        "routing_evidence",
+        "registry_evidence",
+        "asn_identity_evidence",
+        "physical_country_code"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "address": {
+          "type": "string"
+        },
+        "ip_family": {
+          "enum": [
+            4,
+            6
+          ]
+        },
+        "network_attribution": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/network"
+            }
+          ]
+        },
+        "published_prefix_matches": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "network_record_id": {
+                "type": "string"
+              },
+              "service": {
+                "type": "string"
+              },
+              "prefix": {
+                "type": "string"
+              },
+              "snapshot_ref": {
+                "type": "string",
+                "pattern": "^data/network/"
+              }
+            },
+            "required": [
+              "network_record_id",
+              "service",
+              "prefix",
+              "snapshot_ref"
+            ]
+          }
+        }
+      },
+      "required": [
+        "address",
+        "ip_family",
+        "network_attribution",
+        "published_prefix_matches"
+      ]
+    },
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "entity_id": {
+          "type": "string",
+          "pattern": "^application:entity:[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "admission": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "minItems": 1
+        },
+        "provider_declared_hosting": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "country_code": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{2}$"
+                },
+                "cloud_provider": {
+                  "type": "string"
+                },
+                "availability_zone_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1
+                },
+                "source": {
+                  "$ref": "#/$defs/source"
+                },
+                "endpoint_to_zone_mapping_asserted": {
+                  "const": false
+                }
+              },
+              "required": [
+                "country_code",
+                "cloud_provider",
+                "availability_zone_ids",
+                "source",
+                "endpoint_to_zone_mapping_asserted"
+              ]
+            }
+          ]
+        },
+        "service_status": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "enum": [
+                "termination_announced",
+                "historical_seizure_reported",
+                "unverified"
+              ]
+            },
+            "reported_at": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date"
+            },
+            "current_operation_verified": {
+              "const": false
+            }
+          },
+          "required": [
+            "status",
+            "reported_at",
+            "current_operation_verified"
+          ]
+        },
+        "origin_country_code": {
+          "type": "null"
+        },
+        "facility_record_id": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "entity_id",
+        "name",
+        "assessment",
+        "admission",
+        "sources",
+        "provider_declared_hosting",
+        "service_status",
+        "origin_country_code",
+        "facility_record_id"
+      ]
+    },
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "record_id": {
+          "type": "string",
+          "pattern": "^application:dns:[a-f0-9]{24}$"
+        },
+        "entity_id": {
+          "type": "string",
+          "pattern": "^application:entity:[a-z0-9-]+$"
+        },
+        "hostname": {
+          "type": "string",
+          "format": "hostname"
+        },
+        "endpoint_role": {
+          "enum": [
+            "website",
+            "documented_rest_api",
+            "documented_websocket",
+            "closure_notice_website"
+          ]
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "resolver_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "measurement_vantage_country_code": {
+          "type": "null"
+        },
+        "ecs_sent": {
+          "const": false
+        },
+        "rrtype": {
+          "enum": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ]
+        },
+        "query_result": {
+          "enum": [
+            "answered",
+            "noerror_no_requested_rr",
+            "nxdomain",
+            "dns_error",
+            "transport_error"
+          ]
+        },
+        "dns_response": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/response"
+            }
+          ]
+        },
+        "transport_error": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "address_observations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/address"
+          }
+        },
+        "cnames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "origin_country_code": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2}$"
+        },
+        "facility_record_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-z0-9]+:data_center:"
+        },
+        "origin_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin_evidence"
+          }
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "source_json_pointer": {
+          "type": "string",
+          "pattern": "^/records/[0-9]+$"
+        },
+        "source_scope": {
+          "const": "observed"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        }
+      },
+      "required": [
+        "record_id",
+        "entity_id",
+        "hostname",
+        "endpoint_role",
+        "observed_at",
+        "resolver_url",
+        "measurement_vantage_country_code",
+        "ecs_sent",
+        "rrtype",
+        "query_result",
+        "dns_response",
+        "transport_error",
+        "address_observations",
+        "cnames",
+        "origin_country_code",
+        "facility_record_id",
+        "origin_evidence",
+        "source",
+        "source_json_pointer",
+        "source_scope",
+        "confidence"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "anyOf": [
+              {
+                "properties": {
+                  "origin_country_code": {
+                    "type": "string"
+                  }
+                }
+              },
+              {
+                "properties": {
+                  "facility_record_id": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "then": {
+            "properties": {
+              "origin_evidence": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "query_result": {
+                "const": "transport_error"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "transport_error": {
+                "type": "string",
+                "minLength": 1
+              },
+              "dns_response": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "dns_response": {
+                "$ref": "#/$defs/response"
+              },
+              "transport_error": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

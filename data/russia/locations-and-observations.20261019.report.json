@@ -1,0 +1,101 @@
+{
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/russia/locations-and-observations.20261019.csv",
+      "path": "data/russia/locations-and-observations.20261019.csv",
+      "source": "data/russia/locations-and-observations.20261019.geojson"
+    }
+  },
+  "entity_types": {
+    "availability_zone": 19,
+    "cloud_region": 5,
+    "cloud_resource_pool": 18,
+    "data_center": 15,
+    "edge_pop": 42,
+    "observed_presence": 79
+  },
+  "generated_files": [
+    "data/russia/locations-and-observations.20261019.geojson"
+  ],
+  "geometry_null": 86,
+  "layer": "russia/locations-and-observations",
+  "provider_counts": {
+    "Akamai": 9,
+    "CacheFly": 2,
+    "Cloud.ru": 8,
+    "Cloudflare": 3,
+    "Google": 81,
+    "IXcellerate": 10,
+    "Selectel": 28,
+    "Yandex": 5,
+    "Yandex Cloud": 32
+  },
+  "record_count": 178,
+  "selection": "country_code=RU",
+  "sources": [
+    {
+      "path": "data/google/edge.20261011.geojson",
+      "sha256": "68a70eb60f6860423676e7681e8fa70139f42f5d398629a1c72739c994bb3752"
+    },
+    {
+      "path": "data/cloudflare/edge.20260804.geojson",
+      "sha256": "d7eb0f6b02b1e706f8da1f32522cc1df50e26bcee7219404da3a0e82764e66b9"
+    },
+    {
+      "path": "data/cachefly/locations.20260804.geojson",
+      "sha256": "42f15e987b3d452c608a01d1e62793d02bab76d9f4fb04a0b7bc547037a0b203"
+    },
+    {
+      "path": "data/observations/cdn-mapping-cities.20260805.geojson",
+      "sha256": "d6592b8ec86bf37ea1b3a89d409861f8e0fbb9ab533f542e9fe73a3b73b9fee0"
+    },
+    {
+      "path": "data/yandex/data-centers.20261011.geojson",
+      "sha256": "1c85278f23865180eb674e8ec07acc29daa0402d3ef861e014b3eb21439c7edb"
+    },
+    {
+      "path": "data/akamai/legacy-locations.20261019.geojson",
+      "sha256": "e63c48bcc14607704bd0ed77facebab10faab98da505b3dc18b09534937fa323"
+    },
+    {
+      "path": "data/yandex/regions-and-zones.20261019.geojson",
+      "sha256": "e1893babc6fa70f77bf34765c38dbd582a344a1ad74f0776a0726ad38fa0bb93"
+    },
+    {
+      "path": "data/yandex/cdn-cities.20261019.geojson",
+      "sha256": "45d228b129a5645080b50f34c91375de842824ca91e1562603aad79f45c02f39"
+    },
+    {
+      "path": "data/selectel/russian-hierarchy.20261019.geojson",
+      "sha256": "696d914696e8fede99b20b28889e2ef689bc18084449ecd8ce75f9157579d60a"
+    },
+    {
+      "path": "data/cloudru/advanced-regions-and-zones.20261019.geojson",
+      "sha256": "8752fa64292c2ec7e6571d8e253092bd2d9bbf08e0938fad95d9eccff35693af"
+    },
+    {
+      "path": "data/cloudru/evolution-zones.20261019.geojson",
+      "sha256": "fbaeb5d07c08892e3c6b91ea5eb59661e677427ceb167f34a1a882eb337db15c"
+    },
+    {
+      "path": "data/ixcellerate/data-centers.20261019.geojson",
+      "sha256": "6cda6b3c3327f6c17ce0c9e169ceadf98837206cc0b9c529bd08fee27ebbaeab"
+    }
+  ],
+  "view_excluded_from_canonical_totals": true,
+  "view_of": [
+    "google/edge",
+    "cloudflare/edge",
+    "cachefly/locations",
+    "observations/cdn-mapping-cities",
+    "yandex/data-centers",
+    "akamai/legacy-locations",
+    "yandex/regions-and-zones",
+    "yandex/cdn-cities",
+    "selectel/russian-hierarchy",
+    "cloudru/advanced-regions-and-zones",
+    "cloudru/evolution-zones",
+    "ixcellerate/data-centers"
+  ]
+}

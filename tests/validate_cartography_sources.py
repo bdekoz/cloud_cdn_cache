@@ -41,7 +41,11 @@ def main():
     assert digest(old) == 'f408815674b2e195bc98a9b911b70154ec1b33847b3501147da102fcae964730'
     old_manifest = read(old)
     current = read(ROOT/'data/manifest.20261019.json')
-    assert current['record_count'] == 27930 and current['layer_count'] == 33
+    baseline = read(ROOT/'data/raw/repository/manifest-before-russia.20261019.json')
+    assert baseline['record_count'] == 27930 and baseline['layer_count'] == 33
+    assert current['layers'][:33] == baseline['layers']
+    assert current['record_count'] == sum(layer['record_count'] for layer in current['layers'])
+    assert current['layer_count'] == len(current['layers'])
     assert current['layers'][:len(old_manifest['layers'])] == old_manifest['layers']
     for layer in current['layers']:
         for file in layer['files'].values():

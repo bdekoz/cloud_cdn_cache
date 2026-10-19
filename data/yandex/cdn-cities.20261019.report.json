@@ -1,0 +1,46 @@
+{
+  "built_at": "2026-10-19",
+  "coordinate_methods": {
+    "unknown": 35
+  },
+  "country_normalization_exception_count": 1,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/yandex/cdn-cities.20261019.csv",
+      "path": "data/yandex/cdn-cities.20261019.csv",
+      "source": "data/yandex/cdn-cities.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/un/a-res-68-262.20140327.pdf",
+      "retrieved_at": "2026-10-19",
+      "source_published_at": "2014-03-27",
+      "source_scope": "inferred",
+      "source_sha256": "c0156b2e043a976794b46d90a56bd6d394cfd016b44e7266b5564133cce42dc7",
+      "source_updated_at": null,
+      "source_url": "https://documents.un.org/doc/undoc/gen/n13/455/17/pdf/n1345517.pdf"
+    }
+  ],
+  "entity_types": {
+    "edge_pop": 35
+  },
+  "generated_files": [
+    "data/yandex/cdn-cities.20261019.geojson"
+  ],
+  "geometry_null": 35,
+  "layer": "yandex/cdn-cities",
+  "lifecycle_statuses": {
+    "unknown": 35
+  },
+  "parser": "update_russia_enrichment.py",
+  "raw_source_ref": "data/raw/yandex/cdn-pops.20261019.html",
+  "record_count": 35,
+  "record_unit": "provider_declared_city",
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/location-v1.3.schema.json",
+  "schema_version": "1.3.0",
+  "source_global_pop_claim": 78,
+  "source_sha256": "c09c71ccf3e6c666cb4ff253548502121eeb766cd1308879293b985461841cdf",
+  "source_url": "https://yandex.cloud/en/docs/cdn/concepts/points-of-presence"
+}

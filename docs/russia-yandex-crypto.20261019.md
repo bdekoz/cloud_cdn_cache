@@ -4,11 +4,11 @@ Reviewed October 19, 2026. This extends the [October 11 Russia assessment](russi
 
 **Yandex offers substantial usable enrichment:** cloud-zone identities, city-level CDN declarations and service-specific prefixes. **Exchange evidence belongs in a separate application/network layer:** the reviewed sources do not establish current Russian origin hosting for any of the five exchanges. Russian business operations, IP registration, visible network endpoints and physical hosting require separate fields.
 
-The [machine-readable assessment](../data/russia/enrichment-assessment.20261019.json) retains the counts, source hashes, candidates, DNS results and admission criteria. This review adds no canonical locations or network records; the manifest indexes it as an assessment.
+The [machine-readable assessment](../data/russia/enrichment-assessment.20261019.json) retains the counts, source hashes, candidates, DNS results and admission criteria. This is the pre-implementation review. Its approved sequence is now [implemented](russia-enrichment.20261019.md), with new location, network, application and comparison layers. The review itself remains an assessment excluded from canonical totals.
 
 ## Existing coverage and quality findings
 
-Filtering the current manifest's canonical location layers on `country_code=RU` produces **100 records with 100 distinct IDs**, including eight null geometries:
+Filtering the [frozen pre-implementation manifest](../data/raw/repository/manifest-before-russia.20261019.json) on `country_code=RU` produces **100 records with 100 distinct IDs**, including eight null geometries:
 
 | Layer | RU records | What they represent |
 | --- | ---: | --- |
@@ -19,7 +19,7 @@ Filtering the current manifest's canonical location layers on `country_code=RU` 
 | Yandex data centers | 5 | Certification-documented localities with unknown lifecycle |
 | Akamai legacy locations | 9 | Historical 2023 city declarations restored on October 19 |
 
-The retained [91-record RU view](../data/russia/locations-and-observations.20261011.geojson) predates the Akamai restoration. The difference is nine historical records, not nine newly opened facilities. There is still no normalized Yandex cloud/CDN layer or crypto-exchange layer. The separate Russia connectivity view also has a different unit and is excluded here.
+The retained [91-record RU view](../data/russia/locations-and-observations.20261011.geojson) predates the Akamai restoration. The difference is nine historical records, not nine newly opened facilities. At this baseline there was no normalized Yandex cloud/CDN layer or crypto-exchange layer. The separate Russia connectivity view also has a different unit and is excluded here.
 
 The main risks are **high-confidence, high-impact interpretation errors**: treating 100 mixed records as operating facilities, treating old lifecycle declarations as current health, or joining an exchange's business country to its hosting country. No duplicate RU identifiers were found. Five missing geometries belong to Yandex certification localities; three belong to retained edge records. The review preserves these unknown coordinates.
 
@@ -72,7 +72,7 @@ Two access problems are explicit in the assessment. Fetching `grinex.io` returne
 4. **Russian ASN comparison:** evaluate a RIPE delegated-ASN snapshot matched to the June study, following the APNIC interval-join approach. Keep registration-filtered results separate from geographic observations.
 5. **Broader domestic providers:** the earlier Selectel, Cloud.ru and IXcellerate candidates remain relevant. Re-fetch them before implementation; this focused review does not refresh their inventories.
 
-Canonical admission requires explicit location membership or defensible independent geographic evidence. Endpoint resolution alone admits only an observation. This review resolves which sources are useful and preserves a reproducible pilot; the proposed connectors remain future work.
+Canonical admission requires explicit location membership or defensible independent geographic evidence. Endpoint resolution alone admits only an observation. This review established the source decisions and reproducible pilot; the [implementation record](russia-enrichment.20261019.md) documents the completed connectors and Simferopol normalization to Ukraine while preserving the original source label.
 
 ## Reproduction
 

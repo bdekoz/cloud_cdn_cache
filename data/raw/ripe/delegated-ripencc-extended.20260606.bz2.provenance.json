@@ -1,0 +1,11 @@
+{
+  "media_type": "application/octet-stream",
+  "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/ripe/delegated-ripencc-extended.20260606.bz2",
+  "resolved_url": "https://ftp.ripe.net/pub/stats/ripencc/2026/delegated-ripencc-extended-20260606.bz2",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T15:22:52.246244+00:00",
+  "sha256": "992f42e8a1450f7a3cdf0e163b0d7ce1895529f89e9b1da64dcdfb60b33b1593",
+  "source_published_at": "2026-06-06",
+  "source_url": "https://ftp.ripe.net/pub/stats/ripencc/2026/delegated-ripencc-extended-20260606.bz2"
+}

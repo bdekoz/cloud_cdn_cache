@@ -1,0 +1,1289 @@
+{
+  "built_at": "2026-10-19",
+  "endpoint_is_not_origin": true,
+  "entities": [
+    {
+      "admission": "DNS/routing candidate only; origin and site identity remain unknown.",
+      "assessment": "Provider documents Russian cash offices and a public WebSocket endpoint; these identify business presence and an endpoint, not compute facilities.",
+      "entity_id": "application:entity:abcex",
+      "facility_record_id": null,
+      "name": "ABCEX",
+      "origin_country_code": null,
+      "provider_declared_hosting": null,
+      "service_status": {
+        "current_operation_verified": false,
+        "reported_at": null,
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-api.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "289a18fbd23ee10062caf86ba33a09352e8a70ec75d8a9d713cc0576ca4af520",
+          "source_updated_at": null,
+          "source_url": "https://abcex.io/documentation/en/api-keys.html"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-api-intro.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "2f4bd96f9b62f23cd9eae48e349411d4c1df202f1e24461410050dc16d45e868",
+          "source_updated_at": "2026-05-04",
+          "source_url": "https://abcex.readme.io/reference/intro"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-offices.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "ae338fe88631dc492021b6421765b4565af5240e2950d3e86e7165eb84e5c58c",
+          "source_updated_at": null,
+          "source_url": "https://abcex.io/documentation/en/cash.html"
+        }
+      ]
+    },
+    {
+      "admission": "Use as a non-RU comparison and customer/cloud relationship, not as a new owned facility.",
+      "assessment": "The operator API FAQ declares Singapore hosting; observed production API CNAMEs point to CloudFront names.",
+      "entity_id": "application:entity:bybit",
+      "facility_record_id": null,
+      "name": "Bybit",
+      "origin_country_code": null,
+      "provider_declared_hosting": {
+        "availability_zone_ids": [
+          "apse1-az2",
+          "apse1-az3"
+        ],
+        "cloud_provider": "AWS",
+        "country_code": "SG",
+        "endpoint_to_zone_mapping_asserted": false,
+        "source": {
+          "raw_source_ref": "data/raw/crypto/bybit-api-faq.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "860b9f35eca617992855ed556474a254fc845b7d68e7e548d78d2d2c369c58c3",
+          "source_updated_at": null,
+          "source_url": "https://bybit-exchange.github.io/docs/faq"
+        }
+      },
+      "service_status": {
+        "current_operation_verified": false,
+        "reported_at": null,
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/crypto/bybit-api-faq.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "860b9f35eca617992855ed556474a254fc845b7d68e7e548d78d2d2c369c58c3",
+          "source_updated_at": null,
+          "source_url": "https://bybit-exchange.github.io/docs/faq"
+        }
+      ]
+    },
+    {
+      "admission": "Dated service-status and endpoint evidence; apply only to EXMO.me, not similarly named entities.",
+      "assessment": "Operator announced termination and liquidation. Continued website DNS answers do not establish active trading or recovered service.",
+      "entity_id": "application:entity:exmo-me",
+      "facility_record_id": null,
+      "name": "EXMO.me",
+      "origin_country_code": null,
+      "provider_declared_hosting": null,
+      "service_status": {
+        "current_operation_verified": false,
+        "reported_at": "2026-07-24",
+        "status": "termination_announced"
+      },
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/crypto/exmo-me-closure.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": "2026-07-24",
+          "source_sha256": "7d3fbf4eeda6d51943c2878b2fbe923a09a0339182cabc3626e693c0f256d2cb",
+          "source_updated_at": null,
+          "source_url": "https://exmo.me/blog/uvedomleniya/termination-and-liquidation"
+        }
+      ]
+    },
+    {
+      "admission": "Historical event and attributed entity evidence only. Keep law-enforcement jurisdiction separate from server geography.",
+      "assessment": "DOJ reports March 2025 domain seizures and server seizures by German and Finnish authorities; Treasury describes Russian operations. Neither establishes current Russian physical hosting.",
+      "entity_id": "application:entity:garantex",
+      "facility_record_id": null,
+      "name": "Garantex",
+      "origin_country_code": null,
+      "provider_declared_hosting": null,
+      "service_status": {
+        "current_operation_verified": false,
+        "reported_at": "2025-03-07",
+        "status": "historical_seizure_reported"
+      },
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/crypto/garantex-doj.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": "2025-03-07",
+          "source_sha256": "75a7704a0ece665ad707a84758ad526d62fc762c6720dafbbf6acd5f1cfbd02a",
+          "source_updated_at": "2025-04-25",
+          "source_url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/grinex-treasury.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": "2025-08-14",
+          "source_sha256": "e8f39321db35ef8ec3ab5880038efc8548834625dbc721b3669c3b3a789bfe4a",
+          "source_updated_at": null,
+          "source_url": "https://home.treasury.gov/news/press-releases/sb0225"
+        }
+      ]
+    },
+    {
+      "admission": "Re-verify operator/domain identity before collecting endpoints; do not inherit Garantex locations.",
+      "assessment": "Treasury's August 2025 release describes a successor relationship to Garantex. Current domain-to-operator identity and hosting were not established in this review.",
+      "entity_id": "application:entity:grinex",
+      "facility_record_id": null,
+      "name": "Grinex",
+      "origin_country_code": null,
+      "provider_declared_hosting": null,
+      "service_status": {
+        "current_operation_verified": false,
+        "reported_at": null,
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/crypto/grinex-treasury.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": "2025-08-14",
+          "source_sha256": "e8f39321db35ef8ec3ab5880038efc8548834625dbc721b3669c3b3a789bfe4a",
+          "source_updated_at": null,
+          "source_url": "https://home.treasury.gov/news/press-releases/sb0225"
+        }
+      ]
+    }
+  ],
+  "excluded_from_location_and_network_totals": true,
+  "records": [
+    {
+      "address_observations": [],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.ddos-guard.net. support.ddos-guard.net. 1789392389 10800 3600 604800 3600",
+            "name": "exmo.me.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 185.129.103.200.",
+        "Question": [
+          {
+            "name": "exmo.me.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "closure_notice_website",
+      "entity_id": "application:entity:exmo-me",
+      "facility_record_id": null,
+      "hostname": "exmo.me",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.947721+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "noerror_no_requested_rr",
+      "record_id": "application:dns:3f8bce22cf9579085cda29c9",
+      "resolver_url": "https://dns.google/resolve?name=exmo.me&type=CNAME",
+      "rrtype": "CNAME",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/14",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1113,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "hub.abcex.io.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_websocket",
+      "entity_id": "application:entity:abcex",
+      "facility_record_id": null,
+      "hostname": "hub.abcex.io",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:51.673800+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "noerror_no_requested_rr",
+      "record_id": "application:dns:44fabdc4f5d93bb9a769f0c4",
+      "resolver_url": "https://dns.google/resolve?name=hub.abcex.io&type=AAAA",
+      "rrtype": "AAAA",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/4",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [
+        {
+          "address": "109.238.90.238",
+          "ip_family": 4,
+          "network_attribution": {
+            "asn_holder": "AS-SERVICEPIPE SERVICEPIPE LLC",
+            "asn_identity_evidence": {
+              "raw_source_ref": "data/raw/crypto/as201706-overview.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "155dff1a0fb690d2c1efe465419069b32e4dea9c4a3414923d7cb18c7a2b9a05",
+              "source_updated_at": null,
+              "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS201706"
+            },
+            "observed_at": "2026-10-19T14:53:33.669231Z",
+            "origin_asns": [
+              201706
+            ],
+            "physical_country_code": null,
+            "registry_country_code": "RU",
+            "registry_end_address": "109.238.91.255",
+            "registry_evidence": {
+              "raw_source_ref": "data/raw/crypto/abcex-rdap.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "94248ea5eafda5615b96b3f7e84b6dc657f5b29e9aa5368397ada424ab80378e",
+              "source_updated_at": null,
+              "source_url": "https://rdap.db.ripe.net/ip/109.238.90.238"
+            },
+            "registry_network_name": "RU-SERVICEPIPE-20101203",
+            "registry_start_address": "109.238.88.0",
+            "routing_evidence": {
+              "raw_source_ref": "data/raw/crypto/abcex-network-info.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "4ae11e68626dd0c5368dc9f678fc94ff7cf2e02a635ce457da5b76910e014c44",
+              "source_updated_at": null,
+              "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=109.238.90.238"
+            },
+            "routing_prefix": "109.238.90.0/24"
+          },
+          "published_prefix_matches": []
+        }
+      ],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 2912,
+            "data": "109.238.90.238",
+            "name": "hub.abcex.io.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "hub.abcex.io.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_websocket",
+      "entity_id": "application:entity:abcex",
+      "facility_record_id": null,
+      "hostname": "hub.abcex.io",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:51.595808+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:47bab38cbf94425402d30539",
+      "resolver_url": "https://dns.google/resolve?name=hub.abcex.io&type=A",
+      "rrtype": "A",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/3",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.ddos-guard.net. support.ddos-guard.net. 1789392389 10800 3600 604800 3600",
+            "name": "exmo.me.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 185.129.103.200.",
+        "Question": [
+          {
+            "name": "exmo.me.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "closure_notice_website",
+      "entity_id": "application:entity:exmo-me",
+      "facility_record_id": null,
+      "hostname": "exmo.me",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.740717+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "noerror_no_requested_rr",
+      "record_id": "application:dns:4c18cd781d6ef21a4255bda5",
+      "resolver_url": "https://dns.google/resolve?name=exmo.me&type=AAAA",
+      "rrtype": "AAAA",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/13",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [
+        "d2mo22rbksh9yz.cloudfront.net."
+      ],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 1,
+            "data": "d2mo22rbksh9yz.cloudfront.net.",
+            "name": "stream.bybit.com.",
+            "type": 5
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "stream.bybit.com.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_websocket",
+      "entity_id": "application:entity:bybit",
+      "facility_record_id": null,
+      "hostname": "stream.bybit.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.473122+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:697ba60a55e31a8f2dcb84a8",
+      "resolver_url": "https://dns.google/resolve?name=stream.bybit.com&type=CNAME",
+      "rrtype": "CNAME",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/11",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 212.67.27.6.",
+        "Question": [
+          {
+            "name": "abcex.io.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "website",
+      "entity_id": "application:entity:abcex",
+      "facility_record_id": null,
+      "hostname": "abcex.io",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:51.347542+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "noerror_no_requested_rr",
+      "record_id": "application:dns:8b930b170aa47adbeeae04db",
+      "resolver_url": "https://dns.google/resolve?name=abcex.io&type=CNAME",
+      "rrtype": "CNAME",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/2",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from ns1.servicepipe.ru.(212.67.27.6).",
+        "Question": [
+          {
+            "name": "hub.abcex.io.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_websocket",
+      "entity_id": "application:entity:abcex",
+      "facility_record_id": null,
+      "hostname": "hub.abcex.io",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:51.734913+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "noerror_no_requested_rr",
+      "record_id": "application:dns:908c86c12d1eaf7929fdd8bf",
+      "resolver_url": "https://dns.google/resolve?name=hub.abcex.io&type=CNAME",
+      "rrtype": "CNAME",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/5",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [
+        {
+          "address": "2600:9000:21dd:2a00:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "2600:9000:21dd:5a00:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "2600:9000:21dd:600:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "2600:9000:21dd:8000:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "2600:9000:21dd:9000:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "2600:9000:21dd:d800:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "2600:9000:21dd:e00:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "2600:9000:21dd:f600:17:57ca:2ec0:93a1",
+          "ip_family": 6,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        }
+      ],
+      "cnames": [
+        "d2mo22rbksh9yz.cloudfront.net."
+      ],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 1,
+            "data": "d2mo22rbksh9yz.cloudfront.net.",
+            "name": "stream.bybit.com.",
+            "type": 5
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:5a00:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:d800:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:e00:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:2a00:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:9000:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:8000:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:f600:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          },
+          {
+            "TTL": 60,
+            "data": "2600:9000:21dd:600:17:57ca:2ec0:93a1",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 28
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 205.251.192.29.",
+        "Question": [
+          {
+            "name": "stream.bybit.com.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_websocket",
+      "entity_id": "application:entity:bybit",
+      "facility_record_id": null,
+      "hostname": "stream.bybit.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.404601+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:aa5e4836f02e633a7f3cb47f",
+      "resolver_url": "https://dns.google/resolve?name=stream.bybit.com&type=AAAA",
+      "rrtype": "AAAA",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/10",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [
+        {
+          "address": "109.238.90.238",
+          "ip_family": 4,
+          "network_attribution": {
+            "asn_holder": "AS-SERVICEPIPE SERVICEPIPE LLC",
+            "asn_identity_evidence": {
+              "raw_source_ref": "data/raw/crypto/as201706-overview.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "155dff1a0fb690d2c1efe465419069b32e4dea9c4a3414923d7cb18c7a2b9a05",
+              "source_updated_at": null,
+              "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS201706"
+            },
+            "observed_at": "2026-10-19T14:53:33.669231Z",
+            "origin_asns": [
+              201706
+            ],
+            "physical_country_code": null,
+            "registry_country_code": "RU",
+            "registry_end_address": "109.238.91.255",
+            "registry_evidence": {
+              "raw_source_ref": "data/raw/crypto/abcex-rdap.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "94248ea5eafda5615b96b3f7e84b6dc657f5b29e9aa5368397ada424ab80378e",
+              "source_updated_at": null,
+              "source_url": "https://rdap.db.ripe.net/ip/109.238.90.238"
+            },
+            "registry_network_name": "RU-SERVICEPIPE-20101203",
+            "registry_start_address": "109.238.88.0",
+            "routing_evidence": {
+              "raw_source_ref": "data/raw/crypto/abcex-network-info.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "4ae11e68626dd0c5368dc9f678fc94ff7cf2e02a635ce457da5b76910e014c44",
+              "source_updated_at": null,
+              "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=109.238.90.238"
+            },
+            "routing_prefix": "109.238.90.0/24"
+          },
+          "published_prefix_matches": []
+        }
+      ],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 23,
+            "data": "109.238.90.238",
+            "name": "abcex.io.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "abcex.io.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "website",
+      "entity_id": "application:entity:abcex",
+      "facility_record_id": null,
+      "hostname": "abcex.io",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:50.870300+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:b31521623b337cd1e84bd148",
+      "resolver_url": "https://dns.google/resolve?name=abcex.io&type=A",
+      "rrtype": "A",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/0",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [
+        "d3d4ij29qlbhtu.cloudfront.net."
+      ],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 60,
+            "data": "d3d4ij29qlbhtu.cloudfront.net.",
+            "name": "api.bybit.com.",
+            "type": 5
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "api.bybit.com.",
+            "type": 5
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_rest_api",
+      "entity_id": "application:entity:bybit",
+      "facility_record_id": null,
+      "hostname": "api.bybit.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.277349+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:b48dd9c7bd1d903e67106f92",
+      "resolver_url": "https://dns.google/resolve?name=api.bybit.com&type=CNAME",
+      "rrtype": "CNAME",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/8",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [
+        {
+          "address": "185.178.208.182",
+          "ip_family": 4,
+          "network_attribution": {
+            "asn_holder": "DDOS-GUARD DDOS-GUARD LTD",
+            "asn_identity_evidence": {
+              "raw_source_ref": "data/raw/crypto/as57724-overview.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "e3215f3217295e9aa1938e7ef42e4dfac90f62125736bc5b3455db3bb243b6a9",
+              "source_updated_at": null,
+              "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS57724"
+            },
+            "observed_at": "2026-10-19T14:53:34.141129Z",
+            "origin_asns": [
+              57724
+            ],
+            "physical_country_code": null,
+            "registry_country_code": "RU",
+            "registry_end_address": "185.178.211.255",
+            "registry_evidence": {
+              "raw_source_ref": "data/raw/crypto/exmo-me-rdap.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "4065f3290e028839f8e490574439b1de7e28edbec19f572b7e2c3de17f595267",
+              "source_updated_at": null,
+              "source_url": "https://rdap.db.ripe.net/ip/185.178.208.182"
+            },
+            "registry_network_name": "RU-LLCDDOS-GUARD-20161123",
+            "registry_start_address": "185.178.208.0",
+            "routing_evidence": {
+              "raw_source_ref": "data/raw/crypto/exmo-me-network-info.20261019.json",
+              "retrieved_at": "2026-10-19",
+              "source_published_at": null,
+              "source_sha256": "b63126e8c08f9d47e1e594202f3fb2161b01dfac44b1019995d27ffe4b8b4828",
+              "source_updated_at": null,
+              "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=185.178.208.182"
+            },
+            "routing_prefix": "185.178.208.0/24"
+          },
+          "published_prefix_matches": []
+        }
+      ],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 120,
+            "data": "185.178.208.182",
+            "name": "exmo.me.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 185.129.101.200.",
+        "Question": [
+          {
+            "name": "exmo.me.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "closure_notice_website",
+      "entity_id": "application:entity:exmo-me",
+      "facility_record_id": null,
+      "hostname": "exmo.me",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.528104+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:c169d1e5ccddbe064902158f",
+      "resolver_url": "https://dns.google/resolve?name=exmo.me&type=A",
+      "rrtype": "A",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/12",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [
+        {
+          "address": "13.226.38.102",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "13.226.38.122",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "13.226.38.39",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "13.226.38.76",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        }
+      ],
+      "cnames": [
+        "d2mo22rbksh9yz.cloudfront.net."
+      ],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 18,
+            "data": "d2mo22rbksh9yz.cloudfront.net.",
+            "name": "stream.bybit.com.",
+            "type": 5
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.39",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.122",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.76",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.226.38.102",
+            "name": "d2mo22rbksh9yz.cloudfront.net.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 205.251.192.29.",
+        "Question": [
+          {
+            "name": "stream.bybit.com.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_websocket",
+      "entity_id": "application:entity:bybit",
+      "facility_record_id": null,
+      "hostname": "stream.bybit.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.347188+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:c3e6a8fd9c5c17d36b752b52",
+      "resolver_url": "https://dns.google/resolve?name=stream.bybit.com&type=A",
+      "rrtype": "A",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/9",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Authority": [
+          {
+            "TTL": 1800,
+            "data": "ns1.servicepipe.ru. support.servicepipe.ru. 2026052647 86400 900 691200 3600",
+            "name": "abcex.io.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 212.67.27.6.",
+        "Question": [
+          {
+            "name": "abcex.io.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "website",
+      "entity_id": "application:entity:abcex",
+      "facility_record_id": null,
+      "hostname": "abcex.io",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:50.951800+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "noerror_no_requested_rr",
+      "record_id": "application:dns:c467c3f7b027432ca4947f6a",
+      "resolver_url": "https://dns.google/resolve?name=abcex.io&type=AAAA",
+      "rrtype": "AAAA",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/1",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [],
+      "cnames": [
+        "d3d4ij29qlbhtu.cloudfront.net."
+      ],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 60,
+            "data": "d3d4ij29qlbhtu.cloudfront.net.",
+            "name": "api.bybit.com.",
+            "type": 5
+          }
+        ],
+        "Authority": [
+          {
+            "TTL": 3,
+            "data": "ns-418.awsdns-52.com. hostmaster.cloudfront.net. 1377556270 16384 2048 1048576 60",
+            "name": "cloudfront.net.",
+            "type": 6
+          }
+        ],
+        "CD": false,
+        "Question": [
+          {
+            "name": "api.bybit.com.",
+            "type": 28
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_rest_api",
+      "entity_id": "application:entity:bybit",
+      "facility_record_id": null,
+      "hostname": "api.bybit.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.212876+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "noerror_no_requested_rr",
+      "record_id": "application:dns:c5ec29b93c3b920293da54a2",
+      "resolver_url": "https://dns.google/resolve?name=api.bybit.com&type=AAAA",
+      "rrtype": "AAAA",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/7",
+      "source_scope": "observed",
+      "transport_error": null
+    },
+    {
+      "address_observations": [
+        {
+          "address": "13.249.74.104",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "13.249.74.19",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "13.249.74.21",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        },
+        {
+          "address": "13.249.74.45",
+          "ip_family": 4,
+          "network_attribution": null,
+          "published_prefix_matches": []
+        }
+      ],
+      "cnames": [
+        "d3d4ij29qlbhtu.cloudfront.net."
+      ],
+      "confidence": "high",
+      "dns_response": {
+        "AD": false,
+        "Answer": [
+          {
+            "TTL": 60,
+            "data": "d3d4ij29qlbhtu.cloudfront.net.",
+            "name": "api.bybit.com.",
+            "type": 5
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.104",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.21",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.45",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          },
+          {
+            "TTL": 60,
+            "data": "13.249.74.19",
+            "name": "d3d4ij29qlbhtu.cloudfront.net.",
+            "type": 1
+          }
+        ],
+        "CD": false,
+        "Comment": "Response from 205.251.197.26.",
+        "Question": [
+          {
+            "name": "api.bybit.com.",
+            "type": 1
+          }
+        ],
+        "RA": true,
+        "RD": true,
+        "Status": 0,
+        "TC": false
+      },
+      "ecs_sent": false,
+      "endpoint_role": "documented_rest_api",
+      "entity_id": "application:entity:bybit",
+      "facility_record_id": null,
+      "hostname": "api.bybit.com",
+      "measurement_vantage_country_code": null,
+      "observed_at": "2026-10-19T14:52:52.141082+00:00",
+      "origin_country_code": null,
+      "origin_evidence": [],
+      "query_result": "answered",
+      "record_id": "application:dns:d040bc0acd33cbd053fd24bf",
+      "resolver_url": "https://dns.google/resolve?name=api.bybit.com&type=A",
+      "rrtype": "A",
+      "source": {
+        "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+        "retrieved_at": "2026-10-19",
+        "source_published_at": null,
+        "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+        "source_updated_at": null,
+        "source_url": "https://dns.google/resolve"
+      },
+      "source_json_pointer": "/records/6",
+      "source_scope": "observed",
+      "transport_error": null
+    }
+  ],
+  "schema_version": "1.0.0",
+  "type": "ApplicationEndpointCollection"
+}

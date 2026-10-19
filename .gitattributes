@@ -3,3 +3,5 @@
 data/raw/china-enrichment/* -text -whitespace
 data/raw/crypto/* -text -whitespace
 data/raw/yandex/* -text -whitespace
+data/raw/russia/* -text -whitespace
+data/raw/repository/* -text -whitespace

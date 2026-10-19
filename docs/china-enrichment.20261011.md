@@ -23,6 +23,8 @@ The current manifest has **27,500 location-schema records across 31 layers**, an
 | AWS core cloud | 147 retained records | Only Beijing/Sinnet and Ningxia/NWCD operator metadata enriched; August inventory dates retained |
 | Chindata | 4 partial directory codes | October source retained; lifecycle unknown and code-to-campus mapping unresolved |
 
+The [October 19 Chindata follow-up](chindata-enrichment-options.20261019.md) explains why this layer draws no points, identifies two additional code candidates on regional pages, and proposes campus alias resolution and official location evidence. It is an enrichment recommendation; the retained four-code snapshot remains unchanged.
+
 The eight refreshed Chinese cloud layers now contain 449 records, compared with 373 in the August audit. Qiniu and Azure China add separate product/partition layers. All refreshed location geometry is null because these directory sources do not establish facility coordinates.
 
 The full [Alibaba directory](https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/regions-and-zones) supports separate public, financial and government scopes. Closing-down Nanjing/Fuzhou labels do not prove completed closure. Johor marketing declares three AZs while the captured explicit directory names two; the third is not synthesized. The current [Tencent English directory](https://www.tencentcloud.com/document/product/238/7520) and [Chinese CVM directory](https://cloud.tencent.com/document/product/213/6091) agree on all 96 currently itemized IDs. Previously retained Shanghai financial AZ 1 is absent from both; its August retrieval/last-seen dates remain intact.

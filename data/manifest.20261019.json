@@ -1,4 +1,155 @@
 {
+  "application_endpoint_layer_count": 1,
+  "application_endpoint_layers": [
+    {
+      "built_at": "2026-10-19",
+      "derived_files": {
+        "csv": {
+          "generator": "make data/applications/crypto-endpoints.20261019.csv",
+          "path": "data/applications/crypto-endpoints.20261019.csv",
+          "source": "data/applications/crypto-endpoints.20261019.json"
+        }
+      },
+      "entity_count": 5,
+      "excluded_from_location_and_network_totals": true,
+      "files": {
+        "json": {
+          "path": "data/applications/crypto-endpoints.20261019.json",
+          "sha256": "f26c4ee216f714e78b90bdcb513594d54d1bfc64bba0c3f4e8b8f828f5448616"
+        },
+        "report": {
+          "path": "data/applications/crypto-endpoints.20261019.report.json",
+          "sha256": "008724d4a27a54a5a5b23657a62f4d73a9aff8de43c27bca61cd6c298b59e103"
+        }
+      },
+      "layer": "applications/crypto-endpoints",
+      "record_count": 15,
+      "record_unit": "entity_hostname_role_timestamp_rrtype",
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-api-intro.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "2f4bd96f9b62f23cd9eae48e349411d4c1df202f1e24461410050dc16d45e868",
+          "source_updated_at": "2026-05-04",
+          "source_url": "https://abcex.readme.io/reference/intro"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-api.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "289a18fbd23ee10062caf86ba33a09352e8a70ec75d8a9d713cc0576ca4af520",
+          "source_updated_at": null,
+          "source_url": "https://abcex.io/documentation/en/api-keys.html"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-network-info.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "4ae11e68626dd0c5368dc9f678fc94ff7cf2e02a635ce457da5b76910e014c44",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=109.238.90.238"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-offices.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "ae338fe88631dc492021b6421765b4565af5240e2950d3e86e7165eb84e5c58c",
+          "source_updated_at": null,
+          "source_url": "https://abcex.io/documentation/en/cash.html"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/abcex-rdap.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "94248ea5eafda5615b96b3f7e84b6dc657f5b29e9aa5368397ada424ab80378e",
+          "source_updated_at": null,
+          "source_url": "https://rdap.db.ripe.net/ip/109.238.90.238"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/as201706-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "155dff1a0fb690d2c1efe465419069b32e4dea9c4a3414923d7cb18c7a2b9a05",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS201706"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/as57724-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "e3215f3217295e9aa1938e7ef42e4dfac90f62125736bc5b3455db3bb243b6a9",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS57724"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/bybit-api-faq.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "860b9f35eca617992855ed556474a254fc845b7d68e7e548d78d2d2c369c58c3",
+          "source_updated_at": null,
+          "source_url": "https://bybit-exchange.github.io/docs/faq"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/endpoint-dns.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "0091ffdef554a96e27a977dcfce335fb10a5fce31041924df8d80a632dbdb7ea",
+          "source_updated_at": null,
+          "source_url": "https://dns.google/resolve"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/exmo-me-closure.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": "2026-07-24",
+          "source_sha256": "7d3fbf4eeda6d51943c2878b2fbe923a09a0339182cabc3626e693c0f256d2cb",
+          "source_updated_at": null,
+          "source_url": "https://exmo.me/blog/uvedomleniya/termination-and-liquidation"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/exmo-me-network-info.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "b63126e8c08f9d47e1e594202f3fb2161b01dfac44b1019995d27ffe4b8b4828",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/network-info/data.json?resource=185.178.208.182"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/exmo-me-rdap.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "4065f3290e028839f8e490574439b1de7e28edbec19f572b7e2c3de17f595267",
+          "source_updated_at": null,
+          "source_url": "https://rdap.db.ripe.net/ip/185.178.208.182"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/garantex-doj.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": "2025-03-07",
+          "source_sha256": "75a7704a0ece665ad707a84758ad526d62fc762c6720dafbbf6acd5f1cfbd02a",
+          "source_updated_at": "2025-04-25",
+          "source_url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation"
+        },
+        {
+          "raw_source_ref": "data/raw/crypto/grinex-treasury.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": "2025-08-14",
+          "source_sha256": "e8f39321db35ef8ec3ab5880038efc8548834625dbc721b3669c3b3a789bfe4a",
+          "source_updated_at": null,
+          "source_url": "https://home.treasury.gov/news/press-releases/sb0225"
+        }
+      ]
+    }
+  ],
+  "application_endpoint_record_count": 15,
+  "application_endpoint_schema": {
+    "path": "schema/application-endpoint.schema.json",
+    "sha256": "cad12adbee44f9be14bfd01b8a4296d4d4462324fbd761db5cd5532fa08eef12",
+    "version": "1.0.0"
+  },
+  "application_entity_count": 5,
   "assessments": [
     {
       "path": "data/china/provider-assessment.20260804.json",
@@ -46,7 +197,11 @@
     },
     {
       "path": "data/russia/enrichment-assessment.20261019.json",
-      "sha256": "7e2b400ca95c4686d4062c49a18417cc6b0dff7872b9e6b09cd2596dbeadea5b"
+      "sha256": "732d8689633adc5577343475534bd1a7f775e7d645ed2a44cbb2493a0e629468"
+    },
+    {
+      "path": "data/russia/enrichment-implementation.20261019.json",
+      "sha256": "9129f9fcedacf52340d409f690feb8b5785b0355a520c2c4ce7ec0453abe0e3e"
     }
   ],
   "generated_from_retained_snapshots_at": "2026-10-19",
@@ -615,7 +770,7 @@
       "view_of": "infrastructure/connectivity"
     }
   ],
-  "layer_count": 33,
+  "layer_count": 39,
   "layers": [
     {
       "coordinate_methods": {
@@ -2587,9 +2742,348 @@
           "source_url": "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv6.txt"
         }
       ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 8
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/yandex/regions-and-zones.20261019.csv",
+          "path": "data/yandex/regions-and-zones.20261019.csv",
+          "source": "data/yandex/regions-and-zones.20261019.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 6,
+        "cloud_region": 2
+      },
+      "files": {
+        "geojson": {
+          "path": "data/yandex/regions-and-zones.20261019.geojson",
+          "sha256": "e1893babc6fa70f77bf34765c38dbd582a344a1ad74f0776a0726ad38fa0bb93"
+        },
+        "report": {
+          "path": "data/yandex/regions-and-zones.20261019.report.json",
+          "sha256": "dd27da0a562cb87dc5f0942f16a496780bc1681ded1d5d4e5dd105e039ee2f49"
+        }
+      },
+      "geometry_null": 8,
+      "layer": "yandex/regions-and-zones",
+      "providers": [
+        "Yandex Cloud"
+      ],
+      "record_count": 8,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.3.0"
+      ],
+      "services": [
+        "yandex_baremetal",
+        "yandex_cloud"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/yandex/cloud-regions.20261019.html",
+          "sha256": "1b125c9d4dddb18e97780f48565d7fb0b6966f82d6f929a4f65a5a8c87116992",
+          "source_published_at": null,
+          "source_url": "https://yandex.cloud/en/docs/overview/concepts/region"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/cloud-zones.20261019.html",
+          "sha256": "69644c8fb7016e313d3e67028e4db360b063a63c3cac530fe23e4b7fdd46cf2c",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://yandex.cloud/en/docs/overview/concepts/geo-scope"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 35
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/yandex/cdn-cities.20261019.csv",
+          "path": "data/yandex/cdn-cities.20261019.csv",
+          "source": "data/yandex/cdn-cities.20261019.geojson"
+        }
+      },
+      "entity_types": {
+        "edge_pop": 35
+      },
+      "files": {
+        "geojson": {
+          "path": "data/yandex/cdn-cities.20261019.geojson",
+          "sha256": "45d228b129a5645080b50f34c91375de842824ca91e1562603aad79f45c02f39"
+        },
+        "report": {
+          "path": "data/yandex/cdn-cities.20261019.report.json",
+          "sha256": "0df70a284caf7fa0dce198e518c95f2f06b26ebae5f95dd69fb03792ef7b608f"
+        }
+      },
+      "geometry_null": 35,
+      "layer": "yandex/cdn-cities",
+      "providers": [
+        "Yandex Cloud"
+      ],
+      "record_count": 35,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.3.0"
+      ],
+      "services": [
+        "yandex_cdn"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/un/a-res-68-262.20140327.pdf",
+          "sha256": "c0156b2e043a976794b46d90a56bd6d394cfd016b44e7266b5564133cce42dc7",
+          "source_published_at": "2014-03-27",
+          "source_scope": "inferred",
+          "source_url": "https://documents.un.org/doc/undoc/gen/n13/455/17/pdf/n1345517.pdf"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/cdn-pops.20261019.html",
+          "sha256": "c09c71ccf3e6c666cb4ff253548502121eeb766cd1308879293b985461841cdf",
+          "source_published_at": null,
+          "source_updated_at": "2026-09-14",
+          "source_url": "https://yandex.cloud/en/docs/cdn/concepts/points-of-presence"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 28
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/selectel/russian-hierarchy.20261019.csv",
+          "path": "data/selectel/russian-hierarchy.20261019.csv",
+          "source": "data/selectel/russian-hierarchy.20261019.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 7,
+        "cloud_region": 3,
+        "cloud_resource_pool": 18
+      },
+      "files": {
+        "geojson": {
+          "path": "data/selectel/russian-hierarchy.20261019.geojson",
+          "sha256": "696d914696e8fede99b20b28889e2ef689bc18084449ecd8ce75f9157579d60a"
+        },
+        "report": {
+          "path": "data/selectel/russian-hierarchy.20261019.report.json",
+          "sha256": "028497cf32c1e446423f9cd96e823632282128e39b39507b53759ecca453f0e4"
+        }
+      },
+      "geometry_null": 28,
+      "layer": "selectel/russian-hierarchy",
+      "providers": [
+        "Selectel"
+      ],
+      "record_count": 28,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.3.0"
+      ],
+      "services": [
+        "selectel_cloud"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+          "sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+          "source_published_at": null,
+          "source_url": "https://docs.selectel.ru/infrastructure/locations/"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 5
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/cloudru/advanced-regions-and-zones.20261019.csv",
+          "path": "data/cloudru/advanced-regions-and-zones.20261019.csv",
+          "source": "data/cloudru/advanced-regions-and-zones.20261019.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 4,
+        "cloud_region": 1
+      },
+      "files": {
+        "geojson": {
+          "path": "data/cloudru/advanced-regions-and-zones.20261019.geojson",
+          "sha256": "8752fa64292c2ec7e6571d8e253092bd2d9bbf08e0938fad95d9eccff35693af"
+        },
+        "report": {
+          "path": "data/cloudru/advanced-regions-and-zones.20261019.report.json",
+          "sha256": "9eb1d91606323e2f3c5201c96872b49d350875befee99856756122f834783f8b"
+        }
+      },
+      "geometry_null": 5,
+      "layer": "cloudru/advanced-regions-and-zones",
+      "providers": [
+        "Cloud.ru"
+      ],
+      "record_count": 5,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.3.0"
+      ],
+      "services": [
+        "cloudru_advanced"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/cloudru-advanced-faq.20261019.html",
+          "sha256": "5717d80a155cfb1695efff9ad74ceda5b121c2f66496f39b153251ac59788281",
+          "source_published_at": null,
+          "source_url": "https://cloud.ru/docs/dc-cloud/ug/topics/faq__advanced__datacenter-az"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 3
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/cloudru/evolution-zones.20261019.csv",
+          "path": "data/cloudru/evolution-zones.20261019.csv",
+          "source": "data/cloudru/evolution-zones.20261019.geojson"
+        }
+      },
+      "entity_types": {
+        "availability_zone": 3
+      },
+      "files": {
+        "geojson": {
+          "path": "data/cloudru/evolution-zones.20261019.geojson",
+          "sha256": "fbaeb5d07c08892e3c6b91ea5eb59661e677427ceb167f34a1a882eb337db15c"
+        },
+        "report": {
+          "path": "data/cloudru/evolution-zones.20261019.report.json",
+          "sha256": "c95e943a6b4de8322b888d4aaa8df2da6c1f44df0b3743e4485a00d0e84518cc"
+        }
+      },
+      "geometry_null": 3,
+      "layer": "cloudru/evolution-zones",
+      "providers": [
+        "Cloud.ru"
+      ],
+      "record_count": 3,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.3.0"
+      ],
+      "services": [
+        "cloudru_evolution"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/cloudru-evolution-overview.20261019.html",
+          "sha256": "f0e16ca0140fe1e601469efdecd730a174bc8769914559b0ae2e9bec76ece758",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://cloud.ru/docs/evolution/overview/index"
+        },
+        {
+          "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+          "sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+          "source_published_at": null,
+          "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+        }
+      ]
+    },
+    {
+      "coordinate_methods": {
+        "unknown": 10
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/ixcellerate/data-centers.20261019.csv",
+          "path": "data/ixcellerate/data-centers.20261019.csv",
+          "source": "data/ixcellerate/data-centers.20261019.geojson"
+        }
+      },
+      "entity_types": {
+        "data_center": 10
+      },
+      "files": {
+        "geojson": {
+          "path": "data/ixcellerate/data-centers.20261019.geojson",
+          "sha256": "6cda6b3c3327f6c17ce0c9e169ceadf98837206cc0b9c529bd08fee27ebbaeab"
+        },
+        "report": {
+          "path": "data/ixcellerate/data-centers.20261019.report.json",
+          "sha256": "3e7940778240cd0ef9323fe7912333f92d52a514127fc7f64fe46b6ae5cf0519"
+        }
+      },
+      "geometry_null": 10,
+      "layer": "ixcellerate/data-centers",
+      "providers": [
+        "IXcellerate"
+      ],
+      "record_count": 10,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.3.0"
+      ],
+      "services": [
+        "colocation"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/russia/ixcellerate-scalability.20261019.html",
+          "sha256": "5171a922fb09b69c844a659042bf8948d0399d5e7447087b003c8ecb3123dd57",
+          "source_published_at": null,
+          "source_url": "https://ixcellerate.ru/why-ixcellerate/scalability/"
+        }
+      ]
     }
   ],
-  "network_evidence_layer_count": 4,
+  "network_evidence_layer_count": 6,
   "network_evidence_layers": [
     {
       "derived_files": {
@@ -3179,9 +3673,123 @@
         "ok": 6,
         "tls_verified": 23
       }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/yandex-prefixes.20261019.csv",
+          "path": "data/network/yandex-prefixes.20261019.csv",
+          "source": "data/network/yandex-prefixes.20261019.json"
+        }
+      },
+      "evidence_types": {
+        "provider_prefix": 164
+      },
+      "files": {
+        "json": {
+          "path": "data/network/yandex-prefixes.20261019.json",
+          "sha256": "f9b4e6a406444cf296e3b1532f7f821226b6b02c5b3d53dcc7349b4da5f0f932"
+        },
+        "report": {
+          "path": "data/network/yandex-prefixes.20261019.report.json",
+          "sha256": "0ecd6ab04d6fb756719a0e8fbeecf14069e2652677ee2283e92f07cece1f2682"
+        }
+      },
+      "layer": "yandex-prefixes",
+      "providers": [
+        "Yandex Cloud"
+      ],
+      "record_count": 164,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "yandex_baremetal",
+        "yandex_cloud_cdn",
+        "yandex_dspm",
+        "yandex_smartcaptcha_ips",
+        "yandex_sws_ips",
+        "yandex_virtual_private_cloud",
+        "yandex_yandex_cloud_ips"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/yandex/cdn-prefixes.20261019.json",
+          "sha256": "27daf2da169adab504771f0375ad58f5e2f8d076497e9146dd6432c0830a4a84",
+          "source_published_at": null,
+          "source_url": "https://tech.cdn.yandex.net/prefixes/yc.json"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/cloud-public-ips.20261019.html",
+          "sha256": "5bd504bd510385871b1ff02dc2f0691e654a5f1446688b62acba5194f01860ff",
+          "source_published_at": null,
+          "source_url": "https://yandex.cloud/en/docs/overview/concepts/public-ips"
+        }
+      ],
+      "statuses": {
+        "published": 164
+      }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/yandex-routing.20261019.csv",
+          "path": "data/network/yandex-routing.20261019.csv",
+          "source": "data/network/yandex-routing.20261019.json"
+        }
+      },
+      "evidence_types": {
+        "routing_origin": 56
+      },
+      "files": {
+        "json": {
+          "path": "data/network/yandex-routing.20261019.json",
+          "sha256": "157fd07a03ffb593499c29e248796cb56ede6c1d08e90c3e32b08e9045dbee97"
+        },
+        "report": {
+          "path": "data/network/yandex-routing.20261019.report.json",
+          "sha256": "2a6c37f8ee0678dc60bc4e5c3aa605108189f5458335fe20d01edb47837d7c1a"
+        }
+      },
+      "layer": "yandex-routing",
+      "providers": [
+        "Yandex Cloud"
+      ],
+      "record_count": 56,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "yandex_cloud_network"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "observed"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+          "sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+          "source_published_at": null,
+          "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00"
+        }
+      ],
+      "statuses": {
+        "announced": 56
+      }
     }
   ],
-  "network_evidence_record_count": 3167,
+  "network_evidence_record_count": 3387,
   "network_evidence_schema": {
     "path": "schema/network-evidence.schema.json",
     "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",
@@ -3189,10 +3797,10 @@
   },
   "observation_comparison_schema": {
     "path": "schema/cdn-comparison.schema.json",
-    "sha256": "1d3614d74a94c0b2ae66edba3d29f5508df7a3e89597cc4e3ef5b5ed00bfc439",
-    "version": "1.0.0"
+    "sha256": "b4224146083aa7abe5f3b15dbc110715de0e898c66164ecee1c15d953da66d44",
+    "version": "1.1.0"
   },
-  "observation_comparison_view_count": 2,
+  "observation_comparison_view_count": 3,
   "observation_comparison_views": [
     {
       "built_at": "2026-10-19",
@@ -3281,17 +3889,61 @@
         }
       ],
       "view_of": "observations/cdn-mapping"
+    },
+    {
+      "built_at": "2026-10-19",
+      "derived_files": {
+        "csv": {
+          "generator": "make data/russia/cdn-asn-comparison.20261019.csv",
+          "path": "data/russia/cdn-asn-comparison.20261019.csv",
+          "source": "data/russia/cdn-asn-comparison.20261019.json"
+        }
+      },
+      "excluded_from_canonical_totals": true,
+      "files": {
+        "json": {
+          "path": "data/russia/cdn-asn-comparison.20261019.json",
+          "sha256": "ab9907ea75f91205d95bba8656e3c135058f2071c3aa0f3fa62da1a66345c694"
+        },
+        "report": {
+          "path": "data/russia/cdn-asn-comparison.20261019.report.json",
+          "sha256": "8190d0339b6159fc036a295054346aa9c9e6d7c0961de548924ec0f9e42d0ba2"
+        }
+      },
+      "layer": "russia/cdn-asn-comparison",
+      "record_count": 280,
+      "record_unit": "distinct_asn",
+      "selection": "ripe_registration_country_RU",
+      "snapshot_tag": "20261019",
+      "sources": [
+        {
+          "path": "data/observations/cdn-mapping.20260804.geojson",
+          "retrieved_at": "2026-08-04",
+          "role": "provider_asn_observations",
+          "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b",
+          "source_published_at": "2026-06-06"
+        },
+        {
+          "path": "data/raw/ripe/delegated-ripencc-extended.20260606.bz2",
+          "retrieved_at": "2026-10-19",
+          "role": "asn_registration_country",
+          "sha256": "992f42e8a1450f7a3cdf0e163b0d7ce1895529f89e9b1da64dcdfb60b33b1593",
+          "source_published_at": "2026-06-06",
+          "source_url": "https://ftp.ripe.net/pub/stats/ripencc/2026/delegated-ripencc-extended-20260606.bz2"
+        }
+      ],
+      "view_of": "observations/cdn-mapping"
     }
   ],
   "quarantine": {
     "audit_path": "data/quarantine/audit.20260804.json",
     "audit_sha256": "04436c3e7bf4b0864e70bd0be95d4c95ef9e314eb32d63a18f514436ae4beadc"
   },
-  "record_count": 27930,
+  "record_count": 28019,
   "schema": {
-    "path": "schema/location.schema.json",
-    "sha256": "dbd1065a59c6ba5c7bbf6de3042f8158d2112b4637ce40fb6315cc3d1558cd12",
-    "version": "1.2.0"
+    "path": "schema/location-v1.3.schema.json",
+    "sha256": "76b0a52f9f49ac2ac727823576ba31b8c3c10e057cc8d9d92283a6b6280284f9",
+    "version": "1.3.0"
   },
   "scope_note": "Canonical location counts span unlike provider-declared and observed entity types and are not a physical-site total. Derived views repeat source-layer IDs and network evidence is non-spatial; both are excluded from record_count.",
   "vendor_registry": {
@@ -3975,58 +4627,76 @@
     {
       "coordinate_methods": {
         "geocoded": 79,
-        "legacy": 2,
+        "legacy": 11,
         "provider": 2,
-        "unknown": 8
+        "unknown": 86
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/russia/locations-and-observations.20261011.csv",
-          "path": "data/russia/locations-and-observations.20261011.csv",
-          "source": "data/russia/locations-and-observations.20261011.geojson"
+          "generator": "make data/russia/locations-and-observations.20261019.csv",
+          "path": "data/russia/locations-and-observations.20261019.csv",
+          "source": "data/russia/locations-and-observations.20261019.geojson"
         }
       },
       "entity_types": {
-        "data_center": 5,
-        "edge_pop": 7,
+        "availability_zone": 19,
+        "cloud_region": 5,
+        "cloud_resource_pool": 18,
+        "data_center": 15,
+        "edge_pop": 42,
         "observed_presence": 79
       },
       "files": {
         "geojson": {
-          "path": "data/russia/locations-and-observations.20261011.geojson",
-          "sha256": "a1c903307a159f08793bb7557a6509a3e12550f0434df940bccce3d48eda4ead"
+          "path": "data/russia/locations-and-observations.20261019.geojson",
+          "sha256": "c35c98776f37e02d387d6ba0e9facd66ae938ca3db0b8af9c6c759f0df4011d8"
         },
         "report": {
-          "path": "data/russia/locations-and-observations.20261011.report.json",
-          "sha256": "c336012733db61e7041f27138520b3f1afff1194b22da4faf9c24fb5afc87c7e"
+          "path": "data/russia/locations-and-observations.20261019.report.json",
+          "sha256": "56843f738f3d83abe895aa780526975274cfebd814345f9606a95f462b264649"
         }
       },
-      "geometry_null": 8,
+      "geometry_null": 86,
       "layer": "russia/locations-and-observations",
       "providers": [
+        "Akamai",
         "CacheFly",
+        "Cloud.ru",
         "Cloudflare",
         "Google",
-        "Yandex"
+        "IXcellerate",
+        "Selectel",
+        "Yandex",
+        "Yandex Cloud"
       ],
-      "record_count": 91,
+      "record_count": 178,
       "retrieved_at": [
         "2026-08-04",
         "2026-08-05",
-        "2026-10-11"
+        "2026-10-11",
+        "2026-10-19"
       ],
       "schema_versions": [
         "1.1.0",
-        "1.2.0"
+        "1.2.0",
+        "1.3.0"
       ],
       "services": [
+        "akamai_edge",
         "cachefly_network",
         "cdn_mapping_city_observation",
         "cloudflare_network",
+        "cloudru_advanced",
+        "cloudru_evolution",
+        "colocation",
         "google_edge",
+        "selectel_cloud",
+        "yandex_baremetal",
+        "yandex_cdn",
+        "yandex_cloud",
         "yandex_data_centers"
       ],
-      "snapshot_tag": "20261011",
+      "snapshot_tag": "20261019",
       "source_scopes": [
         "observed",
         "provider_declared"
@@ -4037,6 +4707,12 @@
           "sha256": "c72f69951143f7e8fa995b8c56bb204a6fffbcf29c7ee61aff00c6078b12da93",
           "source_published_at": "2026-03-24",
           "source_url": "https://www.cachefly.com/network-map/"
+        },
+        {
+          "raw_source_ref": "data/raw/cartography-restoration/akamai-legacy.20230713.geojson",
+          "sha256": "7d530045291643bde91a21368dac72926e8008de55a14558e85974e74eb6e542",
+          "source_published_at": "2023-07-12",
+          "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/6a9102cb8f8c95a9f3687feaea5a93d8ae611b5d/data/akamai_13-07-2023.geojson"
         },
         {
           "raw_source_ref": "data/raw/cloudflare/components.20260804.json",
@@ -4057,6 +4733,50 @@
           "source_url": "https://www.google.com/maps/d/kml?mid=1AHRJ8wfAVk2nHYWuO8Mojs0zp__9V0o&forcekml=1"
         },
         {
+          "raw_source_ref": "data/raw/russia/cloudru-advanced-faq.20261019.html",
+          "sha256": "5717d80a155cfb1695efff9ad74ceda5b121c2f66496f39b153251ac59788281",
+          "source_published_at": null,
+          "source_url": "https://cloud.ru/docs/dc-cloud/ug/topics/faq__advanced__datacenter-az"
+        },
+        {
+          "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+          "sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+          "source_published_at": null,
+          "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+        },
+        {
+          "raw_source_ref": "data/raw/russia/ixcellerate-scalability.20261019.html",
+          "sha256": "5171a922fb09b69c844a659042bf8948d0399d5e7447087b003c8ecb3123dd57",
+          "source_published_at": null,
+          "source_url": "https://ixcellerate.ru/why-ixcellerate/scalability/"
+        },
+        {
+          "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+          "sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+          "source_published_at": null,
+          "source_url": "https://docs.selectel.ru/infrastructure/locations/"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/cdn-pops.20261019.html",
+          "sha256": "c09c71ccf3e6c666cb4ff253548502121eeb766cd1308879293b985461841cdf",
+          "source_published_at": null,
+          "source_updated_at": "2026-09-14",
+          "source_url": "https://yandex.cloud/en/docs/cdn/concepts/points-of-presence"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/cloud-regions.20261019.html",
+          "sha256": "1b125c9d4dddb18e97780f48565d7fb0b6966f82d6f929a4f65a5a8c87116992",
+          "source_published_at": null,
+          "source_url": "https://yandex.cloud/en/docs/overview/concepts/region"
+        },
+        {
+          "raw_source_ref": "data/raw/yandex/cloud-zones.20261019.html",
+          "sha256": "69644c8fb7016e313d3e67028e4db360b063a63c3cac530fe23e4b7fdd46cf2c",
+          "source_published_at": null,
+          "source_updated_at": "2026-07-13",
+          "source_url": "https://yandex.cloud/en/docs/overview/concepts/geo-scope"
+        },
+        {
           "raw_source_ref": "data/raw/yandex/iso-27001.20261011.pdf",
           "sha256": "78dfed868a060e3e825873d80cd0c8802f1ad1d9f1b9adc42db35d3895f66c57",
           "source_published_at": "2025-10-23",
@@ -4074,7 +4794,14 @@
         "cloudflare/edge",
         "cachefly/locations",
         "observations/cdn-mapping-cities",
-        "yandex/data-centers"
+        "yandex/data-centers",
+        "akamai/legacy-locations",
+        "yandex/regions-and-zones",
+        "yandex/cdn-cities",
+        "selectel/russian-hierarchy",
+        "cloudru/advanced-regions-and-zones",
+        "cloudru/evolution-zones",
+        "ixcellerate/data-centers"
       ]
     },
     {

@@ -1,0 +1,2528 @@
+{
+  "layer": "yandex-routing",
+  "records": [
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 6,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "2a0b:1447:20::/44",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-0310a37027f2b8a3de7ac61d",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "2a0b:1447:20::/44",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "89.169.128.0/18",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-0388e42f69a29c58042e57ec",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "89.169.128.0/18",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 6,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "2a0d:d6c0::/32",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-0987a53a98ad812cbb25154d",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "2a0d:d6c0::/32",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 6,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "2a0d:d6c1::/32",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-0bfa5b8eacf70854445f48e6",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "2a0d:d6c1::/32",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "194.247.51.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-18beb31043130c34796a1e7c",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "194.247.51.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "84.201.188.0/23",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-25fc3cf27644a988c7150f39",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "84.201.188.0/23",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "46.243.209.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-265173e5f528804df12c5e9a",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "46.243.209.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "213.130.80.0/21",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-30878f5ac152a9195be089bd",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "213.130.80.0/21",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "92.255.15.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-30c0ada634d355cc7b2c2791",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "92.255.15.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "178.154.192.0/19",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-38de8ff5aa6936ce7a3f8031",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "178.154.192.0/19",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "84.201.128.0/18",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-3b9f831ec92375025cae670b",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "84.201.128.0/18",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "130.193.32.0/19",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-441f513bab8d82bd1500ac35",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "130.193.32.0/19",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "185.206.164.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-509e0fb90d612aa972ec965b",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "185.206.164.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "62.84.112.0/20",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-6129d27a6cd14b7f0b637ad4",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "62.84.112.0/20",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "178.154.224.0/19",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-77f25a1ed7e2b0c91a10838a",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "178.154.224.0/19",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "93.77.160.0/19",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-8081b7bdeacbce6d4e1efcb4",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "93.77.160.0/19",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "89.104.112.0/23",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-83040a2ec394e6a0c1ed8e8a",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "89.104.112.0/23",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "81.26.176.0/20",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-85c14f04cb1cf1fa3f55891e",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "81.26.176.0/20",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "213.165.196.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-8ac00101d594fadbd7a6b438",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "213.165.196.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "92.255.3.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-8c8bcd275fa5787fc728c918",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "92.255.3.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "46.243.210.0/23",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-8f1dbe04cfda313293bb1e32",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "46.243.210.0/23",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "51.250.0.0/17",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-90ad2c2f9f5db26b18cdb87a",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "51.250.0.0/17",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "51.250.50.0/23",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-90b2d8860171d0d2019df3ce",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "51.250.50.0/23",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "193.32.216.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-9d11e44d4e3c9fb6efbd1c4e",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "193.32.216.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "84.252.128.0/20",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-a188ed2d0341e19f1123fdf1",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "84.252.128.0/20",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "92.255.1.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-a5764421cf668889cbd162c7",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "92.255.1.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "153.51.96.0/23",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-a77cef34717110cba5ff81c3",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "153.51.96.0/23",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "51.250.126.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-a7da9c7299ab03d2ed6e5267",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "51.250.126.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "37.230.168.0/23",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-b1c11eff666acfe28a5e9429",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "37.230.168.0/23",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "37.230.172.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-b21f38e1e24dfdb364e1f805",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "37.230.172.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "103.76.52.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-b6f6ae985152e09f5f6ed4e4",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "103.76.52.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "178.154.244.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-b80b7a89bc2cffdea45bf60e",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "178.154.244.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "153.51.96.0/19",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-bb3ccf47330ce7231798a766",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "153.51.96.0/19",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "92.255.13.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-bf7145e4d226706da6a2dfe9",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "92.255.13.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "193.32.216.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-c030b591eb99209544cfcf0c",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "193.32.216.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "217.28.224.0/20",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-c0572b0c8b63a30918257350",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "217.28.224.0/20",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "178.154.243.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-c1cbf2d568575160d9e47d46",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "178.154.243.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "51.250.112.0/21",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-c4e173e8316a6cd835af24d8",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "51.250.112.0/21",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "31.44.8.0/21",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-c8e8a31de2d40ee47599d369",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "31.44.8.0/21",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "89.232.189.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-d569cae6614031eeb033e12f",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "89.232.189.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "130.193.62.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-d9509ae22a23ea378c8daa78",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "130.193.62.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "158.160.0.0/16",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-dc9b783d42f59975e89a3f25",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "158.160.0.0/16",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "84.201.184.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-dfcb25f05a7c82215c9c58de",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "84.201.184.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "111.88.144.0/20",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-e547e4c29dece459539004c0",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "111.88.144.0/20",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "89.232.188.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-e5ae477da7a58901d6dee122",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "89.232.188.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "93.77.168.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-e7e08b18ae3531a03be99922",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "93.77.168.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "51.250.48.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-ed3d04737629d5d1533bf336",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "51.250.48.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "31.44.9.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-ee3bf2b58151bfab04f14b66",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "31.44.9.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "51.250.120.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-ee4896d908896131f2c3f157",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "51.250.120.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "51.250.54.0/23",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-f140ead542dfd0c10431f71a",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "51.250.54.0/23",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "213.165.192.0/19",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-f15137bc31f2e11c27fc8a52",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "213.165.192.0/19",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "111.88.240.0/20",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-f29871ed552c07f53d06e791",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "111.88.240.0/20",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "153.51.32.0/19",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-f49367e7c2d4b91f9c6b6c94",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "153.51.32.0/19",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "178.154.245.0/24",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-f759947e388e7aef78dde5ae",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "178.154.245.0/24",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "46.21.244.0/22",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-f8573908ea97786b6d71aeb8",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "46.21.244.0/22",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asn": 200350,
+      "confidence": "high",
+      "evidence_type": "routing_origin",
+      "ip_family": 4,
+      "object_id": "AS200350",
+      "object_type": "asn",
+      "observed_at": "2026-10-19T00:00:00Z",
+      "prefix": "217.198.168.0/21",
+      "properties": {
+        "asn_identity_evidence": {
+          "raw_source_ref": "data/raw/yandex/as200350-overview.20261019.json",
+          "retrieved_at": "2026-10-19",
+          "source_published_at": null,
+          "source_sha256": "224730fbd7c50cf5ae2fad578a21eae6681558622216bb21b02eb93b5169fa86",
+          "source_updated_at": null,
+          "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS200350"
+        },
+        "physical_country_code": null,
+        "query_endtime": "2026-10-19T00:00:00",
+        "query_starttime": "2026-10-19T00:00:00",
+        "service_membership_not_inferred": true,
+        "timelines": [
+          {
+            "endtime": "2026-10-19T00:00:00",
+            "starttime": "2026-10-19T00:00:00"
+          }
+        ]
+      },
+      "provider": "Yandex Cloud",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "record_id": "network:routing_origin:yandex-fa5cf2aa7c673e3e960162dc",
+      "relationship_type": "originates_prefix",
+      "retrieved_at": "2026-10-19",
+      "service": "yandex_cloud_network",
+      "source_published_at": null,
+      "source_scope": "observed",
+      "source_sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "status": "announced",
+      "subject_id": "217.198.168.0/21",
+      "subject_type": "prefix",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "retrieved_at": "2026-10-19",
+  "schema_version": "1.0.0",
+  "type": "NetworkEvidenceCollection"
+}

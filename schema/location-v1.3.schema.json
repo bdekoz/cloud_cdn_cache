@@ -1,0 +1,425 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/stevesong/cloud_cdn_cache/blob/main/schema/location-v1.3.schema.json",
+  "title": "Canonical CDN and cloud infrastructure location",
+  "description": "A provider-declared or independently observed infrastructure location before CSV or GeoJSON serialization.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "aliases",
+    "provider",
+    "service",
+    "entity_type",
+    "parent_record_id",
+    "jurisdiction_scope",
+    "access_status",
+    "service_scope",
+    "source_collection",
+    "source_record_id",
+    "name",
+    "site_code",
+    "lifecycle_status",
+    "source_scope",
+    "city",
+    "metro",
+    "subdivision",
+    "country",
+    "country_code",
+    "latitude",
+    "longitude",
+    "location_precision",
+    "coordinate_method",
+    "coordinate_crs",
+    "source_url",
+    "raw_source_ref",
+    "source_sha256",
+    "source_published_at",
+    "retrieved_at",
+    "first_seen",
+    "last_seen",
+    "confidence",
+    "properties"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "1.1.0",
+        "1.2.0",
+        "1.3.0"
+      ]
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?::[a-z0-9][a-z0-9._-]*){2,}$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "service": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_]*$",
+      "description": "A stable snake_case service identifier. Known values are registered in schema/README.md."
+    },
+    "entity_type": {
+      "enum": [
+        "edge_pop",
+        "regional_edge_cache",
+        "data_center",
+        "super_region",
+        "cloud_region",
+        "availability_zone",
+        "cloud_resource_pool",
+        "local_zone",
+        "embedded_cache",
+        "observed_presence"
+      ]
+    },
+    "parent_record_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-z0-9]+(?::[a-z0-9][a-z0-9._-]*){2,}$",
+      "description": "Canonical parent identity for hierarchical entities such as an availability zone within a region."
+    },
+    "jurisdiction_scope": {
+      "enum": [
+        "mainland_china",
+        "hong_kong",
+        "macau",
+        "taiwan",
+        "other",
+        "global",
+        "unknown"
+      ]
+    },
+    "access_status": {
+      "enum": [
+        "public",
+        "sales_restricted",
+        "invite_only",
+        "dedicated",
+        "restricted",
+        "not_applicable",
+        "unknown"
+      ],
+      "description": "Commercial or allocation posture, kept independent from operational lifecycle."
+    },
+    "service_scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9_]*$"
+      },
+      "uniqueItems": true,
+      "description": "Products or infrastructure surfaces for which the source asserts this location; empty means no narrower scope was established."
+    },
+    "source_collection": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_]*$"
+    },
+    "source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "site_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "lifecycle_status": {
+      "enum": [
+        "operational",
+        "in_development",
+        "planned",
+        "inactive",
+        "retired",
+        "unverified",
+        "unknown"
+      ]
+    },
+    "source_scope": {
+      "enum": [
+        "provider_declared",
+        "observed",
+        "inferred"
+      ]
+    },
+    "city": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "metro": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "subdivision": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "country": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "country_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Z]{2}$"
+    },
+    "latitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -90,
+      "maximum": 90
+    },
+    "longitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -180,
+      "maximum": 180
+    },
+    "location_precision": {
+      "enum": [
+        "facility",
+        "campus",
+        "metro",
+        "city",
+        "region",
+        "unknown"
+      ]
+    },
+    "coordinate_method": {
+      "enum": [
+        "provider",
+        "geocoded",
+        "legacy",
+        "transformed",
+        "unknown"
+      ]
+    },
+    "coordinate_crs": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "EPSG:4326",
+        null
+      ],
+      "description": "CRS of serialized coordinates. Source systems such as GCJ-02 or BD-09 must be recorded in properties when transformed."
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "raw_source_ref": {
+      "type": "string",
+      "pattern": "^data/raw/"
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "source_published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "first_seen": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_seen": {
+      "type": "string",
+      "format": "date"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "properties": {
+      "type": "object"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "latitude": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "longitude": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "longitude": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "longitude": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "latitude": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "latitude": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "latitude": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "coordinate_crs": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "coordinate_crs": {
+            "const": "EPSG:4326"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "entity_type": {
+            "const": "availability_zone"
+          }
+        }
+      },
+      "then": {
+        "anyOf": [
+          {
+            "properties": {
+              "parent_record_id": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "properties": {
+              "schema_version": {
+                "const": "1.3.0"
+              },
+              "parent_record_id": {
+                "type": "null"
+              },
+              "properties": {
+                "required": [
+                  "parent_region_not_published_in_source",
+                  "parent_identity_evidence"
+                ],
+                "properties": {
+                  "parent_region_not_published_in_source": {
+                    "const": true
+                  },
+                  "parent_identity_evidence": {
+                    "type": "object",
+                    "required": [
+                      "source_url",
+                      "raw_source_ref",
+                      "source_sha256"
+                    ],
+                    "properties": {
+                      "source_url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "raw_source_ref": {
+                        "type": "string",
+                        "pattern": "^data/raw/"
+                      },
+                      "source_sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

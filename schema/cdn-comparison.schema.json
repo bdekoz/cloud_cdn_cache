@@ -1,89 +1,383 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Derived CDN ASN comparison",
-  "description": "A non-spatial view of existing observations; absent provider IDs mean not observed in this snapshot. APNIC country records describe registration, not deployed infrastructure.",
+  "description": "A non-spatial view of existing observations. Registry country describes ASN registration, not deployed infrastructure.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["type", "schema_version", "built_at", "view_of", "selection", "excluded_from_canonical_totals", "missing_provider_semantics", "registration_country_is_not_geolocation", "provider_columns", "sources", "records"],
+  "required": [
+    "type",
+    "schema_version",
+    "built_at",
+    "view_of",
+    "selection",
+    "excluded_from_canonical_totals",
+    "missing_provider_semantics",
+    "registration_country_is_not_geolocation",
+    "provider_columns",
+    "sources",
+    "records"
+  ],
   "properties": {
-    "type": {"const": "CdnAsnComparison"},
-    "schema_version": {"const": "1.0.0"},
-    "built_at": {"type": "string", "format": "date"},
-    "view_of": {"const": "observations/cdn-mapping"},
-    "selection": {"enum": ["all_observed_asns", "apnic_registration_country_IN"]},
-    "excluded_from_canonical_totals": {"const": true},
-    "missing_provider_semantics": {"const": "not_observed_in_this_snapshot"},
-    "registration_country_is_not_geolocation": {"const": true},
+    "type": {
+      "const": "CdnAsnComparison"
+    },
+    "schema_version": {
+      "enum": [
+        "1.0.0",
+        "1.1.0"
+      ]
+    },
+    "built_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "view_of": {
+      "const": "observations/cdn-mapping"
+    },
+    "selection": {
+      "enum": [
+        "all_observed_asns",
+        "apnic_registration_country_IN",
+        "ripe_registration_country_RU"
+      ]
+    },
+    "excluded_from_canonical_totals": {
+      "const": true
+    },
+    "missing_provider_semantics": {
+      "const": "not_observed_in_this_snapshot"
+    },
+    "registration_country_is_not_geolocation": {
+      "const": true
+    },
     "provider_columns": {
-      "type": "array", "minItems": 7, "maxItems": 7, "uniqueItems": true,
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "uniqueItems": true,
       "items": {
-        "type": "object", "additionalProperties": false,
-        "required": ["key", "provider", "dataset"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "provider",
+          "dataset"
+        ],
         "properties": {
-          "key": {"enum": ["ggc", "oca", "fna", "akamai", "microsoft", "apple", "aws-cloudfront"]},
-          "provider": {"type": "string", "minLength": 1},
-          "dataset": {"type": "string", "minLength": 1}
+          "key": {
+            "enum": [
+              "ggc",
+              "oca",
+              "fna",
+              "akamai",
+              "microsoft",
+              "apple",
+              "aws-cloudfront"
+            ]
+          },
+          "provider": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dataset": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       }
     },
     "sources": {
-      "type": "array", "minItems": 2, "maxItems": 2,
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
       "items": {
-        "type": "object", "additionalProperties": false,
-        "required": ["path", "sha256", "role", "source_published_at", "retrieved_at"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "role",
+          "source_published_at",
+          "retrieved_at"
+        ],
         "properties": {
-          "path": {"type": "string", "pattern": "^data/"},
-          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-          "role": {"enum": ["provider_asn_observations", "asn_registration_country"]},
-          "source_published_at": {"type": "string", "format": "date"},
-          "retrieved_at": {"type": "string", "format": "date"},
-          "source_url": {"type": "string", "format": "uri"}
+          "path": {
+            "type": "string",
+            "pattern": "^data/"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "role": {
+            "enum": [
+              "provider_asn_observations",
+              "asn_registration_country"
+            ]
+          },
+          "source_published_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "retrieved_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          }
         }
       }
     },
     "records": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 1,
       "items": {
-        "type": "object", "additionalProperties": false,
-        "required": ["asn", "as_names", "apnic_registration", "provider_record_ids"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "asn",
+          "as_names",
+          "provider_record_ids"
+        ],
         "properties": {
-          "asn": {"type": "integer", "minimum": 1, "maximum": 4294967295},
-          "as_names": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+          "asn": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4294967295
+          },
+          "as_names": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
           "apnic_registration": {
             "oneOf": [
-              {"type": "null"},
               {
-                "type": "object", "additionalProperties": false,
-                "required": ["country_code", "start_asn", "asn_count", "delegated_at", "status", "source_line"],
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "country_code",
+                  "start_asn",
+                  "asn_count",
+                  "delegated_at",
+                  "status",
+                  "source_line"
+                ],
                 "properties": {
-                  "country_code": {"type": ["string", "null"], "pattern": "^[A-Z]{2}$"},
-                  "start_asn": {"type": "integer", "minimum": 1, "maximum": 4294967295},
-                  "asn_count": {"type": "integer", "minimum": 1},
-                  "delegated_at": {"type": ["string", "null"], "format": "date"},
-                  "status": {"enum": ["allocated", "assigned"]},
-                  "source_line": {"type": "integer", "minimum": 1}
+                  "country_code": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "pattern": "^[A-Z]{2}$"
+                  },
+                  "start_asn": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4294967295
+                  },
+                  "asn_count": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "delegated_at": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "format": "date"
+                  },
+                  "status": {
+                    "enum": [
+                      "allocated",
+                      "assigned"
+                    ]
+                  },
+                  "source_line": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
                 }
               }
             ]
           },
           "provider_record_ids": {
-            "type": "object", "additionalProperties": false,
-            "required": ["ggc", "oca", "fna", "akamai", "microsoft", "apple", "aws-cloudfront"],
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "ggc",
+              "oca",
+              "fna",
+              "akamai",
+              "microsoft",
+              "apple",
+              "aws-cloudfront"
+            ],
             "properties": {
-              "ggc": {"$ref": "#/$defs/observation_id"},
-              "oca": {"$ref": "#/$defs/observation_id"},
-              "fna": {"$ref": "#/$defs/observation_id"},
-              "akamai": {"$ref": "#/$defs/observation_id"},
-              "microsoft": {"$ref": "#/$defs/observation_id"},
-              "apple": {"$ref": "#/$defs/observation_id"},
-              "aws-cloudfront": {"$ref": "#/$defs/observation_id"}
+              "ggc": {
+                "$ref": "#/$defs/observation_id"
+              },
+              "oca": {
+                "$ref": "#/$defs/observation_id"
+              },
+              "fna": {
+                "$ref": "#/$defs/observation_id"
+              },
+              "akamai": {
+                "$ref": "#/$defs/observation_id"
+              },
+              "microsoft": {
+                "$ref": "#/$defs/observation_id"
+              },
+              "apple": {
+                "$ref": "#/$defs/observation_id"
+              },
+              "aws-cloudfront": {
+                "$ref": "#/$defs/observation_id"
+              }
             }
+          },
+          "rir_registration": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "country_code",
+                  "start_asn",
+                  "asn_count",
+                  "delegated_at",
+                  "status",
+                  "source_line",
+                  "registry"
+                ],
+                "properties": {
+                  "country_code": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "pattern": "^[A-Z]{2}$"
+                  },
+                  "start_asn": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4294967295
+                  },
+                  "asn_count": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "delegated_at": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "format": "date"
+                  },
+                  "status": {
+                    "enum": [
+                      "allocated",
+                      "assigned"
+                    ]
+                  },
+                  "source_line": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "registry": {
+                    "const": "ripencc"
+                  }
+                }
+              }
+            ]
           }
         }
       }
     }
   },
   "$defs": {
-    "observation_id": {"type": ["string", "null"], "pattern": "^observation:observed_presence:[a-z-]+-[0-9]+$"}
-  }
+    "observation_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^observation:observed_presence:[a-z-]+-[0-9]+$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": "1.0.0"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "selection": {
+            "enum": [
+              "all_observed_asns",
+              "apnic_registration_country_IN"
+            ]
+          },
+          "records": {
+            "items": {
+              "required": [
+                "apnic_registration"
+              ],
+              "not": {
+                "required": [
+                  "rir_registration"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": "1.1.0"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "selection": {
+            "enum": [
+              "ripe_registration_country_RU"
+            ]
+          },
+          "records": {
+            "items": {
+              "required": [
+                "rir_registration"
+              ],
+              "not": {
+                "required": [
+                  "apnic_registration"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

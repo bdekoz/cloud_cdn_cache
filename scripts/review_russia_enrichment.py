@@ -80,7 +80,8 @@ def source_receipts() -> dict:
 
 
 def baseline_profile() -> dict:
-    manifest = read_json(REPO_ROOT / f"data/manifest.{TAG}.json")
+    manifest_ref = f"data/raw/repository/manifest-before-russia.{TAG}.json"
+    manifest = read_json(REPO_ROOT / manifest_ref)
     layers, all_rows = [], []
     for layer in manifest["layers"]:
         path = REPO_ROOT / layer["files"]["geojson"]["path"]
@@ -100,7 +101,7 @@ def baseline_profile() -> dict:
     assert len(identifiers) == len(set(identifiers)), "RU record IDs must be unique across canonical layers"
     old_view = next(view for view in manifest["views"] if view["layer"] == "russia/locations-and-observations")
     return {
-        "manifest_ref": f"data/manifest.{TAG}.json", "filter": {"country_code": "RU"},
+        "manifest_ref": manifest_ref, "filter": {"country_code": "RU"},
         "canonical_location_record_count": manifest["record_count"],
         "ru_record_count": len(all_rows), "layers": layers,
         "duplicate_record_ids": len(identifiers) - len(set(identifiers)),

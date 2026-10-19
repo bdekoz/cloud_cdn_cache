@@ -1,0 +1,28 @@
+{
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/yandex-routing.20261019.csv",
+      "path": "data/network/yandex-routing.20261019.csv",
+      "source": "data/network/yandex-routing.20261019.json"
+    }
+  },
+  "evidence_types": {
+    "routing_origin": 56
+  },
+  "generated_files": [
+    "data/network/yandex-routing.20261019.json"
+  ],
+  "layer": "yandex-routing",
+  "parser": "update_yandex.py",
+  "provider_counts": {
+    "Yandex Cloud": 56
+  },
+  "record_count": 56,
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "statuses": {
+    "announced": 56
+  }
+}

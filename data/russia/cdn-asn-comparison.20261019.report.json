@@ -1,0 +1,65 @@
+{
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/russia/cdn-asn-comparison.20261019.csv",
+      "path": "data/russia/cdn-asn-comparison.20261019.csv",
+      "source": "data/russia/cdn-asn-comparison.20261019.json"
+    }
+  },
+  "generated_files": [
+    "data/russia/cdn-asn-comparison.20261019.json"
+  ],
+  "input_asns_without_eligible_ripe_match": 4551,
+  "input_distinct_asn_count": 6564,
+  "layer": "russia/cdn-asn-comparison",
+  "parser": "update_russia_comparison.py",
+  "provider_counts": {
+    "akamai": 37,
+    "apple": 70,
+    "aws-cloudfront": 6,
+    "fna": 2,
+    "ggc": 119,
+    "microsoft": 169,
+    "oca": 0
+  },
+  "record_count": 280,
+  "record_unit": "distinct_asn",
+  "rights_note": "Study downloads have no stated data license; registry source terms apply.",
+  "ripe_snapshot": {
+    "delegated_asn_range_count": 39526,
+    "records_through": "2026-06-06",
+    "registry": "ripencc",
+    "resource_record_counts": {
+      "asn": 48682,
+      "ipv4": 99969,
+      "ipv6": 111157
+    },
+    "ru_delegated_asn_count": 5753,
+    "serial": "1780783199",
+    "timezone": "+0200"
+  },
+  "schema": "schema/cdn-comparison.schema.json",
+  "schema_version": "1.1.0",
+  "selection": "ripe_registration_country_RU",
+  "source_date_note": "Registry file through June 6 and June study publication; measurement times are not individually published. October build is not a new scan.",
+  "sources": [
+    {
+      "path": "data/observations/cdn-mapping.20260804.geojson",
+      "retrieved_at": "2026-08-04",
+      "role": "provider_asn_observations",
+      "sha256": "4f295b35c42ff961e4ada9529cdf4d3042c9dcbe9b959a6d5a93b56b3403877b",
+      "source_published_at": "2026-06-06"
+    },
+    {
+      "path": "data/raw/ripe/delegated-ripencc-extended.20260606.bz2",
+      "retrieved_at": "2026-10-19",
+      "role": "asn_registration_country",
+      "sha256": "992f42e8a1450f7a3cdf0e163b0d7ce1895529f89e9b1da64dcdfb60b33b1593",
+      "source_published_at": "2026-06-06",
+      "source_url": "https://ftp.ripe.net/pub/stats/ripencc/2026/delegated-ripencc-extended-20260606.bz2"
+    }
+  ],
+  "view_excluded_from_canonical_totals": true,
+  "view_of": "observations/cdn-mapping"
+}

@@ -1,0 +1,9 @@
+{
+  "media_type": "application/json",
+  "notes": "Exact repository manifest before approved Russia implementation; freezes the assessment denominator and prior layer hashes.",
+  "raw_source_ref": "data/raw/repository/manifest-before-russia.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "795deea642ae384d3ebd8b76548043e1e0ab994b37fac1e14ee24d6728744fbe",
+  "source_published_at": "2026-10-19",
+  "source_url": "https://github.com/bdekoz/cloud_cdn_cache/blob/6e124c7/data/manifest.20261019.json"
+}

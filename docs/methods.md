@@ -339,3 +339,9 @@ Use `--fetch` only when intentionally taking new snapshots. Suggested starting c
 - The public city KML is partial and its Google/Meta country coverage does not match the article aggregates.
 - Atlas latency validation remains gated on approved targets, credentials/credits, and a reviewed measurement specification.
 - Source-specific redistribution terms require review before raw provider or third-party content is republished elsewhere.
+
+## October Russia, Yandex and application enrichment
+
+The [approved implementation](russia-enrichment.20261019.md) adds provider hierarchies, city declarations, source-dated facility lifecycle, Yandex network evidence, a RIPE registration comparison and a separate application endpoint contract. Preserve unresolved parent identities through location schema 1.3 rather than inventing regions. Selectel multi-zone pool identities remain unique. Simferopol uses Ukraine for normalized geography and retains the provider's original Russia label with normalization evidence.
+
+Application observations retain exact DNS answers, TTLs, response codes, resolver URLs and times. Registry-country and business-country evidence never fills physical-origin fields. A dated closure notice and a responding website can coexist. June RIPE ASN registration joins stay outside the geographic RU view. The pre-implementation assessment reads an immutable manifest snapshot so its denominator remains reproducible. Run `python3 -B scripts/update_russia_enrichment.py`, rebuild the October 19 manifest, and run `make check`; no new network requests are made.

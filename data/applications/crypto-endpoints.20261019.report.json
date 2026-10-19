@@ -1,0 +1,35 @@
+{
+  "built_at": "2026-10-19",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/applications/crypto-endpoints.20261019.csv",
+      "path": "data/applications/crypto-endpoints.20261019.csv",
+      "source": "data/applications/crypto-endpoints.20261019.json"
+    }
+  },
+  "entity_count": 5,
+  "excluded_from_location_and_network_totals": true,
+  "generated_files": [
+    "data/applications/crypto-endpoints.20261019.json"
+  ],
+  "hostname_count": 5,
+  "layer": "applications/crypto-endpoints",
+  "limitations": [
+    "Single public resolver without a located probe or explicit ECS.",
+    "Registry country, CDN/protection endpoints and business offices do not locate physical origins.",
+    "Reachable DNS does not establish active trading. Grinex has no verified current endpoint in this cohort.",
+    "No Yandex feed match does not exclude other Yandex dependencies."
+  ],
+  "origin_attributed_record_count": 0,
+  "parser": "update_crypto_endpoints.py",
+  "prefix_match_scope": "retained Yandex published service feeds only",
+  "query_results": {
+    "answered": 8,
+    "noerror_no_requested_rr": 7
+  },
+  "record_count": 15,
+  "record_unit": "entity_hostname_role_timestamp_rrtype",
+  "schema": "schema/application-endpoint.schema.json",
+  "schema_version": "1.0.0",
+  "source_method": "Google Public DNS HTTPS JSON API; one query per hostname and RR type; no explicit ECS or probe location"
+}

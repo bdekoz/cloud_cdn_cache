@@ -1,0 +1,11 @@
+{
+  "media_type": "text/html",
+  "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+  "raw_source_ref": "data/raw/russia/cloudru-advanced-faq.20261019.html",
+  "resolved_url": "https://cloud.ru/docs/dc-cloud/ug/topics/faq__advanced__datacenter-az",
+  "retrieved_at": "2026-10-19",
+  "retrieved_at_utc": "2026-10-19T15:26:25.148371+00:00",
+  "sha256": "5717d80a155cfb1695efff9ad74ceda5b121c2f66496f39b153251ac59788281",
+  "source_published_at": null,
+  "source_url": "https://cloud.ru/docs/dc-cloud/ug/topics/faq__advanced__datacenter-az"
+}

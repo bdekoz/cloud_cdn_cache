@@ -1,0 +1,175 @@
+{
+  "application_endpoint_record_count": 15,
+  "application_entity_count": 5,
+  "approved_plan_ref": "data/russia/enrichment-assessment.20261019.json",
+  "baseline_manifest": {
+    "path": "data/raw/repository/manifest-before-russia.20261019.json",
+    "sha256": "795deea642ae384d3ebd8b76548043e1e0ab994b37fac1e14ee24d6728744fbe"
+  },
+  "built_at": "2026-10-19",
+  "country_normalization": {
+    "city": "Simferopol",
+    "country_code": "UA",
+    "evidence": {
+      "raw_source_ref": "data/raw/un/a-res-68-262.20140327.pdf",
+      "retrieved_at": "2026-10-19",
+      "source_published_at": "2014-03-27",
+      "source_sha256": "c0156b2e043a976794b46d90a56bd6d394cfd016b44e7266b5564133cce42dc7",
+      "source_updated_at": null,
+      "source_url": "https://documents.un.org/doc/undoc/gen/n13/455/17/pdf/n1345517.pdf"
+    },
+    "source_country_label": "Russia"
+  },
+  "implementation_type": "russia_yandex_crypto_enrichment",
+  "limits": [
+    "Location records have unlike units, unknown coordinates and source-dated lifecycle declarations.",
+    "Yandex incident status remains the October 11 statement; current outage or recovery is not established.",
+    "Evolution zone parents remain unknown; schema 1.3 requires source evidence for missing parent identity.",
+    "Registration country and public DNS endpoints do not establish physical origin hosting.",
+    "The June registration comparison adds no scans or locations. Missing provider IDs are not verified absences.",
+    "Grinex current endpoint identity remains unverified; no inherited Garantex locations."
+  ],
+  "new_location_layers": [
+    {
+      "layer": "yandex/regions-and-zones",
+      "record_count": 8
+    },
+    {
+      "layer": "yandex/cdn-cities",
+      "record_count": 35
+    },
+    {
+      "layer": "selectel/russian-hierarchy",
+      "record_count": 28
+    },
+    {
+      "layer": "cloudru/advanced-regions-and-zones",
+      "record_count": 5
+    },
+    {
+      "layer": "cloudru/evolution-zones",
+      "record_count": 3
+    },
+    {
+      "layer": "ixcellerate/data-centers",
+      "record_count": 10
+    }
+  ],
+  "new_location_record_count": 89,
+  "new_network_layers": [
+    {
+      "layer": "yandex-prefixes",
+      "record_count": 164
+    },
+    {
+      "layer": "yandex-routing",
+      "record_count": 56
+    }
+  ],
+  "new_network_record_count": 220,
+  "new_source_receipts": {
+    "advanced": {
+      "media_type": "text/html",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/russia/cloudru-advanced-faq.20261019.html",
+      "resolved_url": "https://cloud.ru/docs/dc-cloud/ug/topics/faq__advanced__datacenter-az",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:26:25.148371+00:00",
+      "sha256": "5717d80a155cfb1695efff9ad74ceda5b121c2f66496f39b153251ac59788281",
+      "source_published_at": null,
+      "source_url": "https://cloud.ru/docs/dc-cloud/ug/topics/faq__advanced__datacenter-az"
+    },
+    "advanced_directory": {
+      "media_type": "text/html",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/russia/cloudru-advanced-zones.20261019.html",
+      "resolved_url": "https://cloud.ru/docs/advanced/overview/az-and-endpoints",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:22:43.398299+00:00",
+      "sha256": "ef3a8eccf5f072be87b33c7817a8507867f0c44c806e5866c3eefbf0c8c4cdd2",
+      "source_published_at": null,
+      "source_url": "https://cloud.ru/docs/advanced/overview/az-and-endpoints"
+    },
+    "country_policy": {
+      "media_type": "application/pdf",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/un/a-res-68-262.20140327.pdf",
+      "resolved_url": "https://documents.un.org/doc/undoc/gen/n13/455/17/pdf/n1345517.pdf",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:22:52.651360+00:00",
+      "sha256": "c0156b2e043a976794b46d90a56bd6d394cfd016b44e7266b5564133cce42dc7",
+      "source_published_at": "2014-03-27",
+      "source_url": "https://documents.un.org/doc/undoc/gen/n13/455/17/pdf/n1345517.pdf"
+    },
+    "evolution": {
+      "media_type": "text/html",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/russia/cloudru-evolution-vm.20261019.html",
+      "resolved_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:22:45.176606+00:00",
+      "sha256": "a07f13ce8ec2c415179bf5cc29d45075830047b1ec3bb14c831156e06383b02b",
+      "source_published_at": null,
+      "source_url": "https://cloud.ru/docs/virtual-machines/ug/topics/concepts__virtual-machines"
+    },
+    "evolution_overview": {
+      "media_type": "text/html",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/russia/cloudru-evolution-overview.20261019.html",
+      "resolved_url": "https://cloud.ru/docs/evolution/overview/index",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:32:44.907670+00:00",
+      "sha256": "f0e16ca0140fe1e601469efdecd730a174bc8769914559b0ae2e9bec76ece758",
+      "source_published_at": null,
+      "source_url": "https://cloud.ru/docs/evolution/overview/index"
+    },
+    "ixcellerate": {
+      "media_type": "text/html",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/russia/ixcellerate-scalability.20261019.html",
+      "resolved_url": "https://ixcellerate.ru/why-ixcellerate/scalability/",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:22:50.334426+00:00",
+      "sha256": "5171a922fb09b69c844a659042bf8948d0399d5e7447087b003c8ecb3123dd57",
+      "source_published_at": null,
+      "source_url": "https://ixcellerate.ru/why-ixcellerate/scalability/"
+    },
+    "ripe": {
+      "media_type": "application/octet-stream",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/ripe/delegated-ripencc-extended.20260606.bz2",
+      "resolved_url": "https://ftp.ripe.net/pub/stats/ripencc/2026/delegated-ripencc-extended-20260606.bz2",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:22:52.246244+00:00",
+      "sha256": "992f42e8a1450f7a3cdf0e163b0d7ce1895529f89e9b1da64dcdfb60b33b1593",
+      "source_published_at": "2026-06-06",
+      "source_url": "https://ftp.ripe.net/pub/stats/ripencc/2026/delegated-ripencc-extended-20260606.bz2"
+    },
+    "selectel": {
+      "media_type": "text/html",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/russia/selectel-locations.20261019.html",
+      "resolved_url": "https://docs.selectel.ru/infrastructure/locations/",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:22:41.314749+00:00",
+      "sha256": "e5bcc59ee07fc4188d27be999009555985fc841ef03bac90047c5e86812f0862",
+      "source_published_at": null,
+      "source_url": "https://docs.selectel.ru/infrastructure/locations/"
+    },
+    "yandex_routes": {
+      "media_type": "application/json",
+      "notes": "Retained public evidence for the approved infrastructure enrichment. Registration/routing geography is distinct from physical hosting. Source-specific redistribution terms apply.",
+      "raw_source_ref": "data/raw/yandex/announced-prefixes.20261019.json",
+      "resolved_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00",
+      "retrieved_at": "2026-10-19",
+      "retrieved_at_utc": "2026-10-19T15:22:53.192050+00:00",
+      "sha256": "169dd28babf867ba88ad9c965d1846ad95b3818a20256211fc045739508d3c07",
+      "source_published_at": null,
+      "source_url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200350&starttime=2026-10-19T00:00:00&endtime=2026-10-19T00:00:00"
+    }
+  },
+  "prior_canonical_layers_preserved": true,
+  "ru_registered_comparison_asn_count": 280,
+  "ru_view_geometry_null": 86,
+  "ru_view_record_count": 178
+}

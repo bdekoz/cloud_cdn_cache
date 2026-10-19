@@ -89,7 +89,7 @@
       }
     ],
     "limit": "Mixed units and source ages; neither a current operational inventory nor a facility count. The older RU view omits the newly restored 2023 Akamai city records.",
-    "manifest_ref": "data/manifest.20261019.json",
+    "manifest_ref": "data/raw/repository/manifest-before-russia.20261019.json",
     "retained_country_view": {
       "record_count": 91,
       "snapshot_tag": "20261011",
