@@ -1,0 +1,69 @@
+{
+  "coordinate_methods": {
+    "unknown": 147
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/aws/regions-and-zones.20261019.csv",
+      "path": "data/aws/regions-and-zones.20261019.csv",
+      "source": "data/aws/regions-and-zones.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-availability-zones",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+      "source_updated_at": null,
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+    },
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-regions.20261019.md",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-regions",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "ef429b0b6e5d6faee11cb33123e0aa2293bd76c871fcd9221d54cc0a63ad2c50",
+      "source_updated_at": null,
+      "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.md"
+    }
+  ],
+  "entity_types": {
+    "availability_zone": 108,
+    "cloud_region": 39
+  },
+  "generated_files": [
+    "data/aws/regions-and-zones.20261019.geojson"
+  ],
+  "geometry_null": 147,
+  "layer": "regions-and-zones",
+  "lifecycle_statuses": {
+    "operational": 147
+  },
+  "parser": "update_gulf_enrichment.py:refresh_locations",
+  "previous_snapshot": {
+    "path": "data/aws/regions-and-zones.20261011.geojson",
+    "sha256": "4c0eae97f86067840f231b0c36e7c2f8c01e7bc033cc01a75a4e4b7b6494ede9"
+  },
+  "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+  "record_count": 147,
+  "retrieved_at": "2026-10-19",
+  "reviewed_record_ids": [
+    "aws:availability_zone:mec1-az1",
+    "aws:availability_zone:mec1-az2",
+    "aws:availability_zone:mec1-az3",
+    "aws:availability_zone:mes1-az1",
+    "aws:availability_zone:mes1-az2",
+    "aws:availability_zone:mes1-az3",
+    "aws:cloud_region:me-central-1",
+    "aws:cloud_region:me-south-1"
+  ],
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_note": "Only GCC rows reviewed; all other rows retain their original evidence and dates.",
+  "source_sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
+  "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+}

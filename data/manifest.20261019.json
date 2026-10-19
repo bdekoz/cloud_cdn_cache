@@ -214,20 +214,24 @@
     {
       "path": "data/gulf/aws-oracle-coverage.20261019.json",
       "sha256": "c470f5498c7b07185761eb4ccffdc69c05cc562636d283cd110781e047859571"
+    },
+    {
+      "path": "data/gulf/enrichment-implementation.20261019.json",
+      "sha256": "75a7fb11c1cbc6a245c31789ad3a94166d996d14e0bf87286740c3d553cb211a"
     }
   ],
   "bibliography": {
     "files": {
       "json": {
         "path": "data/references/bibliography.20261019.json",
-        "sha256": "f73545258dbbe36f1fcd81838be47e9be5a33a703043b6d2c214b3e10aac70b4"
+        "sha256": "8992149864895c831338c30d0fd1849ccd132baa919d30120ad709a3c2e8c518"
       },
       "markdown": {
         "path": "docs/bibliography.20261019.md",
-        "sha256": "57ce2134c23ae39520f07e25a338c2ab96c807ea5c6108666b4e0bc23e4840f0"
+        "sha256": "6d3306ad8b9242159640d2ef1cb596463c09857824a3b0d4c692e3eb18b986e8"
       }
     },
-    "reference_count": 174
+    "reference_count": 181
   },
   "generated_from_retained_snapshots_at": "2026-10-19",
   "geographic_footprint_schema": {
@@ -235,7 +239,7 @@
     "sha256": "e742e68f459dfa496b4bc0bc54bc5bb8c401b363892e190aabf8e5ace66b2e69",
     "version": "1.0.0"
   },
-  "geographic_footprint_view_count": 1,
+  "geographic_footprint_view_count": 2,
   "geographic_footprint_views": [
     {
       "derived_files": {
@@ -309,9 +313,41 @@
       "record_unit": "provider_service_locality",
       "schema_version": "1.0.0",
       "snapshot_tag": "20261019"
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/gulf/provider-localities.20261019.csv",
+          "path": "data/gulf/provider-localities.20261019.csv",
+          "source": "data/gulf/provider-localities.20261019.geojson"
+        }
+      },
+      "excluded_from_canonical_totals": true,
+      "files": {
+        "geojson": {
+          "path": "data/gulf/provider-localities.20261019.geojson",
+          "sha256": "c4e655309cf687f02278570d59f11b48d63a953a14dbd3ad4ba04b6355268041"
+        },
+        "report": {
+          "path": "data/gulf/provider-localities.20261019.report.json",
+          "sha256": "e53f65c50d3853076a24727cb1c3df1a9018d66ad93cc159ad4fe21fbc251179"
+        }
+      },
+      "input_layers": [
+        "aws/regions-and-zones",
+        "aws/cloudfront",
+        "aws/local-zones",
+        "oracle/cloud-regions"
+      ],
+      "layer": "gulf/provider-localities",
+      "physical_sites": false,
+      "record_count": 9,
+      "record_unit": "provider_service_locality",
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019"
     }
   ],
-  "infrastructure_evidence_layer_count": 4,
+  "infrastructure_evidence_layer_count": 5,
   "infrastructure_evidence_layers": [
     {
       "category_counts": {
@@ -812,9 +848,66 @@
         "station_code_declaration": 2,
         "system": 3
       }
+    },
+    {
+      "category_counts": {
+        "cloud_interconnect_membership": 11,
+        "dedicated_product_region_reference": 6,
+        "interconnect_endpoint_reference": 10
+      },
+      "derived_files": {
+        "csv": {
+          "generator": "make data/infrastructure/gulf-cloud-connectivity.20261019.csv",
+          "path": "data/infrastructure/gulf-cloud-connectivity.20261019.csv",
+          "source": "data/infrastructure/gulf-cloud-connectivity.20261019.json"
+        }
+      },
+      "files": {
+        "json": {
+          "path": "data/infrastructure/gulf-cloud-connectivity.20261019.json",
+          "sha256": "e0e950458d9b1a8e9251c1dea3f76c02a9735502d038a2fc82199df32e6e99a9"
+        },
+        "report": {
+          "path": "data/infrastructure/gulf-cloud-connectivity.20261019.report.json",
+          "sha256": "1167b06175fe88ab6641673aa366694724bc43ab0384e67bab9741b54295ee75"
+        }
+      },
+      "geometry_null": 27,
+      "layer": "infrastructure/gulf-cloud-connectivity",
+      "record_count": 27,
+      "schema_version": "1.0.0",
+      "snapshot_tag": "20261019",
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+          "sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://aws.amazon.com/directconnect/locations/"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+          "sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+          "sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+          "source_published_at": null,
+          "source_updated_at": null,
+          "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+        }
+      ],
+      "unit_counts": {
+        "product_region_reference": 6,
+        "service_endpoint_membership": 11,
+        "source_labeled_endpoint": 10
+      }
     }
   ],
-  "infrastructure_evidence_record_count": 297,
+  "infrastructure_evidence_record_count": 324,
   "infrastructure_evidence_schema": {
     "path": "schema/infrastructure-evidence.schema.json",
     "sha256": "fa850334dc793a71207e5e1589b6f2f4af4ae23be9741f5f57abc3ea9be2487f",
@@ -1149,9 +1242,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/aws/cloudfront.20260804.csv",
-          "path": "data/aws/cloudfront.20260804.csv",
-          "source": "data/aws/cloudfront.20260804.geojson"
+          "generator": "make data/aws/cloudfront.20261019.csv",
+          "path": "data/aws/cloudfront.20261019.csv",
+          "source": "data/aws/cloudfront.20261019.geojson"
         }
       },
       "entity_types": {
@@ -1159,12 +1252,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/aws/cloudfront.20260804.geojson",
-          "sha256": "4f674f2f87598553b56bf7b88cca8b098ec4ed5bb0f6177b8c6eda41fc555dc1"
+          "path": "data/aws/cloudfront.20261019.geojson",
+          "sha256": "2e79c2545a4e7a476c8e6b9d09837d75f38752910d3c0feb0274241f5d7a0761"
         },
         "report": {
-          "path": "data/aws/cloudfront.20260804.report.json",
-          "sha256": "de423926f8a7996333489f6276055215e32fc39443a110eefc1cde5b437a13fd"
+          "path": "data/aws/cloudfront.20261019.report.json",
+          "sha256": "affed22265ddf44476904e16a8222c8ecdb03cd2daa67e9ddb000804bdef1f93"
         }
       },
       "geometry_null": 46,
@@ -1174,7 +1267,8 @@
       ],
       "record_count": 102,
       "retrieved_at": [
-        "2026-08-04"
+        "2026-08-04",
+        "2026-10-19"
       ],
       "schema_versions": [
         "1.1.0"
@@ -1182,7 +1276,7 @@
       "services": [
         "aws_cloudfront"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261019",
       "source_scopes": [
         "provider_declared"
       ],
@@ -1191,6 +1285,13 @@
           "raw_source_ref": "data/raw/aws/cloudfront-features.20260804.html",
           "sha256": "11562001385abd829829b8e1cff42d0215a76f1acd0c9c6f61dfcf89ec52d23b",
           "source_published_at": null,
+          "source_url": "https://aws.amazon.com/cloudfront/features/"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+          "sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
           "source_url": "https://aws.amazon.com/cloudfront/features/"
         }
       ]
@@ -1202,9 +1303,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/aws/local-zones.20260804.csv",
-          "path": "data/aws/local-zones.20260804.csv",
-          "source": "data/aws/local-zones.20260804.geojson"
+          "generator": "make data/aws/local-zones.20261019.csv",
+          "path": "data/aws/local-zones.20261019.csv",
+          "source": "data/aws/local-zones.20261019.geojson"
         }
       },
       "entity_types": {
@@ -1212,12 +1313,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/aws/local-zones.20260804.geojson",
-          "sha256": "5e3baa8f1aa598475cac8642b71883a399e260390a75237481c5d471fcce4a90"
+          "path": "data/aws/local-zones.20261019.geojson",
+          "sha256": "bb7b49abdf36facabdcb69e0a125e4b5ee5f9ba385f457333d24a5b604e2275b"
         },
         "report": {
-          "path": "data/aws/local-zones.20260804.report.json",
-          "sha256": "c2c4157b2dc6585c75b09e517a0688f18b2673de1ad1a981776b8760a507b3af"
+          "path": "data/aws/local-zones.20261019.report.json",
+          "sha256": "88e2a2ac0193805cd227d4c00cdd4bc958262f0b835ce0135c886b31cf52a6c7"
         }
       },
       "geometry_null": 4,
@@ -1235,7 +1336,7 @@
       "services": [
         "aws_local_zones"
       ],
-      "snapshot_tag": "20260804",
+      "snapshot_tag": "20261019",
       "source_scopes": [
         "provider_declared"
       ],
@@ -1244,6 +1345,13 @@
           "raw_source_ref": "data/raw/aws/available-local-zones.20260804.html",
           "sha256": "f3a6e3ce2449d296b7f34c481f8d89a27dc9ee2d077e4e7a7e8e1cfed4390d52",
           "source_published_at": null,
+          "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/aws-local-zones-guide.20261019.html",
+          "sha256": "4f188cbd0edab8ed25e4abf4275c6c44bbca31a7a18eda7d33b61540eb348ab8",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
           "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
         }
       ]
@@ -2081,9 +2189,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/aws/regions-and-zones.20261011.csv",
-          "path": "data/aws/regions-and-zones.20261011.csv",
-          "source": "data/aws/regions-and-zones.20261011.geojson"
+          "generator": "make data/aws/regions-and-zones.20261019.csv",
+          "path": "data/aws/regions-and-zones.20261019.csv",
+          "source": "data/aws/regions-and-zones.20261019.geojson"
         }
       },
       "entity_types": {
@@ -2092,12 +2200,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/aws/regions-and-zones.20261011.geojson",
-          "sha256": "4c0eae97f86067840f231b0c36e7c2f8c01e7bc033cc01a75a4e4b7b6494ede9"
+          "path": "data/aws/regions-and-zones.20261019.geojson",
+          "sha256": "f82dde71714d836bfd121c4d2c817d83ef159607bda9572072979e274de6a142"
         },
         "report": {
-          "path": "data/aws/regions-and-zones.20261011.report.json",
-          "sha256": "b3adf518d42a632595a5cc37400e85685fa0c7561f04f654cef2a233f5d38d5a"
+          "path": "data/aws/regions-and-zones.20261019.report.json",
+          "sha256": "73d1dd71593dcaab505fbad0bc2f0bcece7bad10033e5cea5c4a344a8d31b17f"
         }
       },
       "geometry_null": 147,
@@ -2107,7 +2215,8 @@
       ],
       "record_count": 147,
       "retrieved_at": [
-        "2026-08-05"
+        "2026-08-05",
+        "2026-10-19"
       ],
       "schema_versions": [
         "1.2.0"
@@ -2115,7 +2224,7 @@
       "services": [
         "aws_cloud"
       ],
-      "snapshot_tag": "20261011",
+      "snapshot_tag": "20261019",
       "source_scopes": [
         "provider_declared"
       ],
@@ -2145,11 +2254,18 @@
           "source_url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/using-govcloud.html"
         },
         {
-          "raw_source_ref": "data/raw/china-enrichment/aws-china.20261011.html",
-          "sha256": "a9fdf9638c740a76ff66e869325d75ff15abad4c80079ae5d2bbb910d0c91b95",
+          "raw_source_ref": "data/raw/geography-enrichment/aws-availability-zones.20261019.md",
+          "sha256": "984dbd7041e829415d25af01b36d1e6e477433c1f056e935e6f6cf8c4a481de1",
           "source_published_at": null,
           "source_scope": "provider_declared",
-          "source_url": "https://www.amazonaws.cn/en/about-aws/china/"
+          "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md"
+        },
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/aws-regions.20261019.md",
+          "sha256": "ef429b0b6e5d6faee11cb33123e0aa2293bd76c871fcd9221d54cc0a63ad2c50",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.md"
         }
       ]
     },
@@ -2292,9 +2408,9 @@
       },
       "derived_files": {
         "csv": {
-          "generator": "make data/oracle/cloud-regions.20260805.csv",
-          "path": "data/oracle/cloud-regions.20260805.csv",
-          "source": "data/oracle/cloud-regions.20260805.geojson"
+          "generator": "make data/oracle/cloud-regions.20261019.csv",
+          "path": "data/oracle/cloud-regions.20261019.csv",
+          "source": "data/oracle/cloud-regions.20261019.geojson"
         }
       },
       "entity_types": {
@@ -2302,12 +2418,12 @@
       },
       "files": {
         "geojson": {
-          "path": "data/oracle/cloud-regions.20260805.geojson",
-          "sha256": "2006bfcffa27873107116cb2c99387d7822b9a0c47b205de378e3fea8cf7b738"
+          "path": "data/oracle/cloud-regions.20261019.geojson",
+          "sha256": "5a6bbfad50f0482f30137504ab087c7532d52e6e030d05412ce5e9171ea72763"
         },
         "report": {
-          "path": "data/oracle/cloud-regions.20260805.report.json",
-          "sha256": "6c1c6560fb02560a3b554e2e6f7b2d1b0af3b9a3b4cd0ccee6f44d58a7cd85e8"
+          "path": "data/oracle/cloud-regions.20261019.report.json",
+          "sha256": "61f759998d1606921f005d6e96d043cd369e80785ec88763b1ebf34c171da50b"
         }
       },
       "geometry_null": 45,
@@ -2317,7 +2433,8 @@
       ],
       "record_count": 45,
       "retrieved_at": [
-        "2026-08-05"
+        "2026-08-05",
+        "2026-10-19"
       ],
       "schema_versions": [
         "1.2.0"
@@ -2325,11 +2442,18 @@
       "services": [
         "oracle_cloud"
       ],
-      "snapshot_tag": "20260805",
+      "snapshot_tag": "20261019",
       "source_scopes": [
         "provider_declared"
       ],
       "sources": [
+        {
+          "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+          "sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+          "source_published_at": null,
+          "source_scope": "provider_declared",
+          "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+        },
         {
           "raw_source_ref": "data/raw/oracle/regions.20260805.html",
           "sha256": "586ec4d5683575c0a366cb27de68604df1ed31674ffc7fb4f80d0cb3caf9b149",
@@ -3232,7 +3356,7 @@
       ]
     }
   ],
-  "network_evidence_layer_count": 6,
+  "network_evidence_layer_count": 7,
   "network_evidence_layers": [
     {
       "derived_files": {
@@ -3936,9 +4060,86 @@
       "statuses": {
         "announced": 56
       }
+    },
+    {
+      "derived_files": {
+        "csv": {
+          "generator": "make data/network/gulf-provider-prefixes.20261019.csv",
+          "path": "data/network/gulf-provider-prefixes.20261019.csv",
+          "source": "data/network/gulf-provider-prefixes.20261019.json"
+        }
+      },
+      "evidence_types": {
+        "provider_prefix": 563
+      },
+      "files": {
+        "json": {
+          "path": "data/network/gulf-provider-prefixes.20261019.json",
+          "sha256": "6a42a660aeaf966d94bb6cf15df82419bbe2a771d228272e9ed98d8234283e62"
+        },
+        "report": {
+          "path": "data/network/gulf-provider-prefixes.20261019.report.json",
+          "sha256": "de15a46241a1cd17afd34d8f9ab69b8f690523e594697cb0417ed31eddc86a1d"
+        }
+      },
+      "layer": "gulf-provider-prefixes",
+      "providers": [
+        "Amazon Web Services",
+        "Oracle Cloud Infrastructure"
+      ],
+      "record_count": 563,
+      "retrieved_at": [
+        "2026-10-19"
+      ],
+      "schema_versions": [
+        "1.0.0"
+      ],
+      "services": [
+        "aws_amazon",
+        "aws_api_gateway",
+        "aws_chime_voiceconnector",
+        "aws_cloud9",
+        "aws_cloudfront",
+        "aws_cloudfront_origin_facing",
+        "aws_codebuild",
+        "aws_dynamodb",
+        "aws_ebs",
+        "aws_ec2",
+        "aws_ec2_instance_connect",
+        "aws_globalaccelerator",
+        "aws_ivs_realtime",
+        "aws_kinesis_video_streams",
+        "aws_media_package_v2",
+        "aws_route53_healthchecks_publishing",
+        "aws_route53_resolver",
+        "aws_s3",
+        "aws_workspaces_gateways",
+        "oracle_cloud"
+      ],
+      "snapshot_tag": "20261019",
+      "source_scopes": [
+        "provider_declared"
+      ],
+      "sources": [
+        {
+          "raw_source_ref": "data/raw/gulf-enrichment/aws-ip-ranges.20261019.json",
+          "sha256": "021ff6ee7f53985e4c9db2c1dc100f3db18215f0e4a4253a7d149b15870c3f5e",
+          "source_published_at": "2026-10-19",
+          "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+        },
+        {
+          "raw_source_ref": "data/raw/gulf-enrichment/oracle-ip-ranges.20261019.json",
+          "sha256": "59e5ba5e92e38f911ce377f1d71c6eaa89ffcf53f9eb4ccd667d9ffca81ead7d",
+          "source_published_at": null,
+          "source_url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json"
+        }
+      ],
+      "statuses": {
+        "published": 563
+      }
     }
   ],
-  "network_evidence_record_count": 3387,
+  "network_evidence_record_count": 3950,
   "network_evidence_schema": {
     "path": "schema/network-evidence.schema.json",
     "sha256": "6a2eda490c300f703b3f6c9cea4c693994c8a674d68f1d32d63c2fd22c163c14",

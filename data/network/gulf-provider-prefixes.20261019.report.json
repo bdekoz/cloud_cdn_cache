@@ -1,0 +1,821 @@
+{
+  "aws_distinct_prefix_geofeed_coverage": {
+    "full": 282,
+    "none": 11
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/network/gulf-provider-prefixes.20261019.csv",
+      "path": "data/network/gulf-provider-prefixes.20261019.csv",
+      "source": "data/network/gulf-provider-prefixes.20261019.json"
+    }
+  },
+  "distinct_provider_prefix_count": 368,
+  "evidence_types": {
+    "provider_prefix": 563
+  },
+  "generated_files": [
+    "data/network/gulf-provider-prefixes.20261019.json"
+  ],
+  "geofeed_source": {
+    "raw_source_ref": "data/raw/gulf-enrichment/aws-geofeed.20261019.csv",
+    "retrieved_at": "2026-10-19",
+    "source_id": "aws-geofeed",
+    "source_published_at": null,
+    "source_sha256": "869d6473beaf30293cfbb661c46b6b7744a7e04e4ee9a95542daadea21d9ca54",
+    "source_updated_at": null,
+    "source_url": "https://ip-ranges.amazonaws.com/geo-ip-feed.csv"
+  },
+  "gulf_geofeed_rows_without_overlap_in_selected_aws_regions": [
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "1.179.101.0/24",
+      "source_line": 43,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "3.2.32.128/26",
+      "source_line": 52,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "3.2.34.192/26",
+      "source_line": 61,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "3.2.40.128/26",
+      "source_line": 99,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "13.34.15.128/26",
+      "source_line": 685,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "13.34.20.0/25",
+      "source_line": 747,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.34.128/26",
+      "source_line": 845,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.35.0/25",
+      "source_line": 847,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.35.128/26",
+      "source_line": 848,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.59.0/26",
+      "source_line": 932,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "13.34.78.192/26",
+      "source_line": 1002,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "13.34.82.0/26",
+      "source_line": 1014,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "13.34.125.0/26",
+      "source_line": 1190,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "13.34.136.0/26",
+      "source_line": 1229,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "13.34.146.64/26",
+      "source_line": 1264,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "13.34.147.128/25",
+      "source_line": 1269,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.165.0/27",
+      "source_line": 1337,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "13.34.187.64/27",
+      "source_line": 1427,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.194.96/27",
+      "source_line": 1465,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.206.128/27",
+      "source_line": 1520,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "13.34.247.224/27",
+      "source_line": 1681,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "13.248.80.0/24",
+      "source_line": 1790,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "15.177.106.0/24",
+      "source_line": 1936,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "15.190.144.0/20",
+      "source_line": 1980,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "15.190.236.0/22",
+      "source_line": 1985,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "15.248.152.0/21",
+      "source_line": 2558,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "16.12.84.0/23",
+      "source_line": 2625,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "16.12.86.0/24",
+      "source_line": 2626,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "16.15.16.0/22",
+      "source_line": 2634,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "23.254.16.0/21",
+      "source_line": 2790,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "35.71.92.0/24",
+      "source_line": 2917,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "51.168.0.0/15",
+      "source_line": 3238,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "52.93.224.0/22",
+      "source_line": 3548,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "52.94.250.160/28",
+      "source_line": 3686,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "63.249.210.0/23",
+      "source_line": 4255,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "63.249.212.0/24",
+      "source_line": 4256,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "76.223.170.112/28",
+      "source_line": 4486,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Muscat",
+      "country_code": "OM",
+      "postal_code": "",
+      "prefix": "142.4.160.168/29",
+      "source_line": 4895,
+      "subdivision": "OM-MA"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "150.222.55.0/26",
+      "source_line": 5048,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "150.222.55.64/27",
+      "source_line": 5049,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Muscat",
+      "country_code": "OM",
+      "postal_code": "",
+      "prefix": "173.82.8.0/24",
+      "source_line": 5292,
+      "subdivision": "OM-MA"
+    },
+    {
+      "city_label": "Muscat",
+      "country_code": "OM",
+      "postal_code": "",
+      "prefix": "173.82.83.0/24",
+      "source_line": 5306,
+      "subdivision": "OM-MA"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "173.82.231.0/24",
+      "source_line": 5361,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "2406:da33:7000::/40",
+      "source_line": 5746,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "2406:dab8:7000::/40",
+      "source_line": 5897,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "2406:daee:7000::/40",
+      "source_line": 6071,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "2406:daf1:7000::/40",
+      "source_line": 6130,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "2406:daf5:7000::/40",
+      "source_line": 6208,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2600:f0f0:6025::/48",
+      "source_line": 7333,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2600:f0f3:f010:2800::/56",
+      "source_line": 7628,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "2605:8380:300::/40",
+      "source_line": 7718,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Dubai",
+      "country_code": "AE",
+      "postal_code": "",
+      "prefix": "2605:8380:b00::/40",
+      "source_line": 7726,
+      "subdivision": "AE-DU"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a01:578:0:7a00::/56",
+      "source_line": 8126,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d000:800::/40",
+      "source_line": 8129,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d010:8000::/36",
+      "source_line": 8140,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d020:8000::/36",
+      "source_line": 8157,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d030:800::/40",
+      "source_line": 8174,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d031:800::/40",
+      "source_line": 8190,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d032:800::/40",
+      "source_line": 8206,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d033:800::/40",
+      "source_line": 8220,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "2a05:d033:e000::/40",
+      "source_line": 8233,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d036:800::/40",
+      "source_line": 8234,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d038:800::/40",
+      "source_line": 8248,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d039:800::/40",
+      "source_line": 8263,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d03a:800::/40",
+      "source_line": 8279,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d040:800::/40",
+      "source_line": 8294,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d050:800::/40",
+      "source_line": 8309,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d058:800::/40",
+      "source_line": 8324,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "2a05:d058:e000::/40",
+      "source_line": 8338,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d059:800::/40",
+      "source_line": 8339,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d05a:800::/40",
+      "source_line": 8355,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d05b:800::/40",
+      "source_line": 8371,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d068:800::/40",
+      "source_line": 8386,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d069:800::/40",
+      "source_line": 8401,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d06a:800::/40",
+      "source_line": 8417,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d06b:800::/40",
+      "source_line": 8431,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d06e:800::/40",
+      "source_line": 8445,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "2a05:d06e:e000::/40",
+      "source_line": 8459,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d06f:800::/40",
+      "source_line": 8460,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d070:800::/40",
+      "source_line": 8476,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d071:800::/40",
+      "source_line": 8490,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "2a05:d071:e000::/40",
+      "source_line": 8504,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d072:800::/40",
+      "source_line": 8505,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d073:800::/40",
+      "source_line": 8520,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d074:800::/40",
+      "source_line": 8535,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d075:800::/40",
+      "source_line": 8551,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Bahrain",
+      "country_code": "BH",
+      "postal_code": "",
+      "prefix": "2a05:d075:e000::/40",
+      "source_line": 8565,
+      "subdivision": "BH-14"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d076:800::/40",
+      "source_line": 8566,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d079:800::/40",
+      "source_line": 8591,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d07c:800::/40",
+      "source_line": 8613,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d07d:800::/40",
+      "source_line": 8628,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d07e:800::/40",
+      "source_line": 8644,
+      "subdivision": "SA-01"
+    },
+    {
+      "city_label": "Riyadh",
+      "country_code": "SA",
+      "postal_code": "",
+      "prefix": "2a05:d07f:800::/40",
+      "source_line": 8659,
+      "subdivision": "SA-01"
+    }
+  ],
+  "layer": "gulf-provider-prefixes",
+  "muscat_border_group_evidence": {
+    "evidence": {
+      "raw_source_ref": "data/raw/gulf-enrichment/aws-ip-ranges.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-ip-ranges",
+      "source_published_at": "2026-10-19",
+      "source_sha256": "021ff6ee7f53985e4c9db2c1dc100f3db18215f0e4a4253a7d149b15870c3f5e",
+      "source_updated_at": null,
+      "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+    },
+    "network_border_group": "me-south-1-mct-1",
+    "operational_local_zone_status_established": false,
+    "record_ids": [
+      "network:provider_prefix:6c118ec6d97f571dc822",
+      "network:provider_prefix:8812c795b44601e1d498",
+      "network:provider_prefix:8a72110e7a3b15161b28",
+      "network:provider_prefix:c8c88dd6abdeb4ced644"
+    ]
+  },
+  "parser": "update_gulf_enrichment.py:prefixes",
+  "provider_counts": {
+    "Amazon Web Services": 488,
+    "Oracle Cloud Infrastructure": 75
+  },
+  "record_count": 563,
+  "record_unit": "provider_region_service_scope_prefix",
+  "region_counts": {
+    "me-abudhabi-1": 14,
+    "me-central-1": 176,
+    "me-dubai-1": 20,
+    "me-jeddah-1": 25,
+    "me-riyadh-1": 16,
+    "me-south-1": 312
+  },
+  "retrieved_at": "2026-10-19",
+  "schema": "schema/network-evidence.schema.json",
+  "schema_version": "1.0.0",
+  "scope_note": "AWS region/service/border-group/prefix and OCI OC1 region/prefix declarations, including IPv6; unlike service rows can repeat a prefix. No routing measurements or facility locations inferred.",
+  "semantic_boundary": "Network evidence is non-spatial and does not prove a physical POP, facility, or provider ownership.",
+  "source_timestamp_policy": "observed_at is HTTP capture time; published dates come from feed metadata. OCI's timezone-less timestamp is preserved verbatim.",
+  "statuses": {
+    "published": 563
+  },
+  "unmatched_geofeed_count": 93,
+  "unmatched_geofeed_is_not_region_launch_evidence": true
+}

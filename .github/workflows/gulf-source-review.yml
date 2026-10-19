@@ -1,0 +1,37 @@
+name: Gulf source review
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 8 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  source-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Compare retained and current sources
+        run: python -B scripts/check_gulf_sources.py --output-dir "$RUNNER_TEMP/gulf-source-review"
+      - name: Publish review summary
+        if: always()
+        run: |
+          if test -f "$RUNNER_TEMP/gulf-source-review/summary.md"; then
+            cat "$RUNNER_TEMP/gulf-source-review/summary.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: gulf-source-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/gulf-source-review
+          retention-days: 60
+          if-no-files-found: error

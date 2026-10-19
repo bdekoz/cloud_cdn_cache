@@ -353,3 +353,13 @@ The October 19 [China locality enrichment](china-geography-enrichment.20261019.m
 The Chindata campus/phase review is a separate evidence assessment; unresolved code-to-campus aliases never supply coordinates to canonical code records. County reference points do not claim campus footprints or exact sites. The [AWS/Oracle Gulf plan](gulf-coverage-plan.20261019.md) applies the same distinctions to public regions, dedicated realms, edge cities and interconnects.
 
 `scripts/build_bibliography.py` rebuilds the [bibliography](bibliography.20261019.md) and machine-readable source index from retained catalogs and provenance. The index distinguishes sources used in enrichment, assessment-only references, held material and unavailable URLs. A bibliography entry does not grant redistribution rights.
+
+## Gulf identities, prefix joins and source monitoring
+
+The [Gulf implementation](gulf-enrichment.20261019.md) adds nine city reference points while leaving canonical geometry unchanged. Country-only AWS regions and Bahrain edge labels remain unlocated at city precision. The Muscat Local Zone keeps its historical source and last-seen date, with unknown lifecycle after a current-directory discrepancy. New prefix evidence is supplementary and does not resolve operational status.
+
+Interconnect endpoint references and service memberships have separate IDs. An explicit operator/site code can join AWS and OCI listings; operator/city labels alone cannot establish a street address or unique physical facility. Dedicated Oracle product references are realm-qualified and remain separate from public OC1 regions.
+
+Prefix identity includes provider, region and service scope, including AWS network border group. OCI service tags stay attached to the region/prefix row. Geofeed matches preserve exact, covering or contained-prefix relationships and compute address coverage over the union of overlaps. A subnet label cannot locate its whole parent prefix. Publication, update and capture times remain distinct; no timezone is invented for OCI's feed update timestamp.
+
+Weekly source checks retain new responses and report semantic changes, missing rows, parser failures, evidence age and overdue launch review. They require deliberate evidence reconciliation before updating canonical records. Offline validation tests source hashes, identity conservation, outside-Gulf preservation, IPv4/IPv6 completeness, locality exclusions, join grain, CSV parity and byte-for-byte regeneration.

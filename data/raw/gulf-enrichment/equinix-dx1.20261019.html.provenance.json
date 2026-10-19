@@ -1,0 +1,20 @@
+{
+  "bytes": 284574,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:22:40+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "final_url": "https://www.equinix.com/data-centers/europe-colocation/united-arab-emirates-colocation/dubai-data-centers/dx1",
+  "http_last_modified": "Mon, 19 Oct 2026 07:28:09 GMT",
+  "path": "data/raw/gulf-enrichment/equinix-dx1.20261019.html",
+  "publisher": "Equinix",
+  "raw_source_ref": "data/raw/gulf-enrichment/equinix-dx1.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Gulf implementation evidence",
+  "sha256": "d8b43cb3f901aeac77f067547ee33fa5bd0da2134ffb1626c4e02085c2d56630",
+  "source_id": "equinix-dx1",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.equinix.com/data-centers/europe-colocation/united-arab-emirates-colocation/dubai-data-centers/dx1",
+  "title": "Equinix DX1 Dubai"
+}

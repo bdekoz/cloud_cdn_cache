@@ -61,6 +61,10 @@ data/china/provider-localities.%.csv: data/china/provider-localities.%.geojson s
 	@jq -r -f scripts/geographic-footprint-to-csv.jq "$<" > "$@.tmp"
 	@mv "$@.tmp" "$@"
 
+data/gulf/provider-localities.%.csv: data/gulf/provider-localities.%.geojson schema/geographic-footprint.schema.json scripts/geographic-footprint-to-csv.jq
+	@jq -r -f scripts/geographic-footprint-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"
+
 refresh-network:
 	python3 -B scripts/update_network.py --retrieved-at $(RETRIEVED_AT) --fetch
 	python3 -B scripts/update_peeringdb.py --retrieved-at $(RETRIEVED_AT) --fetch
@@ -89,6 +93,7 @@ check:
 	python3 -B tests/validate_china_enrichment.py
 	python3 -B tests/validate_cartography_sources.py
 	python3 -B tests/validate_geography_enrichment.py
+	python3 -B tests/validate_gulf_enrichment.py
 	git diff --check
 
 help:

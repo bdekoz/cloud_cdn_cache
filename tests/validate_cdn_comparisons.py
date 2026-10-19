@@ -163,15 +163,20 @@ def validate_views_and_manifest() -> None:
     frozen = read("data/raw/repository/manifest-before-geography.20261019.json")
     frozen_layers = {layer["layer"]: layer for layer in frozen["layers"]}
     assert all(frozen_layers[layer["layer"]] == layer for layer in previous["layers"])
-    # The geography suite separately verifies the sole intentional refresh,
-    # Chindata, against this retained manifest and all historical file hashes.
+    # Geography and Gulf suites verify their intentional refreshes against
+    # frozen manifests, including all historical hashes and unchanged rows.
+    refreshed = {"chindata/data-centers", "aws/regions-and-zones", "aws/cloudfront",
+                 "aws/local-zones", "oracle/cloud-regions"}
     assert all(current_layers[name] == layer for name, layer in frozen_layers.items()
-               if name != "chindata/data-centers")
+               if name not in refreshed)
     assert current["record_count"] == sum(layer["record_count"] for layer in current["layers"])
     assert {"observations/apple-asn", "india/cdn-cities", "observations/cdn-asn-comparison",
             "india/cdn-asn-comparison"}.isdisjoint(current_layers)
     for key in ("infrastructure_evidence_layers", "vendor_registry", "infrastructure_evidence_record_count"):
-        assert previous[key] == current[key], key
+        assert previous[key] == frozen[key], key
+    assert current["vendor_registry"] == previous["vendor_registry"]
+    assert current["infrastructure_evidence_layers"][:4] == previous["infrastructure_evidence_layers"]
+    assert current["infrastructure_evidence_record_count"] == sum(l["record_count"] for l in current["infrastructure_evidence_layers"])
     current_network = {layer["layer"]: layer for layer in current["network_evidence_layers"]}
     assert all(current_network[layer["layer"]] == layer for layer in previous["network_evidence_layers"])
     assert current["network_evidence_record_count"] == sum(layer["record_count"] for layer in current_network.values())

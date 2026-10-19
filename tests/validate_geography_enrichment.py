@@ -30,14 +30,18 @@ def evidence_hashes(value):
 def main():
     previous = baseline_layers()
     manifest = read(ROOT / f"data/manifest.{TAG}.json")
-    current = {l["layer"]: l for l in manifest["layers"]}
+    frozen = read(ROOT / f"data/raw/repository/manifest-before-gulf.{TAG}.json")
+    current = {l["layer"]: l for l in frozen["layers"]}
     assert set(current) == set(previous)
     assert {name for name in current if current[name] != previous[name]} == {"chindata/data-centers"}
     assert manifest["record_count"] == read(BASELINE)["record_count"] + 5 == 28024
     assert manifest["layer_count"] == 39
     for key in ["views", "network_evidence_layers", "infrastructure_evidence_layers", "vendor_registry",
                 "observation_comparison_views", "application_endpoint_layers"]:
-        assert manifest[key] == read(BASELINE)[key], key
+        assert frozen[key] == read(BASELINE)[key], key
+    # The subsequent Gulf refresh must leave the China inputs and locality view intact.
+    assert [l for l in manifest["layers"] if l["layer"].startswith("chindata/")] == [l for l in frozen["layers"] if l["layer"].startswith("chindata/")]
+    assert manifest["geographic_footprint_views"][0] == frozen["geographic_footprint_views"][0]
     assert sha256(ROOT / "data/manifest.20261011.json") == "f408815674b2e195bc98a9b911b70154ec1b33847b3501147da102fcae964730"
 
     codes = read(ROOT / f"data/chindata/data-centers.{TAG}.geojson")["features"]
@@ -146,7 +150,9 @@ def main():
     for value in [rows, claims, audit, view, review, gulf]:
         evidence_hashes(value)
     for entry in manifest["geographic_footprint_views"]:
-        assert entry["excluded_from_canonical_totals"] and entry["record_count"] == 147
+        assert entry["excluded_from_canonical_totals"]
+        if entry["layer"] == "china/provider-localities":
+            assert entry["record_count"] == 147
         for file in entry["files"].values():
             assert sha256(ROOT / file["path"]) == file["sha256"]
     for item in manifest["assessments"]:

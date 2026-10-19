@@ -1,0 +1,54 @@
+{
+  "coordinate_methods": {
+    "unknown": 45
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/oracle/cloud-regions.20261019.csv",
+      "path": "data/oracle/cloud-regions.20261019.csv",
+      "source": "data/oracle/cloud-regions.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "oracle-regions",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+    }
+  ],
+  "entity_types": {
+    "cloud_region": 45
+  },
+  "generated_files": [
+    "data/oracle/cloud-regions.20261019.geojson"
+  ],
+  "geometry_null": 45,
+  "layer": "cloud-regions",
+  "lifecycle_statuses": {
+    "operational": 45
+  },
+  "parser": "update_gulf_enrichment.py:refresh_locations",
+  "previous_snapshot": {
+    "path": "data/oracle/cloud-regions.20260805.geojson",
+    "sha256": "2006bfcffa27873107116cb2c99387d7822b9a0c47b205de378e3fea8cf7b738"
+  },
+  "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+  "record_count": 45,
+  "retrieved_at": "2026-10-19",
+  "reviewed_record_ids": [
+    "oracle:cloud_region:me-abudhabi-1",
+    "oracle:cloud_region:me-dubai-1",
+    "oracle:cloud_region:me-jeddah-1",
+    "oracle:cloud_region:me-riyadh-1"
+  ],
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_note": "Only GCC rows reviewed; all other rows retain their original evidence and dates.",
+  "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+  "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+}

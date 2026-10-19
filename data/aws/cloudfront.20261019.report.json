@@ -1,0 +1,57 @@
+{
+  "coordinate_methods": {
+    "legacy": 56,
+    "unknown": 46
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/aws/cloudfront.20261019.csv",
+      "path": "data/aws/cloudfront.20261019.csv",
+      "source": "data/aws/cloudfront.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-cloudfront",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/cloudfront/features/"
+    }
+  ],
+  "entity_types": {
+    "edge_pop": 102
+  },
+  "generated_files": [
+    "data/aws/cloudfront.20261019.geojson"
+  ],
+  "geometry_null": 46,
+  "layer": "cloudfront",
+  "lifecycle_statuses": {
+    "operational": 102
+  },
+  "parser": "update_gulf_enrichment.py:refresh_locations",
+  "previous_snapshot": {
+    "path": "data/aws/cloudfront.20260804.geojson",
+    "sha256": "4f674f2f87598553b56bf7b88cca8b098ec4ed5bb0f6177b8c6eda41fc555dc1"
+  },
+  "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+  "record_count": 102,
+  "retrieved_at": "2026-10-19",
+  "reviewed_record_ids": [
+    "aws:edge_pop:cloudfront-ae-dubai",
+    "aws:edge_pop:cloudfront-bh-bahrain",
+    "aws:edge_pop:cloudfront-om-muscat",
+    "aws:edge_pop:cloudfront-qa-doha",
+    "aws:edge_pop:cloudfront-sa-jeddah",
+    "aws:edge_pop:cloudfront-sa-riyadh"
+  ],
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_note": "Only GCC rows reviewed; all other rows retain their original evidence and dates.",
+  "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+  "source_url": "https://aws.amazon.com/cloudfront/features/"
+}

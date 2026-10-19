@@ -1,0 +1,64 @@
+{
+  "built_at": "2026-10-19",
+  "canonical_input_count": 19,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/gulf/provider-localities.20261019.csv",
+      "path": "data/gulf/provider-localities.20261019.csv",
+      "source": "data/gulf/provider-localities.20261019.geojson"
+    }
+  },
+  "held_record_count": 10,
+  "held_records": [
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:availability_zone:mec1-az1"
+    },
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:availability_zone:mec1-az2"
+    },
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:availability_zone:mec1-az3"
+    },
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:availability_zone:mes1-az1"
+    },
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:availability_zone:mes1-az2"
+    },
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:availability_zone:mes1-az3"
+    },
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:cloud_region:me-central-1"
+    },
+    {
+      "reason": "country_only_region_or_zone",
+      "record_id": "aws:cloud_region:me-south-1"
+    },
+    {
+      "reason": "country_only_edge_label",
+      "record_id": "aws:edge_pop:cloudfront-bh-bahrain"
+    },
+    {
+      "reason": "historical_listing_not_reconfirmed",
+      "record_id": "aws:local_zone:mes1-mct1-az1"
+    }
+  ],
+  "input_layers": [
+    "aws/regions-and-zones",
+    "aws/cloudfront",
+    "aws/local-zones",
+    "oracle/cloud-regions"
+  ],
+  "mapped_record_count": 9,
+  "physical_site_count": null,
+  "record_count": 9,
+  "scope_note": "City reference points only; held country labels and historical Local Zone are not geocoded."
+}

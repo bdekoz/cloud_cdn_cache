@@ -1,0 +1,53 @@
+{
+  "coordinate_methods": {
+    "legacy": 41,
+    "unknown": 4
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/aws/local-zones.20261019.csv",
+      "path": "data/aws/local-zones.20261019.csv",
+      "source": "data/aws/local-zones.20261019.geojson"
+    }
+  },
+  "enrichment_sources": [
+    {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-local-zones-guide.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-local-zones-guide",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "4f188cbd0edab8ed25e4abf4275c6c44bbca31a7a18eda7d33b61540eb348ab8",
+      "source_updated_at": null,
+      "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+    }
+  ],
+  "entity_types": {
+    "local_zone": 45
+  },
+  "generated_files": [
+    "data/aws/local-zones.20261019.geojson"
+  ],
+  "geometry_null": 4,
+  "layer": "local-zones",
+  "lifecycle_statuses": {
+    "operational": 44,
+    "unknown": 1
+  },
+  "parser": "update_gulf_enrichment.py:refresh_locations",
+  "previous_snapshot": {
+    "path": "data/aws/local-zones.20260804.geojson",
+    "sha256": "5e3baa8f1aa598475cac8642b71883a399e260390a75237481c5d471fcce4a90"
+  },
+  "raw_source_ref": "data/raw/geography-enrichment/aws-local-zones-guide.20261019.html",
+  "record_count": 45,
+  "retrieved_at": "2026-10-19",
+  "reviewed_record_ids": [
+    "aws:local_zone:mes1-mct1-az1"
+  ],
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.1.0",
+  "scope_note": "Only GCC rows reviewed; all other rows retain their original evidence and dates.",
+  "source_sha256": "4f188cbd0edab8ed25e4abf4275c6c44bbca31a7a18eda7d33b61540eb348ab8",
+  "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+}

@@ -1,0 +1,1284 @@
+{
+  "categories": {
+    "cloud_interconnect_membership": "Cloud service membership at a referenced endpoint; OCI includes its published region association.",
+    "dedicated_product_region_reference": "Oracle EPM directory reference in a dedicated realm, separate from public OCI regions.",
+    "interconnect_endpoint_reference": "Deduplicated source label or explicit operator/site code; not a unique physical facility count."
+  },
+  "records": [
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "BH"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Direct Connect / AWS Bahrain DC52, Manama, Bahrain",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "endpoint_identity_basis": "directory label; explicit site code when present",
+        "region_association_not_asserted": true,
+        "region_record_id": null,
+        "service": "aws_direct_connect"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "aws:interconnect_membership:aws-dc52-manama",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:aws-dc52-manama"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "BH"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Direct Connect / AWS Bahrain DC53, Manama, Bahrain",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "endpoint_identity_basis": "directory label; explicit site code when present",
+        "region_association_not_asserted": true,
+        "region_record_id": null,
+        "service": "aws_direct_connect"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "aws:interconnect_membership:aws-dc53-manama",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:aws-dc53-manama"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Direct Connect / Equinix DX1, Dubai, UAE",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "endpoint_identity_basis": "directory label; explicit site code when present",
+        "region_association_not_asserted": true,
+        "region_record_id": null,
+        "service": "aws_direct_connect"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "aws:interconnect_membership:equinix-dx1",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:equinix-dx1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "OM"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Direct Connect / Equinix MC1 Barka, Muscat",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "endpoint_identity_basis": "directory label; explicit site code when present",
+        "region_association_not_asserted": true,
+        "region_record_id": null,
+        "service": "aws_direct_connect"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "aws:interconnect_membership:equinix-mc1",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:equinix-mc1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Direct Connect / Etisalat Smart Hub Data Center, Fujairah, UAE",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "endpoint_identity_basis": "directory label; explicit site code when present",
+        "region_association_not_asserted": true,
+        "region_record_id": null,
+        "service": "aws_direct_connect"
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "aws:interconnect_membership:etisalat-smarthub-fujairah",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:etisalat-smarthub-fujairah"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "BH"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Bahrain DC52, Manama, Bahrain",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "aws-direct-connect",
+              "source_published_at": null,
+              "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+              "source_updated_at": null,
+              "source_url": "https://aws.amazon.com/directconnect/locations/"
+            },
+            "label": "AWS Bahrain DC52, Manama, Bahrain"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "explicit_site_code",
+        "locality": "Manama",
+        "operator_label": "Amazon Web Services",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": "DC52",
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:aws-dc52-manama",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "BH"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "AWS Bahrain DC53, Manama, Bahrain",
+      "parties": [
+        {
+          "name": "Amazon Web Services",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "aws-direct-connect",
+              "source_published_at": null,
+              "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+              "source_updated_at": null,
+              "source_url": "https://aws.amazon.com/directconnect/locations/"
+            },
+            "label": "AWS Bahrain DC53, Manama, Bahrain"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "explicit_site_code",
+        "locality": "Manama",
+        "operator_label": "Amazon Web Services",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": "DC53",
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Amazon Web Services",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:aws-dc53-manama",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Jeddah, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Center3",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "oracle-fastconnect-partners",
+              "source_published_at": null,
+              "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+              "source_updated_at": null,
+              "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+            },
+            "label": "Jeddah, Saudi Arabia"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "source_label_only",
+        "locality": "Jeddah",
+        "operator_label": "Center3",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": null,
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Center3",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:center3-jeddah-saudi-arabia",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Riyadh, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Center3",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "oracle-fastconnect-partners",
+              "source_published_at": null,
+              "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+              "source_updated_at": null,
+              "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+            },
+            "label": "Riyadh, Saudi Arabia"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "source_label_only",
+        "locality": "Riyadh",
+        "operator_label": "Center3",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": null,
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Center3",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:center3-riyadh-saudi-arabia",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix DX1, Dubai, UAE",
+      "parties": [
+        {
+          "name": "Equinix",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "address_precision": "locality_postal_label",
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "aws-direct-connect",
+              "source_published_at": null,
+              "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+              "source_updated_at": null,
+              "source_url": "https://aws.amazon.com/directconnect/locations/"
+            },
+            "label": "Equinix DX1, Dubai, UAE"
+          },
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "oracle-fastconnect-partners",
+              "source_published_at": null,
+              "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+              "source_updated_at": null,
+              "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+            },
+            "label": "DX1, Dubai, UAE"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "explicit_site_code",
+        "locality": "Dubai",
+        "operator_address_label": "Dubai, 500389 United Arab Emirates",
+        "operator_code_corroborated": true,
+        "operator_evidence": {
+          "raw_source_ref": "data/raw/gulf-enrichment/equinix-dx1.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "equinix-dx1",
+          "source_published_at": null,
+          "source_sha256": "d8b43cb3f901aeac77f067547ee33fa5bd0da2134ffb1626c4e02085c2d56630",
+          "source_updated_at": null,
+          "source_url": "https://www.equinix.com/data-centers/europe-colocation/united-arab-emirates-colocation/dubai-data-centers/dx1"
+        },
+        "operator_label": "Equinix",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": "DX1",
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Equinix",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:equinix-dx1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "OM"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Equinix MC1 Barka, Muscat",
+      "parties": [
+        {
+          "name": "Equinix",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "address_precision": "locality_postal_label",
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "aws-direct-connect",
+              "source_published_at": null,
+              "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+              "source_updated_at": null,
+              "source_url": "https://aws.amazon.com/directconnect/locations/"
+            },
+            "label": "Equinix MC1 Barka, Muscat"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "explicit_site_code",
+        "locality": "Barka",
+        "metro": "Muscat",
+        "operator_address_label": "Barka, Al Batinah Postal Code 789 Oman",
+        "operator_code_corroborated": true,
+        "operator_evidence": {
+          "raw_source_ref": "data/raw/gulf-enrichment/equinix-mc1.20261019.html",
+          "retrieved_at": "2026-10-19",
+          "source_id": "equinix-mc1",
+          "source_published_at": null,
+          "source_sha256": "35e61e6f7a7663e04fb41f07caae5c8ba2ff0e55dbf2c9b9c407c9453d487d04",
+          "source_updated_at": null,
+          "source_url": "https://www.equinix.com/data-centers/europe-colocation/oman-colocation/muscat-data-centers/mc1"
+        },
+        "operator_label": "Equinix",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": "MC1",
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Equinix",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:equinix-mc1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Middle East, Abu Dhabi, UAE",
+      "parties": [
+        {
+          "name": "Equinix",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "oracle-fastconnect-partners",
+              "source_published_at": null,
+              "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+              "source_updated_at": null,
+              "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+            },
+            "label": "Middle East, Abu Dhabi, UAE"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "source_label_only",
+        "locality": "Abu Dhabi",
+        "operator_label": "Equinix",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": null,
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Equinix",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:equinix-middle-east-abu-dhabi-uae",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Etisalat Smart Hub Data Center, Fujairah, UAE",
+      "parties": [
+        {
+          "name": "Etisalat",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "aws-direct-connect",
+              "source_published_at": null,
+              "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+              "source_updated_at": null,
+              "source_url": "https://aws.amazon.com/directconnect/locations/"
+            },
+            "label": "Etisalat Smart Hub Data Center, Fujairah, UAE"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "source_label_only",
+        "locality": "Fujairah",
+        "operator_label": "Etisalat",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": null,
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Etisalat",
+      "raw_source_ref": "data/raw/geography-enrichment/aws-direct-connect.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:etisalat-smarthub-fujairah",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "9438148828469f115169f58b0984c350f0dc903ce400892040ee6ddc4c01c562",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/directconnect/locations/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Dubai, UAE",
+      "parties": [
+        {
+          "name": "Gulf Data Hub",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "oracle-fastconnect-partners",
+              "source_published_at": null,
+              "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+              "source_updated_at": null,
+              "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+            },
+            "label": "Dubai, UAE"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "source_label_only",
+        "locality": "Dubai",
+        "operator_label": "Gulf Data Hub",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": null,
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Gulf Data Hub",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:gulf-data-hub-dubai-uae",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "interconnect_endpoint_reference",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Jeddah, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Mobily",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "directory_labels": [
+          {
+            "evidence": {
+              "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+              "retrieved_at": "2026-10-19",
+              "source_id": "oracle-fastconnect-partners",
+              "source_published_at": null,
+              "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+              "source_updated_at": null,
+              "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/"
+            },
+            "label": "Jeddah, Saudi Arabia"
+          }
+        ],
+        "facility_address": null,
+        "identity_status": "source_label_only",
+        "locality": "Jeddah",
+        "operator_label": "Mobily",
+        "ownership_not_inferred": true,
+        "region_building_identity_asserted": false,
+        "site_code": null,
+        "unique_physical_facility_asserted": false
+      },
+      "provider": "Mobily",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "gulf:interconnect_endpoint:mobily-jeddah-saudi-arabia",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "source_labeled_endpoint"
+    },
+    {
+      "category": "dedicated_product_region_reference",
+      "confidence": "high",
+      "country_codes": [
+        "QA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Doha, Qatar",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "access_scope": "dedicated",
+        "product_scope": "Oracle EPM Cloud",
+        "public_availability_asserted": false,
+        "realm_key": "OC21",
+        "realm_label": "DRCC Qatar (OC21)",
+        "region_building_identity_asserted": false,
+        "region_id": "me-dcc-doha-1",
+        "region_key": "DOH",
+        "sdk_registration_is_not_launch_evidence": true
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+      "record_id": "oracle:dedicated_product_region:oc21:me-dcc-doha-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+      "spatial_representation": "none",
+      "unit": "product_region_reference"
+    },
+    {
+      "category": "dedicated_product_region_reference",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Abu Dhabi, UAE 1",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "access_scope": "dedicated",
+        "product_scope": "Oracle EPM Cloud",
+        "public_availability_asserted": false,
+        "realm_key": "OC29",
+        "realm_label": "DRCC UAE (OC29)",
+        "region_building_identity_asserted": false,
+        "region_id": "me-abudhabi-2",
+        "region_key": "RKT",
+        "sdk_registration_is_not_launch_evidence": true
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+      "record_id": "oracle:dedicated_product_region:oc29:me-abudhabi-2",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+      "spatial_representation": "none",
+      "unit": "product_region_reference"
+    },
+    {
+      "category": "dedicated_product_region_reference",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Abu Dhabi, UAE 2",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "access_scope": "dedicated",
+        "product_scope": "Oracle EPM Cloud",
+        "public_availability_asserted": false,
+        "realm_key": "OC29",
+        "realm_label": "DRCC UAE (OC29)",
+        "region_building_identity_asserted": false,
+        "region_id": "me-abudhabi-4",
+        "region_key": "SHJ",
+        "sdk_registration_is_not_launch_evidence": true
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+      "record_id": "oracle:dedicated_product_region:oc29:me-abudhabi-4",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+      "spatial_representation": "none",
+      "unit": "product_region_reference"
+    },
+    {
+      "category": "dedicated_product_region_reference",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Al Khobar, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "access_scope": "dedicated",
+        "product_scope": "Oracle EPM Cloud",
+        "public_availability_asserted": false,
+        "realm_key": "OC36",
+        "realm_label": "DRCC Saudi Arabia (OC36)",
+        "region_building_identity_asserted": false,
+        "region_id": "me-alkhobar-1",
+        "region_key": "DAM",
+        "sdk_registration_is_not_launch_evidence": true
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+      "record_id": "oracle:dedicated_product_region:oc36:me-alkhobar-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+      "spatial_representation": "none",
+      "unit": "product_region_reference"
+    },
+    {
+      "category": "dedicated_product_region_reference",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Riyadh, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "access_scope": "dedicated",
+        "product_scope": "Oracle EPM Cloud",
+        "public_availability_asserted": false,
+        "realm_key": "OC36",
+        "realm_label": "DRCC Saudi Arabia (OC36)",
+        "region_building_identity_asserted": false,
+        "region_id": "me-riyadh-2",
+        "region_key": "KZQ",
+        "sdk_registration_is_not_launch_evidence": true
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+      "record_id": "oracle:dedicated_product_region:oc36:me-riyadh-2",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+      "spatial_representation": "none",
+      "unit": "product_region_reference"
+    },
+    {
+      "category": "dedicated_product_region_reference",
+      "confidence": "high",
+      "country_codes": [
+        "OM"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "Muscat, Oman",
+      "parties": [
+        {
+          "name": "Oracle",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "access_scope": "dedicated",
+        "product_scope": "Oracle EPM Cloud",
+        "public_availability_asserted": false,
+        "realm_key": "OC9",
+        "realm_label": "DRCC Oman (OC9)",
+        "region_building_identity_asserted": false,
+        "region_id": "me-dcc-muscat-1",
+        "region_key": "MCT",
+        "sdk_registration_is_not_launch_evidence": true
+      },
+      "provider": "Oracle",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-epm-realms.20261019.html",
+      "record_id": "oracle:dedicated_product_region:oc9:me-dcc-muscat-1",
+      "relationships": [],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "377fe90e485ee98853972df05a2a981a4fca49d2257720c3ae6bdfa76952e0d8",
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
+      "spatial_representation": "none",
+      "unit": "product_region_reference"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "OCI FastConnect / Middle East, Abu Dhabi, UAE",
+      "parties": [
+        {
+          "name": "Oracle Cloud Infrastructure",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "realm_key": "OC1",
+        "region_building_identity_asserted": false,
+        "region_label": "UAE Central (Abu Dhabi)",
+        "service": "oracle_fastconnect"
+      },
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "oracle:interconnect_membership:oc1:me-abudhabi-1:equinix-middle-east-abu-dhabi-uae",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:equinix-middle-east-abu-dhabi-uae"
+        },
+        {
+          "relationship_type": "serves_cloud_region",
+          "target_record_id": "oracle:cloud_region:me-abudhabi-1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "OCI FastConnect / DX1, Dubai, UAE",
+      "parties": [
+        {
+          "name": "Oracle Cloud Infrastructure",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "realm_key": "OC1",
+        "region_building_identity_asserted": false,
+        "region_label": "UAE East (Dubai)",
+        "service": "oracle_fastconnect"
+      },
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "oracle:interconnect_membership:oc1:me-dubai-1:equinix-dx1",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:equinix-dx1"
+        },
+        {
+          "relationship_type": "serves_cloud_region",
+          "target_record_id": "oracle:cloud_region:me-dubai-1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "AE"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "OCI FastConnect / Dubai, UAE",
+      "parties": [
+        {
+          "name": "Oracle Cloud Infrastructure",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "realm_key": "OC1",
+        "region_building_identity_asserted": false,
+        "region_label": "UAE East (Dubai)",
+        "service": "oracle_fastconnect"
+      },
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "oracle:interconnect_membership:oc1:me-dubai-1:gulf-data-hub-dubai-uae",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:gulf-data-hub-dubai-uae"
+        },
+        {
+          "relationship_type": "serves_cloud_region",
+          "target_record_id": "oracle:cloud_region:me-dubai-1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "OCI FastConnect / Jeddah, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Oracle Cloud Infrastructure",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "realm_key": "OC1",
+        "region_building_identity_asserted": false,
+        "region_label": "Saudi Arabia West (Jeddah)",
+        "service": "oracle_fastconnect"
+      },
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "oracle:interconnect_membership:oc1:me-jeddah-1:center3-jeddah-saudi-arabia",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:center3-jeddah-saudi-arabia"
+        },
+        {
+          "relationship_type": "serves_cloud_region",
+          "target_record_id": "oracle:cloud_region:me-jeddah-1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "OCI FastConnect / Jeddah, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Oracle Cloud Infrastructure",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "realm_key": "OC1",
+        "region_building_identity_asserted": false,
+        "region_label": "Saudi Arabia West (Jeddah)",
+        "service": "oracle_fastconnect"
+      },
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "oracle:interconnect_membership:oc1:me-jeddah-1:mobily-jeddah-saudi-arabia",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:mobily-jeddah-saudi-arabia"
+        },
+        {
+          "relationship_type": "serves_cloud_region",
+          "target_record_id": "oracle:cloud_region:me-jeddah-1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    },
+    {
+      "category": "cloud_interconnect_membership",
+      "confidence": "high",
+      "country_codes": [
+        "SA"
+      ],
+      "country_scope": "single_country",
+      "geometry": null,
+      "lifecycle_status": "unknown",
+      "name": "OCI FastConnect / Riyadh, Saudi Arabia",
+      "parties": [
+        {
+          "name": "Oracle Cloud Infrastructure",
+          "role": "listing_provider"
+        }
+      ],
+      "properties": {
+        "realm_key": "OC1",
+        "region_building_identity_asserted": false,
+        "region_label": "Saudi Arabia Central (Riyadh)",
+        "service": "oracle_fastconnect"
+      },
+      "provider": "Oracle Cloud Infrastructure",
+      "raw_source_ref": "data/raw/geography-enrichment/oracle-fastconnect-partners.20261019.html",
+      "record_id": "oracle:interconnect_membership:oc1:me-riyadh-1:center3-riyadh-saudi-arabia",
+      "relationships": [
+        {
+          "relationship_type": "uses_interconnect_endpoint",
+          "target_record_id": "gulf:interconnect_endpoint:center3-riyadh-saudi-arabia"
+        },
+        {
+          "relationship_type": "serves_cloud_region",
+          "target_record_id": "oracle:cloud_region:me-riyadh-1"
+        }
+      ],
+      "retrieved_at": "2026-10-19",
+      "source_published_at": null,
+      "source_scope": "provider_declared",
+      "source_sha256": "dc003988399c6fc8078e61fe298b3ad3e6b12c9efce4a54ca07f600eb1ca4fd5",
+      "source_updated_at": null,
+      "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
+      "spatial_representation": "none",
+      "unit": "service_endpoint_membership"
+    }
+  ],
+  "retrieved_at": "2026-10-19",
+  "schema_version": "1.0.0",
+  "scope_note": "Source-labeled endpoints, service memberships and dedicated product references are different units; no physical-site total or current health assertion.",
+  "type": "InfrastructureEvidenceCollection"
+}

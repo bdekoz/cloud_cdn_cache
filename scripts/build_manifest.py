@@ -27,6 +27,7 @@ CARTOGRAPHY_RESTORATION_TAG = "20261019"
 RUSSIA_ENRICHMENT_REVIEW_TAG = "20261019"
 RUSSIA_IMPLEMENTATION_TAG = "20261019"
 GEOGRAPHY_ENRICHMENT_TAG = "20261019"
+GULF_ENRICHMENT_TAG = "20261019"
 RUSSIA_LOCATION_LAYERS = (
     "yandex/regions-and-zones", "yandex/cdn-cities", "selectel/russian-hierarchy",
     "cloudru/advanced-regions-and-zones", "cloudru/evolution-zones", "ixcellerate/data-centers",
@@ -262,12 +263,12 @@ def application_manifest(tag: str) -> dict[str, Any]:
             "sources": [sources[key] for key in sorted(sources)], "derived_files": report["derived_files"]}
 
 
-def geographic_footprint_manifest(tag: str) -> dict[str, Any]:
-    path = REPO_ROOT / f"data/china/provider-localities.{tag}.geojson"
+def geographic_footprint_manifest(tag: str, layer: str = "china/provider-localities") -> dict[str, Any]:
+    path = REPO_ROOT / f"data/{layer}.{tag}.geojson"
     report_path = path.with_suffix(".report.json")
     collection = json.loads(path.read_text(encoding="utf-8"))
     report = json.loads(report_path.read_text(encoding="utf-8"))
-    return {"layer": "china/provider-localities", "snapshot_tag": tag,
+    return {"layer": layer, "snapshot_tag": tag,
         "schema_version": collection["schema_version"], "record_count": len(collection["features"]),
         "record_unit": "provider_service_locality", "excluded_from_canonical_totals": True,
         "physical_sites": False, "input_layers": report["input_layers"],
@@ -313,6 +314,10 @@ def main() -> None:
     if tag >= GEOGRAPHY_ENRICHMENT_TAG:
         layer_specs = [(layer, GEOGRAPHY_ENRICHMENT_TAG if layer == "chindata/data-centers" else snapshot_tag)
                        for layer, snapshot_tag in layer_specs]
+    if tag >= GULF_ENRICHMENT_TAG:
+        gulf_layers = {"aws/regions-and-zones", "aws/cloudfront", "aws/local-zones", "oracle/cloud-regions"}
+        layer_specs = [(layer, GULF_ENRICHMENT_TAG if layer in gulf_layers else snapshot_tag)
+                       for layer, snapshot_tag in layer_specs]
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     network_layers = []
     if tag >= NETWORK_TAG:
@@ -322,6 +327,8 @@ def main() -> None:
     if tag >= RUSSIA_IMPLEMENTATION_TAG:
         network_layers.extend(network_layer_manifest(layer, RUSSIA_IMPLEMENTATION_TAG)
                               for layer in ("yandex-prefixes", "yandex-routing"))
+    if tag >= GULF_ENRICHMENT_TAG:
+        network_layers.append(network_layer_manifest("gulf-provider-prefixes", GULF_ENRICHMENT_TAG))
     views = []
     for view, parent in VIEW_NAMES.items():
         entry = layer_manifest(view, CHINA_IMPLEMENTATION_TAG if tag >= CHINA_IMPLEMENTATION_TAG else BASELINE_TAG)
@@ -380,6 +387,8 @@ def main() -> None:
     if tag >= GEOGRAPHY_ENRICHMENT_TAG:
         assessments.extend(assessment_manifest(name, GEOGRAPHY_ENRICHMENT_TAG) for name in (
             "china/geography-enrichment", "chindata/campus-alias-review", "gulf/aws-oracle-coverage"))
+    if tag >= GULF_ENRICHMENT_TAG:
+        assessments.append(assessment_manifest("gulf/enrichment-implementation", GULF_ENRICHMENT_TAG))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
@@ -388,6 +397,8 @@ def main() -> None:
         if tag >= CHINA_IMPLEMENTATION_TAG:
             infrastructure_layers.extend(infrastructure_manifest(name, CHINA_IMPLEMENTATION_TAG) for name in (
                 "china-ai-services", "china-facilities-and-portfolios", "china-carrier-links"))
+        if tag >= GULF_ENRICHMENT_TAG:
+            infrastructure_layers.append(infrastructure_manifest("gulf-cloud-connectivity", GULF_ENRICHMENT_TAG))
         infrastructure_view = infrastructure_manifest("russia-connectivity", INFRASTRUCTURE_TAG)
         infrastructure_view["view_of"] = "infrastructure/connectivity"
         infrastructure_sections = {
@@ -430,6 +441,10 @@ def main() -> None:
                              "reference_count": json.loads(bibliography.read_text())["reference_count"]},
         }
         scope_note = scope_note.replace("Derived views", "Derived location views") + " Geographic footprint views group provider/service/locality memberships, use reference-point geometry and are also excluded from canonical totals."
+    if tag >= GULF_ENRICHMENT_TAG:
+        geographic_sections["geographic_footprint_views"].append(
+            geographic_footprint_manifest(GULF_ENRICHMENT_TAG, "gulf/provider-localities"))
+        geographic_sections["geographic_footprint_view_count"] = len(geographic_sections["geographic_footprint_views"])
     write_json(output, {
         **infrastructure_sections,
         **comparison_sections,

@@ -1,0 +1,20 @@
+{
+  "bytes": 234112,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:22:40+00:00",
+  "content_type": "application/json",
+  "final_url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
+  "http_last_modified": "Tue, 25 Aug 2026 13:47:44 GMT",
+  "path": "data/raw/gulf-enrichment/oracle-ip-ranges.20261019.json",
+  "publisher": "Oracle",
+  "raw_source_ref": "data/raw/gulf-enrichment/oracle-ip-ranges.20261019.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Gulf implementation evidence",
+  "sha256": "59e5ba5e92e38f911ce377f1d71c6eaa89ffcf53f9eb4ccd667d9ffca81ead7d",
+  "source_id": "oracle-ip-ranges",
+  "source_published_at": null,
+  "source_updated_at": "2026-08-25",
+  "source_url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
+  "title": "OCI public IP ranges"
+}

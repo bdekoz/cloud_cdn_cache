@@ -1,6 +1,6 @@
 # Enrichment bibliography
 
-Built 2026-10-19. 174 retained-source or unavailable-reference entries.
+Built 2026-10-19. 181 retained-source or unavailable-reference entries.
 
 The [machine-readable index](../data/references/bibliography.20261019.json) records the full SHA-256, raw path, source dates, publisher, role and admission limits for every entry. Retrieval dates do not establish a current deployment. Failed URLs and held evidence are included explicitly.
 
@@ -361,3 +361,19 @@ GeoNames coordinates are locality reference points under [CC BY 4.0](https://cre
 - **docs.amazonaws.cn** — [ARNs for Amazon Web Services China - Getting Started with Amazon Web Services China](https://docs.amazonaws.cn/en_us/aws/latest/userguide/ARNs.html). retrieved 2026-08-05; [retained source](../data/raw/aws/china-regions.20260805.html). `ref-68bfa99928366645`. Immutable official provider source snapshot used by scripts/update_hyperscalers.py; source-specific copyright and redistribution terms may apply.
 
 - **intl.cloud.tencent.com** — [Regions and Zones](https://intl.cloud.tencent.com/document/product/416/64284?lang=en). retrieved 2026-08-04; published 2026-02-12; [retained source](../data/raw/tencent/regions-and-zones.20260804.html). `ref-60776e17466fb192`. Immutable provider source snapshot used by scripts/update_authoritative.py; provider HTML/API content may be copyrighted and is retained for reproducibility.
+
+## Gulf network and interconnect enrichment
+
+- **Amazon Web Services** — [AWS IP address ranges and geolocation scope](https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html). retrieved 2026-10-19; [retained source](../data/raw/gulf-enrichment/aws-ip-documentation.20261019.html). `ref-d3100ad2aa276031`. Gulf implementation evidence
+
+- **Amazon Web Services** — [AWS IP geolocation feed](https://ip-ranges.amazonaws.com/geo-ip-feed.csv). retrieved 2026-10-19; [retained source](../data/raw/gulf-enrichment/aws-geofeed.20261019.csv). `ref-6a3a09cecc9535d2`. Gulf implementation evidence
+
+- **Amazon Web Services** — [AWS public IP ranges](https://ip-ranges.amazonaws.com/ip-ranges.json). retrieved 2026-10-19; published 2026-10-19; [retained source](../data/raw/gulf-enrichment/aws-ip-ranges.20261019.json). `ref-093bbf34cfef9d4e`. Gulf implementation evidence
+
+- **Equinix** — [Equinix DX1 Dubai](https://www.equinix.com/data-centers/europe-colocation/united-arab-emirates-colocation/dubai-data-centers/dx1). retrieved 2026-10-19; [retained source](../data/raw/gulf-enrichment/equinix-dx1.20261019.html). `ref-596de5c67d9dd344`. Gulf implementation evidence
+
+- **Equinix** — [Equinix MC1 Muscat, Barka](https://www.equinix.com/data-centers/europe-colocation/oman-colocation/muscat-data-centers/mc1). retrieved 2026-10-19; [retained source](../data/raw/gulf-enrichment/equinix-mc1.20261019.html). `ref-a570850255a041e4`. Gulf implementation evidence
+
+- **Oracle** — [OCI IP address ranges and service tags](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm). retrieved 2026-10-19; [retained source](../data/raw/gulf-enrichment/oracle-ip-documentation.20261019.html). `ref-5fab29d9514217ef`. Gulf implementation evidence
+
+- **Oracle** — [OCI public IP ranges](https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json). retrieved 2026-10-19; updated 2026-08-25; [retained source](../data/raw/gulf-enrichment/oracle-ip-ranges.20261019.json). `ref-eb54344994b2f084`. Gulf implementation evidence

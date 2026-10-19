@@ -1,0 +1,20 @@
+{
+  "bytes": 308103,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:22:39+00:00",
+  "content_type": "text/csv",
+  "final_url": "https://ip-ranges.amazonaws.com/geo-ip-feed.csv",
+  "http_last_modified": "Mon, 19 Oct 2026 14:54:57 GMT",
+  "path": "data/raw/gulf-enrichment/aws-geofeed.20261019.csv",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/gulf-enrichment/aws-geofeed.20261019.csv",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Gulf implementation evidence",
+  "sha256": "869d6473beaf30293cfbb661c46b6b7744a7e04e4ee9a95542daadea21d9ca54",
+  "source_id": "aws-geofeed",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://ip-ranges.amazonaws.com/geo-ip-feed.csv",
+  "title": "AWS IP geolocation feed"
+}

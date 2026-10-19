@@ -1,0 +1,20 @@
+{
+  "bytes": 2725104,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:22:39+00:00",
+  "content_type": "application/json",
+  "final_url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+  "http_last_modified": "Mon, 19 Oct 2026 15:53:38 GMT",
+  "path": "data/raw/gulf-enrichment/aws-ip-ranges.20261019.json",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/gulf-enrichment/aws-ip-ranges.20261019.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Gulf implementation evidence",
+  "sha256": "021ff6ee7f53985e4c9db2c1dc100f3db18215f0e4a4253a7d149b15870c3f5e",
+  "source_id": "aws-ip-ranges",
+  "source_published_at": "2026-10-19",
+  "source_updated_at": null,
+  "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+  "title": "AWS public IP ranges"
+}

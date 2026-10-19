@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html class="" lang="en-US">
+<head><meta content="2026-01-14 19:21:08Z" name="cpp-last-modified-time"/><meta content="2026-02-02 18:38:27Z" name="cpp-last-processed-time"/>
+<meta charset="utf-8"/>
+<meta content="(C) Copyright 2026" name="copyright"/>
+<meta content="DITA-OT" name="generator"/>
+<meta content="IP Address Ranges" name="title"/>
+<meta content="Learn about public IP address ranges for services that are deployed in Oracle Cloud Infrastructure. Allow traffic to these CIDR blocks to ensure access to the services." name="description"/>
+<meta content="en" name="language"/>
+<meta content="WM178623" name="contenttype_id"/>
+<meta content="WM178512" name="productservices_id"/>
+<meta content="https://docs.oracle.com/iaas/Content/General/Concepts/addressranges.htm" name="url"/>
+<title>IP Address Ranges</title>
+<meta content="width=device-width" name="viewport"/>
+<meta charset="utf-8"/>
+<link href="/iaas/build/styles.css?f0f229f13e16d525a0f747b7ec3d24604047150846cdd63f76988cec11a37bd2" rel="stylesheet"/>
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<div id="highline-mount"></div>
+<div data-trackas="dcoc-main-navigation" id="mobile-toc" uk-offcanvas="flip: true; overlay: true">
+<div class="uk-offcanvas-bar uk-padding-remove-left uk-padding-remove-right">
+<button class="uk-offcanvas-close toc-mobile-close" type="button" uk-close=""></button>
+<div class="uk-margin-top vl-table-of-contents-mount">
+<div class="uk-text-center">
+<div uk-spinner=""></div>
+</div>
+</div>
+</div>
+</div>
+<div data-trackas="dcoc-header" i18n="" id="global-nav-mount">
+<div class="vl-nav-mount-height-placeholder"></div>
+</div>
+<div class="uk-section uk-section-secondary vl-background-hero uk-background-cover vl-dcoc-hero" data-trackas="dcoc-content-body" style="background-image: url('/iaas/img/banner-bg.jpg')">
+<div class="uk-container uk-container-large">
+<div uk-grid="">
+<div class="uk-width-expand">
+<h3 class="uk-link-reset uk-text-bold uk-margin-remove-bottom" id="cxe-docs-home-page">
+<a href="/iaas/Content/home.htm">
+                  Oracle Cloud Infrastructure Documentation
+                </a>
+</h3>
+<hr class="vl-hr-accent uk-margin-small-top"/>
+</div>
+</div>
+</div>
+</div>
+<div uk-height-viewport="offset-top: true; offset-bottom: true">
+<div class="vl-dcoc-hero-margin">
+<div class="uk-container vl-padding-small-vertical uk-background-muted uk-hidden@m">
+<div class="uk-grid uk-grid-small uk-text-small" uk-grid="">
+<div class="uk-width-expand" data-trackas="dcoc-main-navigation" id="vl-breadcrumbs-mount"></div>
+<div class="uk-width-auto">
+<button class="uk-button uk-button-link uk-button-small vl-button-icon" type="button" uk-toggle="target: #mobile-toc">
+<span uk-icon="icon: menu; ratio: .8"></span>
+                  All Pages
+                </button>
+</div>
+</div>
+</div>
+</div>
+<div class="uk-container uk-container-large">
+<div class="uk-height-1-1 uk-grid" uk-grid="">
+<div class="vl-sidebar-left uk-visible@m" vl-table-of-contents-left="">
+<div class="vl-table-of-contents-mount vl-table-of-contents-inner" vl-table-of-contents-left-inner="">
+<div class="uk-text-center uk-margin-top">
+<div uk-spinner=""></div>
+</div>
+</div>
+</div>
+<div class="uk-width-expand" data-trackas="dcoc-content-body">
+<div class="uk-grid" uk-grid="">
+<div class="uk-width-expand" uk-height-viewport="offset-top: true">
+<a href="#dcoc-content-body" id="skiplink" tabindex="1">Skip to main content</a>
+<div class="uk-margin-large-bottom" id="dcoc-content-body">
+<div class="vl-content vl-content-max-width">
+<div class="uk-hidden@l">
+<div class="uk-nav uk-active uk-nav-default dts-header" id="vl-dts-mount-header"></div>
+</div>
+<article aria-labelledby="ariaid-title1" role="article">
+<article aria-labelledby="ariaid-title1" class="topic nested0" id="top">
+<h1 class="title topictitle1" id="ariaid-title1">IP Address Ranges</h1>
+<div class="body"><p class="shortdesc">Learn about public IP address ranges for services that are deployed in Oracle Cloud Infrastructure. Allow traffic to these CIDR blocks to ensure access to the services.</p>
+<p>Endpoints for <a class="xref" href="addressranges.htm#yum-endpoints">Oracle YUM repos</a> are listed on this page. You can use DNS lookup to determine the public IP address for each endpoint.</p>
+</div>
+<article aria-labelledby="ariaid-title2" class="topic nested1" id="osn-ranges">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title2">Public IP Addresses for VCNs and the Oracle Services Network</h2>
+<div class="body">
+<p>Public IP address ranges for VCNs and the Oracle Services Network are published to a JSON file which you can download and view manually or consume programmatically. </p>
+<p>The <em>Oracle Services Network</em> is a conceptual network in Oracle Cloud Infrastructure reserved for Oracle services. A <a class="xref" href="/iaas/Content/Network/Tasks/servicegateway.htm">service gateway</a> offers private access to the Oracle Services Network from workloads in your VCN and your on-premises network. The published addresses correspond to the <a class="xref" href="/iaas/Content/Network/Tasks/servicegateway.htm#overview">service CIDR label</a> called <strong>All <var class="keyword varname">&lt;region&gt;</var> Services in Oracle Services Network</strong>. For a list of the services available with a service gateway, see <a class="xref" href="https://www.oracle.com/cloud/networking/service-gateway/service-gateway-supported-services/">Service Gateway: Supported Cloud Services in Oracle Services Network</a>.</p>
+</div>
+<article aria-labelledby="ariaid-title3" class="topic nested2" id="downloading">
+<h3 class="title topictitle3 vl-include-in-page-toc" id="ariaid-title3">Downloading the JSON File</h3>
+<div class="body">
+<p>
+<a class="xref" href="/iaas/tools/public_ip_ranges.json">Use this link to download the current list of public IP ranges</a>. </p>
+<p>You can poll the published file to check for new IP address ranges as frequently as every 24 hours. We recommend that you poll the published file at least weekly.</p>
+</div>
+</article>
+<article aria-labelledby="ariaid-title4" class="topic nested2" id="json-contents-syntax">
+<h3 class="title topictitle3 vl-include-in-page-toc" id="ariaid-title4">JSON File Contents and Syntax</h3>
+<div class="body">
+<p>IP addresses are published in the <code class="ph codeph">public_ip_ranges.json</code> file with the fields in the following table. </p>
+<div class="uk-overflow-auto"><table class="table vl-table-bordered vl-table-divider-col" summary="This table lists and describes each field in the public_ip_ranges.json file."><caption></caption><colgroup><col style="width:203px"/><col/><col/><col/></colgroup><thead class="thead">
+<tr class="row">
+<th class="entry" id="json-contents-syntax__entry__1">Field Name</th>
+<th class="entry" id="json-contents-syntax__entry__2">Definition</th>
+<th class="entry" id="json-contents-syntax__entry__3">Type</th>
+<th class="entry" id="json-contents-syntax__entry__4">Example</th>
+</tr>
+</thead><tbody class="tbody">
+<tr class="row">
+<th class="entry" headers="json-contents-syntax__entry__1" id="json-contents-syntax__entry__5" scope="row"><code class="ph codeph">last_updated_timestamp</code>
+</th>
+<td class="entry" headers="json-contents-syntax__entry__5 json-contents-syntax__entry__2">
+<p>File creation time in ISO 8601 format. </p>
+<p>Expressed as <code class="ph codeph"><var class="keyword varname">&lt;date&gt;</var>T<var class="keyword varname">&lt;time&gt;</var></code></p>
+</td>
+<td class="entry" headers="json-contents-syntax__entry__5 json-contents-syntax__entry__3">string</td>
+<td class="entry" headers="json-contents-syntax__entry__5 json-contents-syntax__entry__4"><code class="ph codeph">"last_updated_timestamp": "2019-11-18T19:55:47.204985"</code>
+</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="json-contents-syntax__entry__1" id="json-contents-syntax__entry__9" scope="row"><code class="ph codeph">regions</code>
+</th>
+<td class="entry" headers="json-contents-syntax__entry__9 json-contents-syntax__entry__2">IP CIDR ranges grouped by region. </td>
+<td class="entry" headers="json-contents-syntax__entry__9 json-contents-syntax__entry__3">array</td>
+<td class="entry" headers="json-contents-syntax__entry__9 json-contents-syntax__entry__4">See  <a class="xref" href="#json-contents-syntax__json-example">Example of the public ip ranges.json file</a></td>
+</tr>
+<tr class="row">
+<th class="entry" headers="json-contents-syntax__entry__1" id="json-contents-syntax__entry__13" scope="row"><code class="ph codeph">region</code>
+</th>
+<td class="entry" headers="json-contents-syntax__entry__13 json-contents-syntax__entry__2">
+<p>The region of the IP CIDR ranges. </p>
+<p>Valid values: Any region in the Oracle Cloud Infrastructure commercial realm. </p>
+<p>For a complete list of regions, see <a class="xref" href="regions.htm" title="Learn about how the Oracle Cloud Infrastructure is hosted in regions and availability domains. Regions are localized geographic areas, and availability domains are one or more data centers within a region." uk-tooltip="">Regions and Availability Domains</a>.</p>
+</td>
+<td class="entry" headers="json-contents-syntax__entry__13 json-contents-syntax__entry__3">string</td>
+<td class="entry" headers="json-contents-syntax__entry__13 json-contents-syntax__entry__4"> <code class="ph codeph">"region": "us-phoenix-1"</code></td>
+</tr>
+<tr class="row">
+<th class="entry" headers="json-contents-syntax__entry__1" id="json-contents-syntax__entry__17" scope="row"><code class="ph codeph">cidrs</code>
+</th>
+<td class="entry" headers="json-contents-syntax__entry__17 json-contents-syntax__entry__2">A group of IP address CIDR ranges.</td>
+<td class="entry" headers="json-contents-syntax__entry__17 json-contents-syntax__entry__3">array</td>
+<td class="entry" headers="json-contents-syntax__entry__17 json-contents-syntax__entry__4">See  <a class="xref" href="#json-contents-syntax__json-example">Example of the public ip ranges.json file</a></td>
+</tr>
+<tr class="row">
+<th class="entry" headers="json-contents-syntax__entry__1" id="json-contents-syntax__entry__21" scope="row"><code class="ph codeph">cidr</code>
+</th>
+<td class="entry" headers="json-contents-syntax__entry__21 json-contents-syntax__entry__2">One or more IPv4 IP addresses expressed in CIDR notation. </td>
+<td class="entry" headers="json-contents-syntax__entry__21 json-contents-syntax__entry__3">string</td>
+<td class="entry" headers="json-contents-syntax__entry__21 json-contents-syntax__entry__4"><code class="ph codeph">"cidr": "147.154.0.0/18" </code>
+<p>
+</p>
+</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="json-contents-syntax__entry__1" id="json-contents-syntax__entry__25" scope="row"><code class="ph codeph">tags</code>
+</th>
+<td class="entry" headers="json-contents-syntax__entry__25 json-contents-syntax__entry__2">
+<p>The services associated with the IP address CIDR range. </p>
+<p>Valid values: </p>
+<ul>
+<li><code class="ph codeph">OCI</code>: The VCN CIDR blocks.</li>
+<li><code class="ph codeph">OSN</code>: The CIDR block ranges for the <a class="xref" href="addressranges.htm#osn-ranges">Oracle Services Network</a>. </li>
+<li id="json-contents-syntax__ocr-endpoints"><code class="ph codeph">OBJECT_STORAGE</code>: The CIDR block ranges used by the Object Storage service. For more information, see <a class="xref" href="/iaas/Content/Object/Concepts/objectstorageoverview.htm">Overview of Object Storage</a>. </li>
+</ul>
+</td>
+<td class="entry" headers="json-contents-syntax__entry__25 json-contents-syntax__entry__3">array of string values</td>
+<td class="entry" headers="json-contents-syntax__entry__25 json-contents-syntax__entry__4"><code class="ph codeph">"tags": [ "OCI" ]</code>
+</td>
+</tr>
+</tbody></table></div>
+<div class="uk-margin-top" uk-accordion=""><div id="json-contents-syntax__json-example"><a class="uk-accordion-title" href="#">Example of the public_ip_ranges.json file</a><div class="uk-accordion-content"><div class="uk-position-relative"><pre class="pre codeblock scrollcopy"><code>{
+    "last_updated_timestamp": "2019-11-18T19:55:47.204985",
+    "regions": [
+        {
+            "region": "us-phoenix-1",
+            "cidrs": [
+                {
+                    "cidr": "129.146.0.0/21",
+                    "tags": [
+                        "OCI"
+                    ]
+                },
+                {
+                    "cidr": "134.70.8.0/21",
+                    "tags": [
+                        "OSN",
+                        "OBJECT_STORAGE"
+                    ]
+                },
+            ]
+        }
+        {
+            "region": "us-ashburn-1",
+            "cidrs": [
+                {
+                    "cidr": "129.213.8.0/21",
+                    "tags": [
+                        "OCI"
+                    ]
+                },
+                {
+                    "cidr": "134.70.24.0/21",
+                    "tags": [
+                        "OSN",
+                        "OBJECT_STORAGE"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+</code></pre></div></div></div></div>
+</div>
+</article>
+<article aria-labelledby="ariaid-title5" class="topic nested2" id="filtering">
+<h3 class="title topictitle3 vl-include-in-page-toc" id="ariaid-title5">Filtering the JSON file contents</h3>
+<div class="body">
+<p>After you download the JSON file, you can use a command line tool such as <code class="ph codeph">jq</code> to filter the contents. </p>
+<p><a aria-label="Download jq. Opens in a new window" class="xref" href="https://stedolan.github.io/jq/" rel="noopener" target="_blank">Download <code class="ph codeph">jq</code></a>
+</p>
+<p>Here are some examples of how you can use the tool to find and filter the information you need: </p>
+<p><strong>Find the creation date of the JSON file:</strong>
+</p>
+<div class="uk-position-relative"><pre class="pre codeblock scrollcopy"><code>jq .last_updated_timestamp &lt; public_ip_ranges.json</code></pre></div>
+<p><strong>Get all IPv4 addresses for a specific region:</strong>
+</p>
+<div class="uk-position-relative"><pre class="pre codeblock scrollcopy"><code>jq -r '.regions[] | select (.region=="us-phoenix-1") | .cidrs[] | select (.cidr | contains(".")) | .cidr ' &lt; public_ip_ranges.json</code></pre></div>
+</div>
+</article>
+</article>
+<article aria-labelledby="ariaid-title6" class="topic nested1" id="yum-endpoints">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title6">Public IP Addresses for the Oracle YUM Repos</h2>
+<div class="body">
+<p>The Oracle YUM repos have the following regional public endpoints.</p>
+<div class="bodydiv tablecontainer">
+<div class="uk-overflow-auto"><table class="table vl-table-bordered vl-table-divider-col" summary="Regional endpoints for the YUM repositories."><caption></caption><colgroup><col/><col/></colgroup><thead class="thead">
+<tr class="row">
+<th class="entry" id="yum-endpoints__entry__1">Region</th>
+<th class="entry" id="yum-endpoints__entry__2">YUM Server Endpoint</th>
+</tr>
+</thead><tbody class="tbody">
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__3" scope="row">Netherlands Northwest (Amsterdam)
+</th>
+<td class="entry" headers="yum-endpoints__entry__3 yum-endpoints__entry__2">https://yum-eu-amsterdam-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__5" scope="row">Australia East (Sydney)
+</th>
+<td class="entry" headers="yum-endpoints__entry__5 yum-endpoints__entry__2">https://yum-ap-sydney-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__7" scope="row">Canada Southeast (Toronto)
+</th>
+<td class="entry" headers="yum-endpoints__entry__7 yum-endpoints__entry__2">https://yum-ca-toronto-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__9" scope="row">Germany Central (Frankfurt)
+</th>
+<td class="entry" headers="yum-endpoints__entry__9 yum-endpoints__entry__2">https://yum-eu-frankfurt-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__11" scope="row">India West (Mumbai)
+</th>
+<td class="entry" headers="yum-endpoints__entry__11 yum-endpoints__entry__2">https://yum-ap-mumbai-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__13" scope="row">Japan Central (Osaka)
+</th>
+<td class="entry" headers="yum-endpoints__entry__13 yum-endpoints__entry__2">https://yum-ap-osaka-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__15" scope="row">Japan East (Tokyo)
+</th>
+<td class="entry" headers="yum-endpoints__entry__15 yum-endpoints__entry__2">https://yum-ap-tokyo-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__17" scope="row">Saudi Arabia West (Jeddah)
+</th>
+<td class="entry" headers="yum-endpoints__entry__17 yum-endpoints__entry__2">https://yum-me-jeddah-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__19" scope="row">Australia Southeast (Melbourne)
+</th>
+<td class="entry" headers="yum-endpoints__entry__19 yum-endpoints__entry__2">https://yum-ap-melbourne-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__21" scope="row">South Korea Central (Seoul)
+</th>
+<td class="entry" headers="yum-endpoints__entry__21 yum-endpoints__entry__2">https://yum-ap-seoul-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__23" scope="row">UK South (London)
+</th>
+<td class="entry" headers="yum-endpoints__entry__23 yum-endpoints__entry__2">https://yum-uk-london-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__25" scope="row">US East (Ashburn)
+</th>
+<td class="entry" headers="yum-endpoints__entry__25 yum-endpoints__entry__2">https://yum-us-ashburn-1.oracle.com</td>
+</tr>
+<tr class="row">
+<th class="entry" headers="yum-endpoints__entry__1" id="yum-endpoints__entry__27" scope="row">US West (Phoenix)
+</th>
+<td class="entry" headers="yum-endpoints__entry__27 yum-endpoints__entry__2">https://yum-us-phoenix-1.oracle.com</td>
+</tr>
+</tbody></table></div>
+</div>
+<p>You can use DNS lookup to determine the public IP address for each endpoint.</p>
+</div>
+</article>
+</article>
+</article>
+<div class="uk-hidden@l">
+<div class="vl-cfs-mount vl-cfs-m" id="vl-cfs-mount-footer"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="vl-floating-toc-container uk-visible@l" vl-floating-toc="">
+<div class="vl-floating-toc-container-inner" vl-floating-toc-inner="">
+<div id="content-toolbar-mount"></div>
+<ul class="uk-nav uk-nav-default vl-floating-toc" uk-scrollspy-nav="closest: li; offset: 50">
+<li class="vl-floating-toc-h1">
+<a href="#top">
+                                IP Address Ranges
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#osn-ranges">
+                                Public IP Addresses for VCNs and the Oracle Services Network
+                              </a>
+</li>
+<li class="vl-floating-toc-h3">
+<a href="#downloading">
+                                Downloading the JSON File
+                              </a>
+</li>
+<li class="vl-floating-toc-h3">
+<a href="#json-contents-syntax">
+                                JSON File Contents and Syntax
+                              </a>
+</li>
+<li class="vl-floating-toc-h3">
+<a href="#filtering">
+                                Filtering the JSON file contents
+                              </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#yum-endpoints">
+                                Public IP Addresses for the Oracle YUM Repos
+                              </a>
+</li>
+</ul>
+<div class="vl-cfs-mount vl-cfs-l" id="vl-cfs-mount"></div>
+<div class="uk-nav uk-nav-default" id="vl-dts-mount"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="vl-footer uk-section uk-section-secondary uk-section-small uk-text-xsmall uk-text-muted" data-trackas="dcoc-footer" vl-footer="">
+<div class="uk-container vl-container-xlarge">
+<ul class="uk-subnav uk-flex-center" uk-margin="">
+<li class="legal"><span>Copyright © 2026, Oracle and/or its affiliates.</span></li>
+<li class="legal"><a href="https://www.oracle.com/corporate/index.html">About Oracle</a></li>
+<li class="legal"><a href="https://www.oracle.com/corporate/contact/index.html">Contact Us</a></li>
+<li class="legal"><a href="/iaas/Content/legalnotices.htm">Legal Notices</a></li>
+<li class="legal"><a href="https://www.oracle.com/legal/privacy/">Terms of Use &amp; Privacy</a></li>
+<li class="legal"><a href="/iaas/Content/General/Reference/docconventions.htm">Document Conventions</a></li>
+<li id="teconsent"></li>
+</ul>
+</div>
+</footer>
+<script src="/iaas/build/front-end.js?eb7e1ef39f45a2c3300df51c2c9b18e04c6a09266e7c409b1b37ea8598ea9f24"></script>
+ 
+ 
+</body>
+</html>

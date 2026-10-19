@@ -1,0 +1,20 @@
+{
+  "bytes": 21290,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:22:40+00:00",
+  "content_type": "text/html",
+  "final_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm",
+  "http_last_modified": null,
+  "path": "data/raw/gulf-enrichment/oracle-ip-documentation.20261019.html",
+  "publisher": "Oracle",
+  "raw_source_ref": "data/raw/gulf-enrichment/oracle-ip-documentation.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Gulf implementation evidence",
+  "sha256": "8997ef8ea63d6e14579c21324c3165cb61e0a003ff3a442628c3558750d91266",
+  "source_id": "oracle-ip-documentation",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm",
+  "title": "OCI IP address ranges and service tags"
+}

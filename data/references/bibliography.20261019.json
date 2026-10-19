@@ -1,7 +1,7 @@
 {
   "built_at": "2026-10-19",
   "date_policy": "Null means no publication/update date established; retrieval, publication and claim-as-of dates are distinct.",
-  "reference_count": 174,
+  "reference_count": 181,
   "references": [
     {
       "availability": "retained",
@@ -1217,7 +1217,7 @@
       "source_updated_at": null,
       "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md",
       "title": "AWS Availability Zones",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1236,7 +1236,7 @@
       "source_updated_at": null,
       "source_url": "https://aws.amazon.com/directconnect/locations/",
       "title": "AWS Direct Connect locations",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1255,7 +1255,7 @@
       "source_updated_at": null,
       "source_url": "https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/",
       "title": "AWS Local Zones locations",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1274,7 +1274,7 @@
       "source_updated_at": null,
       "source_url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.md",
       "title": "AWS Regions",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1293,7 +1293,7 @@
       "source_updated_at": null,
       "source_url": "https://aws.amazon.com/cloudfront/features/",
       "title": "Amazon CloudFront features and network",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1312,7 +1312,7 @@
       "source_updated_at": null,
       "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html",
       "title": "Available AWS Local Zones",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1331,7 +1331,7 @@
       "source_updated_at": null,
       "source_url": "https://aws.amazon.com/blogs/migration-and-modernization/how-to-plan-your-migration-to-the-aws-region-in-saudi-arabia/",
       "title": "How to plan your migration to the AWS Region in Saudi Arabia",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1350,7 +1350,7 @@
       "source_updated_at": null,
       "source_url": "https://aws.amazon.com/blogs/aws/now-open-aws-region-in-the-united-arab-emirates-uae/",
       "title": "Now Open: AWS Region in the United Arab Emirates",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1872,7 +1872,7 @@
       "source_updated_at": null,
       "source_url": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/tsepm/opc_gen_2_regions.html",
       "title": "EPM Cloud Geographic, Data, and Air-gapped Regions",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1891,7 +1891,7 @@
       "source_updated_at": null,
       "source_url": "https://raw.githubusercontent.com/oracle/oci-java-sdk/master/bmc-common/src/main/java/com/oracle/bmc/Region.java",
       "title": "OCI Java SDK region registry",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -1910,7 +1910,7 @@
       "source_updated_at": null,
       "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm",
       "title": "OCI Regions and Availability Domains",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "unavailable",
@@ -1948,7 +1948,7 @@
       "source_updated_at": null,
       "source_url": "https://www.oracle.com/cloud/networking/fastconnect/partners/",
       "title": "Oracle FastConnect partners and locations",
-      "usage": "assessment_only"
+      "usage": "gulf_enrichment_and_status_review"
     },
     {
       "availability": "retained",
@@ -3317,8 +3317,141 @@
       "source_url": "https://intl.cloud.tencent.com/document/product/416/64284?lang=en",
       "title": "Regions and Zones",
       "usage": "prior_enrichment_reference"
+    },
+    {
+      "availability": "retained",
+      "capture_method": "http_response",
+      "error": null,
+      "group": "Gulf network and interconnect enrichment",
+      "publisher": "Amazon Web Services",
+      "publisher_identity_basis": "explicit source metadata or provider domain",
+      "raw_source_ref": "data/raw/gulf-enrichment/aws-ip-documentation.20261019.html",
+      "reference_id": "ref-d3100ad2aa276031",
+      "retrieved_at": "2026-10-19",
+      "role_and_limits": "Gulf implementation evidence",
+      "sha256": "6c1466e1c95118037b2db55becd5c8c4dde24f0104afb7ae32a8bad46133bb39",
+      "source_id": "aws-ip-documentation",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html",
+      "title": "AWS IP address ranges and geolocation scope",
+      "usage": "gulf_enrichment"
+    },
+    {
+      "availability": "retained",
+      "capture_method": "http_response",
+      "error": null,
+      "group": "Gulf network and interconnect enrichment",
+      "publisher": "Amazon Web Services",
+      "publisher_identity_basis": "explicit source metadata or provider domain",
+      "raw_source_ref": "data/raw/gulf-enrichment/aws-geofeed.20261019.csv",
+      "reference_id": "ref-6a3a09cecc9535d2",
+      "retrieved_at": "2026-10-19",
+      "role_and_limits": "Gulf implementation evidence",
+      "sha256": "869d6473beaf30293cfbb661c46b6b7744a7e04e4ee9a95542daadea21d9ca54",
+      "source_id": "aws-geofeed",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://ip-ranges.amazonaws.com/geo-ip-feed.csv",
+      "title": "AWS IP geolocation feed",
+      "usage": "gulf_enrichment"
+    },
+    {
+      "availability": "retained",
+      "capture_method": "http_response",
+      "error": null,
+      "group": "Gulf network and interconnect enrichment",
+      "publisher": "Amazon Web Services",
+      "publisher_identity_basis": "explicit source metadata or provider domain",
+      "raw_source_ref": "data/raw/gulf-enrichment/aws-ip-ranges.20261019.json",
+      "reference_id": "ref-093bbf34cfef9d4e",
+      "retrieved_at": "2026-10-19",
+      "role_and_limits": "Gulf implementation evidence",
+      "sha256": "021ff6ee7f53985e4c9db2c1dc100f3db18215f0e4a4253a7d149b15870c3f5e",
+      "source_id": "aws-ip-ranges",
+      "source_published_at": "2026-10-19",
+      "source_updated_at": null,
+      "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+      "title": "AWS public IP ranges",
+      "usage": "gulf_enrichment"
+    },
+    {
+      "availability": "retained",
+      "capture_method": "http_response",
+      "error": null,
+      "group": "Gulf network and interconnect enrichment",
+      "publisher": "Equinix",
+      "publisher_identity_basis": "explicit source metadata or provider domain",
+      "raw_source_ref": "data/raw/gulf-enrichment/equinix-dx1.20261019.html",
+      "reference_id": "ref-596de5c67d9dd344",
+      "retrieved_at": "2026-10-19",
+      "role_and_limits": "Gulf implementation evidence",
+      "sha256": "d8b43cb3f901aeac77f067547ee33fa5bd0da2134ffb1626c4e02085c2d56630",
+      "source_id": "equinix-dx1",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.equinix.com/data-centers/europe-colocation/united-arab-emirates-colocation/dubai-data-centers/dx1",
+      "title": "Equinix DX1 Dubai",
+      "usage": "gulf_enrichment"
+    },
+    {
+      "availability": "retained",
+      "capture_method": "http_response",
+      "error": null,
+      "group": "Gulf network and interconnect enrichment",
+      "publisher": "Equinix",
+      "publisher_identity_basis": "explicit source metadata or provider domain",
+      "raw_source_ref": "data/raw/gulf-enrichment/equinix-mc1.20261019.html",
+      "reference_id": "ref-a570850255a041e4",
+      "retrieved_at": "2026-10-19",
+      "role_and_limits": "Gulf implementation evidence",
+      "sha256": "35e61e6f7a7663e04fb41f07caae5c8ba2ff0e55dbf2c9b9c407c9453d487d04",
+      "source_id": "equinix-mc1",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.equinix.com/data-centers/europe-colocation/oman-colocation/muscat-data-centers/mc1",
+      "title": "Equinix MC1 Muscat, Barka",
+      "usage": "gulf_enrichment"
+    },
+    {
+      "availability": "retained",
+      "capture_method": "http_response",
+      "error": null,
+      "group": "Gulf network and interconnect enrichment",
+      "publisher": "Oracle",
+      "publisher_identity_basis": "explicit source metadata or provider domain",
+      "raw_source_ref": "data/raw/gulf-enrichment/oracle-ip-documentation.20261019.html",
+      "reference_id": "ref-5fab29d9514217ef",
+      "retrieved_at": "2026-10-19",
+      "role_and_limits": "Gulf implementation evidence",
+      "sha256": "8997ef8ea63d6e14579c21324c3165cb61e0a003ff3a442628c3558750d91266",
+      "source_id": "oracle-ip-documentation",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm",
+      "title": "OCI IP address ranges and service tags",
+      "usage": "gulf_enrichment"
+    },
+    {
+      "availability": "retained",
+      "capture_method": "http_response",
+      "error": null,
+      "group": "Gulf network and interconnect enrichment",
+      "publisher": "Oracle",
+      "publisher_identity_basis": "explicit source metadata or provider domain",
+      "raw_source_ref": "data/raw/gulf-enrichment/oracle-ip-ranges.20261019.json",
+      "reference_id": "ref-eb54344994b2f084",
+      "retrieved_at": "2026-10-19",
+      "role_and_limits": "Gulf implementation evidence",
+      "sha256": "59e5ba5e92e38f911ce377f1d71c6eaa89ffcf53f9eb4ccd667d9ffca81ead7d",
+      "source_id": "oracle-ip-ranges",
+      "source_published_at": null,
+      "source_updated_at": "2026-08-25",
+      "source_url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
+      "title": "OCI public IP ranges",
+      "usage": "gulf_enrichment"
     }
   ],
   "rights_note": "Bibliographic inclusion is not a grant of redistribution rights. GeoNames reference coordinates are CC BY 4.0; other source-specific terms remain applicable.",
-  "scope": "Sources retained for China geography/Gulf review and earlier China, India/Apple, CDN and Russia enrichment"
+  "scope": "Sources retained for China geography, Gulf implementation/review and earlier China, India/Apple, CDN and Russia enrichment"
 }

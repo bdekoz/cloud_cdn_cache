@@ -6,3 +6,4 @@ data/raw/yandex/* -text -whitespace
 data/raw/russia/* -text -whitespace
 data/raw/repository/* -text -whitespace
 data/raw/geography-enrichment/* -text -whitespace
+data/raw/gulf-enrichment/* -text -whitespace

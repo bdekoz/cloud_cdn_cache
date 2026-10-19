@@ -1,0 +1,521 @@
+{
+  "built_at": "2026-10-19",
+  "excluded_from_canonical_totals": true,
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          39.18624,
+          21.49012
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+            "source_url": "https://aws.amazon.com/cloudfront/features/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "aws:locality:aws_cloudfront:105343",
+        "gazetteer": {
+          "admin1": "14",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "105343",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Jeddah"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Jeddah",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Amazon Web Services",
+        "record_unit": "provider_service_locality",
+        "service": "aws_cloudfront",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Jeddah"
+        ],
+        "source_record_ids": [
+          "aws:edge_pop:cloudfront-sa-jeddah"
+        ],
+        "vendor_id": "aws"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.72185,
+          24.68773
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+            "source_url": "https://aws.amazon.com/cloudfront/features/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "aws:locality:aws_cloudfront:108410",
+        "gazetteer": {
+          "admin1": "10",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "108410",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Riyadh"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Riyadh",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Amazon Web Services",
+        "record_unit": "provider_service_locality",
+        "service": "aws_cloudfront",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Riyadh"
+        ],
+        "source_record_ids": [
+          "aws:edge_pop:cloudfront-sa-riyadh"
+        ],
+        "vendor_id": "aws"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          58.40778,
+          23.58413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "OM",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+            "source_url": "https://aws.amazon.com/cloudfront/features/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "aws:locality:aws_cloudfront:287286",
+        "gazetteer": {
+          "admin1": "06",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "287286",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Muscat"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Muscat",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Amazon Web Services",
+        "record_unit": "provider_service_locality",
+        "service": "aws_cloudfront",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Muscat"
+        ],
+        "source_record_ids": [
+          "aws:edge_pop:cloudfront-om-muscat"
+        ],
+        "vendor_id": "aws"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.53096,
+          25.28545
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "QA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+            "source_url": "https://aws.amazon.com/cloudfront/features/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "aws:locality:aws_cloudfront:290030",
+        "gazetteer": {
+          "admin1": "01",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "290030",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Doha"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Doha",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Amazon Web Services",
+        "record_unit": "provider_service_locality",
+        "service": "aws_cloudfront",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Doha"
+        ],
+        "source_record_ids": [
+          "aws:edge_pop:cloudfront-qa-doha"
+        ],
+        "vendor_id": "aws"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.30927,
+          25.07725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+            "source_url": "https://aws.amazon.com/cloudfront/features/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "aws:locality:aws_cloudfront:292223",
+        "gazetteer": {
+          "admin1": "03",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "292223",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Dubai"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Dubai",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Amazon Web Services",
+        "record_unit": "provider_service_locality",
+        "service": "aws_cloudfront",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Dubai"
+        ],
+        "source_record_ids": [
+          "aws:edge_pop:cloudfront-ae-dubai"
+        ],
+        "vendor_id": "aws"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          39.18624,
+          21.49012
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+            "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "oracle:locality:oracle_cloud:105343",
+        "gazetteer": {
+          "admin1": "14",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "105343",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Jeddah"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Jeddah",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Oracle Cloud Infrastructure",
+        "record_unit": "provider_service_locality",
+        "service": "oracle_cloud",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Jeddah"
+        ],
+        "source_record_ids": [
+          "oracle:cloud_region:me-jeddah-1"
+        ],
+        "vendor_id": "oracle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.72185,
+          24.68773
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+            "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "oracle:locality:oracle_cloud:108410",
+        "gazetteer": {
+          "admin1": "10",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "108410",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Riyadh"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Riyadh",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Oracle Cloud Infrastructure",
+        "record_unit": "provider_service_locality",
+        "service": "oracle_cloud",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Riyadh"
+        ],
+        "source_record_ids": [
+          "oracle:cloud_region:me-riyadh-1"
+        ],
+        "vendor_id": "oracle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.30927,
+          25.07725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+            "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "oracle:locality:oracle_cloud:292223",
+        "gazetteer": {
+          "admin1": "03",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "292223",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Dubai"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Dubai",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Oracle Cloud Infrastructure",
+        "record_unit": "provider_service_locality",
+        "service": "oracle_cloud",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Dubai"
+        ],
+        "source_record_ids": [
+          "oracle:cloud_region:me-dubai-1"
+        ],
+        "vendor_id": "oracle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          54.39696,
+          24.45118
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/geography-enrichment/oracle-regions.20261019.html",
+            "retrieved_at": "2026-10-19",
+            "source_published_at": null,
+            "source_sha256": "b1eccd5679bc3bb906f9c29d50ca52a9b2789994d76dda63accb07df2fd2ba12",
+            "source_url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "oracle:locality:oracle_cloud:292968",
+        "gazetteer": {
+          "admin1": "01",
+          "evidence": {
+            "raw_source_ref": "data/raw/geography-enrichment/geonames-cities15000.20261019.zip",
+            "retrieved_at": "2026-10-19",
+            "source_id": "geonames-cities15000",
+            "source_published_at": null,
+            "source_sha256": "e900af1e095974fe987247255de6de022b35f5dde5099ab0d186e17ecf06ce96",
+            "source_updated_at": null,
+            "source_url": "https://download.geonames.org/export/dump/cities15000.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "292968",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Abu Dhabi"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Abu Dhabi",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Oracle Cloud Infrastructure",
+        "record_unit": "provider_service_locality",
+        "service": "oracle_cloud",
+        "source_claim_ids": [],
+        "source_locality_labels": [
+          "Abu Dhabi"
+        ],
+        "source_record_ids": [
+          "oracle:cloud_region:me-abudhabi-1"
+        ],
+        "vendor_id": "oracle"
+      },
+      "type": "Feature"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "type": "FeatureCollection"
+}

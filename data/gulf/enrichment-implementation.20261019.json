@@ -1,0 +1,157 @@
+{
+  "baseline_manifest": {
+    "path": "data/raw/repository/manifest-before-gulf.20261019.json",
+    "sha256": "8382445d15c3cdcade55664275daca1be705205a008c9008557d579e3bb6dcc3"
+  },
+  "built_at": "2026-10-19",
+  "canonical_location_additions": 0,
+  "canonical_location_removals": 0,
+  "current_directory_reconfirmed_count": 18,
+  "geometry_null_count": 18,
+  "historical_unconfirmed_count": 1,
+  "infrastructure_counts": {
+    "cloud_interconnect_membership": 11,
+    "dedicated_product_region_reference": 6,
+    "interconnect_endpoint_reference": 10
+  },
+  "listing_discrepancies": [
+    {
+      "current_gulf_rows": [],
+      "historical_muscat_record": "aws:local_zone:mes1-mct1-az1",
+      "missing_listing_is_not_retirement": true,
+      "source": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-local-zones-guide.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-local-zones-guide",
+        "source_published_at": null,
+        "source_sha256": "4f188cbd0edab8ed25e4abf4275c6c44bbca31a7a18eda7d33b61540eb348ab8",
+        "source_updated_at": null,
+        "source_url": "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html"
+      }
+    },
+    {
+      "current_listed_gulf_labels": [
+        "Bahrain",
+        "Doha",
+        "Dubai",
+        "Jeddah",
+        "Muscat",
+        "Riyadh"
+      ],
+      "current_source": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-cloudfront.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-cloudfront",
+        "source_published_at": null,
+        "source_sha256": "a274af8f00f21205c18ff886e800814bc85919fc8cf9d41625b14567b33495da",
+        "source_updated_at": null,
+        "source_url": "https://aws.amazon.com/cloudfront/features/"
+      },
+      "fujairah_assessment": "2022 launch post mentions a CloudFront location, absent from current features city list; do not silently add as currently operational",
+      "historical_fujairah_source": {
+        "raw_source_ref": "data/raw/geography-enrichment/aws-uae-launch.20261019.html",
+        "retrieved_at": "2026-10-19",
+        "source_id": "aws-uae-launch",
+        "source_published_at": "2022-08-29",
+        "source_sha256": "78a43d822154ddbd2a6cf5d214bdb65401dc32f667c21b96a970f1cb201fab02",
+        "source_updated_at": null,
+        "source_url": "https://aws.amazon.com/blogs/aws/now-open-aws-region-in-the-united-arab-emirates-uae/"
+      }
+    }
+  ],
+  "locality_count": 9,
+  "locality_held_count": 10,
+  "muscat_network_corroboration": {
+    "evidence": {
+      "raw_source_ref": "data/raw/gulf-enrichment/aws-ip-ranges.20261019.json",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-ip-ranges",
+      "source_published_at": "2026-10-19",
+      "source_sha256": "021ff6ee7f53985e4c9db2c1dc100f3db18215f0e4a4253a7d149b15870c3f5e",
+      "source_updated_at": null,
+      "source_url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+    },
+    "network_border_group": "me-south-1-mct-1",
+    "operational_local_zone_status_established": false,
+    "record_ids": [
+      "network:provider_prefix:6c118ec6d97f571dc822",
+      "network:provider_prefix:8812c795b44601e1d498",
+      "network:provider_prefix:8a72110e7a3b15161b28",
+      "network:provider_prefix:c8c88dd6abdeb4ced644"
+    ]
+  },
+  "network_record_count": 563,
+  "refreshed_layers": [
+    {
+      "layer": "aws/regions-and-zones",
+      "record_count": 147,
+      "reviewed_record_ids": [
+        "aws:availability_zone:mec1-az1",
+        "aws:availability_zone:mec1-az2",
+        "aws:availability_zone:mec1-az3",
+        "aws:availability_zone:mes1-az1",
+        "aws:availability_zone:mes1-az2",
+        "aws:availability_zone:mes1-az3",
+        "aws:cloud_region:me-central-1",
+        "aws:cloud_region:me-south-1"
+      ]
+    },
+    {
+      "layer": "aws/cloudfront",
+      "record_count": 102,
+      "reviewed_record_ids": [
+        "aws:edge_pop:cloudfront-ae-dubai",
+        "aws:edge_pop:cloudfront-bh-bahrain",
+        "aws:edge_pop:cloudfront-om-muscat",
+        "aws:edge_pop:cloudfront-qa-doha",
+        "aws:edge_pop:cloudfront-sa-jeddah",
+        "aws:edge_pop:cloudfront-sa-riyadh"
+      ]
+    },
+    {
+      "layer": "aws/local-zones",
+      "record_count": 45,
+      "reviewed_record_ids": [
+        "aws:local_zone:mes1-mct1-az1"
+      ]
+    },
+    {
+      "layer": "oracle/cloud-regions",
+      "record_count": 45,
+      "reviewed_record_ids": [
+        "oracle:cloud_region:me-abudhabi-1",
+        "oracle:cloud_region:me-dubai-1",
+        "oracle:cloud_region:me-jeddah-1",
+        "oracle:cloud_region:me-riyadh-1"
+      ]
+    }
+  ],
+  "remaining_gaps": [
+    "Ten endpoint references lack verified street addresses; no physical-site count or geometry admitted.",
+    "Only DX1 and MC1 have independent operator-code corroboration; other names remain source labels.",
+    "Country-only AWS core regions and Bahrain edge label remain unlocated at city precision.",
+    "Muscat Local Zone needs explicit status evidence; Fujairah CloudFront needs a current listing.",
+    "No new routing, latency, DNS or application-origin observations were made.",
+    "Public prefix feeds omit some services and are not complete infrastructure inventories."
+  ],
+  "reproduce": "python3 -B scripts/update_gulf_enrichment.py",
+  "reviewed_canonical_count": 19,
+  "saudi_launch_watch": {
+    "admission_rule": "Require explicit launch evidence and official region/AZ identifiers; geofeed or SDK registration alone is insufficient.",
+    "availability_zone_ids": [],
+    "evidence": {
+      "raw_source_ref": "data/raw/geography-enrichment/aws-saudi-plan.20261019.html",
+      "retrieved_at": "2026-10-19",
+      "source_id": "aws-saudi-plan",
+      "source_published_at": "2026-10-15",
+      "source_sha256": "17175fad1a0d6dc26fbf5037cc807fb692f67a61fd80fed7f993bbee93cd71f6",
+      "source_updated_at": null,
+      "source_url": "https://aws.amazon.com/blogs/migration-and-modernization/how-to-plan-your-migration-to-the-aws-region-in-saudi-arabia/"
+    },
+    "expected_launch": "2026-12",
+    "lifecycle_status": "planned",
+    "region_id": null,
+    "review_due": "2026-10-26"
+  },
+  "scope": "AWS and Oracle GCC enrichment; canonical IDs and previous snapshots preserved"
+}

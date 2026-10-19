@@ -19,6 +19,8 @@ The current October 19 manifest includes the [India/Apple comparisons](cdn-mappi
 
 The same manifest includes the [Russia enrichment](russia-enrichment.20261019.md): six location layers, two Yandex network layers, the refreshed RU geographic view, the RIPE registration comparison and application endpoints. Direct targets include `make data/russia/cdn-asn-comparison.20261019.csv` and `make data/applications/crypto-endpoints.20261019.csv`. The application projection preserves each DNS response and address/provenance objects in JSON cells; entity-level context stays in the canonical JSON. RIPE comparison headers name the registry explicitly while older APNIC projections retain their headers. Location schema 1.3 keeps the same field order as 1.2.
 
+The [Gulf enrichment](gulf-enrichment.20261019.md) adds `make data/gulf/provider-localities.20261019.csv`, `make data/infrastructure/gulf-cloud-connectivity.20261019.csv` and `make data/network/gulf-provider-prefixes.20261019.csv`. Locality CSVs use their geographic-footprint projection, preserving source IDs, gazetteer evidence and the exclusion from canonical totals. The full October 19 CSV target includes these files and the four refreshed AWS/Oracle location layers.
+
 ## Generate CSV
 
 Generate every CSV target recorded by the default dated manifest:

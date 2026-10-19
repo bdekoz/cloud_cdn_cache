@@ -1,0 +1,9 @@
+{
+  "capture_method": "verbatim_repository_snapshot",
+  "purpose": "Frozen manifest before Gulf implementation; retains historical validation boundaries.",
+  "raw_source_ref": "data/raw/repository/manifest-before-gulf.20261019.json",
+  "retrieved_at": "2026-10-19",
+  "sha256": "8382445d15c3cdcade55664275daca1be705205a008c9008557d579e3bb6dcc3",
+  "source_commit": "858b8eb",
+  "source_url": "urn:git:bdekoz/cloud_cdn_cache:858b8eb:data/manifest.20261019.json"
+}

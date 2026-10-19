@@ -1,0 +1,20 @@
+{
+  "bytes": 16377,
+  "capture_method": "http_response",
+  "captured_at": "2026-10-19T16:22:39+00:00",
+  "content_type": "text/html",
+  "final_url": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html",
+  "http_last_modified": "Mon, 19 Oct 2026 14:20:08 GMT",
+  "path": "data/raw/gulf-enrichment/aws-ip-documentation.20261019.html",
+  "publisher": "Amazon Web Services",
+  "raw_source_ref": "data/raw/gulf-enrichment/aws-ip-documentation.20261019.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-19",
+  "role": "Gulf implementation evidence",
+  "sha256": "6c1466e1c95118037b2db55becd5c8c4dde24f0104afb7ae32a8bad46133bb39",
+  "source_id": "aws-ip-documentation",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html",
+  "title": "AWS IP address ranges and geolocation scope"
+}

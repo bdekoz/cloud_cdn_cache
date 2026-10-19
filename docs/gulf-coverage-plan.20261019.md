@@ -1,6 +1,6 @@
 # AWS and Oracle Gulf coverage and accuracy plan
 
-Reviewed October 19, 2026, covering UAE, Saudi Arabia, Bahrain, Oman, Qatar and Kuwait. This is an assessment and proposed implementation sequence; AWS and Oracle canonical layers are unchanged. The [machine-readable review](../data/gulf/aws-oracle-coverage.20261019.json) includes the full baseline, retained evidence and acceptance criteria. Sources are indexed in the [bibliography](bibliography.20261019.md).
+Reviewed October 19, 2026, covering UAE, Saudi Arabia, Bahrain, Oman, Qatar and Kuwait. This document preserves the pre-implementation assessment; the subsequent [implemented enrichment](gulf-enrichment.20261019.md) records the refreshed layers, locality views, scoped infrastructure/network evidence and source monitoring. The [machine-readable review](../data/gulf/aws-oracle-coverage.20261019.json) retains the original baseline, evidence and acceptance criteria. Sources are indexed in the [bibliography](bibliography.20261019.md).
 
 **The baseline has 19 Gulf records; 18 have null geometry.** A mostly empty map therefore understates the inventory already present. Missing geometry, missing deployment records, stale evidence and unresolved source conflicts require different repairs.
 
@@ -43,4 +43,4 @@ The [Oracle EPM directory](https://docs.oracle.com/en/cloud/saas/enterprise-perf
 
 Use composite identities: **AWS `me-central-1` is UAE, while Alibaba's is Riyadh; Alibaba `me-east-1` is Dubai, while Huawei's is Riyadh.** Joining on the region string alone would introduce cross-provider geographic errors. Certification jurisdiction, Outposts product availability, network registration and service health also need separate fields; none establishes a deployed facility address.
 
-No periodic job or network measurements were started. Proposed changes should preserve all existing IDs and dated snapshots, pass schema and source-hash checks, account for every added/held/removed listing, and leave country-only regions unlocated at finer precision.
+No periodic job or network measurements were started during this assessment. The subsequent implementation adds a weekly source checker, with measurements still outside its scope. Changes preserve existing IDs and dated snapshots, pass schema and source-hash checks, account for added/held/removed listings, and leave country-only regions unlocated at finer precision.

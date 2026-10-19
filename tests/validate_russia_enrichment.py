@@ -204,7 +204,8 @@ def manifests_and_regeneration():
     assert frozen["record_count"] == 28019 and frozen["layer_count"] == 39
     assert current["record_count"] == sum(l["record_count"] for l in current["layers"])
     assert current["layers"][33:] == frozen["layers"][33:]
-    assert current["network_evidence_record_count"] == 3387 and current["network_evidence_layer_count"] == 6
+    assert frozen["network_evidence_record_count"] == 3387 and frozen["network_evidence_layer_count"] == 6
+    assert current["network_evidence_layers"][:6] == frozen["network_evidence_layers"]
     assert current["application_endpoint_record_count"] == 15 and current["application_entity_count"] == 5
     assert current["observation_comparison_view_count"] == 3
     assert current["schema"]["path"] == "schema/location-v1.3.schema.json"

@@ -1,0 +1,20 @@
+{
+  "built_at": "2026-10-19",
+  "category_counts": {
+    "cloud_interconnect_membership": 11,
+    "dedicated_product_region_reference": 6,
+    "interconnect_endpoint_reference": 10
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/infrastructure/gulf-cloud-connectivity.20261019.csv",
+      "path": "data/infrastructure/gulf-cloud-connectivity.20261019.csv",
+      "source": "data/infrastructure/gulf-cloud-connectivity.20261019.json"
+    }
+  },
+  "endpoint_reference_count": 10,
+  "operator_code_corroborated_count": 2,
+  "physical_site_count": null,
+  "record_count": 27,
+  "unresolved_address_count": 10
+}
