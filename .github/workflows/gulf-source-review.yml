@@ -2,6 +2,13 @@ name: Gulf source review
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gulf-source-review.yml'
+      - 'scripts/check_gulf_sources.py'
+      - 'scripts/gulf_enrichment_common.py'
+      - 'data/raw/gulf-enrichment/catalog.*.json'
   schedule:
     - cron: '23 8 * * 1'
 
