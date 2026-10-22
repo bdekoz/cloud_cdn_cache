@@ -1,0 +1,193 @@
+{
+  "assertions_by_category": {
+    "datacenter_locality_presence": 67,
+    "expressroute_interconnect": 124,
+    "m365_data_residency_locality": 56,
+    "partner_compute_capacity": 7
+  },
+  "held_claims": [
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:australia-act-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:australia-new-south-wales-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:australia-victoria-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:brazil-greater-campinas-sao-paulo-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:california-santa-clara-county-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:canada-greater-quebec-region-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:canada-ontario-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:danmark-capital-area-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:danmark-zealand-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:dublin-county-kildare-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:germany-nordrhein-westfalen-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:greater-san-antonio-bexar-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:greater-san-antonio-medina-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:greece-attica-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:illinois-chicagoland-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:illinois-illinois-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:indiana-northern-indiana-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:italy-lombardy-partially-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:michigan-west-michigan-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:nevada-nevada-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:north-carolina-catawba-county-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:north-carolina-person-county-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:northern-virginia-fairfax-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:northern-virginia-prince-william-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:northern-virginia-loudoun-operational"
+    },
+    {
+      "locality": "Malaga",
+      "reason": "no_reviewed_gazetteer_match",
+      "record_id": "microsoft:datacenter_locality_presence:quincy-malaga-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:south-africa-city-of-tshwane-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:suomidc-southern-finland-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:united-kingdom-south-east-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:united-kingdom-wales-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:wisconsin-racine-county-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:partner_compute_capacity:nscale-global"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:partner_compute_capacity:microsoft-khazna"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:partner_compute_capacity:microsoft-loughton"
+    }
+  ],
+  "locality_references": 96,
+  "location_records_by_service": {
+    "azure_china": 6,
+    "azure_cloud": 65,
+    "azure_front_door": 238,
+    "azure_government": 5,
+    "microsoft_global_network": 206
+  },
+  "ownership_inventory_complete": false,
+  "quality_findings": [
+    {
+      "finding": "Front Door metro, abbreviation and global-network directories overlap; counts are distinct evidence units.",
+      "severity": "high"
+    },
+    {
+      "finding": "Regions and service cities cannot establish individual campus boundaries or ownership.",
+      "severity": "high"
+    },
+    {
+      "finding": "Three globe POPs grouped under China retain reviewed Hong Kong jurisdiction; six broad source City labels retain regional precision.",
+      "severity": "high"
+    },
+    {
+      "finding": "Some community introductions retain construction wording after a cloud region opened; preserve scope and date instead of promoting lifecycle.",
+      "severity": "medium"
+    },
+    {
+      "finding": "Loughton current Microsoft affiliation is unresolved after October 2026 withdrawal reporting; no locality marker admitted.",
+      "severity": "high"
+    },
+    {
+      "finding": "Expected partner delivery dates do not demonstrate completed deployment.",
+      "severity": "medium"
+    }
+  ],
+  "remaining_gaps": [
+    "Non-public Microsoft leased/owned facility inventory and street addresses.",
+    "No generic mapping from CoreWeave sites or Microsoft investments to Microsoft-occupied campuses.",
+    "No synthetic Azure availability-zone IDs or inferred AZ coordinates.",
+    "No service availability, tenancy, latency or ownership guarantee from a map point."
+  ],
+  "retrieved_at": "2026-10-21",
+  "scope": "Public Microsoft/Azure infrastructure; inventory completeness is not asserted.",
+  "source_catalog": "data/raw/microsoft-enrichment/catalog.20261021.json",
+  "source_catalog_sha256": "d0c37b3a85a70696fe916315a6245c0e8908bfd63689b539fdb4565f8682128a",
+  "unique_physical_datacenter_count": null
+}

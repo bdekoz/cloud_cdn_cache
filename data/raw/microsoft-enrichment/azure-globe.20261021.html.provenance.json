@@ -1,0 +1,16 @@
+{
+  "bytes": 4432,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://datacenters.microsoft.com/globe/explore/",
+  "path": "data/raw/microsoft-enrichment/azure-globe.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/azure-globe.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "49844664e02d8d86d58a9a744ba43649afc9802721a7089f918e67542aa54119",
+  "source_id": "azure-globe",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://datacenters.microsoft.com/globe/explore/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

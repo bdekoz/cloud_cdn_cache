@@ -1,0 +1,16 @@
+{
+  "bytes": 38397,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://docs.azure.cn/en-us/reliability/regions-list",
+  "path": "data/raw/microsoft-enrichment/china-regions.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/china-regions.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "60d508842092124913673ffc0337c56ab8afcee9b1c5a25c4131e5d1ab851b9a",
+  "source_id": "china-regions",
+  "source_published_at": null,
+  "source_updated_at": "2026-10-10",
+  "source_url": "https://docs.azure.cn/en-us/reliability/regions-list",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

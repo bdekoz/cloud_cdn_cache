@@ -1,0 +1,38 @@
+{
+  "coordinate_methods": {
+    "unknown": 6
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/china-cloud-regions.20261021.csv",
+      "path": "data/microsoft/china-cloud-regions.20261021.csv",
+      "source": "data/microsoft/china-cloud-regions.20261021.geojson"
+    }
+  },
+  "entity_types": {
+    "cloud_region": 6
+  },
+  "generated_files": [
+    "data/microsoft/china-cloud-regions.20261021.geojson"
+  ],
+  "geometry_null": 6,
+  "layer": "china-cloud-regions",
+  "lifecycle_statuses": {
+    "operational": 6
+  },
+  "operator_evidence": {
+    "raw_source_ref": "data/raw/microsoft-enrichment/china-operator.20261021.html",
+    "retrieved_at": "2026-10-21",
+    "source_published_at": null,
+    "source_sha256": "2871b0ea179972cf9e1fa3b4c7684de82a82eb684c22c8b7be60e0937fa06617",
+    "source_url": "https://learn.microsoft.com/en-us/azure/china/overview-operations"
+  },
+  "parser": "update_microsoft.py:china-cloud-regions",
+  "raw_source_ref": "data/raw/microsoft-enrichment/china-regions.20261021.html",
+  "record_count": 6,
+  "retrieved_at": "2026-10-21",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "60d508842092124913673ffc0337c56ab8afcee9b1c5a25c4131e5d1ab851b9a",
+  "source_url": "https://docs.azure.cn/en-us/reliability/regions-list"
+}

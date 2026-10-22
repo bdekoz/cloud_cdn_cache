@@ -1,0 +1,16 @@
+{
+  "bytes": 137361,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://news.microsoft.com/source/emea/2025/11/microsoft-and-g42-accelerate-uaes-digital-future-with-major-data-centre-expansion/",
+  "path": "data/raw/microsoft-enrichment/microsoft-khazna.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-khazna.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "68ec18cc8be926a9e6c8c6090434317b14644f2dd9a03819db448ebcaa91a28c",
+  "source_id": "microsoft-khazna",
+  "source_published_at": "2025-11-05",
+  "source_updated_at": "2025-11-11",
+  "source_url": "https://news.microsoft.com/source/emea/2025/11/microsoft-and-g42-accelerate-uaes-digital-future-with-major-data-centre-expansion/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

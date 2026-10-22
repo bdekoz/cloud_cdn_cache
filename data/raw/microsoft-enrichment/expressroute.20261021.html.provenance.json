@@ -1,0 +1,16 @@
+{
+  "bytes": 127371,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-locations-providers",
+  "path": "data/raw/microsoft-enrichment/expressroute.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/expressroute.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "18c7937ef6d5b22523d6da834f1e680a1d9b80c7fdd66bea7b8043af8bf731b2",
+  "source_id": "expressroute",
+  "source_published_at": null,
+  "source_updated_at": "2026-10-20",
+  "source_url": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-locations-providers",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

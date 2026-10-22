@@ -1,0 +1,24 @@
+{
+  "bytes": 244989,
+  "capture_method": "http_response",
+  "content_redactions": [
+    {
+      "field": "modern_tribe_config.mapbox_key",
+      "original_response_sha256": "cf5f2941583b1b52ff5a8a62244abc6e4042ebac645ab9e10ad01f6dd44cade7",
+      "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+      "replacement": "REDACTED_MAPBOX_TOKEN"
+    }
+  ],
+  "content_type": "text/html",
+  "final_url": "https://local.microsoft.com/communities/emea/italy/",
+  "path": "data/raw/microsoft-enrichment/community-italy.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/community-italy.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "dbb14efec33788a9f8e988922399e39c3d9e9a4ac5c9b028d139e9d1ee5f121c",
+  "source_id": "community-italy",
+  "source_published_at": null,
+  "source_updated_at": "2026-08-11",
+  "source_url": "https://local.microsoft.com/communities/emea/italy/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

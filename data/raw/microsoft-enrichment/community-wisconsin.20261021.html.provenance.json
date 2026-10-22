@@ -1,0 +1,24 @@
+{
+  "bytes": 244717,
+  "capture_method": "http_response",
+  "content_redactions": [
+    {
+      "field": "modern_tribe_config.mapbox_key",
+      "original_response_sha256": "496999eea3add95fbf421055598c99dc7e1ebcabab26c024fc39108115da3edf",
+      "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+      "replacement": "REDACTED_MAPBOX_TOKEN"
+    }
+  ],
+  "content_type": "text/html",
+  "final_url": "https://local.microsoft.com/communities/americas/wisconsin/",
+  "path": "data/raw/microsoft-enrichment/community-wisconsin.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/community-wisconsin.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "ab97df7a5b9752ce8afa1f3c68a45d81c529d9c0440c005761b42de7bb9af7c6",
+  "source_id": "community-wisconsin",
+  "source_published_at": null,
+  "source_updated_at": "2026-10-20",
+  "source_url": "https://local.microsoft.com/communities/americas/wisconsin/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

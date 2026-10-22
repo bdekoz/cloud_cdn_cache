@@ -44,6 +44,8 @@ Google AI zones use `properties.zone_kind=ai` and restricted project visibility.
 |---|---|---|
 | Cloudflare | `cloudflare_network` | `edge_pop` |
 | Microsoft | `azure_front_door` | `edge_pop` |
+| Microsoft | `microsoft_global_network` | `edge_pop` (published network-map identifiers, including AI PoPs) |
+| Microsoft Azure | `azure_government` | `cloud_region` |
 | Amazon Web Services | `aws_cloudfront` | `edge_pop`, `regional_edge_cache` |
 | Amazon Web Services | `aws_local_zones` | `local_zone` |
 | Fastly | `fastly_network` | `edge_pop` |
@@ -143,3 +145,7 @@ Address enrichment preserves routing and registry receipts separately. Neither `
 The [October China implementation](../docs/china-enrichment.20261011.md) uses infrastructure-evidence schema 1.0.0 for AI product regions, API endpoints/templates, model listings, GPU product catalogs, recognized compute facilities, portfolios, cable/station declarations and carrier services. Each collection defines its categories and units. Access/storage region, inference scope, developer, API operator and physical host remain distinct. Aggregate or recognition entries do not become speculative location points.
 
 `data/vendors/registry.20261011.json` uses that same record contract for identity metadata. It is separately counted in the manifest and excluded from infrastructure totals. Typed relationships can reference its vendor/brand IDs and explicit canonical region IDs. `validate_collection` resolves external references only against a caller-supplied set of known IDs; its default still rejects unresolved cross-collection joins. Endpoint DNS, ASN registration country, TLS and HTTP results remain non-spatial network evidence. Native observation time is UTC while the October retrieval date uses America/Los_Angeles.
+
+## Microsoft enrichment (2026-10-21)
+
+Microsoft community datacenter disclosures, Microsoft 365 residency cities, ExpressRoute host-location groups and third-party compute agreements use separate infrastructure evidence categories. They do not establish individual buildings or ownership. Reviewed populated-place references use the geographic-footprint schema and have zero facility weight. Front Door and global-network directories overlap and are not additive site counts. Cloud regions retain null geometry; supplementary globe map coordinates remain explicitly qualified properties. No synthetic availability-zone IDs are generated.

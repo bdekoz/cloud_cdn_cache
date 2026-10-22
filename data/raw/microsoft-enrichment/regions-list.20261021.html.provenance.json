@@ -1,0 +1,16 @@
+{
+  "bytes": 80902,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+  "path": "data/raw/microsoft-enrichment/regions-list.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/regions-list.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "8d660850c73f9a62d37a17628600a02c30544a7cc091b88851cf9d55f548d567",
+  "source_id": "regions-list",
+  "source_published_at": null,
+  "source_updated_at": "2026-10-13",
+  "source_url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

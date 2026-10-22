@@ -1,0 +1,1551 @@
+{
+  "retrieved_at": "2026-10-21",
+  "source_count": 70,
+  "sources": [
+    {
+      "bytes": 4432,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://datacenters.microsoft.com/globe/explore/",
+      "path": "data/raw/microsoft-enrichment/azure-globe.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/azure-globe.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "49844664e02d8d86d58a9a744ba43649afc9802721a7089f918e67542aa54119",
+      "source_id": "azure-globe",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://datacenters.microsoft.com/globe/explore/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 37505,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/azure/china/overview-operations",
+      "path": "data/raw/microsoft-enrichment/china-operator.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/china-operator.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "2871b0ea179972cf9e1fa3b4c7684de82a82eb684c22c8b7be60e0937fa06617",
+      "source_id": "china-operator",
+      "source_published_at": null,
+      "source_updated_at": "2024-08-05",
+      "source_url": "https://learn.microsoft.com/en-us/azure/china/overview-operations",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 38397,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://docs.azure.cn/en-us/reliability/regions-list",
+      "path": "data/raw/microsoft-enrichment/china-regions.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/china-regions.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "60d508842092124913673ffc0337c56ab8afcee9b1c5a25c4131e5d1ab851b9a",
+      "source_id": "china-regions",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-10",
+      "source_url": "https://docs.azure.cn/en-us/reliability/regions-list",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 229362,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "8b6cfaaa4d0f054e6a6d0130eade400b00650cef6460c63e14dc88d7ba1f2fab",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/",
+      "path": "data/raw/microsoft-enrichment/communities.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/communities.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "49cd0d5e6a7aa4f652de836e38bbc0564c099f263d2237fe38d5fee015b8a9bc",
+      "source_id": "communities",
+      "source_published_at": null,
+      "source_updated_at": "2025-04-16",
+      "source_url": "https://local.microsoft.com/communities/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 249083,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "70878a11a8d34e32a9b58308e374b7f7da96999a5a4b68244531b4888d103bbc",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/australia/",
+      "path": "data/raw/microsoft-enrichment/community-australia.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-australia.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "8c70f7367ff64a46c929e1d105d1492283045325a4d709966ac0239454804df0",
+      "source_id": "community-australia",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-15",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/australia/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 241394,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "9f64612d8733827f1af33be432853e952b8ebfe665e5c305e8f4672abe79ef90",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/austria/",
+      "path": "data/raw/microsoft-enrichment/community-austria.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-austria.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "91f202b9079870096893edffb85ade2445882144a900622d162b02a2fac3d4af",
+      "source_id": "community-austria",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/emea/austria/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 245699,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "999fdb4648f649006d2e9f802ffdfeba06d55c39548fd6c276c9d93bd63b59a7",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/brazil-greater-campinas/",
+      "path": "data/raw/microsoft-enrichment/community-brazil-greater-campinas.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-brazil-greater-campinas.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "a93d0663b2ca7c2f52fad0195b4fa5d2071e600f142050d1beea1f5dbe2a069e",
+      "source_id": "community-brazil-greater-campinas",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-01",
+      "source_url": "https://local.microsoft.com/communities/americas/brazil-greater-campinas/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 235998,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "d1f13c96e3a24d477a8b67f766ed53d2e742d24a8ac02dcf39a0a0cd8b1178c8",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/california/",
+      "path": "data/raw/microsoft-enrichment/community-california.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-california.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "ec0f03155219e891116343ce7a1c04c1eb7bdf85f9e09b51055947bf89e6a46d",
+      "source_id": "community-california",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/americas/california/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 247082,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "9b0ebc7e8f9bdb948e56d47b4282274d809968cfcc2ad4dbc3630e805d54be8e",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/canada/",
+      "path": "data/raw/microsoft-enrichment/community-canada.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-canada.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "5e050dcfc55a409236aaf1ac3c5f9c42703b79e49cf431ee0c5ba598484d842c",
+      "source_id": "community-canada",
+      "source_published_at": null,
+      "source_updated_at": "2026-08-05",
+      "source_url": "https://local.microsoft.com/communities/americas/canada/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 245649,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "c5ce64c784c2e1a8f0adc403760de969a23d6f4f3403f341c42000be7ad71e85",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/cheyenne/",
+      "path": "data/raw/microsoft-enrichment/community-cheyenne.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-cheyenne.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "6c2697199d767f116dcc7758d5ec32a09130e740d063d8d0628511de19fc163e",
+      "source_id": "community-cheyenne",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://local.microsoft.com/communities/americas/cheyenne/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 246720,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "6fff87e5dabd6a0fd41cb1b4c9386d2752bee84bcb25f178d2ca2371046c352c",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/danmark/",
+      "path": "data/raw/microsoft-enrichment/community-danmark.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-danmark.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "bdeab535e158b4a4f95284059ef0f9ebf8dfdf6c9e14636008530823ddf9c99e",
+      "source_id": "community-danmark",
+      "source_published_at": null,
+      "source_updated_at": "2026-07-14",
+      "source_url": "https://local.microsoft.com/communities/emea/danmark/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242299,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "cff20d16de989f8dd10ecb03ad81f924cfbdcd277af9b1208cfb0800c928f193",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/dublin/",
+      "path": "data/raw/microsoft-enrichment/community-dublin.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-dublin.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "4794a9dabfc2958f48ba4f9b64a0212c0c5755da763e0c4d3c7981ba317f0194",
+      "source_id": "community-dublin",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/emea/dublin/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 239010,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "7f41b801a63abdb00d2085b5fb4c06a112da52999badea5c2cf470b43eff0faa",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/germany/",
+      "path": "data/raw/microsoft-enrichment/community-germany.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-germany.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "d350ba04ae9a31c420222acd770073790219c7ce26884de1057ca51e4fb67c2a",
+      "source_id": "community-germany",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/emea/germany/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 243295,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "b0cec495e9f0a6a30b7191948b5e87f617a7395c6ab213da2a63d724590f6501",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/greater-atlanta/",
+      "path": "data/raw/microsoft-enrichment/community-greater-atlanta.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-atlanta.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "7a017e2bbc3e760f8524818781c18b21d82b13d2aa8dbc4b8c9826de330783f5",
+      "source_id": "community-greater-atlanta",
+      "source_published_at": null,
+      "source_updated_at": "2026-07-06",
+      "source_url": "https://local.microsoft.com/communities/americas/greater-atlanta/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 243540,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "034b389c2874616466d78d116ccdbcf95b6ab71760bd6be7f5a3924826790831",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/greater-des-moines/",
+      "path": "data/raw/microsoft-enrichment/community-greater-des-moines.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-des-moines.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "35faa6a3d3dedfc99eed83cfbb808a2c6bd696c3cb8700f183bf44fc5cce1424",
+      "source_id": "community-greater-des-moines",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/americas/greater-des-moines/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 240460,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "2aee30d6057127ad0b3016e34b803b5442b7b7a4f6962dd651148105d748d01c",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/greater-phoenix/",
+      "path": "data/raw/microsoft-enrichment/community-greater-phoenix.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-phoenix.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "c07ea934a59aed92ce8229ee56c88d99d6ee953b8397fc247d5e57766e1b5cef",
+      "source_id": "community-greater-phoenix",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/americas/greater-phoenix/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 252063,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "0779a1d5460f7e069d731c258ae6ab54eb067b01bad274172914a0a7b5d1ae80",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/greater-san-antonio/",
+      "path": "data/raw/microsoft-enrichment/community-greater-san-antonio.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-san-antonio.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "ca3b10af1c7a8703bc15df8cce47272b38ecbc4d79331566fed7b89f6898e2a1",
+      "source_id": "community-greater-san-antonio",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-13",
+      "source_url": "https://local.microsoft.com/communities/americas/greater-san-antonio/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242556,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "62d382a49368272e1922441ab1058c6ea55ece4ac83e6fe8ec58d8e913823d02",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/greece/",
+      "path": "data/raw/microsoft-enrichment/community-greece.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-greece.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "7d091db39801f35d999678de57641cd612e7e6bd8d561a9ad33c488e02b1dde4",
+      "source_id": "community-greece",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/emea/greece/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 237706,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "268f89b050548786b5e3339a090306fab58d1af62e6f66624e1f76b56a80950b",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/illinois/",
+      "path": "data/raw/microsoft-enrichment/community-illinois.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-illinois.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "84d60fded251e615b6f44765e278e79b4335d75b7930a1faa82656042a872d15",
+      "source_id": "community-illinois",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/americas/illinois/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 244861,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "ee37b991621e1a89e2c64b32c96669fcff1a511756da3bce5ea2b5e45cdfd00e",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/india-hyderabad-and-pune/",
+      "path": "data/raw/microsoft-enrichment/community-india-hyderabad-and-pune.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-india-hyderabad-and-pune.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "872e9d6b7c356f5b8ad9dd7e1c246b70311f5ccc70957230264c91d7f7f0252e",
+      "source_id": "community-india-hyderabad-and-pune",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/india-hyderabad-and-pune/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 238975,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "8d16edf384390990871033a422df575d6feb032e405e8eeb4dbcba1f1dc5b287",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/indiana/",
+      "path": "data/raw/microsoft-enrichment/community-indiana.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-indiana.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "e5ffab93ebe5bf9934f920f22000730ef9498b8bd2a0ab55c6c85c2240aa7c79",
+      "source_id": "community-indiana",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-17",
+      "source_url": "https://local.microsoft.com/communities/americas/indiana/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 243120,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "dfe9dddf3daca3a7b3293b94c9806a4d2afa985d2bbb2249c976fe162abccbab",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/indonesia/",
+      "path": "data/raw/microsoft-enrichment/community-indonesia.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-indonesia.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "ba7bfce33b30e8e18e7e9b4f951a698b52d177e3d506d82e39526dcf6ae63540",
+      "source_id": "community-indonesia",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-30",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/indonesia/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 244989,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "cf5f2941583b1b52ff5a8a62244abc6e4042ebac645ab9e10ad01f6dd44cade7",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/italy/",
+      "path": "data/raw/microsoft-enrichment/community-italy.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-italy.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "dbb14efec33788a9f8e988922399e39c3d9e9a4ac5c9b028d139e9d1ee5f121c",
+      "source_id": "community-italy",
+      "source_published_at": null,
+      "source_updated_at": "2026-08-11",
+      "source_url": "https://local.microsoft.com/communities/emea/italy/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 234448,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "2cb2b7c1f810727b2d4337cbb9d6aa4897e7acc884c6ddaef1293fea7f0b55da",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/japan/",
+      "path": "data/raw/microsoft-enrichment/community-japan.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-japan.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "c932c94ea9cab5519fe13ae52bf360a22cc88961b48b7514025a61462538f19c",
+      "source_id": "community-japan",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/japan/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242105,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "568034bac4c35f77ad7955d6d4504ca92c3f86f0b8eec0f7a95624dd8ac0c2af",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/korea/",
+      "path": "data/raw/microsoft-enrichment/community-korea.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-korea.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "836ba71495c792bbbe0ba1741eb5ef884f2b3f07d4d36796c43b2d553d78ad1c",
+      "source_id": "community-korea",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/korea/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 244328,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "51a42d2e9eedabaf404d5a0e74639e06b55ab89916640f667919e43f278017a3",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/malaysia/",
+      "path": "data/raw/microsoft-enrichment/community-malaysia.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-malaysia.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "1b4d94643cfe9b464c4a100fa9722fc513add20af586e75ece90728e443f86dc",
+      "source_id": "community-malaysia",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-10",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/malaysia/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242692,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "6f2c60f55b6b3f2aaa55087fa54901b938868d4f6d7f07032e41531942709cc9",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/mexico/",
+      "path": "data/raw/microsoft-enrichment/community-mexico.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-mexico.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "20960877f2a23292f3bf155e40678b89e8e98cb74c4446d218b557a9cb1afbda",
+      "source_id": "community-mexico",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/americas/mexico/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 234942,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "72d5c2b96410e9aaf90b5ce0162d587e1454817839e95830f3d2ac3176f24204",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/michigan/",
+      "path": "data/raw/microsoft-enrichment/community-michigan.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-michigan.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "5a2fe80655a70d67a47cee9df3b3e5f0ee3f260e8aabb28dc264f3a6458126f8",
+      "source_id": "community-michigan",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-15",
+      "source_url": "https://local.microsoft.com/communities/americas/michigan/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 234788,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "5b908d92ef73d9dff83269a746ecc22a5b6655596752b483ff863a05e9bcfc7f",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/nevada/",
+      "path": "data/raw/microsoft-enrichment/community-nevada.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-nevada.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "68e6a689f22a5727eaf1029d35268de77b583e71ac973643e17ad4db20968e3c",
+      "source_id": "community-nevada",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://local.microsoft.com/communities/americas/nevada/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 244309,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "972fe909b94b4b6810389085f261588000e8ccd9cd8ad483083aec2f1f8bddf0",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/new-zealand/",
+      "path": "data/raw/microsoft-enrichment/community-new-zealand.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-new-zealand.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "5cd810392a98d739f0ca7e7b2817c1243a36957083c7686290288695205c7fe2",
+      "source_id": "community-new-zealand",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/new-zealand/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242314,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "85be417eb4d051429a14acddfbbe6487a75e4ad54372ad77bd98400bf7121376",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/north-carolina/",
+      "path": "data/raw/microsoft-enrichment/community-north-carolina.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-north-carolina.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "c51bac90140b05694441751d4f17ef55108cad17a1fdea8959d81a2967d8b213",
+      "source_id": "community-north-carolina",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-30",
+      "source_url": "https://local.microsoft.com/communities/americas/north-carolina/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 244141,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "0dfa37beafe71540cae26fa54710d179bdba3061de0f9a269f1cfb7c11258da2",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/north-holland/",
+      "path": "data/raw/microsoft-enrichment/community-north-holland.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-north-holland.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "447b9d371b07e3f0f4dbcc5f029f93fbf75ac3223ffa47818c2e612e4a018772",
+      "source_id": "community-north-holland",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/emea/north-holland/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242919,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "440335717c126e860f1ac4cd8cf909f17be994fd6a0c31d1cae3a691f03d5190",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/northern-virginia/",
+      "path": "data/raw/microsoft-enrichment/community-northern-virginia.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-northern-virginia.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "700934a658e5ac19638b719cb234b350966fbddf68bb07e6187bdf45d378e1fb",
+      "source_id": "community-northern-virginia",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://local.microsoft.com/communities/americas/northern-virginia/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242239,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "6a37c0d8458b7bc54862eb0a5fa1148db782993f04555c6700cc5989755a30ca",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/ohio/",
+      "path": "data/raw/microsoft-enrichment/community-ohio.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-ohio.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "535033e2f4a4242a5ee1a87e72d42d4545d9b155bd399c998bf5bd9995cab254",
+      "source_id": "community-ohio",
+      "source_published_at": null,
+      "source_updated_at": "2026-07-15",
+      "source_url": "https://local.microsoft.com/communities/americas/ohio/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 242509,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "5a34ed1635b3bb25e36b2b72c555501302422c597f0d71d74d756a9a1f1685ac",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/quincy/",
+      "path": "data/raw/microsoft-enrichment/community-quincy.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-quincy.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "a063d8d01af25ac50f4cab2ce07a2739a99ce66466440951bc96629cffb398a7",
+      "source_id": "community-quincy",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/americas/quincy/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 241142,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "d6be8beef9f7ddcd80db189856900dea7759a8d4055b51647f4ecc93a4652a78",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/singapore/",
+      "path": "data/raw/microsoft-enrichment/community-singapore.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-singapore.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "8ee0516db791400b495a14c0cd56cc029d55d07192a1f0758fdc1b51759fd8b6",
+      "source_id": "community-singapore",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/singapore/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 232053,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "b5131158ff934eb33897866953ff6231eb43ac0021a587e70564c535566cad89",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/south-africa/",
+      "path": "data/raw/microsoft-enrichment/community-south-africa.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-south-africa.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "dbd7f3500e137af6c3beb6a9ae06cd7ad64de58c9b9c40d0a97688463ce3dfc2",
+      "source_id": "community-south-africa",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-01",
+      "source_url": "https://local.microsoft.com/communities/emea/south-africa/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 245086,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "ac8308058400db79cfe2868e11c21a3abae505e803f5124558cb8b609866b5a7",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/southern-virginia/",
+      "path": "data/raw/microsoft-enrichment/community-southern-virginia.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-southern-virginia.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "4213c02ca8747995fdb9a832a12396a638a1ca3442bbd4b7dd7404a24e995ad8",
+      "source_id": "community-southern-virginia",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://local.microsoft.com/communities/americas/southern-virginia/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 241753,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "4bd9985cc7b892ebc00782132a152881f4cb4e74c4616c89484248f309566e90",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/spain/",
+      "path": "data/raw/microsoft-enrichment/community-spain.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-spain.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "81cc9b4000a909f94f5e1a97751e9fc94f3df87139f9aef61fd6d38b2947c076",
+      "source_id": "community-spain",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://local.microsoft.com/communities/emea/spain/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 249331,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "a0ecece1defde364318d15209748cc792cdc486de45ede3efb7f9f1b4c0a955a",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/suomidc/",
+      "path": "data/raw/microsoft-enrichment/community-suomidc.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-suomidc.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "c1379bd4a52d008da360f04984053408b8549157388c82e6037eebf89ab0da6c",
+      "source_id": "community-suomidc",
+      "source_published_at": null,
+      "source_updated_at": "2026-08-20",
+      "source_url": "https://local.microsoft.com/communities/emea/suomidc/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 245598,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "da3ed3d6d40b9eb332ab412d4bb59b153a974cbd240b0ee0becb5702e0b17106",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/sweden/",
+      "path": "data/raw/microsoft-enrichment/community-sweden.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-sweden.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "f37d9485625115b280ec4004426e468381dab1188c93269abf52d05705a24796",
+      "source_id": "community-sweden",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-28",
+      "source_url": "https://local.microsoft.com/communities/emea/sweden/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 241496,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "6929291eca6b0227a7d575fe3f6f1f80813e7882c7247bd44faa6fd130927673",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/asia-pacific/taiwan/",
+      "path": "data/raw/microsoft-enrichment/community-taiwan.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-taiwan.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "28f935ae19a7726599fb15937673d620628e2b9231acaebe8d2fa71252e85834",
+      "source_id": "community-taiwan",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-24",
+      "source_url": "https://local.microsoft.com/communities/asia-pacific/taiwan/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 245954,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "bbdd4ce62671f403d7205df1f6c19e63b543a140c9e13d0eabe1cbf80e9adb6a",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/united-kingdom/",
+      "path": "data/raw/microsoft-enrichment/community-united-kingdom.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-united-kingdom.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "fdd9be39ab15bc2e6c9cfac03a189f39367f96fb985964924f5ce3bdacdf03d7",
+      "source_id": "community-united-kingdom",
+      "source_published_at": null,
+      "source_updated_at": "2026-06-30",
+      "source_url": "https://local.microsoft.com/communities/emea/united-kingdom/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 248586,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "ed87e4ab0b9b73e6205f19330471ae7f922b5ec03134c5a9f97c8541fd65607e",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/emea/warsaw-metropolitan-area-poland/",
+      "path": "data/raw/microsoft-enrichment/community-warsaw-metropolitan-area-poland.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-warsaw-metropolitan-area-poland.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "16ed3da35280fe5377851b722f10bc2cbb3609a1fbd23c0e2e37e01b68168902",
+      "source_id": "community-warsaw-metropolitan-area-poland",
+      "source_published_at": null,
+      "source_updated_at": "2026-09-04",
+      "source_url": "https://local.microsoft.com/communities/emea/warsaw-metropolitan-area-poland/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 244717,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "496999eea3add95fbf421055598c99dc7e1ebcabab26c024fc39108115da3edf",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/communities/americas/wisconsin/",
+      "path": "data/raw/microsoft-enrichment/community-wisconsin.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/community-wisconsin.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "ab97df7a5b9752ce8afa1f3c68a45d81c529d9c0440c005761b42de7bb9af7c6",
+      "source_id": "community-wisconsin",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-20",
+      "source_url": "https://local.microsoft.com/communities/americas/wisconsin/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 219981,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://datacenters.microsoft.com/",
+      "path": "data/raw/microsoft-enrichment/datacenters-home.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/datacenters-home.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "b0ff88a8d03d9521a5c7352bf1877bb5ef740ed374d564ac35eaeff2c2f9fd4d",
+      "source_id": "datacenters-home",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-12",
+      "source_url": "https://datacenters.microsoft.com/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 127371,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-locations-providers",
+      "path": "data/raw/microsoft-enrichment/expressroute.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/expressroute.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "18c7937ef6d5b22523d6da834f1e680a1d9b80c7fdd66bea7b8043af8bf731b2",
+      "source_id": "expressroute",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-20",
+      "source_url": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-locations-providers",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 252685,
+      "capture_method": "http_response",
+      "content_redactions": [
+        {
+          "field": "modern_tribe_config.mapbox_key",
+          "original_response_sha256": "351bf868d7bb5e23bbd04f1686531248a43c9102b7f9a7957f8aa0324437d607",
+          "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+          "replacement": "REDACTED_MAPBOX_TOKEN"
+        }
+      ],
+      "content_type": "text/html",
+      "final_url": "https://local.microsoft.com/blog/datacenter-operations-fact-sheets/",
+      "path": "data/raw/microsoft-enrichment/fact-sheets.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/fact-sheets.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "1eb4f8fb0b538d579e86a8cd75e52e936ceb817710a4734bf21c6e983d619ad3",
+      "source_id": "fact-sheets",
+      "source_published_at": "2025-10-22",
+      "source_updated_at": "2025-11-07",
+      "source_url": "https://local.microsoft.com/blog/datacenter-operations-fact-sheets/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 58921,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation",
+      "path": "data/raw/microsoft-enrichment/frontdoor-codes.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/frontdoor-codes.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "4b052769b6166f59c26caac7ef1ef9b4f2a04377b9585b45f6811969e98418f0",
+      "source_id": "frontdoor-codes",
+      "source_published_at": null,
+      "source_updated_at": "2025-12-19",
+      "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 51642,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+      "path": "data/raw/microsoft-enrichment/frontdoor-locations.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/frontdoor-locations.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "fe0907c1c79618cb502d86eec04a0f0ea7ab526880d5c1cd478217ea712a0ce2",
+      "source_id": "frontdoor-locations",
+      "source_published_at": null,
+      "source_updated_at": "2025-09-25",
+      "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 1805,
+      "capture_method": "http_response",
+      "content_type": "application/json",
+      "final_url": "https://datacenters.microsoft.com/wp-json/globe",
+      "path": "data/raw/microsoft-enrichment/globe-api-index.20261021.json",
+      "raw_source_ref": "data/raw/microsoft-enrichment/globe-api-index.20261021.json",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "267a17eb846a6e6be289de938629ad913555bfa7169b2e833c0d56c41e0827be",
+      "source_id": "globe-api-index",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://datacenters.microsoft.com/wp-json/globe",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 3,
+      "capture_method": "http_response",
+      "content_type": "application/json",
+      "final_url": "https://datacenters.microsoft.com/wp-json/globe/edgezones",
+      "path": "data/raw/microsoft-enrichment/globe-edgezones.20261021.json",
+      "raw_source_ref": "data/raw/microsoft-enrichment/globe-edgezones.20261021.json",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "e7526f9a4360fd590555d5b3a1107042f18a6ace66a09cbbfd266f86621266fb",
+      "source_id": "globe-edgezones",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://datacenters.microsoft.com/wp-json/globe/edgezones",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 85670,
+      "capture_method": "http_response",
+      "content_type": "application/json",
+      "final_url": "https://datacenters.microsoft.com/wp-json/globe/geographies",
+      "path": "data/raw/microsoft-enrichment/globe-geographies.20261021.json",
+      "raw_source_ref": "data/raw/microsoft-enrichment/globe-geographies.20261021.json",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "57ddd93fcd94cdc3d44ba243b11d06ea6f05cde1fdd3f6acefde351a990c1faf",
+      "source_id": "globe-geographies",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://datacenters.microsoft.com/wp-json/globe/geographies",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 139821,
+      "capture_method": "http_response",
+      "content_type": "application/json",
+      "final_url": "https://datacenters.microsoft.com/wp-json/globe/pops",
+      "path": "data/raw/microsoft-enrichment/globe-pops.20261021.json",
+      "raw_source_ref": "data/raw/microsoft-enrichment/globe-pops.20261021.json",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "889d7fa515da27ad9e2c85c0b1733c4d9682f5a5ada2b62829436bd2e020ebce",
+      "source_id": "globe-pops",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://datacenters.microsoft.com/wp-json/globe/pops",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 197234,
+      "capture_method": "http_response",
+      "content_type": "application/json",
+      "final_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+      "path": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+      "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+      "source_id": "globe-regions",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 67346,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-overview-dod",
+      "path": "data/raw/microsoft-enrichment/government-dod.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/government-dod.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "be5946697097604950d6ce0cea2b2c1d6bd9ccc873007c53383a78079d0bcea7",
+      "source_id": "government-dod",
+      "source_published_at": null,
+      "source_updated_at": "2025-09-08",
+      "source_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-overview-dod",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 53445,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome",
+      "path": "data/raw/microsoft-enrichment/government-regions.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/government-regions.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "929014c155ccab57bb071d25179f3b4ed5b7b3b1bbb8a60f1c95023930723b92",
+      "source_id": "government-regions",
+      "source_published_at": null,
+      "source_updated_at": "2026-05-19",
+      "source_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 1092459,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://www.itpro.com/infrastructure/data-centres/microsoft-pulls-plug-on-essex-data-center-development-over-power-supply",
+      "path": "data/raw/microsoft-enrichment/loughton-conflict.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/loughton-conflict.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "b506e48791a0752bf7cb88978f5fd6568b244dcbc5a92027c9a75f4f46f8f5c3",
+      "source_id": "loughton-conflict",
+      "source_published_at": "2026-10-19",
+      "source_updated_at": null,
+      "source_url": "https://www.itpro.com/infrastructure/data-centres/microsoft-pulls-plug-on-essex-data-center-development-over-power-supply",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 56231,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations?view=o365-worldwide",
+      "path": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+      "source_id": "m365-locations",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-08",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 137361,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://news.microsoft.com/source/emea/2025/11/microsoft-and-g42-accelerate-uaes-digital-future-with-major-data-centre-expansion/",
+      "path": "data/raw/microsoft-enrichment/microsoft-khazna.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-khazna.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "68ec18cc8be926a9e6c8c6090434317b14644f2dd9a03819db448ebcaa91a28c",
+      "source_id": "microsoft-khazna",
+      "source_published_at": "2025-11-05",
+      "source_updated_at": "2025-11-11",
+      "source_url": "https://news.microsoft.com/source/emea/2025/11/microsoft-and-g42-accelerate-uaes-digital-future-with-major-data-centre-expansion/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 234399,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://ukstories.microsoft.com/features/building-the-foundations-of-the-uks-intelligence-economy/",
+      "path": "data/raw/microsoft-enrichment/microsoft-loughton.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-loughton.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "00db4df5077f435470ea48fb64bdb02879798316b399cf97dd27b3e6e18104b3",
+      "source_id": "microsoft-loughton",
+      "source_published_at": null,
+      "source_updated_at": "2026-05-29",
+      "source_url": "https://ukstories.microsoft.com/features/building-the-foundations-of-the-uks-intelligence-economy/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 149842,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://news.microsoft.com/source/emea/features/the-port-town-in-norway-emerging-as-an-ai-hub/",
+      "path": "data/raw/microsoft-enrichment/microsoft-narvik.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-narvik.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "4ebdd634ffdb41ec515e5df899f025003701a2156f383fca0d6793aa993314c4",
+      "source_id": "microsoft-narvik",
+      "source_published_at": null,
+      "source_updated_at": "2025-09-18",
+      "source_url": "https://news.microsoft.com/source/emea/features/the-port-town-in-norway-emerging-as-an-ai-hub/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 144218,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://news.microsoft.com/source/emea/2026/02/microsoft-confirms-saudi-arabia-datacenter-region-available-for-customers-to-run-cloud-workloads-from-q4-2026/",
+      "path": "data/raw/microsoft-enrichment/microsoft-saudi.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-saudi.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "7c2a8ba5543b8e882cf97acc0ee0134bf4341197eceb6af68262592026436d52",
+      "source_id": "microsoft-saudi",
+      "source_published_at": "2026-02-10",
+      "source_updated_at": "2026-02-10",
+      "source_url": "https://news.microsoft.com/source/emea/2026/02/microsoft-confirms-saudi-arabia-datacenter-region-available-for-customers-to-run-cloud-workloads-from-q4-2026/",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 131438,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://news.microsoft.com/source/emea/2025/11/microsoft-acelera-infraestrutura-de-ia-em-portugal-assinalando-35-anos-de-inovacao-no-pais/?lang=pt-pt",
+      "path": "data/raw/microsoft-enrichment/microsoft-sines.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-sines.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "47f25f24231e0d53bf0c395217a022d15891cfe4ed4da92e43a7daaca7c71dd1",
+      "source_id": "microsoft-sines",
+      "source_published_at": "2025-11-11",
+      "source_updated_at": "2026-07-31",
+      "source_url": "https://news.microsoft.com/source/emea/2025/11/microsoft-acelera-infraestrutura-de-ia-em-portugal-assinalando-35-anos-de-inovacao-no-pais/?lang=pt-pt",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 243657,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://nebius.com/blog/posts/digest-september-2025",
+      "path": "data/raw/microsoft-enrichment/nebius-vineland.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/nebius-vineland.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "f1ea9513635af29814d0713364fb03ad5f9ae2b285534071d8e0d924b1512772",
+      "source_id": "nebius-vineland",
+      "source_published_at": "2025-10-03",
+      "source_updated_at": null,
+      "source_url": "https://nebius.com/blog/posts/digest-september-2025",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 77354,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://www.nscale.com/press-releases/nscale-microsoft-2025",
+      "path": "data/raw/microsoft-enrichment/nscale-global.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/nscale-global.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "6a195ad37f467d599042f6293c96415ca79150f6727b3e2d84c3ab9e261de010",
+      "source_id": "nscale-global",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.nscale.com/press-releases/nscale-microsoft-2025",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 74918,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://www.nscale.com/press-releases/nscale-microsoft-norway",
+      "path": "data/raw/microsoft-enrichment/nscale-narvik.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/nscale-narvik.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "2d419ef4cd6754f639122e8b3d3d6d877cf2a2d62c8ceeee12680eb86df4102c",
+      "source_id": "nscale-narvik",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://www.nscale.com/press-releases/nscale-microsoft-norway",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 80902,
+      "capture_method": "http_response",
+      "content_type": "text/html",
+      "final_url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+      "path": "data/raw/microsoft-enrichment/regions-list.20261021.html",
+      "raw_source_ref": "data/raw/microsoft-enrichment/regions-list.20261021.html",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "8d660850c73f9a62d37a17628600a02c30544a7cc091b88851cf9d55f548d567",
+      "source_id": "regions-list",
+      "source_published_at": null,
+      "source_updated_at": "2026-10-13",
+      "source_url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+      "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+    },
+    {
+      "bytes": 6354,
+      "capture_method": "web_tool_response",
+      "content_type": "application/json",
+      "direct_http_status": 403,
+      "path": "data/raw/microsoft-enrichment/iren-childress.20261021.web.json",
+      "raw_source_ref": "data/raw/microsoft-enrichment/iren-childress.20261021.web.json",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "sha256": "3f50b0d2b77af3607b8af4ac7994a9081168796e750d5b98b4f9aaa3a0c2e106",
+      "source_id": "iren-childress",
+      "source_published_at": "2025-11-03",
+      "source_updated_at": null,
+      "source_url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft",
+      "terms_note": "Retained web-reader extraction of the primary press release; not original HTTP HTML."
+    },
+    {
+      "archive_member": "cities500.txt",
+      "bytes": 58880,
+      "capture_method": "verbatim_selected_archive_rows",
+      "content_type": "text/tab-separated-values",
+      "download_bytes": 13898025,
+      "download_sha256": "f1cc7e34c7a3a65195a545221521b8e11c63b2c473d6d01c72158ce33a9611e6",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "path": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+      "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+      "result": "retrieved",
+      "retrieved_at": "2026-10-21",
+      "selected_geonames_ids": [
+        "1259229",
+        "1264527",
+        "1269843",
+        "1275339",
+        "1642911",
+        "1668341",
+        "1735161",
+        "1835848",
+        "1838524",
+        "1850147",
+        "1853909",
+        "1880252",
+        "2147714",
+        "2158177",
+        "2193733",
+        "2262917",
+        "2618425",
+        "2643743",
+        "2650628",
+        "2653822",
+        "2657896",
+        "2660646",
+        "2674649",
+        "2680075",
+        "2712414",
+        "2750850",
+        "2759794",
+        "2761369",
+        "290030",
+        "292223",
+        "2925533",
+        "292968",
+        "293397",
+        "2950159",
+        "2964574",
+        "2988507",
+        "2995469",
+        "3117735",
+        "3137115",
+        "3143244",
+        "3144987",
+        "3173435",
+        "3369157",
+        "3447259",
+        "3451190",
+        "3461655",
+        "3467865",
+        "3871336",
+        "3991164",
+        "4013708",
+        "4191955",
+        "4192674",
+        "4214627",
+        "4504621",
+        "4514004",
+        "4726206",
+        "4748634",
+        "4853828",
+        "4881346",
+        "4887398",
+        "5157262",
+        "5164202",
+        "5293996",
+        "5296266",
+        "5392171",
+        "5393015",
+        "5518758",
+        "5793271",
+        "5807713",
+        "5821086",
+        "6167865",
+        "6325494",
+        "632978",
+        "651299",
+        "658225",
+        "756135",
+        "993800"
+      ],
+      "sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+      "source_id": "geonames-selected",
+      "source_published_at": null,
+      "source_updated_at": null,
+      "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+    }
+  ]
+}

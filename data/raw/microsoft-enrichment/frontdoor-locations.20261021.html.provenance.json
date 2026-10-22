@@ -1,0 +1,16 @@
+{
+  "bytes": 51642,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+  "path": "data/raw/microsoft-enrichment/frontdoor-locations.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/frontdoor-locations.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "fe0907c1c79618cb502d86eec04a0f0ea7ab526880d5c1cd478217ea712a0ce2",
+  "source_id": "frontdoor-locations",
+  "source_published_at": null,
+  "source_updated_at": "2025-09-25",
+  "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

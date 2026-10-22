@@ -1,0 +1,16 @@
+{
+  "bytes": 144218,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://news.microsoft.com/source/emea/2026/02/microsoft-confirms-saudi-arabia-datacenter-region-available-for-customers-to-run-cloud-workloads-from-q4-2026/",
+  "path": "data/raw/microsoft-enrichment/microsoft-saudi.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-saudi.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "7c2a8ba5543b8e882cf97acc0ee0134bf4341197eceb6af68262592026436d52",
+  "source_id": "microsoft-saudi",
+  "source_published_at": "2026-02-10",
+  "source_updated_at": "2026-02-10",
+  "source_url": "https://news.microsoft.com/source/emea/2026/02/microsoft-confirms-saudi-arabia-datacenter-region-available-for-customers-to-run-cloud-workloads-from-q4-2026/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

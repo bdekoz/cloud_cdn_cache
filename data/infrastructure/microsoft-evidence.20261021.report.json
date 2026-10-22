@@ -1,0 +1,218 @@
+{
+  "all_geometry_null": true,
+  "category_counts": {
+    "datacenter_locality_presence": 67,
+    "expressroute_interconnect": 124,
+    "m365_data_residency_locality": 56,
+    "partner_compute_capacity": 7
+  },
+  "community_directory_coverage": [
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-australia"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-austria"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-brazil-greater-campinas"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-california"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-canada"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-cheyenne"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-danmark"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-dublin"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-germany"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-greater-atlanta"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-greater-des-moines"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-greater-phoenix"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-greater-san-antonio"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-greece"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-illinois"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-india-hyderabad-and-pune"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-indiana"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-indonesia"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-italy"
+    },
+    {
+      "disposition": "no_local_datacenter_assertion_in_intro",
+      "locality_phase_assertions": 0,
+      "source_id": "community-japan"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-korea"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-malaysia"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-mexico"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-michigan"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-nevada"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-new-zealand"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 2,
+      "source_id": "community-north-carolina"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-north-holland"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-northern-virginia"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-ohio"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-quincy"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-singapore"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-south-africa"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-southern-virginia"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-spain"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-suomidc"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-sweden"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-taiwan"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 3,
+      "source_id": "community-united-kingdom"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-warsaw-metropolitan-area-poland"
+    },
+    {
+      "disposition": "admitted_at_stated_precision",
+      "locality_phase_assertions": 1,
+      "source_id": "community-wisconsin"
+    }
+  ],
+  "physical_datacenter_count": null,
+  "record_count": 254
+}

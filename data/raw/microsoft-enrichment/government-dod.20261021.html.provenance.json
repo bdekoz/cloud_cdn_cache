@@ -1,0 +1,16 @@
+{
+  "bytes": 67346,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-overview-dod",
+  "path": "data/raw/microsoft-enrichment/government-dod.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/government-dod.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "be5946697097604950d6ce0cea2b2c1d6bd9ccc873007c53383a78079d0bcea7",
+  "source_id": "government-dod",
+  "source_published_at": null,
+  "source_updated_at": "2025-09-08",
+  "source_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-overview-dod",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

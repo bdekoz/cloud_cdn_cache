@@ -13,3 +13,4 @@ data/raw/apple-tv/* -text -whitespace
 data/raw/apple-tv/*.pdf binary
 data/raw/apple-aec-followup/* -text -whitespace
 data/raw/apple-aec-followup/*.pdf binary
+data/raw/microsoft-enrichment/* -text -whitespace

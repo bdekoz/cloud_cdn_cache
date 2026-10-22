@@ -1,0 +1,16 @@
+{
+  "bytes": 85670,
+  "capture_method": "http_response",
+  "content_type": "application/json",
+  "final_url": "https://datacenters.microsoft.com/wp-json/globe/geographies",
+  "path": "data/raw/microsoft-enrichment/globe-geographies.20261021.json",
+  "raw_source_ref": "data/raw/microsoft-enrichment/globe-geographies.20261021.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "57ddd93fcd94cdc3d44ba243b11d06ea6f05cde1fdd3f6acefde351a990c1faf",
+  "source_id": "globe-geographies",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://datacenters.microsoft.com/wp-json/globe/geographies",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

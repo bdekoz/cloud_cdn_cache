@@ -1,0 +1,376 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Denmark",
+        "country_code": "DK",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-21",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-21",
+        "lifecycle_status": "planned",
+        "location_precision": "region",
+        "metro": null,
+        "name": "North Europe 4",
+        "parent_record_id": null,
+        "properties": {
+          "announcement_url": "https://aka.ms/DenmarkNE4Intent",
+          "globe_is_open": false,
+          "map_reference_coordinates": [
+            8.45,
+            55.467
+          ],
+          "not_facility_coordinates": true,
+          "physical_location": "Esbjerg, Denmark",
+          "programmatic_name_not_declared": true,
+          "source_updated_at": null,
+          "synthetic_availability_zones_generated": false
+        },
+        "provider": "Microsoft Azure",
+        "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+        "record_id": "azure:cloud_region:announced-denmark-north-europe-4",
+        "retrieved_at": "2026-10-21",
+        "schema_version": "1.2.0",
+        "service": "azure_cloud",
+        "service_scope": [
+          "announced_region"
+        ],
+        "site_code": null,
+        "source_collection": "microsoft_globe_announced_regions",
+        "source_published_at": null,
+        "source_record_id": "denmark-north-europe-4",
+        "source_scope": "provider_declared",
+        "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+        "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "United States",
+        "country_code": "US",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-21",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-21",
+        "lifecycle_status": "planned",
+        "location_precision": "region",
+        "metro": null,
+        "name": "East US 3",
+        "parent_record_id": null,
+        "properties": {
+          "announcement_url": "https://azure.microsoft.com/en-us/blog/microsoft-will-establish-its-next-us-datacenter-region-in-georgia-s-fulton-and-douglas-counties/",
+          "globe_is_open": false,
+          "map_reference_coordinates": [
+            -83.716858,
+            32.840464
+          ],
+          "not_facility_coordinates": true,
+          "physical_location": "Georgia",
+          "programmatic_name_not_declared": true,
+          "source_updated_at": null,
+          "synthetic_availability_zones_generated": false
+        },
+        "provider": "Microsoft Azure",
+        "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+        "record_id": "azure:cloud_region:announced-eastus3",
+        "retrieved_at": "2026-10-21",
+        "schema_version": "1.2.0",
+        "service": "azure_cloud",
+        "service_scope": [
+          "announced_region"
+        ],
+        "site_code": null,
+        "source_collection": "microsoft_globe_announced_regions",
+        "source_published_at": null,
+        "source_record_id": "eastus3",
+        "source_scope": "provider_declared",
+        "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+        "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Greece",
+        "country_code": "GR",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-21",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-21",
+        "lifecycle_status": "planned",
+        "location_precision": "region",
+        "metro": null,
+        "name": "Greece Central",
+        "parent_record_id": null,
+        "properties": {
+          "announcement_url": "https://news.microsoft.com/europe/2020/10/05/microsoft-announces-plans-for-first-datacenter-region-in-greece-as-part-of-gr-for-growth-digital-transformation-initiative/",
+          "globe_is_open": false,
+          "map_reference_coordinates": [
+            23.7283052,
+            37.9839412
+          ],
+          "not_facility_coordinates": true,
+          "physical_location": "Athens",
+          "programmatic_name_not_declared": true,
+          "source_updated_at": null,
+          "synthetic_availability_zones_generated": false
+        },
+        "provider": "Microsoft Azure",
+        "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+        "record_id": "azure:cloud_region:announced-greececentral",
+        "retrieved_at": "2026-10-21",
+        "schema_version": "1.2.0",
+        "service": "azure_cloud",
+        "service_scope": [
+          "announced_region"
+        ],
+        "site_code": null,
+        "source_collection": "microsoft_globe_announced_regions",
+        "source_published_at": null,
+        "source_record_id": "greececentral",
+        "source_scope": "provider_declared",
+        "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+        "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Finland",
+        "country_code": "FI",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-21",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-21",
+        "lifecycle_status": "planned",
+        "location_precision": "region",
+        "metro": null,
+        "name": "North Europe 3",
+        "parent_record_id": null,
+        "properties": {
+          "announcement_url": "https://aka.ms/finlandintent",
+          "globe_is_open": false,
+          "map_reference_coordinates": [
+            24.874774,
+            60.183027
+          ],
+          "not_facility_coordinates": true,
+          "physical_location": "Helsinki",
+          "programmatic_name_not_declared": true,
+          "source_updated_at": null,
+          "synthetic_availability_zones_generated": false
+        },
+        "provider": "Microsoft Azure",
+        "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+        "record_id": "azure:cloud_region:announced-northeurope3",
+        "retrieved_at": "2026-10-21",
+        "schema_version": "1.2.0",
+        "service": "azure_cloud",
+        "service_scope": [
+          "announced_region"
+        ],
+        "site_code": null,
+        "source_collection": "microsoft_globe_announced_regions",
+        "source_published_at": null,
+        "source_record_id": "northeurope3",
+        "source_scope": "provider_declared",
+        "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+        "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-21",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-21",
+        "lifecycle_status": "planned",
+        "location_precision": "region",
+        "metro": null,
+        "name": "Saudi Arabia East",
+        "parent_record_id": null,
+        "properties": {
+          "announcement_url": "https://news.microsoft.com/source/emea/2026/08/microsoft-announces-saudi-arabia-east-datacenter-region-will-be-available-in-november-2026/",
+          "globe_is_open": false,
+          "map_reference_coordinates": [
+            46.6753,
+            24.7136
+          ],
+          "not_facility_coordinates": true,
+          "physical_location": "Dammam",
+          "programmatic_name_not_declared": true,
+          "source_updated_at": null,
+          "synthetic_availability_zones_generated": false
+        },
+        "provider": "Microsoft Azure",
+        "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+        "record_id": "azure:cloud_region:announced-saudiarabiaeast",
+        "retrieved_at": "2026-10-21",
+        "schema_version": "1.2.0",
+        "service": "azure_cloud",
+        "service_scope": [
+          "announced_region"
+        ],
+        "site_code": null,
+        "source_collection": "microsoft_globe_announced_regions",
+        "source_published_at": null,
+        "source_record_id": "saudiarabiaeast",
+        "source_scope": "provider_declared",
+        "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+        "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Malaysia",
+        "country_code": "MY",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-21",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-21",
+        "lifecycle_status": "planned",
+        "location_precision": "region",
+        "metro": null,
+        "name": "Southeast Asia 3",
+        "parent_record_id": null,
+        "properties": {
+          "announcement_url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/",
+          "globe_is_open": false,
+          "map_reference_coordinates": [
+            103.7414,
+            1.4927
+          ],
+          "not_facility_coordinates": true,
+          "physical_location": "Johor Bahru, Malaysia",
+          "programmatic_name_not_declared": true,
+          "source_updated_at": null,
+          "synthetic_availability_zones_generated": false
+        },
+        "provider": "Microsoft Azure",
+        "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+        "record_id": "azure:cloud_region:announced-southeast-asia-3",
+        "retrieved_at": "2026-10-21",
+        "schema_version": "1.2.0",
+        "service": "azure_cloud",
+        "service_scope": [
+          "announced_region"
+        ],
+        "site_code": null,
+        "source_collection": "microsoft_globe_announced_regions",
+        "source_published_at": null,
+        "source_record_id": "southeast-asia-3",
+        "source_scope": "provider_declared",
+        "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+        "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+        "subdivision": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": null,
+      "properties": {
+        "access_status": "unknown",
+        "aliases": [],
+        "city": null,
+        "confidence": "high",
+        "coordinate_crs": null,
+        "coordinate_method": "unknown",
+        "country": "Thailand",
+        "country_code": "TH",
+        "entity_type": "cloud_region",
+        "first_seen": "2026-10-21",
+        "jurisdiction_scope": "other",
+        "last_seen": "2026-10-21",
+        "lifecycle_status": "planned",
+        "location_precision": "region",
+        "metro": null,
+        "name": "Thailand South",
+        "parent_record_id": null,
+        "properties": {
+          "announcement_url": "https://news.microsoft.com/source/asia/2025/11/18/microsoft-announces-landmark-strategic-commitment-to-accelerate-thailands-ai-powered-growth-and-inclusive-innovation/",
+          "globe_is_open": false,
+          "map_reference_coordinates": [
+            100.5018,
+            13.7563
+          ],
+          "not_facility_coordinates": true,
+          "physical_location": "Bangkok",
+          "programmatic_name_not_declared": true,
+          "source_updated_at": null,
+          "synthetic_availability_zones_generated": false
+        },
+        "provider": "Microsoft Azure",
+        "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+        "record_id": "azure:cloud_region:announced-thailand-south",
+        "retrieved_at": "2026-10-21",
+        "schema_version": "1.2.0",
+        "service": "azure_cloud",
+        "service_scope": [
+          "announced_region"
+        ],
+        "site_code": null,
+        "source_collection": "microsoft_globe_announced_regions",
+        "source_published_at": null,
+        "source_record_id": "thailand-south",
+        "source_scope": "provider_declared",
+        "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+        "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+        "subdivision": null
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

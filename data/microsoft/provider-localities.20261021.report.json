@@ -1,0 +1,157 @@
+{
+  "canonical_members": 0,
+  "claim_members": 96,
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/provider-localities.20261021.csv",
+      "path": "data/microsoft/provider-localities.20261021.csv",
+      "source": "data/microsoft/provider-localities.20261021.geojson"
+    }
+  },
+  "excluded_from_canonical_totals": true,
+  "held_claims": [
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:australia-act-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:australia-new-south-wales-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:australia-victoria-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:brazil-greater-campinas-sao-paulo-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:california-santa-clara-county-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:canada-greater-quebec-region-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:canada-ontario-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:danmark-capital-area-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:danmark-zealand-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:dublin-county-kildare-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:germany-nordrhein-westfalen-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:greater-san-antonio-bexar-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:greater-san-antonio-medina-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:greece-attica-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:illinois-chicagoland-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:illinois-illinois-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:indiana-northern-indiana-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:italy-lombardy-partially-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:michigan-west-michigan-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:nevada-nevada-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:north-carolina-catawba-county-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:north-carolina-person-county-planned"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:northern-virginia-fairfax-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:northern-virginia-prince-william-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:northern-virginia-loudoun-operational"
+    },
+    {
+      "locality": "Malaga",
+      "reason": "no_reviewed_gazetteer_match",
+      "record_id": "microsoft:datacenter_locality_presence:quincy-malaga-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:south-africa-city-of-tshwane-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:suomidc-southern-finland-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:united-kingdom-south-east-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:united-kingdom-wales-operational"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:datacenter_locality_presence:wisconsin-racine-county-in-development"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:partner_compute_capacity:nscale-global"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:partner_compute_capacity:microsoft-khazna"
+    },
+    {
+      "reason": "region_only_or_conflicting_affiliation",
+      "record_id": "microsoft:partner_compute_capacity:microsoft-loughton"
+    }
+  ],
+  "input_layers": [
+    "infrastructure/microsoft-evidence.20261021"
+  ],
+  "physical_sites": false,
+  "record_count": 96,
+  "record_unit": "provider_service_locality"
+}

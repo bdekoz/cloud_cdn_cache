@@ -1,0 +1,16 @@
+{
+  "bytes": 77354,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://www.nscale.com/press-releases/nscale-microsoft-2025",
+  "path": "data/raw/microsoft-enrichment/nscale-global.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/nscale-global.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "6a195ad37f467d599042f6293c96415ca79150f6727b3e2d84c3ab9e261de010",
+  "source_id": "nscale-global",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.nscale.com/press-releases/nscale-microsoft-2025",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

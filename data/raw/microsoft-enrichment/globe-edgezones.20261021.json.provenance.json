@@ -1,0 +1,16 @@
+{
+  "bytes": 3,
+  "capture_method": "http_response",
+  "content_type": "application/json",
+  "final_url": "https://datacenters.microsoft.com/wp-json/globe/edgezones",
+  "path": "data/raw/microsoft-enrichment/globe-edgezones.20261021.json",
+  "raw_source_ref": "data/raw/microsoft-enrichment/globe-edgezones.20261021.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "e7526f9a4360fd590555d5b3a1107042f18a6ace66a09cbbfd266f86621266fb",
+  "source_id": "globe-edgezones",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://datacenters.microsoft.com/wp-json/globe/edgezones",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

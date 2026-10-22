@@ -1,0 +1,16 @@
+{
+  "bytes": 1805,
+  "capture_method": "http_response",
+  "content_type": "application/json",
+  "final_url": "https://datacenters.microsoft.com/wp-json/globe",
+  "path": "data/raw/microsoft-enrichment/globe-api-index.20261021.json",
+  "raw_source_ref": "data/raw/microsoft-enrichment/globe-api-index.20261021.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "267a17eb846a6e6be289de938629ad913555bfa7169b2e833c0d56c41e0827be",
+  "source_id": "globe-api-index",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://datacenters.microsoft.com/wp-json/globe",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

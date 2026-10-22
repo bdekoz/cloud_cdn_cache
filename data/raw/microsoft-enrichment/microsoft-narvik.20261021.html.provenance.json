@@ -1,0 +1,16 @@
+{
+  "bytes": 149842,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://news.microsoft.com/source/emea/features/the-port-town-in-norway-emerging-as-an-ai-hub/",
+  "path": "data/raw/microsoft-enrichment/microsoft-narvik.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-narvik.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "4ebdd634ffdb41ec515e5df899f025003701a2156f383fca0d6793aa993314c4",
+  "source_id": "microsoft-narvik",
+  "source_published_at": null,
+  "source_updated_at": "2025-09-18",
+  "source_url": "https://news.microsoft.com/source/emea/features/the-port-town-in-norway-emerging-as-an-ai-hub/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

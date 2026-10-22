@@ -1,0 +1,36 @@
+{
+  "availability_zone_records_generated": 0,
+  "coordinate_methods": {
+    "unknown": 58
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/cloud-regions.20261021.csv",
+      "path": "data/microsoft/cloud-regions.20261021.csv",
+      "source": "data/microsoft/cloud-regions.20261021.geojson"
+    }
+  },
+  "entity_types": {
+    "cloud_region": 58
+  },
+  "generated_files": [
+    "data/microsoft/cloud-regions.20261021.geojson"
+  ],
+  "geometry_null": 58,
+  "layer": "cloud-regions",
+  "lifecycle_statuses": {
+    "operational": 57,
+    "planned": 1
+  },
+  "parser": "update_microsoft.py:cloud-regions",
+  "public_cloud_region_count": 58,
+  "raw_source_ref": "data/raw/microsoft-enrichment/regions-list.20261021.html",
+  "record_count": 58,
+  "restricted_region_count": 8,
+  "retrieved_at": "2026-10-21",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "8d660850c73f9a62d37a17628600a02c30544a7cc091b88851cf9d55f548d567",
+  "source_url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+  "table_selection": "column-header match; first full table only"
+}

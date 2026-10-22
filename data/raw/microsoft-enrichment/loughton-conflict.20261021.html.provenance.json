@@ -1,0 +1,16 @@
+{
+  "bytes": 1092459,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://www.itpro.com/infrastructure/data-centres/microsoft-pulls-plug-on-essex-data-center-development-over-power-supply",
+  "path": "data/raw/microsoft-enrichment/loughton-conflict.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/loughton-conflict.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "b506e48791a0752bf7cb88978f5fd6568b244dcbc5a92027c9a75f4f46f8f5c3",
+  "source_id": "loughton-conflict",
+  "source_published_at": "2026-10-19",
+  "source_updated_at": null,
+  "source_url": "https://www.itpro.com/infrastructure/data-centres/microsoft-pulls-plug-on-essex-data-center-development-over-power-supply",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

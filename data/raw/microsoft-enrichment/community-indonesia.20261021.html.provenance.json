@@ -1,0 +1,24 @@
+{
+  "bytes": 243120,
+  "capture_method": "http_response",
+  "content_redactions": [
+    {
+      "field": "modern_tribe_config.mapbox_key",
+      "original_response_sha256": "dfe9dddf3daca3a7b3293b94c9806a4d2afa985d2bbb2249c976fe162abccbab",
+      "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+      "replacement": "REDACTED_MAPBOX_TOKEN"
+    }
+  ],
+  "content_type": "text/html",
+  "final_url": "https://local.microsoft.com/communities/asia-pacific/indonesia/",
+  "path": "data/raw/microsoft-enrichment/community-indonesia.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/community-indonesia.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "ba7bfce33b30e8e18e7e9b4f951a698b52d177e3d506d82e39526dcf6ae63540",
+  "source_id": "community-indonesia",
+  "source_published_at": null,
+  "source_updated_at": "2026-09-30",
+  "source_url": "https://local.microsoft.com/communities/asia-pacific/indonesia/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

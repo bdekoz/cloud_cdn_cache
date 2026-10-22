@@ -1,0 +1,16 @@
+{
+  "bytes": 53445,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome",
+  "path": "data/raw/microsoft-enrichment/government-regions.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/government-regions.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "929014c155ccab57bb071d25179f3b4ed5b7b3b1bbb8a60f1c95023930723b92",
+  "source_id": "government-regions",
+  "source_published_at": null,
+  "source_updated_at": "2026-05-19",
+  "source_url": "https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

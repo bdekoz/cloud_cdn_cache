@@ -1,0 +1,5192 @@
+{
+  "built_at": "2026-10-21",
+  "excluded_from_canonical_totals": true,
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          73.85535,
+          18.51957
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1259229",
+        "gazetteer": {
+          "admin1": "16",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "1259229",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Pune"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Pune",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:in-pune"
+        ],
+        "source_locality_labels": [
+          "Pune"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          80.27847,
+          13.08784
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1264527",
+        "gazetteer": {
+          "admin1": "25",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1264527",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Chennai"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Chennai",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:in-chennai"
+        ],
+        "source_locality_labels": [
+          "Chennai"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.88261,
+          19.07283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1275339",
+        "gazetteer": {
+          "admin1": "16",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1275339",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Mumbai"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Mumbai",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:in-mumbai"
+        ],
+        "source_locality_labels": [
+          "Mumbai"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.84513,
+          -6.21462
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "ID",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1642911",
+        "gazetteer": {
+          "admin1": "04",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1642911",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Jakarta"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Jakarta",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:id-jakarta"
+        ],
+        "source_locality_labels": [
+          "Jakarta"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.52639,
+          25.05306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "TW",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1668341",
+        "gazetteer": {
+          "admin1": "04",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1668341",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Taipei"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Taipei",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:tw-taipei"
+        ],
+        "source_locality_labels": [
+          "Taipei"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.68653,
+          3.1412
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "MY",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1735161",
+        "gazetteer": {
+          "admin1": "14",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1735161",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Kuala Lumpur"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Kuala Lumpur",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:my-kuala-lumpur"
+        ],
+        "source_locality_labels": [
+          "Kuala Lumpur"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.9784,
+          37.566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "KR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1835848",
+        "gazetteer": {
+          "admin1": "11",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1835848",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Seoul"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Seoul",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:kr-seoul"
+        ],
+        "source_locality_labels": [
+          "Seoul"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          129.03004,
+          35.10168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "KR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1838524",
+        "gazetteer": {
+          "admin1": "10",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1838524",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Busan"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Busan",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:kr-busan"
+        ],
+        "source_locality_labels": [
+          "Busan"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.69171,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "JP",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1850147",
+        "gazetteer": {
+          "admin1": "40",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1850147",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Tokyo"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Tokyo",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:jp-tokyo"
+        ],
+        "source_locality_labels": [
+          "Tokyo"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.50107,
+          34.69379
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "JP",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1853909",
+        "gazetteer": {
+          "admin1": "32",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1853909",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Osaka"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Osaka",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:jp-osaka"
+        ],
+        "source_locality_labels": [
+          "Osaka"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.85007,
+          1.28967
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SG",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:1880252",
+        "gazetteer": {
+          "admin1": "",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1880252",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Singapore"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Singapore",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:sg-singapore"
+        ],
+        "source_locality_labels": [
+          "Singapore"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.20732,
+          -33.86785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AU",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2147714",
+        "gazetteer": {
+          "admin1": "02",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2147714",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Sydney"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Sydney",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:au-sydney"
+        ],
+        "source_locality_labels": [
+          "Sydney"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          144.96332,
+          -37.814
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AU",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2158177",
+        "gazetteer": {
+          "admin1": "07",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2158177",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Melbourne"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Melbourne",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:au-melbourne"
+        ],
+        "source_locality_labels": [
+          "Melbourne"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76349,
+          -36.84853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "NZ",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2193733",
+        "gazetteer": {
+          "admin1": "E7",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2193733",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Auckland"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Auckland",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:nz-auckland"
+        ],
+        "source_locality_labels": [
+          "Auckland"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.56553,
+          55.67594
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "DK",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2618425",
+        "gazetteer": {
+          "admin1": "17",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2618425",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Copenhagen"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Copenhagen",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:dk-copenhagen"
+        ],
+        "source_locality_labels": [
+          "Copenhagen"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.12574,
+          51.50853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "GB",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2643743",
+        "gazetteer": {
+          "admin1": "ENG",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2643743",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "London"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "London",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:gb-london"
+        ],
+        "source_locality_labels": [
+          "London"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.57566,
+          54.77676
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "GB",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2650628",
+        "gazetteer": {
+          "admin1": "ENG",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "2650628",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Durham"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Durham",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:gb-durham"
+        ],
+        "source_locality_labels": [
+          "Durham"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.18,
+          51.48
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "GB",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2653822",
+        "gazetteer": {
+          "admin1": "WLS",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2653822",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Cardiff"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Cardiff",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:gb-cardiff"
+        ],
+        "source_locality_labels": [
+          "Cardiff"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.55,
+          47.36667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "CH",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2657896",
+        "gazetteer": {
+          "admin1": "ZH",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2657896",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Zürich"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Zürich",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:ch-zurich"
+        ],
+        "source_locality_labels": [
+          "Zurich"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.14569,
+          46.20222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "CH",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2660646",
+        "gazetteer": {
+          "admin1": "GE",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2660646",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Geneva"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Geneva",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:ch-geneva"
+        ],
+        "source_locality_labels": [
+          "Geneva"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.20638,
+          55.64277
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2674649",
+        "gazetteer": {
+          "admin1": "27",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "2674649",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Staffanstorp"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Staffanstorp",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:se-staffanstorp"
+        ],
+        "source_locality_labels": [
+          "Staffanstorp"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.76667,
+          60.61667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2680075",
+        "gazetteer": {
+          "admin1": "03",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "2680075",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Sandviken"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Sandviken",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:se-sandviken"
+        ],
+        "source_locality_labels": [
+          "Sandviken"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.14174,
+          60.67452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2712414",
+        "gazetteer": {
+          "admin1": "03",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2712414",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Gävle"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Gävle",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:se-gavle"
+        ],
+        "source_locality_labels": [
+          "Gävle"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.88969,
+          52.37403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "NL",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2759794",
+        "gazetteer": {
+          "admin1": "07",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2759794",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Amsterdam"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Amsterdam",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:nl-amsterdam"
+        ],
+        "source_locality_labels": [
+          "Amsterdam"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.37208,
+          48.20849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AT",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2761369",
+        "gazetteer": {
+          "admin1": "09",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2761369",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Vienna"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Vienna",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:at-vienna"
+        ],
+        "source_locality_labels": [
+          "Vienna"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.53096,
+          25.28545
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "QA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:290030",
+        "gazetteer": {
+          "admin1": "01",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "290030",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Doha"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Doha",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:qa-doha"
+        ],
+        "source_locality_labels": [
+          "Doha"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.30927,
+          25.07725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:292223",
+        "gazetteer": {
+          "admin1": "03",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "292223",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Dubai"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Dubai",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:ae-dubai"
+        ],
+        "source_locality_labels": [
+          "Dubai"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.68417,
+          50.11552
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "DE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2925533",
+        "gazetteer": {
+          "admin1": "05",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA3",
+          "geonames_id": "2925533",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Frankfurt am Main"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Frankfurt am Main",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:de-frankfurt"
+        ],
+        "source_locality_labels": [
+          "Frankfurt"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          54.39696,
+          24.45118
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:292968",
+        "gazetteer": {
+          "admin1": "01",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "292968",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Abu Dhabi"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Abu Dhabi",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:ae-abu-dhabi"
+        ],
+        "source_locality_labels": [
+          "Abu Dhabi"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.78057,
+          32.08088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IL",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:293397",
+        "gazetteer": {
+          "admin1": "05",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "293397",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Tel Aviv"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Tel Aviv",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:il-tel-aviv"
+        ],
+        "source_locality_labels": [
+          "Tel Aviv"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.41053,
+          52.52437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "DE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2950159",
+        "gazetteer": {
+          "admin1": "16",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2950159",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Berlin"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Berlin",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:de-berlin"
+        ],
+        "source_locality_labels": [
+          "Berlin"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.24889,
+          53.33306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2964574",
+        "gazetteer": {
+          "admin1": "L",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2964574",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Dublin"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Dublin",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:ie-dublin"
+        ],
+        "source_locality_labels": [
+          "Dublin"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          2.3488,
+          48.85341
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "FR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2988507",
+        "gazetteer": {
+          "admin1": "11",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2988507",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Paris"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Paris",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:fr-paris"
+        ],
+        "source_locality_labels": [
+          "Paris"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          5.38107,
+          43.29695
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "FR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:2995469",
+        "gazetteer": {
+          "admin1": "93",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2995469",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Marseille"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Marseille",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:fr-marseille"
+        ],
+        "source_locality_labels": [
+          "Marseille"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.70256,
+          40.4165
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "ES",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3117735",
+        "gazetteer": {
+          "admin1": "29",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "3117735",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Madrid"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Madrid",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:es-madrid"
+        ],
+        "source_locality_labels": [
+          "Madrid"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          5.73332,
+          58.97005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "NO",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3137115",
+        "gazetteer": {
+          "admin1": "14",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "3137115",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Stavanger"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Stavanger",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:no-stavanger"
+        ],
+        "source_locality_labels": [
+          "Stavanger"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.74609,
+          59.91273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "NO",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3143244",
+        "gazetteer": {
+          "admin1": "12",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "3143244",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Oslo"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Oslo",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:no-oslo"
+        ],
+        "source_locality_labels": [
+          "Oslo"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.18951,
+          45.46427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IT",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3173435",
+        "gazetteer": {
+          "admin1": "09",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "3173435",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Milan"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Milan",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:it-milan"
+        ],
+        "source_locality_labels": [
+          "Milan"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.42322,
+          -33.92584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "ZA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3369157",
+        "gazetteer": {
+          "admin1": "11",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "3369157",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Cape Town"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Cape Town",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:za-cape-town"
+        ],
+        "source_locality_labels": [
+          "Cape Town"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -43.18223,
+          -22.90642
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "BR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3451190",
+        "gazetteer": {
+          "admin1": "21",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "3451190",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Rio de Janeiro"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Rio de Janeiro",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:br-rio-de-janeiro"
+        ],
+        "source_locality_labels": [
+          "Rio de Janeiro"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -47.06083,
+          -22.90556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "BR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3467865",
+        "gazetteer": {
+          "admin1": "27",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "3467865",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Campinas"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Campinas",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:br-campinas"
+        ],
+        "source_locality_labels": [
+          "Campinas"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -70.64827,
+          -33.45694
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "CL",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3871336",
+        "gazetteer": {
+          "admin1": "12",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "3871336",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Santiago"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Santiago",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:cl-santiago"
+        ],
+        "source_locality_labels": [
+          "Santiago"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -100.38806,
+          20.58806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "MX",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:3991164",
+        "gazetteer": {
+          "admin1": "22",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "3991164",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Santiago de Querétaro"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Santiago de Querétaro",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:mx-queretaro"
+        ],
+        "source_locality_labels": [
+          "Querétaro"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -98.49363,
+          29.42412
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:4726206",
+        "gazetteer": {
+          "admin1": "TX",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "4726206",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "San Antonio"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "San Antonio",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-san-antonio"
+        ],
+        "source_locality_labels": [
+          "San Antonio"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.3875,
+          36.66764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:4748634",
+        "gazetteer": {
+          "admin1": "VA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "4748634",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Boydton"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Boydton",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-boydton"
+        ],
+        "source_locality_labels": [
+          "Boydton"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -93.60911,
+          41.60054
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:4853828",
+        "gazetteer": {
+          "admin1": "IA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "4853828",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Des Moines"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Des Moines",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-des-moines"
+        ],
+        "source_locality_labels": [
+          "Des Moines"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.65005,
+          41.85003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:4887398",
+        "gazetteer": {
+          "admin1": "IL",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "4887398",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Chicago"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Chicago",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-chicago"
+        ],
+        "source_locality_labels": [
+          "Chicago"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.89496,
+          37.33939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:5392171",
+        "gazetteer": {
+          "admin1": "CA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "5392171",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "San Jose"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "San Jose",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-san-jose"
+        ],
+        "source_locality_labels": [
+          "San Jose"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.95524,
+          37.35411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:5393015",
+        "gazetteer": {
+          "admin1": "CA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5393015",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Santa Clara"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Santa Clara",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-santa-clara"
+        ],
+        "source_locality_labels": [
+          "Santa Clara"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -119.85255,
+          47.2343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:5807713",
+        "gazetteer": {
+          "admin1": "WA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5807713",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Quincy"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Quincy",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-quincy"
+        ],
+        "source_locality_labels": [
+          "Quincy"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.82025,
+          41.13998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:5821086",
+        "gazetteer": {
+          "admin1": "WY",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "5821086",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Cheyenne"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Cheyenne",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:us-cheyenne"
+        ],
+        "source_locality_labels": [
+          "Cheyenne"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.39864,
+          43.70643
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "CA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:6167865",
+        "gazetteer": {
+          "admin1": "08",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "6167865",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Toronto"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Toronto",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:ca-toronto"
+        ],
+        "source_locality_labels": [
+          "Toronto"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.21454,
+          46.81228
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "CA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:6325494",
+        "gazetteer": {
+          "admin1": "10",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "6325494",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Québec"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Québec",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:ca-quebec-city"
+        ],
+        "source_locality_labels": [
+          "Quebec City"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.93545,
+          60.16952
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "FI",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:658225",
+        "gazetteer": {
+          "admin1": "01",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "658225",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Helsinki"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Helsinki",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:fi-helsinki"
+        ],
+        "source_locality_labels": [
+          "Helsinki"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.01178,
+          52.22977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "PL",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:756135",
+        "gazetteer": {
+          "admin1": "78",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "756135",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Warsaw"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Warsaw",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:pl-warsaw"
+        ],
+        "source_locality_labels": [
+          "Warsaw"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.04363,
+          -26.20227
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "ZA",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/m365-locations.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6ab236a9a3e33f4f3f17986aa7753eea9747211ad6f0ed4b998abb03a813cc47",
+            "source_url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-datacenter-locations"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_365_data_residency:993800",
+        "gazetteer": {
+          "admin1": "06",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "993800",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Johannesburg"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Johannesburg",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_365_data_residency",
+        "source_claim_ids": [
+          "microsoft:m365_data_residency_locality:za-johannesburg"
+        ],
+        "source_locality_labels": [
+          "Johannesburg"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          73.85535,
+          18.51957
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-india-hyderabad-and-pune.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "872e9d6b7c356f5b8ad9dd7e1c246b70311f5ccc70957230264c91d7f7f0252e",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/india-hyderabad-and-pune/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:1259229",
+        "gazetteer": {
+          "admin1": "16",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "1259229",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Pune"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Pune",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:india-hyderabad-and-pune-pune-in-development"
+        ],
+        "source_locality_labels": [
+          "Pune"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          78.45636,
+          17.38405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IN",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-india-hyderabad-and-pune.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "872e9d6b7c356f5b8ad9dd7e1c246b70311f5ccc70957230264c91d7f7f0252e",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/india-hyderabad-and-pune/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:1269843",
+        "gazetteer": {
+          "admin1": "40",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1269843",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Hyderabad"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Hyderabad",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:india-hyderabad-and-pune-hyderabad-in-development"
+        ],
+        "source_locality_labels": [
+          "Hyderabad"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.84513,
+          -6.21462
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "ID",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-indonesia.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "ba7bfce33b30e8e18e7e9b4f951a698b52d177e3d506d82e39526dcf6ae63540",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/indonesia/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:1642911",
+        "gazetteer": {
+          "admin1": "04",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1642911",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Jakarta"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Jakarta",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:indonesia-greater-jakarta-in-development"
+        ],
+        "source_locality_labels": [
+          "greater Jakarta"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.52639,
+          25.05306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "TW",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-taiwan.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "28f935ae19a7726599fb15937673d620628e2b9231acaebe8d2fa71252e85834",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/taiwan/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:1668341",
+        "gazetteer": {
+          "admin1": "04",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1668341",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Taipei"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Taipei",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:taiwan-broader-taipei-in-development"
+        ],
+        "source_locality_labels": [
+          "broader Taipei"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.68653,
+          3.1412
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "MY",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-malaysia.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "1b4d94643cfe9b464c4a100fa9722fc513add20af586e75ece90728e443f86dc",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/malaysia/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:1735161",
+        "gazetteer": {
+          "admin1": "14",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1735161",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Kuala Lumpur"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Kuala Lumpur",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:malaysia-kuala-lumpur-in-development"
+        ],
+        "source_locality_labels": [
+          "Kuala Lumpur"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          129.03004,
+          35.10168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "KR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-korea.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "836ba71495c792bbbe0ba1741eb5ef884f2b3f07d4d36796c43b2d553d78ad1c",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/korea/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:1838524",
+        "gazetteer": {
+          "admin1": "10",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "1838524",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Busan"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Busan",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:korea-greater-busan-in-development"
+        ],
+        "source_locality_labels": [
+          "Greater Busan"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.85007,
+          1.28967
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SG",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-singapore.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "8ee0516db791400b495a14c0cd56cc029d55d07192a1f0758fdc1b51759fd8b6",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/singapore/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:1880252",
+        "gazetteer": {
+          "admin1": "",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "1880252",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Singapore"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Singapore",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:singapore-singapore-operational"
+        ],
+        "source_locality_labels": [
+          "Singapore"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76349,
+          -36.84853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "NZ",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-new-zealand.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "5cd810392a98d739f0ca7e7b2817c1243a36957083c7686290288695205c7fe2",
+            "source_url": "https://local.microsoft.com/communities/asia-pacific/new-zealand/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2193733",
+        "gazetteer": {
+          "admin1": "E7",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2193733",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Auckland"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Auckland",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:new-zealand-auckland-in-development"
+        ],
+        "source_locality_labels": [
+          "Auckland"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.12574,
+          51.50853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "GB",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-united-kingdom.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "fdd9be39ab15bc2e6c9cfac03a189f39367f96fb985964924f5ce3bdacdf03d7",
+            "source_url": "https://local.microsoft.com/communities/emea/united-kingdom/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2643743",
+        "gazetteer": {
+          "admin1": "ENG",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2643743",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "London"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "London",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:united-kingdom-london-operational"
+        ],
+        "source_locality_labels": [
+          "London"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.20638,
+          55.64277
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-sweden.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "f37d9485625115b280ec4004426e468381dab1188c93269abf52d05705a24796",
+            "source_url": "https://local.microsoft.com/communities/emea/sweden/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2674649",
+        "gazetteer": {
+          "admin1": "27",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "2674649",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Staffanstorp"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Staffanstorp",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:sweden-staffanstorp-operational"
+        ],
+        "source_locality_labels": [
+          "Staffanstorp"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.76667,
+          60.61667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-sweden.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "f37d9485625115b280ec4004426e468381dab1188c93269abf52d05705a24796",
+            "source_url": "https://local.microsoft.com/communities/emea/sweden/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2680075",
+        "gazetteer": {
+          "admin1": "03",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "2680075",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Sandviken"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Sandviken",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:sweden-sandviken-operational"
+        ],
+        "source_locality_labels": [
+          "Sandviken"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.14174,
+          60.67452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "SE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-sweden.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "f37d9485625115b280ec4004426e468381dab1188c93269abf52d05705a24796",
+            "source_url": "https://local.microsoft.com/communities/emea/sweden/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2712414",
+        "gazetteer": {
+          "admin1": "03",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "2712414",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Gävle"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Gävle",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:sweden-gavle-operational"
+        ],
+        "source_locality_labels": [
+          "Gävle"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.99861,
+          52.80667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "NL",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-north-holland.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "447b9d371b07e3f0f4dbcc5f029f93fbf75ac3223ffa47818c2e612e4a018772",
+            "source_url": "https://local.microsoft.com/communities/emea/north-holland/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2750850",
+        "gazetteer": {
+          "admin1": "07",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "2750850",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Middenmeer"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Middenmeer",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:north-holland-middenmeer-operational"
+        ],
+        "source_locality_labels": [
+          "Middenmeer"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.37208,
+          48.20849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "AT",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-austria.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "91f202b9079870096893edffb85ade2445882144a900622d162b02a2fac3d4af",
+            "source_url": "https://local.microsoft.com/communities/emea/austria/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2761369",
+        "gazetteer": {
+          "admin1": "09",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2761369",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Vienna"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Vienna",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:austria-greater-vienna-in-development"
+        ],
+        "source_locality_labels": [
+          "Greater Vienna"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.24889,
+          53.33306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "IE",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-dublin.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "4794a9dabfc2958f48ba4f9b64a0212c0c5755da763e0c4d3c7981ba317f0194",
+            "source_url": "https://local.microsoft.com/communities/emea/dublin/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:2964574",
+        "gazetteer": {
+          "admin1": "L",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "2964574",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Dublin"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Dublin",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:dublin-dublin-operational"
+        ],
+        "source_locality_labels": [
+          "Dublin"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.70256,
+          40.4165
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "ES",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-spain.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "81cc9b4000a909f94f5e1a97751e9fc94f3df87139f9aef61fd6d38b2947c076",
+            "source_url": "https://local.microsoft.com/communities/emea/spain/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:3117735",
+        "gazetteer": {
+          "admin1": "29",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "3117735",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Madrid"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Madrid",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:spain-greater-madrid-in-development"
+        ],
+        "source_locality_labels": [
+          "Greater Madrid"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -47.26694,
+          -22.82194
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "BR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-brazil-greater-campinas.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "a93d0663b2ca7c2f52fad0195b4fa5d2071e600f142050d1beea1f5dbe2a069e",
+            "source_url": "https://local.microsoft.com/communities/americas/brazil-greater-campinas/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:3447259",
+        "gazetteer": {
+          "admin1": "27",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "3447259",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Sumaré"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Sumaré",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:brazil-greater-campinas-sumare-in-development"
+        ],
+        "source_locality_labels": [
+          "Sumaré"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -47.22,
+          -22.85833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "BR",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-brazil-greater-campinas.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "a93d0663b2ca7c2f52fad0195b4fa5d2071e600f142050d1beea1f5dbe2a069e",
+            "source_url": "https://local.microsoft.com/communities/americas/brazil-greater-campinas/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:3461655",
+        "gazetteer": {
+          "admin1": "27",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "3461655",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Hortolândia"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Hortolândia",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:brazil-greater-campinas-hortolandia-in-development"
+        ],
+        "source_locality_labels": [
+          "Hortolândia"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -100.38806,
+          20.58806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "MX",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-mexico.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "20960877f2a23292f3bf155e40678b89e8e98cb74c4446d218b557a9cb1afbda",
+            "source_url": "https://local.microsoft.com/communities/americas/mexico/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:3991164",
+        "gazetteer": {
+          "admin1": "22",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "3991164",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Santiago de Querétaro"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Santiago de Querétaro",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:mexico-queretaro-operational"
+        ],
+        "source_locality_labels": [
+          "Querétaro"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -106.46084,
+          31.72024
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "MX",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-mexico.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "20960877f2a23292f3bf155e40678b89e8e98cb74c4446d218b557a9cb1afbda",
+            "source_url": "https://local.microsoft.com/communities/americas/mexico/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:4013708",
+        "gazetteer": {
+          "admin1": "06",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "4013708",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Ciudad Juárez"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Ciudad Juárez",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:mexico-ciudad-juarez-operational"
+        ],
+        "source_locality_labels": [
+          "Ciudad Juárez"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.74771,
+          33.7515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-atlanta.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "7a017e2bbc3e760f8524818781c18b21d82b13d2aa8dbc4b8c9826de330783f5",
+            "source_url": "https://local.microsoft.com/communities/americas/greater-atlanta/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:4191955",
+        "gazetteer": {
+          "admin1": "GA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "4191955",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Douglasville"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Douglasville",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:greater-atlanta-douglasville-in-development"
+        ],
+        "source_locality_labels": [
+          "Douglasville"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.43937,
+          33.67955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-atlanta.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "7a017e2bbc3e760f8524818781c18b21d82b13d2aa8dbc4b8c9826de330783f5",
+            "source_url": "https://local.microsoft.com/communities/americas/greater-atlanta/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:4192674",
+        "gazetteer": {
+          "admin1": "GA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "4192674",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "East Point"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "East Point",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:greater-atlanta-east-point-in-development"
+        ],
+        "source_locality_labels": [
+          "East Point"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.66965,
+          33.51789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-atlanta.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "7a017e2bbc3e760f8524818781c18b21d82b13d2aa8dbc4b8c9826de330783f5",
+            "source_url": "https://local.microsoft.com/communities/americas/greater-atlanta/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:4214627",
+        "gazetteer": {
+          "admin1": "GA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "4214627",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Palmetto"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Palmetto",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:greater-atlanta-palmetto-in-development"
+        ],
+        "source_locality_labels": [
+          "Palmetto"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -82.49127,
+          39.96173
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-ohio.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "535033e2f4a4242a5ee1a87e72d42d4545d9b155bd399c998bf5bd9995cab254",
+            "source_url": "https://local.microsoft.com/communities/americas/ohio/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:4514004",
+        "gazetteer": {
+          "admin1": "OH",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "4514004",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Hebron"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Hebron",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:ohio-hebron-in-development"
+        ],
+        "source_locality_labels": [
+          "Hebron"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.3875,
+          36.66764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-southern-virginia.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "4213c02ca8747995fdb9a832a12396a638a1ca3442bbd4b7dd7404a24e995ad8",
+            "source_url": "https://local.microsoft.com/communities/americas/southern-virginia/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:4748634",
+        "gazetteer": {
+          "admin1": "VA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "4748634",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Boydton"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Boydton",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:southern-virginia-boydton-operational"
+        ],
+        "source_locality_labels": [
+          "Boydton"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -93.71133,
+          41.57721
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-des-moines.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "35faa6a3d3dedfc99eed83cfbb808a2c6bd696c3cb8700f183bf44fc5cce1424",
+            "source_url": "https://local.microsoft.com/communities/americas/greater-des-moines/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:4881346",
+        "gazetteer": {
+          "admin1": "IA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "4881346",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "West Des Moines"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "West Des Moines",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:greater-des-moines-west-des-moines-operational"
+        ],
+        "source_locality_labels": [
+          "West Des Moines"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -82.4446,
+          40.02284
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-ohio.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "535033e2f4a4242a5ee1a87e72d42d4545d9b155bd399c998bf5bd9995cab254",
+            "source_url": "https://local.microsoft.com/communities/americas/ohio/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:5157262",
+        "gazetteer": {
+          "admin1": "OH",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5157262",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Heath"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Heath",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:ohio-heath-in-development"
+        ],
+        "source_locality_labels": [
+          "Heath"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -82.80879,
+          40.08117
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-ohio.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "535033e2f4a4242a5ee1a87e72d42d4545d9b155bd399c998bf5bd9995cab254",
+            "source_url": "https://local.microsoft.com/communities/americas/ohio/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:5164202",
+        "gazetteer": {
+          "admin1": "OH",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5164202",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "New Albany"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "New Albany",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:ohio-new-albany-in-development"
+        ],
+        "source_locality_labels": [
+          "New Albany"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -112.3246,
+          33.61309
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-phoenix.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "c07ea934a59aed92ce8229ee56c88d99d6ee953b8397fc247d5e57766e1b5cef",
+            "source_url": "https://local.microsoft.com/communities/americas/greater-phoenix/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:5293996",
+        "gazetteer": {
+          "admin1": "AZ",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5293996",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "El Mirage"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "El Mirage",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:greater-phoenix-el-mirage-operational"
+        ],
+        "source_locality_labels": [
+          "El Mirage"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -112.35821,
+          33.43532
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-phoenix.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "c07ea934a59aed92ce8229ee56c88d99d6ee953b8397fc247d5e57766e1b5cef",
+            "source_url": "https://local.microsoft.com/communities/americas/greater-phoenix/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:5296266",
+        "gazetteer": {
+          "admin1": "AZ",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5296266",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Goodyear"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Goodyear",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:greater-phoenix-goodyear-operational"
+        ],
+        "source_locality_labels": [
+          "Goodyear"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -120.29313,
+          47.41568
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-quincy.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "a063d8d01af25ac50f4cab2ce07a2739a99ce66466440951bc96629cffb398a7",
+            "source_url": "https://local.microsoft.com/communities/americas/quincy/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:5793271",
+        "gazetteer": {
+          "admin1": "WA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5793271",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "East Wenatchee"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "East Wenatchee",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:quincy-east-wenatchee-in-development"
+        ],
+        "source_locality_labels": [
+          "East Wenatchee"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -119.85255,
+          47.2343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-quincy.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "a063d8d01af25ac50f4cab2ce07a2739a99ce66466440951bc96629cffb398a7",
+            "source_url": "https://local.microsoft.com/communities/americas/quincy/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:5807713",
+        "gazetteer": {
+          "admin1": "WA",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "5807713",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Quincy"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Quincy",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:quincy-quincy-operational"
+        ],
+        "source_locality_labels": [
+          "Quincy"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.82025,
+          41.13998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-cheyenne.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "6c2697199d767f116dcc7758d5ec32a09130e740d063d8d0628511de19fc163e",
+            "source_url": "https://local.microsoft.com/communities/americas/cheyenne/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:5821086",
+        "gazetteer": {
+          "admin1": "WY",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "5821086",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Cheyenne"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Cheyenne",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:cheyenne-cheyenne-operational"
+        ],
+        "source_locality_labels": [
+          "Cheyenne"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.61577,
+          63.096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "FI",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-suomidc.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "c1379bd4a52d008da360f04984053408b8549157388c82e6037eebf89ab0da6c",
+            "source_url": "https://local.microsoft.com/communities/emea/suomidc/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:632978",
+        "gazetteer": {
+          "admin1": "15",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA",
+          "geonames_id": "632978",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Vaasa"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Vaasa",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:suomidc-vaasa-in-development"
+        ],
+        "source_locality_labels": [
+          "Vaasa"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.68216,
+          63.11418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "FI",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-suomidc.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "c1379bd4a52d008da360f04984053408b8549157388c82e6037eebf89ab0da6c",
+            "source_url": "https://local.microsoft.com/communities/emea/suomidc/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:651299",
+        "gazetteer": {
+          "admin1": "15",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "651299",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Korsholm"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Korsholm",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:suomidc-mustasaari-in-development"
+        ],
+        "source_locality_labels": [
+          "Mustasaari"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.01178,
+          52.22977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "PL",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/community-warsaw-metropolitan-area-poland.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "16ed3da35280fe5377851b722f10bc2cbb3609a1fbd23c0e2e37e01b68168902",
+            "source_url": "https://local.microsoft.com/communities/emea/warsaw-metropolitan-area-poland/"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_datacenters:756135",
+        "gazetteer": {
+          "admin1": "78",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLC",
+          "geonames_id": "756135",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Warsaw"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Warsaw",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_datacenters",
+        "source_claim_ids": [
+          "microsoft:datacenter_locality_presence:warsaw-metropolitan-area-poland-greater-warsaw-operational"
+        ],
+        "source_locality_labels": [
+          "greater Warsaw"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -8.86979,
+          37.95622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "PT",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-sines.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "47f25f24231e0d53bf0c395217a022d15891cfe4ed4da92e43a7daaca7c71dd1",
+            "source_url": "https://news.microsoft.com/source/emea/2025/11/microsoft-acelera-infraestrutura-de-ia-em-portugal-assinalando-35-anos-de-inovacao-no-pais/?lang=pt-pt"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_partner_capacity:2262917",
+        "gazetteer": {
+          "admin1": "19",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "2262917",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Sines"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Sines",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_partner_capacity",
+        "source_claim_ids": [
+          "microsoft:partner_compute_capacity:microsoft-sines"
+        ],
+        "source_locality_labels": [
+          "Sines"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.4272,
+          68.43838
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "NO",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/nscale-narvik.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "2d419ef4cd6754f639122e8b3d3d6d877cf2a2d62c8ceeee12680eb86df4102c",
+            "source_url": "https://www.nscale.com/press-releases/nscale-microsoft-norway"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_partner_capacity:3144987",
+        "gazetteer": {
+          "admin1": "09",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "3144987",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Narvik"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Narvik",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_partner_capacity",
+        "source_claim_ids": [
+          "microsoft:partner_compute_capacity:nscale-narvik"
+        ],
+        "source_locality_labels": [
+          "Narvik"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.02573,
+          39.48623
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/nebius-vineland.20261021.html",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "f1ea9513635af29814d0713364fb03ad5f9ae2b285534071d8e0d924b1512772",
+            "source_url": "https://nebius.com/blog/posts/digest-september-2025"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_partner_capacity:4504621",
+        "gazetteer": {
+          "admin1": "NJ",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPL",
+          "geonames_id": "4504621",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Vineland"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Vineland",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_partner_capacity",
+        "source_claim_ids": [
+          "microsoft:partner_compute_capacity:nebius-vineland"
+        ],
+        "source_locality_labels": [
+          "Vineland"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -100.204,
+          34.42645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "coordinate_crs": "EPSG:4326",
+        "coordinate_method": "gazetteer_reference_point",
+        "country_code": "US",
+        "evidence": [
+          {
+            "raw_source_ref": "data/raw/microsoft-enrichment/iren-childress.20261021.web.json",
+            "retrieved_at": "2026-10-21",
+            "source_sha256": "3f50b0d2b77af3607b8af4ac7994a9081168796e750d5b98b4f9aaa3a0c2e106",
+            "source_url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft"
+          }
+        ],
+        "excluded_from_canonical_totals": true,
+        "footprint_id": "microsoft:microsoft_partner_capacity:5518758",
+        "gazetteer": {
+          "admin1": "TX",
+          "evidence": {
+            "raw_source_ref": "data/raw/microsoft-enrichment/geonames-selected.20261021.tsv",
+            "retrieved_at": "2026-10-21",
+            "source_published_at": null,
+            "source_sha256": "69385f8df8aacca0ebbed4c734d37636ab392d47c3cc6132850572ab18eeb419",
+            "source_url": "https://download.geonames.org/export/dump/cities500.zip"
+          },
+          "feature_code": "PPLA2",
+          "geonames_id": "5518758",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "Childress"
+        },
+        "lifecycle_status": "not_assessed",
+        "locality": "Childress",
+        "location_precision": "city",
+        "physical_site_confirmed": false,
+        "provider": "Microsoft",
+        "record_unit": "provider_service_locality",
+        "service": "microsoft_partner_capacity",
+        "source_claim_ids": [
+          "microsoft:partner_compute_capacity:iren-childress"
+        ],
+        "source_locality_labels": [
+          "Childress"
+        ],
+        "source_record_ids": [],
+        "vendor_id": "microsoft"
+      },
+      "type": "Feature"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "type": "FeatureCollection"
+}

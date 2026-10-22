@@ -1,0 +1,24 @@
+{
+  "bytes": 243295,
+  "capture_method": "http_response",
+  "content_redactions": [
+    {
+      "field": "modern_tribe_config.mapbox_key",
+      "original_response_sha256": "b0cec495e9f0a6a30b7191948b5e87f617a7395c6ab213da2a63d724590f6501",
+      "reason": "Embedded access token omitted from public-page archive; unrelated to infrastructure assertions.",
+      "replacement": "REDACTED_MAPBOX_TOKEN"
+    }
+  ],
+  "content_type": "text/html",
+  "final_url": "https://local.microsoft.com/communities/americas/greater-atlanta/",
+  "path": "data/raw/microsoft-enrichment/community-greater-atlanta.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/community-greater-atlanta.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "7a017e2bbc3e760f8524818781c18b21d82b13d2aa8dbc4b8c9826de330783f5",
+  "source_id": "community-greater-atlanta",
+  "source_published_at": null,
+  "source_updated_at": "2026-07-06",
+  "source_url": "https://local.microsoft.com/communities/americas/greater-atlanta/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

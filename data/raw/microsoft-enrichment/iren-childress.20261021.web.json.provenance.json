@@ -1,0 +1,16 @@
+{
+  "bytes": 6354,
+  "capture_method": "web_tool_response",
+  "content_type": "application/json",
+  "direct_http_status": 403,
+  "path": "data/raw/microsoft-enrichment/iren-childress.20261021.web.json",
+  "raw_source_ref": "data/raw/microsoft-enrichment/iren-childress.20261021.web.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "3f50b0d2b77af3607b8af4ac7994a9081168796e750d5b98b4f9aaa3a0c2e106",
+  "source_id": "iren-childress",
+  "source_published_at": "2025-11-03",
+  "source_updated_at": null,
+  "source_url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft",
+  "terms_note": "Retained web-reader extraction of the primary press release; not original HTTP HTML."
+}

@@ -1,0 +1,16 @@
+{
+  "bytes": 234399,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://ukstories.microsoft.com/features/building-the-foundations-of-the-uks-intelligence-economy/",
+  "path": "data/raw/microsoft-enrichment/microsoft-loughton.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/microsoft-loughton.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "00db4df5077f435470ea48fb64bdb02879798316b399cf97dd27b3e6e18104b3",
+  "source_id": "microsoft-loughton",
+  "source_published_at": null,
+  "source_updated_at": "2026-05-29",
+  "source_url": "https://ukstories.microsoft.com/features/building-the-foundations-of-the-uks-intelligence-economy/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

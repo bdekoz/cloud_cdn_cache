@@ -109,6 +109,7 @@ check:
 	python3 -B tests/validate_completion_enrichment.py
 	python3 -B tests/validate_apple_tv.py
 	python3 -B tests/validate_apple_aec_followup.py
+	python3 -B tests/validate_microsoft.py
 	git diff --check
 
 help:
@@ -120,3 +121,7 @@ help:
 	@echo "make refresh-network                Fetch prefix feeds/RIPEstat and rebuild the manifest"
 	@echo "make refresh-network-offline        Rebuild network layers from retained raw snapshots"
 	@echo "make check                          Run the validation suite"
+
+data/microsoft/provider-localities.%.csv: data/microsoft/provider-localities.%.geojson schema/geographic-footprint.schema.json scripts/geographic-footprint-to-csv.jq
+	@jq -r -f scripts/geographic-footprint-to-csv.jq "$<" > "$@.tmp"
+	@mv "$@.tmp" "$@"

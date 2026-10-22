@@ -29,6 +29,7 @@ RUSSIA_IMPLEMENTATION_TAG = "20261019"
 GEOGRAPHY_ENRICHMENT_TAG = "20261019"
 GULF_ENRICHMENT_TAG = "20261019"
 APPLE_TV_TAG = "20261019"
+MICROSOFT_TAG = "20261021"
 RUSSIA_LOCATION_LAYERS = (
     "yandex/regions-and-zones", "yandex/cdn-cities", "selectel/russian-hierarchy",
     "cloudru/advanced-regions-and-zones", "cloudru/evolution-zones", "ixcellerate/data-centers",
@@ -319,6 +320,10 @@ def main() -> None:
         gulf_layers = {"aws/regions-and-zones", "aws/cloudfront", "aws/local-zones", "oracle/cloud-regions"}
         layer_specs = [(layer, GULF_ENRICHMENT_TAG if layer in gulf_layers else snapshot_tag)
                        for layer, snapshot_tag in layer_specs]
+    if tag >= MICROSOFT_TAG:
+        refreshed = {"microsoft/front-door", "microsoft/front-door-codes", "microsoft/cloud-regions", "microsoft/china-cloud-regions"}
+        layer_specs = [(layer, MICROSOFT_TAG if layer in refreshed else snapshot_tag) for layer, snapshot_tag in layer_specs]
+        layer_specs.extend((layer, MICROSOFT_TAG) for layer in ("microsoft/global-network-pops", "microsoft/announced-cloud-regions", "microsoft/government-cloud-regions"))
     layers = [layer_manifest(layer, snapshot_tag) for layer, snapshot_tag in layer_specs]
     network_layers = []
     if tag >= NETWORK_TAG:
@@ -399,6 +404,8 @@ def main() -> None:
         assessments.append(assessment_manifest("apple/tv-delivery-review", APPLE_TV_TAG))
         assessments.append(assessment_manifest("apple/aec-review", APPLE_TV_TAG))
         assessments.append(assessment_manifest("apple/aec-followup", APPLE_TV_TAG))
+    if tag >= MICROSOFT_TAG:
+        assessments.append(assessment_manifest("microsoft/enrichment-review", MICROSOFT_TAG))
     quarantine_audit = REPO_ROOT / "data/quarantine/audit.20260804.json"
     infrastructure_sections = {}
     if tag >= INFRASTRUCTURE_TAG:
@@ -414,6 +421,8 @@ def main() -> None:
             infrastructure_layers.append(infrastructure_manifest("apple-tv-delivery", APPLE_TV_TAG))
             infrastructure_layers.append(infrastructure_manifest("apple-aec-hosts", APPLE_TV_TAG))
             infrastructure_layers.append(infrastructure_manifest("apple-aec-followup", APPLE_TV_TAG))
+        if tag >= MICROSOFT_TAG:
+            infrastructure_layers.append(infrastructure_manifest("microsoft-evidence", MICROSOFT_TAG))
         infrastructure_view = infrastructure_manifest("russia-connectivity", INFRASTRUCTURE_TAG)
         infrastructure_view["view_of"] = "infrastructure/connectivity"
         infrastructure_sections = {
@@ -468,6 +477,12 @@ def main() -> None:
         geographic_sections["geographic_footprint_views"].append(
             geographic_footprint_manifest(APPLE_TV_TAG, "apple/aec-localities"))
         geographic_sections["geographic_footprint_view_count"] = len(geographic_sections["geographic_footprint_views"])
+    if tag >= MICROSOFT_TAG:
+        geographic_sections["geographic_footprint_views"].append(geographic_footprint_manifest(MICROSOFT_TAG, "microsoft/provider-localities"))
+        geographic_sections["geographic_footprint_view_count"] = len(geographic_sections["geographic_footprint_views"])
+        bib = REPO_ROOT / f"data/references/bibliography.{MICROSOFT_TAG}.json"
+        bib_doc = REPO_ROOT / f"docs/bibliography.{MICROSOFT_TAG}.md"
+        geographic_sections["bibliography"] = {"files": {"json": {"path": repo_ref(bib), "sha256": sha256(bib)}, "markdown": {"path": repo_ref(bib_doc), "sha256": sha256(bib_doc)}}, "reference_count": json.loads(bib.read_text())["reference_count"]}
     write_json(output, {
         **infrastructure_sections,
         **comparison_sections,

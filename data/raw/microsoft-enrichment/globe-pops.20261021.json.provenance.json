@@ -1,0 +1,16 @@
+{
+  "bytes": 139821,
+  "capture_method": "http_response",
+  "content_type": "application/json",
+  "final_url": "https://datacenters.microsoft.com/wp-json/globe/pops",
+  "path": "data/raw/microsoft-enrichment/globe-pops.20261021.json",
+  "raw_source_ref": "data/raw/microsoft-enrichment/globe-pops.20261021.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "889d7fa515da27ad9e2c85c0b1733c4d9682f5a5ada2b62829436bd2e020ebce",
+  "source_id": "globe-pops",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://datacenters.microsoft.com/wp-json/globe/pops",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

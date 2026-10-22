@@ -1,0 +1,38 @@
+{
+  "coordinate_methods": {
+    "provider": 206
+  },
+  "coordinate_note": "Provider map points retain city or broad regional precision; neither street addresses nor Microsoft property ownership are established.",
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/global-network-pops.20261021.csv",
+      "path": "data/microsoft/global-network-pops.20261021.csv",
+      "source": "data/microsoft/global-network-pops.20261021.geojson"
+    }
+  },
+  "entity_types": {
+    "edge_pop": 206
+  },
+  "generated_files": [
+    "data/microsoft/global-network-pops.20261021.geojson"
+  ],
+  "geometry_null": 0,
+  "layer": "global-network-pops",
+  "lifecycle_statuses": {
+    "unknown": 206
+  },
+  "overlap_note": "The network map, Front Door metros, and abbreviation directory overlap and are not additive physical sites.",
+  "parser": "update_microsoft.py:global-network-pops",
+  "pop_types": {
+    "ai": 5,
+    "unspecified": 201
+  },
+  "raw_source_ref": "data/raw/microsoft-enrichment/globe-pops.20261021.json",
+  "record_count": 206,
+  "record_unit": "provider_published_network_pop_identifier",
+  "retrieved_at": "2026-10-21",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "889d7fa515da27ad9e2c85c0b1733c4d9682f5a5ada2b62829436bd2e020ebce",
+  "source_url": "https://datacenters.microsoft.com/wp-json/globe/pops"
+}

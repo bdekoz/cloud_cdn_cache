@@ -1,0 +1,16 @@
+{
+  "bytes": 74918,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://www.nscale.com/press-releases/nscale-microsoft-norway",
+  "path": "data/raw/microsoft-enrichment/nscale-narvik.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/nscale-narvik.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "2d419ef4cd6754f639122e8b3d3d6d877cf2a2d62c8ceeee12680eb86df4102c",
+  "source_id": "nscale-narvik",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://www.nscale.com/press-releases/nscale-microsoft-norway",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

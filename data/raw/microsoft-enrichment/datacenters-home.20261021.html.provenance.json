@@ -1,0 +1,16 @@
+{
+  "bytes": 219981,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://datacenters.microsoft.com/",
+  "path": "data/raw/microsoft-enrichment/datacenters-home.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/datacenters-home.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "b0ff88a8d03d9521a5c7352bf1877bb5ef740ed374d564ac35eaeff2c2f9fd4d",
+  "source_id": "datacenters-home",
+  "source_published_at": null,
+  "source_updated_at": "2026-10-12",
+  "source_url": "https://datacenters.microsoft.com/",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

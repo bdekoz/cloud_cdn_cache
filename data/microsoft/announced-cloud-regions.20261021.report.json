@@ -1,0 +1,34 @@
+{
+  "coordinate_methods": {
+    "unknown": 7
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/announced-cloud-regions.20261021.csv",
+      "path": "data/microsoft/announced-cloud-regions.20261021.csv",
+      "source": "data/microsoft/announced-cloud-regions.20261021.geojson"
+    }
+  },
+  "entity_types": {
+    "cloud_region": 7
+  },
+  "generated_files": [
+    "data/microsoft/announced-cloud-regions.20261021.geojson"
+  ],
+  "geometry_null": 7,
+  "layer": "announced-cloud-regions",
+  "lifecycle_statuses": {
+    "planned": 7
+  },
+  "not_additive_with_public_directory": true,
+  "parser": "update_microsoft.py:announced-cloud-regions",
+  "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+  "record_count": 7,
+  "record_unit": "announced_region",
+  "retrieved_at": "2026-10-21",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+  "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+  "unit_note": "Only unmatched named planned globe regions; internal globe IDs are not asserted Azure API names."
+}

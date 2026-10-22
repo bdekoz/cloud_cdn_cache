@@ -1,0 +1,16 @@
+{
+  "bytes": 58921,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation",
+  "path": "data/raw/microsoft-enrichment/frontdoor-codes.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/frontdoor-codes.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "4b052769b6166f59c26caac7ef1ef9b4f2a04377b9585b45f6811969e98418f0",
+  "source_id": "frontdoor-codes",
+  "source_published_at": null,
+  "source_updated_at": "2025-12-19",
+  "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

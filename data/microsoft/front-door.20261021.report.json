@@ -1,0 +1,49 @@
+{
+  "code_identifier_count": 130,
+  "code_table_row_count": 128,
+  "commercial_asset_count_from_table": 191,
+  "commercial_metro_count_from_table": 107,
+  "coordinate_methods": {
+    "legacy": 104,
+    "unknown": 6
+  },
+  "derived_files": {
+    "csv": {
+      "generator": "make data/microsoft/front-door.20261021.csv",
+      "path": "data/microsoft/front-door.20261021.csv",
+      "source": "data/microsoft/front-door.20261021.geojson"
+    }
+  },
+  "entity_types": {
+    "edge_pop": 110
+  },
+  "generated_files": [
+    "data/microsoft/front-door.20261021.geojson"
+  ],
+  "geometry_null": 6,
+  "government_asset_count_from_table": 3,
+  "government_metro_count_from_table": 3,
+  "layer": "front-door",
+  "lifecycle_statuses": {
+    "operational": 110
+  },
+  "page_claims": {
+    "commercial_asset_count": 192,
+    "commercial_metro_count": 109,
+    "government_asset_count": 4
+  },
+  "page_claims_source_note": "Headline claims and itemized sums are retained independently; they need not reconcile.",
+  "parser": "update_microsoft.py:front-door",
+  "pop_code_auxiliary_source": {
+    "raw_source_ref": "data/raw/microsoft-enrichment/frontdoor-codes.20261021.html",
+    "sha256": "4b052769b6166f59c26caac7ef1ef9b4f2a04377b9585b45f6811969e98418f0",
+    "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-abbreviation"
+  },
+  "raw_source_ref": "data/raw/microsoft-enrichment/frontdoor-locations.20261021.html",
+  "record_count": 110,
+  "retrieved_at": "2026-10-21",
+  "schema": "schema/location.schema.json",
+  "schema_version": "1.2.0",
+  "source_sha256": "fe0907c1c79618cb502d86eec04a0f0ea7ab526880d5c1cd478217ea712a0ce2",
+  "source_url": "https://learn.microsoft.com/en-us/azure/frontdoor/edge-locations-by-region"
+}

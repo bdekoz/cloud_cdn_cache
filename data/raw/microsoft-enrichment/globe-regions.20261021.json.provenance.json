@@ -1,0 +1,16 @@
+{
+  "bytes": 197234,
+  "capture_method": "http_response",
+  "content_type": "application/json",
+  "final_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+  "path": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+  "raw_source_ref": "data/raw/microsoft-enrichment/globe-regions.20261021.json",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "6f98fbf757065bad75c241c7183b93b0679c0caeaa2268812cdaa300fa90afe5",
+  "source_id": "globe-regions",
+  "source_published_at": null,
+  "source_updated_at": null,
+  "source_url": "https://datacenters.microsoft.com/wp-json/globe/regions",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}

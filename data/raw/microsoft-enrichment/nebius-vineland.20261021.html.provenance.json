@@ -1,0 +1,16 @@
+{
+  "bytes": 243657,
+  "capture_method": "http_response",
+  "content_type": "text/html",
+  "final_url": "https://nebius.com/blog/posts/digest-september-2025",
+  "path": "data/raw/microsoft-enrichment/nebius-vineland.20261021.html",
+  "raw_source_ref": "data/raw/microsoft-enrichment/nebius-vineland.20261021.html",
+  "result": "retrieved",
+  "retrieved_at": "2026-10-21",
+  "sha256": "f1ea9513635af29814d0713364fb03ad5f9ae2b285534071d8e0d924b1512772",
+  "source_id": "nebius-vineland",
+  "source_published_at": "2025-10-03",
+  "source_updated_at": null,
+  "source_url": "https://nebius.com/blog/posts/digest-september-2025",
+  "terms_note": "Public publisher disclosure; source-specific terms apply. No blanket relicensing of source pages."
+}
